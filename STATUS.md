@@ -7,36 +7,28 @@ Branch: `main`
 ## Critical chat-status rule
 
 The user has clarified the terse protocol:
-
-- **Do not say `Завершено.` merely because one work cycle finished.**
-- Until at least one game is fully specified and the canonical design reaches `DESIGN COMPLETE = YES`, every `го` cycle remains **`В процессе.`** in chat.
+- Do **not** say `Завершено.` merely because one work cycle finished.
+- Until at least one game is fully specified and the canonical design reaches `DESIGN COMPLETE = YES`, every cycle remains **`В процессе.`** in chat.
 - Intermediate milestones are recorded here in GitHub, not announced as project completion.
 
 ## Autonomous cadence
 
 - Hourly continuation requested by user: **ACTIVE**
-- Scheduled cadence: **once per hour**
-- First scheduled continuation: **2026-08-15 06:22 Asia/Baku**
-- Each run must resume from this file, perform one substantial bounded stage, save progress before ending, and update the exact next action.
-- Prefer stages materially larger than a trivial few-minute pass where the task supports it; do not inflate work artificially.
-- A run may complete an intermediate phase without using the chat word `Завершено.`
+- Each run resumes from this file, performs one substantial bounded stage, saves progress before ending, and updates the exact next action.
 - Goal condition: at least one game is fully specified, internally reviewed, implementation-ready, specification-frozen, and `DESIGN COMPLETE = YES`.
-- If the goal condition is already true, future design work must stop rather than inventing unnecessary scope.
+- If the goal condition becomes true, future design work stops rather than inventing unnecessary scope.
 
 ## Master state
 
 - Project initialized: **YES**
-- External opportunity research started: **YES**
+- External opportunity research complete enough for selection: **YES**
 - Broad opportunity discovery complete: **YES**
 - Candidate field generated: **YES — 30 distinct seeds**
-- Candidate shortlist prepared: **YES — 8 finalists + 2 reserves**
-- Concept tournament Round 1 complete: **YES**
-- Concept tournament Round 2 complete: **YES**
 - All 8 original finalists stress-tested: **YES**
-- Cross-round final comparison complete: **NO**
-- Concept tournament complete: **NO**
-- Final concept selected: **NO**
-- Product thesis locked: **NO**
+- Cross-round final comparison complete: **YES**
+- Concept tournament complete: **YES**
+- Final concept selected: **YES — C13 Organism Cargo**
+- Product thesis locked: **YES**
 - Mechanical architecture complete: **NO**
 - Content architecture complete: **NO**
 - UX architecture complete: **NO**
@@ -49,93 +41,75 @@ The user has clarified the terse protocol:
 - Implementation started: **NO**
 
 ## Current phase
-**Phase 2 — Concept tournament: cross-round final comparison**
+**Phase 4 — Mechanical Architecture**
 
-Phase 1 is complete. Both destructive finalist rounds are now complete. Detailed Round 1 tests live in `TOURNAMENT.md`; Round 2 lives in `TOURNAMENT_ROUND2.md` because the tournament record crossed the project's practical single-file readability threshold.
+Phase 2 is closed in `CROSS_ROUND_FINAL.md`. Phase 3 product thesis is now canonical in `GAME_BIBLE.md`.
+
+## Selected game
+
+### Codename
+**Organism Cargo**
+
+### Locked thesis
+A compact deterministic strategy/puzzle game where the player packs living cargo into a constrained transport hold, commits to launch, then watches organisms change state and interact through a short transit simulation. Success comes from predicting the future ecology, explaining cascades, and improving the initial arrangement — not from satisfying static packing rules.
+
+### Non-negotiable differentiation rule
+**The hold is not solved when the doors close.**
+
+Transit must create meaningful, deterministic, learnable state changes that alter relationships after commitment.
 
 ## Completed this cycle
 
-1. Activated the requested hourly autonomous continuation cadence with GitHub checkpointing.
-2. Ran targeted current-comparison research for C27 Creature Lab Triage, C13 Organism Cargo, C25 Disaster Dispatcher, and C23 Dream Cartographer.
-3. Found important current proximity for C27 from veterinary diagnosis simulators; C27 therefore survives only as fictional systemic biology, not a veterinary-clinic reskin.
-4. Found `Outpacked` (April 2026), a direct static grid-packing/adjacency puzzle comparison. This materially changed C13: dynamic transit-state changes are now mandatory, not optional flavor.
-5. Confirmed severe derivative risk for C25 from `911 Operator`, 2026 `Operator: Emergency Dispatcher`, and `DISPATCHED`; eliminated C25 despite mechanically strong cascade potential.
-6. Compared C23 against `Carto`, `Blue Prince`, and dream/hidden-logic territory. Preserved it only as a higher-risk cognitive outlier whose map must be an executable hypothesis, not a room-drafting or tile-rearrangement gimmick.
-7. Applied the full same 20-point destructive test to all four Round-2 finalists.
-8. Defined exact 30-second interactions, five-minute/session loops, hour-10 depth sources, data grammars, one-week grayboxes, tutorial/exploit/repetition/technical/art/market risks, demos, word-of-mouth moments, and kill conditions.
-9. Rescored Round 2 after risk exposure.
-10. Consolidated the full cross-round survivor field.
-
-## Round-2 results
-
-### ADVANCE
-1. **C13 — Organism Cargo — 4.64 / 5**
-   - must be a deterministic transit ecology, not static packing;
-   - strongest Round-2 clip/story potential.
-
-2. **C27 — Creature Lab Triage — 4.55 / 5**
-   - information strategy + emotional feedback;
-   - must escape veterinary-sim identity and exhaustive-testing play.
-
-3. **C23 — Dream Cartographer — 4.34 / 5 — HIGH RISK**
-   - survives to challenge the compact-workbench hypothesis;
-   - must prove predictive mapping is play rather than clerical documentation.
-
-### ELIMINATED
-4. **C25 — Disaster Dispatcher — 4.20 / 5**
-   - direct product/verb overlap with established and current dispatcher titles is too high;
-   - preserve incomplete information, specialist scarcity, commitment-before-certainty, and cascade graphs as reusable ingredients.
-
-## Full survivor field
-
-1. **C24 Inventory Reactor — 4.73**
-2. **C21 Machine Exorcist — 4.68**
-3. **C13 Organism Cargo — 4.64**
-4. **C12 Micro-Factory Troubleshooter — 4.58**
-5. **C27 Creature Lab Triage — 4.55**
-6. **C23 Dream Cartographer — 4.34 — high risk**
-
-Eliminated original finalists:
-- C03 Signal Operator
-- C25 Disaster Dispatcher
-
-Reserves remain unopened:
-- C30 Ruleforge
-- C10 Anomaly Warehouse
+1. Ran the full cross-round final matrix on C24, C21, C13, C12, C27, and C23, adding emotional desire, first-minute pleasure, teaching burden, prototype cost, demo strength, content scalability, market defensibility, implementation ambiguity, replay-depth confidence, and production ceiling.
+2. Performed theme-removal tests for all six candidates.
+3. Performed theme-replacement tests to separate robust mechanics from strong nouns/themes.
+4. Defined primitive graybox validation contracts and explicit pass/kill thresholds for every survivor.
+5. Eliminated C23, C27, and C12 from the product final.
+6. Compared C13, C21, and C24 pairwise.
+7. Selected **C13 Organism Cargo** as the strongest balance of systemic depth, emotional identity, market legibility, clipability, deterministic implementation, and manageable content production.
+8. Performed a fresh current-market comparison check and reinforced the requirement that C13 cannot become a static packing game.
+9. Created `CROSS_ROUND_FINAL.md` as the permanent Phase-2 closure record.
+10. Rewrote the canonical `GAME_BIBLE.md` product-thesis sections for Organism Cargo.
+11. Locked target player, genre, core fantasy, differentiator, five design pillars, anti-pillars, scope ceiling, out-of-scope list, core-loop hierarchy, failure philosophy, progression direction, procedural philosophy, commercial frame, and primitive validation boundary.
+12. Advanced the project into Phase 4 without starting production code.
 
 ## Important current conclusions
 
-- Across C24/C21/C13/C12/C27, the strongest recurring interaction rhythm is now explicit: **inspect → hypothesize → bounded setup/intervention → run deterministic consequences → explain → improve**.
-- Dynamic consequence simulation is more defensible than static adjacency/packing.
-- C21/C13/C27 have stronger emotional identity; C24/C12 are cleaner systems/scope bets.
-- C23 remains useful as an adversarial outlier but has higher teaching/generation/market-communication risk.
-- Current evidence does not justify reopening reserves.
-- No concept is selected yet; numerical scores are too close and measure different strengths.
-- The project remains **in progress** and still has most of the actual Game Bible work ahead.
+- C13 won narrowly over C21 and C24; the choice is not based on a single numerical score.
+- The mechanic survives with abstract tokens, while living-organism theming makes growth, feeding, panic, infection, sleep, symbiosis, and environmental response intuitive rather than arbitrary.
+- Dynamic transit is the market and mechanical moat. Static packing is an occupied and weaker design.
+- Simulation outcomes for a known state must be deterministic. Randomness may exist only outside authoritative transit resolution if later justified and clearly represented.
+- The game remains compact: one hold, reusable organisms/traits, short contracts, no ship exploration, no logistics empire, no creature-collection treadmill.
+- Failure is intended to be evidence: post-run causal explanation is part of the core loop.
+- Most of the actual design work remains ahead. `DESIGN COMPLETE` is still **NO**.
 
 ## NEXT ACTION
 
-**Run Phase 2 cross-round final tournament.**
+**Begin Phase 4 Mechanical Architecture — foundational simulation grammar.**
 
-On the next autonomous/manual run:
-1. compare C24, C21, C13, C12, C27, and C23 on a stricter final matrix adding emotional desire, first-minute pleasure, teaching burden, prototype cost, demo strength, content scalability, market defensibility, implementation ambiguity, replay-depth confidence, and production ceiling;
-2. apply theme-removal and theme-replacement tests to separate strong mechanics from merely strong nouns;
-3. define a tiny primitive graybox validation contract for each survivor;
-4. use explicit kill thresholds rather than averaging away fatal risks;
-5. eliminate down to 2–3 product candidates;
-6. compare those finalists pairwise and determine whether paper evidence is enough to select one;
-7. if one wins, lock it and begin Phase 3 Product Thesis; if a real prototype is genuinely necessary, write a minimal validation specification instead of starting production code;
-8. update `GAME_BIBLE.md` only when a concept is actually selected.
+On the next run:
+1. define the authoritative simulation clock/tick model and exact event ordering;
+2. choose the minimal environmental channel set and justify every channel;
+3. define organism entity structure: footprint, orientation, state, needs, outputs, thresholds, trait modules, and legal state transitions;
+4. define adjacency/range/line-of-effect rules;
+5. define growth/footprint-change behavior without freeform physics or ambiguous overlap;
+6. define interaction resolution when multiple organisms affect the same target on the same tick;
+7. define route hazards and hold-system effects at the same mechanical level;
+8. specify failure/success evaluation timing;
+9. create an initial trait grammar large enough to test combinatorial depth but small enough to remain teachable;
+10. attack universal strategies such as isolate-all, sedate-all, empty-space maximization, and universal buffer organisms;
+11. record formulas, invariants, edge cases, and examples directly into `GAME_BIBLE.md`;
+12. leave exact balance numbers as exposed tuning variables where evidence is not yet sufficient.
 
-Do not declare the project complete.
+Do not start production code. Do not declare the project complete.
 
 ## Recovery instruction for a new chat
 Read in this order:
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_BIBLE.md`
-4. `RESEARCH.md`
-5. `TOURNAMENT.md`
-6. `TOURNAMENT_ROUND2.md`
+4. `CROSS_ROUND_FINAL.md`
+5. `RESEARCH.md` only when market/reference evidence is needed
+6. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
 
 Ignore remembered chat state if it conflicts with the repository. Resume directly from `NEXT ACTION`.
