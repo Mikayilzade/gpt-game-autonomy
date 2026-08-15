@@ -1,541 +1,383 @@
-# GAME BIBLE
+# GAME BIBLE — ORGANISM CARGO
 
-Status: **CONCEPT SELECTED / PRODUCT THESIS LOCKED**
-Design complete: **NO**
+Status: **FINAL TOP-LEVEL CANONICAL SPECIFICATION / PHASE 11 RECONCILED**
+Design complete: **NO — cross-file contradiction sweep still in progress**
 Last updated: 2026-08-15
 
-This file is the canonical implementation-ready specification for the selected game. `CROSS_ROUND_FINAL.md` contains the selection evidence; this file contains only canonical game decisions and remaining design work.
+This file is the final top-level design contract for **Organism Cargo**. It contains no future-phase placeholders. Detailed implementation rules live in the domain documents listed under **Authority map**. If this file and a domain document appear to disagree, the more specific domain document wins only when it is explicitly marked canonical and does not conflict with a Phase-11 freeze item.
+
+## Authority map
+
+- `MECHANICS.md` — deterministic tick simulation, organism traits/states, channels, growth, support behavior, transit event ordering.
+- `DECISION_ARCHITECTURE.md` — contract rules, scoring, uncertainty, planning authority, Causal Review and player decision structure.
+- `PHASE4_CLOSURE.md` — mechanical closure evidence and exploit review.
+- `CONTENT_ARCHITECTURE.md` — launch roster, supports, holds, hazards, authored/generated content and validation.
+- `UX_ARCHITECTURE.md` — states, controls, HUD, onboarding, accessibility and presentation.
+- `ECONOMY_COMMERCIAL.md` — progression, medals, premium model, demo and commercial boundaries.
+- `TECHNICAL_SPEC.md` — runtime/data architecture, determinism, persistence, idempotency and test hooks.
+- `PHASE11_FREEZE.md` — exact campaign graph, demo migration, dynamic-transit quotas, support/species validation gates, edge semantics and unified acceptance index while final source-file fold-in is being completed.
+- `WHOLE_GAME_SIMULATION.md` and `ADVERSARIAL_REVIEW.md` — validation history; not independent authorities once their repairs are folded into canonical sources.
 
 ---
 
 # 1. Product thesis
 
-## Working title
-**Organism Cargo** — codename only. Commercial title is intentionally not locked yet.
+## Codename
+**Organism Cargo**. Commercial title remains intentionally implementation-flexible and may change without altering design.
 
 ## One-sentence hook
-**Pack living cargo into a tiny transport hold, launch it, then survive the deterministic chain reactions as the organisms grow, eat, sleep, infect, soothe, panic, and change one another during transit.**
+**Pack living cargo into a constrained transport hold, commit to launch, then watch a deterministic ecology evolve as organisms grow, feed, sleep, contaminate, soothe, panic, protect and alter one another during transit.**
 
-## Genre / subgenre
-Premium single-player **systemic puzzle / compact strategy simulation** with spatial setup, deterministic short-run simulation, causal diagnosis, and replayable contracts.
+## Genre
+Premium single-player systemic puzzle / compact strategy simulation for PC/Steam.
 
-It is **not** categorized internally as a packing game. Packing is the setup interface; prediction of a changing living system is the core game.
-
-## Target player
-Primary:
-- PC players who enjoy compact systems they can understand deeply;
-- puzzle/strategy players who enjoy forming hypotheses, testing them, and improving solutions;
-- players attracted to satisfying organization but who want consequences beyond static placement;
-- players who enjoy short emergent stories produced by simulation rather than long authored narrative.
-
-Secondary:
-- optimization/high-score players;
-- cozy-task players willing to accept moderate failure and experimentation;
-- viewers/streamers who can enjoy visible cascades even without understanding every rule.
-
-Not a primary target:
-- players seeking action combat, open-world exploration, large narrative campaigns, competitive multiplayer, or idle progression.
-
-## Primary platform
-PC / Steam first.
-
-## Secondary platforms
-No secondary platform is promised. Gamepad/Steam Deck viability should be preserved where inexpensive, but PC mouse-first interaction has design priority until UX architecture is complete.
+Packing is the setup interface, not the game identity. The actual game is prediction, commitment, causal observation and revision.
 
 ## Core fantasy
-**You are the specialist who can safely transport impossible living cargo because you understand how a hold full of strange organisms will evolve after the doors close.**
+The player is a specialist who can safely transport impossible organisms because they can predict how a tiny living system will change after the hold closes.
 
-The fantasy is not animal collection or pet ownership. It is competence: reading traits, planning an initial ecology, committing, watching the consequences unfold, understanding what happened, and making a smarter arrangement.
-
-## Why this game should exist
-The game combines several durable satisfactions without inheriting their largest production burdens:
-- spatial organization gives immediate physical clarity;
-- simulation turns placement into prediction instead of tidying;
-- living organisms make state changes intuitive and emotionally readable;
-- deterministic outcomes make failures learnable rather than arbitrary;
-- short transit runs create visible before/after transformation and shareable cascades;
-- modular traits allow many situations from a limited content vocabulary.
-
-The under-served experience is not “another packing puzzle.” It is **designing the starting conditions of a tiny living system, committing to it, and discovering whether your causal model was correct.**
-
-## Core differentiator
+## Non-negotiable differentiator
 **The hold is not solved when the doors close.**
 
-The arrangement is only time-zero. Transit changes organisms and therefore changes adjacency, environmental conditions, needs, hazards, and relationships. A challenge that can normally be solved as a static shape/adjacency checklist violates the product thesis.
+A normal contract must derive meaningful difficulty from post-launch state, footprint, environmental, support-power or relationship changes. Static packing logic may teach the first few concepts but cannot become the dominant launch experience.
 
 ## Design pillars
+1. **Predictable living cascades** — deterministic, learnable rules; no hidden outcome RNG for a known committed state.
+2. **Inspect → hypothesize → arrange → commit → simulate → explain → revise** — causal review is part of the core loop.
+3. **Small vocabulary, deep combinations** — reusable traits and channels generate depth instead of hundreds of bespoke creatures.
+4. **Alive at a glance** — important state changes are visually readable and have non-audio/non-color equivalents.
+5. **Compact competence fantasy** — one hold and one job stay deep; scope must not expand into ship, colony, logistics or creature-collection simulation.
 
-### Pillar 1 — Predictable living cascades
-Organisms must behave through learnable deterministic rules. Surprise should come from interaction complexity, not hidden dice.
-
-### Pillar 2 — Setup, commit, observe, explain, improve
-The signature rhythm is:
-**inspect → hypothesize → arrange/support → commit → simulate → explain → revise.**
-
-The post-run explanation is part of play, not merely a failure screen.
-
-### Pillar 3 — Small vocabulary, deep combinations
-A limited set of environmental channels, state transitions, and trait modules should recombine into many meaningful situations. New content should usually add a rule or interaction, not just a cosmetic variant.
-
-### Pillar 4 — Alive at a glance
-Every important state change must be readable through organism posture/animation/iconography, hold feedback, and causal overlays. The simulation must look alive even though its rules remain discrete.
-
-### Pillar 5 — Compact competence fantasy
-The game should make one small hold feel deep. It must resist pressure to become a ship simulator, colony game, creature collector, logistics empire, or open-world delivery game.
-
-## Explicit anti-pillars
-The game must not become:
-- a static packing / suitcase / shelf-organization puzzle;
-- an inventory autobattler;
-- a physics sandbox where outcomes are hard to reproduce;
-- a creature-collection treadmill requiring hundreds of bespoke species;
-- a pet-care simulator;
-- a generic logistics/company-management sim;
-- an open-world transport game;
-- a roguelite whose depth depends mainly on random upgrades;
-- a grind economy with permanent numerical power creep;
-- a trial-and-error game where causal explanation is optional;
-- a narrative game whose appeal depends on large dialogue volume.
+## Anti-pillars
+The game is not allowed to become a static sorting/packing puzzle, inventory autobattler, freeform physics sandbox, pet-care simulator, collection treadmill, logistics empire, open-world delivery game, multiplayer service, action combat game, grind economy, stat-power roguelite or lore-heavy dialogue game.
 
 ---
 
 # 2. Scope contract
 
-## Production philosophy
-- Systemic depth over huge handcrafted content volume.
-- Small number of strong player verbs over feature sprawl.
-- Recombination over one-off scripted content.
-- Readability over visual excess.
-- Strong feedback loops over decorative complexity.
-- A complete smaller game is preferred to an unfinished ambitious one.
+Launch is single-player and offline-capable. There is no mandatory backend, PvP, co-op, live-service progression, loot box, paid power, energy timer, first-person ship traversal, base building, breeding/genetics metagame or large dialogue tree.
 
-## Locked scope constraints
-- Single-player baseline and launch target.
-- No mandatory backend/live service.
-- Deterministic discrete simulation; no freeform creature physics as a core rule system.
-- One primary cargo-hold interaction space per contract.
-- Organisms are modular compositions of reusable body/trait/state systems rather than unique code per species.
-- Stylized presentation; no photorealism requirement.
-- No open world.
-- No direct real-time action combat.
-- No giant dialogue tree.
-- No multiplayer in the base design.
-- No monetization model that requires retention manipulation, ads, loot boxes, paid power, or energy timers.
+Gameplay authority is a **discrete deterministic tick simulation**. Visual animation may interpolate and dramatize outcomes but never determine them.
 
-## Scope ceiling
-A launch version should be achievable with:
-- a small family of cargo-hold layouts;
-- a bounded organism body-plan library;
-- reusable state animations/effects;
-- a data-driven trait grammar;
-- contract/route modifiers;
-- authored tutorial and milestone contracts plus validated generated/recombined challenges.
+The launch content ceiling is deliberately bounded:
+- **48 authored campaign contracts**, C01–C48;
+- **22 launch species maximum before empirical redundancy cuts**;
+- **6 support modules**, S01–S06;
+- bounded families of hold layouts and route hazards;
+- generated/recombined challenges only when a certified valid solution and dynamic-transit significance are known;
+- a public demo with **10 species total: 9 documented + 1 bounded-discovery species**.
 
-If the design begins requiring a large ship interior, explorable stations, crews, combat, hundreds of species, or bespoke animations per organism, scope has escaped and must be cut back.
-
-## Out of scope
-Explicitly out of scope unless a later adversarial review proves a tiny version essential:
-- multiplayer/co-op;
-- PvP;
-- first-person walking around the ship;
-- piloting/navigation gameplay;
-- trading-company simulation;
-- breeding/genetics metagame;
-- combat between player and creatures;
-- procedural open worlds;
-- base building;
-- romance/NPC relationship systems;
-- real-world animal medicine;
-- user-generated creature scripting at launch;
-- live-service seasons.
+A prototype may reduce the 22-species roster when redundancy tests fail. It may not add new trait grammar merely to preserve a target count.
 
 ---
 
-# 3. Core loop
+# 3. Player-facing loop
 
-## Immediate loop — seconds
-1. inspect organism/hold/route information;
-2. select an organism or support module;
-3. place, move, rotate, or inspect it;
-4. read direct known effects and space/environment implications;
-5. form or revise a prediction.
+## Immediate planning loop
+The player inspects the manifest, hold, route and known traits; selects cargo/supports; places, moves or rotates legal items; reads predicted relationships; and forms a causal hypothesis.
 
-The immediate reward is increased confidence in a planned living system, not a score popup for every placement.
+## Contract loop
+1. receive manifest, hold, route/hazard and objectives;
+2. inspect documented information and any explicit bounded uncertainty;
+3. arrange organisms and allowed supports;
+4. commit once to launch;
+5. run deterministic transit;
+6. observe state/footprint/environment/support changes and cascades;
+7. enter Causal Review;
+8. identify the earliest actionable causes of success/failure;
+9. revise the initial plan and retry when needed;
+10. earn Bronze for mandatory delivery success, with Silver/Gold for optional mastery conditions.
 
-## Contract loop — roughly 3–8 minutes
-1. receive manifest, hold, route, hazards, and objectives;
-2. inspect known organism traits/states;
-3. arrange organisms and optional support modules;
-4. commit to launch;
-5. run a short deterministic transit simulation;
-6. watch state transitions and cascades;
-7. receive success/failure plus a causal timeline;
-8. if needed, change the initial setup with a specific hypothesis and rerun;
-9. finish when mandatory delivery conditions are met;
-10. receive rating based on contract-specific optional goals.
+A failed run is evidence, not punishment. Retry preserves the same committed inputs unless the player changes them.
 
-## Session loop — roughly 25–45 minutes
-A normal session contains several contracts with a deliberate learning arc:
-- one familiar contract to re-enter the rule set;
-- one or more contracts combining known traits differently;
-- introduction or deeper use of one rule family, route hazard, hold geometry, or support option;
-- one higher-complexity contract or optional challenge;
-- unlock of knowledge/content rather than raw numerical power.
+## Session loop
+Normal sessions are several short contracts, usually 25–45 minutes total, with clean stopping points between contracts. Learning alternates familiar recombination, one new rule relationship and a higher-complexity case rather than introducing several unrelated mechanics at once.
 
-The player can stop cleanly between contracts.
-
-## Progression loop — hours
-Progression expands the possibility space through:
-- newly documented organism traits;
-- new organism compositions/body plans;
-- additional hold geometries;
-- route hazards/environmental conditions;
-- support modules;
-- advanced contract modifiers;
-- optional efficiency/welfare/constraint objectives;
-- harder combinations of already understood rules.
-
-Permanent progression should primarily unlock **knowledge and new decisions**, not make the player statistically stronger.
-
-## Replay / long-tail loop
-Replayability should come from:
-- recombined manifests;
-- seeded deterministic challenges;
-- alternative valid layouts;
-- score/medal optimization;
-- optional restrictive objectives;
-- daily/weekly-style seeds only if they can function without a live backend dependency;
-- mastery challenges that use known rules in unfamiliar combinations.
-
-No endless mode is required for design completion. It may be evaluated later if it reuses the same validated systems cheaply.
-
-## Failure philosophy
-Failure is evidence, not punishment.
-
-A failed transit should answer:
-- what changed first;
-- which rule caused it;
-- how it propagated;
-- which delivery condition failed;
-- what remained successful;
-- what the player can plausibly change next.
-
-The player should normally be able to retry the same deterministic contract immediately with the same initial conditions and seed.
+## Long-term loop
+Progression unlocks knowledge, new combinations, species, holds, hazards, supports and challenge families. It does **not** grant permanent numerical power. Previously learned species remain relevant through recombination.
 
 ---
 
-# 4. Player verbs
+# 4. Player verbs and control contract
 
-Current locked high-level verbs:
-- inspect;
-- select;
-- place;
-- move;
-- rotate where an organism/module supports orientation;
-- equip/place a support module;
-- review known traits and route conditions;
+Canonical verbs are:
+- inspect/select;
+- place/move;
+- rotate when orientation is defined;
+- place/configure an allowed support;
+- inspect trait/state/route overlays;
+- reset planning state;
 - commit/launch;
-- pause/scrub/review completed transit causality after a run;
-- retry/reset contract setup;
-- compare result against objectives.
+- pause transit where allowed;
+- review/scrub completed transit and causal ancestry;
+- retry the same contract;
+- compare mandatory and optional objectives.
 
-Exact controls, costs, legal targets, edge cases, and interaction rules remain Phase 4 work.
-
----
-
-# 5. Game state model
-
-TBD in Phase 4/6.
-
-Must eventually identify all major states, including:
-- boot;
-- main menu;
-- new game;
-- contract selection;
-- pre-transit planning;
-- transit simulation;
-- post-run causal review;
-- contract success;
-- recoverable contract failure;
-- progression/unlock state;
-- paused;
-- settings;
-- save/load;
-- campaign/end state if used.
-
-Transitions must be deterministic and specified.
+All required gameplay paths must support **mouse+keyboard, keyboard-only, controller-only and Steam Deck/1280×800**. Input remapping is mandatory for gameplay actions. No game-critical state may require audio, color discrimination, fine-pointer precision or rapid repeated input.
 
 ---
 
-# 6. Challenge and decision architecture
+# 5. Game-state contract
 
-TBD in Phase 4.
+Major runtime states are:
+`BOOT → MAIN_MENU → PROFILE/NEW_GAME → CONTRACT_SELECT → PLANNING → LAUNCH_COMMIT → TRANSIT → RESULTS/CAUSAL_REVIEW → CONTRACT_SELECT`.
 
-Locked direction:
-- pressure comes primarily from spatial limits, organism interactions, route hazards, optional efficiency/welfare goals, and commitment before seeing the full cascade;
-- luck must not decide transit outcomes for a known initial state;
-- later challenges may include incomplete knowledge about newly encountered traits, but uncertainty must be explicit and learnable;
-- dominant solutions such as isolate everything, sedate everything, maximize empty space, or use one universal buffer organism must be structurally countered;
-- difficulty grows by combining rules and temporal state changes, not merely increasing organism count.
+`PAUSED`, `SETTINGS`, `CODEX`, `SAVE_RECOVERY` and confirmation modals are explicit substates/overlays and may not mutate simulation authority accidentally.
 
----
+Launch is an exactly-once authoritative transition. Results/progression application is idempotent. Reopening Results, reloading, cloud reconciliation or repeated UI actions must not award completion twice.
 
-# 7. Resources / economy
-
-TBD in Phase 4/7.
-
-Potential resources such as hold power, support slots, contract budget, welfare condition, or consumable support materials must justify themselves through decisions. No generic money/resource layer is mandatory merely because the game has contracts.
+Transit resumption reconstructs deterministically from committed input/seed/version/checksum data. A platform-specific partial runtime object is never the sole source of truth.
 
 ---
 
-# 8. Progression
+# 6. Core mechanical architecture
 
-TBD in Phase 4/7.
+Detailed event order and formulas are in `MECHANICS.md`. Top-level invariants are frozen here:
 
-Locked principles:
-- knowledge progression > stat progression;
-- unlock new relationships/rules rather than +10% bonuses;
-- old organisms/rules should remain relevant in new combinations;
-- no grind gate should be required to reach core content.
+- Known initial state + committed content/rules version + seed always produces the same authoritative transit result.
+- Brownout/power availability is resolved before same-tick powered-support effects; a support disabled by Brownout has no same-tick mitigation authority.
+- Simultaneous material causes preserve multi-parent causal ancestry even if the UI shows one display-first branch.
+- Repeated illegal growth against an unchanged obstruction creates one blocked-growth episode consequence, not repeated every-tick punishment. A new consequence requires a relevant condition/retry boundary change.
+- Sleep disables only traits explicitly gated by sleep state; passive emissions never disappear merely because an organism looks asleep.
+- Every reactive-pulse trait has a finite trigger guard: once per run, once per episode or explicit maximum triggers. Unlimited positive self-trigger loops are invalid content.
+- Continuous physics and presentation interpolation cannot alter occupancy, event order, thresholds or outcome authority.
+
+---
+
+# 7. Decision and difficulty architecture
+
+Pressure comes from constrained topology, changing footprints, environmental channels, support power/fixtures, route hazards, organism state timing, incomplete-but-explicit discovery information and optional mastery objectives.
+
+Difficulty rises by combining known rules temporally, not mainly by adding more creatures or inflating numbers.
+
+The design must structurally resist universal strategies:
+- maximize empty space;
+- isolate every organism;
+- use Cooler+Filter by default;
+- rely on one universal soother/protector;
+- reserve the same growth corner every contract;
+- brute-force by blind shuffle without causal understanding.
+
+At least C05–C48 contain a decision-relevant post-launch change. At least 20 of C09–C48 require Bronze planning around two or more temporally separated changes. Later chapters include authored cases where maximum spacing, permanent growth reserves, common supports or common protectors are inferior for rule-driven reasons.
+
+---
+
+# 8. Campaign and progression
+
+The campaign contains exactly **48 nodes** in six eight-contract chapters. The exact prerequisite graph is frozen in `PHASE11_FREEZE.md` and must be copied into implementation data without reinterpretation.
+
+Campaign progression uses **Bronze completion only**. Silver/Gold, challenges, achievements, money, XP, retry count, online activity and knowledge flags are never campaign prerequisites.
+
+Chapter capstones are C08, C16, C24, C32, C40 and C48. Branches provide choice but converge before capstones so required teaching lanes cannot be skipped.
+
+Challenge mode unlocks only through its canonical full-game progression gate. Imported demo knowledge does not unlock it early.
 
 ---
 
 # 9. Content architecture
 
-TBD in Phase 5.
+Launch organism roster is a maximum of 22 species O01–O22, defined in `CONTENT_ARCHITECTURE.md` and tested against the unique-decision/readability matrix in `PHASE11_FREEZE.md`.
 
-Canonical content families expected:
-- organism body plans;
-- organism trait modules;
-- organism states/state transitions;
-- environmental channels;
-- hold geometries;
-- support modules;
-- route hazards/modifiers;
-- manifests/contracts;
-- mandatory delivery conditions;
-- optional scoring objectives;
-- tutorial/milestone contracts;
-- cosmetic/flavor variants only where inexpensive.
+Mandatory empirical redundancy clusters are:
+- O06 / O12 / O16;
+- O05 / O19 / O20.
 
-For each family define minimum viable count, launch target count, data fields, generation rules, dependencies, and reuse rules.
+If two members of a cluster drive the same preferred placement/support/revision decision in at least 70% of a representative validation set, the less readable species is cut or merged.
 
----
+Supports are exactly:
+- S01 Cooler;
+- S02 Filter;
+- S03 Baffle;
+- S04 Nest Pad;
+- S05 Feed Cartridge;
+- S06 Monitor Beacon.
 
-# 10. Procedural / systemic generation
+No support is designed for equal usage; the requirement is non-dominance. Each has authored preferred cases, legal-but-inferior cases and alternative Bronze families. Across C17–C48, Cooler+Filter may be the certified primary Bronze pair in at most 8 contracts.
 
-TBD in Phase 5/8.
-
-Locked generation philosophy:
-1. define a deterministic organism/hold/route state;
-2. generate or select a candidate manifest and constraints;
-3. simulate candidate starting arrangements or construct from a known-valid arrangement;
-4. prove at least one valid solution under the allowed content set;
-5. reject degenerate cases solved without meaningful transit-state change;
-6. reject cases whose causality is too opaque to explain;
-7. persist seed/version information for reproducibility.
-
-Procedural generation must create meaningful situations, not random layouts.
+Generated challenges are rejected unless they have a certified valid solution, meaningful post-launch change, bounded causal opacity and adequate distance from recent challenge fingerprints.
 
 ---
 
-# 11. Narrative / world / tone
+# 10. Causal Review
 
-TBD in Phase 5.
+Causal Review is a mandatory core feature, not optional analytics.
 
-Locked boundary: narrative supports the competence fantasy and gives contracts flavor, but the game must remain understandable and enjoyable with flavor text skipped. No large dialogue dependency.
+It must let a player quickly answer:
+- what meaningful event changed first;
+- which trait, support, hazard or state transition caused it;
+- which later events descended from it;
+- which objective eventually failed or succeeded;
+- what initial decision could plausibly be revised.
 
----
+Stored causal graphs preserve all material roots. UI may compress branches for readability but never fabricate a single cause when the simulation stored multiple material causes.
 
-# 12. Art direction
-
-TBD in Phase 6.
-
-Locked production boundary:
-- stylized readable organisms;
-- few reusable body silhouettes/body plans;
-- layered patterns/accessories/state effects;
-- reusable state animations such as calm, stressed, feeding, sleeping, infected/contaminated, growing, emitting, and recovering;
-- visual clarity takes priority over biological realism.
+Raw event logs may exist for debugging but are not the intended player explanation interface.
 
 ---
 
-# 13. Audio direction
+# 11. Scoring and economy
 
-TBD in Phase 6.
+Bronze means all mandatory delivery conditions passed. Silver and Gold are optional mastery layers and never block campaign progression.
 
-Audio must reinforce state changes and causality but every gameplay-critical fact needs a non-audio cue as well.
+The design has no generic money grind, consumable monetization or permanent stat-upgrade economy. Supports are contract/loadout decisions rather than long-term power purchases.
 
----
-
-# 14. Camera and controls
-
-TBD in Phase 6.
-
-Mouse-first PC interaction is the current baseline. Free camera movement is not assumed; the whole hold should remain readable with minimal navigation friction.
+Optional mastery can reward efficiency, welfare, constraint satisfaction, lower support dependence or other contract-specific goals only when the objective is explicit before launch.
 
 ---
 
-# 15. HUD / menus / UX
+# 12. Narrative and tone
 
-TBD in Phase 6.
+Narrative is light, systemic and subordinate to play. Contract flavor explains why strange organisms need transport and gives the world specificity, but all gameplay remains understandable when flavor text is skipped.
 
-Key UX obligation already locked: the player must be able to distinguish current direct effects, known conditional effects, actual transit events, and post-run causal explanation without the screen becoming a dependency graph spreadsheet.
-
----
-
-# 16. Onboarding and learning
-
-TBD in Phase 6.
-
-Locked teaching principle: early organisms have one clear trait each; composite organisms and multi-stage state changes are introduced only after the player can predict the base vocabulary.
+Tone is curious, slightly strange and competent rather than cruel, graphic or medical-realistic. Organisms can be stressed or fail delivery conditions without turning the game into suffering spectacle.
 
 ---
 
-# 17. Difficulty and accessibility
+# 13. Visual, audio and presentation contract
 
-TBD in Phase 6.
+Presentation is stylized and readable. A small reusable body-plan/animation vocabulary communicates calm/stress, feeding, sleeping, contamination, growth, emission, protection, recovery and other mechanically relevant states.
 
-At minimum the final design must provide color-independent information, scalable text/UI, input remapping where practical, reduced flashing/intensity options, and non-audio duplicates for gameplay information.
+Every gameplay-critical cue has:
+- a non-audio equivalent;
+- a non-color-only representation;
+- reduced-motion compatibility;
+- reduced-flash compatibility.
 
----
-
-# 18. Save / persistence specification
-
-TBD in Phase 8.
-
-Deterministic contract seeds and content-definition versions must be persisted wherever required to reproduce an in-progress or completed challenge accurately.
+The hold remains legible at 1280×720, Steam Deck 1280×800 and maximum supported UI scale without hiding mandatory controls or objective information.
 
 ---
 
-# 19. Balance model
+# 14. Onboarding and knowledge
 
-TBD in Phase 4/7.
+Early contracts isolate one core relationship at a time. C01–C04 may be near-static onboarding exceptions; by C05 the game must demonstrate that post-launch change matters.
 
-Major tuning dimensions will include at least:
-- hold size/shape;
-- organism count and footprint;
-- route tick count;
-- state-transition timing;
-- environmental production/consumption rates;
-- interaction ranges;
-- support-module capacity/power/space;
-- mandatory delivery thresholds;
-- optional scoring constraints;
-- retry/knowledge availability.
+The Codex distinguishes documented knowledge, bounded-discovery information and run-observed evidence. Unknown behavior is never arbitrary: discovery content has explicit information bounds and must support conservative successful planning without requiring the Monitor Beacon.
+
+Demo import may transfer documented knowledge but never grants mechanical power or skips later full-game teaching nodes beyond the explicit C01–C08 mapping.
 
 ---
 
-# 20. Commercial / store strategy
+# 15. Demo contract
 
-Current locked commercial frame:
-- premium PC game first;
-- no paid power, loot boxes, ad dependency, or manipulative retention systems;
-- a downloadable Steam demo is strongly favored because the hook is mechanical and can be proven in a small content slice;
-- store/trailer language must emphasize **living cargo changing during transit**, never merely “satisfying packing.”
+The public demo contains:
+- 10 species = **9 documented + 1 bounded discovery**;
+- Cooler, Filter, Baffle and Feed Cartridge;
+- 3 hold layouts from two families;
+- 3 hazard families;
+- 10 authored contracts;
+- 3 generated/recombined challenge templates;
+- exactly 1 discovery contract;
+- roughly 60–90 minutes normal first-clear content.
 
-Demo, pricing, tags, capsule, trailer structure, and release strategy remain Phase 7 work.
+D01–D08 may map to C01–C08 completion in the full game. D09–D10 never auto-clear C09+. Settings and knowledge transfer; no demo completion grants mechanical power. Imported knowledge cannot unlock Challenge mode early.
 
----
-
-# 21. Technical architecture
-
-TBD after mechanics stabilize.
-
-Locked direction: discrete deterministic tick-based simulation with data-defined organisms/traits/contracts is preferred. Continuous physics must not become authoritative for gameplay outcomes.
-
-Must eventually specify:
-- engine/runtime choice;
-- major modules/scenes/states;
-- data-driven content model;
-- entity/component boundaries if relevant;
-- event/message flow;
-- input abstraction;
-- save serialization;
-- procedural seed handling;
-- deterministic ordering rules;
-- performance budget assumptions;
-- target resolution/aspect behavior;
-- localization readiness;
-- debug/cheat tools required for testing.
+By demo contract 3 at the latest, a visible post-launch state change changes a relationship or risk. At least 5 of 10 authored demo contracts make post-launch timing/state change relevant to Bronze success.
 
 ---
 
-# 22. QA and acceptance tests
+# 16. Persistence and recovery
 
-TBD.
-
-The final Bible must include testable statements for each major system, including:
-- happy path;
-- invalid input;
-- boundary values;
-- repeated actions;
-- interruption;
-- save/reload;
-- quit/relaunch;
-- progression extremes;
-- unusual ordering of actions;
-- deterministic replay;
-- performance stress;
-- corrupted/legacy data where relevant.
+Canonical save behavior is detailed in `TECHNICAL_SPEC.md` and frozen by Phase 11:
+- launch commit is exactly-once;
+- Results/progression application is idempotent;
+- committed transit input stores seed, content/rules versions and checksums required for reconstruction;
+- corrupt primary save attempts validated backup recovery;
+- double corruption enters explicit recovery/new-profile flow rather than silently inventing progress;
+- migration failure preserves recoverable source data and reports failure;
+- cloud/local divergence uses explicit deterministic reconciliation rules, not newest-file-wins blindly;
+- legacy rules/content versions are either reconstructable through retained compatibility data or the affected in-progress transit is safely invalidated with an explicit restart path;
+- demo migration is versioned and applies only documented mappings.
 
 ---
 
-# 23. Vertical slice definition
+# 17. Commercial model
 
-TBD after mechanical architecture.
+Premium PC/Steam release. No ads, paid power, loot boxes, energy timers or manipulative daily-streak dependency.
 
-The slice must prove dynamic transit, not just attractive packing.
+A downloadable Steam demo is part of the launch strategy because the hook is mechanical and testable in a small slice.
 
-Current primitive validation contract from the final tournament:
-- 5x5 grid/hold;
-- 8–10 organism tokens;
-- 10 modular traits;
-- heat, stress, contamination;
-- growth and feeding;
-- 12 deterministic ticks;
-- causal event log;
-- 12 known-solvable manifests;
-- placeholder icons/colors only.
+Store/trailer messaging must emphasize **living cargo changing after commitment**, not generic satisfying packing. The strongest 10-second marketing beat is a clear plan visibly turning into a learnable cascade, followed by a targeted revision that fixes it.
 
-Primitive pass threshold:
-- players can explain failed cascades and propose specific revisions;
-- at least half of interesting failures depend on a state change after launch rather than static adjacency.
-
-Primitive kill threshold:
-- static inspection solves most cases; or
-- transit is only spectacle and is not used as evidence.
-
-This is a later validation specification, not permission to begin production before `DESIGN COMPLETE = YES`.
+Commercial title, final price, capsule art and release date are intentionally business-flexible and do not block design freeze.
 
 ---
 
-# 24. Release completeness definition
+# 18. Technical implementation contract
 
-TBD.
+Implementation uses a data-driven deterministic simulation with explicit content IDs and versioning. Required technical properties:
+- stable event ordering;
+- integer/fixed deterministic authority where floating-point divergence could matter;
+- authoritative grid/slot occupancy separate from visual transforms;
+- trait/state/support definitions in validated data;
+- reproducible contract seeds;
+- solver/generator validation hooks;
+- causal-event ancestry persisted or reconstructable for Results;
+- test harness able to run the same committed case repeatedly and compare authoritative hashes;
+- save schema versioning and migration tests;
+- input abstraction for mouse/keyboard, keyboard-only, controller and Deck;
+- no game logic tied to framerate or animation completion.
 
-Must eventually distinguish:
-- prototype complete;
-- vertical slice complete;
-- alpha;
-- beta/content lock;
-- release candidate;
-- launch-ready.
+Engine choice is an implementation decision only if it satisfies these contracts without changing gameplay semantics.
 
 ---
 
-# 25. Open design questions
+# 19. Unified acceptance gate
 
-Concept-selection questions are closed. Current highest-priority unanswered questions are now mechanical:
-1. What exact organism trait grammar produces maximum depth with minimum vocabulary?
-2. What is the authoritative tick/event ordering model?
-3. Which environmental channels are essential and which are redundant?
-4. How exactly can organisms grow/change footprint without creating unreadable state?
-5. What information is shown pre-launch versus only learned through play?
-6. What support modules create genuine trade-offs without becoming universal fixes?
-7. What constitutes delivery success, partial success, failure, welfare, and optimization?
-8. How are contracts generated/validated without brute-force solver cost exploding?
-9. How does the causal timeline remain readable when many events occur on the same tick?
-10. How many rules/organisms are needed for hour-10 depth without a content treadmill?
+The full acceptance index is maintained in `PHASE11_FREEZE.md`. Design/implementation is not acceptable unless automated or scripted tests cover at minimum:
+- deterministic replay/hash equality;
+- event ordering and simultaneous-cause ancestry;
+- Brownout same-tick authority;
+- blocked-growth episode semantics;
+- finite reactive triggers/no infinite resource loops;
+- campaign graph validity and Bronze-only prerequisites;
+- demo migration boundaries;
+- support non-dominance content coverage;
+- species redundancy gates;
+- generated-challenge certified solvability and dynamic significance;
+- exactly-once launch and idempotent Results;
+- save corruption/backup/migration/cloud divergence/legacy behavior;
+- keyboard-only, controller-only, Deck, 1280×720, maximum UI scale, remapped controls, no-audio, non-color, reduced-motion and reduced-flash paths.
 
-These are the entry questions for Phase 4 Mechanical Architecture.
+---
+
+# 20. Prototype-dependent empirical gates
+
+These are deliberate validation obligations, not undefined design:
+1. after representative failures, at least 70% of validation cases should let players state a specific causal explanation and intended revision rather than blind shuffle;
+2. at least half of memorable/interesting validation outcomes should depend on post-launch state change;
+3. after rule familiarity, ordinary non-mastery planning should not settle above an 8-minute median first-launch analysis time;
+4. helper/protector redundancy clusters must feel decision-distinct or be cut/merged;
+5. demo testers should predominantly describe the game as planning for what creatures do during transit, not static packing;
+6. Causal Review must surface an actionable first cause quickly without requiring raw-log reading.
+
+Failure of these gates triggers redesign/cuts inside the frozen scope, not automatic feature expansion.
+
+---
+
+# 21. Vertical slice contract
+
+The first implementation slice exists to falsify the thesis cheaply. It must include:
+- one compact hold;
+- a small representative organism subset including at least one post-launch footprint change, one environmental source/sink relationship and one social/protection interaction;
+- at least one powered support and one living substitute/alternative;
+- deterministic transit with enough ticks for two temporally separated changes;
+- commit → transit → Causal Review → revise → retry;
+- saved/reloaded committed state reconstruction;
+- keyboard/mouse and controller-complete critical path;
+- debug timeline/hash output;
+- at least three authored cases, one intentionally static tutorial and two genuinely dynamic cases.
+
+The slice fails even when technically functional if testers solve mainly by static spacing, cannot explain failures, or do not perceive the transit phase as the reason the game is interesting.
+
+---
+
+# 22. Definition of design completion
+
+`DESIGN COMPLETE = YES` may be set only when:
+- all domain documents are reconciled with this file and `PHASE11_FREEZE.md`;
+- no stale TBD/old-phase/obsolete demo/control/progression wording remains in canonical sources;
+- the contradiction sweep finds no competing authority for a gameplay rule;
+- every programmer-facing gameplay question has an explicit answer or a clearly harmless implementation-flexible boundary;
+- prototype-dependent empirical gates are clearly marked as validation gates rather than unresolved design.
+
+Until that repository-wide reconciliation succeeds, the project remains **in progress** and production implementation remains blocked.
