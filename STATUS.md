@@ -8,7 +8,10 @@ Branch: `main`
 
 - Project initialized: **YES**
 - External opportunity research started: **YES**
-- Candidate field generated: **YES — first-pass only**
+- Broad opportunity discovery complete: **YES**
+- Candidate field generated: **YES — 30 distinct seeds**
+- Candidate shortlist prepared: **YES — 8 finalists + 2 reserves**
+- Concept tournament complete: **NO**
 - Final concept selected: **NO**
 - Product thesis locked: **NO**
 - Mechanical architecture complete: **NO**
@@ -21,42 +24,57 @@ Branch: `main`
 - Implementation started: **NO**
 
 ## Current phase
-**Phase 1 — Opportunity discovery**
+**Phase 2 — Concept tournament**
 
-Phase 0 foundation is complete enough to continue autonomously.
+Phase 1 is complete enough to stop idea generation by default. Further concepts should be added only if new evidence exposes a missing design territory.
 
 ## Completed this cycle
 
-1. Established the repository as the sole persistent source of truth.
-2. Added new-chat continuation rules and terse `го` protocol.
-3. Defined the full design-to-implementation phase map and design-complete gate.
-4. Established initial project constraints: PC/Steam-first, system-heavy, low-to-moderate asset burden, single-player baseline, replayability preferred over huge authored-content burden.
-5. Performed an initial August 2026 market/reference scan.
-6. Recorded early signals around puzzle growth, system-heavy/cozy task satisfaction, creator/friend-group appeal, multiplayer/depth correlations, Steam saturation, and rapidly cloning microgenres.
-7. Generated a first candidate field and a preliminary scoring framework in `RESEARCH.md`.
-8. Created the canonical `GAME_BIBLE.md` skeleton without prematurely locking a game concept.
+1. Performed a broader current/durable indie reference scan covering compact desk/workspace games, systemic hits, small-team projects, task simulators, investigation games, inventory/adjacency systems, and current saturation signals.
+2. Added lessons from *Papers, Please*, *Strange Horticulture*, *Buckshot Roulette*, *Rusty's Retirement*, *Backpack Battles*, *The Roottrees are Dead*, *Potion Craft*, *ReStory*, and current 2026 Steam trend coverage.
+3. Added current caution around AI-assisted production: player perception can punish games that look cheaply generated even when AI lowers production cost.
+4. Expanded the candidate field from 18 to **30 distinct concepts**.
+5. Corrected and standardized weighted scoring across the field.
+6. Merged overlapping concepts instead of preserving artificial variety.
+7. Eliminated concepts with excessive derivative risk, content burden, technical/state-space risk, weak visual readability, or poor emotional identity.
+8. Prepared the Phase 2 finalist set and explicit stress-test protocol in `RESEARCH.md`.
+
+## Phase 2 finalists
+
+1. **C24 — Inventory Reactor**
+2. **C03 — Signal Operator** (absorbs the strongest C28 Impossible Switchboard ideas)
+3. **C21 — Machine Exorcist** (fusion of the strongest C01/C02 ideas)
+4. **C12 — Micro-Factory Troubleshooter**
+5. **C27 — Creature Lab Triage**
+6. **C13 — Organism Cargo**
+7. **C25 — Disaster Dispatcher**
+8. **C23 — Dream Cartographer**
+
+### Reserves
+- **C30 — Ruleforge**
+- **C10 — Anomaly Warehouse**
 
 ## Important current conclusions
 
-- Do **not** choose the game solely because a genre is currently hot.
-- The project should seek a concept with a clear visual/verb hook, systemic depth, and manageable production burden.
-- Current evidence makes pure trend clones especially dangerous: successful microgenres can become crowded within months.
-- Multiplayer has distribution upside in some datasets, but the project currently treats it as a high-cost modifier rather than a default requirement.
-- Puzzle / organization / repair / inspection / transformation mechanics deserve investigation because they combine readable actions with potential for systemic depth, but the obvious 2026 sorting-sim clone route is already too crowded.
+- Current Steam oversupply makes generic competence insufficient; the concept must be visually and verbally legible almost instantly.
+- The strongest territory remains a compact workspace/job with reusable interacting rules, but this is still a hypothesis rather than a locked product thesis.
+- Strong current task-sim demand should be translated into diagnosis/transformation/optimization rather than copied as sorting, retail, or ordinary repair.
+- High raw scoring is not enough. Phase 2 must test emotional pull, repetition, tutorial burden, derivative perception, demo viability, prototype feel, and technical risk.
+- Idea generation now has diminishing returns. The project should spend the next cycles destroying weak finalists rather than accumulating more pitches.
 
 ## NEXT ACTION
 
-**Continue Phase 1 with a much broader opportunity search and candidate tournament preparation.**
+**Begin Phase 2 — Concept tournament, round 1.**
 
 On the next `го`:
-1. research additional durable and current reference games across Steam/itch/indie coverage, including successful small-team titles and notable failures/saturated patterns;
-2. expand the candidate field well beyond the initial ideas (target roughly 20–30 distinct core concepts, not cosmetic variants);
-3. score them using the framework in `RESEARCH.md`;
-4. eliminate clearly weak, derivative, asset-heavy, or technically disproportionate candidates;
-5. preserve a shortlist of approximately 6–10 concepts for deeper concept-tournament stress tests;
-6. update this file with the exact shortlist and next step.
+1. stress-test finalists **C24 Inventory Reactor**, **C03 Signal Operator**, **C21 Machine Exorcist**, and **C12 Micro-Factory Troubleshooter** using the 20-point tournament test in `RESEARCH.md`;
+2. for each, define the one-sentence pitch, 10-second trailer moment, 30-second interaction, 5-minute loop, session loop, hour-10 depth source, procedural/content grammar, one-week graybox, repetition risk, dominant-strategy risk, technical/art burden, derivative risk, demo boundary, social/clip reason, and explicit kill condition;
+3. rescore them after stress testing rather than carrying forward their preliminary numbers blindly;
+4. identify any pair that should merge only if the merge reduces complexity;
+5. preserve the strongest 2–3 from this half for the final tournament round;
+6. update `RESEARCH.md` and this file immediately after the round.
 
-Do **not** select the final game yet unless one candidate is overwhelmingly superior after the broader comparison.
+Do **not** lock the final game during round 1 unless evidence is overwhelmingly decisive.
 
 ## Recovery instruction for a new chat
 Read `START_HERE.md`, then this file, then `GAME_BIBLE.md`, then `RESEARCH.md`. Ignore remembered chat state if it conflicts with the repository. Resume directly from `NEXT ACTION`.
