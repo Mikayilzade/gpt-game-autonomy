@@ -12,6 +12,17 @@ The user has clarified the terse protocol:
 - Until at least one game is fully specified and the canonical design reaches `DESIGN COMPLETE = YES`, every `го` cycle remains **`В процессе.`** in chat.
 - Intermediate milestones are recorded here in GitHub, not announced as project completion.
 
+## Autonomous cadence
+
+- Hourly continuation requested by user: **ACTIVE**
+- Scheduled cadence: **once per hour**
+- First scheduled continuation: **2026-08-15 06:22 Asia/Baku**
+- Each run must resume from this file, perform one substantial bounded stage, save progress before ending, and update the exact next action.
+- Prefer stages materially larger than a trivial few-minute pass where the task supports it; do not inflate work artificially.
+- A run may complete an intermediate phase without using the chat word `Завершено.`
+- Goal condition: at least one game is fully specified, internally reviewed, implementation-ready, specification-frozen, and `DESIGN COMPLETE = YES`.
+- If the goal condition is already true, future design work must stop rather than inventing unnecessary scope.
+
 ## Master state
 
 - Project initialized: **YES**
@@ -20,7 +31,9 @@ The user has clarified the terse protocol:
 - Candidate field generated: **YES — 30 distinct seeds**
 - Candidate shortlist prepared: **YES — 8 finalists + 2 reserves**
 - Concept tournament Round 1 complete: **YES**
-- Concept tournament Round 2 complete: **NO**
+- Concept tournament Round 2 complete: **YES**
+- All 8 original finalists stress-tested: **YES**
+- Cross-round final comparison complete: **NO**
 - Concept tournament complete: **NO**
 - Final concept selected: **NO**
 - Product thesis locked: **NO**
@@ -36,68 +49,85 @@ The user has clarified the terse protocol:
 - Implementation started: **NO**
 
 ## Current phase
-**Phase 2 — Concept tournament**
+**Phase 2 — Concept tournament: cross-round final comparison**
 
-Phase 1 is complete. Round 1 of Phase 2 has stress-tested the first four finalists. Detailed destructive tests now live in `TOURNAMENT.md`; this separation was introduced because the tournament analysis became large enough to reduce the navigability of `RESEARCH.md`.
+Phase 1 is complete. Both destructive finalist rounds are now complete. Detailed Round 1 tests live in `TOURNAMENT.md`; Round 2 lives in `TOURNAMENT_ROUND2.md` because the tournament record crossed the project's practical single-file readability threshold.
 
 ## Completed this cycle
 
-1. Recorded the user's correction that only a fully described game may trigger `Завершено.` in chat.
-2. Ran targeted current-comparison research for the first four finalists.
-3. Found materially increased derivative risk for the signal-console fantasy because `Signal Station` (2026), historical `Signal Simulator`, and several 2026 prototypes occupy nearby territory.
-4. Compared C12 against current factory-puzzle/automation products such as `Modulus: Factory Automation` and `Automate It`, confirming that its identity must remain diagnosis/minimum intervention rather than building.
-5. Compared C21 against current repair/supernatural-adjacent products such as `D1AL-ogue`, `ReStory`, and `OH DEMON! Fix my TV`; the mechanical-vs-occult inference system remains the essential differentiator.
-6. Compared C24 against adjacency/inventory and reactor terminology pressure; its identity must be dynamic deterministic machine simulation, not static inventory packing or reactor theming.
-7. Applied the full 20-point destructive tournament test to C24, C03, C21, and C12.
-8. Defined for each: store pitch, 10-second trailer moment, 30-second interaction, five-minute loop, session loop, hour-10 depth, content vocabulary, procedural/handcrafted split, one-week graybox, tutorial risk, exploit risk, repetition failure, technical/art burden, derivative risk, demo boundary, social/clip value, and kill condition.
-9. Rescored all four after the stress test.
-10. Performed pairwise merge analysis and rejected merges that would increase scope or erase a candidate's identity.
-11. Created `TOURNAMENT.md` as the dedicated Phase 2 elimination record.
+1. Activated the requested hourly autonomous continuation cadence with GitHub checkpointing.
+2. Ran targeted current-comparison research for C27 Creature Lab Triage, C13 Organism Cargo, C25 Disaster Dispatcher, and C23 Dream Cartographer.
+3. Found important current proximity for C27 from veterinary diagnosis simulators; C27 therefore survives only as fictional systemic biology, not a veterinary-clinic reskin.
+4. Found `Outpacked` (April 2026), a direct static grid-packing/adjacency puzzle comparison. This materially changed C13: dynamic transit-state changes are now mandatory, not optional flavor.
+5. Confirmed severe derivative risk for C25 from `911 Operator`, 2026 `Operator: Emergency Dispatcher`, and `DISPATCHED`; eliminated C25 despite mechanically strong cascade potential.
+6. Compared C23 against `Carto`, `Blue Prince`, and dream/hidden-logic territory. Preserved it only as a higher-risk cognitive outlier whose map must be an executable hypothesis, not a room-drafting or tile-rearrangement gimmick.
+7. Applied the full same 20-point destructive test to all four Round-2 finalists.
+8. Defined exact 30-second interactions, five-minute/session loops, hour-10 depth sources, data grammars, one-week grayboxes, tutorial/exploit/repetition/technical/art/market risks, demos, word-of-mouth moments, and kill conditions.
+9. Rescored Round 2 after risk exposure.
+10. Consolidated the full cross-round survivor field.
 
-## Round-1 results
+## Round-2 results
 
 ### ADVANCE
-1. **C24 — Inventory Reactor** — stress-tested score **4.73 / 5**
-   - strongest pure systems/scope candidate;
-   - must prove causal prediction rather than trial-and-error adjacency packing.
+1. **C13 — Organism Cargo — 4.64 / 5**
+   - must be a deterministic transit ecology, not static packing;
+   - strongest Round-2 clip/story potential.
 
-2. **C21 — Machine Exorcist** — **4.68 / 5**
-   - strongest emotional/fantasy identity in Round 1;
-   - must prove supernatural rules are consistent, inferable, and not arbitrary horror events.
+2. **C27 — Creature Lab Triage — 4.55 / 5**
+   - information strategy + emotional feedback;
+   - must escape veterinary-sim identity and exhaustive-testing play.
 
-3. **C12 — Micro-Factory Troubleshooter** — **4.58 / 5**
-   - safest/cheapest serious graybox and strongest procedural solvability path;
-   - must prove diagnosis feels like play rather than unpaid debugging.
+3. **C23 — Dream Cartographer — 4.34 / 5 — HIGH RISK**
+   - survives to challenge the compact-workbench hypothesis;
+   - must prove predictive mapping is play rather than clerical documentation.
 
-### ELIMINATED FROM FINALIST BRACKET
-4. **C03 — Signal Operator** — **4.28 / 5**
-   - mechanically good but current market proximity is too high relative to stronger options;
-   - preserve tactile controls, protocol conflicts, audiovisual causality, and bandwidth/attention pressure as transferable design ingredients.
+### ELIMINATED
+4. **C25 — Disaster Dispatcher — 4.20 / 5**
+   - direct product/verb overlap with established and current dispatcher titles is too high;
+   - preserve incomplete information, specialist scarcity, commitment-before-certainty, and cascade graphs as reusable ingredients.
+
+## Full survivor field
+
+1. **C24 Inventory Reactor — 4.73**
+2. **C21 Machine Exorcist — 4.68**
+3. **C13 Organism Cargo — 4.64**
+4. **C12 Micro-Factory Troubleshooter — 4.58**
+5. **C27 Creature Lab Triage — 4.55**
+6. **C23 Dream Cartographer — 4.34 — high risk**
+
+Eliminated original finalists:
+- C03 Signal Operator
+- C25 Disaster Dispatcher
+
+Reserves remain unopened:
+- C30 Ruleforge
+- C10 Anomaly Warehouse
 
 ## Important current conclusions
 
-- Raw Phase 1 scores are no longer trusted without destructive testing.
-- Market proximity can kill an otherwise excellent concept if the same first trailer seconds already describe current products.
-- C24/C21/C12 should remain separate for now; their strongest useful cross-pollination can be borrowed as methods rather than merged into a larger game.
-- C12's generation method — start from a known healthy system, inject bounded faults, verify a solution path — may later be valuable to C21 and possibly C24.
-- The final winner still must survive primitive graybox validation after paper selection.
-- The project is **still in progress** and nowhere near `DESIGN COMPLETE`.
+- Across C24/C21/C13/C12/C27, the strongest recurring interaction rhythm is now explicit: **inspect → hypothesize → bounded setup/intervention → run deterministic consequences → explain → improve**.
+- Dynamic consequence simulation is more defensible than static adjacency/packing.
+- C21/C13/C27 have stronger emotional identity; C24/C12 are cleaner systems/scope bets.
+- C23 remains useful as an adversarial outlier but has higher teaching/generation/market-communication risk.
+- Current evidence does not justify reopening reserves.
+- No concept is selected yet; numerical scores are too close and measure different strengths.
+- The project remains **in progress** and still has most of the actual Game Bible work ahead.
 
 ## NEXT ACTION
 
-**Continue Phase 2 — Concept tournament, Round 2.**
+**Run Phase 2 cross-round final tournament.**
 
-On the next `го`:
-1. run targeted current-comparison research for **C27 Creature Lab Triage**, **C13 Organism Cargo**, **C25 Disaster Dispatcher**, and **C23 Dream Cartographer**;
-2. apply the same 20-point destructive test recorded in `TOURNAMENT.md` to all four;
-3. define exact core interactions and one-week graybox tests, not only pitches;
-4. rescore them after risks are exposed;
-5. eliminate weak concepts rather than preserving variety for its own sake;
-6. compare Round-2 survivors against C24/C21/C12;
-7. inspect reserves C30/C10 only if the tournament exposes a missing strength;
-8. update `TOURNAMENT.md` and this file with the exact survivors and next action.
+On the next autonomous/manual run:
+1. compare C24, C21, C13, C12, C27, and C23 on a stricter final matrix adding emotional desire, first-minute pleasure, teaching burden, prototype cost, demo strength, content scalability, market defensibility, implementation ambiguity, replay-depth confidence, and production ceiling;
+2. apply theme-removal and theme-replacement tests to separate strong mechanics from merely strong nouns;
+3. define a tiny primitive graybox validation contract for each survivor;
+4. use explicit kill thresholds rather than averaging away fatal risks;
+5. eliminate down to 2–3 product candidates;
+6. compare those finalists pairwise and determine whether paper evidence is enough to select one;
+7. if one wins, lock it and begin Phase 3 Product Thesis; if a real prototype is genuinely necessary, write a minimal validation specification instead of starting production code;
+8. update `GAME_BIBLE.md` only when a concept is actually selected.
 
-Do **not** lock the final game before all eight finalists have received the same stress test unless overwhelming evidence makes further comparison meaningless.
+Do not declare the project complete.
 
 ## Recovery instruction for a new chat
 Read in this order:
@@ -106,5 +136,6 @@ Read in this order:
 3. `GAME_BIBLE.md`
 4. `RESEARCH.md`
 5. `TOURNAMENT.md`
+6. `TOURNAMENT_ROUND2.md`
 
 Ignore remembered chat state if it conflicts with the repository. Resume directly from `NEXT ACTION`.
