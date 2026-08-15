@@ -29,7 +29,7 @@ The user has clarified the terse protocol:
 - Concept tournament complete: **YES**
 - Final concept selected: **YES — C13 Organism Cargo**
 - Product thesis locked: **YES**
-- Mechanical architecture complete: **NO — foundational simulation grammar locked**
+- Mechanical architecture complete: **NO — foundation + decision architecture locked; vertical-slice/adversarial closure pending**
 - Content architecture complete: **NO**
 - UX architecture complete: **NO**
 - Economy/retention/commercial model complete: **NO**
@@ -61,60 +61,65 @@ Transit must create meaningful, deterministic, learnable state changes that alte
 1. `START_HERE.md` — operating rules and handoff.
 2. `STATUS.md` — current state and next action.
 3. `GAME_BIBLE.md` — canonical product thesis and whole-game specification skeleton.
-4. `MECHANICS.md` — canonical Phase-4 mechanical architecture appendix.
-5. `CROSS_ROUND_FINAL.md` — concept-selection closure.
-6. `RESEARCH.md` — market/reference evidence when needed.
-7. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
+4. `MECHANICS.md` — canonical Phase-4 simulation foundation.
+5. `DECISION_ARCHITECTURE.md` — canonical Phase-4 player-decision, contract, support, state, scoring, uncertainty, and acceptance-test layer.
+6. `CROSS_ROUND_FINAL.md` — concept-selection closure.
+7. `RESEARCH.md` — market/reference evidence when needed.
+8. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
 
-`MECHANICS.md` was introduced because the simulation grammar exceeded a useful single-section size. It is canonical, not scratch notes.
+The second Phase-4 appendix was introduced because the decision layer is large enough to remain readable separately from the tick-resolution/simulation foundation. Both mechanical appendices are canonical.
 
 ## Completed this cycle
 
-1. Defined the authoritative 2D orthogonal hold topology, occupancy invariants, body footprints, orientation, Manhattan distance, adjacency, range, and limited directed line-of-effect rules.
-2. Locked a deterministic integer-tick transit model with exact global phase ordering from route input through environmental propagation, interactions, internal meters, threshold transitions, consequences, and contract evaluation.
-3. Reduced the foundation to three spatial environmental channels only: **heat, stress field, contamination**, with explicit mechanical roles and a ban on redundant extra channels without later proof.
-4. Defined organism instance structure, foundation meters, behavioral states, condition flags, growth stages, and delivery-condition hooks.
-5. Defined stress hysteresis, contamination load, satiety, sleep, criticality, and deterministic state-transition principles.
-6. Created a reusable trait grammar and ten foundation trait archetypes covering emissions, sinks, alarm/soothing, contamination, feeding, growth, symbiosis, and reactive state pulses.
-7. Locked simultaneous-effect rules, stable tie-breaking, capacity-limited target selection, threshold batching, and restrictions on non-deterministic targeting.
-8. Defined discrete growth/footprint-change behavior with predeclared future cells, no automatic pushing, and explicit growth-blocked consequences.
-9. Defined deterministic feeding and compatibility allocation without freeform organism movement.
-10. Defined six foundation route-hazard families and six candidate support-module families.
-11. Defined pre-launch validity, fail-fast philosophy, end-of-transit mandatory predicates, and optional objective structure.
-12. Defined the causal event-log schema needed to explain full cascade chains after transit.
-13. Attacked universal strategies: isolate-all, sedate-all, maximum empty space, universal buffer organisms, and reusable one-layout templates.
-14. Locked determinism invariants, edge-case rules, and invalid-content rejection requirements.
-15. Defined challenge-pressure families, a worked multi-tick cascade example, exposed balance variables, and twelve mechanical validation gates.
-16. Created `MECHANICS.md` as the canonical implementation-oriented Phase-4 appendix.
+1. Defined exact pre-launch action legality for inspect/place/move/rotate/remove/support-link/undo/redo/reset/launch.
+2. Locked planning as free and reversible: no move counter, no real-time planning pressure, no penalty for rearranging before launch.
+3. Distinguished structural launch validity from predicted success: known bad setups remain launchable so the player can run deliberate experiments.
+4. Defined future-growth warnings without turning growth prediction into an automatic launch blocker.
+5. Locked three preview layers: known facts, immediate direct influence preview, and committed transit evidence.
+6. Explicitly prohibited full-future auto-simulation, safe/unsafe verdicts, placement recommendations, and solver-like previews before launch.
+7. Allowed exact current-state arithmetic assistance where it reduces clerical work without predicting future transitions.
+8. Locked the support-resource model to three meaningful constraints only: physical space/fixture topology, utility power capacity, and contract support allowance. No generic per-contract money budget.
+9. Defined deterministic brownout power priority chosen before launch.
+10. Finalized all six foundation supports: Cooler, Filter, Baffle, Nest Pad, Feed Cartridge, and a redefined Monitor Beacon that trades mitigation for bounded information rather than solving the future.
+11. Locked exact behavioral-state precedence and hysteresis for CALM / AGITATED / PANICKED / ASLEEP, including waking, sleep-vs-wake conflicts, stress accumulation during sleep, and orthogonal condition flags.
+12. Defined species construction as body plan + thresholds + 1–3 significant reusable traits + optional lifecycle, with composition validator restrictions against self-canceling and self-sustaining loops.
+13. Locked a small launch-oriented body-plan grammar (Dot, Domino, Corner, Bar), footprint ceilings, and growth-stage ceilings.
+14. Defined a formal contract predicate grammar for final-state goals, timeline conditions, forbidden events, aggregate selectors, mandatory delivery requirements, and optional mastery requirements.
+15. Defined a six-tier mechanical difficulty ladder after onboarding, increasing temporal/relationship complexity rather than merely adding organisms.
+16. Locked campaign medals to transparent Bronze/Silver/Gold predicate completion with no hidden weighted score, retry punishment, planning-time score, or welfare-hostile efficiency incentives.
+17. Defined the information-uncertainty model: DOCUMENTED vs UNDOCUMENTED rules, bounded clues, safe first exposure, permanent documentation after valid observation, and rare bounded route uncertainty.
+18. Defined explicit acceptance tests for all four primary behavioral states, all ten foundation trait families, all six support/resource families, preview/contract logic, medals, retry determinism, and discovery transparency.
+19. Added hard-reject and design-warning rules for content combinations that are technically valid but mechanically degenerate or unreadable.
+20. Created `DECISION_ARCHITECTURE.md` as a canonical Phase-4 appendix.
 
 ## Important current conclusions
 
-- Dynamic transit is now specified as an ordered deterministic simulation rather than an informal concept.
-- Three environmental channels are enough for the foundation; additional channels would currently add teaching burden faster than depth.
-- Organisms do not move autonomously during transit in the base design. Temporal change comes from meters, emissions, state transitions, feeding, hazards, and footprint growth.
-- Growth never pushes neighbors or searches for arbitrary free space; future footprint must be planned.
-- Same-tick effects are batched so entity iteration order cannot silently change results.
-- Post-run causal explanation is structurally supported by event records rather than handcrafted failure text.
-- The mechanics deliberately require beneficial proximity as well as separation pressure, preventing static “space everything apart” play.
-- Phase 4 remains incomplete; the project is still **in progress**.
+- The player is now allowed to experiment freely before launch, while meaningful commitment begins exactly at transit launch.
+- Preview is deliberately informative but incomplete: it removes clerical arithmetic without solving future ecology.
+- Support design is now constrained enough to avoid “equip every mitigation tool” play: space, fixtures, power, allowance, brownouts, and finite capacities create opportunity cost.
+- Sleep is not a universal fifth mood layered on top of panic; it is an exclusive primary behavioral override with stress continuing underneath and deterministic wake precedence.
+- Species complexity is capped by grammar rather than by hope; most organisms will expose only 1–3 significant traits.
+- Contract success and medals are formal Boolean predicates, not opaque scoring formulas.
+- Campaign failure/retry remains educational rather than punitive.
+- Unknown rules must announce that an unknown exists and be introduced through bounded, non-blind discovery contracts.
+- Phase 4 now needs validation/closure rather than more foundational systems.
+- The overall project is still **in progress**.
 
 ## NEXT ACTION
 
-**Continue Phase 4 — decision architecture, states, resources, and contract language.**
+**Close Phase 4 through representative contracts, paper simulation, and adversarial mechanical review.**
 
 On the next run:
-1. define exact pre-launch player action legality, including placement, move, rotate, support assignment, undo/reset, and launch validity;
-2. define prediction/preview rules: what the UI may calculate before launch without turning the game into an automatic solver;
-3. lock the support-resource model by choosing how space, fixture slots, power, and/or contract allowance constrain supports;
-4. define the complete primary behavioral-state precedence and transition table, including CALM/AGITATED/PANICKED/ASLEEP interactions and condition flags;
-5. define species/body-plan composition rules and trait-count/compatibility restrictions so procedural content remains readable;
-6. define a formal contract predicate grammar for mandatory goals, timeline conditions, forbidden events, and optional objectives;
-7. define the mechanical difficulty ladder from tutorial to mastery without relying on organism-count inflation;
-8. define scoring/medal principles and eliminate scoring incentives that conflict with welfare/causal play;
-9. define the information-uncertainty model for newly introduced traits and what may remain unknown before first successful observation;
-10. finalize the foundation support roster or explicitly cut weak supports;
-11. specify mechanical acceptance tests for each foundation trait and state family;
-12. update `MECHANICS.md` and this file, preserving exposed numeric balance variables rather than inventing false precision.
+1. define the exact Phase-4 vertical-slice content set: hold geometry, route, support allowance, 8–10 organism instances/species compositions, all numeric placeholder ranges needed for paper simulation, and the subset of traits actually exercised;
+2. author at least **six fully specified representative contracts** spanning Orientation / Single Causal Link / Competing Proximity / Temporal Planning / Cascades & Scarce Mitigation / Mastery Recombination;
+3. for each representative contract, specify manifest, starting state, route timeline, hold/fixtures, supports, mandatory predicates, Silver/Gold predicates, intended pressure families, at least one known valid layout strategy, and at least one plausible failure cascade;
+4. paper-simulate at least two advanced contracts through enough authoritative ticks to validate the exact Phase-A→I ordering and causal log structure;
+5. attack self-sustaining food/filter loops, stress-soothing cancellation loops, contamination farming, power-priority exploits, growth-block abuse, infinite/recursive state pulses, isolate-all, universal buffer species, and template reuse;
+6. test that every foundation support has at least one contract where it is useful and one where choosing it is inferior to another option;
+7. test that Bronze/Silver/Gold incentives never reward worse organism welfare or random brute-force behavior;
+8. reconcile any contradiction discovered among `GAME_BIBLE.md`, `MECHANICS.md`, and `DECISION_ARCHITECTURE.md`;
+9. if the representative contracts and adversarial pass succeed, mark **Mechanical architecture complete = YES** and move NEXT ACTION to Phase 5 Content Architecture; otherwise repair mechanics first;
+10. save all findings in a canonical Phase-4 closure file rather than expanding chat output.
 
 Do not start production code. Do not declare the project complete.
 
@@ -124,8 +129,9 @@ Read in this order:
 2. `STATUS.md`
 3. `GAME_BIBLE.md`
 4. `MECHANICS.md`
-5. `CROSS_ROUND_FINAL.md`
-6. `RESEARCH.md` only when market/reference evidence is needed
-7. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
+5. `DECISION_ARCHITECTURE.md`
+6. `CROSS_ROUND_FINAL.md`
+7. `RESEARCH.md` only when market/reference evidence is needed
+8. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
 
 Ignore remembered chat state if it conflicts with the repository. Resume directly from `NEXT ACTION`.
