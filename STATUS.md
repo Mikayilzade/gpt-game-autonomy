@@ -31,7 +31,7 @@ The user has clarified the terse protocol:
 - Product thesis locked: **YES**
 - Mechanical architecture complete: **YES — Phase 4 closure passed**
 - Content architecture complete: **YES — Phase 5 closure passed**
-- UX / presentation architecture complete: **NO**
+- UX / presentation architecture complete: **YES — Phase 6 closure passed**
 - Economy / retention / commercial model complete: **NO**
 - Technical specification complete: **NO**
 - Whole-game consistency review complete: **NO**
@@ -41,7 +41,7 @@ The user has clarified the terse protocol:
 - Implementation started: **NO**
 
 ## Current phase
-**Phase 6 — UX / Presentation Architecture**
+**Phase 7 — Economy / Retention / Commercial Model**
 
 ## Selected game
 
@@ -65,61 +65,63 @@ Transit must create meaningful, deterministic, learnable state changes that alte
 5. `DECISION_ARCHITECTURE.md` — canonical player-decision, contract, support, state, scoring, uncertainty, and acceptance-test layer.
 6. `PHASE4_CLOSURE.md` — representative-contract, paper-simulation, exploit-review, and mechanical-freeze evidence.
 7. `CONTENT_ARCHITECTURE.md` — canonical launch roster, content counts, campaign, generation, demo, framing, and data schemas.
-8. `CROSS_ROUND_FINAL.md` — concept-selection closure.
-9. `RESEARCH.md` — market/reference evidence when needed.
-10. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
+8. `UX_ARCHITECTURE.md` — canonical state flow, controls, planning layout, transit presentation, causal review, onboarding, visual/audio language, accessibility, settings, and UX edge cases.
+9. `CROSS_ROUND_FINAL.md` — concept-selection closure.
+10. `RESEARCH.md` — market/reference evidence when needed.
+11. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
 
 ## Completed this cycle
 
-1. Closed Phase 5 in new canonical `CONTENT_ARCHITECTURE.md` without reopening the Phase-4 tick architecture.
-2. Locked exact content targets for MVP, public demo, and launch.
-3. Locked launch scope at **22 mechanically distinct species**, **4 body plans**, **10 trait families**, **6 supports**, **5 hold families / 12 authored layouts**, **7 route-hazard families**, **48 authored campaign contracts**, and **24 generated/recombined challenge templates**.
-4. Defined systematic parameter bands for stress thresholds, contamination profiles, satiety, source/sink magnitude, social effects, ranges, and lifecycle timing.
-5. Authored the full 22-species launch roster with body/stage, thresholds/profile, trait composition, role, useful/dangerous partners, lifecycle behavior, readability hook, tier range, and generator exclusions.
-6. Preserved the nine mechanically validated Phase-4 species and added 13 compositions using only the frozen grammar.
-7. Defined five hold families and prohibited arbitrary procedural topology at launch; generation uses authored layouts plus safe transforms/assignments.
-8. Defined seven route-hazard families entirely through existing heat/stress/contamination/wake/power inputs and set tier-based sequencing limits.
-9. Structured the campaign as six chapters of eight authored contracts with exact teaching order from orientation through mastery recombination.
-10. Defined eight discovery placements and bounded-information rules so campaign progression never depends on blind guessing.
-11. Locked the final campaign test `Living Manifest` to use only learned rules and require multiple valid Bronze strategy families.
-12. Defined authored-vs-generated content boundaries and a nine-stage deterministic generation pipeline.
-13. Added structural solvability proof, medal validation, causal-opacity rejection, transit-significance rejection, anti-template diversity metrics, difficulty calibration, and seed/version freeze records.
-14. Defined low-dialogue narrative framing, species memory aids, and tone boundaries.
-15. Defined conceptual data schemas for species, trait instances, holds, routes, contracts, flavor variants, and documentation state.
-16. Locked a 10-contract, roughly 60–90 minute public demo with explicit included/excluded species, supports, hazards, and holds.
-17. Passed the Phase-5 acceptance checklist.
+1. Closed Phase 6 in new canonical `UX_ARCHITECTURE.md` without changing Phase-4 simulation authority or Phase-5 content rules.
+2. Defined complete player-facing state flow from boot through campaign completion.
+3. Locked mouse-first controls, keyboard shortcuts, drag/drop, rotation, inspection, overlays, undo/redo, reset, launch confirmation, transit playback, review navigation, and post-run shortcuts.
+4. Defined authoritative planning-screen layout with hold, manifest tray, inspector, route timeline, objective/support strip, launch-status semantics, and anti-spreadsheet information hierarchy.
+5. Locked transit-presentation contract: authoritative ticks resolve independently of animation, playback speed never changes outcomes, and event priorities preserve major causality at high speed.
+6. Defined pause, step, speed, skip-to-completion, environmental overlays, state-change presentation, growth-blocked, support-brownout, and objective-failure feedback.
+7. Defined full Causal Review UX with timeline grouping, direct vs propagated effects, jump-to-cause/root trigger, first decisive failure selection, start/final compare, and retry-from-last-launch.
+8. Authored first-ten-contract onboarding sequence for the public-demo/campaign spine with teaching objectives and demonstration gates.
+9. Separated tutorial cues from bounded discovery cues so missing information cannot look like an error or become blind guessing.
+10. Locked visual language for four body plans, primary states, condition flags, heat/stress/contamination, feeding/symbiosis/support links, growth previews, route hazards, unknown information, and medal predicates.
+11. Defined reusable art production grammar for 22 species with four body rigs, shared animation ceilings, reusable VFX families, and strict custom-asset limits.
+12. Defined gameplay audio cue language and non-audio equivalents for every critical state/event.
+13. Locked accessibility requirements for color independence, scalable UI, reduced motion/flashing, playback speed/pause/step, information density, captions, input remapping, and Steam Deck-size operation.
+14. Defined gamepad/Steam Deck compatibility boundary without compromising mouse-first PC efficiency.
+15. Defined display/audio/control/gameplay settings, 16:9/16:10/21:9/4:3 behavior, small-resolution fallback, and localization-safe layout rules.
+16. Defined UX failure/edge-case handling for illegal drops, invalid support links, modal conflicts, warnings, quit during planning/transit/review, controller disconnect, missing localization, corrupt layout/position references, and content-version mismatches.
+17. Completed a first-session paper walkthrough from first launch through first failure, causal review, hypothesis-driven retry, and successful delivery.
+18. Passed the Phase-6 acceptance checklist at specification level.
 
 ## Important current conclusions
 
-- The project now has a finite launch content target rather than an open-ended creature/content ambition.
-- Content variety comes from composition and timing, not new one-off simulation systems.
-- Four body plans and ten trait families are currently sufficient for launch; additional ones carry a high burden of proof.
-- Generated challenges are an extension of validated authored content, not a random-content engine.
-- The campaign teaches every fundamental relationship before asking for mastery recombination.
-- Discovery content reveals bounded unknowns and cannot require blind guessing.
-- The final campaign test introduces no new rule.
-- The overall project remains **in progress** because UX, commercial/economy, technical implementation, whole-game simulation, adversarial review, and specification freeze are still incomplete.
+- The UX now reinforces the core loop `read → arrange → verify → commit → observe → explain → revise` rather than treating failure as a reset screen.
+- Pre-launch information remains intentionally bounded: facts and immediate influence are visible, but the UI never solves future transit.
+- Causal Review is a first-class gameplay state and is now specified deeply enough for later implementation.
+- Transit visuals are explicitly non-authoritative, protecting determinism from frame rate, speed, animation, and input timing.
+- The 22-species art burden is bounded by four body rigs and shared state animation/VFX grammar.
+- Accessibility is built into core information semantics rather than added as color-filter-only support.
+- The overall project remains **in progress** because commercial/economy, technical implementation, whole-game simulation, adversarial review, and specification freeze are still incomplete.
 
 ## NEXT ACTION
 
-**Build Phase 6 — UX / Presentation Architecture and first-session experience.**
+**Build Phase 7 — Economy / Retention / Commercial Model.**
 
 On the next run:
-1. define the complete player-facing state flow from boot/main menu through contract select, planning, launch, transit, causal review, success/retry, unlock, settings, save/load, and campaign completion;
-2. define exact mouse-first controls plus keyboard shortcuts, drag/drop, rotation, inspection, overlays, undo/redo, reset, launch confirmation, playback pause/speed/scrub, and post-run navigation;
-3. define the authoritative planning-screen layout and information hierarchy: hold, manifest tray, selected-entity inspector, route timeline, objectives, support allowance/power, overlays, warnings, launch status;
-4. define transit presentation, animation timing relative to authoritative ticks, event emphasis, speed modes, pause behavior, and rules for never letting visuals change simulation outcomes;
-5. define causal-review UX that can explain a failure chain without becoming a spreadsheet: event grouping, timeline, jump-to-cause, organism/cell focus, direct vs propagated effects, and retry-from-last-launch flow;
-6. define complete onboarding for the first 10 demo/campaign contracts, including exactly what is taught, when tooltips unlock, what the player must demonstrate before scaffolding is removed, and how discovery cues differ from tutorials;
-7. define visual language for body plans, primary states, condition flags, heat/stress/contamination, growth previews, feeding/symbiosis edges, supports, route zones/hazards, unknown information, and medal predicates;
-8. define art-direction production grammar for 22 species using reusable silhouettes, state animation sets, palettes/pattern variants, effects, and strict asset-count ceilings;
-9. define audio language and non-audio equivalents for every gameplay-critical cue;
-10. define accessibility: scalable UI/text, color-independent channels, reduced motion/flashing, playback speed, pause, input remapping, screen-safe event communication, dyslexia-friendly font option if practical, and information-density controls;
-11. define gamepad/Steam Deck compatibility boundary without compromising mouse-first PC design;
-12. define settings, resolution/aspect behavior, windowed/fullscreen, audio sliders, control rebinding, content-warning boundaries, and localization-safe layout rules;
-13. define UX failure/edge cases: illegal drop, impossible support link, overlapping modal, launch with warnings, quit during planning/transit/review, reconnect not applicable, controller disconnect, missing localization, corrupted layout reference fallback;
-14. define Phase-6 acceptance tests and a paper walkthrough of first launch -> first contract -> first failure -> causal review -> successful retry;
-15. save the result in a canonical UX architecture file and update this status.
+1. decide the launch commercial model and lock whether the game is one-time premium purchase only or includes any post-launch paid content boundaries;
+2. research current 2026 premium indie pricing/comparable games only where necessary, clearly separating market evidence from design preference;
+3. define target launch price band, demo strategy, discount policy principles, and what content must be available before charging that price;
+4. define progression economy with exact unlock currencies or explicitly prove that no currency is needed;
+5. lock campaign unlock rules across 48 contracts, discovery entries, supports, holds, hazards, generated challenges, and mastery content;
+6. define medal structure and whether medals gate content, cosmetic recognition, challenge unlocks, or nothing mandatory;
+7. define anti-grind rules so failure/retry never consumes persistent resources and no player must replay solved contracts for currency;
+8. define retention architecture for first 30 minutes, first session, first 2 hours, campaign midpoint, completion, and 20+ hour mastery without daily-login manipulation;
+9. define challenge/replay model for authored mastery contracts, generated/recombined templates, deterministic seeds, score/medal optimization, and offline-friendly daily/weekly-style seeds if retained;
+10. define achievements at category level and prohibit achievements that reward repetitive grinding rather than mastery/exploration;
+11. define demo exact commercial boundary using the Phase-5 ten-contract slice: save-transfer policy, what unlocks in full game, what systems are intentionally withheld, and how demo avoids feeling like a static packing game;
+12. define Steam store positioning: primary tags, secondary tags, short description, trailer beat structure, screenshot obligations, and anti-mispositioning rules;
+13. define ethical monetization boundaries: no ads, no loot boxes, no paid power, no energy timers, no FOMO seasons, no mandatory account, no manipulative daily rewards;
+14. define post-launch expansion boundary: what could be free updates vs paid expansion without fragmenting the simulation grammar;
+15. define commercial/economy failure modes and Phase-7 acceptance tests;
+16. save the result in a canonical commercial/economy file and update this status.
 
 Do not start production code. Do not declare the project complete.
 
@@ -132,8 +134,9 @@ Read in this order:
 5. `DECISION_ARCHITECTURE.md`
 6. `PHASE4_CLOSURE.md`
 7. `CONTENT_ARCHITECTURE.md`
-8. `CROSS_ROUND_FINAL.md`
-9. `RESEARCH.md` only when market/reference evidence is needed
-10. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
+8. `UX_ARCHITECTURE.md`
+9. `CROSS_ROUND_FINAL.md`
+10. `RESEARCH.md` only when market/reference evidence is needed
+11. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
 
 Ignore remembered chat state if it conflicts with the repository. Resume directly from `NEXT ACTION`.
