@@ -34,14 +34,14 @@ The user has clarified the terse protocol:
 - UX / presentation architecture complete: **YES — Phase 6 closure passed**
 - Economy / retention / commercial model complete: **YES — Phase 7 closure passed**
 - Technical specification complete: **YES — Phase 8 closure passed**
-- Whole-game consistency review complete: **NO**
+- Whole-game consistency review complete: **YES — Phase 9 closure passed with canonical repairs**
 - Adversarial review complete: **NO**
 - Specification freeze complete: **NO**
 - DESIGN COMPLETE: **NO**
 - Implementation started: **NO**
 
 ## Current phase
-**Phase 9 — Whole-game simulation on paper**
+**Phase 10 — Adversarial review**
 
 ## Selected game
 
@@ -68,71 +68,76 @@ Transit must create meaningful, deterministic, learnable state changes that alte
 8. `UX_ARCHITECTURE.md` — canonical state flow, controls, planning layout, transit presentation, causal review, onboarding, visual/audio language, accessibility, settings, and UX edge cases.
 9. `ECONOMY_COMMERCIAL.md` — canonical premium model, price, progression/unlocks, medals, anti-grind, retention, demo/store positioning, achievements, discounts, and post-launch boundaries.
 10. `TECHNICAL_SPEC.md` — canonical engine/runtime, deterministic kernel, schemas, persistence, generator, test/debug, platform, and implementation-order specification.
-11. `CROSS_ROUND_FINAL.md` — concept-selection closure.
-12. `RESEARCH.md` — market/reference evidence when needed.
-13. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
+11. `WHOLE_GAME_SIMULATION.md` — canonical Phase-9 continuous-player-journey simulation, state/recovery audit, demo-transfer reconciliation, contradiction ledger, and Phase-10 attack surface.
+12. `CROSS_ROUND_FINAL.md` — concept-selection closure.
+13. `RESEARCH.md` — market/reference evidence when needed.
+14. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
 
 ## Completed this cycle
 
-1. Closed Phase 8 in canonical `TECHNICAL_SPEC.md` without starting production code.
-2. Revalidated the current engine/platform baseline using primary sources on 2026-08-15: Godot 4.7.1 is the current stable patch release while 4.8 is development-only; Steam Cloud/Steam Deck guidance was checked for save and portability assumptions.
-3. Selected **Godot 4.7.1 stable + typed GDScript + 2D presentation** as the initial implementation direction.
-4. Locked the architectural invariant that authoritative gameplay runs headlessly and independently of frame rate, physics, rendering, audio, and input timing.
-5. Defined repository/project module boundaries separating simulation, planning, content, generator, campaign, saves, UI, platform, debug, tests, and presentation assets.
-6. Defined the top-level application state machine for boot, preflight, title, campaign, brief, planning, confirmation, transit, causal review, results, challenges, codex, settings, completion, and recovery.
-7. Defined the deterministic simulation-kernel API and preserved the canonical A–I tick-phase order from `MECHANICS.md`.
-8. Locked authoritative arithmetic to integers/scaled integers, deterministic rounding, stable instance IDs, explicit sorting/tie-breaks, and no unordered-container authority.
-9. Defined generator seed/version rules and per-tick reproducibility checksum strategy.
-10. Defined canonical data schemas for body plans, traits, species, supports, holds, hazards, routes, contracts, predicates, campaign graph, challenge templates, and localization keys.
-11. Defined runtime schemas for organisms, grid cells/channels, supports, route state, objective aggregates, and immutable simulation snapshots.
-12. Defined boot/build-time content validation including threshold ordering, trait legality, selector determinism, references, campaign cycles, localization coverage, generator exclusions, and version stability.
-13. Defined command-based planning state, undo/redo, canonical launch commit, immutable transit input, and retry-from-last-launch semantics.
-14. Defined first-class structured causal events with parents/root triggers, direct vs propagated classification, review indexes, first decisive failure evidence, and player-facing event grouping.
-15. Defined safe persistence: separated profile/session/settings, versioned envelopes, atomic temp/verify/backup/replace writes, corrupt-save fallback, planning persistence, and deterministic transit reconstruction instead of serializing fragile mid-phase state.
-16. Defined demo→full save transfer and Steam Cloud-safe assumptions, with machine-specific settings kept local by default.
-17. Defined deterministic challenge generation as known-valid construction + bounded mutation + solver/validator rejection of static, degenerate, opaque, undocumented, or version-incompatible cases.
-18. Defined semantic input abstraction, real gamepad grid-focus controls rather than fake mouse emulation, localization-safe layout rules, scalable UI, and accessibility hooks.
-19. Locked the visual/audio boundary: presentation consumes authoritative events/snapshots but cannot cause gameplay state changes.
-20. Defined conservative upper stress-test bounds for grid/entity/tick/event counts and lower-end PC/Steam Deck presentation targets without premature kernel parallelization.
-21. Defined mandatory pre-content debug/test tools: deterministic replay, golden fixtures, event-trace diff, headless batch simulation, snapshot inspection, hazard injection, debug profiles, save migration fixtures, generator validation, and performance stress tests.
-22. Defined test layers for unit, simulation, content, generator, save, and UI/integration behavior.
-23. Defined dev/test/demo/release build boundaries, offline-safe Steam abstraction, logging/privacy principles, optional telemetry boundary, and Steam Cloud direction.
-24. Defined implementation as gated vertical slices beginning with an **art-free deterministic dynamic-transit kill gate** before content/art scale-up.
-25. Enumerated technical failure modes and explicitly bounded choices that remain implementation-flexible without reopening game design.
-26. Passed every Phase-8 technical acceptance item documented in `TECHNICAL_SPEC.md`.
+1. Executed Phase 9 as a full-paper simulation rather than a section-by-section checklist.
+2. Created `WHOLE_GAME_SIMULATION.md` as the canonical Phase-9 review/repair layer.
+3. Simulated one continuous player journey from first boot through the first five minutes, first 30 minutes, first two hours, midgame, discovery chapter, 8–12 hour campaign completion, and 20+ hour mastery.
+4. For each major stage, validated what the player knows, sees, chooses, risks, learns, unlocks, persists, and is motivated to do next.
+5. Traced a successful first-attempt thermal contract through Brief → Planning → Launch → canonical transit phases A–I → Causal Review → Results.
+6. Traced a recoverable contamination/growth cascade where a legal time-zero arrangement blocks deterministic future growth, then validated targeted retry from the exact committed layout.
+7. Traced a bounded-uncertainty Pale Drifter discovery case and confirmed that undocumented information remains deterministic, bounded, observable, and non-punitive.
+8. Validated the 48-contract / six-tier campaign invariants: named prerequisite contracts only, no medal/XP/currency/grind gates, no later-lesson dependency on an earlier branch that can bypass its teaching prerequisite, and generator access locked to the Tier-2 capstone.
+9. Defined progression as deterministic flags/records only: cleared contracts, best medals, documented facts, support/hazard knowledge, graph unlocks, challenge templates, and completion state.
+10. Audited quit/resume/crash/abandon paths for Planning, Launch Confirm, Transit, Causal Review, Results, and campaign-map return.
+11. Locked transit resume to deterministic reconstruction from immutable committed input plus safe tick/cursor metadata rather than fragile mid-phase state serialization.
+12. Confirmed Causal Review can be backed by the structured Phase-8 event/snapshot contract without inferring causality from presentation animation.
+13. Validated controller/Steam Deck and high-UI-scale paths for every mandatory action without hover dependency, fake mouse emulation, or tiny pointer precision.
+14. Resolved demo→full transfer ambiguity with an explicit migration model: D01–D08 can certify C01–C08 onboarding clearance, D09–D10 remain demo-only records, full campaign resumes at Chapter 2, imported knowledge persists, and Tier-2 Challenge unlock cannot be skipped.
+15. Resolved seven additional cross-file ambiguities in the Phase-9 contradiction ledger, including demo documented-species count, save-transfer wording, Results write timing, gamepad priority, and active-run abort semantics.
+16. Identified the major 20+ hour attack surface for Phase 10: solved layouts, universal support pairs, isolation, brute-force retry, content exhaustion, generator sameness, causality ambiguity, persistence/version abuse, and demo mispositioning.
+17. Kept `DESIGN COMPLETE = NO` and started no production code.
+
+## Canonical Phase-9 repairs to preserve
+
+Until Phase-11 cross-file consolidation, `WHOLE_GAME_SIMULATION.md` is authoritative for these reconciliations:
+- demo is **10 species = 9 documented + 1 bounded discovery**, not 8 + 2;
+- full demo progress/knowledge/settings transfer is canonical, with no mechanical power bonus;
+- D01–D08 may map to C01–C08 onboarding clearance; D09–D10 do not auto-clear later campaign nodes;
+- imported demo knowledge does not unlock Challenges before Tier-2 capstone;
+- transit resume reconstructs deterministically from committed input;
+- mandatory gamepad/Deck paths are part of acceptance despite mouse remaining the preferred efficiency baseline;
+- campaign progression writes exactly once at Results finalization, not merely when Review calculates outcome;
+- aborting an active transit is a safe, explicit, non-punitive transition back to the committed planning baseline.
 
 ## Important current conclusions
 
-- The simulation kernel is deliberately simpler than the presentation layer: small deterministic state first, animated living cargo second.
-- Godot is an implementation vehicle, not part of the gameplay contract. Engine upgrades require deterministic regression proof.
-- Mid-transit persistence reconstructs from the committed input because transits are short; this sharply reduces migration/corruption complexity.
-- Mechanical content is canonical data rather than per-species executable scripts.
-- Generator solvability tooling is development/runtime validation infrastructure, never an auto-solver presented to the player.
-- Steam/cloud/platform failure cannot block local campaign play.
-- The project is still **in progress**. Whole-game simulation, adversarial review, reconciliation, and specification freeze remain before `DESIGN COMPLETE = YES`.
+- Phase 9 did not expose a structural contradiction requiring concept redesign.
+- The largest remaining uncertainty is not specification breadth but whether the rules can resist degenerate human strategies and remain fun/readable over long play.
+- Phase 10 must attack the design with concrete exploit cases, not add more features.
+- The project is still **in progress**. Adversarial review and final specification freeze remain before `DESIGN COMPLETE = YES`.
 
 ## NEXT ACTION
 
-**Execute Phase 9 — Whole-game simulation on paper and cross-file consistency repair.**
+**Execute Phase 10 — adversarial review, exploit construction, repair, and retest.**
 
 On the next run:
-1. create a canonical whole-game simulation/review file and walk one coherent player journey from first boot through first contract, first failure/retry, first discovery, first support tradeoff, tier transitions, midgame synthesis, late-game mastery, campaign completion, replay/generated challenge, save/quit/resume, and demo→full continuation;
-2. explicitly simulate the first 5 minutes, first 30 minutes, first 2 hours, midpoint, hour 8–12 campaign end, and 20+ hour mastery behavior;
-3. for each stage, identify what the player knows, sees, can do, chooses, risks, learns, unlocks, saves, and is motivated to do next;
-4. trace at least three representative contracts end-to-end through Brief → Planning → Launch → Transit A–I behavior → Causal Review → Retry/Results, including one successful first attempt, one recoverable cascade failure, and one bounded-uncertainty/discovery case;
-5. test campaign graph assumptions against the 48-contract / six-tier structure and ensure prerequisite knowledge never depends on optional medals or hidden replay grind;
-6. test progression state against no-currency/no-XP rules and verify every unlock has a deterministic trigger and player-facing explanation;
-7. test all UX state transitions against save/session semantics, especially quit in planning, quit during transit, quit in review, crash recovery, contract abandon, campaign-map return, and settings overlays;
-8. test Causal Review information against the structured event data promised by Phase 8 and ensure no UX request requires unknowable/unstored causality;
-9. test gamepad/Steam Deck and high-UI-scale paths through every mandatory action without requiring hover, tiny pointer precision, or hidden keyboard shortcuts;
-10. test demo boundary and demo→full transfer against exact campaign/discovery unlocks so the full game cannot duplicate, lose, or incorrectly skip onboarding;
-11. test 20+ hour behavior for solved-template repetition, dominant support/loadout patterns, static packing drift, content exhaustion, and generated-challenge sameness;
-12. build a contradiction ledger covering every discovered mismatch among `GAME_BIBLE.md`, mechanics, decisions, content, UX, economy, and technical spec;
-13. repair contradictions in the authoritative source files during the same run where the intended answer is clear; leave only genuinely unresolved adversarial questions for Phase 10;
-14. produce a Phase-9 acceptance checklist proving that one continuous implementation-ready game exists on paper rather than separate locally consistent documents;
-15. update this file with exact repaired decisions, remaining risks, and Phase-10 next action.
+1. create a canonical adversarial-review file with a severity scale, reproduction format, expected/actual design behavior, repair, and retest criteria;
+2. run a fun-risk attack against the fundamental loop: static-placement satisfaction, transit-as-spectacle failure, random-shuffle retry, arithmetic-work feeling, review fatigue, and overlong planning;
+3. construct representative dominant-layout attacks across early/mid/late content: edge isolation, central Hushling/soother, permanent growth-reserve corner, emitter-to-edge, and repeated zone template;
+4. construct support-dominance attacks, especially Cooler+Filter, Baffle+soother, Nest Pad timing, Monitor-information value, and living-organism substitutes; determine whether support allowances/power/fixtures/hazards actually create non-dominance;
+5. attack maximum-spacing/isolation as a universal Bronze strategy and identify contract/content conditions that must invalidate it without arbitrary density rules;
+6. attack scoring/medals for welfare-hostile, intentionally delayed, support-spam, empty-space, event-count, or state-transition farming exploits;
+7. attack deterministic causality with simultaneous threshold crossings, multiple valid roots, delayed T10 outputs, brownout support changes, growth-block retry loops, contamination persistence, and grouped propagation;
+8. attack planning/state transitions by spamming launch/cancel/undo/reset/retry/abort/settings/quit around every authority boundary;
+9. attack persistence with interrupted atomic writes, corrupt primary + valid backup, corrupt primary/backup, legacy rules/content versions, cloud/local divergence, demo migration mismatch, and transit checksum mismatch;
+10. attack controller/accessibility requirements at high UI scale, 1280x720/Deck-like resolution, reduced motion, no audio, color-blind/non-color reading, controller-only, keyboard-only, and remapped controls;
+11. attack campaign graph prerequisite coverage for every branch and confirm no mandatory node can be reached without the facts it assumes;
+12. attack all 22 species for role redundancy, one-species-obsoletes-another behavior, unreadable 3-trait composites, and content that adds arithmetic but no new decision;
+13. attack generated challenges for static-solvable output, duplicate fingerprints below the current threshold, dominant support streaks, opaque causal chains, solver timeout/false-certification, and cosmetic-reskin sameness;
+14. attack demo positioning: verify at least half of memorable post-onboarding demo outcomes depend on transit-time changes and that the demo cannot reasonably be understood as mainly static packing;
+15. attack technical scope: Causal Review, solver/generator, save migration, localization, animation/event synchronization, and content tooling must remain inside the compact production ceiling;
+16. list every remaining programmer-facing ambiguity where implementation would still require inventing a gameplay rule;
+17. repair all high/critical issues whose intended answer is clear, record deferred prototype-dependent questions explicitly, and rerun the affected acceptance tests;
+18. produce a Phase-10 pass/fail checklist and exact Phase-11 specification-freeze work list;
+19. update this file with the remaining unresolved risks and next action.
 
-Do not start production code. Do not set `DESIGN COMPLETE = YES` during Phase 9 unless all later adversarial/freeze gates have somehow already been completed, which they have not.
+Do not start production code. Do not set `DESIGN COMPLETE = YES` during Phase 10. Final specification freeze and cross-file reconciliation belong to Phase 11.
 
 ## Recovery instruction for a new chat
 Read in this order:
@@ -146,8 +151,9 @@ Read in this order:
 8. `UX_ARCHITECTURE.md`
 9. `ECONOMY_COMMERCIAL.md`
 10. `TECHNICAL_SPEC.md`
-11. `CROSS_ROUND_FINAL.md`
-12. `RESEARCH.md` only when market/reference evidence is needed
-13. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
+11. `WHOLE_GAME_SIMULATION.md`
+12. `CROSS_ROUND_FINAL.md`
+13. `RESEARCH.md` only when market/reference evidence is needed
+14. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
 
 Ignore remembered chat state if it conflicts with the repository. Resume directly from `NEXT ACTION`.
