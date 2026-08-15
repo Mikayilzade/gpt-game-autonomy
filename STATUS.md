@@ -6,7 +6,7 @@ Branch: `main`
 
 ## Critical chat-status rule
 
-The user has clarified the terse protocol:
+The user clarified the terse protocol:
 - Do **not** say `Завершено.` merely because one work cycle finished.
 - Until at least one game is fully specified and `DESIGN COMPLETE = YES`, every cycle remains **`В процессе.`** in chat.
 - Intermediate milestones are recorded here, not announced as project completion.
@@ -14,7 +14,7 @@ The user has clarified the terse protocol:
 ## Autonomous cadence
 
 - Hourly continuation requested by user: **ACTIVE**
-- Current saved autonomous run count: **9**
+- Current saved autonomous run count: **10**
 - Goal condition: at least one game is fully specified, internally reviewed, implementation-ready, specification-frozen, and `DESIGN COMPLETE = YES`.
 
 ## Master state
@@ -29,17 +29,18 @@ The user has clarified the terse protocol:
 - UX / presentation architecture complete at gameplay-rule level: **YES**
 - Economy / retention / commercial model complete at gameplay-rule level: **YES**
 - Technical architecture complete at gameplay-rule level: **YES**
-- Whole-game consistency review complete: **YES — validation history still needs direct wording cleanup**
-- Adversarial review complete: **YES — validation history still needs direct wording cleanup**
+- Whole-game consistency review complete: **YES**
+- Adversarial review complete: **YES**
 - Exact campaign prerequisite graph frozen: **YES**
 - Support non-dominance matrix frozen: **YES**
 - 22-species unique-decision matrix frozen: **YES**
 - Unified acceptance-test index frozen: **YES**
-- Exactly-once launch / idempotent Results / persistence recovery contract frozen: **YES — `PHASE11_TECH_PERSISTENCE.md`**
+- Exactly-once launch / idempotent completion / persistence recovery contract frozen: **YES — `PHASE11_TECH_PERSISTENCE.md`**
 - Mandatory keyboard/controller/Deck/accessibility acceptance contract frozen: **YES — `PHASE11_UX_ACCESSIBILITY.md`**
 - Exact Challenge/demo progression reconciliation frozen: **YES — `PHASE11_PROGRESSION.md`**
-- Validation-history supersession map created: **YES — `PHASE11_HISTORY_RECONCILIATION.md`**
-- Final direct source-file consolidation complete: **NO**
+- Validation-history supersession semantics reconciled: **YES — `PHASE11_HISTORY_RECONCILIATION.md`**
+- Consolidation pass-4 authority/stale-term audit saved: **YES — `PHASE11_CONSOLIDATION_PASS4.md`**
+- Final direct source-file fold-in complete: **NO**
 - Final whole-repository contradiction/TBD sweep complete: **NO**
 - Specification freeze complete: **NO**
 - DESIGN COMPLETE: **NO**
@@ -61,46 +62,32 @@ A compact deterministic strategy/puzzle game where the player packs living cargo
 
 Transit must create meaningful, deterministic, learnable state changes that alter relationships after commitment.
 
-## Canonical files for current work
+## Canonical authority for implementation-sensitive conflicts
 
-1. `START_HERE.md` — operating rules and handoff.
-2. `STATUS.md` — exact state and next action.
-3. `GAME_BIBLE.md` — final top-level game specification.
-4. `PHASE11_FREEZE.md` — Phase-11 cross-domain freeze authority.
-5. `MECHANICS.md` — final canonical simulation specification.
-6. `DECISION_ARCHITECTURE.md` — final planning/decision specification.
-7. `PHASE4_CLOSURE.md` — validation evidence after contradiction cleanup.
-8. `CONTENT_ARCHITECTURE.md` — final content/generation specification.
-9. `UX_ARCHITECTURE.md` — Phase-6 source; Phase-11 accessibility supplement below wins on conflicts until direct fold-in.
-10. `PHASE11_UX_ACCESSIBILITY.md` — **canonical Phase-11 mandatory input/accessibility acceptance contract.**
-11. `ECONOMY_COMMERCIAL.md` — Phase-7 source; progression supplement below wins on conflicts until direct fold-in.
-12. `PHASE11_PROGRESSION.md` — **canonical exact Bronze graph / C16 Challenge gate / demo-transfer reconciliation.**
-13. `TECHNICAL_SPEC.md` — Phase-8 source; persistence supplement below wins on conflicts until direct fold-in.
-14. `PHASE11_TECH_PERSISTENCE.md` — **canonical exactly-once/idempotency/reconstruction/recovery/cloud/migration/legacy/demo contract.**
-15. `WHOLE_GAME_SIMULATION.md` — Phase-9 validation history only.
-16. `ADVERSARIAL_REVIEW.md` — Phase-10 validation history only.
-17. `PHASE11_HISTORY_RECONCILIATION.md` — explicit supersession map for stale Phase-9/10 wording until direct cleanup.
-18. `CROSS_ROUND_FINAL.md` — concept-selection closure.
-19. `RESEARCH.md` — dated market/reference evidence.
-20. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only.
+1. `GAME_BIBLE.md`
+2. `PHASE11_FREEZE.md`
+3. `PHASE11_TECH_PERSISTENCE.md`
+4. `PHASE11_UX_ACCESSIBILITY.md`
+5. `PHASE11_PROGRESSION.md`
+6. `MECHANICS.md`, `DECISION_ARCHITECTURE.md`, `CONTENT_ARCHITECTURE.md`, `TECHNICAL_SPEC.md`, `UX_ARCHITECTURE.md`, `ECONOMY_COMMERCIAL.md` in their domains
+7. `PHASE4_CLOSURE.md` as validation evidence
+8. `WHOLE_GAME_SIMULATION.md`, `ADVERSARIAL_REVIEW.md` as validation history only
+9. selection/research files as history only
 
-## Completed this cycle — autonomous run 9
+`PHASE11_HISTORY_RECONCILIATION.md` and `PHASE11_CONSOLIDATION_PASS4.md` explain stale historical wording until direct edits are complete.
 
-1. Read `START_HERE.md` and `STATUS.md` first and resumed exactly from the saved Phase-11 technical/UX/progression/history reconciliation action.
-2. Re-read the current top-level Game Bible, Phase-11 freeze layer, Technical Specification, UX Architecture, Economy/Commercial source, Whole-Game Simulation and Adversarial Review material relevant to the remaining contradiction classes.
-3. Froze one authoritative committed-run identity model in `PHASE11_TECH_PERSISTENCE.md`: immutable `run_id`, deterministic `completion_id`, exactly-once Launch commit, durable-before-transit transaction boundary and duplicate-request rejection.
-4. Froze idempotent Results/progression application so reopening Results, duplicate callbacks, crashes between profile/session writes, cloud restoration and repeated platform callbacks cannot double-award completion.
-5. Froze deterministic transit reconstruction from committed input + versions + checksums, with explicit mismatch classes and no silent continuation under changed authoritative rules.
-6. Froze primary/backup corruption recovery, sequential migration safety, cloud-profile monotonic merge, divergent active-session non-merge, legacy challenge seed/version behavior and idempotent demo import.
-7. Added mandatory persistence acceptance tests covering double Launch, crash boundaries, reconstruction, corruption, migration, cloud conflicts, legacy challenge codes and demo transfer.
-8. Froze full mouse+keyboard, keyboard-only, controller-only and Steam Deck 1280x800 critical-path parity in `PHASE11_UX_ACCESSIBILITY.md`.
-9. Froze remapping requirements and acceptance paths for maximum UI scale, no-audio play, non-color-only information, Reduced Motion and Reduced Flashing.
-10. Removed controller ambiguity at the freeze layer: controller is not optional and free-cursor emulation cannot be the only controller solution.
-11. Froze exact progression reconciliation in `PHASE11_PROGRESSION.md`: campaign uses exact Bronze prerequisite graph, Challenge mode unlock is exactly `Bronze(C16)`, and demo D01–D08 may map only to C01–C08 while D09–D10 never auto-clear C09+.
-12. Created `PHASE11_HISTORY_RECONCILIATION.md` and explicitly demoted Phase-9/10 sources to validation history when their repairs already have canonical homes.
-13. Identified the stale Whole-Game Simulation representative-contract phrase `repeated pressure pushes Grazer` as non-authoritative for blocked growth; canonical unchanged-obstruction behavior remains one consequence per `GROWTH_BLOCKED` episode.
-14. Normalized stale history terminology for Challenge gating, demo mapping, empty-space optimization, resume authority and Results/progression application.
-15. Kept `DESIGN COMPLETE = NO`: canonical rule gaps are now very small, but direct source cleanup and a whole-repository contradiction/TBD/future-work sweep are still required before specification freeze can be honestly claimed.
+## Completed this cycle — autonomous run 10
+
+1. Read `START_HERE.md` and `STATUS.md` first and resumed from the saved Phase-11 direct-source/contradiction-sweep action.
+2. Re-read the relevant `TECHNICAL_SPEC.md`, `UX_ARCHITECTURE.md`, `WHOLE_GAME_SIMULATION.md`, `ADVERSARIAL_REVIEW.md`, `PHASE11_FREEZE.md`, and reconciliation material needed to classify remaining stale semantics.
+3. Created `PHASE11_CONSOLIDATION_PASS4.md` as a finite authority/stale-term audit rather than adding new gameplay.
+4. Froze an explicit implementation precedence chain so Phase-9/10 narrative repairs cannot compete with later Phase-11 persistence, UX/accessibility, progression, mechanics or freeze semantics.
+5. Classified and normalized the known stale implementation-sensitive classes: blocked-growth repeated punishment, Challenge gate shorthand, vague campaign dependency wording, demo mapping/counts, snapshot authority, non-idempotent Results wording, optional-controller implications and global empty-space optimization.
+6. Defined which placeholder/stale terms must be zero in implementation-authority contexts, which are allowed only as history, and which remain legitimate empirical prototype gates.
+7. Ran a fresh-session implementation-readiness reasoning pass: all major game behavior, progression, persistence/recovery, UX/accessibility and historical-precedence questions now have a deterministic answer if the frozen authority order is followed.
+8. Rewrote `PHASE11_HISTORY_RECONCILIATION.md` from `IN PROGRESS` to `RECONCILED`, adding exact authority for Challenge, campaign graph, demo mapping, transit reconstruction, exactly-once completion and controller/Deck semantics.
+9. Confirmed the main remaining blockers are editorial/direct-source fold-in and a final repository-wide placeholder/stale-term sweep, not new gameplay design.
+10. Kept `DESIGN COMPLETE = NO` because final source consolidation and final contradiction/TBD proof are still incomplete.
 
 ## Prototype-dependent empirical gates
 
@@ -114,30 +101,30 @@ These are validation obligations, not undefined gameplay rules:
 
 ## Remaining Phase-11 work
 
-The remaining work is primarily consolidation proof, not new game design:
-- directly fold `PHASE11_TECH_PERSISTENCE.md` semantics into `TECHNICAL_SPEC.md` or mark the supplement permanently in the technical source's authority header;
-- directly fold `PHASE11_UX_ACCESSIBILITY.md` into `UX_ARCHITECTURE.md` or mark the supplement permanently in that source's authority header;
-- directly fold `PHASE11_PROGRESSION.md` into `ECONOMY_COMMERCIAL.md` and remove the vague `exact dependencies are content data` wording;
-- clean `WHOLE_GAME_SIMULATION.md` blocked-growth narrative and any stale demo/challenge/resume/empty-space wording;
-- clean `ADVERSARIAL_REVIEW.md` authority language so it cannot compete with final sources;
-- update `PHASE11_FREEZE.md` status/authority map to include the new final supplements;
-- run a repository-wide sweep for unresolved implementation-relevant `TBD`, `TODO`, `future work`, `to be decided`, stale counts, contradictory graph/demo/challenge terms, obsolete every-tick blocked growth, optional-controller implications and competing persistence semantics;
-- after fixes, perform a final implementation-readiness checklist against `GAME_BIBLE.md` and the unified acceptance index.
+Finite remaining blockers:
+- directly amend `TECHNICAL_SPEC.md` header/authority note so `PHASE11_TECH_PERSISTENCE.md` cannot be missed;
+- directly amend `UX_ARCHITECTURE.md` header/authority note so `PHASE11_UX_ACCESSIBILITY.md` cannot be missed;
+- directly amend `ECONOMY_COMMERCIAL.md` to name `PHASE11_PROGRESSION.md` as final progression authority and remove vague unfrozen dependency wording;
+- mark `WHOLE_GAME_SIMULATION.md` explicitly as validation history and replace the `repeated pressure` blocked-growth example with episode-correct wording;
+- mark `ADVERSARIAL_REVIEW.md` explicitly as validation history when later canonical homes exist;
+- refresh `PHASE11_FREEZE.md` authority order/status to name all final supplements;
+- run the last repository-wide search for implementation-relevant `TBD`, `TODO`, `future work`, `to be decided`, vague dependency wording, stale demo counts/mapping, stale Challenge gate, repeated blocked-growth punishment, optional-controller implications, snapshot authority and duplicate progression semantics;
+- after all fixes, execute the final implementation-readiness checklist and only then set `Specification freeze = YES` and `DESIGN COMPLETE = YES`.
 
 ## NEXT ACTION
 
-**Continue Phase 11 consolidation pass 4 — direct source cleanup + whole-repository contradiction sweep.**
+**Continue Phase 11 consolidation pass 5 — direct header/source fold-in, then final repository sweep.**
 
 On the next run:
-1. update the authority headers/statuses in `TECHNICAL_SPEC.md`, `UX_ARCHITECTURE.md`, `ECONOMY_COMMERCIAL.md` and `PHASE11_FREEZE.md` so the new Phase-11 supplements cannot be missed by an implementation session;
-2. directly repair the known stale `WHOLE_GAME_SIMULATION.md` blocked-growth narrative and sweep that file for Challenge/demo/resume/empty-space conflicts;
-3. sweep `ADVERSARIAL_REVIEW.md` for repairs that still read as competing newer authority and normalize them to validation evidence where canonical homes exist;
-4. search the repository for `TBD`, `TODO`, `future work`, `to be decided`, `exact dependencies are content data`, `8 documented`, `2 discovery`, `repeated pressure`, `every tick`, `controller optional`, `snapshot authority`, and other implementation-relevant stale wording;
-5. classify every hit as intentional implementation flexibility, historical evidence, or contradiction; fix every contradiction;
-6. verify that a fresh implementation session can determine game behavior, progression, persistence, UX/accessibility and recovery without inventing a rule;
-7. update `PHASE11_FREEZE.md` and this file with the exact final blockers, if any.
+1. directly edit the authority/header wording in `TECHNICAL_SPEC.md`, `UX_ARCHITECTURE.md`, `ECONOMY_COMMERCIAL.md`, `WHOLE_GAME_SIMULATION.md`, `ADVERSARIAL_REVIEW.md`, and `PHASE11_FREEZE.md`;
+2. replace the known stale blocked-growth `repeated pressure` example and any discovered stale Challenge/demo/resume/Results/controller wording in those source files;
+3. run the final repository-wide placeholder/stale-term scan;
+4. classify every remaining hit as intentional history, explicit empirical gate, harmless implementation flexibility, or unresolved contradiction;
+5. fix every unresolved contradiction;
+6. perform a fresh-session implementation-readiness checklist against `GAME_BIBLE.md` and the unified acceptance index;
+7. if and only if there are no implementation-relevant unresolved design choices or contradictions, mark specification freeze complete and set `DESIGN COMPLETE = YES`.
 
-Do **not** set `DESIGN COMPLETE = YES` until the final sweep finds no implementation-relevant contradictions, stale placeholders or unresolved design choices outside explicit prototype-dependent empirical gates.
+Do **not** set `DESIGN COMPLETE = YES` merely because the authority supplements are sufficient in theory; the direct-source/final-sweep proof must be complete.
 
 ## Recovery instruction for a new chat
 Read in this order:
@@ -151,15 +138,16 @@ Read in this order:
 8. `PHASE11_TECH_PERSISTENCE.md`
 9. `PHASE11_UX_ACCESSIBILITY.md`
 10. `PHASE11_PROGRESSION.md`
-11. `TECHNICAL_SPEC.md`
-12. `UX_ARCHITECTURE.md`
-13. `ECONOMY_COMMERCIAL.md`
-14. `PHASE11_HISTORY_RECONCILIATION.md`
-15. `WHOLE_GAME_SIMULATION.md`
-16. `ADVERSARIAL_REVIEW.md`
-17. `PHASE4_CLOSURE.md`
-18. `CROSS_ROUND_FINAL.md`
-19. `RESEARCH.md` only when market/reference evidence is needed
-20. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only for selection history
+11. `PHASE11_CONSOLIDATION_PASS4.md`
+12. `TECHNICAL_SPEC.md`
+13. `UX_ARCHITECTURE.md`
+14. `ECONOMY_COMMERCIAL.md`
+15. `PHASE11_HISTORY_RECONCILIATION.md`
+16. `WHOLE_GAME_SIMULATION.md`
+17. `ADVERSARIAL_REVIEW.md`
+18. `PHASE4_CLOSURE.md`
+19. `CROSS_ROUND_FINAL.md`
+20. `RESEARCH.md` only when market/reference evidence is needed
+21. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only for selection history
 
 Ignore remembered chat state if it conflicts with the repository. Resume directly from `NEXT ACTION`.
