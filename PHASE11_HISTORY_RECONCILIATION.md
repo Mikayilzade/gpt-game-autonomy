@@ -1,60 +1,111 @@
 # ORGANISM CARGO — PHASE 11 VALIDATION-HISTORY RECONCILIATION
 
-Status: **IN PROGRESS — PHASE 9/10 AUTHORITY DEMOTED, STALE SEMANTICS IDENTIFIED**
+Status: **RECONCILED — PHASE 9/10 DEMOTED TO VALIDATION HISTORY**
 Last updated: 2026-08-15
 
-`WHOLE_GAME_SIMULATION.md` and `ADVERSARIAL_REVIEW.md` are validation history. They may explain why a rule exists, but they are no longer independent gameplay authorities when a Phase-11 canonical source contains the final rule.
+`WHOLE_GAME_SIMULATION.md` and `ADVERSARIAL_REVIEW.md` preserve scenario validation, exploit attacks, rationale, and prototype gates. They are no longer independent gameplay authorities whenever a later Phase-11 or domain source contains the final rule.
 
-Until direct wording cleanup is complete, this file records known stale phrases that must not be implemented literally.
+Current precedence for implementation-sensitive conflicts:
+1. `GAME_BIBLE.md`;
+2. `PHASE11_FREEZE.md`;
+3. `PHASE11_TECH_PERSISTENCE.md`;
+4. `PHASE11_UX_ACCESSIBILITY.md`;
+5. `PHASE11_PROGRESSION.md`;
+6. `MECHANICS.md`, `DECISION_ARCHITECTURE.md`, `CONTENT_ARCHITECTURE.md`, `TECHNICAL_SPEC.md`, `UX_ARCHITECTURE.md`, `ECONOMY_COMMERCIAL.md` in their domains;
+7. Phase-9/10 files as validation history only.
+
+`PHASE11_CONSOLIDATION_PASS4.md` records the current direct-source cleanup audit and finite remaining blockers.
 
 ## 1. Whole-game simulation stale blocked-growth narrative
 
-Representative Contract B currently narrates:
-- one blocked growth event;
-- then `repeated pressure pushes Grazer...`.
+Representative Contract B currently narrates one blocked growth event followed by `repeated pressure pushes Grazer...`.
 
-This must **not** be interpreted as repeated unchanged every-tick blocked-growth stress/damage. Canonical rule is `MECHANICS.md` + `PHASE11_FREEZE.md`:
+Do **not** implement repeated unchanged every-tick blocked-growth stress/damage.
+
+Canonical rule:
 - unchanged illegal deterministic growth begins one `GROWTH_BLOCKED` episode;
 - the episode consequence fires once;
-- no repeated same-obstruction punishment occurs until a relevant legality/occupancy/orientation/growth-trigger/retry-boundary condition changes.
+- no repeated same-obstruction punishment occurs until a relevant legality/occupancy/orientation/growth-trigger/retry-boundary condition changes;
+- later stress may still rise from independent continuing causes or a genuinely new blocked-growth episode.
 
-The representative story remains valid only if later stress derives from independent continuing causes or a genuinely new blocked-growth episode.
+Authority: `MECHANICS.md` + `PHASE11_FREEZE.md`.
 
 ## 2. Challenge gate terminology
 
-Any Phase-7/9 phrase such as `after Tier 2`, `roughly the first 16 contracts`, or `after enough rules are documented` is normalized to:
+Any Phase-7/9 phrase such as `after Tier 2`, `after Chapter-2 capstone`, `roughly the first 16 contracts`, or `after enough rules are documented` is descriptive shorthand only.
 
-`Challenge mode unlocked iff Bronze(C16) == true`.
+Exact rule:
+
+`ChallengeModeUnlocked := Bronze(C16) == true`.
 
 Documented rule families may gate individual challenge templates after the mode is unlocked; they cannot unlock the mode before C16.
 
-## 3. Demo mapping terminology
+Authority: `PHASE11_PROGRESSION.md`.
+
+## 3. Campaign graph terminology
+
+Historical wording that exact dependencies are merely unspecified future content data is obsolete. The exact C01–C48 prerequisite graph is frozen implementation data in `PHASE11_FREEZE.md` / `PHASE11_PROGRESSION.md`.
+
+No implementation session may invent or rebalance prerequisite edges without reopening specification freeze.
+
+## 4. Demo mapping terminology
 
 Any older demo wording is normalized to:
 - 10 demo species total = 9 documented + 1 bounded discovery;
-- D01–D08 may map to C01–C08 Bronze;
+- D01–D08 may map to C01–C08 Bronze only through the validated equivalence mapping;
 - D09–D10 never auto-clear C09+;
-- settings/knowledge may transfer through validated version mappings;
+- settings/valid knowledge may transfer;
 - imported knowledge never bypasses C16 Challenge gate;
-- no mechanical power transfers.
+- no mechanical power transfers;
+- incompatible mappings fail closed rather than partially skipping campaign teaching.
 
-## 4. Empty-space terminology
+Authority: `PHASE11_PROGRESSION.md` + `PHASE11_TECH_PERSISTENCE.md`.
 
-Any generic language implying that more unused cells is globally better is superseded. There is no global empty-space score or normal optimization axis. `EMPTY_CELLS` is legal only as an explicit contract-specific predicate where density itself creates a demonstrated dynamic transit tradeoff.
+## 5. Empty-space terminology
 
-## 5. Resume terminology
+Any generic language implying that more unused cells is globally better is superseded. There is no global empty-space score or normal optimization axis.
+
+`EMPTY_CELLS` is legal only as an explicit contract-specific predicate where density itself creates a demonstrated dynamic transit tradeoff.
+
+Authority: `MECHANICS.md` + `PHASE11_FREEZE.md`.
+
+## 6. Resume terminology
 
 Any history wording suggesting that a platform/runtime snapshot itself is authoritative is superseded by `PHASE11_TECH_PERSISTENCE.md`:
-- immutable committed input + versions/checksums is the authority;
+- immutable committed input + compatible versions + run identity/checksums are authoritative;
 - resume reconstructs transit deterministically;
-- playback cursor may be stored but is presentation state;
-- checksum mismatch follows explicit recovery logic.
+- playback cursor is presentation state;
+- mutable mid-phase engine state is not a save authority;
+- checksum/version mismatch follows explicit recovery logic.
 
-## 6. Duplicate completion/progression terminology
+## 7. Launch / completion / progression terminology
 
-Any phrase `Results writes progression` is shorthand only. The final semantic contract is idempotent completion application using stable run/completion identity. Entering Results is not itself an award event.
+Any phrase such as `Launch creates a run` or `Results writes progression` is shorthand only.
 
-## 7. Phase-10 repairs already folded into canonical sources
+Final semantic contract:
+- Launch has an exactly-once commit boundary;
+- immutable `run_id` / deterministic `completion_id` identity prevents duplicate authoritative runs or awards;
+- completion application is idempotent;
+- reopening Results, repeated callbacks, crash recovery, cloud restoration, or duplicate platform events cannot double-apply campaign progression.
+
+Authority: `PHASE11_TECH_PERSISTENCE.md`.
+
+## 8. Controller / Deck terminology
+
+Any older implication that controller support is optional is obsolete.
+
+Mandatory release paths:
+- mouse+keyboard;
+- keyboard-only;
+- controller-only;
+- Steam Deck at 1280x800;
+- no mandatory hover-only information;
+- no controller free-cursor-only implementation;
+- remapping and the frozen no-audio/non-color/reduced-motion/reduced-flash paths.
+
+Authority: `PHASE11_UX_ACCESSIBILITY.md`.
+
+## 9. Phase-10 repairs already folded into canonical sources
 
 The following major Phase-10 repairs now have canonical homes and Phase-10 text is evidence/history only:
 - dynamic-transit significance quotas -> `CONTENT_ARCHITECTURE.md` / `PHASE11_FREEZE.md`;
@@ -67,12 +118,12 @@ The following major Phase-10 repairs now have canonical homes and Phase-10 text 
 - simultaneous material causes preserve multi-parent ancestry -> `MECHANICS.md` / freeze;
 - Brownout Phase-A authority -> `MECHANICS.md` / freeze;
 - species redundancy clusters and >=70% cut/merge gate -> `CONTENT_ARCHITECTURE.md` / freeze;
-- exact campaign graph -> `CONTENT_ARCHITECTURE.md` / freeze;
-- exactly-once launch/idempotent Results/reconstruction/cloud/migration/demo import -> `PHASE11_TECH_PERSISTENCE.md`;
+- exact campaign graph -> `PHASE11_FREEZE.md` / `PHASE11_PROGRESSION.md`;
+- exactly-once launch/idempotent completion/reconstruction/cloud/migration/demo import -> `PHASE11_TECH_PERSISTENCE.md`;
 - complete keyboard/controller/Deck/no-audio/non-color/reduced-motion/reduced-flash paths -> `PHASE11_UX_ACCESSIBILITY.md`;
 - C16 Challenge gate and exact demo progression boundary -> `PHASE11_PROGRESSION.md`.
 
-## 8. Prototype gates remain valid but are not undefined design
+## 10. Prototype gates remain valid but are not undefined design
 
 Phase-10 empirical gates remain obligations:
 - >=70% representative failures produce a specific causal explanation + intended revision rather than blind shuffle;
@@ -84,6 +135,13 @@ Phase-10 empirical gates remain obligations:
 
 These gates can fail the prototype and force simplification/cuts. They do not authorize implementation to invent new mechanics before testing.
 
-## 9. Remaining history work
+## 11. Remaining history/source work
 
-Direct cleanup of `WHOLE_GAME_SIMULATION.md` and `ADVERSARIAL_REVIEW.md` is still required before final repository freeze so future readers do not encounter stale phrases without this reconciliation layer. The final whole-repository sweep must search for: `repeated`, `growth blocked`, `empty`, `Challenge`, `Tier 2`, `demo`, `8 documented`, `2 discovery`, `resume`, `snapshot`, `Results writes`, `controller optional`, `TBD`, `TODO`, `future work`, `to be decided`, `exact dependencies are content data`.
+The semantic reconciliation itself is complete. Remaining work is editorial/source consolidation so future readers do not need this map for obvious stale sentences:
+- mark `WHOLE_GAME_SIMULATION.md` and `ADVERSARIAL_REVIEW.md` headers explicitly as validation history;
+- replace the blocked-growth `repeated pressure` example;
+- add permanent Phase-11 supplement authority notes to `TECHNICAL_SPEC.md`, `UX_ARCHITECTURE.md`, `ECONOMY_COMMERCIAL.md`;
+- refresh `PHASE11_FREEZE.md` authority order/status;
+- run the final repository-wide placeholder/stale-term scan.
+
+Until those direct edits land, this file and `PHASE11_CONSOLIDATION_PASS4.md` prevent the known historical wording from competing with the final rules.
