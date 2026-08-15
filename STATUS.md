@@ -29,7 +29,7 @@ The user has clarified the terse protocol:
 - Concept tournament complete: **YES**
 - Final concept selected: **YES — C13 Organism Cargo**
 - Product thesis locked: **YES**
-- Mechanical architecture complete: **NO**
+- Mechanical architecture complete: **NO — foundational simulation grammar locked**
 - Content architecture complete: **NO**
 - UX architecture complete: **NO**
 - Economy/retention/commercial model complete: **NO**
@@ -42,8 +42,6 @@ The user has clarified the terse protocol:
 
 ## Current phase
 **Phase 4 — Mechanical Architecture**
-
-Phase 2 is closed in `CROSS_ROUND_FINAL.md`. Phase 3 product thesis is now canonical in `GAME_BIBLE.md`.
 
 ## Selected game
 
@@ -58,48 +56,65 @@ A compact deterministic strategy/puzzle game where the player packs living cargo
 
 Transit must create meaningful, deterministic, learnable state changes that alter relationships after commitment.
 
+## Canonical files for current work
+
+1. `START_HERE.md` — operating rules and handoff.
+2. `STATUS.md` — current state and next action.
+3. `GAME_BIBLE.md` — canonical product thesis and whole-game specification skeleton.
+4. `MECHANICS.md` — canonical Phase-4 mechanical architecture appendix.
+5. `CROSS_ROUND_FINAL.md` — concept-selection closure.
+6. `RESEARCH.md` — market/reference evidence when needed.
+7. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
+
+`MECHANICS.md` was introduced because the simulation grammar exceeded a useful single-section size. It is canonical, not scratch notes.
+
 ## Completed this cycle
 
-1. Ran the full cross-round final matrix on C24, C21, C13, C12, C27, and C23, adding emotional desire, first-minute pleasure, teaching burden, prototype cost, demo strength, content scalability, market defensibility, implementation ambiguity, replay-depth confidence, and production ceiling.
-2. Performed theme-removal tests for all six candidates.
-3. Performed theme-replacement tests to separate robust mechanics from strong nouns/themes.
-4. Defined primitive graybox validation contracts and explicit pass/kill thresholds for every survivor.
-5. Eliminated C23, C27, and C12 from the product final.
-6. Compared C13, C21, and C24 pairwise.
-7. Selected **C13 Organism Cargo** as the strongest balance of systemic depth, emotional identity, market legibility, clipability, deterministic implementation, and manageable content production.
-8. Performed a fresh current-market comparison check and reinforced the requirement that C13 cannot become a static packing game.
-9. Created `CROSS_ROUND_FINAL.md` as the permanent Phase-2 closure record.
-10. Rewrote the canonical `GAME_BIBLE.md` product-thesis sections for Organism Cargo.
-11. Locked target player, genre, core fantasy, differentiator, five design pillars, anti-pillars, scope ceiling, out-of-scope list, core-loop hierarchy, failure philosophy, progression direction, procedural philosophy, commercial frame, and primitive validation boundary.
-12. Advanced the project into Phase 4 without starting production code.
+1. Defined the authoritative 2D orthogonal hold topology, occupancy invariants, body footprints, orientation, Manhattan distance, adjacency, range, and limited directed line-of-effect rules.
+2. Locked a deterministic integer-tick transit model with exact global phase ordering from route input through environmental propagation, interactions, internal meters, threshold transitions, consequences, and contract evaluation.
+3. Reduced the foundation to three spatial environmental channels only: **heat, stress field, contamination**, with explicit mechanical roles and a ban on redundant extra channels without later proof.
+4. Defined organism instance structure, foundation meters, behavioral states, condition flags, growth stages, and delivery-condition hooks.
+5. Defined stress hysteresis, contamination load, satiety, sleep, criticality, and deterministic state-transition principles.
+6. Created a reusable trait grammar and ten foundation trait archetypes covering emissions, sinks, alarm/soothing, contamination, feeding, growth, symbiosis, and reactive state pulses.
+7. Locked simultaneous-effect rules, stable tie-breaking, capacity-limited target selection, threshold batching, and restrictions on non-deterministic targeting.
+8. Defined discrete growth/footprint-change behavior with predeclared future cells, no automatic pushing, and explicit growth-blocked consequences.
+9. Defined deterministic feeding and compatibility allocation without freeform organism movement.
+10. Defined six foundation route-hazard families and six candidate support-module families.
+11. Defined pre-launch validity, fail-fast philosophy, end-of-transit mandatory predicates, and optional objective structure.
+12. Defined the causal event-log schema needed to explain full cascade chains after transit.
+13. Attacked universal strategies: isolate-all, sedate-all, maximum empty space, universal buffer organisms, and reusable one-layout templates.
+14. Locked determinism invariants, edge-case rules, and invalid-content rejection requirements.
+15. Defined challenge-pressure families, a worked multi-tick cascade example, exposed balance variables, and twelve mechanical validation gates.
+16. Created `MECHANICS.md` as the canonical implementation-oriented Phase-4 appendix.
 
 ## Important current conclusions
 
-- C13 won narrowly over C21 and C24; the choice is not based on a single numerical score.
-- The mechanic survives with abstract tokens, while living-organism theming makes growth, feeding, panic, infection, sleep, symbiosis, and environmental response intuitive rather than arbitrary.
-- Dynamic transit is the market and mechanical moat. Static packing is an occupied and weaker design.
-- Simulation outcomes for a known state must be deterministic. Randomness may exist only outside authoritative transit resolution if later justified and clearly represented.
-- The game remains compact: one hold, reusable organisms/traits, short contracts, no ship exploration, no logistics empire, no creature-collection treadmill.
-- Failure is intended to be evidence: post-run causal explanation is part of the core loop.
-- Most of the actual design work remains ahead. `DESIGN COMPLETE` is still **NO**.
+- Dynamic transit is now specified as an ordered deterministic simulation rather than an informal concept.
+- Three environmental channels are enough for the foundation; additional channels would currently add teaching burden faster than depth.
+- Organisms do not move autonomously during transit in the base design. Temporal change comes from meters, emissions, state transitions, feeding, hazards, and footprint growth.
+- Growth never pushes neighbors or searches for arbitrary free space; future footprint must be planned.
+- Same-tick effects are batched so entity iteration order cannot silently change results.
+- Post-run causal explanation is structurally supported by event records rather than handcrafted failure text.
+- The mechanics deliberately require beneficial proximity as well as separation pressure, preventing static “space everything apart” play.
+- Phase 4 remains incomplete; the project is still **in progress**.
 
 ## NEXT ACTION
 
-**Begin Phase 4 Mechanical Architecture — foundational simulation grammar.**
+**Continue Phase 4 — decision architecture, states, resources, and contract language.**
 
 On the next run:
-1. define the authoritative simulation clock/tick model and exact event ordering;
-2. choose the minimal environmental channel set and justify every channel;
-3. define organism entity structure: footprint, orientation, state, needs, outputs, thresholds, trait modules, and legal state transitions;
-4. define adjacency/range/line-of-effect rules;
-5. define growth/footprint-change behavior without freeform physics or ambiguous overlap;
-6. define interaction resolution when multiple organisms affect the same target on the same tick;
-7. define route hazards and hold-system effects at the same mechanical level;
-8. specify failure/success evaluation timing;
-9. create an initial trait grammar large enough to test combinatorial depth but small enough to remain teachable;
-10. attack universal strategies such as isolate-all, sedate-all, empty-space maximization, and universal buffer organisms;
-11. record formulas, invariants, edge cases, and examples directly into `GAME_BIBLE.md`;
-12. leave exact balance numbers as exposed tuning variables where evidence is not yet sufficient.
+1. define exact pre-launch player action legality, including placement, move, rotate, support assignment, undo/reset, and launch validity;
+2. define prediction/preview rules: what the UI may calculate before launch without turning the game into an automatic solver;
+3. lock the support-resource model by choosing how space, fixture slots, power, and/or contract allowance constrain supports;
+4. define the complete primary behavioral-state precedence and transition table, including CALM/AGITATED/PANICKED/ASLEEP interactions and condition flags;
+5. define species/body-plan composition rules and trait-count/compatibility restrictions so procedural content remains readable;
+6. define a formal contract predicate grammar for mandatory goals, timeline conditions, forbidden events, and optional objectives;
+7. define the mechanical difficulty ladder from tutorial to mastery without relying on organism-count inflation;
+8. define scoring/medal principles and eliminate scoring incentives that conflict with welfare/causal play;
+9. define the information-uncertainty model for newly introduced traits and what may remain unknown before first successful observation;
+10. finalize the foundation support roster or explicitly cut weak supports;
+11. specify mechanical acceptance tests for each foundation trait and state family;
+12. update `MECHANICS.md` and this file, preserving exposed numeric balance variables rather than inventing false precision.
 
 Do not start production code. Do not declare the project complete.
 
@@ -108,8 +123,9 @@ Read in this order:
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_BIBLE.md`
-4. `CROSS_ROUND_FINAL.md`
-5. `RESEARCH.md` only when market/reference evidence is needed
-6. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
+4. `MECHANICS.md`
+5. `CROSS_ROUND_FINAL.md`
+6. `RESEARCH.md` only when market/reference evidence is needed
+7. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
 
 Ignore remembered chat state if it conflicts with the repository. Resume directly from `NEXT ACTION`.
