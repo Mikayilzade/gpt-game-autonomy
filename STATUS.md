@@ -29,7 +29,7 @@ The user has clarified the terse protocol:
 - Concept tournament complete: **YES**
 - Final concept selected: **YES — C13 Organism Cargo**
 - Product thesis locked: **YES**
-- Mechanical architecture complete: **NO — foundation + decision architecture locked; vertical-slice/adversarial closure pending**
+- Mechanical architecture complete: **YES — Phase-4 closure passed**
 - Content architecture complete: **NO**
 - UX architecture complete: **NO**
 - Economy/retention/commercial model complete: **NO**
@@ -41,7 +41,7 @@ The user has clarified the terse protocol:
 - Implementation started: **NO**
 
 ## Current phase
-**Phase 4 — Mechanical Architecture**
+**Phase 5 — Content Architecture**
 
 ## Selected game
 
@@ -61,65 +61,58 @@ Transit must create meaningful, deterministic, learnable state changes that alte
 1. `START_HERE.md` — operating rules and handoff.
 2. `STATUS.md` — current state and next action.
 3. `GAME_BIBLE.md` — canonical product thesis and whole-game specification skeleton.
-4. `MECHANICS.md` — canonical Phase-4 simulation foundation.
-5. `DECISION_ARCHITECTURE.md` — canonical Phase-4 player-decision, contract, support, state, scoring, uncertainty, and acceptance-test layer.
-6. `CROSS_ROUND_FINAL.md` — concept-selection closure.
-7. `RESEARCH.md` — market/reference evidence when needed.
-8. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
-
-The second Phase-4 appendix was introduced because the decision layer is large enough to remain readable separately from the tick-resolution/simulation foundation. Both mechanical appendices are canonical.
+4. `MECHANICS.md` — canonical simulation foundation.
+5. `DECISION_ARCHITECTURE.md` — canonical player-decision, contract, support, state, scoring, uncertainty, and acceptance-test layer.
+6. `PHASE4_CLOSURE.md` — canonical representative-contract, paper-simulation, exploit-review, and mechanical-freeze evidence.
+7. `CROSS_ROUND_FINAL.md` — concept-selection closure.
+8. `RESEARCH.md` — market/reference evidence when needed.
+9. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
 
 ## Completed this cycle
 
-1. Defined exact pre-launch action legality for inspect/place/move/rotate/remove/support-link/undo/redo/reset/launch.
-2. Locked planning as free and reversible: no move counter, no real-time planning pressure, no penalty for rearranging before launch.
-3. Distinguished structural launch validity from predicted success: known bad setups remain launchable so the player can run deliberate experiments.
-4. Defined future-growth warnings without turning growth prediction into an automatic launch blocker.
-5. Locked three preview layers: known facts, immediate direct influence preview, and committed transit evidence.
-6. Explicitly prohibited full-future auto-simulation, safe/unsafe verdicts, placement recommendations, and solver-like previews before launch.
-7. Allowed exact current-state arithmetic assistance where it reduces clerical work without predicting future transitions.
-8. Locked the support-resource model to three meaningful constraints only: physical space/fixture topology, utility power capacity, and contract support allowance. No generic per-contract money budget.
-9. Defined deterministic brownout power priority chosen before launch.
-10. Finalized all six foundation supports: Cooler, Filter, Baffle, Nest Pad, Feed Cartridge, and a redefined Monitor Beacon that trades mitigation for bounded information rather than solving the future.
-11. Locked exact behavioral-state precedence and hysteresis for CALM / AGITATED / PANICKED / ASLEEP, including waking, sleep-vs-wake conflicts, stress accumulation during sleep, and orthogonal condition flags.
-12. Defined species construction as body plan + thresholds + 1–3 significant reusable traits + optional lifecycle, with composition validator restrictions against self-canceling and self-sustaining loops.
-13. Locked a small launch-oriented body-plan grammar (Dot, Domino, Corner, Bar), footprint ceilings, and growth-stage ceilings.
-14. Defined a formal contract predicate grammar for final-state goals, timeline conditions, forbidden events, aggregate selectors, mandatory delivery requirements, and optional mastery requirements.
-15. Defined a six-tier mechanical difficulty ladder after onboarding, increasing temporal/relationship complexity rather than merely adding organisms.
-16. Locked campaign medals to transparent Bronze/Silver/Gold predicate completion with no hidden weighted score, retry punishment, planning-time score, or welfare-hostile efficiency incentives.
-17. Defined the information-uncertainty model: DOCUMENTED vs UNDOCUMENTED rules, bounded clues, safe first exposure, permanent documentation after valid observation, and rare bounded route uncertainty.
-18. Defined explicit acceptance tests for all four primary behavioral states, all ten foundation trait families, all six support/resource families, preview/contract logic, medals, retry determinism, and discovery transparency.
-19. Added hard-reject and design-warning rules for content combinations that are technically valid but mechanically degenerate or unreadable.
-20. Created `DECISION_ARCHITECTURE.md` as a canonical Phase-4 appendix.
+1. Defined a bounded integer validation profile for heat, stress field, contamination, internal stress, contamination load, satiety, power, and transit length.
+2. Defined three representative hold/fixture geometries sufficient to exercise orientation, growth, route zones, fixture competition, and anti-template pressure.
+3. Assigned explicit validation values to all six foundation supports.
+4. Built nine reusable species compositions from the locked body-plan/trait grammar without bespoke simulation subsystems.
+5. Authored six fully specified representative contracts spanning Orientation, Single Causal Link, Competing Proximity, Temporal Planning, Cascades & Scarce Mitigation, and Mastery Recombination.
+6. For every representative contract, specified manifest, route, hold/support allowance, mandatory/Silver/Gold predicates, pressure families, a known valid strategy family, and a plausible deterministic failure cascade.
+7. Paper-simulated advanced contract R5 `Brownout Chain` through the critical route/growth/brownout/contamination/panic cascade and a corrected retry.
+8. Paper-simulated advanced contract R6 `No Familiar Template` through vent/isolation/thermal/brownout/vibration timing and demonstrated why the two-channel Ash Sponge cannot be a universal buffer.
+9. Attacked self-sustaining food/filter loops, stress-soothing cancellation, contamination farming, power-priority abuse, growth-block abuse, same-tick recursive pulses, isolate-all, universal-buffer placement, template reuse, and blind brute-force retry behavior.
+10. Verified every foundation support has at least one representative case where it is valuable and at least one where it is inferior/costly.
+11. Audited Bronze/Silver/Gold incentives and found no current objective requiring or rewarding worse organism welfare.
+12. Reconciled the older `contract budget` wording in `MECHANICS.md` with the later canonical non-monetary support-allowance model.
+13. Confirmed the existing A→I tick architecture, state machine, trait grammar, support grammar, predicate grammar, deterministic selectors, and causal log can express the representative suite without one-off mechanics.
+14. Created `PHASE4_CLOSURE.md` and froze the mechanical architecture for forward content work.
 
 ## Important current conclusions
 
-- The player is now allowed to experiment freely before launch, while meaningful commitment begins exactly at transit launch.
-- Preview is deliberately informative but incomplete: it removes clerical arithmetic without solving future ecology.
-- Support design is now constrained enough to avoid “equip every mitigation tool” play: space, fixtures, power, allowance, brownouts, and finite capacities create opportunity cost.
-- Sleep is not a universal fifth mood layered on top of panic; it is an exclusive primary behavioral override with stress continuing underneath and deterministic wake precedence.
-- Species complexity is capped by grammar rather than by hope; most organisms will expose only 1–3 significant traits.
-- Contract success and medals are formal Boolean predicates, not opaque scoring formulas.
-- Campaign failure/retry remains educational rather than punitive.
-- Unknown rules must announce that an unknown exists and be introduced through bounded, non-blind discovery contracts.
-- Phase 4 now needs validation/closure rather than more foundational systems.
+- Phase 4 passed its closure gate; mechanics are now frozen unless a later phase exposes a concrete contradiction.
+- The representative suite proves the game can generate dynamic post-launch consequences without random outcomes or autonomous creature movement.
+- The support roster is non-dominant: each support can be correct in one context and wrong in another.
+- Beneficial-dangerous relationships such as contamination-as-food are allowed when they carry a genuine welfare/spatial/timing downside; the game should not eliminate all risky synergies.
+- Growth blocking can be a strategic choice only where biologically/documentarily valid; campaign scoring must never reward hidden welfare abuse.
+- Delayed/scheduled secondary outputs are a useful safe way to create cascades without same-tick recursion.
+- Content must now compose the frozen rules rather than inventing new systems for variety.
 - The overall project is still **in progress**.
 
 ## NEXT ACTION
 
-**Close Phase 4 through representative contracts, paper simulation, and adversarial mechanical review.**
+**Build Phase 5 — Content Architecture, foundation and launch roster.**
 
 On the next run:
-1. define the exact Phase-4 vertical-slice content set: hold geometry, route, support allowance, 8–10 organism instances/species compositions, all numeric placeholder ranges needed for paper simulation, and the subset of traits actually exercised;
-2. author at least **six fully specified representative contracts** spanning Orientation / Single Causal Link / Competing Proximity / Temporal Planning / Cascades & Scarce Mitigation / Mastery Recombination;
-3. for each representative contract, specify manifest, starting state, route timeline, hold/fixtures, supports, mandatory predicates, Silver/Gold predicates, intended pressure families, at least one known valid layout strategy, and at least one plausible failure cascade;
-4. paper-simulate at least two advanced contracts through enough authoritative ticks to validate the exact Phase-A→I ordering and causal log structure;
-5. attack self-sustaining food/filter loops, stress-soothing cancellation loops, contamination farming, power-priority exploits, growth-block abuse, infinite/recursive state pulses, isolate-all, universal buffer species, and template reuse;
-6. test that every foundation support has at least one contract where it is useful and one where choosing it is inferior to another option;
-7. test that Bronze/Silver/Gold incentives never reward worse organism welfare or random brute-force behavior;
-8. reconcile any contradiction discovered among `GAME_BIBLE.md`, `MECHANICS.md`, and `DECISION_ARCHITECTURE.md`;
-9. if the representative contracts and adversarial pass succeed, mark **Mechanical architecture complete = YES** and move NEXT ACTION to Phase 5 Content Architecture; otherwise repair mechanics first;
-10. save all findings in a canonical Phase-4 closure file rather than expanding chat output.
+1. define exact **MVP / demo / launch target counts** for body plans, significant trait modules, species, supports, holds, route families, hazards, authored contracts, generated/recombined challenge templates, tutorial/milestone contracts, flavor variants, and discovery content;
+2. create the canonical **launch species roster** (target roughly 18–24 mechanically distinct species compositions) using only the frozen body plans/trait families, with no species exceeding readability limits;
+3. for every launch species specify body plan/stage, thresholds, traits, role, useful partners, dangerous partners, lifecycle behavior, readability hook, allowed difficulty tiers, and any generator exclusions;
+4. define trait numeric parameter bands rather than arbitrary per-species values, so future implementation/balance data remains systematic;
+5. define hold families, fixture/zone grammar, route families, and hazard-sequencing limits;
+6. define campaign content progression: teaching order, when each trait/support/hazard is introduced, when composite species appear, discovery-contract placement, milestone contracts, mastery recombination, and final campaign test;
+7. define authored-vs-generated content split and generation pipeline including solvability proof, causal-opacity rejection, anti-template diversity metrics, medal validation, and deterministic seed/version requirements;
+8. define narrative/content framing sufficient to make manifests/species memorable without adding a large dialogue burden;
+9. define content data schemas for species, trait instances, holds, routes, contracts, flavor variants, and documentation/discovery state;
+10. define explicit **demo content** and what must remain outside the demo;
+11. add a Phase-5 acceptance checklist and reject any content family that requires reopening mechanics without strong evidence;
+12. save Phase-5 work in a canonical content architecture file and update this status.
 
 Do not start production code. Do not declare the project complete.
 
@@ -130,8 +123,9 @@ Read in this order:
 3. `GAME_BIBLE.md`
 4. `MECHANICS.md`
 5. `DECISION_ARCHITECTURE.md`
-6. `CROSS_ROUND_FINAL.md`
-7. `RESEARCH.md` only when market/reference evidence is needed
-8. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
+6. `PHASE4_CLOSURE.md`
+7. `CROSS_ROUND_FINAL.md`
+8. `RESEARCH.md` only when market/reference evidence is needed
+9. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
 
 Ignore remembered chat state if it conflicts with the repository. Resume directly from `NEXT ACTION`.
