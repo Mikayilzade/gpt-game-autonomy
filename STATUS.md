@@ -14,7 +14,7 @@ The user has clarified the terse protocol:
 ## Autonomous cadence
 
 - Hourly continuation requested by user: **ACTIVE**
-- Current saved autonomous run count: **5**
+- Current saved autonomous run count: **6**
 - Each run resumes from this file, performs one substantial bounded stage, saves progress before ending, and updates the exact next action.
 - Goal condition: at least one game is fully specified, internally reviewed, implementation-ready, specification-frozen, and `DESIGN COMPLETE = YES`.
 - If the goal condition becomes true, future design work stops rather than inventing unnecessary scope.
@@ -37,6 +37,11 @@ The user has clarified the terse protocol:
 - Technical specification complete: **YES — Phase 8 closure passed**
 - Whole-game consistency review complete: **YES — Phase 9 closure passed with canonical repairs**
 - Adversarial review complete: **YES — Phase 10 pass with explicit prototype gates**
+- Phase-11 consolidation pass 1 complete: **YES**
+- Exact campaign prerequisite graph frozen: **YES**
+- Support non-dominance matrix frozen: **YES**
+- 22-species unique-decision matrix frozen: **YES**
+- Unified acceptance-test index frozen: **YES**
 - Specification freeze complete: **NO**
 - DESIGN COMPLETE: **NO**
 - Implementation started: **NO**
@@ -61,77 +66,57 @@ Transit must create meaningful, deterministic, learnable state changes that alte
 
 1. `START_HERE.md` — operating rules and handoff.
 2. `STATUS.md` — exact current state and next action.
-3. `GAME_BIBLE.md` — canonical product thesis and whole-game specification skeleton/top-level contract.
-4. `MECHANICS.md` — canonical simulation foundation.
+3. `GAME_BIBLE.md` — product thesis and final top-level contract; still contains stale pre-freeze wording to reconcile.
+4. `MECHANICS.md` — canonical simulation foundation; still requires Phase-10 edge-semantics fold-in.
 5. `DECISION_ARCHITECTURE.md` — canonical player-decision, contract, support, state, scoring, uncertainty, and acceptance-test layer.
 6. `PHASE4_CLOSURE.md` — representative-contract, paper-simulation, exploit-review, and mechanical-freeze evidence.
-7. `CONTENT_ARCHITECTURE.md` — canonical launch roster, content counts, campaign, generation, demo, framing, and data schemas.
-8. `UX_ARCHITECTURE.md` — canonical state flow, controls, planning layout, transit presentation, causal review, onboarding, visual/audio language, accessibility, settings, and UX edge cases.
-9. `ECONOMY_COMMERCIAL.md` — canonical premium model, price, progression/unlocks, medals, anti-grind, retention, demo/store positioning, achievements, discounts, and post-launch boundaries.
-10. `TECHNICAL_SPEC.md` — canonical engine/runtime, deterministic kernel, schemas, persistence, generator, test/debug, platform, and implementation-order specification.
-11. `WHOLE_GAME_SIMULATION.md` — Phase-9 continuous-player-journey simulation and canonical cross-file repairs pending consolidation.
-12. `ADVERSARIAL_REVIEW.md` — Phase-10 exploit attacks, canonical repairs, prototype gates, and Phase-11 freeze list.
-13. `CROSS_ROUND_FINAL.md` — concept-selection closure.
-14. `RESEARCH.md` — market/reference evidence when needed.
-15. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
+7. `CONTENT_ARCHITECTURE.md` — canonical launch roster/content/generation; stale demo count wording remains to reconcile.
+8. `UX_ARCHITECTURE.md` — canonical state flow, controls, presentation, onboarding, accessibility; requires final acceptance-path fold-in.
+9. `ECONOMY_COMMERCIAL.md` — canonical premium/progression/commercial model.
+10. `TECHNICAL_SPEC.md` — canonical implementation architecture; requires final idempotency/recovery/legacy/resume fold-in.
+11. `WHOLE_GAME_SIMULATION.md` — Phase-9 continuous-player-journey review and superseding repairs pending source consolidation.
+12. `ADVERSARIAL_REVIEW.md` — Phase-10 exploit attacks and superseding repairs pending source consolidation.
+13. `PHASE11_FREEZE.md` — **current Phase-11 authority for exact campaign graph, demo repair, dynamic-transit quotas, support matrix, species matrix, deterministic edge semantics, persistence/idempotency repairs, accessibility acceptance, and unified acceptance-test index.**
+14. `CROSS_ROUND_FINAL.md` — concept-selection closure.
+15. `RESEARCH.md` — market/reference evidence when needed.
+16. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
 
-## Completed this cycle — autonomous run 5
+## Completed this cycle — autonomous run 6
 
-1. Read the repository source of truth and all recovery-listed design/history files required for the current stage.
-2. Executed Phase 10 as a hostile-system review rather than a feature pass.
-3. Created `ADVERSARIAL_REVIEW.md` with severity definitions, attack/reproduction format, canonical repair rules, retest gates, prototype gates, and exact Phase-11 work list.
-4. Attacked the fundamental loop for static-packing collapse, random-shuffle retry, arithmetic-work feel, Causal Review fatigue, and analysis-paralysis planning.
-5. Strengthened dynamic-transit content gates so non-tutorial contracts must contain decision-relevant post-launch change; established campaign/demo/generated anti-static quotas and prototype evidence requirements.
-6. Attacked maximum spacing, edge isolation, central Hushling, permanent growth-corner, emitter-to-edge, and repeated zone-template strategies; added authored/generator diversity constraints without arbitrary anti-spacing rules.
-7. Attacked Cooler+Filter, Baffle+soother, Nest Pad, Monitor Beacon, and living-organism support substitutes; added non-dominance gates and clarified that sleep never disables a trait unless its data explicitly says so.
-8. Attacked medal/scoring exploitation: welfare-hostile pulses, delayed/event-count farming, support spam, empty-space scoring, and repeated transition-triggered resource generation.
-9. Clarified deterministic edge cases for simultaneous thresholds, multiple causal roots, delayed T10 ancestry, Brownout tick authority, blocked-growth retry, contamination ancestry, and player-facing propagation grouping.
-10. Repaired a major blocked-growth ambiguity: unchanged blocked growth no longer re-applies the same consequence every tick; one consequence is applied per unchanged growth episode and reattempt requires legality/condition change.
-11. Attacked planning/state authority through launch/cancel/undo/reset/retry/abort/settings/quit spam; locked single commit tokens and exactly-once/idempotent Results progression semantics.
-12. Attacked persistence for interrupted writes, corrupt primary + backup fallback, double corruption, incompatible legacy rules/content, cloud divergence, demo migration mismatch, and resume checksum failure.
-13. Attacked accessibility on 1280x720/Deck-like displays at high UI scale, reduced motion/flashing, no audio, non-color reading, controller-only, keyboard-only, and remapped-input contexts.
-14. Audited campaign prerequisite assumptions across all six chapters and identified the remaining Phase-11 need: exact C01–C48 branch edge/prerequisite data must be frozen so implementation cannot invent graph logic.
-15. Reviewed all 22 launch species by role and isolated the main empirical redundancy cluster: O06/O12/O16 and O05/O19/O20 must prove distinct decisions or be cut/merged later based on prototype evidence, not expanded with new traits.
-16. Attacked generated challenges for static-solvable output, near-threshold duplicate fingerprints, dominant support streaks, causal opacity, solver timeout false-certification, cosmetic-reskin sameness, and runtime search explosion.
-17. Locked solver rule: timeout is never proof of solvability; generated Bronze/medal content must have an explicit certified solution or known-valid source construction.
-18. Attacked demo positioning and required the demo to teach dynamic-transit identity early and repeatedly rather than reading as cute static packing.
-19. Attacked technical scope around Causal Review, generator/solver, save migration, localization, animation/event authority, and tooling; no new foundation subsystem is required.
-20. Produced a programmer-facing ambiguity ledger and answered every paper-resolvable high/critical ambiguity found in this pass.
-21. Separated remaining empirical risks from specification ambiguity: hypothesis-driven retry, transit significance, planning duration, helper-species differentiation, demo positioning, and review usefulness are prototype gates.
-22. Phase-10 paper verdict: **PASS WITH PROTOTYPE GATES**. No current paper attack requires abandoning Organism Cargo or adding a new foundation mechanic.
-23. `DESIGN COMPLETE` remains **NO** because Phase 11 consolidation/freeze is still mandatory.
+1. Read `START_HERE.md` and `STATUS.md` first, then re-opened the Phase-9/10 repair sources and the canonical mechanics/content/technical documents needed to execute the Phase-11 freeze stage.
+2. Created `PHASE11_FREEZE.md` as a bounded reconciliation layer rather than pretending stale source files were already clean.
+3. Froze an exact implementation-ready **C01–C48 campaign prerequisite table**, including branch convergence, capstone edges, Bronze-only progression, and graph-validator obligations.
+4. Froze the corrected public-demo contract: **10 species = 9 documented + 1 bounded discovery**, full settings/knowledge transfer, D01–D08 -> C01–C08 mapping only, no D09/D10 later auto-clear, and no early Challenge unlock from imported knowledge.
+5. Froze authored and generated **dynamic-transit significance gates**, including C05+ post-launch change requirement, >=20 of C09–C48 requiring two temporally separated changes for Bronze, anti-spacing/growth-edge quotas, and static-generated-challenge rejection.
+6. Built the required **S01–S06 support non-dominance matrix**, with explicit authored preferred/inferior cases, living substitutes where applicable, and the Cooler+Filter <=25%/8-contract cap across C17–C48.
+7. Built the required **22-species unique-decision/readability matrix**, including explicit prototype keep/cut criteria and mandatory redundancy clusters O06/O12/O16 and O05/O19/O20.
+8. Froze **T10 finite event guards**, multi-root causal ancestry, Phase-A Brownout authority, blocked-growth one-consequence-per-unchanged-episode semantics, and explicit sleep trait gating.
+9. Froze **exactly-once launch commit** and **idempotent Results progression** authority boundaries.
+10. Froze transit resume as deterministic reconstruction from committed input/checksums rather than relying on a platform-sensitive partial runtime object.
+11. Froze save-recovery behavior for corrupt primary, valid backup, double corruption, migration failure, cloud/local divergence, legacy-version mismatch, and demo migration.
+12. Froze mandatory keyboard-only, controller-only, Deck/1280x800, 1280x720, maximum UI scale, no-audio, non-color, reduced-motion, reduced-flash, and remapped-input acceptance surfaces.
+13. Created a unified acceptance-test index spanning determinism, planning/state authority, campaign progression, content/dominance, generator/solver, Causal Review, persistence/corruption, accessibility/device paths, and demo identity.
+14. Reclassified all remaining subjective risks as prototype validation obligations rather than undefined paper-design questions.
+15. Did **not** set `DESIGN COMPLETE = YES`: canonical source files still contain stale `TBD`/old-phase wording and superseded values, so a builder could still encounter multiple authorities if Phase 11 stopped now.
 
-## Canonical Phase-9 repairs still to consolidate
+## Phase-11 frozen items awaiting source-file fold-in
 
-Until Phase 11 folds them into their source files, `WHOLE_GAME_SIMULATION.md` remains authoritative for:
-- demo is **10 species = 9 documented + 1 bounded discovery**;
-- full demo progress/knowledge/settings transfer is canonical, with no mechanical power bonus;
-- D01–D08 may map to C01–C08 onboarding clearance; D09–D10 do not auto-clear later campaign nodes;
-- imported demo knowledge does not unlock Challenges before Tier-2 capstone;
-- transit resume reconstructs deterministically from committed input;
-- mandatory gamepad/Deck paths are acceptance requirements despite mouse being the preferred efficiency baseline;
-- campaign progression writes exactly once at Results finalization;
-- aborting an active transit is a safe, explicit, non-punitive transition back to the committed planning baseline.
-
-## Canonical Phase-10 repairs still to consolidate
-
-Until Phase 11 folds them into source files, `ADVERSARIAL_REVIEW.md` is authoritative for at least:
-- non-tutorial authored/generated content must pass strengthened dynamic-transit significance gates;
-- blind retry remains free but must fail empirical dominance gate rather than being punished by attempt costs;
-- no normal Bronze should require unsupported arithmetic over more than three simultaneous contributors to one variable;
-- maximum-spacing/edge/emitter/growth-corner/repeated-zone templates require content-level anti-dominance coverage;
-- Cooler+Filter and other support families require non-dominance coverage across authored/generator content;
-- sleep changes only explicitly state-gated traits;
-- Monitor is never required for discovery Bronze;
-- no global empty-space medal/score axis;
-- T10 effects always have a finite explicit event guard;
-- simultaneous causal roots remain multi-parent when appropriate;
-- Brownout power state is finalized in Phase A before same-tick support outputs;
-- blocked growth applies one consequence per unchanged episode rather than every tick;
-- launch commit and Results progression use exactly-once/idempotent authority boundaries;
-- solver timeout is never solvability proof;
-- incompatible-version transit does not silently pretend historical deterministic equivalence;
-- high-UI-scale, keyboard-only, controller-only, non-audio and non-color paths are mandatory acceptance surfaces.
+`PHASE11_FREEZE.md` is currently authoritative for:
+- exact C01–C48 prerequisite/branch graph;
+- demo 9 documented + 1 discovery count and migration rules;
+- campaign/demo/generated dynamic-transit quotas;
+- S01–S06 support non-dominance coverage;
+- 22-species distinctness/cut gates;
+- T10 finite trigger guards;
+- multi-parent causal roots;
+- Phase-A Brownout support authority;
+- blocked-growth episode semantics;
+- sleep trait state-gating semantics;
+- single launch commit token and Results idempotency;
+- transit reconstruction/checksum mismatch handling;
+- save backup/recovery/legacy/demo migration behavior;
+- keyboard/controller/Deck/high-scale/no-audio/non-color/reduced-motion acceptance surfaces;
+- unified implementation acceptance-test index.
 
 ## Remaining unresolved risks
 
@@ -143,55 +128,53 @@ These are **prototype-dependent empirical gates**, not undefined gameplay rules:
 5. demo testers must predominantly describe the game as planning for what creatures will do during transit, not as static packing;
 6. Causal Review must surface an actionable first cause quickly without requiring raw-log reading.
 
-These remain valid even after `DESIGN COMPLETE = YES`; they become implementation/vertical-slice kill metrics.
+These remain valid after paper design freeze as vertical-slice/implementation kill metrics.
 
 ## Important current conclusions
 
-- The design has now survived market selection, mechanical closure, content/UX/commercial/technical architecture, whole-game simulation, and a dedicated exploit/adversarial pass.
-- No unresolved paper-level high/critical gameplay rule currently requires a new mechanic.
-- The remaining design task is consolidation: source files still contain stale TBD language and older pre-repair wording in places.
-- Phase 11 must make the repository internally singular: no important rule should require a new builder to decide which historical document wins.
-- The project is still **in progress** until cross-file reconciliation passes and `DESIGN COMPLETE = YES` is set.
+- The actual game is now defined through Phase 10 and the principal Phase-11 ambiguity classes have explicit frozen answers.
+- The biggest remaining risk is **document contradiction/staleness**, not missing game mechanics.
+- `GAME_BIBLE.md` still exposes obsolete `TBD`/“Phase X work” text despite later architecture being complete.
+- `MECHANICS.md` still says Phase 4 is not complete and contains old optional empty-space examples that must be reconciled with the later anti-empty-space rule.
+- `CONTENT_ARCHITECTURE.md` still contains the superseded demo split of 8 documented + 2 discovery.
+- technical/UX source documents need the frozen Phase-11 acceptance and recovery semantics directly embedded.
+- Therefore the project remains **in progress** and production code remains blocked.
 
 ## NEXT ACTION
 
-**Execute Phase 11 — specification freeze, canonical consolidation, contradiction sweep, and implementation-readiness gate.**
+**Execute Phase 11 consolidation pass 2 — rewrite stale canonical sources and run the contradiction sweep.**
 
 On the next run:
-1. fold all Phase-9 repairs from `WHOLE_GAME_SIMULATION.md` into the canonical source files;
-2. fold all Phase-10 repairs from `ADVERSARIAL_REVIEW.md` into the canonical source files;
-3. replace stale `TBD` sections in `GAME_BIBLE.md` with concise canonical summaries/references to the locked architecture;
-4. freeze exact C01–C48 campaign prerequisite/branch data or a complete implementation-ready edge table so no programmer invents progression logic;
-5. create/freeze the support non-dominance matrix covering every S01–S06 support and applicable living substitutes;
-6. create/freeze the 22-species unique-decision/readability matrix and preserve explicit prototype cut/merge gates;
-7. freeze dynamic-transit quotas/gates for campaign/demo/generator in the appropriate source files;
-8. fold blocked-growth episode semantics, T10 event guards, Brownout same-tick authority, and multi-root causal requirements into mechanics/technical specs;
-9. fold launch/results idempotency, save-recovery behavior, legacy-version fallback, checksum mismatch, and demo-migration test cases into technical specs;
-10. fold keyboard/controller/high-scale/no-audio/non-color/reduced-motion acceptance paths into UX/technical criteria;
-11. produce a unified acceptance-test index spanning gameplay, campaign, UX, generator, persistence, accessibility, and demo identity;
-12. run a repository-wide contradiction sweep for old demo counts, old transfer wording, stale transit-resume behavior, stale gamepad assumptions, repeated blocked-growth damage, unlimited T10 triggers, or other superseded text;
-13. mark prototype-dependent gates explicitly as implementation validation obligations rather than unresolved specification questions;
-14. confirm every programmer-facing gameplay question has an explicit answer or intentionally implementation-flexible boundary;
-15. only if all of the above pass, set `Specification freeze complete = YES` and `DESIGN COMPLETE = YES` and stop further autonomous design expansion.
+1. rewrite `GAME_BIBLE.md` into a concise final top-level canonical specification with no stale `TBD`, obsolete phase-status language, or optional gamepad wording;
+2. reconcile `MECHANICS.md`: mark Phase-4 foundation complete, fold blocked-growth episode semantics, T10 finite guards, Brownout authority, multi-root causality, sleep gating, and remove any global implication that empty-space scoring is normal;
+3. reconcile `CONTENT_ARCHITECTURE.md`: replace demo `8 documented + 2 discovery` with `9 + 1`, fold exact campaign graph or reference frozen table, and embed dynamic-transit/support/species validation gates;
+4. reconcile `TECHNICAL_SPEC.md`: embed launch/results idempotency, deterministic transit reconstruction, checksum mismatch recovery, corrupt-primary/backup behavior, legacy rules/content behavior, cloud divergence, and demo migration tests;
+5. reconcile `UX_ARCHITECTURE.md`: embed mandatory keyboard/gamepad/Deck/max-scale/no-audio/non-color/reduced-motion/remapping acceptance paths;
+6. inspect `DECISION_ARCHITECTURE.md`, `PHASE4_CLOSURE.md`, `ECONOMY_COMMERCIAL.md`, and later documents for superseded demo counts, old challenge unlock language, empty-space reward wording, repeated-growth damage, unlimited trigger wording, stale gamepad assumptions, or old transit-resume semantics;
+7. run repository search/fetch checks for the exact stale strings/classes above and repair every contradiction found;
+8. confirm `PHASE11_FREEZE.md` no longer needs to override a conflicting canonical source, only index/verify it;
+9. confirm every programmer-facing gameplay question has an explicit answer or an intentionally harmless implementation-flexible boundary;
+10. if and only if the contradiction sweep is clean and all freeze obligations are present in canonical sources, set `Specification freeze complete = YES` and `DESIGN COMPLETE = YES` and stop further autonomous design expansion.
 
-Do not start production code before the Phase-11 freeze passes.
+Do not start production code before that pass succeeds.
 
 ## Recovery instruction for a new chat
 Read in this order:
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_BIBLE.md`
-4. `MECHANICS.md`
-5. `DECISION_ARCHITECTURE.md`
-6. `PHASE4_CLOSURE.md`
-7. `CONTENT_ARCHITECTURE.md`
-8. `UX_ARCHITECTURE.md`
-9. `ECONOMY_COMMERCIAL.md`
-10. `TECHNICAL_SPEC.md`
-11. `WHOLE_GAME_SIMULATION.md`
-12. `ADVERSARIAL_REVIEW.md`
-13. `CROSS_ROUND_FINAL.md`
-14. `RESEARCH.md` only when market/reference evidence is needed
-15. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
+4. `PHASE11_FREEZE.md`
+5. `MECHANICS.md`
+6. `DECISION_ARCHITECTURE.md`
+7. `PHASE4_CLOSURE.md`
+8. `CONTENT_ARCHITECTURE.md`
+9. `UX_ARCHITECTURE.md`
+10. `ECONOMY_COMMERCIAL.md`
+11. `TECHNICAL_SPEC.md`
+12. `WHOLE_GAME_SIMULATION.md`
+13. `ADVERSARIAL_REVIEW.md`
+14. `CROSS_ROUND_FINAL.md`
+15. `RESEARCH.md` only when market/reference evidence is needed
+16. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
 
 Ignore remembered chat state if it conflicts with the repository. Resume directly from `NEXT ACTION`.
