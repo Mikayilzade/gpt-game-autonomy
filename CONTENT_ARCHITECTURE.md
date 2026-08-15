@@ -1,1011 +1,550 @@
 # ORGANISM CARGO — CONTENT ARCHITECTURE
 
-Status: **CANONICAL PHASE 5 — CONTENT ARCHITECTURE LOCKED**
+Status: **FINAL CANONICAL CONTENT SPECIFICATION — PHASE 11 RECONCILED**
 Last updated: 2026-08-15
 
-This file defines the launch-facing content architecture for **Organism Cargo**. It composes only mechanics already frozen in `MECHANICS.md`, `DECISION_ARCHITECTURE.md`, and `PHASE4_CLOSURE.md`. Content may tune numeric parameters and combine existing rules; it may not quietly invent new authoritative simulation systems.
+This file defines launch-facing content for **Organism Cargo**. It may combine and tune already-frozen mechanics from `MECHANICS.md` and `DECISION_ARCHITECTURE.md`; it may not invent hidden one-off simulation systems. Phase-11 exact campaign, demo, non-dominance and redundancy requirements are folded in here.
 
 ---
 
-# 1. Phase-5 content contract
+# 1. Content contract
 
-The content layer must achieve four goals at once:
+The content layer must simultaneously:
+1. teach a small rule vocabulary gradually;
+2. create premium-campaign depth without hundreds of bespoke assets;
+3. support deterministic generated/recombined mastery content;
+4. keep every species readable through body silhouette + at most 1–3 significant traits;
+5. preserve the product identity that **the hold is not solved when the doors close**.
 
-1. teach the rule vocabulary gradually;
-2. create enough distinct decisions for a premium campaign without hundreds of bespoke assets;
-3. provide a deterministic generator/recombination layer for long-tail mastery;
-4. remain readable enough that every species can be understood from body silhouette + 1–3 significant traits.
-
-Any proposed content item is rejected if it requires one-off runtime code, adds a hidden target-selection rule, exceeds the trait/body-plan limits without an authored exception, or creates difficulty mainly through information clutter.
+Reject content that requires one-off runtime code, hidden targeting, unexplained exceptions, unreadable trait stacks, static packing as the main solution, or a Bronze path with no certified valid solution.
 
 ---
 
-# 2. Exact content targets
+# 2. Exact scope targets
 
-## 2.1 MVP vertical slice
+## 2.1 MVP / vertical slice
+- 4 body plans: B01 Dot, B02 Domino, B03 Corner, B04 Bar;
+- T01–T10 foundation trait families;
+- 9 representative playable species;
+- 6 supports;
+- 3 hold families/layout groups;
+- 5 route-hazard families;
+- 12 authored contracts;
+- 6 tutorial/milestone cases within those 12;
+- 6 generated challenge templates;
+- 2 discovery contracts;
+- no flavor variants required.
 
-The smallest version that proves the game:
-- body plans: **4** (B01 Dot, B02 Domino, B03 Corner, B04 Bar);
-- significant trait families: **10** foundation families T01–T10;
-- playable species: **9** representative species from `PHASE4_CLOSURE.md`;
-- supports: **6** foundation supports;
-- hold families/layouts: **3**;
-- route hazard families: **5**;
-- authored contracts: **12**;
-- tutorial/milestone contracts inside those 12: **6**;
-- generated challenge templates: **6**;
-- flavor variants: **0 required**;
-- discovery contracts: **2**.
+## 2.2 Public demo — FROZEN
+- 4 body plans;
+- **10 species total = 9 fully documented + 1 bounded-discovery species**;
+- 4 supports: Cooler, Filter, Baffle, Feed Cartridge;
+- 3 hold layouts from two families;
+- 3 route-hazard families;
+- 10 authored contracts;
+- 3 generated/recombined templates;
+- exactly 1 discovery contract;
+- normal first-clear target about 60–90 minutes.
 
-## 2.2 Public demo target
+The old `8 documented + 2 discovery` wording is invalid everywhere.
 
-The demo must prove the differentiator without exposing most advanced combinations:
-- body plans: **4**;
-- species: **10** total, of which 8 are fully documented and 2 appear in bounded discovery form;
-- supports: **4** available (Cooler, Filter, Baffle, Feed Cartridge); Nest Pad and Monitor Beacon remain outside the demo;
-- holds: **3 layouts** from two families;
-- route hazard families: **3**;
-- authored contracts: **10**;
-- generated/recombined challenge templates: **3**;
-- discovery contracts: **1**;
-- campaign playtime target: roughly **60–90 minutes** for a normal first clear, longer for Gold optimization.
-
-The demo ends immediately after the first contract that combines growth timing with a route hazard and support tradeoff. It should leave the player understanding that later species/hazards will deepen the same system rather than merely increase quantity.
+Demo identity gates:
+- by D03 at latest, a visible post-launch state/relationship change matters;
+- at least 5 of D01–D10 contain a Bronze-relevant post-launch timing/state change;
+- testers should predominantly describe the game as planning what organisms will do during transit, not static packing.
 
 ## 2.3 Launch target
+- 4 body plans;
+- 10 significant trait families;
+- **22 species maximum before empirical redundancy cuts**;
+- 6 supports;
+- 5 hold families / 12 authored layouts;
+- 7 route-hazard/profile families;
+- 18 authored route profiles/timelines target;
+- exactly 48 authored campaign contracts;
+- 14 tutorial/milestone contracts within the 48 target;
+- 8 discovery contracts within the 48 target;
+- 24 generated/recombined challenge templates;
+- 6 authored final mastery contracts included in the 48;
+- up to 2 presentation-only flavor variants/species where useful;
+- Codex target: launch species + T01–T10 + 7 hazard families + 6 supports.
 
-Launch content target:
-- body plans: **4** foundation body plans; no fifth body plan required;
-- significant trait families: **10** foundation families, expressed through parameter/state-gated variants rather than new systems;
-- launch species: **22** mechanically distinct compositions;
-- supports: **6**;
-- hold families: **5**;
-- authored hold layouts: **12**;
-- route hazard families: **7**;
-- authored route profiles/timelines: **18**;
-- authored campaign contracts: **48**;
-- tutorial/milestone contracts within the 48: **14**;
-- discovery contracts within the 48: **8**;
-- generated/recombined challenge templates: **24**;
-- hand-authored final mastery contracts: **6** included in the 48;
-- cosmetic/flavor variants: up to **2 presentation variants per species**, never mechanically distinct and not required for all species;
-- codex/discovery entries: **22 species + 10 trait-family entries + 7 route-hazard entries + 6 support entries**.
+Campaign first-clear target: about 8–12 hours. Long-tail depth comes from Gold/alternate solution families/generated challenges, never grind.
 
-Target campaign first-clear length: approximately **8–12 hours**, depending on retries and optional medals. Gold/mastery plus generated challenges should support materially longer play without requiring grind.
+If empirical redundancy gates cut species, the launch count decreases. No replacement mechanic is added merely to preserve 22.
 
 ---
 
 # 3. Numeric parameter bands
 
-Species may choose values only from these launch bands unless later balance testing changes the bands globally. This prevents arbitrary per-species arithmetic.
+These bands prevent arbitrary per-species arithmetic. Balance testing may move a whole band coherently; content may not silently create unbounded exceptions.
 
-## 3.1 Stress thresholds
-
-Three threshold profiles:
-
-### Hardy
-- agitated enter: 8
-- agitated exit: 4
-- panic enter: 14
-- panic exit: 9
-
-### Standard
-- agitated enter: 6
-- agitated exit: 3
-- panic enter: 11
-- panic exit: 7
-
-### Sensitive
-- agitated enter: 5
-- agitated exit: 2
-- panic enter: 9
-- panic exit: 6
-
-All preserve canonical hysteresis ordering.
+## 3.1 Stress profiles
+**Hardy**: agitated enter 8, exit 4; panic enter 14, exit 9.  
+**Standard**: agitated enter 6, exit 3; panic enter 11, exit 7.  
+**Sensitive**: agitated enter 5, exit 2; panic enter 9, exit 6.
 
 ## 3.2 Contamination profiles
+**Resistant**: intake x0.5 fixed-point, contaminated enter 11, exit 5.  
+**Standard**: intake x1.0, enter 8, exit 4.  
+**Vulnerable**: intake x1.5, enter 7, exit 3.
 
-### Resistant
-- intake multiplier: 0.5 fixed-point equivalent
-- contaminated enter: 11
-- contaminated exit: 5
+## 3.3 Satiety
+- low reserve start 3–4;
+- normal reserve start 5–7;
+- high reserve start 8–9;
+- ordinary metabolism -1 every 2 ticks;
+- high metabolism -1/tick;
+- feed intake cap 1, 2 or 3 units/tick.
 
-### Standard
-- intake multiplier: 1.0
-- contaminated enter: 8
-- contaminated exit: 4
+## 3.4 Source/sink magnitudes
+Continuous environmental output: weak 2, standard 3, strong 4.  
+T10 pulse: typically 4–6 per legal bounded trigger.  
+Sink/mitigation capacity: weak 2, standard 3, strong 4.  
+Direct social stress modification: weak 1, standard 2, strong 3.
 
-### Vulnerable
-- intake multiplier: 1.5 fixed-point equivalent
-- contaminated enter: 7
-- contaminated exit: 3
+No launch species exceeds strong continuous output. Larger magnitudes belong to route hazards or bounded pulses.
 
-## 3.3 Satiety bands
+## 3.5 Range
+- adjacency = Manhattan 1;
+- near = Manhattan <=2;
+- directed = cardinal ray 2 or 3;
+- no always-on whole-hold organism aura.
 
-- low reserve start: 3–4
-- normal reserve start: 5–7
-- high reserve start: 8–9
-- ordinary metabolism: -1 every 2 ticks
-- high metabolism: -1 every tick
-- feed intake cap: 1, 2, or 3 units/tick
-
-## 3.4 Source/sink magnitude bands
-
-Environmental source output per authoritative tick:
-- weak: 2
-- standard: 3
-- strong: 4
-- pulse: 4–6 once per legal state-entry event
-
-Sink/mitigation capacity:
-- weak: 2
-- standard: 3
-- strong: 4
-
-Social direct stress modification:
-- weak: 1
-- standard: 2
-- strong: 3
-
-No launch species exceeds `strong` continuous output. Larger numbers belong to route hazards or rare one-time pulses.
-
-## 3.5 Range bands
-
-- adjacency: distance 1
-- near: Manhattan distance <=2
-- directed: cardinal ray range 2 or 3
-
-No launch organism uses an always-on whole-hold aura.
-
-## 3.6 Lifecycle timing bands
-
-Growth/sleep prerequisite duration:
-- quick: 1 completed qualifying tick
-- standard: 2 consecutive qualifying ticks
-- slow: 3 consecutive qualifying ticks
-
-Delayed reactive output:
-- next tick
-- +2 ticks maximum for normal launch content
-
-Longer hidden timers are prohibited because they become memory tests rather than spatial prediction.
+## 3.6 Lifecycle timing
+Qualifying duration: quick 1 tick, standard 2 consecutive ticks, slow 3.  
+Normal delayed output: next tick or +2 ticks maximum. Longer hidden timers are prohibited.
 
 ---
 
-# 4. Canonical launch species roster — 22 species
+# 4. Launch roster — O01–O22
 
-The first nine preserve the Phase-4 validation identities. Values below are launch-band identities, not final balance numbers.
+The roster is a **maximum** pending prototype keep/cut evidence.
 
 ## O01 Ember Pod
-- body/stage: B01 Dot, fixed stage;
-- profile: Standard stress, Standard contamination;
-- traits: T01 Heat Emitter + T03 Alarm Emitter;
-- role: unstable heat/social source;
-- useful partners: Hushling, Ash Sponge;
-- dangerous partners: Pulse Mite, other sensitive emitters;
-- lifecycle: none;
-- readability hook: ember-orange sac that brightens and trembles with stress;
-- tiers: 1–6;
-- generator exclusions: never pair more than 3 in generated manifests below Tier 4.
+B01 Dot; Standard stress/contamination; T01 Heat Emitter + T03 Alarm Emitter. Unstable heat/social source. Readability: sac brightens/trembles. Tier 1–6. Generated manifests below Tier 4: max 3.
 
 ## O02 Hushling
-- body/stage: B01 Dot;
-- profile: Sensitive stress, Standard contamination;
-- traits: T04 Soother;
-- role: narrow social stabilizer;
-- useful partners: Ember Pod, Pulse Mite, Glass Larva;
-- dangerous partners: stress sources that can disable its CALM-only function;
-- lifecycle: none;
-- readability hook: soft folded antennae open only while soothing;
-- tiers: 1–6;
-- exclusions: no generated contract may rely on one Hushling soothing more targets than its capacity.
+B01 Dot; Sensitive/Standard; T04 Soother. Capacity-1 calm/awake social stabilizer. Readability: antennae open only while soothing. Tier 1–6. Never validate content by assuming it soothes beyond capacity.
 
 ## O03 Silt Grazer
-- body/stage: B01 Dot -> B02 Domino;
-- profile: Standard stress, Resistant contamination;
-- traits: T06 Filter Feeder + T08 Growth Trigger;
-- role: contamination sink whose success changes topology;
-- useful partners: Spore Bell, contamination routes;
-- dangerous partners: tight holds, Feed Cartridge when early growth is undesirable;
-- lifecycle: grows after sustained satiety threshold;
-- readability hook: squat mouth-ring sprouts a forward tail segment before growth;
-- tiers: 2–6;
-- exclusions: generator must prove at least one legal growth path unless blocked growth is an explicitly visible intended pressure.
+B01 -> B02; Standard stress, Resistant contamination; T06 Filter Feeder + T08 Growth. Consumes contamination and turns success into future topology. Readability: budding forward segment. Tier 2–6. Generated cases must prove a legal growth family unless blocked growth is explicit intended pressure.
 
 ## O04 Spore Bell
-- body/stage: B01 Dot;
-- profile: Hardy stress, Standard contamination;
-- traits: T05 Spore Shedder + T10 Reactive Pulse;
-- role: persistent contamination cascade seed;
-- useful partners: Silt Grazer, Filter;
-- dangerous partners: contamination-vulnerable species;
-- lifecycle: state-gated by CONTAMINATED;
-- readability hook: translucent bell fills with visible dark motes before shedding;
-- tiers: 2–6;
-- exclusions: no first-contact discovery contract may combine it with another undocumented contamination rule.
+B01; Hardy/Standard; T05 Spore Shedder + bounded T10 contamination pulse. Persistent contamination cascade seed. Readability: bell fills with motes. Tier 2–6. First discovery never combines another undocumented contamination rule.
 
 ## O05 Warmback
-- body/stage: B02 Domino;
-- profile: Hardy stress, Resistant contamination;
-- traits: T01 Heat Emitter + T09 Symbiotic Buffer;
-- role: harmful thermal body / narrow protector;
-- useful partners: FRAGILE-tag organisms vulnerable to contamination;
-- dangerous partners: heat-sensitive clusters;
-- lifecycle: none;
-- readability hook: hot dorsal plates; shielded neighbor gets visible amber link;
-- tiers: 2–6;
-- exclusions: at most one protected target per Warmback.
+B02; Hardy/Resistant; T01 + T09. Harmful thermal body + one-target narrow protection. Readability: hot dorsal plates + shield link. Tier 2–6. One protected target maximum.
 
 ## O06 Cradle Moss
-- body/stage: B01 Dot;
-- profile: Sensitive stress, Resistant contamination;
-- traits: T04 Soother + T07 FEEDING producer form;
-- role: beneficial cluster anchor with double loss when asleep/panicked;
-- useful partners: grazers and alarm-prone species;
-- dangerous partners: hazards that disable CALM/awake benefits;
-- lifecycle: awake/asleep strongly changes role;
-- readability hook: fronds open while producing food/soothing, fold shut during sleep;
-- tiers: 2–6;
-- exclusions: generator must not count both benefits as independent supports when one state disables both.
+B01; Sensitive/Resistant; T04 + T07 producer-form feeding grammar. Beneficial cluster anchor whose documented state gates can remove soothing/feeding. Readability: fronds open/fold. Tier 2–6. Do not count its two benefits as independent when the same state disables both.
 
 ## O07 Pulse Mite
-- body/stage: B01 Dot;
-- profile: Sensitive stress, Standard contamination;
-- traits: T03 Alarm Emitter + T10 heat Reactive Pulse;
-- role: converts social failure into heat failure;
-- useful partners: Hushling, Baffle;
-- dangerous partners: Ember Pod, heat-sensitive species;
-- lifecycle: one-time pulse on PANICKED entry;
-- readability hook: small bright thorax flashes once on panic transition;
-- tiers: 2–6;
-- exclusions: no recursive same-tick pulse chain accepted by validator.
+B01; Sensitive/Standard; T03 + bounded T10 heat pulse on PANICKED entry. Converts social failure into heat failure. Readability: one panic flash. Tier 2–6. Recursive pulse chains invalid.
 
 ## O08 Glass Larva
-- body/stage: B01 Dot -> B03 Corner;
-- profile: Sensitive stress, Vulnerable contamination;
-- traits: T07 Grazer + T08 Growth Trigger;
-- role: future-space lifecycle puzzle;
-- useful partners: Cradle Moss, Feed Cartridge, Warmback protection;
-- dangerous partners: blocked corners, contamination sources;
-- lifecycle: matures after sustained satiety;
-- readability hook: transparent body shows three budding lobes matching future footprint;
-- tiers: 2–6;
-- exclusions: generated contracts must overlay/validate legal mature footprint.
+B01 -> B03 Corner; Sensitive/Vulnerable; T07 + T08. Future-space lifecycle puzzle. Readability: transparent body shows future lobes. Tier 2–6. Mature footprint must be validated.
 
 ## O09 Ash Sponge
-- body/stage: B02 Domino;
-- profile: Hardy stress, Resistant contamination;
-- traits: T02 Heat Sink + T06 Filter Feeder + T10 delayed stress Reactive output;
-- role: powerful two-channel helper with self-generated social cost;
-- useful partners: heat/contamination sources;
-- dangerous partners: sensitive social clusters;
-- lifecycle: delayed stress output after high heat absorption;
-- readability hook: dark porous body swells red, then exhales visible agitation wave;
-- tiers: 4–6;
-- exclusions: authored or high-tier generated only; never introduced before player understands all three component families.
+B02; Hardy/Resistant; T02 + T06 + bounded delayed T10 social downside. Two-channel helper that accumulates a later social cost. Readability: swells red then emits agitation wave. Tier 4–6 only. Never treat as universal helper.
 
 ## O10 Frost Finch
-- body/stage: B01 Dot;
-- profile: Sensitive stress, Standard contamination;
-- traits: T02 Heat Sink;
-- role: simple local thermal sink;
-- useful partners: Ember Pod, Warmback;
-- dangerous partners: none intrinsic, but low capacity makes over-clustering fail;
-- lifecycle: none;
-- readability hook: pale feather-crystal mantle frosts adjacent cells when active;
-- tiers: 1–6;
-- exclusions: none beyond capacity validation.
+B01; Sensitive/Standard; T02. Simple local heat sink and living-vs-powered baseline. Readability: visible frost mantle. Tier 1–6.
 
 ## O11 Rattle Reed
-- body/stage: B04 Bar;
-- profile: Standard stress, Resistant contamination;
-- traits: T03 Alarm Emitter, directed orientation variant;
-- role: directional social hazard and separator;
-- useful partners: Baffle, distant positioning;
-- dangerous partners: targets in its facing ray;
-- lifecycle: alarm activates while AGITATED/PANICKED;
-- readability hook: three reed chambers visibly point toward emission direction;
-- tiers: 3–6;
-- exclusions: never place in tutorial before directed overlays are taught.
+B04; Standard/Resistant; directed T03. Orientation defines a directed social hazard. Readability: reed chambers point along emission ray. Tier 3–6. Directed overlay taught before use.
 
 ## O12 Velvet Nurse
-- body/stage: B02 Domino;
-- profile: Standard stress, Standard contamination;
-- traits: T04 Soother + T09 Symbiotic Buffer;
-- role: one-target welfare specialist with positioning cost;
-- useful partners: FRAGILE or sensitive species;
-- dangerous partners: its value collapses if forced asleep/panicked;
-- lifecycle: none;
-- readability hook: one side glows soft blue toward selected eligible neighbor;
-- tiers: 3–6;
-- exclusions: generated manifests may contain at most 2 to prevent blanket buffering.
+B02; Standard/Standard; T04 + T09. One-target soothe+buffer specialist with positional/state cost. Readability: directed blue neighbor glow. Tier 3–6. Max 2 in generated manifests.
 
 ## O13 Cinder Snail
-- body/stage: B02 Domino;
-- profile: Hardy stress, Resistant contamination;
-- traits: T01 Heat Emitter + T08 Growth Trigger;
-- role: slow thermal source that becomes a larger spatial obstacle;
-- useful partners: Frost Finch, Cooler;
-- dangerous partners: tight future-space layouts;
-- lifecycle: B02 Domino -> B04 Bar after sustained high heat exposure;
-- readability hook: shell extends one visible segment in facing direction;
-- tiers: 3–6;
-- exclusions: growth path must be validated; not combined with hidden route timing on first use.
+B02 -> B04; Hardy/Resistant; T01 + T08. Heat exposure causes linear growth/future obstruction. Readability: shell extends in facing direction. Tier 3–6. First use cannot also hide route timing.
 
 ## O14 Mire Sipper
-- body/stage: B01 Dot;
-- profile: Standard stress, Resistant contamination;
-- traits: T06 Filter Feeder;
-- role: simple contamination sink without growth complication;
-- useful partners: Spore Bell, contamination leak routes;
-- dangerous partners: none intrinsic, but capacity-limited;
-- lifecycle: none;
-- readability hook: visible siphon animation only when contamination is actually consumed;
-- tiers: 1–6;
-- exclusions: none.
+B01; Standard/Resistant; T06. Simple contamination sink without lifecycle. Readability: siphon animation only while consuming. Tier 1–6.
 
 ## O15 Lantern Tick
-- body/stage: B01 Dot;
-- profile: Sensitive stress, Standard contamination;
-- traits: T10 Reactive Pulse producing temporary food on CALM recovery after AGITATED;
-- role: recovery timing resource source;
-- useful partners: grazers that need a timed feed window;
-- dangerous partners: constant stress that prevents recovery pulse;
-- lifecycle: pulse once per distinct legal recovery event, bounded by cooldown/event guard;
-- readability hook: abdomen lights only on recovery boundary;
-- tiers: 4–6;
-- exclusions: generated validator caps recover-pulse count and rejects self-sustaining food loops.
+B01; Sensitive/Standard; bounded T10 temporary-food pulse on CALM recovery after AGITATED. Recovery-timing resource source. Readability: abdomen lights at recovery boundary. Tier 4–6. Must declare cooldown/episode/trigger cap; self-sustaining loops rejected.
 
 ## O16 Moth Cushion
-- body/stage: B03 Corner;
-- profile: Sensitive stress, Vulnerable contamination;
-- traits: T04 Soother + sleep-gated lifecycle rule using existing sleep grammar;
-- role: broad footprint that is useful awake but easy to disable;
-- useful partners: clustered sensitive species;
-- dangerous partners: vibration timing, contamination sources;
-- lifecycle: enters sleep quickly on Nest Pad; soothing disabled asleep;
-- readability hook: wing-corner folds visibly closed during sleep;
-- tiers: 3–6;
-- exclusions: no contract may require its soothing and mandatory sleep simultaneously without making timing solvable.
+B03; Sensitive/Vulnerable; T04 + explicit sleep-gated soothing. Large-footprint soother with wake/sleep vulnerability. Readability: wing-corner folds shut asleep. Tier 3–6. No contract can require soothing and mandatory sleep simultaneously without solvable timing.
 
 ## O17 Coal Urchin
-- body/stage: B01 Dot;
-- profile: Hardy stress, Resistant contamination;
-- traits: T02 Heat Sink + T03 Alarm Emitter;
-- role: thermal helper that becomes a social liability under stress;
-- useful partners: hot but emotionally stable cargo;
-- dangerous partners: panic-prone clusters;
-- lifecycle: none;
-- readability hook: spines cool from red to black while calm, flare on agitation;
-- tiers: 4–6;
-- exclusions: generator rejects cases where its sink and alarm are both irrelevant.
+B01; Hardy/Resistant; T02 + T03. Thermal helper that becomes social liability. Readability: spines cool/flare. Tier 4–6. Generator rejects cases where both sides are irrelevant.
 
 ## O18 Spindle Bloom
-- body/stage: B01 Dot -> B04 Bar;
-- profile: Standard stress, Standard contamination;
-- traits: T05 Spore Shedder + T08 Growth Trigger;
-- role: contamination source whose emission footprint expands over time;
-- useful partners: filters/grazers;
-- dangerous partners: vulnerable species and narrow lanes;
-- lifecycle: matures under sustained contamination exposure;
-- readability hook: folded bud unfurls into a line of spore cups;
-- tiers: 4–6;
-- exclusions: advanced-only; generator must ensure causal explanation remains <=5 meaningful links for Bronze path.
+B01 -> B04; Standard/Standard; T05 + T08. Contamination source whose emission footprint expands. Readability: bud unfurls into spore line. Tier 4–6. Advanced only; Bronze causal explanation must remain bounded.
 
 ## O19 Amber Leech
-- body/stage: B01 Dot;
-- profile: Standard stress, Resistant contamination;
-- traits: T07 Grazer + T09 Symbiotic Buffer;
-- role: consumes food while protecting the same compatible neighbor, creating dependency;
-- useful partners: food-producing FRAGILE species;
-- dangerous partners: Feed Cartridge competition and starvation;
-- lifecycle: none;
-- readability hook: visible feeding tether doubles as protection link;
-- tiers: 3–6;
-- exclusions: source cost must remain conserved; no free infinite feed/protection cycle.
+B01; Standard/Resistant; T07 + T09. Consumes food while protecting the same compatible partner. Readability: feeding/protection tether. Tier 3–6. Conservation required; no infinite feed/protect loop.
 
 ## O20 Whistle Crab
-- body/stage: B03 Corner;
-- profile: Hardy stress, Standard contamination;
-- traits: T03 Alarm Emitter + T09 Symbiotic Buffer;
-- role: protector that becomes dangerous when its own stress rises;
-- useful partners: one compatible fragile target;
-- dangerous partners: route vibration/heat sources;
-- lifecycle: none;
-- readability hook: one claw shelters a neighbor while shell vents whistle rings when agitated;
-- tiers: 4–6;
-- exclusions: cannot protect from stress; otherwise it could negate its own primary downside.
+B03; Hardy/Standard; T03 + T09. Protector that becomes an alarm hazard under stress. Readability: shelter claw + whistle rings. Tier 4–6. Cannot protect against stress, preserving downside.
 
 ## O21 Pale Drifter
-- body/stage: B02 Domino;
-- profile: Standard stress, Vulnerable contamination;
-- traits: T10 cleansing Reactive Pulse on waking + sleep lifecycle rule;
-- role: timed contamination relief tied to wake events;
-- useful partners: Nest Pad, bounded contamination spikes;
-- dangerous partners: wrong vibration timing or unnecessary sleep;
-- lifecycle: wake produces one cleansing pulse using T10; no continuous sink;
-- readability hook: dormant body clouds over; wake produces one bright clearing ring;
-- tiers: 5–6 / discovery first;
-- exclusions: only one pulse per sleep episode; generated use only after documented.
+B02; Standard/Vulnerable; bounded T10 cleansing pulse on waking + explicit sleep lifecycle. Timed contamination relief, not continuous filter. Readability: one clearing ring on wake. Tier 5–6/discovery first. One pulse per sleep episode.
 
 ## O22 Splitcap
-- body/stage: B02 Domino -> 4-cell authored growth footprint derived from B03-style extension, no new body-plan family;
-- profile: Sensitive stress, Standard contamination;
-- traits: T06 Filter Feeder + T08 Growth Trigger + T03 Alarm Emitter;
-- role: mastery species that turns successful filtering into future size and possible social instability;
-- useful partners: bounded contamination sources, Hushling/Baffle;
-- dangerous partners: tight holds and uncontrolled feed/filter loops;
-- lifecycle: grows after sustained contamination consumption/satiety; alarm only while agitated/panicked;
-- readability hook: cap visibly separates into four lobes before growth;
-- tiers: 6 / authored mastery and validated generation only;
-- exclusions: excluded from discovery and low-tier generation; solver must verify future footprint and post-growth adjacency.
+B02 -> authored 4-cell extension using existing body-plan grammar; Sensitive/Standard; T06 + T08 + T03. Successful filtering causes growth then possible social instability. Readability: cap splits into four lobes. Tier 6 authored/validated generation only. Future footprint and post-growth adjacency must be solver-validated.
+
+## 4.1 Mandatory redundancy gates
+Prototype comparison clusters:
+- O06 / O12 / O16;
+- O05 / O19 / O20.
+
+For each representative validation set, record preferred placement, support choice and revision choice. If two members of one cluster create the same preferred decision in **>=70%** of representative cases, cut/merge the less readable species.
+
+This is a keep/cut gate, not an invitation to invent replacement mechanics.
 
 ---
 
-# 5. Hold families and layout grammar
+# 5. Support roster and non-dominance gates
 
-Launch uses five hold families. Families alter topology/fixtures only; none adds a new simulation subsystem.
+Supports are exactly S01–S06:
+- S01 Cooler;
+- S02 Filter;
+- S03 Baffle;
+- S04 Nest Pad;
+- S05 Feed Cartridge;
+- S06 Monitor Beacon.
+
+The goal is not equal frequency; it is no universal best support.
+
+| Support | Preferred authored proof | Legal-but-inferior proof | Alternate living/structural family | Non-dominance reason |
+|---|---|---|---|---|
+| S01 Cooler | C07/C22/C44 | C29 Brownout/fixture pressure | Frost Finch / Coal Urchin | power+fixture cost, local capacity, Brownout |
+| S02 Filter | C12 | C16/C39 beneficial contamination timing | Mire Sipper / Silt Grazer / Ash Sponge | can remove useful contamination; power+fixture |
+| S03 Baffle | C14/C27 | C19/C39 where it breaks beneficial relation | topology + Hushling/Velvet Nurse | occupies spatial opportunity, blocks links/rays |
+| S04 Nest Pad | C20/C23 | C21 vibration/arrival-awake | natural sleep timing | capacity 1, wake hazards, explicit sleep gates |
+| S05 Feed Cartridge | C19/C22 | C16/C39 early feeding/growth harmful | Cradle Moss / Lantern Tick | finite reserve, occupies space, can accelerate dangerous growth |
+| S06 Monitor Beacon | C33/C36/C40 | documented non-discovery cases | conservative bounded inference | no mitigation; never required for Bronze |
+
+Global gates:
+- across C17–C48, Cooler+Filter may be certified primary Bronze pair in at most **8** contracts;
+- at least one contract in each Chapters 3–6 makes Cooler or Filter actively inferior through power, fixture, timing or beneficial-channel logic;
+- Baffle+one soother cannot erase all social decisions without another spatial/lifecycle cost;
+- living substitutes trade cargo-space/state vulnerability/secondary effects for reduced fixture/power cost;
+- powered supports trade fixture/power for predictable operation while powered;
+- neither family may strictly dominate the launch set.
+
+---
+
+# 6. Hold families and layouts
+
+Launch families:
 
 ## HF1 Open Crate
-Purpose: teach relationships clearly.
-- mostly rectangular usable grid;
-- 5x5 to 6x5;
-- 1–2 utility fixtures;
-- optional single bed fixture;
-- broad zones.
-
-Launch layouts: H01 Training Crate, H02 Long Crate, H03 Twin-Fixture Crate.
+5x5 to 6x5, broad zones, 1–2 utility fixtures. H01 Training Crate, H02 Long Crate, H03 Twin-Fixture Crate.
 
 ## HF2 Split Hold
-Purpose: create separation/bridge decisions.
-- partial wall/blocked-cell spine;
-- baffle-compatible boundary;
-- port/starboard zones;
-- 2 utility fixtures;
-- 5x6 to 6x6.
-
-Layouts: H04 Split Hold, H05 Offset Split, H06 Narrow Gate.
+5x6 to 6x6, partial wall/spine, baffle-compatible boundary, two utility fixtures. H04 Split Hold, H05 Offset Split, H06 Narrow Gate.
 
 ## HF3 Bent Hold
-Purpose: challenge template reuse and directed/growth planning.
-- irregular L/bent usable area;
-- 2–3 utility fixtures;
-- uneven zone sizes;
-- some edge cells unavailable.
-
-Layouts: H07 Bent Hold, H08 Hook Hold.
+Irregular L/bent area, 2–3 fixtures, uneven zones. H07 Bent Hold, H08 Hook Hold.
 
 ## HF4 Service Bay
-Purpose: make fixture competition central.
-- moderate cargo area but dense utility/bed fixture topology;
-- route power capacity is comparatively tight;
-- no special runtime rule beyond existing fixtures/power.
-
-Layouts: H09 Service Bay, H10 Cross-Fixture Bay.
+Moderate cargo area, dense fixture topology, tight route power. H09 Service Bay, H10 Cross-Fixture Bay.
 
 ## HF5 Constricted Vault
-Purpose: mastery spatial pressure.
-- 7x6 to 9x7 bounding area but with 20–35% blocked cells;
-- pockets connected by 1–2-cell necks;
-- directional species and future growth become important;
-- larger visual footprint without higher organism count.
+7x6 to 9x7 bounding area with 20–35% blocked cells, pockets and necks, high growth/directional pressure. H11 Three-Pocket Vault, H12 S-Corridor Vault.
 
-Layouts: H11 Three-Pocket Vault, H12 S-Corridor Vault.
-
-### Hold-generation limits
-Generated contracts use authored layouts only at launch. The generator may select, rotate/mirror where symmetry rules permit, choose zone/hazard assignments, and choose fixture availability; it does **not** procedurally invent arbitrary grid topology at launch. This preserves readability and solver reliability.
+Launch generation uses authored layouts only. It may choose/mirror/rotate only where symmetry data permits; no arbitrary procedural topology at launch.
 
 ---
 
-# 6. Route hazard families
+# 7. Route hazard/profile families
 
-Seven launch hazard families, all expressible through existing route/hold inputs.
+- RH1 Thermal Surge — bounded heat to named zone/ticks.
+- RH2 Contamination Leak — contamination source in named cells/zones/ticks.
+- RH3 Vibration Burst — stress-field event and explicit wake requests.
+- RH4 Brownout — Phase-A powered-support capacity change.
+- RH5 Vent Cycle — existing decay/vent modifier; may also use declared heat-removal input.
+- RH6 Thermal Gradient — different heat input in declared zones using existing heat grammar.
+- RH7 Maintenance Oscillation — deterministic sequence of existing inputs such as Brownout then Vibration; not a new effect type.
 
-## RH1 Thermal Surge
-Adds bounded heat to named zones for a known tick window.
-Teaching use: simplest route-to-organism causal link.
-
-## RH2 Contamination Leak
-Adds contamination to named source cells/zones for a known window.
-Teaching use: persistence, filters, filter feeders.
-
-## RH3 Vibration Burst
-Adds a short stress-field event and wakes ASLEEP organisms according to existing wake rules.
-Teaching use: sleep timing and social cascades.
-
-## RH4 Brownout
-Reduces available powered-support capacity for a known window.
-Teaching use: support priority and loss of mitigation.
-
-## RH5 Vent Cycle
-Applies existing contamination decay/vent modifier for a known window and may also apply a small heat-removal modifier if the route profile declares it through existing channel input.
-Teaching use: timing beneficial route events; no new channel.
-
-## RH6 Thermal Gradient
-Applies different heat input to two declared zones during the same window.
-Teaching use: orientation/zone tradeoff and anti-template pressure.
-
-## RH7 Maintenance Oscillation
-A deterministic sequence composed only of existing inputs, e.g. short brownout followed several ticks later by vibration or vice versa. It is stored as a route profile, not a new effect type.
-Teaching use: multi-event temporal planning.
-
-### Hazard sequencing limits
-- Tier 0–1: 0–1 active family;
+Sequencing limits:
+- Tier 0–1: 0–1 family;
 - Tier 2: max 1 family, optionally two non-overlapping events;
-- Tier 3: max 2 families;
-- Tier 4–5: max 3 families, with no more than 2 simultaneously active;
-- Tier 6: max 4 families, still no more than 2 simultaneous unless an authored final contract explicitly demonstrates readability;
-- no normal route exceeds 24 ticks;
-- first exposure to a family uses exact timing and intensity;
-- hidden/bounded uncertainty is reserved for discovery content and never overlaps two unknown hazard dimensions.
+- Tier 3: max 2;
+- Tier 4–5: max 3, no more than 2 simultaneously;
+- Tier 6: max 4, normally <=2 simultaneous unless authored final readability evidence says otherwise;
+- normal route <=24 ticks;
+- first exposure uses exact timing/intensity;
+- bounded uncertainty never hides two independent dimensions at once.
 
 ---
 
-# 7. Campaign architecture — 48 authored contracts
+# 8. Exact authored campaign graph — C01–C48
 
-The campaign is divided into six chapters of eight contracts. Chapter boundaries are mechanical teaching boundaries, not large narrative episodes.
+Bronze completion is the **only** campaign progression currency. A node unlocks when all named prerequisites are Bronze-complete. Silver/Gold, Challenge results, achievements, retry count, XP, money, online state and undocumented knowledge flags are never campaign prerequisites.
 
-## Chapter 1 — Read the Hold (C01–C08)
-Goal: learn placement, orientation, one source/sink, first route consequence.
+| Contract | Prerequisites | Primary purpose |
+|---|---|---|
+| C01 | none | placement / launch |
+| C02 | C01 | soothing |
+| C03 | C01 | heat / alarm |
+| C04 | C02 | heat sink |
+| C05 | C03 | first route heat consequence |
+| C06 | C04 | Domino / orientation |
+| C07 | C05,C06 | optional welfare + Cooler |
+| C08 | C07 | Ch1 capstone: dynamic trait activation |
+| C09 | C08 | contamination sink intro |
+| C10 | C08 | contamination source intro |
+| C11 | C09,C10 | contamination route leak |
+| C12 | C11 | Filter |
+| C13 | C11 | Silt Grazer / useful contamination |
+| C14 | C12,C13 | Baffle / cluster-separate tradeoff |
+| C15 | C14 | authored recombination case |
+| C16 | C14,C15 | Ch2 capstone: contamination feeding + future footprint |
+| C17 | C16 | Cradle Moss / awake-asleep role |
+| C18 | C16 | Glass Larva / growth footprint |
+| C19 | C17,C18 | Feed Cartridge |
+| C20 | C17 | Nest Pad / sleep |
+| C21 | C20 | vibration wake timing |
+| C22 | C18,C19 | Cinder Snail / heat-driven growth |
+| C23 | C20,C21 | Moth Cushion + Warmback timing/protection |
+| C24 | C22,C23 | Ch3 capstone: wake + growth + support tradeoff |
+| C25 | C24 | Pulse Mite social-to-heat cascade |
+| C26 | C24 | Velvet Nurse narrow protection |
+| C27 | C25 | Rattle Reed / directed overlay |
+| C28 | C26 | Service Bay / fixture competition |
+| C29 | C27,C28 | Brownout + support priority |
+| C30 | C29 | Coal Urchin helper-liability composite |
+| C31 | C29 | Whistle Crab protection downside |
+| C32 | C30,C31 | Ch4 capstone: interruptible four-step cascade |
+| C33 | C32 | Monitor Beacon / evidence tool |
+| C34 | C33 | Lantern Tick bounded discovery |
+| C35 | C34 | Lantern Tick documented use |
+| C36 | C33 | Pale Drifter bounded wake discovery |
+| C37 | C36 | Pale Drifter documented use |
+| C38 | C35,C37 | Spindle Bloom advanced lifecycle |
+| C39 | C38 | Amber Leech dependency |
+| C40 | C39 | Ch5 capstone: unknown route detail / Monitor tradeoff |
+| C41 | C40 | Ash Sponge advanced composite |
+| C42 | C40 | Splitcap mastery species |
+| C43 | C41,C42 | Constricted Vault mastery topology |
+| C44 | C43 | Thermal Gradient recombination |
+| C45 | C43 | Maintenance Oscillation recombination |
+| C46 | C44,C45 | anti-template helper-liability test |
+| C47 | C46 | penultimate full-system mastery |
+| C48 | C47 | final Living Manifest |
 
-Introductions:
-- C01 placement and launch with Dot species;
-- C02 Hushling soothing relationship;
-- C03 Ember Pod heat/alarm;
-- C04 Frost Finch heat sink;
-- C05 first Thermal Surge;
-- C06 first Domino orientation;
-- C07 first Silver/Gold welfare objective;
-- C08 milestone: one route hazard creates a state change that activates a second trait.
+Capstones: C08, C16, C24, C32, C40, C48.
 
-Available supports: none until C06; Cooler first appears C07.
+Build-time graph validator must assert:
+- exactly 48 nodes;
+- every prerequisite exists;
+- graph acyclic;
+- C01 has none;
+- every C09–C48 reachable from C01;
+- no non-Bronze progression dependency leaks in;
+- each capstone is gated behind both required teaching lanes;
+- imported demo progress maps only to C01–C08; D09–D10 never auto-clear C09+.
 
-## Chapter 2 — Useful Neighbors (C09–C16)
-Goal: cluster/separate tradeoffs and contamination.
+---
 
-Introductions:
-- Mire Sipper;
-- Spore Bell;
-- Contamination Leak;
-- Filter;
-- Silt Grazer;
-- Baffle;
-- first growth planning;
-- first generated-style recombination contract at C15;
-- C16 milestone combines contamination feeding + future footprint.
+# 9. Campaign content structure and dynamic-transit quotas
 
-## Chapter 3 — Plan for Later (C17–C24)
-Goal: lifecycle timing, feeding, sleep/wake.
+## Chapter 1 — Read the Hold, C01–C08
+Placement, Hushling, Ember Pod, Frost Finch, first Thermal Surge, Domino orientation, first optional welfare/Gold, dynamic activation capstone.
 
-Introductions:
-- Cradle Moss;
-- Glass Larva;
-- Feed Cartridge;
-- Nest Pad;
-- Vibration Burst;
-- Cinder Snail;
-- Moth Cushion;
-- Warmback;
-- C24 milestone: wake window + growth window + one support tradeoff.
+## Chapter 2 — Useful Neighbors, C09–C16
+Mire Sipper, Spore Bell, contamination leak, Filter, Silt Grazer, Baffle, growth, recombination, contamination-feeding/future-footprint capstone.
 
-## Chapter 4 — Protect the Weak Link (C25–C32)
-Goal: cascades and scarce mitigation.
+## Chapter 3 — Plan for Later, C17–C24
+Cradle Moss, Glass Larva, Feed Cartridge, Nest Pad, Vibration, Cinder Snail, Moth Cushion, Warmback, wake+growth+support capstone.
 
-Introductions:
-- Pulse Mite;
-- Velvet Nurse;
-- Rattle Reed / directed overlay;
-- Brownout;
-- Service Bay hold family;
-- power priority;
-- Coal Urchin;
-- Whistle Crab;
-- C32 milestone: 4-step deterministic cascade that can be interrupted in at least two distinct ways.
+## Chapter 4 — Protect the Weak Link, C25–C32
+Pulse Mite, Velvet Nurse, Rattle Reed, Service Bay, Brownout/power priority, Coal Urchin, Whistle Crab, interruptible cascade capstone.
 
-## Chapter 5 — Discover, Don’t Guess (C33–C40)
-Goal: bounded uncertainty and codex discovery.
+## Chapter 5 — Discover, Don’t Guess, C33–C40
+Monitor Beacon, Lantern Tick discovery/documentation, Pale Drifter discovery/documentation, Spindle Bloom, Amber Leech, bounded-route-information capstone.
 
-Discovery sequence:
-- C33 first Monitor Beacon observation contract;
-- C34 Lantern Tick undocumented recovery-pulse family clue;
-- C35 exact documentation and normal use;
-- C36 Pale Drifter discovery with bounded wake clue;
-- C37 exact documentation;
-- C38 Spindle Bloom advanced lifecycle;
-- C39 Amber Leech dependency relationship;
-- C40 milestone: unknown route detail where Monitor competes with mitigation but Bronze remains conservatively solvable.
+## Chapter 6 — No Familiar Template, C41–C48
+Ash Sponge, Splitcap, Constricted Vault, Thermal Gradient, Maintenance Oscillation, anti-template composites, full-system mastery. C48 contains no new rule.
 
-Rule: every discovery contract unlocks exact documentation after unique causal observation; failure carries no persistent loss.
+Dynamic content gates:
+- C01–C04 may be near-static tutorials;
+- **every C05–C48** must contain a decision-relevant post-launch state/footprint/channel/support-power change;
+- **at least 20 of C09–C48** must require Bronze planning around two or more temporally separated changes;
+- at least two contracts per chapter in Chapters 2–6 make pure maximum-spacing inferior/impossible for rule-driven reasons;
+- Chapter 3 at least one, Chapter 4 at least one, Chapter 6 at least two make the obvious permanent growth-corner/edge reserve strategically bad;
+- Tier 4+ authored content includes Hushling/Velvet Nurse/Moth Cushion cases where the familiar helper is unavailable, vulnerable at the decisive window or inferior;
+- after Chapter 2, no more than three consecutive contracts share the same symmetry-normalized role-to-zone Bronze template.
 
-## Chapter 6 — No Familiar Template (C41–C48)
-Goal: mastery recombination, irregular holds, strict optional medals.
-
-Introductions:
-- Ash Sponge as advanced composite if not already shown in optional content;
-- Splitcap mastery species;
-- Constricted Vault family;
-- Thermal Gradient;
-- Maintenance Oscillation;
-- contracts intentionally vary which familiar helper is a liability.
-
-C43–C47 are six-system recombination tests but still keep causal chains for Bronze explainable.
-
-### C48 Final campaign test — “Living Manifest”
-Requirements:
+C48 requirements:
 - irregular authored vault;
-- 7–9 organisms drawn from at least five learned role families;
-- one lifecycle species;
-- one beneficial-dangerous composite species;
-- three known route hazard families in non-chaotic sequence;
+- 7–9 organisms from >=5 learned role families;
+- >=1 lifecycle species;
+- >=1 beneficial-dangerous composite;
+- three known hazard families in readable sequence;
 - power/fixture pressure;
-- at least two valid Bronze strategy families confirmed by solver;
-- Gold requires efficient support use plus welfare stability, never intentional harm;
-- no new rule, species behavior, or hidden fact appears here.
-
-The final contract proves model-building and recombination rather than memorization.
+- >=2 certified Bronze strategy families;
+- Gold rewards efficient support + welfare stability, never intentional harm;
+- no new species behavior/hidden fact/foundation rule.
 
 ---
 
-# 8. Authored vs generated content split
+# 10. Authored vs generated content
 
-## Authored
 Always authored:
-- the 48 campaign contracts;
-- all first introductions of species, supports, holds, hazards, and trait families;
+- C01–C48;
+- first introductions of species/supports/holds/hazards/trait families;
 - all discovery contracts;
-- the final six mastery contracts;
+- final mastery contracts;
 - tutorial text/cues;
-- flavor framing of milestone shipments;
-- hold layouts at launch.
+- launch hold layouts;
+- milestone flavor framing.
 
-## Generated/recombined
-Generator may vary:
-- manifest from unlocked/documented species pools;
-- starting meters within validated bands;
-- orientation choices;
-- authored hold selection plus permitted mirror/rotation variant;
-- support allowance from validated pools;
-- route profile/timing from validated hazard templates;
-- mandatory/medal predicate templates;
+Generator may vary only validated data:
+- manifest from unlocked/documented pools;
+- starting meters within bands;
+- orientations;
+- authored hold/symmetry variant;
+- support allowance;
+- route profile/timing from validated templates;
+- mandatory/Silver/Gold predicate templates;
 - deterministic seed.
 
-Generator does not create new trait definitions, new species compositions, arbitrary dialogue, arbitrary hold topology, or hidden mechanics.
+Generator never invents new trait definitions, species, executable callbacks, arbitrary topology or hidden mechanics.
 
 ---
 
-# 9. Generated challenge pipeline
+# 11. Generated challenge pipeline
 
-Every generated challenge passes all stages before exposure to the player.
+## Stage 1 — seeded assembly
+Input: generator version, deterministic seed, tier, documented content set, requested family. Select hold, route, manifest, starting state, support allowance and predicates.
 
-## Stage 1 — Seeded assembly
-Input:
-- generator version;
-- deterministic seed;
-- difficulty tier;
-- unlocked/documented content set;
-- requested challenge family.
+## Stage 2 — structural validation
+Reject impossible t0 fit, missing required fixture, impossible mandatory predicate, invalid trait composition, or required growth with no legal family when blocked growth is not explicit pressure.
 
-Select hold, route template, manifest, starting states, support allowance, predicates.
+## Stage 3 — certified Bronze construction
+Use known-valid layout families and/or bounded search through the authoritative simulator. **Every surfaced challenge has at least one proven Bronze solution.** Tier 4+ should target two materially distinct Bronze families where tractable (different support loadout, zone allocation or key adjacency/growth reservation, not symmetric swaps).
 
-## Stage 2 — Structural validation
-Reject if:
-- manifest cannot physically fit at t=0;
-- required support fixtures do not exist;
-- mandatory target is impossible by definition;
-- a growth species has no legal future configuration when the challenge does not explicitly allow blocked growth as pressure;
-- trait composition violates species/exclusion rules.
+## Stage 4 — medal validation
+Prove every offered medal. Reject Gold/Silver if no certified solution exists within search budget. Never require worse mandatory welfare solely to satisfy mastery.
 
-## Stage 3 — Candidate solution construction
-Use one or both:
-1. construct from known-valid heuristic layout families;
-2. bounded search over placements/orientations/support assignments using the authoritative deterministic simulator.
+## Stage 5 — causal opacity
+For canonical Bronze and plausible near-miss, generate causal graph. Reject when shortest useful failure explanation exceeds 6 major links below Tier 6; Tier 6 maximum 8 only with grouped routine propagation. Reject cases requiring >2 unseen state changes to be remembered simultaneously.
 
-A launch challenge must have at least one proven Bronze solution.
+## Stage 6 — dynamic-transit significance
+Reject when:
+- t0 legality/static adjacency explains the intended solution;
+- no meaningful organism state, footprint, environment, route power or timing relation changes after launch;
+- safe timing perturbation makes no strategic difference;
+- pure maximum-spacing is best without a dynamic relationship, except explicit `separation under changing topology` family.
 
-Tier 4+ generated challenges should target at least **two materially distinct Bronze solution families** where tractable, defined as differing in at least one of support loadout, zone allocation, or key adjacency/growth reservation—not merely symmetric cell swaps.
-
-## Stage 4 — Medal validation
-- prove Bronze;
-- prove Silver if offered;
-- prove Gold if offered;
-- reject a Gold predicate set if no valid solution found within the certified search budget;
-- reject medals whose only solution causes worse mandatory welfare than a simpler Bronze route unless the objective itself is a transparent tradeoff that remains ethically/product-consistent.
-
-## Stage 5 — Causal-opacity rejection
-For at least one canonical Bronze solution and one plausible near-miss:
-- generate causal graph from event log;
-- identify mandatory-failure path;
-- reject if the shortest useful explanation exceeds **6 major causal links** below Tier 6;
-- Tier 6 allows up to **8** only if the UI groups repeated channel propagation into one understandable event family;
-- reject if more than two unseen-by-player state changes must be remembered simultaneously to explain failure.
-
-## Stage 6 — Transit significance test
-Reject if:
-- success can be predicted entirely from t=0 legal fit/static adjacency and route adds no meaningful state change;
-- changing transit length/hazard timing within template-safe bounds has no strategic effect;
-- no organism state/footprint/environmental relationship changes after launch.
-
-Tutorial generator is exempt because tutorials remain authored anyway.
-
-## Stage 7 — Anti-template diversity
-Compare candidate against recent generated challenges and a library of dominant strategy fingerprints.
-
-Fingerprint dimensions:
+## Stage 7 — anti-template diversity
+Fingerprint:
 - hold family;
 - manifest role histogram;
-- key pressure channels;
-- lifecycle present yes/no;
-- required cluster/separate relation count;
+- pressure channels;
+- lifecycle yes/no;
+- cluster/separate relation count;
 - powered-support optimal set;
-- major route hazard sequence;
-- canonical solution zone allocation.
+- route sequence;
+- canonical zone allocation;
+- source-edge fraction / growth-reserve pattern diagnostics.
 
-Reject or down-rank if similarity score exceeds **0.80** against any of the last 5 surfaced challenges, or if the same powered-support pair is optimal in more than 3 consecutive surfaced challenges.
+Reject/down-rank similarity >0.80 against any of last five surfaced challenges. Reject the same powered-support pair as optimal in >3 consecutive surfaced challenges.
 
-## Stage 8 — Difficulty calibration
-A challenge must fit its tier envelope for organism count, pressure families, hazards, support complexity, and discovery information.
+## Stage 8 — difficulty calibration
+Tier uses organism count, pressure families, hazards, support complexity and information burden. Solver effort is secondary to human explanation structure.
 
-Difficulty is not inferred solely from solver node count. Solver effort is a secondary signal because human difficulty depends on explanation structure.
-
-## Stage 9 — Freeze record
-Persist:
-- generator version;
-- content-definition version;
-- seed;
-- all selected IDs and numeric starting parameters;
-- medal predicate version;
-- validation result hash;
-- at least one certified solution fingerprint for QA, hidden from normal player UI.
-
-This ensures exact reproduction after bug reports and save/reload.
+## Stage 9 — freeze record
+Persist generator/content/rules versions, seed, selected IDs/starting parameters, medal predicate version, validation hash and at least one hidden QA solution fingerprint.
 
 ---
 
-# 10. Narrative and flavor framing
+# 12. Demo specification — canonical 9+1 split
 
-The fiction must make species memorable without becoming dialogue-heavy.
+Included species:
+- documented: O01 Ember Pod, O02 Hushling, O03 Silt Grazer, O04 Spore Bell, O06 Cradle Moss, O07 Pulse Mite, O08 Glass Larva, O10 Frost Finch, O14 Mire Sipper;
+- bounded discovery: **O13 Cinder Snail only**.
 
-## 10.1 Player role
-The player is a specialist cargo ecologist/containment planner working for an inter-habitat transport service. The organization exists mainly to justify manifests, safety rules, route conditions, and increasingly unusual living cargo.
+Included supports: Cooler, Filter, Baffle, Feed Cartridge.  
+Included hazards: Thermal Surge, Contamination Leak, Vibration Burst.  
+Included holds: Training Crate, Long Crate, Split Hold.
 
-## 10.2 Contract framing
-Each authored contract uses at most:
-- a shipment title;
-- one-sentence client/context line;
-- manifest notes;
-- one optional arrival note after completion.
+Authored arc:
+- D01 placement/orientation;
+- D02 Hushling + Ember Pod;
+- D03 Thermal Surge and first clearly relevant transit change;
+- D04 Frost Finch capacity limit;
+- D05 contamination leak + Mire Sipper;
+- D06 Spore Bell persistence;
+- D07 Silt Grazer future growth;
+- D08 support choice: Filter vs no-powered Gold family;
+- D09 bounded Cinder Snail discovery;
+- D10 growth timing + thermal route event + competing proximity.
 
-No branching dialogue is required.
+Outside demo: Nest Pad, Monitor Beacon, Brownout/power priority, Service Bay/Constricted Vault, Ash Sponge/other mastery composites, Pale Drifter, advanced generator families, Chapters 5–6, final mastery.
 
-## 10.3 Species memory aids
-Every species has:
-- common name;
-- silhouette/icon;
-- 1–2 sentence ecological note;
-- exact mechanical trait summary once documented;
-- one memorable handling sentence.
-
-Example handling voice: “Warmbacks protect delicate neighbors from residue, but their plates run hot. Give the protected passenger room to breathe.”
-
-## 10.4 Tone
-Curious, competent, lightly strange, not grim body horror. Organisms can look odd but should be readable as living cargo with welfare worth preserving. Failure presentation emphasizes stress/unsafe delivery rather than gore.
-
-## 10.5 Environmental storytelling
-Flavor comes from:
-- destination/source tags;
-- shipping labels;
-- habitat stamps;
-- prior-handler notes;
-- species nicknames;
-- visual wear on crates/supports.
-
-None is mechanically authoritative unless mirrored in explicit rule UI.
+Demo transfer:
+- settings and codex knowledge transfer;
+- D01–D08 may map cleanly to C01–C08;
+- D09–D10 never auto-complete C09+;
+- imported knowledge never unlocks Challenge mode early;
+- no mechanical power bonus.
 
 ---
 
-# 11. Content data schemas
+# 13. Narrative/flavor scope
 
-These are conceptual implementation schemas. Exact serialization syntax belongs to Phase 8.
+Player role: specialist cargo ecologist/containment planner for an inter-habitat transport service.
 
-## 11.1 SpeciesDefinition
-- `species_id`
-- `display_name_key`
-- `body_plan_id`
-- `starting_stage`
-- `stage_definitions[]`
-- `legal_orientations[]`
-- `stress_profile_id`
-- `contamination_profile_id`
-- `satiety_profile`
-- `trait_instances[]`
-- `compatibility_tags[]`
-- `passive_readability_tags[]`
-- `generator_tier_min`
-- `generator_tier_max`
-- `generator_exclusions[]`
-- `discovery_definition_id?`
-- `presentation_profile_id`
-- `content_version`
+Each authored contract uses at most a shipment title, one-sentence context, manifest notes and optional arrival note. No branching dialogue required.
 
-## 11.2 TraitInstance
-- `trait_family_id`
-- `parameter_band_id`
-- `state_gate`
-- `target_selector`
-- `range_model`
-- `effect_parameters`
-- `delay_ticks?`
-- `capacity?`
-- `compatibility_tags[]`
-- `ui_summary_key`
-- `causal_log_key`
+Every species has common name, silhouette/icon, 1–2 sentence ecological note, exact documented mechanical summary and one memorable handling sentence.
 
-No arbitrary executable callback field is allowed in content data.
+Tone: curious, competent, lightly strange; not grim body horror. Failure emphasizes unsafe/stressed delivery, not gore.
 
-## 11.3 HoldDefinition
-- `hold_id`
-- `family_id`
-- `width`, `height`
-- `usable_cells[]`
-- `blocked_cells[]`
-- `utility_fixtures[]`
-- `bed_fixtures[]`
-- `zones[]`
-- `baffle_boundaries[]`
-- `power_capacity`
-- `legal_symmetry_transforms[]`
-- `tier_range`
-- `content_version`
-
-## 11.4 RouteDefinition
-- `route_id`
-- `tick_count`
-- `hazard_events[]`
-- `known_information_policy`
-- `uncertainty_bounds?`
-- `base_power_available`
-- `zone_modifiers[]`
-- `tier_range`
-- `content_version`
-
-Each hazard event has type, tick start/end, intensity band/value, target zone/cells, and reveal policy.
-
-## 11.5 ContractDefinition
-- `contract_id`
-- `chapter_index`
-- `difficulty_tier`
-- `hold_id`
-- `route_id`
-- `manifest_instances[]`
-- `starting_meter_overrides[]`
-- `support_allowance`
-- `mandatory_predicates[]`
-- `silver_predicates[]`
-- `gold_predicates[]`
-- `knowledge_overrides[]`
-- `tutorial_steps[]?`
-- `unlock_rewards[]`
-- `flavor_id`
-- `certified_solution_fingerprints[]` (dev/QA only)
-- `content_version`
-
-## 11.6 FlavorVariant
-- `flavor_variant_id`
-- `species_id`
-- `palette/material variant`
-- `pattern/accessory set`
-- `display-only tags`
-- `mechanical_equivalence_group`
-
-Invariant: two flavor variants in one equivalence group serialize identical mechanics.
-
-## 11.7 DocumentationState
-Per profile:
-- documented species IDs;
-- documented trait-family facts;
-- observed-but-not-documented clue IDs;
-- support codex unlocks;
-- route-hazard codex unlocks;
-- campaign chapter/contract completion;
-- best medal per authored contract;
-- generated challenge history seeds/fingerprints.
+Environmental flavor (labels, habitat stamps, prior-handler notes, wear) is never mechanically authoritative unless mirrored in explicit rules UI.
 
 ---
 
-# 12. Demo specification
+# 14. Canonical content schemas
 
-Demo content is fixed and intentionally not a random slice of the campaign.
+## SpeciesDefinition
+`species_id`, localization keys, body plan, starting/stage definitions, legal orientations, stress/contamination/satiety profiles, trait instances, compatibility tags, readability tags, tier min/max, generator exclusions, optional discovery definition, presentation profile, content version.
 
-## Included species
-O01 Ember Pod, O02 Hushling, O03 Silt Grazer, O04 Spore Bell, O06 Cradle Moss, O07 Pulse Mite, O08 Glass Larva, O10 Frost Finch, O14 Mire Sipper, plus O13 Cinder Snail as the single bounded discovery species.
+## TraitInstance
+Trait family, parameter band, state/sleep gate, target selector, range model, effect parameters, optional delay/capacity, compatibility tags, UI summary, causal key, and for T10 exactly one finite trigger policy. No executable callback field.
 
-## Included supports
-- Cooler;
-- Filter;
-- Baffle;
-- Feed Cartridge.
+## HoldDefinition
+ID/family, dimensions, usable/blocked cells, utility/bed fixtures, zones, baffle boundaries, power capacity, legal symmetry transforms, tier range, version.
 
-## Included hazards
-- Thermal Surge;
-- Contamination Leak;
-- Vibration Burst.
+## RouteDefinition
+ID, tick count, hazard events, known-information policy, bounded uncertainty if any, base power, zone modifiers, tier range, version.
 
-## Included holds
-- Training Crate;
-- Long Crate;
-- Split Hold.
+## ContractDefinition
+ID, chapter/tier, hold/route, manifest, starting overrides, support allowance, mandatory/Silver/Gold predicates, knowledge overrides, tutorial steps, unlock rewards, flavor ID, prerequisite IDs, hidden QA solution fingerprints, content version.
 
-## Contract arc
-D01 placement/orientation;
-D02 Hushling + Ember Pod;
-D03 Thermal Surge;
-D04 Frost Finch capacity limit;
-D05 contamination leak + Mire Sipper;
-D06 Spore Bell persistence;
-D07 Silt Grazer future growth;
-D08 support choice: Filter vs no-powered Gold path;
-D09 bounded Cinder Snail discovery;
-D10 finale: growth timing + thermal route event + competing proximity.
-
-## Explicitly outside demo
-- Nest Pad;
-- Monitor Beacon;
-- Brownout/power-priority interaction;
-- Service Bay/Constricted Vault;
-- Ash Sponge and other 3-trait mastery species;
-- Pale Drifter wake-cleansing discovery;
-- advanced generated challenges;
-- Chapter 5–6 content;
-- final campaign mastery contract.
-
-The demo save may carry only a small cosmetic acknowledgment into the full game; no mechanical power bonus is required.
+## DocumentationState
+Documented species/traits, observed clues, support/hazard codex unlocks, Bronze/medal state, generated history seeds/fingerprints. Campaign progression is derived from the exact Bronze prerequisite graph, not medal totals.
 
 ---
 
-# 13. Phase-5 acceptance checklist
+# 15. Content validation acceptance index
 
-Phase 5 passes only if all are true:
+A launch-content build must pass all of the following:
 
-- [x] exact MVP/demo/launch counts defined;
-- [x] launch species roster contains 18–24 compositions — final count 22;
-- [x] every species uses only B01–B04 and T01–T10 plus already-frozen state/feeding variants;
-- [x] no normal species exceeds 3 significant traits;
-- [x] numeric parameter bands are systematic;
-- [x] every species has a role, readable hook, useful/dangerous relationships, tier limits, and generator exclusions where needed;
-- [x] hold families/layout target defined without procedural topology scope creep;
-- [x] route hazard families are compositions of existing channel/state/power inputs;
-- [x] hazard sequencing limits defined;
-- [x] 48-contract campaign teaching order defined;
-- [x] discovery placement and safety rules preserved;
-- [x] final campaign test contains no new mechanic;
-- [x] authored/generated boundary explicit;
-- [x] generation pipeline proves Bronze and medals before surfacing content;
-- [x] causal-opacity rejection explicit;
-- [x] anti-template diversity metric explicit;
-- [x] deterministic seed/version/freeze record explicit;
-- [x] narrative framing adds memory without dialogue burden;
-- [x] data schemas defined for required content families;
-- [x] demo content and exclusions explicit;
-- [x] no content item requires reopening the Phase-4 global tick architecture.
+1. exact 48-node Bronze prerequisite graph validation;
+2. exact demo 9 documented + 1 discovery split;
+3. C05–C48 dynamic-transit significance;
+4. >=20 C09–C48 cases with >=2 temporally separated Bronze-relevant changes;
+5. chapter anti-isolation and anti-growth-corner quotas;
+6. role-to-zone repetition limit;
+7. S01–S06 preferred/inferior/alternate proof matrix;
+8. Cooler+Filter cap of 8 primary Bronze cases across C17–C48;
+9. mandatory O06/O12/O16 and O05/O19/O20 redundancy trials with >=70% cut/merge rule;
+10. all T10 definitions have finite trigger guards and no positive self-loop;
+11. generated challenges certify Bronze and every offered medal;
+12. generated content passes causal-opacity and recent-fingerprint gates;
+13. no generated challenge is static-packing-only;
+14. no global empty-space medal/reward axis is introduced;
+15. every discovery Bronze is conservatively solvable without Monitor Beacon;
+16. final contract contains no new rule;
+17. all content uses only frozen body/trait/state/route/support grammar.
 
-**Result: PASS. Phase 5 content architecture is closed.**
-
----
-
-# 14. Frozen Phase-5 decisions and forward obligations
-
-Frozen for subsequent design unless a contradiction is discovered:
-- launch target is 22 mechanically distinct species;
-- 4 body plans remain sufficient;
-- 10 trait families remain sufficient;
-- 6 supports remain sufficient;
-- 5 hold families / 12 authored launch layouts;
-- 7 route-hazard families;
-- 48 authored campaign contracts in 6 chapters;
-- 24 generated challenge templates;
-- generator selects/composes validated content but does not invent traits/species/topology;
-- first-clear campaign target 8–12 hours;
-- demo target 10 authored contracts and 60–90 minutes;
-- no new rule in final campaign test.
-
-Forward phases must now specify **how the player perceives and operates this content** (Phase 6), then progression/commercial structure (Phase 7), technical implementation contracts (Phase 8), and whole-game/adversarial freeze passes.
+**Content specification result: FROZEN pending only final cross-file contradiction clearance. No future Phase-5 design work remains.**
