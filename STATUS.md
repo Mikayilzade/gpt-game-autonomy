@@ -14,7 +14,7 @@ The user has clarified the terse protocol:
 ## Autonomous cadence
 
 - Hourly continuation requested by user: **ACTIVE**
-- Current saved autonomous run count: **6**
+- Current saved autonomous run count: **7**
 - Each run resumes from this file, performs one substantial bounded stage, saves progress before ending, and updates the exact next action.
 - Goal condition: at least one game is fully specified, internally reviewed, implementation-ready, specification-frozen, and `DESIGN COMPLETE = YES`.
 - If the goal condition becomes true, future design work stops rather than inventing unnecessary scope.
@@ -38,6 +38,8 @@ The user has clarified the terse protocol:
 - Whole-game consistency review complete: **YES — Phase 9 closure passed with canonical repairs**
 - Adversarial review complete: **YES — Phase 10 pass with explicit prototype gates**
 - Phase-11 consolidation pass 1 complete: **YES**
+- Phase-11 consolidation pass 2 started: **YES**
+- Final top-level `GAME_BIBLE.md` rewrite complete: **YES**
 - Exact campaign prerequisite graph frozen: **YES**
 - Support non-dominance matrix frozen: **YES**
 - 22-species unique-decision matrix frozen: **YES**
@@ -66,8 +68,8 @@ Transit must create meaningful, deterministic, learnable state changes that alte
 
 1. `START_HERE.md` — operating rules and handoff.
 2. `STATUS.md` — exact current state and next action.
-3. `GAME_BIBLE.md` — product thesis and final top-level contract; still contains stale pre-freeze wording to reconcile.
-4. `MECHANICS.md` — canonical simulation foundation; still requires Phase-10 edge-semantics fold-in.
+3. `GAME_BIBLE.md` — **reconciled final top-level canonical specification; no stale phase placeholders remain.**
+4. `MECHANICS.md` — canonical simulation foundation; still requires Phase-10/11 edge-semantics fold-in and stale status cleanup.
 5. `DECISION_ARCHITECTURE.md` — canonical player-decision, contract, support, state, scoring, uncertainty, and acceptance-test layer.
 6. `PHASE4_CLOSURE.md` — representative-contract, paper-simulation, exploit-review, and mechanical-freeze evidence.
 7. `CONTENT_ARCHITECTURE.md` — canonical launch roster/content/generation; stale demo count wording remains to reconcile.
@@ -76,87 +78,67 @@ Transit must create meaningful, deterministic, learnable state changes that alte
 10. `TECHNICAL_SPEC.md` — canonical implementation architecture; requires final idempotency/recovery/legacy/resume fold-in.
 11. `WHOLE_GAME_SIMULATION.md` — Phase-9 continuous-player-journey review and superseding repairs pending source consolidation.
 12. `ADVERSARIAL_REVIEW.md` — Phase-10 exploit attacks and superseding repairs pending source consolidation.
-13. `PHASE11_FREEZE.md` — **current Phase-11 authority for exact campaign graph, demo repair, dynamic-transit quotas, support matrix, species matrix, deterministic edge semantics, persistence/idempotency repairs, accessibility acceptance, and unified acceptance-test index.**
+13. `PHASE11_FREEZE.md` — current Phase-11 authority for exact campaign graph, demo repair, dynamic-transit quotas, support matrix, species matrix, deterministic edge semantics, persistence/idempotency repairs, accessibility acceptance, and unified acceptance-test index until all domain files are folded in.
 14. `CROSS_ROUND_FINAL.md` — concept-selection closure.
 15. `RESEARCH.md` — market/reference evidence when needed.
 16. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
 
-## Completed this cycle — autonomous run 6
+## Completed this cycle — autonomous run 7
 
-1. Read `START_HERE.md` and `STATUS.md` first, then re-opened the Phase-9/10 repair sources and the canonical mechanics/content/technical documents needed to execute the Phase-11 freeze stage.
-2. Created `PHASE11_FREEZE.md` as a bounded reconciliation layer rather than pretending stale source files were already clean.
-3. Froze an exact implementation-ready **C01–C48 campaign prerequisite table**, including branch convergence, capstone edges, Bronze-only progression, and graph-validator obligations.
-4. Froze the corrected public-demo contract: **10 species = 9 documented + 1 bounded discovery**, full settings/knowledge transfer, D01–D08 -> C01–C08 mapping only, no D09/D10 later auto-clear, and no early Challenge unlock from imported knowledge.
-5. Froze authored and generated **dynamic-transit significance gates**, including C05+ post-launch change requirement, >=20 of C09–C48 requiring two temporally separated changes for Bronze, anti-spacing/growth-edge quotas, and static-generated-challenge rejection.
-6. Built the required **S01–S06 support non-dominance matrix**, with explicit authored preferred/inferior cases, living substitutes where applicable, and the Cooler+Filter <=25%/8-contract cap across C17–C48.
-7. Built the required **22-species unique-decision/readability matrix**, including explicit prototype keep/cut criteria and mandatory redundancy clusters O06/O12/O16 and O05/O19/O20.
-8. Froze **T10 finite event guards**, multi-root causal ancestry, Phase-A Brownout authority, blocked-growth one-consequence-per-unchanged-episode semantics, and explicit sleep trait gating.
-9. Froze **exactly-once launch commit** and **idempotent Results progression** authority boundaries.
-10. Froze transit resume as deterministic reconstruction from committed input/checksums rather than relying on a platform-sensitive partial runtime object.
-11. Froze save-recovery behavior for corrupt primary, valid backup, double corruption, migration failure, cloud/local divergence, legacy-version mismatch, and demo migration.
-12. Froze mandatory keyboard-only, controller-only, Deck/1280x800, 1280x720, maximum UI scale, no-audio, non-color, reduced-motion, reduced-flash, and remapped-input acceptance surfaces.
-13. Created a unified acceptance-test index spanning determinism, planning/state authority, campaign progression, content/dominance, generator/solver, Causal Review, persistence/corruption, accessibility/device paths, and demo identity.
-14. Reclassified all remaining subjective risks as prototype validation obligations rather than undefined paper-design questions.
-15. Did **not** set `DESIGN COMPLETE = YES`: canonical source files still contain stale `TBD`/old-phase wording and superseded values, so a builder could still encounter multiple authorities if Phase 11 stopped now.
+1. Read `START_HERE.md` and `STATUS.md` first and resumed exactly from the Phase-11 consolidation pass 2 action.
+2. Re-opened `PHASE11_FREEZE.md` and the stale top-level `GAME_BIBLE.md` to identify the first contradiction/staleness class.
+3. Rewrote `GAME_BIBLE.md` from a post-selection/placeholder document into a final top-level canonical specification with **no `TBD` sections or obsolete “future Phase X work” language**.
+4. Replaced the old optional-gamepad wording with a mandatory critical-path input contract covering mouse+keyboard, keyboard-only, controller-only and Steam Deck/1280×800, including remapping and non-audio/non-color requirements.
+5. Folded the frozen Phase-11 top-level invariants into the Bible: Brownout same-tick authority, finite reactive triggers, multi-root causality, blocked-growth episode semantics, explicit sleep gating, exactly-once launch, idempotent Results and deterministic transit reconstruction.
+6. Folded the exact launch-scope identity into the Bible: 48 campaign nodes, 22-species maximum before empirical cuts, 6 supports and public demo **9 documented + 1 bounded-discovery species**.
+7. Added top-level campaign/progression authority: Bronze-only campaign progression, six capstones, no medal/XP/currency/knowledge prerequisite leakage, and demo mapping only through C01–C08.
+8. Added explicit support/species anti-dominance and redundancy gates, generated-challenge dynamic-significance requirements and the C05+/20-of-C09–C48 post-launch-change obligations.
+9. Added canonical Causal Review, save/recovery, technical determinism, demo, commercial, vertical-slice and unified acceptance-gate summaries so a new implementation session no longer encounters unanswered top-level sections.
+10. Explicitly separated harmless implementation-flexible decisions (commercial title, price, final capsule/release date, engine if contracts are met) from gameplay design decisions that must not drift.
+11. Kept `DESIGN COMPLETE = NO` because the remaining domain files may still contradict the now-clean Bible and `PHASE11_FREEZE.md`.
 
-## Phase-11 frozen items awaiting source-file fold-in
+## Remaining Phase-11 source-file fold-in
 
-`PHASE11_FREEZE.md` is currently authoritative for:
-- exact C01–C48 prerequisite/branch graph;
-- demo 9 documented + 1 discovery count and migration rules;
-- campaign/demo/generated dynamic-transit quotas;
-- S01–S06 support non-dominance coverage;
-- 22-species distinctness/cut gates;
-- T10 finite trigger guards;
-- multi-parent causal roots;
-- Phase-A Brownout support authority;
-- blocked-growth episode semantics;
-- sleep trait state-gating semantics;
-- single launch commit token and Results idempotency;
-- transit reconstruction/checksum mismatch handling;
-- save backup/recovery/legacy/demo migration behavior;
-- keyboard/controller/Deck/high-scale/no-audio/non-color/reduced-motion acceptance surfaces;
-- unified implementation acceptance-test index.
+The following are still required before specification freeze can succeed:
+- `MECHANICS.md`: fold blocked-growth episode semantics, finite T10 guards, Brownout authority, multi-root causality, explicit sleep gating; remove stale Phase-4 status and any global empty-space-reward implication.
+- `CONTENT_ARCHITECTURE.md`: replace any `8 documented + 2 discovery` demo split with `9 + 1`; fold/reference exact C01–C48 graph and embed dynamic-transit/support/species validation gates.
+- `TECHNICAL_SPEC.md`: embed exactly-once launch, Results idempotency, deterministic transit reconstruction, checksum mismatch behavior, corruption/backup/migration/cloud/legacy/demo rules and tests.
+- `UX_ARCHITECTURE.md`: embed mandatory keyboard-only/controller-only/Deck/max-scale/no-audio/non-color/reduced-motion/reduced-flash/remapping acceptance paths.
+- `DECISION_ARCHITECTURE.md`, `PHASE4_CLOSURE.md`, `ECONOMY_COMMERCIAL.md`, `WHOLE_GAME_SIMULATION.md`, and `ADVERSARIAL_REVIEW.md`: contradiction sweep for old demo counts, challenge unlock wording, empty-space rewards, repeated-growth damage, unlimited triggers, optional gamepad assumptions and obsolete resume semantics.
 
-## Remaining unresolved risks
+## Prototype-dependent empirical gates
 
-These are **prototype-dependent empirical gates**, not undefined gameplay rules:
-1. after failures, >=70% of validation playtest cases should produce a specific causal explanation + intended revision rather than blind shuffle;
+These are validation obligations, not undefined gameplay rules:
+1. after failures, >=70% of representative validation cases should produce a specific causal explanation + intended revision rather than blind shuffle;
 2. at least half of interesting/memorable validation outcomes should depend on post-launch state change;
 3. ordinary non-mastery planning should not settle into >8-minute median first-launch analysis after rule familiarity;
 4. helper/protector species clusters must feel decision-distinct or be cut/merged based on evidence;
 5. demo testers must predominantly describe the game as planning for what creatures will do during transit, not as static packing;
 6. Causal Review must surface an actionable first cause quickly without requiring raw-log reading.
 
-These remain valid after paper design freeze as vertical-slice/implementation kill metrics.
-
 ## Important current conclusions
 
-- The actual game is now defined through Phase 10 and the principal Phase-11 ambiguity classes have explicit frozen answers.
-- The biggest remaining risk is **document contradiction/staleness**, not missing game mechanics.
-- `GAME_BIBLE.md` still exposes obsolete `TBD`/“Phase X work” text despite later architecture being complete.
-- `MECHANICS.md` still says Phase 4 is not complete and contains old optional empty-space examples that must be reconciled with the later anti-empty-space rule.
-- `CONTENT_ARCHITECTURE.md` still contains the superseded demo split of 8 documented + 2 discovery.
-- technical/UX source documents need the frozen Phase-11 acceptance and recovery semantics directly embedded.
-- Therefore the project remains **in progress** and production code remains blocked.
+- `GAME_BIBLE.md` is no longer a blocker: it now reflects the completed architecture and Phase-11 freeze decisions instead of old placeholders.
+- The remaining risk is localized to **domain-document contradiction/staleness**.
+- No new game feature is needed for paper design completion; the task is reconciliation and proof that one authority exists for every implementation-relevant rule.
+- Production code remains blocked until the domain sweep is clean.
 
 ## NEXT ACTION
 
-**Execute Phase 11 consolidation pass 2 — rewrite stale canonical sources and run the contradiction sweep.**
+**Continue Phase 11 consolidation pass 2 — reconcile the simulation/content domain pair first, then sweep their contradictions.**
 
 On the next run:
-1. rewrite `GAME_BIBLE.md` into a concise final top-level canonical specification with no stale `TBD`, obsolete phase-status language, or optional gamepad wording;
-2. reconcile `MECHANICS.md`: mark Phase-4 foundation complete, fold blocked-growth episode semantics, T10 finite guards, Brownout authority, multi-root causality, sleep gating, and remove any global implication that empty-space scoring is normal;
-3. reconcile `CONTENT_ARCHITECTURE.md`: replace demo `8 documented + 2 discovery` with `9 + 1`, fold exact campaign graph or reference frozen table, and embed dynamic-transit/support/species validation gates;
-4. reconcile `TECHNICAL_SPEC.md`: embed launch/results idempotency, deterministic transit reconstruction, checksum mismatch recovery, corrupt-primary/backup behavior, legacy rules/content behavior, cloud divergence, and demo migration tests;
-5. reconcile `UX_ARCHITECTURE.md`: embed mandatory keyboard/gamepad/Deck/max-scale/no-audio/non-color/reduced-motion/remapping acceptance paths;
-6. inspect `DECISION_ARCHITECTURE.md`, `PHASE4_CLOSURE.md`, `ECONOMY_COMMERCIAL.md`, and later documents for superseded demo counts, old challenge unlock language, empty-space reward wording, repeated-growth damage, unlimited trigger wording, stale gamepad assumptions, or old transit-resume semantics;
-7. run repository search/fetch checks for the exact stale strings/classes above and repair every contradiction found;
-8. confirm `PHASE11_FREEZE.md` no longer needs to override a conflicting canonical source, only index/verify it;
-9. confirm every programmer-facing gameplay question has an explicit answer or an intentionally harmless implementation-flexible boundary;
-10. if and only if the contradiction sweep is clean and all freeze obligations are present in canonical sources, set `Specification freeze complete = YES` and `DESIGN COMPLETE = YES` and stop further autonomous design expansion.
+1. read `MECHANICS.md` in bounded chunks and rewrite/reconcile it without losing existing formulas/data;
+2. mark its Phase-4 foundation complete and directly embed finite T10 trigger guards, multi-root causal ancestry, Phase-A Brownout support authority, one-consequence-per-unchanged blocked-growth episode semantics and explicit sleep trait gating;
+3. find and repair any wording that makes empty-space reward globally normal rather than contract-specific/exceptional;
+4. read `CONTENT_ARCHITECTURE.md` in bounded chunks and replace every old demo `8 documented + 2 discovery` contract with `9 documented + 1 bounded discovery`;
+5. embed/reference the exact C01–C48 prerequisite table and content-validator obligations from `PHASE11_FREEZE.md`;
+6. embed dynamic-transit authored/generated quotas, S01–S06 non-dominance gates and O01–O22 redundancy/keep-cut gates into the content authority;
+7. inspect both files for stale phase-status/future-work language and remove it;
+8. search/fetch `DECISION_ARCHITECTURE.md` and `PHASE4_CLOSURE.md` for contradictions specifically involving empty-space reward, repeated blocked growth, unlimited triggers or older campaign/demo assumptions;
+9. update this file with exact repaired/remaining contradiction classes.
 
-Do not start production code before that pass succeeds.
+Do **not** set `DESIGN COMPLETE = YES` until the technical/UX and remaining cross-file sweep also passes.
 
 ## Recovery instruction for a new chat
 Read in this order:
