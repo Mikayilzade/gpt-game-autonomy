@@ -14,6 +14,7 @@ The user has clarified the terse protocol:
 ## Autonomous cadence
 
 - Hourly continuation requested by user: **ACTIVE**
+- Current saved autonomous run count: **5**
 - Each run resumes from this file, performs one substantial bounded stage, saves progress before ending, and updates the exact next action.
 - Goal condition: at least one game is fully specified, internally reviewed, implementation-ready, specification-frozen, and `DESIGN COMPLETE = YES`.
 - If the goal condition becomes true, future design work stops rather than inventing unnecessary scope.
@@ -35,13 +36,13 @@ The user has clarified the terse protocol:
 - Economy / retention / commercial model complete: **YES — Phase 7 closure passed**
 - Technical specification complete: **YES — Phase 8 closure passed**
 - Whole-game consistency review complete: **YES — Phase 9 closure passed with canonical repairs**
-- Adversarial review complete: **NO**
+- Adversarial review complete: **YES — Phase 10 pass with explicit prototype gates**
 - Specification freeze complete: **NO**
 - DESIGN COMPLETE: **NO**
 - Implementation started: **NO**
 
 ## Current phase
-**Phase 10 — Adversarial review**
+**Phase 11 — Specification freeze and cross-file reconciliation**
 
 ## Selected game
 
@@ -60,7 +61,7 @@ Transit must create meaningful, deterministic, learnable state changes that alte
 
 1. `START_HERE.md` — operating rules and handoff.
 2. `STATUS.md` — exact current state and next action.
-3. `GAME_BIBLE.md` — canonical product thesis and whole-game specification skeleton.
+3. `GAME_BIBLE.md` — canonical product thesis and whole-game specification skeleton/top-level contract.
 4. `MECHANICS.md` — canonical simulation foundation.
 5. `DECISION_ARCHITECTURE.md` — canonical player-decision, contract, support, state, scoring, uncertainty, and acceptance-test layer.
 6. `PHASE4_CLOSURE.md` — representative-contract, paper-simulation, exploit-review, and mechanical-freeze evidence.
@@ -68,76 +69,112 @@ Transit must create meaningful, deterministic, learnable state changes that alte
 8. `UX_ARCHITECTURE.md` — canonical state flow, controls, planning layout, transit presentation, causal review, onboarding, visual/audio language, accessibility, settings, and UX edge cases.
 9. `ECONOMY_COMMERCIAL.md` — canonical premium model, price, progression/unlocks, medals, anti-grind, retention, demo/store positioning, achievements, discounts, and post-launch boundaries.
 10. `TECHNICAL_SPEC.md` — canonical engine/runtime, deterministic kernel, schemas, persistence, generator, test/debug, platform, and implementation-order specification.
-11. `WHOLE_GAME_SIMULATION.md` — canonical Phase-9 continuous-player-journey simulation, state/recovery audit, demo-transfer reconciliation, contradiction ledger, and Phase-10 attack surface.
-12. `CROSS_ROUND_FINAL.md` — concept-selection closure.
-13. `RESEARCH.md` — market/reference evidence when needed.
-14. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
+11. `WHOLE_GAME_SIMULATION.md` — Phase-9 continuous-player-journey simulation and canonical cross-file repairs pending consolidation.
+12. `ADVERSARIAL_REVIEW.md` — Phase-10 exploit attacks, canonical repairs, prototype gates, and Phase-11 freeze list.
+13. `CROSS_ROUND_FINAL.md` — concept-selection closure.
+14. `RESEARCH.md` — market/reference evidence when needed.
+15. `TOURNAMENT.md`, `TOURNAMENT_ROUND2.md` — selection history only when needed.
 
-## Completed this cycle
+## Completed this cycle — autonomous run 5
 
-1. Executed Phase 9 as a full-paper simulation rather than a section-by-section checklist.
-2. Created `WHOLE_GAME_SIMULATION.md` as the canonical Phase-9 review/repair layer.
-3. Simulated one continuous player journey from first boot through the first five minutes, first 30 minutes, first two hours, midgame, discovery chapter, 8–12 hour campaign completion, and 20+ hour mastery.
-4. For each major stage, validated what the player knows, sees, chooses, risks, learns, unlocks, persists, and is motivated to do next.
-5. Traced a successful first-attempt thermal contract through Brief → Planning → Launch → canonical transit phases A–I → Causal Review → Results.
-6. Traced a recoverable contamination/growth cascade where a legal time-zero arrangement blocks deterministic future growth, then validated targeted retry from the exact committed layout.
-7. Traced a bounded-uncertainty Pale Drifter discovery case and confirmed that undocumented information remains deterministic, bounded, observable, and non-punitive.
-8. Validated the 48-contract / six-tier campaign invariants: named prerequisite contracts only, no medal/XP/currency/grind gates, no later-lesson dependency on an earlier branch that can bypass its teaching prerequisite, and generator access locked to the Tier-2 capstone.
-9. Defined progression as deterministic flags/records only: cleared contracts, best medals, documented facts, support/hazard knowledge, graph unlocks, challenge templates, and completion state.
-10. Audited quit/resume/crash/abandon paths for Planning, Launch Confirm, Transit, Causal Review, Results, and campaign-map return.
-11. Locked transit resume to deterministic reconstruction from immutable committed input plus safe tick/cursor metadata rather than fragile mid-phase state serialization.
-12. Confirmed Causal Review can be backed by the structured Phase-8 event/snapshot contract without inferring causality from presentation animation.
-13. Validated controller/Steam Deck and high-UI-scale paths for every mandatory action without hover dependency, fake mouse emulation, or tiny pointer precision.
-14. Resolved demo→full transfer ambiguity with an explicit migration model: D01–D08 can certify C01–C08 onboarding clearance, D09–D10 remain demo-only records, full campaign resumes at Chapter 2, imported knowledge persists, and Tier-2 Challenge unlock cannot be skipped.
-15. Resolved seven additional cross-file ambiguities in the Phase-9 contradiction ledger, including demo documented-species count, save-transfer wording, Results write timing, gamepad priority, and active-run abort semantics.
-16. Identified the major 20+ hour attack surface for Phase 10: solved layouts, universal support pairs, isolation, brute-force retry, content exhaustion, generator sameness, causality ambiguity, persistence/version abuse, and demo mispositioning.
-17. Kept `DESIGN COMPLETE = NO` and started no production code.
+1. Read the repository source of truth and all recovery-listed design/history files required for the current stage.
+2. Executed Phase 10 as a hostile-system review rather than a feature pass.
+3. Created `ADVERSARIAL_REVIEW.md` with severity definitions, attack/reproduction format, canonical repair rules, retest gates, prototype gates, and exact Phase-11 work list.
+4. Attacked the fundamental loop for static-packing collapse, random-shuffle retry, arithmetic-work feel, Causal Review fatigue, and analysis-paralysis planning.
+5. Strengthened dynamic-transit content gates so non-tutorial contracts must contain decision-relevant post-launch change; established campaign/demo/generated anti-static quotas and prototype evidence requirements.
+6. Attacked maximum spacing, edge isolation, central Hushling, permanent growth-corner, emitter-to-edge, and repeated zone-template strategies; added authored/generator diversity constraints without arbitrary anti-spacing rules.
+7. Attacked Cooler+Filter, Baffle+soother, Nest Pad, Monitor Beacon, and living-organism support substitutes; added non-dominance gates and clarified that sleep never disables a trait unless its data explicitly says so.
+8. Attacked medal/scoring exploitation: welfare-hostile pulses, delayed/event-count farming, support spam, empty-space scoring, and repeated transition-triggered resource generation.
+9. Clarified deterministic edge cases for simultaneous thresholds, multiple causal roots, delayed T10 ancestry, Brownout tick authority, blocked-growth retry, contamination ancestry, and player-facing propagation grouping.
+10. Repaired a major blocked-growth ambiguity: unchanged blocked growth no longer re-applies the same consequence every tick; one consequence is applied per unchanged growth episode and reattempt requires legality/condition change.
+11. Attacked planning/state authority through launch/cancel/undo/reset/retry/abort/settings/quit spam; locked single commit tokens and exactly-once/idempotent Results progression semantics.
+12. Attacked persistence for interrupted writes, corrupt primary + backup fallback, double corruption, incompatible legacy rules/content, cloud divergence, demo migration mismatch, and resume checksum failure.
+13. Attacked accessibility on 1280x720/Deck-like displays at high UI scale, reduced motion/flashing, no audio, non-color reading, controller-only, keyboard-only, and remapped-input contexts.
+14. Audited campaign prerequisite assumptions across all six chapters and identified the remaining Phase-11 need: exact C01–C48 branch edge/prerequisite data must be frozen so implementation cannot invent graph logic.
+15. Reviewed all 22 launch species by role and isolated the main empirical redundancy cluster: O06/O12/O16 and O05/O19/O20 must prove distinct decisions or be cut/merged later based on prototype evidence, not expanded with new traits.
+16. Attacked generated challenges for static-solvable output, near-threshold duplicate fingerprints, dominant support streaks, causal opacity, solver timeout false-certification, cosmetic-reskin sameness, and runtime search explosion.
+17. Locked solver rule: timeout is never proof of solvability; generated Bronze/medal content must have an explicit certified solution or known-valid source construction.
+18. Attacked demo positioning and required the demo to teach dynamic-transit identity early and repeatedly rather than reading as cute static packing.
+19. Attacked technical scope around Causal Review, generator/solver, save migration, localization, animation/event authority, and tooling; no new foundation subsystem is required.
+20. Produced a programmer-facing ambiguity ledger and answered every paper-resolvable high/critical ambiguity found in this pass.
+21. Separated remaining empirical risks from specification ambiguity: hypothesis-driven retry, transit significance, planning duration, helper-species differentiation, demo positioning, and review usefulness are prototype gates.
+22. Phase-10 paper verdict: **PASS WITH PROTOTYPE GATES**. No current paper attack requires abandoning Organism Cargo or adding a new foundation mechanic.
+23. `DESIGN COMPLETE` remains **NO** because Phase 11 consolidation/freeze is still mandatory.
 
-## Canonical Phase-9 repairs to preserve
+## Canonical Phase-9 repairs still to consolidate
 
-Until Phase-11 cross-file consolidation, `WHOLE_GAME_SIMULATION.md` is authoritative for these reconciliations:
-- demo is **10 species = 9 documented + 1 bounded discovery**, not 8 + 2;
+Until Phase 11 folds them into their source files, `WHOLE_GAME_SIMULATION.md` remains authoritative for:
+- demo is **10 species = 9 documented + 1 bounded discovery**;
 - full demo progress/knowledge/settings transfer is canonical, with no mechanical power bonus;
 - D01–D08 may map to C01–C08 onboarding clearance; D09–D10 do not auto-clear later campaign nodes;
 - imported demo knowledge does not unlock Challenges before Tier-2 capstone;
 - transit resume reconstructs deterministically from committed input;
-- mandatory gamepad/Deck paths are part of acceptance despite mouse remaining the preferred efficiency baseline;
-- campaign progression writes exactly once at Results finalization, not merely when Review calculates outcome;
+- mandatory gamepad/Deck paths are acceptance requirements despite mouse being the preferred efficiency baseline;
+- campaign progression writes exactly once at Results finalization;
 - aborting an active transit is a safe, explicit, non-punitive transition back to the committed planning baseline.
+
+## Canonical Phase-10 repairs still to consolidate
+
+Until Phase 11 folds them into source files, `ADVERSARIAL_REVIEW.md` is authoritative for at least:
+- non-tutorial authored/generated content must pass strengthened dynamic-transit significance gates;
+- blind retry remains free but must fail empirical dominance gate rather than being punished by attempt costs;
+- no normal Bronze should require unsupported arithmetic over more than three simultaneous contributors to one variable;
+- maximum-spacing/edge/emitter/growth-corner/repeated-zone templates require content-level anti-dominance coverage;
+- Cooler+Filter and other support families require non-dominance coverage across authored/generator content;
+- sleep changes only explicitly state-gated traits;
+- Monitor is never required for discovery Bronze;
+- no global empty-space medal/score axis;
+- T10 effects always have a finite explicit event guard;
+- simultaneous causal roots remain multi-parent when appropriate;
+- Brownout power state is finalized in Phase A before same-tick support outputs;
+- blocked growth applies one consequence per unchanged episode rather than every tick;
+- launch commit and Results progression use exactly-once/idempotent authority boundaries;
+- solver timeout is never solvability proof;
+- incompatible-version transit does not silently pretend historical deterministic equivalence;
+- high-UI-scale, keyboard-only, controller-only, non-audio and non-color paths are mandatory acceptance surfaces.
+
+## Remaining unresolved risks
+
+These are **prototype-dependent empirical gates**, not undefined gameplay rules:
+1. after failures, >=70% of validation playtest cases should produce a specific causal explanation + intended revision rather than blind shuffle;
+2. at least half of interesting/memorable validation outcomes should depend on post-launch state change;
+3. ordinary non-mastery planning should not settle into >8-minute median first-launch analysis after rule familiarity;
+4. helper/protector species clusters must feel decision-distinct or be cut/merged based on evidence;
+5. demo testers must predominantly describe the game as planning for what creatures will do during transit, not as static packing;
+6. Causal Review must surface an actionable first cause quickly without requiring raw-log reading.
+
+These remain valid even after `DESIGN COMPLETE = YES`; they become implementation/vertical-slice kill metrics.
 
 ## Important current conclusions
 
-- Phase 9 did not expose a structural contradiction requiring concept redesign.
-- The largest remaining uncertainty is not specification breadth but whether the rules can resist degenerate human strategies and remain fun/readable over long play.
-- Phase 10 must attack the design with concrete exploit cases, not add more features.
-- The project is still **in progress**. Adversarial review and final specification freeze remain before `DESIGN COMPLETE = YES`.
+- The design has now survived market selection, mechanical closure, content/UX/commercial/technical architecture, whole-game simulation, and a dedicated exploit/adversarial pass.
+- No unresolved paper-level high/critical gameplay rule currently requires a new mechanic.
+- The remaining design task is consolidation: source files still contain stale TBD language and older pre-repair wording in places.
+- Phase 11 must make the repository internally singular: no important rule should require a new builder to decide which historical document wins.
+- The project is still **in progress** until cross-file reconciliation passes and `DESIGN COMPLETE = YES` is set.
 
 ## NEXT ACTION
 
-**Execute Phase 10 — adversarial review, exploit construction, repair, and retest.**
+**Execute Phase 11 — specification freeze, canonical consolidation, contradiction sweep, and implementation-readiness gate.**
 
 On the next run:
-1. create a canonical adversarial-review file with a severity scale, reproduction format, expected/actual design behavior, repair, and retest criteria;
-2. run a fun-risk attack against the fundamental loop: static-placement satisfaction, transit-as-spectacle failure, random-shuffle retry, arithmetic-work feeling, review fatigue, and overlong planning;
-3. construct representative dominant-layout attacks across early/mid/late content: edge isolation, central Hushling/soother, permanent growth-reserve corner, emitter-to-edge, and repeated zone template;
-4. construct support-dominance attacks, especially Cooler+Filter, Baffle+soother, Nest Pad timing, Monitor-information value, and living-organism substitutes; determine whether support allowances/power/fixtures/hazards actually create non-dominance;
-5. attack maximum-spacing/isolation as a universal Bronze strategy and identify contract/content conditions that must invalidate it without arbitrary density rules;
-6. attack scoring/medals for welfare-hostile, intentionally delayed, support-spam, empty-space, event-count, or state-transition farming exploits;
-7. attack deterministic causality with simultaneous threshold crossings, multiple valid roots, delayed T10 outputs, brownout support changes, growth-block retry loops, contamination persistence, and grouped propagation;
-8. attack planning/state transitions by spamming launch/cancel/undo/reset/retry/abort/settings/quit around every authority boundary;
-9. attack persistence with interrupted atomic writes, corrupt primary + valid backup, corrupt primary/backup, legacy rules/content versions, cloud/local divergence, demo migration mismatch, and transit checksum mismatch;
-10. attack controller/accessibility requirements at high UI scale, 1280x720/Deck-like resolution, reduced motion, no audio, color-blind/non-color reading, controller-only, keyboard-only, and remapped controls;
-11. attack campaign graph prerequisite coverage for every branch and confirm no mandatory node can be reached without the facts it assumes;
-12. attack all 22 species for role redundancy, one-species-obsoletes-another behavior, unreadable 3-trait composites, and content that adds arithmetic but no new decision;
-13. attack generated challenges for static-solvable output, duplicate fingerprints below the current threshold, dominant support streaks, opaque causal chains, solver timeout/false-certification, and cosmetic-reskin sameness;
-14. attack demo positioning: verify at least half of memorable post-onboarding demo outcomes depend on transit-time changes and that the demo cannot reasonably be understood as mainly static packing;
-15. attack technical scope: Causal Review, solver/generator, save migration, localization, animation/event synchronization, and content tooling must remain inside the compact production ceiling;
-16. list every remaining programmer-facing ambiguity where implementation would still require inventing a gameplay rule;
-17. repair all high/critical issues whose intended answer is clear, record deferred prototype-dependent questions explicitly, and rerun the affected acceptance tests;
-18. produce a Phase-10 pass/fail checklist and exact Phase-11 specification-freeze work list;
-19. update this file with the remaining unresolved risks and next action.
+1. fold all Phase-9 repairs from `WHOLE_GAME_SIMULATION.md` into the canonical source files;
+2. fold all Phase-10 repairs from `ADVERSARIAL_REVIEW.md` into the canonical source files;
+3. replace stale `TBD` sections in `GAME_BIBLE.md` with concise canonical summaries/references to the locked architecture;
+4. freeze exact C01–C48 campaign prerequisite/branch data or a complete implementation-ready edge table so no programmer invents progression logic;
+5. create/freeze the support non-dominance matrix covering every S01–S06 support and applicable living substitutes;
+6. create/freeze the 22-species unique-decision/readability matrix and preserve explicit prototype cut/merge gates;
+7. freeze dynamic-transit quotas/gates for campaign/demo/generator in the appropriate source files;
+8. fold blocked-growth episode semantics, T10 event guards, Brownout same-tick authority, and multi-root causal requirements into mechanics/technical specs;
+9. fold launch/results idempotency, save-recovery behavior, legacy-version fallback, checksum mismatch, and demo-migration test cases into technical specs;
+10. fold keyboard/controller/high-scale/no-audio/non-color/reduced-motion acceptance paths into UX/technical criteria;
+11. produce a unified acceptance-test index spanning gameplay, campaign, UX, generator, persistence, accessibility, and demo identity;
+12. run a repository-wide contradiction sweep for old demo counts, old transfer wording, stale transit-resume behavior, stale gamepad assumptions, repeated blocked-growth damage, unlimited T10 triggers, or other superseded text;
+13. mark prototype-dependent gates explicitly as implementation validation obligations rather than unresolved specification questions;
+14. confirm every programmer-facing gameplay question has an explicit answer or intentionally implementation-flexible boundary;
+15. only if all of the above pass, set `Specification freeze complete = YES` and `DESIGN COMPLETE = YES` and stop further autonomous design expansion.
 
-Do not start production code. Do not set `DESIGN COMPLETE = YES` during Phase 10. Final specification freeze and cross-file reconciliation belong to Phase 11.
+Do not start production code before the Phase-11 freeze passes.
 
 ## Recovery instruction for a new chat
 Read in this order:
@@ -152,8 +189,9 @@ Read in this order:
 9. `ECONOMY_COMMERCIAL.md`
 10. `TECHNICAL_SPEC.md`
 11. `WHOLE_GAME_SIMULATION.md`
-12. `CROSS_ROUND_FINAL.md`
-13. `RESEARCH.md` only when market/reference evidence is needed
-14. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
+12. `ADVERSARIAL_REVIEW.md`
+13. `CROSS_ROUND_FINAL.md`
+14. `RESEARCH.md` only when market/reference evidence is needed
+15. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only when concept-selection history is needed
 
 Ignore remembered chat state if it conflicts with the repository. Resume directly from `NEXT ACTION`.
