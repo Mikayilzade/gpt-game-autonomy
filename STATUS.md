@@ -10,15 +10,16 @@ Branch: `main`
 - Dedicated Game #1 repository: **Mikayilzade/organism-cargo**
 - Factory cleanup after Game #1: **COMPLETE**
 - Current design slot: **Game #2**
-- Game #2 autonomous design run count: **5**
+- Game #2 autonomous design run count: **6**
 - Game #2 design started: **YES**
 - Game #2 concept selected: **YES — False Map Department**
 - Game #2 Product Thesis locked: **YES**
+- Game #2 Mechanical Architecture complete on paper: **YES**
 - Game #2 DESIGN COMPLETE: **NO**
 - Game #2 dedicated repository: **NOT YET — create only after design freeze/migration gate**
 
 ## Current phase
-**Game #2 — Phase 4 Mechanical Architecture NEXT**
+**Game #2 — Phase 5 Content Architecture NEXT**
 
 ## Active temporary files
 - `GAME2_RESEARCH.md` — Phase-1 evidence, competitor checks, 36-concept field, finalist gate and elimination model.
@@ -26,21 +27,25 @@ Branch: `main`
 - `GAME2_TOURNAMENT_RUN4.md` — exact sessions, graybox tests, dominant-strategy attacks, 20-situation depth proofs and reduction to three finalists.
 - `GAME2_TOURNAMENT_RUN5.md` — final three-way duel, concrete existential models and selection of False Map Department.
 - `GAME2_PRODUCT_THESIS.md` — locked Phase-3 product identity and scope contract.
+- `GAME2_MECHANICAL_ARCHITECTURE.md` — canonical Phase-4 rules, state model, edit semantics, agents, resolution, undo, causality, linked maps, anti-bruteforce and acceptance tests.
 
-## Completed — autonomous run 5
-1. Re-read the factory recovery chain, Game #2 research and tournament material before acting.
-2. Performed fresh competitor/reference checks around current cartography, weather-tactics and expressive-movement risks.
-3. Ran the same mandatory final packet for **False Map Department**, **Orbit Graffiti** and **Pocket Weather War**: Steam pitch, muted trailer, first 15 minutes, hour-10 mastery, minimum scope, one-week graybox, kill threshold, likely negative review, defensible advantage and solo/small-team burden.
-4. Concretized each finalist's existential issue rather than comparing themes abstractly:
-   - False Map Department: six canonical map conventions, immediate deterministic world semantics, anti-bruteforce architecture and an hour-10 linked-map mastery case.
-   - Orbit Graffiti: real-time/slow-time movement model, mouse/controller/keyboard rail grammar, capture assist and flow-preserving level structure.
-   - Pocket Weather War: discrete deterministic front rules, live forecast semantics and low-cost authored climate-doctrine opposition.
-5. Rejected **Orbit Graffiti** as runner-up because its core risk lives in exceptional movement/camera/controller feel and therefore remains implementation-craft dependent.
-6. Rejected **Pocket Weather War** as third because the hook requires more explanation and risks forecast arithmetic despite a sound deterministic model.
-7. Selected **False Map Department** because its hook is instantly visible, systemic depth emerges from second-order consequences, scope remains compact, and its existential risks are cheaply falsifiable in primitive graybox form.
-8. Completed Phase 3 Product Thesis Lock in the same run: target player, PC/Steam premium frame, genre, hook, fantasy, loop, differentiation rule, session structure, progression thesis, presentation thesis, accessibility constraints, empirical gates and explicit 1.0 exclusions are now locked.
-9. Updated `GAME_INDEX.md` to record False Map Department as Game #002.
-10. Production implementation remains **NOT STARTED**.
+## Completed — autonomous run 6
+1. Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md` and all active Game #2 recovery material before acting.
+2. Completed a full Phase-4 Mechanical Architecture pass without starting production implementation.
+3. Defined exact canonical semantics for all six map primitive families: road, bridge, border, waterway, landmark semantic label and restricted zone.
+4. Defined a single authoritative map/world state contract with stable IDs, snapped topology, derived-world rules and a strict distinction between structurally illegal edits and merely bad legal edits.
+5. Froze deterministic accepted-edit resolution ordering from map commit through structural derivation, crossing validity, route rebuild, bounded reaction beats, objective/invariant evaluation and stability handling.
+6. Defined discrete world time: inspection is timeless; accepted edits and Stability Preview advance deterministic agent beats. No hidden RNG is required.
+7. Defined a ceiling of ten reusable agent-rule archetypes, each interpreting shared map facts differently rather than creating separate one-off mechanics.
+8. Defined objective families, protected invariants, Stability windows, deterministic simultaneous-movement and trapped-agent semantics.
+9. Froze exact Undo/Redo semantics: one edit plus all consequences is atomic; Undo restores exact prior authoritative and simulation state. Raw experimentation history never harms baseline completion or mastery.
+10. Defined causal ancestry as a deterministic DAG capable of multiple simultaneous material causes and first-failure explanation.
+11. Defined linked-map/multi-scale authority: every fact has exactly one owning layer; projections/portals propagate one-way through explicit contracts; circular/conflicting authority is invalid content.
+12. Defined anti-bruteforce rules without punitive Undo: mature branching factor, locally-good ambiguity, short delayed remote consequences, multiple valid final states and no answer-oracle hints.
+13. Resolved requested edge cases including disconnected regions, border self-intersection, invalid landmark naming, bridge/water ordering, agents trapped by edits and simultaneous destination changes.
+14. Added mechanical acceptance tests `M4-01` through `M4-34`.
+15. Internal coherence review found no unresolved paper-level contradiction requiring Phase 4 to stay open.
+16. Phase 4 is therefore **COMPLETE on paper**, while inherited prototype/readability/bruteforce gates remain explicit future empirical obligations.
 
 ## Locked Game #2 thesis
 **False Map Department** — Redraw the official map and the tiny world must obey: move roads, borders, rivers and landmarks to solve civic problems without creating worse consequences elsewhere.
@@ -52,21 +57,22 @@ Branch: `main`
 Do not dilute the mapping verb with open-world exploration, city-builder economy, dialogue-heavy adventure, combat, procedural infinite campaign or unrelated minigames. Mapping/world rewrite must remain the central interaction through late game.
 
 ## NEXT ACTION
-On the next autonomous run, execute **Phase 4 — Mechanical Architecture** as a substantial design pass. Read every active file first, then define:
-1. exact canonical semantics for road, bridge, border, waterway, landmark and restricted-zone edits;
-2. authoritative world/map state model and legal/illegal edit validation;
-3. deterministic post-edit resolution ordering;
-4. reusable agent rule archetypes and how they interpret the same map facts differently;
-5. objective, protected-invariant and stability contracts;
-6. undo/history semantics and whether undo restores exact prior deterministic state;
-7. causal ancestry/event model used to explain consequences;
-8. linked-map / multi-scale authority rules for late game;
-9. anti-bruteforce architecture at mature branching factors without punishing experimentation;
-10. win/fail states, optional mastery scoring and balance knobs;
-11. edge cases: disconnected regions, conflicting authority, invalid landmark names, border self-intersection, bridge/water mutation ordering, agent trapped during an edit, simultaneous destination changes;
-12. Phase-4 acceptance tests and unresolved empirical gates.
+On the next autonomous run, execute **Phase 5 — Content Architecture** as a substantial design pass. Read every active file first, then define:
+1. campaign/dossier progression curve and approximate final dossier count within the locked 35–45 target;
+2. exact introduction/recombination order for the six primitive families;
+3. which of the ten Phase-4 agent archetypes survive, merge or are reserved for late game;
+4. data schema for districts, jurisdictions, landmarks, restricted zones, agents, tasks, objectives/invariants and linked portals;
+5. objective/invariant families and how they distribute across early/mid/late game without repetition;
+6. district visual/theme families that change context without changing hidden rules;
+7. authored versus remix/challenge content strategy and replay value;
+8. linked-map placement and maximum campaign complexity curve;
+9. content validation/solvability requirements and automated structural checks;
+10. tutorial sequence, first 15–25 minute demo slice and what content must be excluded from the demo;
+11. mastery/medal variants and anti-repetition rules;
+12. explicit 1.0 content ceiling and expansion boundaries;
+13. Phase-5 acceptance tests and any unresolved content-production risks.
 
-Create a dedicated mechanical-architecture file rather than overloading Product Thesis. Phase 4 may span multiple autonomous runs if needed; do not advance to Phase 5 until deterministic gameplay semantics are internally coherent.
+Create a dedicated content-architecture file. Do not add new core primitive families or substantially new agent interpretation mechanics without explicitly reopening Phase 4.
 
 ## Completion rule
 Remain **В процессе** until Game #2 has:
