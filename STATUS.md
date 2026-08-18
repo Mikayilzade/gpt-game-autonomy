@@ -10,7 +10,7 @@ Branch: `main`
 - Dedicated Game #1 repository: **Mikayilzade/organism-cargo**
 - Factory cleanup after Game #1: **COMPLETE**
 - Current design slot: **Game #2**
-- Game #2 autonomous design run count: **11**
+- Game #2 autonomous design run count: **12**
 - Game #2 concept selected: **YES — False Map Department**
 - Product Thesis locked: **YES**
 - Phase 4 Mechanical Architecture: **COMPLETE ON PAPER**
@@ -19,11 +19,12 @@ Branch: `main`
 - Phase 7 Economy / Retention / Commercial Model: **COMPLETE ON PAPER**
 - Phase 8 Technical Implementation Specification: **COMPLETE ON PAPER**
 - Phase 9 Whole-Game Simulation on Paper: **COMPLETE ON PAPER**
+- Phase 10 Adversarial Review: **COMPLETE ON PAPER**
 - Game #2 DESIGN COMPLETE: **NO**
 - Dedicated Game #2 repository: **NOT YET — create only after design freeze/migration gate**
 
 ## Current phase
-**Game #2 — Phase 10 Adversarial Review NEXT**
+**Game #2 — Phase 11 Specification Freeze NEXT**
 
 ## Active temporary files — mandatory recovery read
 1. `GAME2_RESEARCH.md`
@@ -37,28 +38,28 @@ Branch: `main`
 9. `GAME2_ECONOMY_COMMERCIAL.md`
 10. `GAME2_TECHNICAL_SPEC.md`
 11. `GAME2_WHOLE_GAME_SIMULATION.md`
+12. `GAME2_ADVERSARIAL_REVIEW.md`
 
-## Completed — autonomous run 11
+## Completed — autonomous run 12
 1. Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md` and every active Game #2 recovery file before acting.
-2. Executed Phase 9 as a substantial end-to-end paper simulation without starting production implementation or changing the six primitive families.
-3. Walked first boot/accessibility -> Department Desk -> D01 and reconciled historical tournament examples against canonical Phase-5/6 road-first teaching.
-4. Simulated the exact first five minutes and the 15–25 minute demo experience; isolated demo teaching-order packaging as `P9-D1` rather than silently moving canonical campaign introductions.
-5. Simulated the first 30–60 minutes through D08, including geometry, bridge/water crossing, border ownership, restricted permissions, first synthesis and first optional mastery.
-6. Simulated Act II landmark semantics, duplicate-name deterministic resolution, editable waterways and derived bridge invalidation; identified D13–D16 as the first major repetition danger zone.
-7. Simulated Act III second-order civic chains, Procession use and complex Stability; isolated passive/pointless Stability as `P9-R1`.
-8. Simulated D23–D25 linked-authority teaching from non-editable inset through first true two-layer dossier, including source ownership stamps, target badges and causal jump.
-9. Simulated Acts IV/V through 3–4-layer late dossiers while preserving the two-visible-surface ceiling; isolated layer-hopping/working-memory tax (`P9-R2`) and causal breadth overload (`P9-R3`).
-10. Simulated D40 as synthesis rather than bespoke boss and verified baseline campaign completion with zero mastery marks.
-11. Simulated post-campaign mastery/remix play; isolated checkbox-style mastery (`P9-R4`) and midgame/remix template exhaustion (`P9-R7`) as Phase-10 attacks.
-12. Simulated compatible and incompatible demo->full import, mid-preview quit, post-commit/pre-animation quit, interrupted Stability, corrupted primary save and Cloud divergence.
-13. Simulated complete mouse+keyboard, keyboard-only and controller-only paths; isolated dense logical-focus predictability/context binding as `P9-R5`.
-14. Simulated hostile behavior: brute-force Undo, edit thrashing, layer hopping, duplicate semantic names, intentionally trapped agents, repeated restart, illegal edit spam, stale/double commands and animation skipping.
-15. Confirmed that free Undo remains a learning tool and must not be nerfed; mature scenario structure remains the anti-bruteforce mechanism and empirical gate.
-16. Isolated repeated semantic relabel shortcuts as `P9-R6` for campaign/remix validation.
-17. Isolated interrupted-Stability checkpoint representation wording as technical handoff check `P9-T1`; gameplay outcome itself remains deterministic.
-18. Audited every major sequence for executable-map fantasy dilution. No detached hub walking, combat, economy, minigame or unrelated progression has entered the design.
-19. Added Phase-9 acceptance checklist `P9-01` through `P9-40`.
-20. Closure verdict: **Phase 9 COMPLETE ON PAPER; no true canonical contradiction found; no earlier phase reopened.**
+2. Executed Phase 10 as a whole-spec destructive review across fun, repetition, dominant strategy, content exhaustion, semantic relabeling, Stability, mastery, linked maps, causal ancestry, input/focus, accessibility, persistence, demo, commercial promise and production burden.
+3. Found **0 FATAL** issues; the Product Thesis and six-primitive architecture remain intact.
+4. Added canonical repair `P10-R1`: 3/5-dossier reasoning-transformation diversity validation from D13 onward.
+5. Added `P10-R2`: semantic-relabel non-dominance validation so relabeling cannot become a universal route shortcut.
+6. Added `P10-R3`: Stability>1 requires a declared meaningful temporal reason and at least one relevant transition in a valid solution envelope.
+7. Added `P10-R4`: every mastery contract requires a qualitative distinction proof rather than arbitrary threshold shaving.
+8. Added `P10-R5`: linked-authority required-chain readability budgets for Act IV/V.
+9. Added `P10-R6`: default causal-ribbon budget of <=5 material nodes and <=2 visible sibling branches for one selected requirement.
+10. Added `P10-R7`: deterministic authored/validated focus-navigation graph; runtime geometric guessing alone is insufficient.
+11. Added `P10-R8`: interrupted Stability recovery is now frozen — rollback to exact pre-verification checkpoint; no partially authoritative cross-process verification.
+12. Added `P10-R9`: demo packaging frozen as `DEMO01–DEMO05`, ending with compressed canonical border teaching; restricted zones remain out of demo.
+13. Added `P10-R10`: every remix must change an actual causal dependency/reasoning transformation, not just starts/thresholds.
+14. Preserved free Undo; anti-bruteforce remains an empirical mature-content gate rather than a punishment system.
+15. Added seven explicit empirical gates for mature search dominance, campaign repetition, authority comprehension, causal readability, Deck/non-color/reduced-motion accessibility, marketing expectation and remix distinctness.
+16. Confirmed stale/double commands, corruption recovery, Cloud divergence and monotonic/idempotent demo import remain mechanically coherent under Phase-8 rules.
+17. Confirmed implementation/content QA tooling must validate focus graphs, authority DAGs, reasoning-diversity metadata, known solutions, replay hashes and other authoring constraints early.
+18. Produced `GAME2_ADVERSARIAL_REVIEW.md` as the Phase-10 canonical supplement and freeze-blocker register.
+19. Closure verdict: **PHASE 10 COMPLETE ON PAPER; DESIGN COMPLETE remains NO.**
 
 ## Locked Game #2 thesis
 **False Map Department** — Redraw the official map and the tiny world must obey: move roads, borders, rivers and landmarks to solve civic problems without creating worse consequences elsewhere.
@@ -67,29 +68,20 @@ Branch: `main`
 **The map is not a representation of the world. The map is an executable authority over the world.**
 
 ## NEXT ACTION
-Execute **Phase 10 — Adversarial Review** as one substantial destructive pass.
+Execute **Phase 11 — Specification Freeze / fresh-session implementation-readiness audit** as one substantial run.
 
 Before acting, read `START_HERE.md`, this file, `GAME_INDEX.md`, and every file under Active temporary files.
 
-Attack the whole specification through at least these lenses:
-1. fun / boredom / hour-10 repetition;
-2. brute-force Undo and other dominant strategies;
-3. D13–D22 and remix template exhaustion;
-4. semantic relabeling as a repeated shortcut;
-5. Stability passivity and misuse;
-6. mastery becoming checkbox cleanup;
-7. linked-layer cognition, layer hopping and authority confusion;
-8. causal ancestry breadth/opacity under 6–10 agents and 2–4 layers;
-9. keyboard-only/controller-only focus predictability and contextual binding ambiguity;
-10. accessibility failures at Deck resolution, reduced motion and non-color presentation;
-11. persistence/state corruption, interrupted Stability, stale/double command, Cloud divergence and demo import;
-12. implementation ambiguity: identify every rule a fresh implementer could still interpret two ways;
-13. scope/production burden and content-authoring/QA bottlenecks;
-14. demo promise versus canonical teaching order (`P9-D1`);
-15. commercial/marketing promise versus actual first 15 minutes and late-game play;
-16. every `P9-*` risk/finding in `GAME2_WHOLE_GAME_SIMULATION.md`.
-
-For each attack, classify `PASS`, `REPAIR`, `EMPIRICAL GATE`, or `FATAL`. If `REPAIR`, make the smallest explicit canonical amendment needed and record authority. Reopen an earlier phase only for a genuine contradiction, not for optional polish. Produce a canonical Phase-10 adversarial-review file with a resolved-risk register and freeze blockers. Do **not** declare design complete in Phase 10 unless the factory's Phase-11 specification freeze is also executed in a later run.
+Phase 11 must:
+1. treat `GAME2_ADVERSARIAL_REVIEW.md` repairs `P10-R1..P10-R10` as authoritative supplements and reconcile any stale wording from earlier files;
+2. build a final authority order for implementation-sensitive conflicts;
+3. run a fresh-session deterministic Q&A audit covering at minimum boot/progression, all six primitive edit semantics, legality, reaction ordering, agents/tie-breaks, trapped state, objectives/invariants, Stability, Undo/Redo/intervention footprint, linked authority, causal ancestry, campaign/demo/remix progression, input/focus/accessibility, persistence/corruption/Cloud/demo import, content validation and empirical gates;
+4. explicitly distinguish frozen gameplay rules from prototype/playtest empirical obligations;
+5. identify every remaining implementation-flexible choice and verify that none requires inventing gameplay;
+6. create a final canonical freeze/authority file if the audit passes;
+7. set `DESIGN COMPLETE = YES` only if a fresh implementation session can build the game without inventing an important gameplay decision;
+8. do **not** migrate/create the dedicated Game #2 repository in the same step unless the specification freeze is genuinely complete and verified; migration may be the next run if safer;
+9. if the audit fails, keep `DESIGN COMPLETE = NO`, record exact blockers and the smallest next repair.
 
 ## Completion rule
 Remain **В процессе** until Game #2 has:
