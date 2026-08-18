@@ -1,126 +1,52 @@
-# STATUS
+# FACTORY STATUS
 
-Last updated: 2026-08-15
+Last updated: 2026-08-18
 Repository: `Mikayilzade/gpt-game-autonomy`
 Branch: `main`
 
-## Critical chat-status rule
+## Factory state
+- Reusable factory rules: **YES**
+- Completed Game #1 migrated out: **YES — Organism Cargo**
+- Dedicated Game #1 repository: **Mikayilzade/organism-cargo**
+- Game #1 design frozen: **YES**
+- Game #1 implementation handoff prepared: **YES**
+- Game #1 implementation started: **NO**
+- Factory cleanup after Game #1: **IN PROGRESS until game-specific files are deleted**
+- Current design slot: **Game #2**
+- Game #2 concept selected: **NO**
+- Game #2 design started: **NO**
 
-The user's completion condition is now satisfied for the design stage: one game is fully specified, internally reviewed, implementation-ready and specification-frozen.
+## Current phase
+**Factory reset between Game #1 and Game #2**
 
-## Autonomous cadence
+## Completed migration
+1. `organism-cargo` confirmed writable.
+2. All frozen Organism Cargo markdown design files were copied from this factory into the dedicated repository through a one-time migration workflow.
+3. Source `START_HERE.md` was preserved there as `DESIGN_START_HERE.md`.
+4. Source `STATUS.md` was preserved there as `DESIGN_STATUS.md`.
+5. `PHASE11_FINAL_FREEZE.md` was verified in the dedicated repo with the same source blob SHA.
+6. A detailed `IMPLEMENTATION_START_HERE.md` was added there with autonomous implementation phases 12A–12H.
+7. `IMPLEMENTATION_STATUS.md` was created there and now queues Phase 12A Technical Bootstrap.
+8. The one-time migration workflow/trigger was removed after successful transfer.
+9. This factory's `START_HERE.md` and `README.md` were converted from single-game instructions into reusable factory instructions.
 
-- Hourly continuation requested by user: **STOP — GOAL REACHED**
-- Final saved autonomous design run count: **13**
-- Goal condition: **SATISFIED**
+## Required factory cleanup
+Delete all remaining Organism Cargo-specific design/history files from this repository after confirming they exist in `organism-cargo`.
 
-## Master state
-
-- Project initialized: **YES**
-- Opportunity research sufficient for selection: **YES**
-- Concept tournament complete: **YES**
-- Final concept selected: **YES — C13 Organism Cargo**
-- Product thesis locked: **YES**
-- Mechanical architecture complete: **YES**
-- Content architecture complete: **YES**
-- UX / presentation architecture complete: **YES**
-- Economy / retention / commercial model complete: **YES**
-- Technical architecture complete: **YES**
-- Whole-game consistency review complete: **YES**
-- Adversarial review complete: **YES**
-- Exact campaign prerequisite graph frozen: **YES**
-- Support non-dominance matrix frozen: **YES**
-- 22-species unique-decision matrix frozen: **YES**
-- Unified acceptance-test index frozen: **YES**
-- Exactly-once launch / idempotent completion / persistence recovery frozen: **YES**
-- Mandatory keyboard/controller/Deck/accessibility acceptance frozen: **YES**
-- Exact Challenge/demo progression frozen: **YES**
-- Validation-history supersession semantics reconciled: **YES**
-- Final semantic contradiction/readiness audit complete: **YES**
-- Fresh-session implementation-readiness proof: **YES — 20/20 deterministic**
-- Final canonical authority overlay frozen: **YES — `PHASE11_FINAL_FREEZE.md`**
-- Specification freeze complete: **YES**
-- DESIGN COMPLETE: **YES**
-- Implementation started: **NO**
-
-## Selected game
-
-### Codename
-**Organism Cargo**
-
-### Locked thesis
-A compact deterministic strategy/puzzle game where the player packs living cargo into a constrained transport hold, commits to launch, then watches organisms change state and interact through a short transit simulation. Success comes from predicting the future ecology, explaining cascades, and improving the initial arrangement — not from satisfying static packing rules.
-
-### Non-negotiable differentiation rule
-**The hold is not solved when the doors close.**
-
-Transit must create meaningful, deterministic, learnable state changes that alter relationships after commitment.
-
-## Final authority for implementation-sensitive conflicts
-
-1. `PHASE11_FINAL_FREEZE.md`
-2. `GAME_BIBLE.md`
-3. `PHASE11_FREEZE.md`
-4. `PHASE11_TECH_PERSISTENCE.md`
-5. `PHASE11_UX_ACCESSIBILITY.md`
-6. `PHASE11_PROGRESSION.md`
-7. domain canon: `MECHANICS.md`, `DECISION_ARCHITECTURE.md`, `CONTENT_ARCHITECTURE.md`, `TECHNICAL_SPEC.md`, `UX_ARCHITECTURE.md`, `ECONOMY_COMMERCIAL.md`
-8. `PHASE4_CLOSURE.md` as validation evidence
-9. `WHOLE_GAME_SIMULATION.md`, `ADVERSARIAL_REVIEW.md` as validation history
-10. selection/research files as history only
-
-Status banners or transitional authority wording in older files are non-authoritative where they conflict with `PHASE11_FINAL_FREEZE.md` or this status.
-
-## Final completion decision — autonomous design run 13
-
-1. Re-read `START_HERE.md`, `STATUS.md`, the Phase-11 consolidation queue and the current Game Bible header.
-2. Confirmed the substantive design already had deterministic answers for all 20 fresh-session implementation-readiness questions.
-3. Confirmed the only remaining blockers were editorial conflicts in older canonical-looking files rather than missing gameplay decisions.
-4. Added `PHASE11_FINAL_FREEZE.md` as the explicit final authority overlay instead of risking destructive partial rewrites of large canonical files through the repository connector.
-5. The final freeze explicitly resolves the six stale classes: persistence/Launch authority, transit resume, mandatory input/accessibility, exact campaign/Challenge/demo progression, blocked-growth episode semantics, and Phase-9/10 validation-history precedence.
-6. Re-ran the implementation-readiness logic against that final authority chain: all 20 questions remain deterministic and require no invented gameplay.
-7. Prototype-dependent gates remain empirical validation obligations, not undefined design.
-8. Set specification freeze and `DESIGN COMPLETE` to **YES**.
-9. Production implementation remains deliberately **NOT STARTED** in this design automation.
-
-## Prototype-dependent empirical gates
-
-These remain mandatory validation obligations during implementation/prototyping:
-- >=70% of representative failures should produce a specific causal explanation + intended revision rather than blind shuffle;
-- >=50% of interesting/memorable outcomes should depend on post-launch state change;
-- ordinary non-mastery first-launch planning median should be <=8 minutes after rule familiarity;
-- helper/protector species clusters must prove decision distinctness or be cut/merged;
-- demo testers should predominantly describe the identity as planning for transit behavior rather than static packing;
-- Causal Review must surface an actionable first cause quickly without raw-log reading.
+Files to remove include game canon, validation, research/tournament and Phase-11 artifacts. Keep only factory-level files:
+- `README.md`
+- `START_HERE.md`
+- `STATUS.md`
+- `GAME_INDEX.md`
 
 ## NEXT ACTION
+**Finish the factory reset, then begin Game #2 opportunity discovery.**
 
-**Design automation is complete. Do not continue autonomous design changes.**
+1. create/update `GAME_INDEX.md` with Game #1 migration record;
+2. delete all Organism Cargo-specific files from this factory;
+3. verify the factory contains only reusable factory files;
+4. set cleanup to complete;
+5. on the next user `го`, begin Game #2 Phase 1 from a clean slate with fresh current web research rather than inheriting Organism Cargo's concept field.
 
-If implementation is started later, begin Phase 12 by reading the recovery chain below and using `PHASE11_FINAL_FREEZE.md` as the highest implementation-sensitive authority. Any gameplay change discovered during implementation must first be reconciled back into the canonical design.
-
-## Recovery instruction for a new implementation chat
-
-Read in this order:
-1. `START_HERE.md`
-2. `STATUS.md`
-3. `PHASE11_FINAL_FREEZE.md`
-4. `GAME_BIBLE.md`
-5. `PHASE11_FREEZE.md`
-6. `MECHANICS.md`
-7. `DECISION_ARCHITECTURE.md`
-8. `CONTENT_ARCHITECTURE.md`
-9. `PHASE11_TECH_PERSISTENCE.md`
-10. `PHASE11_UX_ACCESSIBILITY.md`
-11. `PHASE11_PROGRESSION.md`
-12. `TECHNICAL_SPEC.md`
-13. `UX_ARCHITECTURE.md`
-14. `ECONOMY_COMMERCIAL.md`
-15. `PHASE4_CLOSURE.md`
-16. `WHOLE_GAME_SIMULATION.md`
-17. `ADVERSARIAL_REVIEW.md`
-18. `CROSS_ROUND_FINAL.md`
-19. `RESEARCH.md` only when market/reference evidence is needed
-20. `TOURNAMENT.md` and `TOURNAMENT_ROUND2.md` only for selection history
-
-Ignore remembered chat state if it conflicts with the repository.
+## Recovery rule
+Read `START_HERE.md`, this file, and `GAME_INDEX.md`. If cleanup is still marked in progress, finish cleanup before researching Game #2.
