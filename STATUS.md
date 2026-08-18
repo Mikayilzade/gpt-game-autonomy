@@ -10,59 +10,63 @@ Branch: `main`
 - Dedicated Game #1 repository: **Mikayilzade/organism-cargo**
 - Factory cleanup after Game #1: **COMPLETE**
 - Current design slot: **Game #2**
-- Game #2 autonomous design run count: **4**
+- Game #2 autonomous design run count: **5**
 - Game #2 design started: **YES**
-- Game #2 concept selected: **NO**
+- Game #2 concept selected: **YES — False Map Department**
+- Game #2 Product Thesis locked: **YES**
 - Game #2 DESIGN COMPLETE: **NO**
 - Game #2 dedicated repository: **NOT YET — create only after design freeze/migration gate**
 
 ## Current phase
-**Game #2 — Phase 2 Concept Tournament / three finalists**
+**Game #2 — Phase 4 Mechanical Architecture NEXT**
 
 ## Active temporary files
 - `GAME2_RESEARCH.md` — Phase-1 evidence, competitor checks, 36-concept field, finalist gate and elimination model.
 - `GAME2_TOURNAMENT.md` — Run-3 uniform destructive packet and six-semifinalist slate.
-- `GAME2_TOURNAMENT_RUN4.md` — exact sessions, graybox tests, dominant-strategy attacks, 20-situation depth proofs, burden matrix and reduction to three finalists.
+- `GAME2_TOURNAMENT_RUN4.md` — exact sessions, graybox tests, dominant-strategy attacks, 20-situation depth proofs and reduction to three finalists.
+- `GAME2_TOURNAMENT_RUN5.md` — final three-way duel, concrete existential models and selection of False Map Department.
+- `GAME2_PRODUCT_THESIS.md` — locked Phase-3 product identity and scope contract.
 
-## Completed — autonomous run 4
-1. Re-read the factory recovery chain and the two active Game #2 files before acting.
-2. Defined the exact first 5-minute session and representative mature 30-minute session for all six semifinalists.
-3. Defined the smallest meaningful graybox for each concept and observable/binary kill thresholds for its existential risk.
-4. Ran deeper dominant-strategy attacks against brute-force undo, safe rails, extreme-climate/turtle play, mirror corridors, fixed test order and safe-loop/stalling.
-5. Required every semifinalist to demonstrate at least 20 meaningfully distinct situations from compact reusable rules; separated genuine systemic variety from hidden authored-content burden.
-6. Built a comparative burden matrix across art, UI clarity, simulation/feel, content, QA/balance, trailer strength, hour-10 depth and portfolio diversity.
-7. Eliminated **Echo Sculptor** because its efficient discrete form risks reading as laser-routing with audio vocabulary, while richer acoustics sharply increase scope.
-8. Eliminated **Creature Costume Inspector** because maintaining its promise requires a large authored disguise/species/test reaction matrix and art/animation burden.
-9. Eliminated **One-Room Convoy** because mature play risks collapsing toward traffic optimization or high-APM junction whack-a-mole.
-10. Advanced exactly three finalists: **False Map Department**, **Orbit Graffiti**, and **Pocket Weather War**.
-11. Did not lock Product Thesis; all three still have one concept-specific existential question to resolve.
+## Completed — autonomous run 5
+1. Re-read the factory recovery chain, Game #2 research and tournament material before acting.
+2. Performed fresh competitor/reference checks around current cartography, weather-tactics and expressive-movement risks.
+3. Ran the same mandatory final packet for **False Map Department**, **Orbit Graffiti** and **Pocket Weather War**: Steam pitch, muted trailer, first 15 minutes, hour-10 mastery, minimum scope, one-week graybox, kill threshold, likely negative review, defensible advantage and solo/small-team burden.
+4. Concretized each finalist's existential issue rather than comparing themes abstractly:
+   - False Map Department: six canonical map conventions, immediate deterministic world semantics, anti-bruteforce architecture and an hour-10 linked-map mastery case.
+   - Orbit Graffiti: real-time/slow-time movement model, mouse/controller/keyboard rail grammar, capture assist and flow-preserving level structure.
+   - Pocket Weather War: discrete deterministic front rules, live forecast semantics and low-cost authored climate-doctrine opposition.
+5. Rejected **Orbit Graffiti** as runner-up because its core risk lives in exceptional movement/camera/controller feel and therefore remains implementation-craft dependent.
+6. Rejected **Pocket Weather War** as third because the hook requires more explanation and risks forecast arithmetic despite a sound deterministic model.
+7. Selected **False Map Department** because its hook is instantly visible, systemic depth emerges from second-order consequences, scope remains compact, and its existential risks are cheaply falsifiable in primitive graybox form.
+8. Completed Phase 3 Product Thesis Lock in the same run: target player, PC/Steam premium frame, genre, hook, fantasy, loop, differentiation rule, session structure, progression thesis, presentation thesis, accessibility constraints, empirical gates and explicit 1.0 exclusions are now locked.
+9. Updated `GAME_INDEX.md` to record False Map Department as Game #002.
+10. Production implementation remains **NOT STARTED**.
 
-## Current finalist slate
-1. **False Map Department** — ontological cartography: editing the map immediately rewrites the tiny world.
-2. **Orbit Graffiti** — draw temporary gravity rails and physically ride the exact line authored.
-3. **Pocket Weather War** — tiny deterministic tactics where weather fronts are the armies and player interventions steer their collisions.
+## Locked Game #2 thesis
+**False Map Department** — Redraw the official map and the tiny world must obey: move roads, borders, rivers and landmarks to solve civic problems without creating worse consequences elsewhere.
+
+### Non-negotiable differentiation rule
+**The map is not a representation of the world. The map is an executable authority over the world.**
+
+### Product-scope warning
+Do not dilute the mapping verb with open-world exploration, city-builder economy, dialogue-heavy adventure, combat, procedural infinite campaign or unrelated minigames. Mapping/world rewrite must remain the central interaction through late game.
 
 ## NEXT ACTION
-On the next autonomous run:
-1. read all three active Game #2 files in full;
-2. run the mandatory three-way final duel using the same packet for each finalist:
-   - one-sentence Steam pitch;
-   - 10-second muted trailer beat;
-   - exact first 15 minutes;
-   - hour-10 mastery example;
-   - minimum shippable scope;
-   - one-week graybox test plan;
-   - kill threshold;
-   - most likely negative Steam review;
-   - strongest defensible advantage over known analogues;
-   - implementation burden under a solo/small-team assumption;
-3. concretize the unique existential issue for each:
-   - False Map Department: canonical map conventions, anti-bruteforce design and hour-10 growth;
-   - Orbit Graffiti: movement/assist model, controller drawing grammar and flow-preserving level structure;
-   - Pocket Weather War: representative discrete front rules, turn/forecast semantics and low-cost opposition model;
-4. refine current competitor research only where those concrete loops materially alter comparisons;
-5. select one winner only if it clearly survives the duel; otherwise explicitly require a tiny prototype duel rather than forcing a paper winner;
-6. if one winner is selected, begin Phase 3 Product Thesis Lock in the same run only if enough design certainty remains after selection.
+On the next autonomous run, execute **Phase 4 — Mechanical Architecture** as a substantial design pass. Read every active file first, then define:
+1. exact canonical semantics for road, bridge, border, waterway, landmark and restricted-zone edits;
+2. authoritative world/map state model and legal/illegal edit validation;
+3. deterministic post-edit resolution ordering;
+4. reusable agent rule archetypes and how they interpret the same map facts differently;
+5. objective, protected-invariant and stability contracts;
+6. undo/history semantics and whether undo restores exact prior deterministic state;
+7. causal ancestry/event model used to explain consequences;
+8. linked-map / multi-scale authority rules for late game;
+9. anti-bruteforce architecture at mature branching factors without punishing experimentation;
+10. win/fail states, optional mastery scoring and balance knobs;
+11. edge cases: disconnected regions, conflicting authority, invalid landmark names, border self-intersection, bridge/water mutation ordering, agent trapped during an edit, simultaneous destination changes;
+12. Phase-4 acceptance tests and unresolved empirical gates.
+
+Create a dedicated mechanical-architecture file rather than overloading Product Thesis. Phase 4 may span multiple autonomous runs if needed; do not advance to Phase 5 until deterministic gameplay semantics are internally coherent.
 
 ## Completion rule
 Remain **В процессе** until Game #2 has:
