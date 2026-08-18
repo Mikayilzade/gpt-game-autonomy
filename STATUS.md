@@ -10,17 +10,18 @@ Branch: `main`
 - Dedicated Game #1 repository: **Mikayilzade/organism-cargo**
 - Factory cleanup after Game #1: **COMPLETE**
 - Current design slot: **Game #2**
-- Game #2 autonomous design run count: **8**
+- Game #2 autonomous design run count: **9**
 - Game #2 concept selected: **YES — False Map Department**
 - Product Thesis locked: **YES**
 - Phase 4 Mechanical Architecture: **COMPLETE ON PAPER**
 - Phase 5 Content Architecture: **COMPLETE ON PAPER**
 - Phase 6 UX / Presentation Architecture: **COMPLETE ON PAPER**
+- Phase 7 Economy / Retention / Commercial Model: **COMPLETE ON PAPER**
 - Game #2 DESIGN COMPLETE: **NO**
 - Dedicated Game #2 repository: **NOT YET — create only after design freeze/migration gate**
 
 ## Current phase
-**Game #2 — Phase 7 Economy / Retention / Commercial Model NEXT**
+**Game #2 — Phase 8 Technical Implementation Specification NEXT**
 
 ## Active temporary files — mandatory recovery read
 1. `GAME2_RESEARCH.md`
@@ -31,28 +32,29 @@ Branch: `main`
 6. `GAME2_MECHANICAL_ARCHITECTURE.md`
 7. `GAME2_CONTENT_ARCHITECTURE.md`
 8. `GAME2_UX_PRESENTATION_ARCHITECTURE.md`
+9. `GAME2_ECONOMY_COMMERCIAL.md`
 
-## Completed — autonomous run 8
-1. Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md` and all seven pre-existing active Game #2 recovery files before acting.
-2. Executed Phase 6 as a substantial UX/presentation architecture pass without starting production implementation or adding gameplay rules.
-3. Created `GAME2_UX_PRESENTATION_ARCHITECTURE.md` as canonical Phase-6 authority.
-4. Froze application flow: accessibility-first first boot -> title -> Department Desk -> dossier Brief/Inspect/Edit/Resolution/Stability/Completion -> replay/next case.
-5. Defined desktop split-view and Deck 1280×800 behavior, Map/World focus modes, bidirectional correspondence selection and a strict maximum of two simultaneously visible editable linked-map surfaces.
-6. Defined complete mouse+keyboard, keyboard-only and controller-only interaction paths for all six primitives without mandatory freehand precision or virtual-mouse dependence.
-7. Defined legal candidate, selected preview and structurally illegal candidate semantics; bad-but-legal civic edits remain commit-able and teach through consequences.
-8. Defined dossier brief, goals, protected invariants and optional mastery hierarchy without checklist overload.
-9. Defined agent inspection sufficient to answer target, permissions, route, deterministic tie-break and first blocking fact.
-10. Defined causal ribbon/ancestry from player edit through derived fact, interpretation, agent state and objective/invariant effect, while explicitly prohibiting a spoiler oracle for untried edits.
-11. Separated experiment history from final intervention footprint; Undo/Redo presentation cannot shame or score learning attempts.
-12. Defined Stability Preview controls: start/resume, pause, step, 1×/2×/4×, first-failure pause/ancestry and deterministic-result invariance across presentation speeds.
-13. Defined linked-map authority breadcrumbs, projected-fact source labels and cross-layer navigation.
-14. Defined embedded first-session teaching and exact 15–25 minute demo UX while preserving Phase-5 advanced-system exclusions.
-15. Froze accessibility requirements for UI scaling, Deck readability, pattern/icon/text redundancy, reduced motion/flashing, no-audio completion, remapping, localization expansion and no timing/reflex dependency.
-16. Defined pause/settings/help/autosave signaling/recovery/failure presentation and a non-solution canonical rule glossary.
-17. Defined tactile bureaucratic map audio, compact world confirmation audio and bounded animation language with semantic redundancy.
-18. Recorded six empirical UX risks/gates: split attention, causal-ribbon spoiler risk, controller focus friction, Deck density, linked-map ownership memory and resolution waiting.
-19. Added Phase-6 acceptance tests **U6-01 through U6-36**.
-20. Closure review found no genuine mechanical contradiction requiring Phase 4/5 reopening. Phase 6 is **COMPLETE ON PAPER**.
+## Completed — autonomous run 9
+1. Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md` and all eight pre-existing active Game #2 recovery files before acting.
+2. Executed Phase 7 as a substantial economy/retention/commercial pass without changing the six map primitives or starting implementation.
+3. Performed fresh current Steam/Steamworks checks for comparable list prices, demo expectations, achievements, Cloud and Deck/cloud-save expectations.
+4. Created `GAME2_ECONOMY_COMMERCIAL.md` as canonical Phase-7 authority.
+5. Set a design-time US list-price hypothesis band of **$14.99–$19.99**, with **$17.99** as the working center hypothesis; explicitly deferred final price to release-time market/value review.
+6. Froze **no progression currency / no grind / no mastery gate**. Baseline campaign completion through D40 requires no optional mastery marks.
+7. Froze permanent campaign progression through authored prerequisite/tutorial tags rather than XP or repeated clears.
+8. Froze the 12 remix cases into three permanent packs: R01–R04 after D08, R05–R08 after D24, R09–R12 after D40. No mastery thresholds, rotations or FOMO.
+9. Froze mastery as final-state excellence only: Clean Intervention, Civic Care and Stable Authority; Undo count, elapsed time and failed experiments are never scored.
+10. Separated accessibility from puzzle challenge. Accessibility options never invalidate progress/mastery; hints change information only, never deterministic rules.
+11. Froze four hint depths: Rule Reminder, Conflict Focus, Directional Hint, and explicit optional Solution Guidance. The first three cannot prescribe a full solution sequence.
+12. Froze demo commercial boundary: 15–25 minutes, proves direct map->world causality plus a real second-order consequence and independent synthesis; advanced systems remain excluded.
+13. Froze demo->full transfer intent as versioned, monotonic and idempotent with safe refusal of incompatible clear imports.
+14. Froze Steam 1.0 scope: achievements, Cloud target, demo, controller/Deck support; explicitly excluded Workshop, leaderboards, proprietary account, backend/live-service and marketable-item systems.
+15. Froze achievement philosophy at **20–24**, working target 22, with no grind, anti-access or input-device achievements.
+16. Froze one premium purchase with no microtransactions, paid hints, cosmetic shop, gacha, season-pass dependency, ads or retry monetization.
+17. Froze future DLC boundary: optional substantial casebook expansion only after base-game demand, never withheld base campaign content or mechanical power.
+18. Recorded eight commercial/scope risks and eight empirical commercial validation gates.
+19. Added Phase-7 acceptance tests **E7-01 through E7-30**.
+20. Closure review found no genuine conflict requiring Phase 3–6 reopening. Phase 7 is **COMPLETE ON PAPER**.
 
 ## Locked Game #2 thesis
 **False Map Department** — Redraw the official map and the tiny world must obey: move roads, borders, rivers and landmarks to solve civic problems without creating worse consequences elsewhere.
@@ -61,25 +63,27 @@ Branch: `main`
 **The map is not a representation of the world. The map is an executable authority over the world.**
 
 ## NEXT ACTION
-Execute **Phase 7 — Economy / Retention / Commercial Model** as one substantial pass.
+Execute **Phase 8 — Technical Implementation Specification** as one substantial pass.
 
-Before acting, read `START_HERE.md`, this file, `GAME_INDEX.md`, and every file under Active temporary files. Use fresh web research for current premium indie puzzle pricing/store/demo/platform expectations where it materially improves the decision.
+Before acting, read `START_HERE.md`, this file, `GAME_INDEX.md`, and every file under Active temporary files. Use current official technical documentation when engine/runtime/platform assumptions are unstable or materially affect the specification.
 
 Freeze at minimum:
-1. premium price-position hypothesis and comparable logic, clearly separating hypothesis from later release-time pricing decision;
-2. campaign unlock structure without grind/currency inflation;
-3. optional mastery and replay incentive structure;
-4. exact remix-case unlock policy within Phase-5 ceiling;
-5. achievement philosophy and bounded target count/families;
-6. difficulty/assist philosophy that preserves deterministic rules and separates accessibility from challenge;
-7. demo-to-full-game content/conversion boundary;
-8. Steam/platform feature scope for 1.0 versus explicit exclusions;
-9. monetization exclusions and DLC/expansion boundary if any;
-10. retention strategy without dailies, streaks, FOMO or live service;
-11. commercial/scope risks and empirical gates;
-12. Phase-7 acceptance tests.
+1. engine/runtime direction and why it fits the deterministic 2D split-view puzzle architecture;
+2. scene/state boundaries and ownership of authoritative state;
+3. exact conceptual data model for map layers, primitives, derived world, agents, objectives, causal graph and content definitions;
+4. deterministic edit transaction/resolution architecture matching Phase 4 ordering;
+5. Undo/Redo and checkpoint semantics;
+6. save/profile schema, atomicity, recovery, versioning/migration and Steam Cloud merge behavior;
+7. demo/full profile identity and import semantics matching Phase 7;
+8. input abstraction for mouse+keyboard, keyboard-only and controller-only plus Deck constraints;
+9. localization/content pipeline and validation tooling;
+10. deterministic dossier validation/test harness and replayable transaction fixtures;
+11. performance/memory budgets suitable for 1280×800 Deck and desktop split view;
+12. implementation order/vertical slice that preserves the design contract;
+13. failure handling for corrupted saves, incompatible content versions and incomplete transactions;
+14. Phase-8 acceptance tests.
 
-Do not add a progression currency, daily system, live-service loop or unrelated mechanic merely to manufacture retention. If a true conflict with frozen mechanics/content/UX is discovered, explicitly reopen the relevant earlier phase rather than silently changing it.
+Do not write production game code in the factory. If a true technical contradiction is found, explicitly reopen the smallest affected earlier phase instead of silently changing behavior.
 
 ## Completion rule
 Remain **В процессе** until Game #2 has:
