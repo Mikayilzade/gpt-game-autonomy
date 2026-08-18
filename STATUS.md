@@ -10,7 +10,7 @@ Branch: `main`
 - Dedicated Game #1 repository: **Mikayilzade/organism-cargo**
 - Factory cleanup after Game #1: **COMPLETE**
 - Current design slot: **Game #2**
-- Game #2 autonomous design run count: **12**
+- Game #2 autonomous design run count: **13**
 - Game #2 concept selected: **YES — False Map Department**
 - Product Thesis locked: **YES**
 - Phase 4 Mechanical Architecture: **COMPLETE ON PAPER**
@@ -20,11 +20,14 @@ Branch: `main`
 - Phase 8 Technical Implementation Specification: **COMPLETE ON PAPER**
 - Phase 9 Whole-Game Simulation on Paper: **COMPLETE ON PAPER**
 - Phase 10 Adversarial Review: **COMPLETE ON PAPER**
-- Game #2 DESIGN COMPLETE: **NO**
-- Dedicated Game #2 repository: **NOT YET — create only after design freeze/migration gate**
+- Phase 11 Specification Freeze: **COMPLETE**
+- Fresh-session implementation-readiness audit: **PASS — 32/32 deterministic**
+- Game #2 DESIGN COMPLETE: **YES**
+- Dedicated Game #2 repository: **NOT YET — migration gate is NEXT**
+- Production implementation started: **NO**
 
 ## Current phase
-**Game #2 — Phase 11 Specification Freeze NEXT**
+**Game #2 — DESIGN FROZEN / migration gate next**
 
 ## Active temporary files — mandatory recovery read
 1. `GAME2_RESEARCH.md`
@@ -39,27 +42,29 @@ Branch: `main`
 10. `GAME2_TECHNICAL_SPEC.md`
 11. `GAME2_WHOLE_GAME_SIMULATION.md`
 12. `GAME2_ADVERSARIAL_REVIEW.md`
+13. `GAME2_PHASE11_FINAL_FREEZE.md`
 
-## Completed — autonomous run 12
+## Completed — autonomous run 13
 1. Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md` and every active Game #2 recovery file before acting.
-2. Executed Phase 10 as a whole-spec destructive review across fun, repetition, dominant strategy, content exhaustion, semantic relabeling, Stability, mastery, linked maps, causal ancestry, input/focus, accessibility, persistence, demo, commercial promise and production burden.
-3. Found **0 FATAL** issues; the Product Thesis and six-primitive architecture remain intact.
-4. Added canonical repair `P10-R1`: 3/5-dossier reasoning-transformation diversity validation from D13 onward.
-5. Added `P10-R2`: semantic-relabel non-dominance validation so relabeling cannot become a universal route shortcut.
-6. Added `P10-R3`: Stability>1 requires a declared meaningful temporal reason and at least one relevant transition in a valid solution envelope.
-7. Added `P10-R4`: every mastery contract requires a qualitative distinction proof rather than arbitrary threshold shaving.
-8. Added `P10-R5`: linked-authority required-chain readability budgets for Act IV/V.
-9. Added `P10-R6`: default causal-ribbon budget of <=5 material nodes and <=2 visible sibling branches for one selected requirement.
-10. Added `P10-R7`: deterministic authored/validated focus-navigation graph; runtime geometric guessing alone is insufficient.
-11. Added `P10-R8`: interrupted Stability recovery is now frozen — rollback to exact pre-verification checkpoint; no partially authoritative cross-process verification.
-12. Added `P10-R9`: demo packaging frozen as `DEMO01–DEMO05`, ending with compressed canonical border teaching; restricted zones remain out of demo.
-13. Added `P10-R10`: every remix must change an actual causal dependency/reasoning transformation, not just starts/thresholds.
-14. Preserved free Undo; anti-bruteforce remains an empirical mature-content gate rather than a punishment system.
-15. Added seven explicit empirical gates for mature search dominance, campaign repetition, authority comprehension, causal readability, Deck/non-color/reduced-motion accessibility, marketing expectation and remix distinctness.
-16. Confirmed stale/double commands, corruption recovery, Cloud divergence and monotonic/idempotent demo import remain mechanically coherent under Phase-8 rules.
-17. Confirmed implementation/content QA tooling must validate focus graphs, authority DAGs, reasoning-diversity metadata, known solutions, replay hashes and other authoring constraints early.
-18. Produced `GAME2_ADVERSARIAL_REVIEW.md` as the Phase-10 canonical supplement and freeze-blocker register.
-19. Closure verdict: **PHASE 10 COMPLETE ON PAPER; DESIGN COMPLETE remains NO.**
+2. Executed Phase 11 as a fresh-session implementation-readiness audit rather than adding new gameplay.
+3. Reconciled all Phase-10 repairs P10-R1..P10-R10 into one final canonical authority overlay.
+4. Frozen final implementation-sensitive authority order in `GAME2_PHASE11_FINAL_FREEZE.md`.
+5. Reconfirmed exactly six player primitive families and the executable-map product identity.
+6. Reconfirmed snapped-only edit grammar, legal-vs-bad edit distinction, deterministic A–I transaction order, same-snapshot simultaneous reaction beats, stable-ID tie-breaks and trapped-state semantics.
+7. Reconfirmed exact Undo/Redo checkpoint semantics and that raw experimentation/Undo history is never scored or punished.
+8. Reconciled Stability authoring, meaningful temporal-transition requirement and interrupted-Stability recovery to exact pre-verification rollback.
+9. Reconciled D01–D40 campaign teaching/progression, zero-mastery D40 access, linked-authority ceilings/readability budgets and two-surface UX rule.
+10. Reconciled causal-ribbon presentation budget and deterministic authored focus-navigation graph.
+11. Reconciled accessibility requirements across mouse+keyboard, keyboard-only, controller-only and Steam Deck 1280×800.
+12. Frozen exact `DEMO01–DEMO05` teaching sequence and explicit versioned monotonic/idempotent demo-import semantics.
+13. Reconciled mastery distinction and 12-remix changed-causal-dependency validation obligations.
+14. Reconfirmed technical/persistence contract: Godot 4.7.1 direction, deterministic domain/presentation separation, idempotent stale/double commands, atomic/versioned persistence, corruption recovery and no Cloud active-branch synthesis.
+15. Separated 12 empirical prototype/playtest obligations from frozen gameplay rules so they are not mistaken for missing design.
+16. Listed harmless implementation-flexible choices and verified none require inventing gameplay.
+17. Ran a 32-question fresh-session audit spanning product identity, primitives, legality, transactions, agents, objectives, Stability, history, progression, linked maps, causal ancestry, demo/import, input/accessibility, persistence, content validation and empirical gates: **32/32 deterministic**.
+18. Created `GAME2_PHASE11_FINAL_FREEZE.md` as highest implementation-sensitive authority.
+19. Set specification freeze and `DESIGN COMPLETE` to **YES**.
+20. Did not migrate or create the dedicated game repository in the same run; migration remains a separate safety gate before factory cleanup.
 
 ## Locked Game #2 thesis
 **False Map Department** — Redraw the official map and the tiny world must obey: move roads, borders, rivers and landmarks to solve civic problems without creating worse consequences elsewhere.
@@ -68,29 +73,24 @@ Branch: `main`
 **The map is not a representation of the world. The map is an executable authority over the world.**
 
 ## NEXT ACTION
-Execute **Phase 11 — Specification Freeze / fresh-session implementation-readiness audit** as one substantial run.
+Execute the **Game #2 migration gate** as one substantial safety-oriented run.
 
 Before acting, read `START_HERE.md`, this file, `GAME_INDEX.md`, and every file under Active temporary files.
 
-Phase 11 must:
-1. treat `GAME2_ADVERSARIAL_REVIEW.md` repairs `P10-R1..P10-R10` as authoritative supplements and reconcile any stale wording from earlier files;
-2. build a final authority order for implementation-sensitive conflicts;
-3. run a fresh-session deterministic Q&A audit covering at minimum boot/progression, all six primitive edit semantics, legality, reaction ordering, agents/tie-breaks, trapped state, objectives/invariants, Stability, Undo/Redo/intervention footprint, linked authority, causal ancestry, campaign/demo/remix progression, input/focus/accessibility, persistence/corruption/Cloud/demo import, content validation and empirical gates;
-4. explicitly distinguish frozen gameplay rules from prototype/playtest empirical obligations;
-5. identify every remaining implementation-flexible choice and verify that none requires inventing gameplay;
-6. create a final canonical freeze/authority file if the audit passes;
-7. set `DESIGN COMPLETE = YES` only if a fresh implementation session can build the game without inventing an important gameplay decision;
-8. do **not** migrate/create the dedicated Game #2 repository in the same step unless the specification freeze is genuinely complete and verified; migration may be the next run if safer;
-9. if the audit fails, keep `DESIGN COMPLETE = NO`, record exact blockers and the smallest next repair.
+Migration run must:
+1. create/use dedicated repository `Mikayilzade/false-map-department` unless that repository already exists and is clearly intended for this game;
+2. migrate all Game #2 canonical files plus selection/validation history needed for full recovery;
+3. preserve exact file content and verify `GAME2_PHASE11_FINAL_FREEZE.md` in the destination against the source;
+4. add a clear destination README/design-status pointer;
+5. add detailed `IMPLEMENTATION_START_HERE.md` defining autonomous Phase 12A–12H implementation, testing, commit/status, canonical-amendment and completion rules;
+6. add `IMPLEMENTATION_STATUS.md` with Phase 12A Technical Bootstrap as exact next action;
+7. verify the entire destination authority/recovery chain is self-contained;
+8. update `GAME_INDEX.md` with dedicated repository and migrated/frozen status;
+9. only after verification, delete all Game #2-specific files from this factory and reset `STATUS.md` for Game #3;
+10. report Game #2 design cycle completed and disable the current recurring Game #2 design automation only after all above succeeds.
 
 ## Completion rule
-Remain **В процессе** until Game #2 has:
-- full specification through Phase 11;
-- `DESIGN COMPLETE = YES`;
-- safe migration to its own dedicated repository;
-- autonomous implementation handoff created and verified;
-- `GAME_INDEX.md` updated;
-- factory cleaned/reset for Game #3.
+Game #2 is **design-complete but factory-cycle incomplete** until safe migration + destination handoff + verification + factory cleanup/reset are complete.
 
 ## Recovery rule
 Read `START_HERE.md`, this file, `GAME_INDEX.md`, then every file listed under Active temporary files, and execute `NEXT ACTION` exactly.
