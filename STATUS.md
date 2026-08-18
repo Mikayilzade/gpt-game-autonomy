@@ -10,55 +10,59 @@ Branch: `main`
 - Dedicated Game #1 repository: **Mikayilzade/organism-cargo**
 - Factory cleanup after Game #1: **COMPLETE**
 - Current design slot: **Game #2**
-- Game #2 autonomous design run count: **3**
+- Game #2 autonomous design run count: **4**
 - Game #2 design started: **YES**
 - Game #2 concept selected: **NO**
 - Game #2 DESIGN COMPLETE: **NO**
 - Game #2 dedicated repository: **NOT YET — create only after design freeze/migration gate**
 
 ## Current phase
-**Game #2 — Phase 2 Concept Tournament / six semifinalists**
+**Game #2 — Phase 2 Concept Tournament / three finalists**
 
 ## Active temporary files
 - `GAME2_RESEARCH.md` — Phase-1 evidence, competitor checks, 36-concept field, finalist gate and elimination model.
-- `GAME2_TOURNAMENT.md` — Run-3 uniform destructive packet, current competitor checks, weather duel, semifinal slate and tournament next action.
+- `GAME2_TOURNAMENT.md` — Run-3 uniform destructive packet and six-semifinalist slate.
+- `GAME2_TOURNAMENT_RUN4.md` — exact sessions, graybox tests, dominant-strategy attacks, 20-situation depth proofs, burden matrix and reduction to three finalists.
 
-## Completed — autonomous run 3
-1. Re-read the factory recovery chain and full Game #2 research state before acting.
-2. Performed targeted current competitor checks for F6 Impossible Elevator, F7 Pocket Weather War, F8 Orbit Graffiti, F9 One-Room Convoy and F10 Heat Signature.
-3. Confirmed Impossible Elevator faces both compact passenger-routing comparison (`Lift Attendant`) and a noisy current elevator/anomaly theme space.
-4. Confirmed Pocket Weather War still has useful mechanical whitespace: current tactics/strategy games use weather strongly, but no close checked analogue makes player-created competing fronts the main tiny-board tactical verb.
-5. Increased Orbit Graffiti's competitive risk after finding `Stunted Gravity` and `Stunt Xpress`; retained it only on the narrower thesis that drawing a temporary rail and personally riding the exact authored line is the core verb.
-6. Confirmed One-Room Convoy must escape traffic optimization and the existing `Convoy` noun; its live multi-agent junction triage remains mechanically distinct enough for semifinal testing.
-7. Rejected the F10 working title because `Heat Signature` is already a prominent 2017 stealth game; also found current indirect-control precedent (`Sole Mistake`), raising the burden on the thermal mechanic itself.
-8. Ran the same 14-question destructive packet across all ten Phase-1 finalists, covering repeated verb, pre-reward pleasure, hour-10 change, dominant/boring strategies, trailer legibility, graybox kill evidence, competitors, content burden, accessibility, technical scope, story/mastery clips, theme-stripped value and Game #001 structural repetition.
-9. Ran the mandatory weather duel. **Pocket Weather War defeated Weather Locksmith** because it targets a different tactics audience, has stronger systemic replay and produces more dynamic trailer/reversal moments from the same weather vocabulary.
-10. Applied portfolio-diversity penalties. Fish Compiler and the thermal indirect-stealth concept lost ground because configure/release-or-indirect-agent/observe/revise dependencies approach Organism Cargo's structural rhythm.
-11. Closed Phase 1 and began Phase 2 with **six semifinalists**: False Map Department, Orbit Graffiti, Pocket Weather War, Echo Sculptor, Creature Costume Inspector and One-Room Convoy.
-12. Eliminated Weather Locksmith, Fish Compiler, Impossible Elevator and the Heat Signature working concept from the active tournament.
-13. Created `GAME2_TOURNAMENT.md` with all run-3 evidence, provisional scores and exact Run-4 falsification tasks.
+## Completed — autonomous run 4
+1. Re-read the factory recovery chain and the two active Game #2 files before acting.
+2. Defined the exact first 5-minute session and representative mature 30-minute session for all six semifinalists.
+3. Defined the smallest meaningful graybox for each concept and observable/binary kill thresholds for its existential risk.
+4. Ran deeper dominant-strategy attacks against brute-force undo, safe rails, extreme-climate/turtle play, mirror corridors, fixed test order and safe-loop/stalling.
+5. Required every semifinalist to demonstrate at least 20 meaningfully distinct situations from compact reusable rules; separated genuine systemic variety from hidden authored-content burden.
+6. Built a comparative burden matrix across art, UI clarity, simulation/feel, content, QA/balance, trailer strength, hour-10 depth and portfolio diversity.
+7. Eliminated **Echo Sculptor** because its efficient discrete form risks reading as laser-routing with audio vocabulary, while richer acoustics sharply increase scope.
+8. Eliminated **Creature Costume Inspector** because maintaining its promise requires a large authored disguise/species/test reaction matrix and art/animation burden.
+9. Eliminated **One-Room Convoy** because mature play risks collapsing toward traffic optimization or high-APM junction whack-a-mole.
+10. Advanced exactly three finalists: **False Map Department**, **Orbit Graffiti**, and **Pocket Weather War**.
+11. Did not lock Product Thesis; all three still have one concept-specific existential question to resolve.
 
-## Current semifinal slate
-1. S1 / G2C19 — **False Map Department**
-2. S2 / G2C28 — **Orbit Graffiti**
-3. S3 / G2C23 — **Pocket Weather War**
-4. S4 / G2C05 — **Echo Sculptor**
-5. S5 / G2C20 — **Creature Costume Inspector**
-6. S6 / G2C30 — **One-Room Convoy**
-
-This is **not** a final game selection.
+## Current finalist slate
+1. **False Map Department** — ontological cartography: editing the map immediately rewrites the tiny world.
+2. **Orbit Graffiti** — draw temporary gravity rails and physically ride the exact line authored.
+3. **Pocket Weather War** — tiny deterministic tactics where weather fronts are the armies and player interventions steer their collisions.
 
 ## NEXT ACTION
 On the next autonomous run:
-1. read `GAME2_RESEARCH.md` and `GAME2_TOURNAMENT.md` in full;
-2. define the exact first 5-minute session and representative mature 30-minute session for each of the six semifinalists;
-3. define each concept's smallest graybox plus binary/observable kill thresholds for its existential risk;
-4. run a deeper dominant-strategy and boring-strategy attack, especially brute-force undo for False Map, safe rails for Orbit Graffiti, extreme-climate/turtle openings for Pocket Weather War, mirror corridors for Echo Sculptor, fixed test order for Creature Costume Inspector and safe-loop/stalling for One-Room Convoy;
-5. demonstrate whether each concept can produce at least 20 meaningfully distinct challenge situations from a compact reusable rule vocabulary;
-6. estimate comparative burden across art, UI, simulation, content authoring and QA;
-7. refine competitor checks only where the now-concrete loop changes the comparison;
-8. reduce six semifinalists to **2–3 finalists**;
-9. do not lock Product Thesis unless the finalists have concrete session loops, scope ceilings and falsifiable graybox criteria.
+1. read all three active Game #2 files in full;
+2. run the mandatory three-way final duel using the same packet for each finalist:
+   - one-sentence Steam pitch;
+   - 10-second muted trailer beat;
+   - exact first 15 minutes;
+   - hour-10 mastery example;
+   - minimum shippable scope;
+   - one-week graybox test plan;
+   - kill threshold;
+   - most likely negative Steam review;
+   - strongest defensible advantage over known analogues;
+   - implementation burden under a solo/small-team assumption;
+3. concretize the unique existential issue for each:
+   - False Map Department: canonical map conventions, anti-bruteforce design and hour-10 growth;
+   - Orbit Graffiti: movement/assist model, controller drawing grammar and flow-preserving level structure;
+   - Pocket Weather War: representative discrete front rules, turn/forecast semantics and low-cost opposition model;
+4. refine current competitor research only where those concrete loops materially alter comparisons;
+5. select one winner only if it clearly survives the duel; otherwise explicitly require a tiny prototype duel rather than forcing a paper winner;
+6. if one winner is selected, begin Phase 3 Product Thesis Lock in the same run only if enough design certainty remains after selection.
 
 ## Completion rule
 Remain **В процессе** until Game #2 has:
