@@ -10,59 +10,55 @@ Branch: `main`
 - Dedicated Game #1 repository: **Mikayilzade/organism-cargo**
 - Factory cleanup after Game #1: **COMPLETE**
 - Current design slot: **Game #2**
-- Game #2 autonomous design run count: **2**
+- Game #2 autonomous design run count: **3**
 - Game #2 design started: **YES**
 - Game #2 concept selected: **NO**
 - Game #2 DESIGN COMPLETE: **NO**
 - Game #2 dedicated repository: **NOT YET — create only after design freeze/migration gate**
 
 ## Current phase
-**Game #2 — Phase 1 Opportunity Discovery, late pass / tournament gate approaching**
+**Game #2 — Phase 2 Concept Tournament / six semifinalists**
 
 ## Active temporary files
-- `GAME2_RESEARCH.md` — current evidence, competitor checks, expanded candidate field, harsher elimination model and 10-finalist Phase-1 slate.
+- `GAME2_RESEARCH.md` — Phase-1 evidence, competitor checks, 36-concept field, finalist gate and elimination model.
+- `GAME2_TOURNAMENT.md` — Run-3 uniform destructive packet, current competitor checks, weather duel, semifinal slate and tournament next action.
 
-## Completed — autonomous run 2
-1. Read the clean factory recovery chain and Run-1 research before acting.
-2. Ran direct current competitor/analogue searches against all eight Run-1 Tier A concepts.
-3. Downgraded **Shadow Printer** because *Projected Dreams* already occupies physical-object shadow-composition strongly enough to weaken the hook.
-4. Downgraded **The Last Stagehand** after finding current theatre/backstage overlap including *Staged*, *Once Upon a Puppet*, *Stagehand Survival Simulator* and *Impresario*.
-5. Retained **False Map Department** strongly: current cartography games use maps to represent/navigate worlds, while the candidate's core remains representation that rewrites reality.
-6. Retained **Creature Costume Inspector** with a hard differentiation requirement against current non-human inspection/deduction games.
-7. Retained **Echo Sculptor**, **Weather Locksmith**, **Fish Compiler** and **Impossible Elevator** with explicit graybox kill risks.
-8. Moved **Reverse Heist Lab** to reserve because its security fantasy is established and its plan/commit/observe/revise structure risks portfolio repetition with Game #001.
-9. Broadened the field with 12 new concepts spanning arcade, score attack, real-time tactics, self-ghost/asynchronous and desktop-native interaction.
-10. Rejected **Bullet Shepherd** after finding multiple current/upcoming deflection-only action games; generic magnet movement and generic desktop idle were also penalized by current overlap.
-11. Added **Orbit Graffiti**, **One-Room Convoy** and **Heat Signature** to the serious field as non-workplace/non-static-puzzle challengers.
-12. Replaced the softer Run-1 weighted screen with a harsher model covering hook, core pleasure, depth, repetition resistance, scope, one-week graybox proof, demo strength, tutorial burden, technical risk and competitive whitespace, plus eight hard kill conditions.
-13. Reduced the opportunity field to **10 Phase-1 finalists** plus reserves without selecting a winner.
+## Completed — autonomous run 3
+1. Re-read the factory recovery chain and full Game #2 research state before acting.
+2. Performed targeted current competitor checks for F6 Impossible Elevator, F7 Pocket Weather War, F8 Orbit Graffiti, F9 One-Room Convoy and F10 Heat Signature.
+3. Confirmed Impossible Elevator faces both compact passenger-routing comparison (`Lift Attendant`) and a noisy current elevator/anomaly theme space.
+4. Confirmed Pocket Weather War still has useful mechanical whitespace: current tactics/strategy games use weather strongly, but no close checked analogue makes player-created competing fronts the main tiny-board tactical verb.
+5. Increased Orbit Graffiti's competitive risk after finding `Stunted Gravity` and `Stunt Xpress`; retained it only on the narrower thesis that drawing a temporary rail and personally riding the exact authored line is the core verb.
+6. Confirmed One-Room Convoy must escape traffic optimization and the existing `Convoy` noun; its live multi-agent junction triage remains mechanically distinct enough for semifinal testing.
+7. Rejected the F10 working title because `Heat Signature` is already a prominent 2017 stealth game; also found current indirect-control precedent (`Sole Mistake`), raising the burden on the thermal mechanic itself.
+8. Ran the same 14-question destructive packet across all ten Phase-1 finalists, covering repeated verb, pre-reward pleasure, hour-10 change, dominant/boring strategies, trailer legibility, graybox kill evidence, competitors, content burden, accessibility, technical scope, story/mastery clips, theme-stripped value and Game #001 structural repetition.
+9. Ran the mandatory weather duel. **Pocket Weather War defeated Weather Locksmith** because it targets a different tactics audience, has stronger systemic replay and produces more dynamic trailer/reversal moments from the same weather vocabulary.
+10. Applied portfolio-diversity penalties. Fish Compiler and the thermal indirect-stealth concept lost ground because configure/release-or-indirect-agent/observe/revise dependencies approach Organism Cargo's structural rhythm.
+11. Closed Phase 1 and began Phase 2 with **six semifinalists**: False Map Department, Orbit Graffiti, Pocket Weather War, Echo Sculptor, Creature Costume Inspector and One-Room Convoy.
+12. Eliminated Weather Locksmith, Fish Compiler, Impossible Elevator and the Heat Signature working concept from the active tournament.
+13. Created `GAME2_TOURNAMENT.md` with all run-3 evidence, provisional scores and exact Run-4 falsification tasks.
 
-## Current Phase-1 finalist slate
-1. F1 / G2C19 — False Map Department
-2. F2 / G2C20 — Creature Costume Inspector
-3. F3 / G2C05 — Echo Sculptor
-4. F4 / G2C09 — Weather Locksmith
-5. F5 / G2C06 — Fish Compiler
-6. F6 / G2C07 — Impossible Elevator
-7. F7 / G2C23 — Pocket Weather War
-8. F8 / G2C28 — Orbit Graffiti
-9. F9 / G2C30 — One-Room Convoy
-10. F10 / G2C34 — Heat Signature
+## Current semifinal slate
+1. S1 / G2C19 — **False Map Department**
+2. S2 / G2C28 — **Orbit Graffiti**
+3. S3 / G2C23 — **Pocket Weather War**
+4. S4 / G2C05 — **Echo Sculptor**
+5. S5 / G2C20 — **Creature Costume Inspector**
+6. S6 / G2C30 — **One-Room Convoy**
 
 This is **not** a final game selection.
 
 ## NEXT ACTION
 On the next autonomous run:
-1. read `GAME2_RESEARCH.md` in full;
-2. perform targeted competitor checks for F6 Impossible Elevator, F7 Pocket Weather War, F8 Orbit Graffiti, F9 One-Room Convoy and F10 Heat Signature;
-3. run the uniform 14-question destructive packet defined in `GAME2_RESEARCH.md` across all ten finalists;
-4. compare F4 Weather Locksmith vs F7 Pocket Weather War and eliminate one unless they prove genuinely different verbs/audiences;
-5. apply a portfolio-diversity penalty to concepts that repeat Organism Cargo's plan/commit/watch/causal-review dependency;
-6. close Phase 1 by reducing to roughly 4–6 genuine semifinalists;
-7. create `GAME2_TOURNAMENT.md` and begin Phase 2 only after that reduction;
-8. save all evidence and update this status with the exact next action.
-
-Do not lock the final game in the next run unless one candidate becomes overwhelmingly superior under the same destructive criteria.
+1. read `GAME2_RESEARCH.md` and `GAME2_TOURNAMENT.md` in full;
+2. define the exact first 5-minute session and representative mature 30-minute session for each of the six semifinalists;
+3. define each concept's smallest graybox plus binary/observable kill thresholds for its existential risk;
+4. run a deeper dominant-strategy and boring-strategy attack, especially brute-force undo for False Map, safe rails for Orbit Graffiti, extreme-climate/turtle openings for Pocket Weather War, mirror corridors for Echo Sculptor, fixed test order for Creature Costume Inspector and safe-loop/stalling for One-Room Convoy;
+5. demonstrate whether each concept can produce at least 20 meaningfully distinct challenge situations from a compact reusable rule vocabulary;
+6. estimate comparative burden across art, UI, simulation, content authoring and QA;
+7. refine competitor checks only where the now-concrete loop changes the comparison;
+8. reduce six semifinalists to **2–3 finalists**;
+9. do not lock Product Thesis unless the finalists have concrete session loops, scope ceilings and falsifiable graybox criteria.
 
 ## Completion rule
 Remain **В процессе** until Game #2 has:
