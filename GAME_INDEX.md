@@ -5,7 +5,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 | # | Game | Design status | Dedicated repository | Implementation status | Notes |
 |---|---|---|---|---|---|
 | 001 | **Organism Cargo** | DESIGN COMPLETE / specification frozen | `Mikayilzade/organism-cargo` | Not started; Phase 12A queued | Migrated 2026-08-18 with full design canon, validation/history and autonomous implementation handoff. |
-| 002 | TBD | Not started | TBD after design freeze | Not applicable | Next factory design slot. |
+| 002 | **TBD — active design cycle** | Phase 1 Opportunity Discovery / run 1 complete | TBD after design freeze | Not applicable | Fresh 2026 research started; 24 first-pass concepts generated. Current working material: `GAME2_RESEARCH.md`. |
 
 ## Numbering rule
 Use the next unused sequential game number for every new factory design cycle, whether the concept later ships or is killed. If a design is abandoned before migration, record it here as `KILLED` with a short reason so the factory does not accidentally rediscover it as if it were new.
