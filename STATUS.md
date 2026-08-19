@@ -10,7 +10,7 @@ Branch: `main`
 - Game #2 migrated: **YES — False Map Department -> `Mikayilzade/false-map-department`**
 - Factory cleanup after Game #2: **COMPLETE**
 - Current design slot: **Game #3**
-- Game #3 autonomous design run count: **11**
+- Game #3 autonomous design run count: **12**
 - Game #3 concept selected: **YES — Borrowed Collision**
 - Phase 1 Opportunity Discovery: **COMPLETE**
 - Phase 2 Concept Tournament: **COMPLETE**
@@ -19,11 +19,12 @@ Branch: `main`
 - Phase 5 Content Architecture: **COMPLETE ON PAPER**
 - Phase 6 UX / Presentation Architecture: **COMPLETE ON PAPER**
 - Phase 7 Economy / Retention / Commercial Model: **COMPLETE ON PAPER**
-- Phase 8 Technical Implementation Specification: **NEXT**
+- Phase 8 Technical Implementation Specification: **COMPLETE ON PAPER**
+- Phase 9 Whole-Game Simulation on Paper: **NEXT**
 - Production implementation started: **NO**
 
 ## Current phase
-**Game #3 — Phase 8 Technical Implementation Specification / Phase 7 complete on paper**
+**Game #3 — Phase 9 Whole-Game Simulation on Paper / Phase 8 complete on paper**
 
 ## Active temporary files — mandatory recovery read
 1. `GAME3_RESEARCH.md`
@@ -37,27 +38,32 @@ Branch: `main`
 9. `GAME3_CONTENT_ARCHITECTURE.md`
 10. `GAME3_UX_PRESENTATION_ARCHITECTURE.md`
 11. `GAME3_ECONOMY_COMMERCIAL.md`
+12. `GAME3_TECHNICAL_SPEC.md`
 
-## Completed — autonomous run 11
+## Completed — autonomous run 12
 1. Re-read `START_HERE.md`, prior `STATUS.md`, `GAME_INDEX.md`, and every active Game #3 recovery file named by status before acting.
-2. Resumed exactly from Phase 7 and created canonical `GAME3_ECONOMY_COMMERCIAL.md` without starting production implementation or reopening gameplay mechanics.
-3. Rechecked current Steam references on 2026-08-20: `A Little Perspective` $14.99, `One Move Away` $14.99, `The GoD Unit` $9.99, `Bionic Bay` $19.99, plus current Steamworks Demo/Cloud/Achievements/Deck documentation.
-4. Froze a design-time US list-price band of **$14.99–$19.99**, working center **$16.99**, while explicitly requiring release-time market/value recheck rather than turning the hypothesis into release canon.
-5. Froze **no progression currency/power economy**: no XP, upgrades, rarity, crafting, skill tree, energy/lives, hint currency or farmed retries. The player progresses through case clears and tutorial/prerequisite tags only.
-6. Froze the exact C01–C34 campaign prerequisite graph. C34 remains reachable with **zero optional mastery marks**, remixes/achievements never gate the main campaign, and replay/farming is never required for progression.
-7. Froze four optional mastery roles: **Causal Compression, Preservation, Resource Discipline, Stable Causality**. Raw Undo/restart/failure/time/pause/assist/input-device history is never scored; accessibility never invalidates mastery; mastery grants no mechanical power.
-8. Froze exactly **10 target remix cases** into three permanent packs: R01–R03 after C14, R04–R07 after C28, R08–R10 after C34. Every remix must document a changed causal dependency and new dominant reasoning transformation; parameter/art padding fails validation.
-9. Froze retention without grind/FOMO: authored case cadence, alternate solutions, mastery, remixes and causal re-interpretation only. Dailies, streaks, rotating content, push-engagement loops, energy and endless filler are explicitly excluded.
-10. Froze a four-depth hint model: Rule Reminder, Causal Conflict Focus, Directional Guidance, optional explicit Solution Guidance. Hints change information/help only; they never mutate collision/token/receiver/deterministic rules and never block baseline completion/mastery legitimacy.
-11. Froze demo commercial intent around `DEMO01..DEMO05`, with the demo required to end on a deliberate secondary-collision/new-lineage reuse `aha`. Demo->full transfer is intended to be version-mapped, monotonic and idempotent; incompatible active demo state is never synthesized.
-12. Froze Steam/Deck 1.0 scope: practical controller support, Deck-targeted layout, Steam Achievements, Steam Cloud target, associated demo, offline play without proprietary account and localization-ready architecture. Workshop, online leaderboards, multiplayer, server backend, proprietary login and live challenge services remain out of scope.
-13. Froze a working achievement target of **20–24 (center 22)** with no grind, anti-access, input-device or repeated-failure farming achievements.
-14. Froze monetization exclusions: one premium purchase, no microtransactions, paid hints, paid impact types, inventory-slot purchases, cosmetic store, ads, battle pass or withheld C01–C34 launch content. Any future paid expansion must be optional substantial new casebook content and cannot sell power.
-15. Recorded nine commercial/retention risks: value mismatch, `arrow inventory` mis-positioning, quantized-physics expectation mismatch, shallow mastery, remix padding, demo over-teaching/underselling, hint oracle risk, platform feature creep and over-anchoring at $19.99.
-16. Added ten empirical commercial gates covering hook/provenance/demo comprehension, no-grind progression, mastery/remix distinctness, store-positioning truth, price fairness and platform-account independence.
-17. Added **50 numbered Phase-7 acceptance tests (`E7-01..E7-50`)** spanning commercial model, campaign progression, mastery, remixes, hints/accessibility, demo/platform, achievements, monetization and positioning integrity.
-18. Phase-7 closure: **COMPLETE ON PAPER**. Product Thesis, Mechanical Architecture, Content Architecture and UX remain locked; no new token property, transform, receiver family, combat layer or retention mechanic was added.
-19. Production implementation remains **NOT STARTED**.
+2. Resumed exactly from Phase 8 and created canonical `GAME3_TECHNICAL_SPEC.md` without starting production implementation or reopening gameplay mechanics.
+3. Rechecked current official engine/platform evidence on 2026-08-20. Godot 4.7.1 remains the latest stable 4.7 release; 4.7.2 is still release-candidate and 4.8 development-only. Froze **Godot 4.7.1-stable, standard build, GDScript-first, deterministic 2D Control/Canvas architecture**, with an explicit pin/no-ambient-upgrade rule.
+4. Froze strict **Domain Core / Application Services / Presentation / Platform Adapter** authority boundaries. Engine physics contacts, scenes, animation timing, render coordinates, locale and Steam identity cannot become gameplay truth.
+5. Froze canonical `CaseDefinition`, `CaseState`, player, body, movement-lane, collision-relation, portable-impact, lineage, donor-generation, receiver/transform and objective/invariant/mastery state models.
+6. Froze semantic command families for traversal, impact collection, impact transformation, impact spending and RESETTABLE donor reset, plus exact stale/double-command idempotency rules. Self-launch remains an ordinary R6 spend.
+7. Froze deterministic movement/collision transaction architecture with same-step snapshot intents, simultaneous collision grouping, data-driven collision outcomes, one-impact-per-lineage emission and bounded chain resolution.
+8. Froze canonical serialization independent of Godot object serialization and **SHA-256 `canonical_hash_version=1`** golden replay identity; locale, device, presentation speed and insertion order are forbidden from changing hashes.
+9. Froze exact full-checkpoint Undo/Redo architecture for the compact case scale, including player node, bodies, inventory/world pickups, lineage emission, donor generations, receiver states, objectives and causal graph.
+10. Froze the content compiler/validator for R1–R8, four donor regeneration classes, four transform families, collision coverage, simultaneous-contact validity, C01–C34 prerequisite graph, tutorial tags, reasoning-transformation windows, mastery distinction notes, remix changed-causal-dependency requirements and known solution fixtures.
+11. Added bounded exploit tooling requirements for lineage duplication, donor factories, CYCLIC_WEAK escalation, strong-force dominance and provenance counterfactual failures.
+12. Froze persistence domains and save envelopes, validated temp/backup/primary recovery, schema migration, active-case incompatibility handling and the rule that partial collision chains are never persisted as canonical state.
+13. Froze Steam Cloud semantics: monotonic profile merge, per-setting logical revisions, strict active-case command-history/hash ancestry for automatic descendant selection, and no synthetic merge of divergent active-case branches. Offline/local correctness remains independent of Steam.
+14. Froze demo->full import identity as explicit versioned mapping with monotonic/idempotent receipts; similarity alone cannot auto-clear campaign cases and incompatible active demo state cannot be synthesized.
+15. Froze semantic input abstraction plus deterministic authored focus graph for mouse+keyboard, keyboard-only, controller and Deck. Focus cannot depend on zoom, UI scale, scene/hash order or runtime nearest-float ambiguity.
+16. Froze localization-ready stable-token architecture and explicitly prohibited translated strings from serving as gameplay identity. Direction enums remain physical-world semantics independent of UI text direction.
+17. Froze one documented Godot `--headless` deterministic test entrypoint and 22 required test families covering collision/lineage/donor/receiver/self-launch/moving windows, Undo/Redo, content, persistence, Cloud, demo import, focus, localization and golden replays.
+18. Added metamorphic tests and save fault-injection tests covering duplicate commands, lineage emission, transform identity, locale/device/presentation invariance and every durable-write interruption stage.
+19. Defined compact performance/memory/load/save targets and a 12A–12H implementation ladder that proves consequence-transfer determinism/readability before large content production.
+20. Added notification-safe future implementation expectations: local/headless tests and manual remote CI during unstable bootstrap; automatic push/PR CI only after baseline is consistently green.
+21. Added **72 numbered Phase-8 acceptance tests (`T8-01..T8-72`)** spanning architecture, determinism, commands, lineage/donors, history, content compiler, persistence, Cloud/demo, input/localization/Deck, headless replay, fault injection and CI safety.
+22. Phase-8 closure: **COMPLETE ON PAPER**. No true Phase-3..7 contradiction was found. One narrow implementation clarification was added: ordinary authored player traversal is canonical node-to-node state for exact save/Undo/accessibility, without adding free-space physics or advancing autonomous collision chains.
+23. Production implementation remains **NOT STARTED**.
 
 ## Locked Game #3 thesis
 **Borrowed Collision** — Steal the force from one crash and spend it somewhere else: harvest collisions as portable impacts, route them through physical sockets, and reuse those consequences on carts, doors, cargo — or yourself.
@@ -66,24 +72,19 @@ Branch: `main`
 **A resolved physical consequence becomes a portable resource, and the world-state that created and receives that consequence must continue to matter.**
 
 ## NEXT ACTION
-Execute **Phase 8 — Technical Implementation Specification**:
-1. choose and justify the engine/runtime direction for the frozen deterministic 2D causal-physics design using current stable tool/platform evidence where material;
-2. define strict Domain Core / Application Services / Presentation / Platform Adapter ownership boundaries so scenes/animation never become gameplay truth;
-3. freeze the canonical `CaseDefinition` / `CaseState` / body / movement-lane / collision-relation / portable-impact / lineage / receiver / transform / objective state models;
-4. define deterministic semantic command and transaction architecture for collect, transform, spend, reset, self-launch, moving receive windows, chained collision resolution and idempotent stale/double-command rejection;
-5. define canonical serialization/state hashing and replay fixtures independent of frame rate, locale, input device, scene-tree/hash iteration and presentation speed;
-6. define the content compiler/validator for R1–R8 families, donor regeneration classes, collision tables, prerequisite graph, reasoning-transformation tags, mastery distinction notes, remix changed-causal-dependency requirements and known-solution fixtures;
-7. freeze Undo/Redo/history checkpoint architecture preserving exact body/token/lineage/world-pickup/transaction state;
-8. define save/profile/recovery/version migration rules, interrupted transaction recovery, corruption backup selection and active-case compatibility across changed content/rules;
-9. define Steam Cloud conflict/merge semantics and demo->full mapping/import identity while keeping offline/local correctness independent of Steam;
-10. define semantic input abstraction and deterministic authored focus graph for mouse+keyboard, keyboard-only, controller and Deck;
-11. define localization-ready token pipeline without using translated strings as gameplay identity;
-12. define headless deterministic test harness/golden replay/metamorphic/fault-injection/content-validation suites;
-13. define performance/memory/load/save budgets appropriate for the compact deterministic simulation;
-14. define implementation slices 12A bootstrap -> vertical slice -> full systems/content/UX/QA, with the existential causality/readability gates tested before large content production;
-15. define technical failure handling, observability/replay-support bundle and explicit technical non-goals;
-16. add numbered Phase-8 acceptance tests and create `GAME3_TECHNICAL_SPEC.md`;
-17. do **not** start production implementation or reopen gameplay simply for technical convenience.
+Execute **Phase 9 — Whole-Game Simulation on Paper**:
+1. walk the product from first boot/accessibility setup to Case Board and DEMO01..DEMO05, recording exact comprehension/interaction risks;
+2. simulate the first 20 minutes and first 60 minutes including first fragile/strong-is-bad lesson, first secondary lineage, first donor scarcity and first self-launch;
+3. walk Acts I–V through representative cases, especially first two-token ordering, RESETTABLE/CYCLIC_WEAK donor economy, moving receive-window case, multi-room pickup routing, first 3-slot case and C34 synthesis;
+4. test whether the product remains `reuse consequences` rather than degrading into detached arrow inventory/vector bookkeeping;
+5. attack provenance loss, strong-force dominance, converter busywork, multi-room backtracking/pickup friction, self-launch dexterity drift, moving-window ambiguity, causal-ribbon overload and hour-10 reasoning exhaustion;
+6. simulate baseline completion, mastery replay and all three remix packs for genuinely changed causal insights rather than threshold padding;
+7. simulate demo->full import, incompatible active demo state, interrupted transaction/save recovery, corrupted primary save, Cloud progress merge and divergent active-case branches;
+8. simulate mouse+keyboard, keyboard-only, controller-only and Steam Deck paths, including focus graph, broken remap recovery, no-audio/reduced-motion/slowdown/Pause-Step use;
+9. simulate hostile/unusual behavior: duplicate command spam, repeated donor reset attempts, inventory-full harvests, identical-looking impacts with distinct lineage, transform loops, intentionally broken receivers, dead ends, repeated Undo/Redo branching and room hopping;
+10. perform hour-10 content-exhaustion audit across the frozen reasoning-transformation vocabulary and identify any repeated three/five-case windows that still feel cognitively identical despite formal tags;
+11. record every contradiction/risk and repair only the smallest canonical phase when a genuine contradiction is proven;
+12. create `GAME3_WHOLE_GAME_SIMULATION.md` with Phase-9 acceptance checklist and next adversarial targets.
 
 ## Completion rule
 Game #3 remains **IN PROCESS** until full design freeze, dedicated-repository migration, autonomous implementation handoff + CI/email-noise guardrail, migration verification, `GAME_INDEX.md` update and factory cleanup/reset for Game #4 are all complete.
