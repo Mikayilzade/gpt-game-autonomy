@@ -10,7 +10,7 @@ Branch: `main`
 - Game #2 migrated: **YES — False Map Department -> `Mikayilzade/false-map-department`**
 - Factory cleanup after Game #2: **COMPLETE**
 - Current design slot: **Game #3**
-- Game #3 autonomous design run count: **13**
+- Game #3 autonomous design run count: **14**
 - Game #3 concept selected: **YES — Borrowed Collision**
 - Phase 1 Opportunity Discovery: **COMPLETE**
 - Phase 2 Concept Tournament: **COMPLETE**
@@ -21,11 +21,12 @@ Branch: `main`
 - Phase 7 Economy / Retention / Commercial Model: **COMPLETE ON PAPER**
 - Phase 8 Technical Implementation Specification: **COMPLETE ON PAPER**
 - Phase 9 Whole-Game Simulation on Paper: **COMPLETE ON PAPER**
-- Phase 10 Adversarial Review: **NEXT**
+- Phase 10 Adversarial Review: **COMPLETE ON PAPER**
+- Phase 11 Specification Freeze: **NEXT**
 - Production implementation started: **NO**
 
 ## Current phase
-**Game #3 — Phase 10 Adversarial Review / Phase 9 complete on paper**
+**Game #3 — Phase 11 Specification Freeze / Phase 10 complete on paper**
 
 ## Active temporary files — mandatory recovery read
 1. `GAME3_RESEARCH.md`
@@ -41,30 +42,32 @@ Branch: `main`
 11. `GAME3_ECONOMY_COMMERCIAL.md`
 12. `GAME3_TECHNICAL_SPEC.md`
 13. `GAME3_WHOLE_GAME_SIMULATION.md`
+14. `GAME3_ADVERSARIAL_REVIEW.md`
 
-## Completed — autonomous run 13
+## Completed — autonomous run 14
 1. Re-read `START_HERE.md`, prior `STATUS.md`, `GAME_INDEX.md`, and every active Game #3 recovery file named by status before acting.
-2. Resumed exactly from Phase 9 and created canonical `GAME3_WHOLE_GAME_SIMULATION.md` without starting production implementation or adding gameplay primitives.
-3. Walked first boot/accessibility setup, Title, Case Board and the full DEMO01–DEMO05 sequence. Confirmed the demo can prove `collision -> portable consequence -> transform/carry -> spend -> receiver aftermath -> secondary collision/new consequence` within the 15–25 minute target on paper.
-4. Simulated the first 20 minutes and first 60 minutes through C01–C14, including direction identity, quarter-turn, magnitude categories, first strong-is-harmful lesson, reverse/mirror, secondary lineage, two-token ordering, exhaustible provenance, meaningful RESETTABLE source, damper, self-launch, CYCLIC_WEAK contrast and moving receive-window semantics.
-5. Confirmed self-launch remains part of the same consequence-transfer grammar only while authored lanes/snapped outcomes remain visibly deterministic; recorded platformer/dexterity drift as a Phase-10 attack rather than adding action mechanics.
-6. Stress-tested RESETTABLE and CYCLIC_WEAK sources. Confirmed free repeated strong-token sources are invalid; renewable weak may be valid only when its physical cycle remains visible and bounded exploit tooling prevents escalation into infinite MEDIUM/STRONG output.
-7. Walked representative Act-III C15–C21 cases covering source selection, protected state, chain-generated medium alternatives, self-launch changing future donor geometry, two-room regeneration economy, moving-window magnitude suitability, inventory ordering/world pickups and multi-solution synthesis.
-8. Identified multi-room pickup backtracking as a major UX/content risk. Solved-route traversal compression remains allowed only when canonical state is unaffected; no impact may be teleported across unresolved causal dependencies.
-9. Walked Act-IV C22–C28 cases and confirmed physical converter topology, self-versus-cargo allocation, reset-caused route changes, three-room lineage ancestry, first justified 3-slot case, Pause/Step-friendly moving windows and the provenance-counterfactual requirement.
-10. Identified 3-slot inventory as a product-identity risk: it must remain a rare authored ordering constraint, never a permanent progression upgrade or convenience power increase.
-11. Walked Act-V C29–C34 and confirmed no final mechanic is needed. Late mastery can come from exhaustible/chain-generated tradeoffs, renewable weak beating scarce strong, self-launch producing the necessary downstream donor, protected-state multi-solutions and causal compression.
-12. Performed an hour-10 content-exhaustion audit. The frozen ten reasoning axes are sufficient architecturally, but formal tag diversity alone cannot prove lived variety. Phase 10 must run a reasoning-isomorphism audit over every consecutive C15+ three/five-case window and reject cases with different tags but the same causal skeleton.
-13. Simulated all four mastery families and confirmed valid mastery requires a qualitatively different causal insight/final state, not raw command/Undo/time thresholds. Recorded baseline-vs-mastery solution-character comparison as a Phase-10 gate.
-14. Found one genuine canonical documentation conflict: Phase 5 historical remix packaging says two packs of five, while Phase 7 freezes three packs (3/4/3). Resolved it narrowly as **P9-R1**: Phase-7 three-pack structure is authoritative for 1.0; exact total remains 10 and Phase-5 changed-causal-dependency/data/validation rules remain authoritative. Phase 11 must record this reconciliation.
-15. Simulated all three Phase-7 remix packs and confirmed remixes must change causal dependency/solution insight, not only direction, starts, thresholds or art.
-16. Simulated compatible/incompatible demo->full import, crash during pre-commit and mid-collision-chain states, corrupted primary save, monotonic Cloud progress merge, strict descendant active-case selection and divergent branch handling. No half-chain or synthetic branch state is permitted.
-17. Simulated mouse+keyboard, keyboard-only, controller-only and Steam Deck paths plus no-audio, reduced-motion, slowdown, Pause/Step and broken-remap recovery. Domain outcomes remain presentation/input invariant; dense focus-graph predictability remains a Phase-10 usability attack.
-18. Simulated hostile behavior: duplicate collect/spend spam, repeated donor reset attempts, full inventory harvests, identical direction/band impacts with different lineage, transform loops, legal intentional breakage, bad self-launch, Undo/Redo branching, room hopping, pause spam and save/load around pickups. Canonical idempotency/lineage rules remain coherent.
-19. Performed product-identity dilution audit across all major systems. The design remains strongly centered on consequence reuse, with the principal existential risk being authored content that underuses provenance/world-state and degrades into detached arrow-to-socket matching.
-20. Recorded 14 Phase-10 attack items P9-R2..P9-R14 covering direction/magnitude readability, capture-source expectation, transform-as-menu drift, self-launch dexterity, renewable-ammo perception, moving-window timing illusion, pickup backtracking, causal-ribbon overload, 3-slot upgrade drift, dense focus navigation, lived-reasoning repetition, mastery distinction and remix dependency distinctness.
-21. Added **76 Phase-9 acceptance checks (`P9-01..P9-76`)** spanning demo, first hour, Acts I–V, mastery/remixes, persistence/Cloud, all input/accessibility paths, hostile behavior and product-identity preservation.
-22. Phase-9 closure: **COMPLETE ON PAPER**. No mechanical Phase-4 reopen was required. Production implementation remains **NOT STARTED**.
+2. Resumed exactly from Phase 10 and created canonical `GAME3_ADVERSARIAL_REVIEW.md` as a destructive review, without starting production implementation or adding gameplay primitives.
+3. Attacked the existential product collapse where mature play becomes detached direction/magnitude token matching. Froze **P10-R1**, requiring every C15–C34 case/remix to make at least two world-state/provenance dependencies materially relevant, with at least one tied to donor/source/receiver/secondary-lineage state rather than walking friction.
+4. Attacked Deck/grayscale/no-audio density and froze **P10-R2/R3**: impact identity visual hierarchy is direction -> magnitude -> provenance -> transform history, while capture-enabled sources use a bounded consistent affordance rather than glowing-loot clutter.
+5. Attacked max-force dominance and renewable strong factories. Froze **P10-R4/R5** requiring bounded regeneration-cycle analysis, no unbounded CYCLIC_WEAK escalation above WEAK, meaningful weak/medium preference distribution across mature campaign windows, and preservation of the inherited strongest-impact dominance gate.
+6. Attacked RESETTABLE ammo-button behavior and froze **P10-R6**: every reset must create a strategically material visible world-state/access/routing/receiver/body consequence whenever repeated generation matters.
+7. Attacked transform-loop and converter busywork and froze **P10-R7**: normally <=2 transforms between material world-state events; >2 only when transform topology is itself the causal lesson; no known baseline solution may require >4 consecutive transforms without a material state event; transform-state cycles are validation smells/errors when required without world-state reason.
+8. Attacked multi-room pickup/backtracking friction and froze **P10-R8**, defining the exact solved-route traversal-compression safety boundary. Compression may shorten already-visited state-inert traversal but may never teleport an impact across unresolved causal dependencies.
+9. Attacked self-launch platformer/dexterity drift and froze **P10-R9**: finite authored launch outcomes, no free-angle power/aim, no air control or frame-timed release; self-launch mastery remains causal allocation/lineage mastery rather than execution accuracy.
+10. Attacked moving receive-window timing illusion and froze **P10-R10**: canonical step/window state must be visible/inspectable; Pause/Step/slowdown remain fully legitimate and cannot invalidate mastery. Any case trivialized only by Step was secretly reflex-based and is invalid content.
+11. Attacked 3-slot inventory/upgrade drift and froze **P10-R11**: 2 slots remain global default; 3-slot cases require an explicit authoring justification, must represent genuine simultaneous-lineage ordering, and target no more than four main campaign uses without later proof.
+12. Attacked causal-lineage UI overload and froze **P10-R12**: default relevant ribbon <=5 material nodes / <=2 siblings; repeated inert movement and ordinary transform details may collapse, but source collision, lineage transitions and selected final consequence cannot be hidden or fabricated.
+13. Attacked dense keyboard/controller focus unpredictability and froze **P10-R13**: every room must compile a deterministic semantic focus graph independent of zoom, animation interpolation, scene/hash order; author overrides are mandatory where spatial auto-neighbors are ambiguous.
+14. Ran a lived-reasoning repetition attack and froze **P10-R14**: C15–C34 now require abstract causal-skeleton review in addition to formal reasoning tags. No three-case window may share one dominant skeleton; no five-case window may contain fewer than three materially distinct skeleton families.
+15. Attacked mastery threshold shaving and froze **P10-R15**: every mastery needs a `mastery_distinction_note` plus a known mastery fixture whose causal character differs meaningfully from baseline through source, lineage, preservation, allocation, compression or real temporal state.
+16. Attacked remix parameter padding and froze **P10-R16**: source/remix causal skeletons and changed dependency must differ after abstracting direction, magnitude, starts, art and thresholds. Reaffirmed P9-R1's canonical 3/4/3 remix packaging.
+17. Attacked save/lineage duplication and fault recovery across double Collect/Spend, donor reset duplication, crash-before-presentation, Undo branching, Cloud divergence and corruption recovery. Existing Phase-4/8 model remains coherent; Phase 10 tightens atomicity so donor generation + reset/collision consequence + harvest-emission state cannot persist at separate partial boundaries.
+18. Attacked simultaneous collision ambiguity and hard chain-ceiling behavior. Reachable same-step multi-contact must compile to exactly one simultaneous outcome; a body cannot appear in two separately resolved groups in one step; stable IDs cannot decide physical outcome; ambiguous multi-contact is invalid content. The hard chain ceiling must terminate deterministically, while shipped known solutions should not depend on hitting it.
+19. Reconfirmed the high but bounded authoring/tooling burden and rejected arbitrary per-case gameplay scripts as a solution. Required validator families now explicitly include renewable-escalation search, focus-graph reachability, three-slot justification, reasoning-isomorphism and remix dependency comparison.
+20. Attacked demo/commercial promise. DEMO01–DEMO05 must prove collision->portable impact, physical transform, strong-not-better magnitude suitability, provenance/source significance, and deliberate secondary-lineage reuse. Case count alone cannot justify price; release-time perceived value and current comparable pricing remain empirical.
+21. Performed a fresh-session implementation-ambiguity audit. No fatal unresolved gameplay contradiction remains; the remaining narrow clarifications are captured in Phase-10 repairs and must be reconciled in Phase 11.
+22. Recorded **16 canonical Phase-10 repairs (`P10-R1..P10-R16`)**, simultaneous-collision/persistence tightenings, and **11 empirical gates (`E10-01..E10-11`)**.
+23. Phase-10 closure: **COMPLETE ON PAPER**. Fatal contradiction: **NO**. New gameplay primitive: **NO**. Production implementation remains **NOT STARTED**.
 
 ## Locked Game #3 thesis
 **Borrowed Collision** — Steal the force from one crash and spend it somewhere else: harvest collisions as portable impacts, route them through physical sockets, and reuse those consequences on carts, doors, cargo — or yourself.
@@ -72,34 +75,24 @@ Branch: `main`
 ### Non-negotiable differentiation rule
 **A resolved physical consequence becomes a portable resource, and the world-state that created and receives that consequence must continue to matter.**
 
-## Canonical Phase-9 reconciliation
+## Canonical reconciliation carried forward
 **P9-R1 — Remix packaging:** 1.0 uses the later Phase-7 three-pack structure (R01–R03 unlock C14; R04–R07 unlock C28; R08–R10 unlock C34). Phase-5 two-pack wording is superseded packaging history only; its remix validity/data requirements remain in force.
 
 ## NEXT ACTION
-Execute **Phase 10 — Adversarial Review** as a destructive pass, not an additive feature pass:
-1. attack detached-arrow/vector-bookkeeping identity collapse and require mature cases to preserve source/world-state significance;
-2. attack direction/magnitude/capture-source comprehension at Deck size, grayscale/no-audio/reduced-motion and high-density receiver states;
-3. attack max-force dominance, renewable-source escalation and accidental strong-token factories;
-4. attack RESETTABLE donor/ammo-factory exploits and CYCLIC_WEAK escalation paths;
-5. attack transform-loop/converter busywork and cases whose difficulty is repeated arrow rotation rather than causal routing;
-6. attack multi-room pickup/backtracking friction and define the exact safety boundary for solved-route presentation compression;
-7. attack self-launch platformer/dexterity drift and ensure authored-lane outcomes remain satisfying without free-angle action controls;
-8. attack moving receive-window timing illusion and prove Pause/Step/slowdown retain full legitimacy without trivializing causal reasoning;
-9. attack 3-slot inventory/upgrade drift; require an explicit justification rule for every 3-slot case;
-10. attack causal-ribbon ancestry overload and freeze a product-specific default material-node/sibling presentation budget;
-11. attack keyboard/controller focus predictability in dense late cases, not merely mechanical reachability;
-12. run reasoning-isomorphism/content-exhaustion audit across every consecutive C15–C34 three/five-case window and distinguish formal tags from actual causal skeletons;
-13. compare baseline vs mastery known-solution character and reject arbitrary threshold shaving;
-14. compare each remix against its source causal dependency and reject parameter padding;
-15. attack save/lineage duplication, donor-generation idempotency, divergent Cloud branches and transaction recovery under fault injection;
-16. attack ambiguous simultaneous collisions, chain ceilings, authoring burden and content-validator completeness;
-17. attack demo/commercial promise versus the actual 15–25 minute product proof and premium perceived-value risk;
-18. perform a fresh-session implementation-ambiguity read and convert every real ambiguity into the smallest canonical repair or explicit empirical gate;
-19. create `GAME3_ADVERSARIAL_REVIEW.md` with numbered repairs/gates and Phase-10 acceptance decision;
-20. do not add new gameplay primitives merely to solve repetition or retention.
+Execute **Phase 11 — Specification Freeze**:
+1. re-read all canonical Game #3 files and `GAME3_ADVERSARIAL_REVIEW.md` as a fresh implementation session with no chat history;
+2. create `GAME3_PHASE11_FINAL_FREEZE.md` with the final authority order and explicit reconciliation of P9-R1 plus P10-R1..P10-R16 and the Phase-10 persistence/simultaneous-collision/chain-ceiling tightenings;
+3. verify the final product identity, six? no — preserve the actual frozen impact grammar exactly: direction + magnitude + lineage only, four transform families maximum, R1–R8 receiver/device families, donor regeneration classes, authored graph motion and bounded inventory; do not invent a new primitive during freeze;
+4. run a fresh implementation-readiness checklist across player verbs, deterministic ordering, harvest/lineage, transforms, receivers, self-launch, moving windows, Undo/Redo, persistence, Cloud/demo import, campaign progression, mastery/remixes, focus/input/accessibility, content schema/validators, performance, failure recovery and implementation slices;
+5. separate every remaining implementation-flexible choice from gameplay canon so a fresh implementation session knows what it may choose freely;
+6. confirm all empirical unknowns are explicit gates rather than hidden missing rules;
+7. set `DESIGN COMPLETE = YES` only if the fresh-session audit proves no important gameplay invention is required;
+8. if freeze passes, prepare `GAME3_IMPLEMENTATION_START_HERE.md`, `GAME3_IMPLEMENTATION_STATUS.md`, `GAME3_CI_NOTIFICATION_POLICY.md` and `GAME3_MIGRATION_MANIFEST.md` for the dedicated repository migration gate;
+9. determine the intended dedicated repository name from the frozen title, but do not delete factory Game #3 files until destination migration is actually complete and verified;
+10. do not begin production implementation inside the factory.
 
 ## Completion rule
-Game #3 remains **IN PROCESS** until Phase 10, Phase 11 freeze, dedicated-repository migration, autonomous implementation handoff + CI/email-noise guardrail, migration verification, `GAME_INDEX.md` update and factory cleanup/reset for Game #4 are all complete.
+Game #3 remains **IN PROCESS** until Phase 11 freeze, dedicated-repository migration, autonomous implementation handoff + CI/email-noise guardrail, migration verification, `GAME_INDEX.md` update and factory cleanup/reset for Game #4 are all complete.
 
 ## Recovery rule
 Read `START_HERE.md`, this file, `GAME_INDEX.md`, then every file listed under Active temporary files, and execute `NEXT ACTION` exactly.
