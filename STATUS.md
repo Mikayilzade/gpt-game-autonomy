@@ -10,17 +10,18 @@ Branch: `main`
 - Game #2 migrated: **YES — False Map Department -> `Mikayilzade/false-map-department`**
 - Factory cleanup after Game #2: **COMPLETE**
 - Current design slot: **Game #3**
-- Game #3 autonomous design run count: **8**
+- Game #3 autonomous design run count: **9**
 - Game #3 concept selected: **YES — Borrowed Collision**
 - Phase 1 Opportunity Discovery: **COMPLETE**
 - Phase 2 Concept Tournament: **COMPLETE**
 - Phase 3 Product Thesis Lock: **COMPLETE**
 - Phase 4 Mechanical Architecture: **COMPLETE ON PAPER**
-- Phase 5 Content Architecture: **NEXT**
+- Phase 5 Content Architecture: **COMPLETE ON PAPER**
+- Phase 6 UX / Presentation Architecture: **NEXT**
 - Production implementation started: **NO**
 
 ## Current phase
-**Game #3 — Phase 5 Content Architecture / Mechanical Architecture complete on paper**
+**Game #3 — Phase 6 UX / Presentation Architecture / Content Architecture complete on paper**
 
 ## Active temporary files — mandatory recovery read
 1. `GAME3_RESEARCH.md`
@@ -31,29 +32,29 @@ Branch: `main`
 6. `GAME3_TOURNAMENT_RUN3.md`
 7. `GAME3_PRODUCT_THESIS.md`
 8. `GAME3_MECHANICAL_ARCHITECTURE.md`
+9. `GAME3_CONTENT_ARCHITECTURE.md`
 
-## Completed — autonomous run 8
+## Completed — autonomous run 9
 1. Re-read `START_HERE.md`, prior `STATUS.md`, `GAME_INDEX.md`, and every active Game #3 recovery file named by status before acting.
-2. Resumed exactly from Phase 4 Mechanical Architecture.
-3. Created canonical `GAME3_MECHANICAL_ARCHITECTURE.md` without starting production implementation.
-4. Froze authoritative case/body state around stable IDs, authored motion lanes/collision boundaries, categorical body motion, portable-impact state and tiny 2-token baseline / 3-token maximum inventory.
-5. Froze exact 8-direction semantics, weak/medium/strong magnitude bands and deterministic quarter-turn/reverse/horizontal-or-vertical mirror/damper transform behavior. No free-angle rotation or numeric vectors were introduced.
-6. Froze deterministic collision inputs/outputs, simultaneous collision grouping, resolved-consequence harvest semantics, a canonical baseline mass/band transfer table and an exact 12-stage transaction ordering from command validation through chain settlement.
-7. Froze one-harvest-per-lineage semantics, exact Undo branch behavior and four donor regeneration classes: `EXHAUSTIBLE`, `RESETTABLE`, `CYCLIC_WEAK`, `CHAIN_GENERATED`.
-8. Removed reflex capture ambiguity: eligible collision output automatically condenses into a stable world pickup; ordinary play never requires frame-timed capture. Full inventory leaves the pickup in-world by default.
-9. Froze legal/illegal spend distinction, moving-receiver canonical receive windows and eight reusable mechanical receiver/device families `R1..R8`: Ordinary Mover, Fragile Receiver, Band-Window Mechanism, Converter Socket, Damper, Self-Launch Receiver, Chain-Producing Body and Anchored Trigger / Impact Door.
-10. Froze converter-chain non-duplication, source-lineage preservation and no-magnitude-increase rule.
-11. Froze self-launch as ordinary impact spending on the player, with landing/secondary collisions able to emit only genuinely new chain-generated lineages. The original spent impact can never survive/reappear as itself.
-12. Froze discrete movement-step time, presentation-only Pause/Step, no mid-transaction editing and a default 12 / hard 24-step chain ceiling. Reachable chain loops are invalid content rather than normal gameplay.
-13. Resolved same-beat independent collisions, shared-body multi-contact, simultaneous multiple harvest outputs, breakage, full inventory, moving receivers, self-launch into donors, converter loops and reset-during-motion edge cases.
-14. Defined 10 deterministic objective/mastery predicate families and exact baseline completion, temporary failure, proven-dead-end, restart and recovery semantics.
-15. Froze atomic Undo/Redo/history checkpoints including bodies, impacts, lineage, donors, receivers, objectives and causal graph; raw Undo history remains unscored.
-16. Defined causal ancestry from donor collision through harvest, transforms, spend, receiver aftermath and secondary collisions using 15 canonical event classes.
-17. Froze anti-max-force, anti-donor-factory and anti-token-permutation architecture. Mature content must make provenance/world state materially relevant; detached arrow/socket matching fails content review.
-18. Defined balancing knobs and mandatory Phase-5 authoring constraints, including no case-specific collision scripts, no free-angle aim, no mid-flight command, donor regeneration typing and finite chain validation.
-19. Added **42 numbered mechanical acceptance tests (`M4-01..M4-42`)** spanning determinism, collision grouping, lineage, spending, self-launch, chains, history, exploit resistance, input and accessibility.
-20. Phase-4 internal coherence review: **PASS**. Product Thesis remains locked; no earlier finalist mechanic was imported.
-21. Production implementation remains **NOT STARTED**.
+2. Resumed exactly from Phase 5 Content Architecture and created canonical `GAME3_CONTENT_ARCHITECTURE.md` without starting production implementation.
+3. Froze the main campaign planning target at **34 authored cases**, with a controlled 32–36 pre-freeze adjustment window, and a five-act complexity curve from first consequence capture through late causal routing.
+4. Froze exact teaching order C01–C14 for portable consequence, direction, quarter-turn, magnitude, fragility, reverse/mirror, secondary lineage, two-token ordering, EXHAUSTIBLE/RESETTABLE/CYCLIC_WEAK donors, damper, self-launch and moving receiver windows. From C15 onward no new primitive grammar is allowed.
+5. Defined a canonical data-driven content schema for cases, rooms, bodies, collision relations, donor sources, receivers, transform devices, objectives and known solution fixtures; arbitrary per-case behavior callbacks remain forbidden.
+6. Defined four thematic presentation families — Freight Annex, Clockwork Works, Salvage Yard and Transit Test Hall — that may reskin physical nouns but cannot change R1–R8 mechanics.
+7. Defined objective/invariant distribution by act and hard late-case limits, preserving readable player-facing requirements rather than machine-predicate checklist overload.
+8. Froze multi-room/state-density ceilings: maximum 5 compact rooms, 12 active canonical bodies, 6 donor sources, 9 mechanically relevant receivers, 5 transform devices, 3 required moving-window interactions, 3 inventory slots and bounded portable-pickup density.
+9. Defined mandatory static structural validation, initial-state declarations, exact-version known solution fixtures and canonical deterministic replay obligations for every main/remix case.
+10. Defined automated exploit/quality checks for one-harvest lineage uniqueness, donor regeneration/net-positive loops, CYCLIC_WEAK escalation, STRONG-force dominance, detached token-permutation triviality, ambiguous same-step multi-contact and non-settling chain loops.
+11. Added the mature-content provenance counterfactual: from C15 onward a case fails if giving the same tokens at case start and deleting donor world state leaves the primary challenge essentially unchanged.
+12. Froze 10 reasoning-transformation tags and campaign diversity rules: from C15 no three consecutive cases may share one dominant tag across all three, and every five-case window must contain at least three distinct dominant transformations.
+13. Defined a representative C01–C34 campaign spine with no bespoke final mechanic; C34 is synthesis of the existing grammar.
+14. Froze a five-node **15–25 minute demo** that must prove `collision -> portable consequence -> transform/reuse -> receiver aftermath -> secondary collision/new consequence`; demo explicitly excludes late inventory/regeneration/moving-window complexity.
+15. Defined four optional mastery families — Causal Compression, Preservation, Resource Discipline and Stable Causality — with raw Undo/time excluded from scoring and a required qualitative distinction note for every authored mastery contract.
+16. Set working 1.0 remix target at **10** (within Product Thesis 8–12 range), split into two packs; every remix must change an actual causal dependency and document why the source solution no longer transfers.
+17. Froze hard 1.0 content ceilings and explicitly rejected combat, free-angle aim, continuous rigid-body sandbox, token elements/rarity/upgrades, crafting, endless procedural content, Workshop dependency and multiplayer as content-variety escape hatches.
+18. Added **44 numbered Phase-5 acceptance tests (`C5-01..C5-44`)** covering campaign/teaching, data boundaries, solvability/determinism, exploit resistance, complexity ceilings, anti-repetition, demo, mastery, remix and fresh-session content readiness.
+19. Phase-5 closure: **COMPLETE ON PAPER**. Product Thesis and Mechanical Architecture remain locked; no earlier finalist mechanic was imported.
+20. Production implementation remains **NOT STARTED**.
 
 ## Locked Game #3 thesis
 **Borrowed Collision** — Steal the force from one crash and spend it somewhere else: harvest collisions as portable impacts, route them through physical sockets, and reuse those consequences on carts, doors, cargo — or yourself.
@@ -62,21 +63,23 @@ Branch: `main`
 **A resolved physical consequence becomes a portable resource, and the world-state that created and receives that consequence must continue to matter.**
 
 ## NEXT ACTION
-Execute **Phase 5 — Content Architecture**:
-1. freeze the 1.0 campaign target/count and act structure within the Product Thesis 30–36 main-case target;
-2. define exact teaching/introduction order for harvest, direction, magnitude, quarter-turn/reverse/mirror/damper, donor classes, self-launch, chain generation, inventory pressure and moving receivers;
-3. define canonical case/content data schema for bodies, lanes, collision boundaries, donors, receivers, transforms, objectives, invariants, known solutions and transformation tags;
-4. define reusable thematic body/receiver presentation families without changing R1–R8 mechanics;
-5. define objective/invariant family distribution and complexity ceilings by campaign act;
-6. define multi-room progression and exact limits on simultaneous bodies, donors, pickups, receivers, chain depth and required predicates;
-7. define content solvability proof, deterministic replay fixture and structural validation requirements;
-8. define automated checks for lineage uniqueness, donor regeneration loops, strong-force dominance, token-permutation triviality, ambiguous multi-contact and chain-loop invalidity;
-9. define anti-repetition reasoning-transformation tags and consecutive-case diversity rules;
-10. freeze a 15–25 minute demo slice that proves `collision -> portable consequence -> reuse -> secondary consequence` without over-teaching;
-11. define optional mastery/remix content rules that reward causal compression/preservation rather than raw move count or Undo avoidance;
-12. freeze hard 1.0 content ceilings and explicitly reject content whose primary challenge can be represented as detached arrow matching with irrelevant donor provenance;
-13. create `GAME3_CONTENT_ARCHITECTURE.md` with numbered Phase-5 acceptance tests;
-14. do not add new primitive impact types, free-angle physics, combat, new transform families or inventory systems merely to create content variety.
+Execute **Phase 6 — UX / Presentation Architecture**:
+1. freeze exact application/screen hierarchy from first boot through case select, play, completion, replay and settings;
+2. define in-case layout and visual hierarchy for world, portable-impact inventory, goals/invariants, history and causal inspection without turning the game into engineering telemetry;
+3. define redundant player-facing visual language for 8 directions, WEAK/MEDIUM/STRONG, source provenance, world pickups, receiver compatibility, safe/unsafe bands and transform operations;
+4. define exact pickup/collect/select/carry/transform/spend interaction flows and preview boundaries, including structurally illegal versus legal-but-bad spends;
+5. define body/donor/receiver inspection and causal explanation so players can answer where an impact came from, why a receiver reacted and what secondary collision created a new lineage;
+6. define Pause/Step and moving receive-window presentation without changing deterministic movement-step semantics;
+7. define Undo/Redo/history presentation and causal ribbon/event compression while preserving exact Phase-4 checkpoint semantics;
+8. define multi-room navigation and world-pickup visibility/retrieval so 2-slot inventory pressure does not become tedious backtracking or a hidden inventory-management game;
+9. define self-launch presentation/camera/focus and recovery so it feels physical without free-angle aiming or reflex precision;
+10. define mouse+keyboard, keyboard-only, controller-only and Steam Deck control grammar, including deterministic focus cycling and all transform/inventory/inspect actions;
+11. define accessibility: non-color direction/magnitude/compatibility, scalable UI, reduced motion, no-audio redundancy, remapping, strong slowdown/Pause/Step and no mandatory analog precision;
+12. define first-session onboarding and demo UX for DEMO01–DEMO05 within the Phase-5 teaching boundary;
+13. define pause/settings/help/save/load/recovery UX requirements, while leaving technical persistence internals for Phase 8;
+14. define visual/audio/animation language that intentionally communicates stylized discrete causal physics rather than promising realistic rigid-body simulation;
+15. define UX empirical risks and numbered Phase-6 acceptance tests;
+16. create `GAME3_UX_PRESENTATION_ARCHITECTURE.md` and do not solve readability by adding numeric vectors, free-angle aiming, extra token properties or automated solution hints.
 
 ## Completion rule
 Game #3 remains **IN PROCESS** until full design freeze, dedicated-repository migration, autonomous implementation handoff + CI/email-noise guardrail, migration verification, `GAME_INDEX.md` update and factory cleanup/reset for Game #4 are all complete.
