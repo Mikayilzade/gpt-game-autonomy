@@ -10,15 +10,16 @@ Branch: `main`
 - Game #2 migrated: **YES — False Map Department -> `Mikayilzade/false-map-department`**
 - Factory cleanup after Game #2: **COMPLETE**
 - Current design slot: **Game #3**
-- Game #3 autonomous design run count: **6**
+- Game #3 autonomous design run count: **7**
 - Game #3 concept selected: **YES — Borrowed Collision**
 - Phase 1 Opportunity Discovery: **COMPLETE**
 - Phase 2 Concept Tournament: **COMPLETE**
-- Phase 3 Product Thesis Lock: **NEXT**
+- Phase 3 Product Thesis Lock: **COMPLETE**
+- Phase 4 Mechanical Architecture: **NEXT**
 - Production implementation started: **NO**
 
 ## Current phase
-**Game #3 — Phase 3 Product Thesis Lock / Borrowed Collision selected**
+**Game #3 — Phase 4 Mechanical Architecture / Product Thesis locked**
 
 ## Active temporary files — mandatory recovery read
 1. `GAME3_RESEARCH.md`
@@ -27,43 +28,47 @@ Branch: `main`
 4. `GAME3_TOURNAMENT.md`
 5. `GAME3_TOURNAMENT_RUN2.md`
 6. `GAME3_TOURNAMENT_RUN3.md`
+7. `GAME3_PRODUCT_THESIS.md`
 
-## Completed — autonomous run 6
-1. Re-read `START_HERE.md`, prior `STATUS.md`, `GAME_INDEX.md`, and all five active Game #3 recovery files before acting.
-2. Resumed exactly from the Phase-2 Final Selection Duel `NEXT ACTION`.
-3. Performed a fresh exact-mechanic market/analogue check for the three finalists and current premium puzzle price/value references.
-4. Created `GAME3_TOURNAMENT_RUN3.md` as the canonical final-selection record.
-5. For Borrowed Collision, Single-Pixel Kingdom and Bureau of Lost Weight, froze one exact Steam pitch, 10-second muted trailer beat, exact first 20 minutes, first 2 hours, minimum shippable scope, content-production method, validation burden, one-week prototype plan, binary end-of-week decision, likely negative Steam sentiment, price/value hypothesis and small-team implementation risk.
-6. Reconfirmed that no close current result found in the final targeted search owns Borrowed Collision's exact primary loop: a resolved collision output harvested as a portable consumable consequence and spent elsewhere.
-7. Reconfirmed Single-Pixel Kingdom remains viable only if embodied route logistics dominate generic property transfer; existing `LeiLei` pressure lowers its market defensibility.
-8. Reconfirmed Bureau of Lost Weight remains viable only through conserved redistribution and carries the highest alternate-solution/deterministic-physics QA burden.
-9. Selected **G3C15 Borrowed Collision** as Game #3. The decisive advantage is its unusually legible novel verb, strong mute-video causality, compact rule-derived depth, cheap existential falsification, and bounded implementation risk.
-10. Preserved Single-Pixel Kingdom and Bureau of Lost Weight as rejected finalists/history only; they must not be silently merged into the selected game.
-11. Did not begin production implementation.
+## Completed — autonomous run 7
+1. Re-read `START_HERE.md`, prior `STATUS.md`, `GAME_INDEX.md`, and all six active Game #3 recovery files before acting.
+2. Resumed exactly from Phase 3 Product Thesis Lock.
+3. Performed a fresh targeted exact-title search for `Borrowed Collision`; no obvious current Steam/video-game title conflict surfaced in the search. Recorded explicitly that this is not trademark clearance and final naming review remains release work.
+4. Created canonical `GAME3_PRODUCT_THESIS.md` and locked the Game #3 product identity without starting production implementation.
+5. Retained **Borrowed Collision** as the working title and froze naming constraints around consequence transfer rather than generic physics/vector terminology.
+6. Froze primary/non-primary audience, PC/Steam-first premium frame, systemic causal-puzzle genre, one-sentence hook, core fantasy and exact player-facing loop.
+7. Froze the non-negotiable differentiation rule: **a resolved physical consequence becomes a portable resource, and both donor world-state and receiver aftermath must remain mechanically relevant.**
+8. Froze a small primitive ceiling: working 8 snapped directions × 3 magnitude bands; tiny 2-token baseline / 3-token late ceiling; at most four fixed direction-transform families; 6–8 reusable donor/receiver behavior families target.
+9. Froze progression/hour-10 thesis around causal composition, donor preservation, magnitude suitability, self-vs-environment allocation, chained collisions, multi-room consequence transport and causal compression — not new token types or finer vectors.
+10. Froze free Undo/reset experimentation philosophy, donor-lineage/exhaustion/duplication principles, causal presentation/audio thesis, non-vector player-facing terminology direction, input/accessibility requirements and 1.0 scope exclusions.
+11. Carried the tournament prototype gates into canonical Product Thesis, including determinism, no precision/twitch requirement, direction/magnitude comprehension, max-force dominance limits, blind-permutation limits and the requirement that players perceive stored collision consequences rather than arrow matching.
+12. Product Thesis internal acceptance: **PASS**. No Phase-1/2 concept was merged into Borrowed Collision.
+13. Production implementation remains **NOT STARTED**.
 
-## Selected Game #3 identity — pre-Phase-3
-**Borrowed Collision** — harvest the result of one collision as a portable quantized impulse and spend that consequence somewhere else on another object or yourself.
+## Locked Game #3 thesis
+**Borrowed Collision** — Steal the force from one crash and spend it somewhere else: harvest collisions as portable impacts, route them through physical sockets, and reuse those consequences on carts, doors, cargo — or yourself.
 
-### Current differentiation hypothesis
-**A resolved physical consequence becomes a portable resource.** The game is not generic trajectory editing, freeform physics, or vector math; source world-state, receiver aftermath, direction transformation, magnitude suitability and collision chaining must all matter.
+### Non-negotiable differentiation rule
+**A resolved physical consequence becomes a portable resource, and the world-state that created and receives that consequence must continue to matter.**
 
 ## NEXT ACTION
-Execute **Phase 3 — Product Thesis Lock** for Borrowed Collision:
-1. decide whether `Borrowed Collision` remains the working title and define naming constraints;
-2. freeze target player / non-target audience;
-3. freeze PC/Steam-first commercial frame and genre framing;
-4. freeze the one-sentence hook and core fantasy;
-5. define the exact player-facing core loop and session structure;
-6. freeze the non-negotiable differentiation rule;
-7. freeze the canonical primitive vocabulary ceiling without expanding into dozens of token modifiers;
-8. define progression/mastery thesis and how hour-10 depth arises without new verbs;
-9. define failure, Undo/reset, donor exhaustion and experimentation philosophy;
-10. define presentation/audio/causal-feedback thesis;
-11. define mouse+keyboard, keyboard-only, controller and accessibility thesis;
-12. freeze scope ceiling and explicit 1.0 exclusions;
-13. carry forward explicit empirical prototype gates from the tournament;
-14. resolve the terminology issue: internal `impulse token` may remain precise, but player-facing naming should avoid vector-homework language unless testing proves it intuitive;
-15. create a canonical `GAME3_PRODUCT_THESIS.md` and update status; do not start Phase 4 mechanics until Product Thesis is internally coherent.
+Execute **Phase 4 — Mechanical Architecture**:
+1. freeze canonical authoritative world/body state and stable identity;
+2. define exact deterministic 8-direction × 3-band collision resolution/table semantics and ordering;
+3. define exactly what collision output is harvestable and how a portable impact is derived;
+4. freeze lineage, one-harvest/duplication prevention, donor exhaustion/reset/regeneration classes and edge cases;
+5. freeze token inventory/state, pickup/carry/drop/spend legality and receiver compatibility;
+6. define reusable receiver/converter/damper families within Product Thesis ceilings;
+7. define self-launch and resulting landing/collision-harvest semantics;
+8. define bounded moving-body / collision-chain time model, simultaneous conflicts and chain termination;
+9. define objectives, protected invariants, completion, temporary failure, dead ends and recovery;
+10. freeze Undo/Redo/history/checkpoint semantics and whether moving-body states can be paused/stepped;
+11. define causal event ancestry sufficient to explain donor -> token -> transform -> receiver -> secondary collision;
+12. define anti-max-force, anti-donor-factory and anti-token-permutation architecture without penalizing Undo;
+13. define balancing knobs and content authoring constraints needed by Phase 5;
+14. resolve all key edge cases: two collisions same beat, capture source already harvested, token spent on moving receiver, converter chains, fragile breakage, token inventory full, self-launch into donor, chain loops, reset while bodies active;
+15. create `GAME3_MECHANICAL_ARCHITECTURE.md` with a numbered mechanical acceptance-test index;
+16. do not expand to continuous free-angle physics, numeric vectors, combat or generic sandbox behavior unless a documented contradiction proves the Product Thesis impossible.
 
 ## Completion rule
 Game #3 remains **IN PROCESS** until full design freeze, dedicated-repository migration, autonomous implementation handoff + CI/email-noise guardrail, migration verification, `GAME_INDEX.md` update and factory cleanup/reset for Game #4 are all complete.
