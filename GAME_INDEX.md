@@ -1,22 +1,24 @@
 # GAME INDEX
 
-This file tracks games produced by the factory. Finished game-specific design should not remain in this repository after verified migration.
+This file tracks games produced by the factory. Finished game-specific design should normally leave this repository after verified migration. A completed package may remain temporarily as a safety archive while dedicated-repository migration is being verified; it is not canon for the next design cycle.
 
 | # | Game | Design status | Dedicated repository | Implementation status | Notes |
 |---|---|---|---|---|---|
-| 001 | **Organism Cargo** | DESIGN COMPLETE / specification frozen | `Mikayilzade/organism-cargo` | Not started; Phase 12A queued | Migrated 2026-08-18 with full design canon, validation/history and autonomous implementation handoff. |
-| 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Not started; Phase 12A queued | Migrated and integrity-verified 2026-08-19; includes autonomous implementation handoff and CI/email-noise guardrail. |
-| 003 | TBD | Not started | TBD after design freeze | Not applicable | Next factory design slot. |
+| 001 | **Organism Cargo** | DESIGN COMPLETE / specification frozen | `Mikayilzade/organism-cargo` | Dedicated implementation track | Migrated with full design canon, validation/history and autonomous implementation handoff. |
+| 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
+| 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff in progress; prototype-first implementation gate | Final-freeze SHA in factory: `d227433d40d4a8e73334702833b099befb25a2b0`. Factory source package temporarily retained as safety archive until dedicated migration verification is fully closed. |
+| 004 | TBD | **Phase 1 — Opportunity Discovery in progress** | TBD after design freeze | Not applicable | Fresh design cycle started 2026-08-20. Active file: `GAME4_RESEARCH.md`. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
 
-Technical direction frozen in its dedicated repository: **Godot 4.7.1-stable, GDScript-first, deterministic 2D domain separated from presentation.**
+## Completed Game #003 identity
+**Borrowed Collision** — systemic causal puzzle in which a real resolved collision creates a portable impact whose direction, magnitude and lineage can be physically routed and spent elsewhere, including to create further real collision consequences.
 
-The dedicated repository now owns all future Game #002 implementation/design-amendment work. The factory must not use its old files as canon for Game #003.
+The dedicated repositories own all implementation and game-specific amendments for Games #001–#003 once migration/handoff is verified. Game #004 must not treat their specific mechanics, content, files or rejected candidate fields as canon.
 
 ## Numbering rule
 Use the next unused sequential game number for every new factory design cycle, whether the concept later ships or is killed. If a design is abandoned before migration, record it here as `KILLED` with a short reason so the factory does not accidentally rediscover it as if it were new.
 
 ## Migration rule
-A game receives its own repository once its design is sufficiently stable to justify migration, normally at `DESIGN COMPLETE = YES`. The dedicated repo owns implementation and future game-specific work. The factory returns to a clean design slot afterward.
+A game receives its own repository once its design is sufficiently stable to justify migration, normally at `DESIGN COMPLETE = YES`. The dedicated repo owns implementation and future game-specific work. The factory returns to a clean logical design slot afterward. Temporary safety archives from a prior game may coexist only when explicitly marked non-canonical and excluded from the current recovery chain.
