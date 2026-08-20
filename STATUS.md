@@ -6,106 +6,78 @@ Branch: `main`
 
 ## Factory state
 - Reusable factory rules: **YES**
-- Game #1 migrated: **YES — Organism Cargo -> `Mikayilzade/organism-cargo`**
-- Game #2 migrated: **YES — False Map Department -> `Mikayilzade/false-map-department`**
-- Factory cleanup after Game #2: **COMPLETE**
-- Current design slot: **Game #3**
-- Game #3 autonomous design run count: **15**
-- Game #3 concept selected: **YES — Borrowed Collision**
-- Phase 1 Opportunity Discovery: **COMPLETE**
-- Phase 2 Concept Tournament: **COMPLETE**
-- Phase 3 Product Thesis Lock: **COMPLETE**
-- Phase 4 Mechanical Architecture: **COMPLETE ON PAPER**
-- Phase 5 Content Architecture: **COMPLETE ON PAPER**
-- Phase 6 UX / Presentation Architecture: **COMPLETE ON PAPER**
-- Phase 7 Economy / Retention / Commercial Model: **COMPLETE ON PAPER**
-- Phase 8 Technical Implementation Specification: **COMPLETE ON PAPER**
-- Phase 9 Whole-Game Simulation on Paper: **COMPLETE ON PAPER**
-- Phase 10 Adversarial Review: **COMPLETE ON PAPER**
-- Phase 11 Specification Freeze: **COMPLETE**
-- Fresh-session implementation-readiness audit: **PASS — 40/40**
-- Game #3 DESIGN COMPLETE: **YES**
-- Migration handoff preparation: **COMPLETE**
-- Intended dedicated repository: **`Mikayilzade/borrowed-collision`**
-- Dedicated repository status: **BLOCKED — repository not found**
-- Factory cleanup after Game #3: **NOT STARTED — safety gate active**
-- Production implementation started: **NO**
+- Game #001 Organism Cargo: **DESIGN COMPLETE / dedicated repository**
+- Game #002 False Map Department: **DESIGN COMPLETE / migrated**
+- Game #003 Borrowed Collision: **DESIGN COMPLETE / Phase 11 frozen**
+- Game #003 dedicated repository: **`Mikayilzade/borrowed-collision` exists**
+- Game #003 factory source package: **RETAINED TEMPORARILY AS SAFETY ARCHIVE**
+- Game #003 source final-freeze SHA: `d227433d40d4a8e73334702833b099befb25a2b0`
+- Current design slot: **Game #004**
+- Game #004 autonomous design run count: **1**
+- Game #004 concept selected: **NO**
+- Game #004 Phase 1 Opportunity Discovery: **IN PROGRESS**
+- Production implementation inside factory: **NO**
+
+## Important transition exception
+Game #004 has started before physical deletion of the Game #003 source package because the user explicitly authorized moving to the next game while the dedicated Borrowed Collision handoff is handled separately.
+
+All `GAME3_*` files are now **non-canonical safety archive material for this factory cycle**. They are excluded from Game #004 recovery reading and must not influence Game #004 as privileged design input. Do not delete them until the dedicated Game #003 migration/handoff verification is safely closed.
 
 ## Current phase
-**Game #3 — DESIGN FROZEN / migration blocked on destination repository creation**
+**Game #004 — Phase 1 Opportunity Discovery / Run 1 complete, Run 2 queued**
 
 ## Active temporary files — mandatory recovery read
-1. `GAME3_RESEARCH.md`
-2. `GAME3_RESEARCH_RUN2.md`
-3. `GAME3_RESEARCH_RUN3.md`
-4. `GAME3_TOURNAMENT.md`
-5. `GAME3_TOURNAMENT_RUN2.md`
-6. `GAME3_TOURNAMENT_RUN3.md`
-7. `GAME3_PRODUCT_THESIS.md`
-8. `GAME3_MECHANICAL_ARCHITECTURE.md`
-9. `GAME3_CONTENT_ARCHITECTURE.md`
-10. `GAME3_UX_PRESENTATION_ARCHITECTURE.md`
-11. `GAME3_ECONOMY_COMMERCIAL.md`
-12. `GAME3_TECHNICAL_SPEC.md`
-13. `GAME3_WHOLE_GAME_SIMULATION.md`
-14. `GAME3_ADVERSARIAL_REVIEW.md`
-15. `GAME3_PHASE11_FINAL_FREEZE.md`
-16. `GAME3_IMPLEMENTATION_START_HERE.md`
-17. `GAME3_IMPLEMENTATION_STATUS.md`
-18. `GAME3_CI_NOTIFICATION_POLICY.md`
-19. `GAME3_MIGRATION_MANIFEST.md`
+1. `GAME4_RESEARCH.md`
 
-## Completed — autonomous run 15
-1. Re-read `START_HERE.md`, previous `STATUS.md`, `GAME_INDEX.md`, and every active Game #3 recovery file named by status before acting.
-2. Resumed exactly from Phase 11 and performed a fresh implementation-session audit with no production implementation.
-3. Created `GAME3_PHASE11_FINAL_FREEZE.md` as highest authority and reconciled P9-R1, P10-R1..P10-R16, donor-generation persistence atomicity, simultaneous collision grouping and chain-ceiling semantics.
-4. Preserved the actual frozen grammar exactly: impact direction + magnitude + lineage only; QUARTER_TURN/REVERSE/MIRROR/DAMPER only; R1–R8 only; four donor regeneration classes; authored graph motion; 2-slot default / rare justified 3-slot case capacity.
-5. Froze mature-case identity protection so C15–C34/remixes cannot collapse into anonymous arrow matching without failing provenance/world-state validation.
-6. Froze renewable escalation rules, meaningful RESETTABLE reset consequences, STRONG non-dominance distribution, transform-chain limits, solved-route compression boundary, authored self-launch outcomes, moving-window accessibility legitimacy, three-slot justification, causal-ribbon budget, deterministic focus graph, causal-skeleton anti-repetition, mastery distinction and remix dependency proof.
-7. Reconciled remix packaging definitively to Phase-7 three packs: R01–R03 after C14, R04–R07 after C28, R08–R10 after C34.
-8. Froze final campaign target at 34 main cases and preserved C01–C14 teaching order / no-new-primitive rule from C15 onward.
-9. Confirmed final technical direction: Godot 4.7.1-stable initially, GDScript-first, deterministic 2D Domain Core separated from presentation/platform adapters, semantic commands, content compiler/validators and headless replay harness.
-10. Performed **40/40 implementation-readiness checks**, covering verbs, collision ordering, lineage, donors, transforms, receivers, self-launch, moving windows, history, persistence, Cloud/demo import, progression, mastery/remixes, input/accessibility, content validation, technical architecture and failure recovery.
-11. Confirmed remaining unknowns are explicit empirical gates E10-01..E10-11 rather than missing gameplay rules.
-12. Set **DESIGN COMPLETE = YES** in the final freeze.
-13. Prepared detailed autonomous implementation handoff `GAME3_IMPLEMENTATION_START_HERE.md` with Phase 12A–12H gates.
-14. Prepared `GAME3_IMPLEMENTATION_STATUS.md` with implementation not started and 12A queued after verified migration.
-15. Prepared `GAME3_CI_NOTIFICATION_POLICY.md`, explicitly preventing unstable push-triggered GitHub Actions / notification storms while preserving local/headless/manual verification quality.
-16. Prepared `GAME3_MIGRATION_MANIFEST.md` with all 15 frozen design/history files, destination handoff files, verification order and source final-freeze blob SHA `d227433d40d4a8e73334702833b099befb25a2b0`.
-17. Determined intended dedicated repository name: `Mikayilzade/borrowed-collision`.
-18. Searched GitHub for the intended repository; it was not found.
-19. Did **not** delete any Game #3 file or reset the factory because the destination migration safety gate cannot pass until the repo exists.
-20. Production implementation remains **NOT STARTED**.
+A fresh continuation session must read:
+1. `START_HERE.md`
+2. this `STATUS.md`
+3. `GAME_INDEX.md`
+4. `GAME4_RESEARCH.md`
 
-## Locked Game #3 thesis
-**Borrowed Collision** — Steal the force from one crash and spend it somewhere else: harvest collisions as portable impacts, route them through physical sockets, and reuse those consequences on carts, doors, cargo — or yourself.
+It does **not** need to read `GAME3_*` files to continue Game #004.
 
-### Non-negotiable differentiation rule
-**A resolved physical consequence becomes a portable resource, and the world-state that created and receives that consequence must continue to matter.**
+## Completed — Game #004 Run 1
+1. Rechecked current 2026 discovery pressure and Steam demo environment.
+2. Preserved the factory rule that a playable 15–25 minute demo and mute-readable hook matter more than genre label alone.
+3. Started Game #004 from a clean logical slate, explicitly excluding Games #001–#003 and Game #003 rejected concepts as canon.
+4. Generated **36** new broad candidate seeds across topology manipulation, direct action, negative space, deterministic destruction, acoustic stealth, layer ownership, one-object systems and compact causal machines.
+5. Applied initial destructive triage.
+6. Promoted **12 Tier-A candidates** for direct analogue/graybox research:
+   - G4C01 Seam Thief
+   - G4C02 Missing Piece
+   - G4C03 Frame Job
+   - G4C04 One-Bullet Mason
+   - G4C05 Cutaway House
+   - G4C09 Negative Space Courier
+   - G4C11 Stagehand Zero
+   - G4C14 Threadbare Heist
+   - G4C19 Soundproof Smuggler
+   - G4C24 Debris Sculptor
+   - G4C28 Tension Window
+   - G4C34 Single Cause
+7. Rejected eight formulations already carrying direct structural/market problems and kept the remainder as reserves.
+8. Froze the Run-2 scoring model and hard-kill criteria.
+9. No concept selected and Phase 2 has not started.
+10. No automation/scheduled run was created by this transition.
 
-## BLOCKER
-The design is complete, but safe factory completion requires a dedicated repository. `Mikayilzade/borrowed-collision` does not currently exist, and the connected GitHub capability available in this run does not expose repository creation.
+## Current leading opportunity cluster
+No winner exists. The strongest fresh cluster from Run 1 is **topology / adjacency / negative-space manipulation**, provided it can stay materially different from portals, sliding blocks and generic perspective puzzles.
 
-This is a migration/tooling blocker, not a design blocker.
+Other promising directions:
+- deterministic destruction that creates reusable structure;
+- one bounded expressive physical tool;
+- acoustic-route manipulation with complete visual redundancy;
+- one-intervention causal machines if plan/watch boredom can be defeated.
 
-## NEXT ACTION
-When `Mikayilzade/borrowed-collision` exists (an empty repo with `main` is sufficient), execute the migration gate exactly:
-1. read this status and all 19 active temporary files;
-2. copy all 15 frozen Game #3 design/research/validation files exactly into destination;
-3. copy `GAME3_IMPLEMENTATION_START_HERE.md` as `IMPLEMENTATION_START_HERE.md`;
-4. copy `GAME3_IMPLEMENTATION_STATUS.md` as `IMPLEMENTATION_STATUS.md`;
-5. copy `GAME3_CI_NOTIFICATION_POLICY.md` as `CI_NOTIFICATION_POLICY.md`;
-6. copy/update `GAME3_MIGRATION_MANIFEST.md` as `MIGRATION_MANIFEST.md`;
-7. add destination README pointing to handoff, CI policy and highest final authority;
-8. verify destination `GAME3_PHASE11_FINAL_FREEZE.md` is content-identical to source blob SHA `d227433d40d4a8e73334702833b099befb25a2b0` and verify complete authority chain is local;
-9. update destination implementation status to migration complete / Phase 12A next;
-10. update factory `GAME_INDEX.md` to Game #003 Borrowed Collision / migrated / dedicated repo;
-11. only after successful verification, delete all `GAME3_*` files from factory;
-12. reset `STATUS.md` for Game #004 — Phase 1 Opportunity Discovery;
-13. report Game #3 cycle completed and disable this recurring task only if the factory-reset completion condition is actually reached.
-
-## Completion rule
-Game #3 is **DESIGN COMPLETE but factory-cycle incomplete** until safe migration + destination handoff + verification + factory cleanup/reset are complete.
-
-## Recovery rule
-Read `START_HERE.md`, this file, `GAME_INDEX.md`, then every file listed under Active temporary files, and execute `NEXT ACTION` exactly.
+## NEXT ACTION — GAME #004 RUN 2
+1. Perform targeted current competitor/analogue searches for all 12 Tier-A candidates.
+2. Attack Seam Thief / Frame Job / Negative Space Courier against portal, comic-panel, topology and interface-layout precedents.
+3. Attack One-Bullet Mason / Tension Window / Debris Sculptor against grapple, construction-shot, soft-body and destruction-action precedents.
+4. Attack Single Cause against chain-reaction / one-input / plan-watch puzzle games.
+5. Attack Soundproof Smuggler against sound-stealth/acoustic-routing games.
+6. Define exact 10-second repeated verb + one-week graybox + quantitative kill gates for every survivor.
+7. Add at least 8 candidates from underrepresented territories: non-spatial deduction, direct score attack, turnless tactics and one-object simulation.
+8. Apply the uniform weighted score and hard kills.
+9. Reduce to roughly 10–14 serious Phase-1 finalists only if evidence supports them.
+10. Do **not** open Phase 2 or select Game #004 prematurely.
