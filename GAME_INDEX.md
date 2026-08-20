@@ -7,7 +7,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 | 001 | **Organism Cargo** | DESIGN COMPLETE / specification frozen | `Mikayilzade/organism-cargo` | Dedicated implementation track | Migrated with full design canon, validation/history and autonomous implementation handoff. |
 | 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
 | 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff in progress; prototype-first implementation gate | Final-freeze SHA in factory: `d227433d40d4a8e73334702833b099befb25a2b0`. Factory source package temporarily retained as safety archive until dedicated migration verification is fully closed. |
-| 004 | **G4C19 acoustic-infiltration concept** (historical working title `Soundproof Smuggler`; final title TBD) | **Phase 1 COMPLETE / Phase 2 tournament COMPLETE / winner selected / Phase 3 queued** | TBD after design freeze | Not applicable | Winner selected in Tournament Run 3 after final comparison against Seam Thief and Command Wake. Product Thesis not yet locked. |
+| 004 | **HUSHLINE** *(provisional working name; final title not cleared/frozen)* | **Phase 1 COMPLETE / Phase 2 COMPLETE / Phase 3 Product Thesis LOCKED / Phase 4 queued** | TBD after design freeze | Not applicable | Top-down real-time acoustic infiltration puzzle. Historical `Soundproof Smuggler` label retired; no cargo/smuggling obligation. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
@@ -17,23 +17,26 @@ This file tracks games produced by the factory. Finished game-specific design sh
 
 The dedicated repositories own all implementation and game-specific amendments for Games #001–#003 once migration/handoff is verified. Game #004 must not treat their specific mechanics, content, files or rejected candidate fields as canon.
 
-## Game #004 selected concept — pre-Phase-3 summary
-The tournament selected **G4C19 acoustic infiltration / physical sound routing**.
+## Game #004 locked Product Thesis summary
+**HUSHLINE** is the provisional design-continuity name only; final commercial title/trademark clearance remains later work.
 
-Provisional core:
-- move/rotate one world-space sound-absorbing barrier between authored physical slots;
-- see the deterministic acoustic route update immediately;
+Locked identity:
+- **top-down real-time acoustic infiltration puzzle**;
+- PC/Steam-first, single-player/offline baseline;
+- physically and **locally/directly** reposition one visible soundproof barrier between authored slots;
+- exact deterministic acoustic propagation is shown in the physical world;
 - decide **who should hear each action**, not merely how to remain silent;
-- use deliberate lures/selective audibility as mature play;
-- keep acoustic simulation graph-based and exact rather than realistic/ray-traced;
-- preserve full visual/no-audio decision parity;
-- keep active traversal central so the game does not become a detached graph editor.
+- deliberate lures/selective audibility are mandatory mature play;
+- player-created acoustic openings take priority over passive patrol waiting;
+- complete visual/no-audio decision parity;
+- graph acoustics rather than realistic/ray-traced wave simulation;
+- compact premium scope, approximately 5–8 hours first clear and 30–36 main encounters.
 
-The label `Soundproof Smuggler` is historical only. Phase 3 must choose/validate the actual title/fantasy and must not import cargo/smuggling obligations unless independently justified.
+The historical label `Soundproof Smuggler` is retired from active design. Cargo, contraband, delivery economy and logistics are not part of the locked thesis.
 
 ## Final Game #004 tournament reserves
-- **G4C01 Seam Thief** — strongest pure abstract puzzle reserve; loses current selection on portal perception + topology/contact QA risk.
-- **G4C43 Command Wake** — strongest action-puzzle reserve; loses current selection on route memorization/choreography + visual readability.
+- **G4C01 Seam Thief** — strongest pure abstract puzzle reserve; lost selection on portal perception + topology/contact QA risk.
+- **G4C43 Command Wake** — strongest action-puzzle reserve; lost selection on route memorization/choreography + visual readability.
 - Other earlier survivors/reserves remain historical research only and are not co-canon with the selected concept.
 
 ## Numbering rule
