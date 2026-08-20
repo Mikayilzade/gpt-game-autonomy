@@ -7,7 +7,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 | 001 | **Organism Cargo** | DESIGN COMPLETE / specification frozen | `Mikayilzade/organism-cargo` | Dedicated implementation track | Migrated with full design canon, validation/history and autonomous implementation handoff. |
 | 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
 | 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff in progress; prototype-first implementation gate | Final-freeze SHA in factory: `d227433d40d4a8e73334702833b099befb25a2b0`. Factory source package temporarily retained as safety archive until dedicated migration verification is fully closed. |
-| 004 | **HUSHLINE** *(provisional working name; final title not cleared/frozen)* | **Phase 1 COMPLETE / Phase 2 COMPLETE / Phase 3 Product Thesis LOCKED / Phase 4 Mechanics LOCKED / Phase 5 queued** | TBD after design freeze | Not applicable | Top-down real-time acoustic infiltration puzzle. Historical `Soundproof Smuggler` label retired; no cargo/smuggling obligation. |
+| 004 | **HUSHLINE** *(provisional working name; final title not cleared/frozen)* | **Phase 1–5 COMPLETE; Product Thesis, Mechanics and Content Architecture LOCKED; Phase 6 queued** | TBD after design freeze | Not applicable | Top-down real-time acoustic infiltration puzzle. 34 main encounters + 8 optional remixes defined; historical `Soundproof Smuggler` label retired. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
@@ -30,7 +30,7 @@ Locked identity:
 - player-created acoustic openings take priority over passive patrol waiting;
 - complete visual/no-audio decision parity;
 - graph acoustics rather than realistic/ray-traced wave simulation;
-- compact premium scope, approximately 5–8 hours first clear and 30–36 main encounters.
+- compact premium scope, approximately 5–8 hours first clear and 34 main encounters.
 
 ## Game #004 locked mechanical summary
 - Acoustic graph uses visible physical nodes/edges, attenuation 0–2, sound strength 1–4 and visible listener thresholds 1–3.
@@ -39,6 +39,15 @@ Locked identity:
 - Hearing drives deterministic investigation rather than automatic failure; equal-strength lure spam cannot endlessly retarget an investigating listener.
 - Fixed-step ordering and one shared prediction/resolution model require 100% deterministic hearing parity.
 - Fast deterministic restart/checkpoint recovery is part of the core mechanical contract.
+
+## Game #004 locked content summary
+- **34 main encounters**: 7 teaching, 9 combination, 13 mature, 5 climax.
+- **8 optional remix/mastery encounters**, with no parallel currency/power progression.
+- 12 reusable reasoning families use only locked mechanics.
+- Normal mature density remains 2 listeners and <=12 acoustic nodes; 3 listeners exceptional.
+- Content validators reject hidden edges, unsignaled thresholds, permanent nearest-door dominance, silence-everything collapse, excessive waiting, barrier scarcity, excessive density, bespoke rule exceptions and repetitive encounter signatures.
+- Selective audibility must appear by E07; mature campaign repeatedly requires useful heard events and listener-specific outcomes.
+- Four-encounter ~20-minute demo culminates in selective audibility and physical barrier repositioning.
 
 The historical label `Soundproof Smuggler` is retired from active design. Cargo, contraband, delivery economy and logistics are not part of the locked thesis.
 
