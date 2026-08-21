@@ -13,7 +13,7 @@ Branch: `main`
 - Game #003 factory source package: **RETAINED TEMPORARILY AS SAFETY ARCHIVE**
 - Game #003 source final-freeze SHA: `d227433d40d4a8e73334702833b099befb25a2b0`
 - Current design slot: **Game #004**
-- Game #004 autonomous/manual design run count: **12**
+- Game #004 autonomous/manual design run count: **13**
 - Game #004 concept selected: **YES — G4C19 acoustic-infiltration / physical sound-routing concept**
 - Historical working title `Soundproof Smuggler`: **RETIRED from active design**
 - Current working product name: **HUSHLINE — provisional / high-risk for final use / final title not frozen**
@@ -25,14 +25,15 @@ Branch: `main`
 - Game #004 Phase 6 UX / Presentation Architecture: **COMPLETE / LOCKED**
 - Game #004 Phase 7 Economy / Retention / Commercial Model: **COMPLETE / LOCKED**
 - Game #004 Phase 8 Technical Implementation Specification: **COMPLETE / LOCKED**
-- Game #004 Phase 9 Whole-Game Simulation on Paper: **QUEUED / NOT STARTED**
+- Game #004 Phase 9 Whole-Game Simulation on Paper: **COMPLETE / LOCKED FOR ADVERSARIAL REVIEW**
+- Game #004 Phase 10 Adversarial Review: **QUEUED / NOT STARTED**
 - Production implementation inside factory: **NO**
 
 ## Important transition exception
 Game #004 continues while the Game #003 source package remains temporarily retained. All `GAME3_*` files are non-canonical safety archive material and are excluded from Game #004 recovery reading.
 
 ## Current phase
-**Game #004 — Phase 8 COMPLETE / Phase 9 Whole-Game Simulation queued**
+**Game #004 — Phase 9 COMPLETE / Phase 10 Adversarial Review queued**
 
 ## Active temporary files — mandatory recovery read
 1. `GAME4_RESEARCH.md`
@@ -47,73 +48,73 @@ Game #004 continues while the Game #003 source package remains temporarily retai
 10. `GAME4_UX_PRESENTATION.md`
 11. `GAME4_ECONOMY_COMMERCIAL.md`
 12. `GAME4_TECHNICAL_SPEC.md`
+13. `GAME4_WHOLE_GAME_SIMULATION.md`
 
-A fresh continuation session must read `START_HERE.md`, this `STATUS.md`, `GAME_INDEX.md`, and all twelve active Game #004 files above. Do not read `GAME3_*` files as Game #004 canon.
+A fresh continuation session must read `START_HERE.md`, this `STATUS.md`, `GAME_INDEX.md`, and all thirteen active Game #004 files above. Do not read `GAME3_*` files as Game #004 canon.
 
-## Completed — Game #004 Run 12 / Phase 8 Technical Specification
-1. Re-read the full active Game #004 recovery/authority chain and resumed exactly from the Phase-8 handoff.
-2. Re-verified current tool/runtime evidence on 2026-08-21 using official sources only for technical decisions.
-3. Confirmed **Godot 4.7.1-stable** (2026-07-14) as the initial pinned engine target; 4.7.2 remains RC and 4.8 remains development-only at this checkpoint.
-4. Created `GAME4_TECHNICAL_SPEC.md` without changing any locked Phase-3–7 gameplay, content, UX or commercial rule.
-5. Defined a four-layer architecture: deterministic Domain Core, Godot runtime/world binding, presentation, and platform adapters.
-6. Defined a **60 Hz fixed-step authoritative simulation** with rendering interpolation separated from gameplay truth.
-7. Defined stable IDs, integer acoustic math, quantized/fixed-point rule-critical motion and canonical state hashing so engine/render timing cannot become hidden authority.
-8. Preserved the exact Phase-4 update order as one explicit domain runner rather than relying on SceneTree callback order.
-9. Defined semantic/quantized input packets and a Godot InputMap boundary with separately persisted remaps.
-10. Defined deterministic integer acoustic propagation, tied-minimum-route representation and stable route/result traces for <=12-node graphs.
-11. Defined authored deterministic listener navigation and preferred custom kinematic player movement so node ownership, direct detection, replays and checkpoints remain reproducible.
-12. Defined barrier/door/moving-source/listener implementation contracts preserving +3 snapped attenuation, between-slot inactivity, explicit emission phase and strict-greater retarget logic.
-13. Defined prediction as a prospective cloned/copy-on-write domain state that invokes the **same** mutation/propagation/hearing code as committed resolution; 100% parity remains a hard gate.
-14. Chose typed Godot custom `Resource` (`.tres`) authoring for content definitions plus explicit WorldBinding data, headless compilation and Phase-5 V01–V16 validation.
-15. Added technical content invariants for ID/reference integrity, route-density bounds, checkpoint legality, emission-phase completeness, manifest compatibility and missing world bindings.
-16. Defined separate machine-local settings, portable profile/settings and deterministic encounter-checkpoint scopes.
-17. Defined versioned explicit save DTOs, atomic temp-write/replace behavior, one-generation backup recovery, content-manifest hashes and tested migration rather than arbitrary live-Node serialization.
-18. Defined FULL / DEMO / DEV build flavors where mechanics remain identical and only content/platform gating differs.
-19. Grounded demo/full continuity in current Steam documentation: separate demo App ID, optional shared Cloud storage, demo achievements disabled, full-game import only for verified compatible fields/content.
-20. Isolated Steam achievements, Cloud, store overlay/full-app checks and rich presence behind a platform adapter; offline campaign progress remains authoritative locally.
-21. Defined localization with stable text IDs, pseudolocalization and no localized strings inside gameplay logic.
-22. Defined accessibility boundaries: presentation-only settings remain outside domain truth, while deterministic assists such as whole-simulation speed are included in replay/state metadata.
-23. Defined structured event logs, deterministic replay fixtures, state hashes, unit/golden/content tests and property/fuzz tests comparing the production path solver against exhaustive small-graph oracles.
-24. Defined save/recovery tests covering corruption fallback, schema migration, checkpoint parity and demo/full import safety.
-25. Defined performance targets for normal <=12-node / 2-listener content and exceptional 3-listener content, with a 60 FPS / Steam Deck-class 1280×800 target assumption and sub-millisecond acoustic expectations.
-26. Defined later dedicated-repository implementation order **12A–12H**, explicitly keeping production code out of the factory.
-27. Preserved the anti-notification principle for later CI: local/headless validation first; no unstable every-push Actions until the suite is consistently green and a dedicated CI policy exists.
-28. Added twelve empirical technical gates covering engine version, quantized movement feel, cross-platform replay, prediction latency, tied-route density, deterministic collision, handheld performance/readability, three-listener load, save migration, demo/full continuity, Steam-offline behavior and localization stress.
-29. No production implementation was started.
+## Completed — Game #004 Run 13 / Phase 9 Whole-Game Simulation
+1. Re-read the full active authority chain and resumed exactly from the Phase-9 handoff.
+2. Created `GAME4_WHOLE_GAME_SIMULATION.md` and simulated the game from first boot through campaign completion, persistence, accessibility and replay.
+3. Verified a first-run accessibility path that reaches direct player control quickly and never requires audio for mechanical comprehension.
+4. Walked D01–D04 as an ~20-minute commercial demo and confirmed D04 ends on explicit selective audibility rather than generic silence stealth.
+5. Walked E01–E07 and confirmed the teaching order can establish `heard can be useful` by E07 without tutorial text carrying the rule.
+6. Walked E08–E16 and confirmed combination difficulty comes from existing reasoning-family recombination rather than added mechanics.
+7. Walked E17–E29 including retarget ordering, exposed barrier manipulation, first moving source, extraction inversion and mature waiting/verb-frequency budgets.
+8. Simulated E28 at three-listener density and kept it only as an empirical/cuttable readability gate: simplify to two listeners if handheld/no-audio tests fail rather than adding global graph UI.
+9. Simulated E30–E34 and preserved E34's finale contract requiring at least two useful-heard moments while remaining <=12 nodes.
+10. Treated E33 three-listener climax as even more fragile; it may be replaced by a two-listener tied-route/threshold-split encounter without changing campaign count or adding mechanics.
+11. Walked failure → cause trace → quick restart → checkpoint restore and confirmed hearing, investigation and direct detection remain distinct causal layers.
+12. Walked save/reload, corrupted primary-save fallback, demo→full import and Steam-offline behavior against the Phase-8 deterministic save/platform architecture.
+13. Walked no-audio, reduced-motion, high-contrast, large-UI and 70%/55% whole-simulation-speed paths and found no acoustic-truth divergence on paper.
+14. Clarified timing mastery under simulation-speed assists: optional time mastery must use normalized simulation time or be unavailable under altered speed rather than punishing accessibility via wall-clock timing.
+15. Walked mastery/remix flow and confirmed there is no currency, grind, live-service or power progression pressure.
+16. Attacked permanent barrier parking, silence-everything, equal-lure spam, strongest-sound spam, barrier-midpoint abuse, door-order races, restart brute force and content-signature repetition.
+17. Added four bounded Phase-9 clarifications only: E11 first completion-critical emission-order lesson; conditional E33 density; assist-safe timing mastery; mature content signature sampling.
+18. No core values or locked mechanics changed: strength 1–4, attenuation 0–2, threshold 1–3, +3 barrier, one local/direct barrier, retarget rules, 34+8 content budget, deterministic prediction/resolution and premium/no-currency model remain intact.
+19. Production implementation remains **NOT STARTED**.
 
-## Locked Game #004 technical summary
-- Initial engine target: **Godot 4.7.1-stable, GDScript-first**.
-- Authoritative rules live in a deterministic Domain Core, not scene callbacks/render/audio/platform code.
-- 60 Hz fixed-step domain simulation; rendering interpolates only.
-- Integer acoustic truth + stable IDs/order; quantized/fixed-point rule-critical motion preferred.
-- No free rigid-body physics authority required.
-- Prediction clones prospective state and uses the exact committed solver.
-- Listener navigation uses deterministic authored graph/path contracts.
-- Typed `.tres` content authoring + world bindings + headless compiler/validators.
-- Phase-5 V01–V16 are tooling gates, not documentation-only rules.
-- Explicit versioned save DTOs, atomic write + backup recovery, content manifest hashes.
-- FULL/DEMO/DEV share identical mechanics; build flavor gates content/platform behavior only.
-- Steam integration is adapter-only; offline local progress remains valid.
-- Demo achievements disabled; shared Cloud continuity supported where valid.
-- Localization uses stable IDs; pseudolocalization required.
-- Replays/state hashes/golden tests/property fuzzing are core verification tools.
-- Normal target remains <=12 nodes / 2 listeners; 3 listeners exceptional and cuttable.
-- Production implementation remains deferred to the dedicated repository after design freeze/migration.
+## Phase-9 acceptance summary
+- First boot/accessibility: **PASS ON PAPER**.
+- D01–D04 demo: **PASS**.
+- Selective audibility by D04/E07: **PASS**.
+- E08–E16 combination pacing: **PASS**.
+- E17–E29 mature scaling: **PASS WITH EMPIRICAL DENSITY GATES**.
+- E28 three-listener state: **CONDITIONAL / CUTTABLE**.
+- E33 three-listener climax: **CONDITIONAL / REPLACEABLE WITH TWO-LISTENER CONTENT**.
+- E34 two useful-heard moments: **LOCKED FINALE CONTRACT**.
+- Failure/restart/checkpoint loop: **PASS**.
+- Save/reload/corruption fallback/demo import/offline: **PASS ON SPEC**.
+- No-audio/reduced-motion/high-contrast/large UI: **PASS ON PAPER**.
+- Whole-simulation speed assists: **PASS ON ORDERING; FEEL EMPIRICAL**.
+- Mastery/remix/no-grind model: **PASS**.
 
-## NEXT ACTION — GAME #004 PHASE 9 WHOLE-GAME SIMULATION ON PAPER
-1. Create `GAME4_WHOLE_GAME_SIMULATION.md`.
-2. Re-read the complete active authority chain including `GAME4_TECHNICAL_SPEC.md`.
-3. Simulate first boot and accessibility setup through immediate player control.
-4. Walk D01–D04 as an actual ~20-minute demo, checking first sound, first independent barrier choice, alternate-route comprehension, deliberate investigation and final selective-audibility clarity.
-5. Continue into E01–E07 and prove the player understands `heard can be useful` by E07 without tutorial text dependence.
-6. Simulate E08–E16 combination pacing, especially exposed barrier manipulation, first door mutation, over-propagation and two-step barrier sequencing.
-7. Simulate mature E17–E29, including retarget ordering, moving source introduction, return-path inversion and passive-wait/verb-frequency budgets.
-8. Simulate exceptional E28/E33 three-listener states and explicitly decide whether current UX density remains credible on handheld/no-audio paths; do not invent a global graph UI to rescue them.
-9. Simulate E30–E34 climax progression, with E34 requiring at least two useful-heard moments while staying <=12 nodes.
-10. Walk fail → cause trace → quick restart → checkpoint restore and verify deterministic preview/recovery continuity.
-11. Walk save exit/reload, corrupted-save fallback, demo→full import and Steam-offline behavior against Phase-8 contracts.
-12. Walk no-audio, reduced-motion, high-contrast, large UI and 70%/55% whole-simulation-speed assist paths without changing acoustic truth.
-13. Walk mastery/remix/replay flow and verify no currency/grind/live-service pressure appears.
-14. Attack hostile player behavior: permanent barrier parking, silence-everything, equal-lure spam, strongest-sound spam, barrier-midpoint abuse, door-order races, restart brute force and content-signature repetition.
-15. Record every contradiction across thesis/mechanics/content/UX/commercial/technical layers and repair only when consistent with existing locks; do not casually add mechanics.
-16. If paper simulation exposes unresolved rules rather than empirical gates, repair the upstream specification explicitly and document the amendment before Phase 10.
+## Empirical gates carried forward
+1. Barrier manipulation must feel tactile rather than chore-like.
+2. Prediction/committed hearing parity must be 100%.
+3. Muted players must make identical optimal acoustic decisions.
+4. Handheld route density must remain readable without detached graph UI.
+5. Meaningful barrier edits must not become too sparse.
+6. Passive waiting must remain below campaign targets in real play.
+7. Players must naturally learn `heard can be useful` by E07/D04.
+8. E28/E33 three-listener states must survive readability testing or be simplified/replaced.
+9. 70%/55% simulation-speed assists must preserve ordering and acceptable feel.
+10. Deterministic movement/quantization/save/replay must survive real target-platform tests.
+11. Demo→full import must pass real Steam manifest/config tests.
+12. `HUSHLINE` still requires replacement/clearance before commercial freeze.
+
+## NEXT ACTION — GAME #004 PHASE 10 ADVERSARIAL REVIEW
+1. Create `GAME4_ADVERSARIAL_REVIEW.md`.
+2. Attack fun/verb-frequency and whether barrier handling is actually pleasurable.
+3. Attack `graph puzzle disguised as stealth` and whether world-first physical infiltration survives optimal play.
+4. Attack waiting, permanent parking, silence-everything, restart brute force and preview-overautomation.
+5. Attack tied-route visual overload, two-listener repetition and three-listener density.
+6. Attack content-signature exhaustion across 34 main + 8 remix encounters.
+7. Attack direct-detection feel versus deterministic puzzle clarity.
+8. Attack controller/handheld/no-audio/reduced-motion/large-UI conflicts.
+9. Attack save/replay/checkpoint corruption and deterministic recovery.
+10. Attack demo/full import, Steam-offline and platform-adapter failure paths.
+11. Attack title/capsule/market-position confusion and $14.99–$19.99 value risk.
+12. Audit every Phase-4–8 implementation contract for ambiguity or contradictory authority.
+13. Produce an explicit CUT / KEEP / EMPIRICAL-GATE list before proposing any addition.
+14. If findings require repairs, amend the owning upstream specification explicitly and document the authority change.
+15. Do **not** set `DESIGN COMPLETE = YES`; only Phase 11 may freeze after Phase-10 findings are reconciled.
