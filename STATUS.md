@@ -13,24 +13,25 @@ Branch: `main`
 - Game #003 factory source package: **RETAINED TEMPORARILY AS SAFETY ARCHIVE**
 - Game #003 source final-freeze SHA: `d227433d40d4a8e73334702833b099befb25a2b0`
 - Current design slot: **Game #004**
-- Game #004 autonomous/manual design run count: **10**
+- Game #004 autonomous/manual design run count: **11**
 - Game #004 concept selected: **YES — G4C19 acoustic-infiltration / physical sound-routing concept**
 - Historical working title `Soundproof Smuggler`: **RETIRED from active design**
-- Current working product name: **HUSHLINE — provisional / not trademark-cleared / final title not frozen**
+- Current working product name: **HUSHLINE — provisional / high-risk for final use / final title not frozen**
 - Game #004 Phase 1 Opportunity Discovery: **COMPLETE**
 - Game #004 Phase 2 Concept Tournament: **COMPLETE**
 - Game #004 Phase 3 Product Thesis Lock: **COMPLETE / LOCKED**
 - Game #004 Phase 4 Mechanical Architecture: **COMPLETE / LOCKED**
 - Game #004 Phase 5 Content Architecture: **COMPLETE / LOCKED**
 - Game #004 Phase 6 UX / Presentation Architecture: **COMPLETE / LOCKED**
-- Game #004 Phase 7 Economy / Retention / Commercial Model: **QUEUED / NOT STARTED**
+- Game #004 Phase 7 Economy / Retention / Commercial Model: **COMPLETE / LOCKED**
+- Game #004 Phase 8 Technical Implementation Specification: **QUEUED / NOT STARTED**
 - Production implementation inside factory: **NO**
 
 ## Important transition exception
 Game #004 continues while the Game #003 source package remains temporarily retained. All `GAME3_*` files are non-canonical safety archive material and are excluded from Game #004 recovery reading.
 
 ## Current phase
-**Game #004 — Phase 6 COMPLETE / Phase 7 Economy-Commercial queued**
+**Game #004 — Phase 7 COMPLETE / Phase 8 Technical Specification queued**
 
 ## Active temporary files — mandatory recovery read
 1. `GAME4_RESEARCH.md`
@@ -43,63 +44,61 @@ Game #004 continues while the Game #003 source package remains temporarily retai
 8. `GAME4_MECHANICS.md`
 9. `GAME4_CONTENT.md`
 10. `GAME4_UX_PRESENTATION.md`
+11. `GAME4_ECONOMY_COMMERCIAL.md`
 
-A fresh continuation session must read `START_HERE.md`, this `STATUS.md`, `GAME_INDEX.md`, and all ten active Game #004 files above. Do not read `GAME3_*` files as Game #004 canon.
+A fresh continuation session must read `START_HERE.md`, this `STATUS.md`, `GAME_INDEX.md`, and all eleven active Game #004 files above. Do not read `GAME3_*` files as Game #004 canon.
 
-## Completed — Game #004 Run 10 / Phase 6 UX-Presentation Architecture
-1. Re-read the active Game #004 authority chain and resumed exactly from Phase 6.
-2. Created `GAME4_UX_PRESENTATION.md` without changing locked acoustic mechanics, deterministic ordering, content schemas or campaign counts.
-3. Locked the presentation thesis: physical infiltration first, acoustic-routing puzzle second, never a detached graph editor.
-4. Defined top-down camera/framing rules for desktop and handheld targets, including bounded authored zoom, no free rotation requirement and no hidden mechanically active passages.
-5. Defined a three-layer acoustic language: persistent physical structure, contextual prediction and committed resolution.
-6. Defined numeric-free source strength 1–4, attenuation 0–2, barrier +3 and listener threshold 1–3 presentation using redundant count/shape/pattern/animation channels.
-7. Locked tied-route presentation: every tied minimum route is shown with equal mechanical emphasis; blocking one cannot visually imply global silence while another remains.
-8. Defined explicit HEARS / DOES_NOT_HEAR outcomes while preserving world-space route visualization rather than a node-map overlay.
-9. Defined automatic local preview, hold/toggle preview and persistent-preview accessibility behavior using the same deterministic current-state facts.
-10. Defined full physical barrier UX: discoverability, grab, rail-constrained movement, old-slot reopening, candidate-slot ghost, snap feedback, invalid states, release/return and rotation-station behavior.
-11. Defined listener POSTED / INVESTIGATE / ARRIVED-SEARCH / RETURN / ALERT_FAIL presentation plus investigation-target and retarget-priority feedback.
-12. Visually separated acoustic hearing from direct detection/failure so the game never teaches the false rule `heard = failed`.
-13. Defined WALK / FAST_MOVE noise presentation and deterministic upcoming locomotion-pulse preview at acoustic-node boundaries.
-14. Defined source/objective strength signaling, moving-source timing, binary door mutation presentation and before/after action-order pictograms where required.
-15. Locked a minimal HUD with objectives/mastery only; no baseline minimap, graph panel, suspicion bar, sound meter, inventory or barrier resource meter.
-16. Defined keyboard/mouse and controller mappings, contextual focus rules, full remapping, hold/toggle options and no-pixel-precision requirements.
-17. Defined first boot through the four-encounter demo onboarding, with first independent barrier decision by roughly minute 2–3 and D04 ending on selective audibility.
-18. Defined pause, fast restart and checkpoint presentation so restored UI/prediction matches the canonical deterministic snapshot.
-19. Defined complete no-audio parity, color-independent patterns, high-contrast controls, reduced motion, preview persistence, text/icon scaling and deterministic whole-simulation speed assists.
-20. Defined failure/cause traces for tied routes, strength-4 barrier leakage, no-retarget events and door-ordering cases without exposing hidden simulation data.
-21. Defined audio as reinforcement/atmosphere only and a visual identity centered on quiet industrial infiltration plus visible selective acoustic routing.
-22. Defined capsule/trailer communication that must show one listener hearing while another is screened, rather than generic stealth or `stay silent` marketing.
-23. Paper-tested presentation against tied routes, threshold split, active lure/exposed rail, door ordering, moving source, exceptional three-listener content and final-style 12-node synthesis.
-24. Three-listener content remains a conditional empirical readability gate; if handheld/graybox clarity fails, that content class is cut rather than rescued by a global abstract listener table.
-25. No production code was started.
+## Completed — Game #004 Run 11 / Phase 7 Economy-Commercial
+1. Re-read the active Game #004 authority chain and resumed exactly from Phase 7.
+2. Performed fresh 2026 Steam pricing/demo/discount research and checked current premium puzzle/systemic reference pricing.
+3. Created `GAME4_ECONOMY_COMMERCIAL.md` without altering locked mechanics, campaign count, UX rules or deterministic acoustic logic.
+4. Locked the business model to a **single premium purchase** with no gameplay currency, permanent power progression, live-service retention or paid convenience.
+5. Established a realistic current USD base-price test range of **$14.99–$19.99** and a provisional planning anchor of **$17.99**, explicitly not a final price.
+6. Compared current reference products including Patrick's Parabox ($19.99), The Roottrees are Dead ($19.99), Tactical Breach Wizards ($19.99) and Blue Prince ($29.99), using them as value-position references rather than direct scope equivalents.
+7. Locked the 1.0 value proposition around **34 main encounters + 8 remixes / 5–8 hour first clear**, with density/finish emphasized over raw hour count.
+8. Defined a four-encounter ~20-minute commercial demo: barrier introduction → alternate-route lesson → deliberate investigation → selective-audibility climax.
+9. Kept moving-source, three-listener and dense late synthesis content outside the demo so it proves the hook without exhausting the full game's vocabulary.
+10. Defined demo CTA/store flow and demo-to-full continuity assumptions; settings/completion metadata should transfer when practical, while campaign skipping occurs only if demo content is content-identical.
+11. Followed current Steam guidance by disabling achievements in the demo and preferring shared Cloud save continuity when technically practical.
+12. Defined progression/retention entirely through campaign understanding, optional mastery and remixes; no coins, XP, grind, stars required for main ending, daily rewards or artificial locks.
+13. Defined a target of **18–24 Steam achievements** focused on campaign/systemic mastery rather than repetitive counters.
+14. Prioritized Steam Achievements, Cloud, controller support and handheld readability; deliberately omitted leaderboards, Workshop/level editor and inventory-service dependencies from baseline.
+15. Locked a normal launch posture of **10% preferred / 10–15% acceptable launch discount for 7–14 days**, subject to actual release strategy.
+16. Rejected Early Access as the baseline because the product is authored, deterministic and better falsified through prototype/playtest/demo before launch.
+17. Defined DLC boundaries: 1.0 must be complete; any later paid expansion must be a substantial authored package and may not withhold core mechanics, ending or accessibility.
+18. Explicitly forbade paid power, consumables, loot boxes/gambling, energy/lives, battle passes, ads, paid skips, artificial timers and retention manipulation.
+19. Fresh title search found active uses of **Hushline** (including an App Store chat-story app, `hushline.net` audio service and a 2026 browser experiment), so `HUSHLINE` is now treated as **high-risk for final commercial use** rather than merely uncleared.
+20. Added commercial empirical gates for price sensitivity, perceived content value, demo comprehension/appetite, capsule legibility, title clearance, audio-game confusion, content-value honesty, discount integrity and retention integrity.
+21. No production code was started.
 
-## Locked Game #004 UX / presentation summary
-- World-first top-down physical infiltration presentation; no detached graph editor.
-- Acoustic routes are embedded in visible passages; hidden active edges are forbidden.
-- Strength, attenuation and thresholds use numeric-free redundant motifs; optional numbers may be enabled but are never required.
-- Tied minimum routes are all shown.
-- HEARS / DOES_NOT_HEAR is explicit and deterministic.
-- Barrier manipulation is local, tactile and rail-constrained with live acoustic preview.
-- Hearing and direct detection use distinct visual languages.
-- Minimal HUD; no minimap graph, suspicion meter or barrier resource system.
-- Full keyboard/mouse + controller parity with remapping and no pixel precision.
-- Complete no-audio mechanical parity.
-- Reduced motion, contrast, scaling and whole-simulation speed assists preserve deterministic ordering and acoustic logic.
-- Failure presentation explains exactly why a listener heard/detected the player.
-- Store/trailer identity must sell selective audibility + physical barrier movement, not generic sound stealth.
-- Exceptional three-listener content remains readability-gated.
+## Locked Game #004 commercial summary
+- Premium one-time purchase; no in-game economy required.
+- Current planning range: **$14.99–$19.99**, provisional anchor **$17.99**.
+- 34 main + 8 optional remixes / 5–8h first clear remains the locked scope/value package.
+- Four-encounter ~20-minute demo ends on selective audibility.
+- Demo achievements disabled; settings/completion metadata continuity preferred.
+- Retention = learning + mastery + optional remixes, not grind.
+- 18–24 Steam achievements target.
+- Steam Cloud/controller/handheld-readability are high priorities.
+- Launch discount baseline: 10% preferred, 10–15% acceptable, 7–14 days.
+- Early Access not baseline.
+- No paid power/consumables/gambling/FOMO/live-service friction.
+- `HUSHLINE` remains provisional and is now a likely replacement candidate pending real title clearance.
 
-## NEXT ACTION — GAME #004 PHASE 7 ECONOMY / RETENTION / COMMERCIAL MODEL
-1. Create `GAME4_ECONOMY_COMMERCIAL.md`.
-2. Re-read the full active Game #004 authority chain before commercial decisions.
-3. Use fresh 2026 market research because Steam pricing, demo practices, comparable products and platform expectations are time-sensitive.
-4. Define premium pricing logic and at least a realistic launch-price range with comparison against compact premium puzzle/stealth/systemic games.
-5. Define what the 34-main-encounter + 8-remix package must communicate as value for a 5–8 hour first clear.
-6. Define the demo commercial package: four-encounter ~20-minute structure, end state/call-to-action, save-transfer policy assumptions and what must remain outside the demo.
-7. Define progression/retention without currencies, grind, daily systems, battle passes or live-service loops.
-8. Define mastery/replay incentives, achievements and Steam/platform feature priorities that reuse locked systems.
-9. Define launch/discount posture and DLC/expansion boundaries without designing speculative content that contaminates 1.0 scope.
-10. Define monetization exclusions and ethical boundaries: no paid power, consumables, gambling, energy systems or artificial retention friction.
-11. Define commercial risk gates: title clearance, capsule legibility, demo conversion, perceived content value, price sensitivity, market-comparison confusion and whether the physical acoustic hook is understood from store media.
-12. Preserve `HUSHLINE` as provisional only; do not treat it as trademark-cleared.
-13. Do not add gameplay systems merely to improve retention metrics.
+## NEXT ACTION — GAME #004 PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION
+1. Create `GAME4_TECHNICAL_SPEC.md`.
+2. Re-read the full active Game #004 authority chain before technical decisions.
+3. Define engine/runtime direction appropriate to the locked 2D/2.5D top-down deterministic game; current tool/engine versions are time-sensitive, so verify fresh sources where relevant.
+4. Define deterministic Domain Core boundaries separate from rendering/audio/platform adapters.
+5. Define fixed-step simulation contract, canonical IDs/order, graph propagation representation and listener/navigation path contracts.
+6. Define content loading/schema validation for all Phase-5 data and how static + authored-solution validators run.
+7. Define snapshot/checkpoint/save schema, versioning, atomic recovery and demo/full continuity fields.
+8. Define prediction clone/prospective-state strategy so preview and resolution share exact propagation/hearing code without mutating live state.
+9. Define barrier rail, door/source mutation, listener state and node-ownership implementation contracts without changing Phase-4 rules.
+10. Define input abstraction for keyboard/mouse/controller, remapping and deterministic simulation-speed assists.
+11. Define UX/accessibility/localization data boundaries so presentation never becomes authoritative gameplay state.
+12. Define Steam/platform adapter boundaries for achievements, Cloud, demo/full app gating and overlay CTA without coupling Domain Core to Steam APIs.
+13. Define test harnesses, replay/event logs, deterministic golden cases, fuzz/property tests where useful and content-validator tooling.
+14. Define performance targets for normal <=12-node / 2-listener and exceptional 3-listener content plus handheld target assumptions.
+15. Define implementation order for the later dedicated repository (12A onward) but **do not write production code in this factory**.
+16. Identify empirical technical gates/unknowns that require graybox rather than inventing extra gameplay systems.
