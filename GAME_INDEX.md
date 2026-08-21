@@ -7,7 +7,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 | 001 | **Organism Cargo** | DESIGN COMPLETE / specification frozen | `Mikayilzade/organism-cargo` | Dedicated implementation track | Migrated with full design canon, validation/history and autonomous implementation handoff. |
 | 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
 | 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff track | Factory source package temporarily retained as non-canonical safety archive. |
-| 004 | **HEARWALL** *(working commercial title)* | **DESIGN COMPLETE / Phase 11 frozen / migration blocked** | Intended: `Mikayilzade/hearwall` | Not started; Phase 12A only after verified migration | Top-down real-time acoustic infiltration puzzle. Final-freeze blob SHA `37fbe588f82b65deeeb734597ffe768bb5399dd0`. Destination repository not found as of 2026-08-21. |
+| 004 | **HEARWALL** *(working commercial title)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/hearwall` | Phase 12A ready / production implementation not started | Top-down real-time acoustic infiltration puzzle. Destination final-freeze blob exactly matches factory source SHA `37fbe588f82b65deeeb734597ffe768bb5399dd0`. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
@@ -37,17 +37,18 @@ This file tracks games produced by the factory. Finished game-specific design sh
 - BEFORE_MUTATION events own immutable pre-commit graph revisions; AFTER_MUTATION uses post-commit revisions.
 
 ### Game #004 migration state
-`GAME4_PHASE11_FINAL_FREEZE.md` is the highest factory authority and sets `DESIGN COMPLETE = YES` after a 48/48 implementation-readiness pass.
+Migration to `Mikayilzade/hearwall` was completed and verified on 2026-08-22.
 
-Factory-side migration/handoff files are prepared:
-- `GAME4_IMPLEMENTATION_START_HERE.md`
-- `GAME4_IMPLEMENTATION_STATUS.md`
-- `GAME4_CI_NOTIFICATION_POLICY.md`
-- `GAME4_MIGRATION_MANIFEST.md`
+Verification facts:
+- dedicated repository exists on `main`;
+- all 16 frozen design/history files plus four implementation-handoff files and README were migrated;
+- destination `PHASE11_FINAL_FREEZE.md` blob SHA is exactly `37fbe588f82b65deeeb734597ffe768bb5399dd0`, identical to the factory source reference;
+- authority chain is self-contained inside the dedicated repository;
+- destination `IMPLEMENTATION_STATUS.md` records migration VERIFIED and Phase 12A READY / NOT STARTED;
+- destination CI/notification guardrail is present;
+- production implementation remains outside the factory.
 
-The intended dedicated repository `Mikayilzade/hearwall` was not found through the connected GitHub view on 2026-08-21, and repository creation is not exposed by the available connector actions. Therefore the factory retains all Game #004 files and must not start production implementation or reset to Game #005 until migration integrity is verified.
-
-`HEARWALL` is a screened working title, **not legal trademark clearance**. A later legal/store/domain rename is allowed without changing gameplay canon.
+The Game #004 source/handoff package was removed from the factory only after this verification. `HEARWALL` remains a screened working title, **not legal trademark clearance**. A later legal/store/domain rename is allowed without changing gameplay canon.
 
 ## Final Game #004 tournament reserves
 - **G4C01 Seam Thief** — strongest pure abstract puzzle reserve; lost selection on portal perception + topology/contact QA risk.
