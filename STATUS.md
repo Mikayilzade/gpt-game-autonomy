@@ -11,7 +11,7 @@ Branch: `main`
 - Game #003 Borrowed Collision: **DESIGN COMPLETE / dedicated repository track**
 - Game #003 factory source package: **RETAINED TEMPORARILY AS NON-CANONICAL SAFETY ARCHIVE**
 - Current design slot: **Game #004**
-- Game #004 autonomous/manual design run count: **15**
+- Game #004 autonomous/manual design run count: **16**
 - Selected concept: **YES — G4C19 physical acoustic-routing infiltration**
 - Current working commercial title: **HEARWALL**
 - Historical names `Soundproof Smuggler` / `HUSHLINE`: **RETIRED FROM COMMERCIAL USE**
@@ -30,7 +30,7 @@ Branch: `main`
 - Implementation-readiness audit: **PASS — 48/48**
 - Factory-side implementation handoff preparation: **COMPLETE**
 - Intended dedicated repository: **`Mikayilzade/hearwall`**
-- Dedicated repository status: **BLOCKED — repository not found**
+- Dedicated repository status: **BLOCKED — repository not found on migration recheck**
 - Migration integrity verification: **NOT STARTED**
 - Factory cleanup / reset for Game #005: **NOT STARTED — safety gate active**
 - Production implementation inside factory: **NO**
@@ -102,13 +102,21 @@ A fresh continuation session must read `START_HERE.md`, this `STATUS.md`, `GAME_
 14. Confirmed current connected GitHub actions do not expose creation of a new repository.
 15. Did **not** delete any Game #004 source file and did **not** start production implementation because migration integrity cannot yet be verified.
 
+## Completed — Game #004 Run 16 / migration-gate recheck
+1. Re-read the factory entry point, current status, game index, final freeze, migration manifest and all factory-side handoff files required by the recovery chain.
+2. Re-ran connected GitHub repository search specifically for `Mikayilzade/hearwall`.
+3. Search returned no destination repository; the migration blocker therefore remains real rather than stale status text.
+4. Preserved all 20 Game #004 source/handoff files in the factory and made no production implementation changes.
+5. Preserved final-freeze identity reference `37fbe588f82b65deeeb734597ffe768bb5399dd0` and the migration safety gate.
+6. No further autonomous design work is legitimate while the frozen package is waiting only on destination-repository creation.
+
 ## NEXT ACTION — GAME #004 MIGRATION GATE
-1. Recheck whether `Mikayilzade/hearwall` exists.
-2. If it exists, copy all 16 frozen design/history files plus the four handoff files according to `GAME4_MIGRATION_MANIFEST.md` and add destination `README.md`.
+1. Create the dedicated GitHub repository `Mikayilzade/hearwall` with a `main` branch outside this factory workflow, because current connected GitHub actions do not expose repository creation.
+2. Once it exists, copy all 16 frozen design/history files plus the four handoff files according to `GAME4_MIGRATION_MANIFEST.md` and add destination `README.md`.
 3. Verify destination `PHASE11_FINAL_FREEZE.md` content/blob identity against factory SHA `37fbe588f82b65deeeb734597ffe768bb5399dd0`.
 4. Verify the complete authority chain resolves inside the dedicated repository and does not depend on chat or factory-only paths.
 5. Only after verified migration: update `GAME_INDEX.md` to migrated/dedicated status, remove Game #004 source/handoff files from the factory, and reset `STATUS.md` for Game #005.
 6. Production implementation begins only in the dedicated repository at Phase 12A.
 
 ## Blocker
-The intended dedicated repository does not currently exist through the connected GitHub view, and repository creation is not exposed by the available GitHub actions. This is a migration blocker only; the Game #004 design itself is fully frozen and implementation-ready.
+The intended dedicated repository `Mikayilzade/hearwall` still does not exist through the connected GitHub view as of the latest migration-gate recheck. Repository creation is not exposed by the available GitHub actions. This is the only current blocker; the Game #004 design itself is fully frozen and implementation-ready.
