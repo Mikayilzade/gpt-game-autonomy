@@ -8,31 +8,60 @@ Branch: `main`
 - Reusable factory rules: **YES**
 - Game #001 Organism Cargo: **DESIGN COMPLETE / dedicated repository**
 - Game #002 False Map Department: **DESIGN COMPLETE / migrated**
-- Game #003 Borrowed Collision: **DESIGN COMPLETE / Phase 11 frozen / dedicated repository exists**
+- Game #003 Borrowed Collision: **DESIGN COMPLETE / dedicated repository track**
 - Game #003 factory source package: **RETAINED TEMPORARILY AS NON-CANONICAL SAFETY ARCHIVE**
 - Current design slot: **Game #004**
-- Game #004 autonomous/manual design run count: **14**
+- Game #004 autonomous/manual design run count: **15**
 - Selected concept: **YES — G4C19 physical acoustic-routing infiltration**
-- Historical working title `Soundproof Smuggler`: **RETIRED**
-- `HUSHLINE`: **RETIRED FROM COMMERCIAL TITLE CANDIDATES; historical continuity codename only until replacement**
+- Current working commercial title: **HEARWALL**
+- Historical names `Soundproof Smuggler` / `HUSHLINE`: **RETIRED FROM COMMERCIAL USE**
 - Phase 1 Opportunity Discovery: **COMPLETE**
 - Phase 2 Concept Tournament: **COMPLETE**
-- Phase 3 Product Thesis Lock: **COMPLETE / LOCKED**
-- Phase 4 Mechanical Architecture: **COMPLETE / LOCKED subject to Phase-10 amendments**
-- Phase 5 Content Architecture: **COMPLETE / LOCKED subject to Phase-10 amendments**
-- Phase 6 UX / Presentation Architecture: **COMPLETE / LOCKED subject to Phase-10 amendments**
-- Phase 7 Economy / Retention / Commercial Model: **COMPLETE / LOCKED**
-- Phase 8 Technical Implementation Specification: **COMPLETE / LOCKED subject to Phase-10 amendments**
+- Phase 3 Product Thesis Lock: **COMPLETE**
+- Phase 4 Mechanical Architecture: **COMPLETE**
+- Phase 5 Content Architecture: **COMPLETE**
+- Phase 6 UX / Presentation Architecture: **COMPLETE**
+- Phase 7 Economy / Retention / Commercial Model: **COMPLETE**
+- Phase 8 Technical Implementation Specification: **COMPLETE**
 - Phase 9 Whole-Game Simulation: **COMPLETE**
-- Phase 10 Adversarial Review: **COMPLETE WITH REQUIRED REPAIRS**
-- Phase 11 Specification Freeze: **QUEUED / NOT STARTED**
-- `DESIGN COMPLETE`: **NO**
+- Phase 10 Adversarial Review: **COMPLETE / repairs integrated**
+- Phase 11 Specification Freeze: **COMPLETE**
+- `DESIGN COMPLETE`: **YES**
+- Implementation-readiness audit: **PASS — 48/48**
+- Factory-side implementation handoff preparation: **COMPLETE**
+- Intended dedicated repository: **`Mikayilzade/hearwall`**
+- Dedicated repository status: **BLOCKED — repository not found**
+- Migration integrity verification: **NOT STARTED**
+- Factory cleanup / reset for Game #005: **NOT STARTED — safety gate active**
 - Production implementation inside factory: **NO**
 
 ## Current phase
-**Game #004 — Phase 10 complete / Phase 11 reconciliation and freeze queued.**
+**Game #004 — DESIGN FROZEN / migration blocked on destination repository creation.**
 
-## Active temporary files — mandatory recovery read
+## Highest authority
+`GAME4_PHASE11_FINAL_FREEZE.md`
+
+Factory final-freeze blob SHA:
+`37fbe588f82b65deeeb734597ffe768bb5399dd0`
+
+## Phase-11 final decisions
+1. Working commercial title is **HEARWALL**, subject to later legal/trademark/store/domain clearance without gameplay changes.
+2. Main product remains a top-down real-time acoustic infiltration puzzle centered on one local/direct physical barrier and selective audibility.
+3. Frozen numeric grammar: strength 1–4, attenuation 0–2, listener threshold 1–3, barrier +3.
+4. Tied minimum routes remain mechanically real and equally presented.
+5. Prediction and committed hearing use the same solver and must match 100%.
+6. **All three-listener gameplay is cut from 1.0**, including optional remixes. Two listeners are the absolute 1.0 ceiling.
+7. E28 is now a two-listener tied-route + threshold-split + selective-audibility encounter.
+8. E33 is now a two-listener tied-route + threshold-split + sequence-preservation encounter with at least three completion-critical barrier placements.
+9. E34 remains a two-listener final synthesis with at least two useful-heard moments.
+10. `V17_SAFE_PREVIEW_ENUMERATION` and `V18_CONTENT_SIGNATURE_DEDUP` are mandatory content validators.
+11. Direct detection is a bounded deterministic secondary pressure layer, not a twitch-stealth/combat pillar.
+12. `BEFORE_MUTATION` events own immutable pre-commit graph revisions; `AFTER_MUTATION` events own post-commit revisions.
+13. 34 main encounters remain the maximum target; 8 optional remixes are first-cut if repetition evidence is weak.
+14. Godot 4.7.1-stable / GDScript-first / deterministic Domain Core remains the initial implementation direction.
+15. Only legitimate empirical gates remain; no unresolved gameplay rule requires implementation to invent canon.
+
+## Active Game #004 package — mandatory recovery read until migration closes
 1. `GAME4_RESEARCH.md`
 2. `GAME4_RESEARCH_RUN2.md`
 3. `GAME4_RESEARCH_RUN3.md`
@@ -48,76 +77,38 @@ Branch: `main`
 13. `GAME4_WHOLE_GAME_SIMULATION.md`
 14. `GAME4_ADVERSARIAL_REVIEW.md`
 15. `GAME4_PHASE10_AMENDMENTS.md`
+16. `GAME4_PHASE11_FINAL_FREEZE.md`
+17. `GAME4_IMPLEMENTATION_START_HERE.md`
+18. `GAME4_IMPLEMENTATION_STATUS.md`
+19. `GAME4_CI_NOTIFICATION_POLICY.md`
+20. `GAME4_MIGRATION_MANIFEST.md`
 
-A fresh continuation session must read `START_HERE.md`, this `STATUS.md`, `GAME_INDEX.md`, and all fifteen Game #004 files above. Do not read `GAME3_*` files as Game #004 canon.
+A fresh continuation session must read `START_HERE.md`, this `STATUS.md`, `GAME_INDEX.md`, `GAME4_PHASE11_FINAL_FREEZE.md`, `GAME4_MIGRATION_MANIFEST.md`, and the handoff files first. Read older Game #004 files as needed for verification. Do not treat `GAME3_*` files as Game #004 canon.
 
-## Completed — Game #004 Run 14 / Phase 10 Adversarial Review
-1. Re-read the active design authority chain and resumed exactly from Phase 10.
-2. Created `GAME4_ADVERSARIAL_REVIEW.md` and attacked fun/verb frequency, graph-puzzle contamination, waiting, permanent parking, silence-everything, restart brute force, preview overautomation, tied-route density, content exhaustion, direct detection, accessibility, persistence, platform failure, title/capsule positioning and price/value.
-3. Refreshed current naming/market pressure. `HUSHLINE` now has multiple active app/service/software collisions plus a 2026 interactive experiment; it is retired from commercial-title consideration.
-4. Preserved the central product identity: one local/direct world-space barrier; exact deterministic acoustic prediction; selective audibility; player-created investigation windows; physical infiltration; no-audio parity.
-5. **CUT mandatory three-listener main-campaign escalation.** E28 and E33 must be two-listener designs. Three-listener play moves to optional empirical/remix territory only and may be removed entirely.
-6. Added a required mature-content anti-oracle rule: exact preview stays fully truthful, but encounters where all important barrier slots can be safely enumerated from one static state are invalid.
-7. Bounded direct detection as a deterministic secondary pressure/failure layer; it may not become a parallel pixel-precision vision-cone/twitch pillar.
-8. Added a campaign-wide systemic content-signature de-duplication requirement to defend the 34-main target from repetition.
-9. Found and repaired one real technical ambiguity: `BEFORE_MUTATION` sound events must reference an immutable pre-mutation graph snapshot/version captured before mutation commit; `AFTER_MUTATION` references post-mutation state.
-10. Preserved 34 main encounters + 8 optional remixes as the current value target, but prohibited expanding above 34 merely to pad perceived value; remixes are first-cut if repetition evidence is poor.
-11. Preserved fast restart, deterministic saves/replays, offline-complete platform behavior, premium/no-currency commercial model and current $14.99–$19.99 empirical price range.
-12. Created `GAME4_PHASE10_AMENDMENTS.md` as the temporary normative repair layer. Phase 11 must integrate it into the final freeze rather than leaving parallel authority.
-13. `DESIGN COMPLETE` remains **NO**; no migration or production implementation begins yet.
+## Completed — Game #004 Run 15 / Phase 11
+1. Recovered the full Game #004 authority chain and integrated all Phase-10 amendments into one highest-authority final freeze.
+2. Created `GAME4_PHASE11_FINAL_FREEZE.md` and set **DESIGN COMPLETE = YES**.
+3. Performed **48/48 implementation-readiness checks** covering product loop, acoustic mechanics, update ordering, listener/barrier/detection state, content, accessibility, deterministic architecture, persistence, platform/demo behavior and commercial boundaries.
+4. Removed the last design ambiguity around listener density by cutting three-listener gameplay from 1.0 entirely.
+5. Rewrote late-campaign E28/E33 identities and preserved E34 as a bounded two-listener final synthesis.
+6. Froze V17 safe-preview enumeration and V18 systemic-signature anti-repetition validation.
+7. Froze direct-detection scope and immutable BEFORE_MUTATION graph-revision ownership.
+8. Ran current naming/collision screening and selected **HEARWALL** as a working commercial/migration title; legal trademark clearance remains future business work.
+9. Created factory-side autonomous implementation handoff `GAME4_IMPLEMENTATION_START_HERE.md` with phases 12A–12H and empirical-gate discipline.
+10. Created `GAME4_IMPLEMENTATION_STATUS.md` with production implementation not started and migration gate active.
+11. Created `GAME4_CI_NOTIFICATION_POLICY.md` to prevent unstable notification-heavy push CI while retaining strong deterministic/local/manual/PR verification.
+12. Created `GAME4_MIGRATION_MANIFEST.md` with the 16-file frozen design/history package, destination renames, authority chain, verification checklist and source final-freeze SHA.
+13. Rechecked GitHub for intended destination `Mikayilzade/hearwall`; it was not found.
+14. Confirmed current connected GitHub actions do not expose creation of a new repository.
+15. Did **not** delete any Game #004 source file and did **not** start production implementation because migration integrity cannot yet be verified.
 
-## Phase-10 master outcome
-### KEEP
-- selected G4C19 acoustic-infiltration concept;
-- local/direct one-barrier interaction;
-- strength 1–4 / attenuation 0–2 / threshold 1–3 / barrier +3;
-- tied minimum routes;
-- exact prediction/resolution parity;
-- deliberate useful hearing;
-- two-listener mature baseline and now main-campaign ceiling;
-- 34-main target + 8 optional remixes subject to repetition gate;
-- premium one-time purchase / no grind;
-- Godot 4.7.1-stable / GDScript-first deterministic Domain Core direction.
+## NEXT ACTION — GAME #004 MIGRATION GATE
+1. Recheck whether `Mikayilzade/hearwall` exists.
+2. If it exists, copy all 16 frozen design/history files plus the four handoff files according to `GAME4_MIGRATION_MANIFEST.md` and add destination `README.md`.
+3. Verify destination `PHASE11_FINAL_FREEZE.md` content/blob identity against factory SHA `37fbe588f82b65deeeb734597ffe768bb5399dd0`.
+4. Verify the complete authority chain resolves inside the dedicated repository and does not depend on chat or factory-only paths.
+5. Only after verified migration: update `GAME_INDEX.md` to migrated/dedicated status, remove Game #004 source/handoff files from the factory, and reset `STATUS.md` for Game #005.
+6. Production implementation begins only in the dedicated repository at Phase 12A.
 
-### CUT
-- `HUSHLINE` as commercial title candidate;
-- mandatory three-listener main campaign;
-- detached/global acoustic graph editor;
-- automatic best-slot recommendations;
-- artificial barrier cooldown/mana/decay;
-- anti-wait punishment timers;
-- combat/takedown pillar;
-- direct detection as a separate twitch-stealth mastery system;
-- scope padding above 34 main encounters.
-
-### Empirical gates carried forward
-1. Barrier manipulation feels satisfying rather than chore-like.
-2. Meaningful barrier edits remain roughly >=1/minute in representative mature play.
-3. Prediction/committed hearing parity = 100%.
-4. Muted/no-audio optimal decisions remain identical.
-5. Handheld + reduced-motion + large-UI readability passes.
-6. Passive waiting preferably <15%; >20% warning; >25% redesign territory across representative successful runs.
-7. Players learn `heard can be useful` by D04/E07.
-8. Safe-preview enumeration is absent from mature content.
-9. Two-listener campaign signatures remain varied across 34 encounters.
-10. Optional three-listener content ships only if it genuinely improves play/readability.
-11. Direct-detection failures do not dominate acoustic-reasoning failures.
-12. 55%/70% simulation-speed assists preserve ordering and acceptable feel.
-13. Cross-platform deterministic hashes pass target builds.
-14. Save corruption/backup/checkpoint fallback and idempotent demo import pass automated fixtures.
-15. Real Steam demo/full Cloud/App-ID/offline paths pass before release candidate.
-16. Replacement title passes basic collision screening before migration/commercial freeze.
-17. Final price is chosen empirically without scope padding.
-
-## NEXT ACTION — GAME #004 PHASE 11 SPECIFICATION FREEZE
-1. Create `GAME4_PHASE11_FINAL_FREEZE.md` as the highest Game #004 authority.
-2. Reconcile every Phase-10 amendment explicitly into the final rules; do not leave contradictions between Phase 3–9 and the freeze.
-3. Perform a fresh implementation-readiness audit covering mechanics, ordering, prediction, content, UX/accessibility, persistence, platform, commercial boundaries and failure recovery.
-4. Freeze main-campaign listener ceiling at two and rewrite E28/E33 final identities accordingly; decide whether optional three-listener remix remains an empirical gate or is cut entirely.
-5. Freeze `V17_SAFE_PREVIEW_ENUMERATION`, content-signature anti-repetition validation and direct-detection scope.
-6. Freeze BEFORE_MUTATION/AFTER_MUTATION snapshot ownership precisely.
-7. Run current title-generation + collision screening; choose a replacement commercial working title before migration. Do not reuse `HUSHLINE`.
-8. Produce explicit acceptance criteria and authority order.
-9. Separate remaining legitimate implementation/playtest empirical gates from unresolved design ambiguity.
-10. If and only if another implementation session can build the game without inventing important gameplay, set `DESIGN COMPLETE = YES`.
-11. After `DESIGN COMPLETE = YES`, prepare dedicated-repository migration package, `IMPLEMENTATION_START_HERE.md`, `IMPLEMENTATION_STATUS.md`, CI/email-noise policy and migration manifest. Do not delete Game #004 source files until migration integrity is verified.
+## Blocker
+The intended dedicated repository does not currently exist through the connected GitHub view, and repository creation is not exposed by the available GitHub actions. This is a migration blocker only; the Game #004 design itself is fully frozen and implementation-ready.
