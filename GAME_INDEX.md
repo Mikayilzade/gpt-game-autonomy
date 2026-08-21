@@ -7,7 +7,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 | 001 | **Organism Cargo** | DESIGN COMPLETE / specification frozen | `Mikayilzade/organism-cargo` | Dedicated implementation track | Migrated with full design canon, validation/history and autonomous implementation handoff. |
 | 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
 | 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff in progress; prototype-first implementation gate | Final-freeze SHA in factory: `d227433d40d4a8e73334702833b099befb25a2b0`. Factory source package temporarily retained as safety archive until dedicated migration verification is fully closed. |
-| 004 | **HUSHLINE** *(provisional working name; final title not cleared/frozen)* | **Phase 1–5 COMPLETE; Product Thesis, Mechanics and Content Architecture LOCKED; Phase 6 queued** | TBD after design freeze | Not applicable | Top-down real-time acoustic infiltration puzzle. 34 main encounters + 8 optional remixes defined; historical `Soundproof Smuggler` label retired. |
+| 004 | **HUSHLINE** *(provisional working name; final title not cleared/frozen)* | **Phase 1–6 COMPLETE; Product Thesis, Mechanics, Content and UX/Presentation LOCKED; Phase 7 queued** | TBD after design freeze | Not applicable | Top-down real-time acoustic infiltration puzzle. 34 main encounters + 8 optional remixes defined; world-first acoustic prediction and complete no-audio parity locked. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
@@ -48,6 +48,20 @@ Locked identity:
 - Content validators reject hidden edges, unsignaled thresholds, permanent nearest-door dominance, silence-everything collapse, excessive waiting, barrier scarcity, excessive density, bespoke rule exceptions and repetitive encounter signatures.
 - Selective audibility must appear by E07; mature campaign repeatedly requires useful heard events and listener-specific outcomes.
 - Four-encounter ~20-minute demo culminates in selective audibility and physical barrier repositioning.
+
+## Game #004 locked UX / presentation summary
+- World-first top-down physical infiltration presentation; acoustics stay embedded in doors/corridors rather than a detached graph view.
+- Source strength, passage attenuation, barrier effect and listener thresholds use redundant numeric-free shape/count/pattern language; optional explicit numbers are nonessential.
+- Every tied minimum acoustic route is shown with equal mechanical emphasis.
+- Prediction and committed propagation use the same visual grammar with explicit HEARS / DOES_NOT_HEAR outcomes.
+- Barrier interaction is local, tactile, rail-constrained and live; between slots it is visibly acoustically inactive until snap.
+- Listener hearing/investigation and direct detection/failure are distinct visual systems.
+- Minimal HUD; no baseline minimap graph, suspicion bar, sound meter, inventory or barrier resource system.
+- Keyboard/mouse and controller are equal first-class targets, fully remappable and free of pixel-precision requirements.
+- Complete no-audio decision parity, color-independent motifs, high contrast, reduced motion, text/icon scaling and deterministic whole-simulation speed assists are designed in.
+- Failure/cause traces explain why a listener heard or detected the player without hidden information.
+- Store/trailer identity must communicate physical selective audibility — one listener hears, another is screened — rather than generic sound stealth.
+- Three-listener exceptional content remains an empirical readability gate and may be cut rather than rescued with abstract UI.
 
 The historical label `Soundproof Smuggler` is retired from active design. Cargo, contraband, delivery economy and logistics are not part of the locked thesis.
 
