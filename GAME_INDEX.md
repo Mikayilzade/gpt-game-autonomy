@@ -7,7 +7,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 | 001 | **Organism Cargo** | DESIGN COMPLETE / specification frozen | `Mikayilzade/organism-cargo` | Dedicated implementation track | Migrated with full design canon, validation/history and autonomous implementation handoff. |
 | 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
 | 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff in progress; prototype-first implementation gate | Final-freeze SHA in factory: `d227433d40d4a8e73334702833b099befb25a2b0`. Factory source package temporarily retained as safety archive until dedicated migration verification is fully closed. |
-| 004 | **HUSHLINE** *(provisional; high-risk for final use / title not cleared)* | **Phase 1–7 COMPLETE; Product Thesis, Mechanics, Content, UX/Presentation and Commercial Model LOCKED; Phase 8 queued** | TBD after design freeze | Not applicable | Top-down real-time acoustic infiltration puzzle. 34 main encounters + 8 optional remixes; premium one-time purchase; current price test range $14.99–$19.99; world-first acoustic prediction and complete no-audio parity locked. |
+| 004 | **HUSHLINE** *(provisional; high-risk for final use / title not cleared)* | **Phases 1–9 COMPLETE; Product Thesis through Whole-Game Simulation locked; Phase 10 adversarial review queued** | TBD after design freeze | Not applicable | Top-down real-time acoustic infiltration puzzle. 34 main encounters + 8 optional remixes; premium one-time purchase; $14.99–$19.99 test range; whole-game simulation passed on paper with E28/E33 three-listener density explicitly conditional/cuttable. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
@@ -18,7 +18,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 The dedicated repositories own all implementation and game-specific amendments for Games #001–#003 once migration/handoff is verified. Game #004 must not treat their specific mechanics, content, files or rejected candidate fields as canon.
 
 ## Game #004 locked Product Thesis summary
-`HUSHLINE` is a provisional continuity name only and now carries material naming-conflict risk; final commercial title remains unresolved.
+`HUSHLINE` is a provisional continuity name only and carries material naming-conflict risk; final commercial title remains unresolved.
 
 Locked identity:
 - **top-down real-time acoustic infiltration puzzle**;
@@ -75,7 +75,15 @@ Locked identity:
 - Preferred launch discount: **10%**, with 10–15% acceptable for 7–14 days.
 - Early Access is not baseline.
 - Paid power, consumables, gambling, energy, battle passes, ads, FOMO and artificial wait friction are explicitly excluded.
-- `HUSHLINE` is provisional and now a likely replacement candidate after fresh web search found active conflicting uses; real title clearance remains mandatory before final lock.
+- `HUSHLINE` is provisional and a likely replacement candidate after fresh web search found active conflicting uses; real title clearance remains mandatory before final lock.
+
+## Game #004 Phase-9 simulation result
+- First boot, demo, early/mid/mature/climax campaign, failure/restart, persistence, demo import, Steam-offline, accessibility and mastery paths all pass on paper.
+- D04/E07 successfully carry the core lesson that **being heard can be useful**.
+- E34 is locked to require at least two useful-heard moments while staying <=12 nodes.
+- E28 and E33 three-listener content remain conditional empirical gates; either may be simplified/replaced with two-listener content if handheld/no-audio readability fails.
+- Whole-simulation speed assists preserve rule ordering; optional timing mastery must not penalize accessibility through raw wall-clock comparison.
+- Phase 10 must now attack the product before any Phase-11 freeze.
 
 The historical label `Soundproof Smuggler` is retired from active design. Cargo, contraband, delivery economy and logistics are not part of the locked thesis.
 
