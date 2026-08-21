@@ -6,8 +6,8 @@ This file tracks games produced by the factory. Finished game-specific design sh
 |---|---|---|---|---|---|
 | 001 | **Organism Cargo** | DESIGN COMPLETE / specification frozen | `Mikayilzade/organism-cargo` | Dedicated implementation track | Migrated with full design canon, validation/history and autonomous implementation handoff. |
 | 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
-| 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff in progress; prototype-first implementation gate | Final-freeze SHA in factory: `d227433d40d4a8e73334702833b099befb25a2b0`. Factory source package temporarily retained as safety archive until dedicated migration verification is fully closed. |
-| 004 | **HUSHLINE** *(provisional; high-risk for final use / title not cleared)* | **Phases 1–9 COMPLETE; Product Thesis through Whole-Game Simulation locked; Phase 10 adversarial review queued** | TBD after design freeze | Not applicable | Top-down real-time acoustic infiltration puzzle. 34 main encounters + 8 optional remixes; premium one-time purchase; $14.99–$19.99 test range; whole-game simulation passed on paper with E28/E33 three-listener density explicitly conditional/cuttable. |
+| 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff track | Factory source package temporarily retained as non-canonical safety archive. |
+| 004 | **Title TBD** *(G4C19 acoustic-infiltration concept; `HUSHLINE` retired as commercial candidate)* | **Phases 1–10 COMPLETE; Phase 10 repairs recorded; Phase 11 specification freeze queued** | TBD after design freeze | Not applicable | Top-down real-time acoustic infiltration puzzle. 34 main encounters + 8 optional remixes target; premium one-time purchase; main campaign now capped at two listeners; exact preview + local physical barrier + selective audibility remain core. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
@@ -15,77 +15,41 @@ This file tracks games produced by the factory. Finished game-specific design sh
 ## Completed Game #003 identity
 **Borrowed Collision** — systemic causal puzzle in which a real resolved collision creates a portable impact whose direction, magnitude and lineage can be physically routed and spent elsewhere, including to create further real collision consequences.
 
-The dedicated repositories own all implementation and game-specific amendments for Games #001–#003 once migration/handoff is verified. Game #004 must not treat their specific mechanics, content, files or rejected candidate fields as canon.
+The dedicated repositories own implementation and game-specific amendments for Games #001–#003 once migration/handoff is verified. Game #004 must not treat their mechanics/files as canon.
 
-## Game #004 locked Product Thesis summary
-`HUSHLINE` is a provisional continuity name only and carries material naming-conflict risk; final commercial title remains unresolved.
+## Game #004 current locked identity
+- Selected concept: **G4C19 physical acoustic-routing infiltration**.
+- Genre: **top-down real-time acoustic infiltration puzzle**.
+- PC/Steam-first; single-player/offline baseline.
+- Player physically and locally repositions one visible soundproof barrier between authored slots.
+- Exact deterministic acoustic propagation is shown in the physical world.
+- Core decision is **who should hear each action**, not merely how to remain silent.
+- Deliberate lures/selective audibility are mandatory mature play.
+- Complete visual/no-audio decision parity.
+- Graph acoustics rather than realistic/ray-traced wave simulation.
+- Locked numeric grammar: strength 1–4, attenuation 0–2, listener threshold 1–3, barrier +3.
+- Tied minimum routes are mechanically real and shown equally.
+- Two listeners are now the **main-campaign ceiling** after Phase-10 adversarial review; three-listener play is optional empirical/remix territory only and may be cut entirely.
+- Main campaign target remains **34 encounters**; **8 optional remixes** are first-cut if repetition evidence is poor.
+- Premium one-time purchase; no progression currency, power grind or live-service retention.
+- Current price test range remains **$14.99–$19.99**; final price is empirical, not frozen.
+- Godot 4.7.1-stable / GDScript-first / deterministic Domain Core remains the implementation direction.
 
-Locked identity:
-- **top-down real-time acoustic infiltration puzzle**;
-- PC/Steam-first, single-player/offline baseline;
-- physically and **locally/directly** reposition one visible soundproof barrier between authored slots;
-- exact deterministic acoustic propagation is shown in the physical world;
-- decide **who should hear each action**, not merely how to remain silent;
-- deliberate lures/selective audibility are mandatory mature play;
-- player-created acoustic openings take priority over passive patrol waiting;
-- complete visual/no-audio decision parity;
-- graph acoustics rather than realistic/ray-traced wave simulation;
-- compact premium scope, approximately 5–8 hours first clear and 34 main encounters.
+## Phase-10 repairs now controlling until Phase 11
+`GAME4_PHASE10_AMENDMENTS.md` is the temporary normative repair layer and must be integrated into `GAME4_PHASE11_FINAL_FREEZE.md`.
 
-## Game #004 locked mechanical summary
-- Acoustic graph uses visible physical nodes/edges, attenuation 0–2, sound strength 1–4 and visible listener thresholds 1–3.
-- Hearing uses minimum route attenuation; all tied minimum routes count and are previewed.
-- One local/direct rail-bound barrier adds +3 attenuation only while snapped to one authored edge slot.
-- Hearing drives deterministic investigation rather than automatic failure; equal-strength lure spam cannot endlessly retarget an investigating listener.
-- Fixed-step ordering and one shared prediction/resolution model require 100% deterministic hearing parity.
-- Fast deterministic restart/checkpoint recovery is part of the core mechanical contract.
+Required repairs:
+1. E28/E33 no longer require three listeners; main campaign max = two.
+2. Mature content gains `V17_SAFE_PREVIEW_ENUMERATION` to prevent exact preview from becoming a static slot oracle.
+3. Direct detection is explicitly a deterministic secondary pressure layer, not a parallel twitch-stealth pillar.
+4. Mature/climax content requires systemic signature de-duplication across the campaign.
+5. `BEFORE_MUTATION` sound events must reference an immutable pre-mutation graph snapshot/version captured before mutation commit; `AFTER_MUTATION` uses post-mutation state.
+6. `HUSHLINE` is retired from commercial-title consideration after current collision search found multiple active apps/services/software/experiments using the same or near-identical name.
 
-## Game #004 locked content summary
-- **34 main encounters**: 7 teaching, 9 combination, 13 mature, 5 climax.
-- **8 optional remix/mastery encounters**, with no parallel currency/power progression.
-- 12 reusable reasoning families use only locked mechanics.
-- Normal mature density remains 2 listeners and <=12 acoustic nodes; 3 listeners exceptional.
-- Content validators reject hidden edges, unsignaled thresholds, permanent nearest-door dominance, silence-everything collapse, excessive waiting, barrier scarcity, excessive density, bespoke rule exceptions and repetitive encounter signatures.
-- Selective audibility must appear by E07; mature campaign repeatedly requires useful heard events and listener-specific outcomes.
-- Four-encounter ~20-minute demo culminates in selective audibility and physical barrier repositioning.
+## Game #004 commercial/title state
+The historical label `Soundproof Smuggler` remains retired. Cargo, contraband, delivery economy and logistics are not part of the product thesis.
 
-## Game #004 locked UX / presentation summary
-- World-first top-down physical infiltration presentation; acoustics stay embedded in doors/corridors rather than a detached graph view.
-- Source strength, passage attenuation, barrier effect and listener thresholds use redundant numeric-free shape/count/pattern language; optional explicit numbers are nonessential.
-- Every tied minimum acoustic route is shown with equal mechanical emphasis.
-- Prediction and committed propagation use the same visual grammar with explicit HEARS / DOES_NOT_HEAR outcomes.
-- Barrier interaction is local, tactile, rail-constrained and live; between slots it is visibly acoustically inactive until snap.
-- Listener hearing/investigation and direct detection/failure are distinct visual systems.
-- Minimal HUD; no baseline minimap graph, suspicion bar, sound meter, inventory or barrier resource system.
-- Keyboard/mouse and controller are equal first-class targets, fully remappable and free of pixel-precision requirements.
-- Complete no-audio decision parity, color-independent motifs, high contrast, reduced motion, text/icon scaling and deterministic whole-simulation speed assists are designed in.
-- Failure/cause traces explain why a listener heard or detected the player without hidden information.
-- Store/trailer identity must communicate physical selective audibility — one listener hears, another is screened — rather than generic sound stealth.
-- Three-listener exceptional content remains an empirical readability gate and may be cut rather than rescued with abstract UI.
-
-## Game #004 locked commercial summary
-- Premium one-time purchase; no currency, power grind or live-service retention.
-- Current USD price test range: **$14.99–$19.99**; provisional planning anchor **$17.99**.
-- 1.0 value remains **34 main + 8 optional remixes / 5–8h first clear**.
-- Commercial demo: four curated encounters / about 20 minutes, ending on selective audibility.
-- Demo achievements disabled; settings/completion metadata continuity preferred when practical.
-- Retention comes from learning, mastery and remixes rather than grind.
-- Steam achievement target: **18–24**.
-- Steam Cloud, controller support and handheld readability are high platform priorities.
-- Preferred launch discount: **10%**, with 10–15% acceptable for 7–14 days.
-- Early Access is not baseline.
-- Paid power, consumables, gambling, energy, battle passes, ads, FOMO and artificial wait friction are explicitly excluded.
-- `HUSHLINE` is provisional and a likely replacement candidate after fresh web search found active conflicting uses; real title clearance remains mandatory before final lock.
-
-## Game #004 Phase-9 simulation result
-- First boot, demo, early/mid/mature/climax campaign, failure/restart, persistence, demo import, Steam-offline, accessibility and mastery paths all pass on paper.
-- D04/E07 successfully carry the core lesson that **being heard can be useful**.
-- E34 is locked to require at least two useful-heard moments while staying <=12 nodes.
-- E28 and E33 three-listener content remain conditional empirical gates; either may be simplified/replaced with two-listener content if handheld/no-audio readability fails.
-- Whole-simulation speed assists preserve rule ordering; optional timing mastery must not penalize accessibility through raw wall-clock comparison.
-- Phase 10 must now attack the product before any Phase-11 freeze.
-
-The historical label `Soundproof Smuggler` is retired from active design. Cargo, contraband, delivery economy and logistics are not part of the locked thesis.
+`HUSHLINE` may remain in historical headings temporarily for continuity, but **must not** be used as the migration/commercial title. Phase 11 must select a replacement working title after basic web/store collision screening. This is not a substitute for legal trademark clearance.
 
 ## Final Game #004 tournament reserves
 - **G4C01 Seam Thief** — strongest pure abstract puzzle reserve; lost selection on portal perception + topology/contact QA risk.
