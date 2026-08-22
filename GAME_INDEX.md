@@ -8,6 +8,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 | 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
 | 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff track | Factory source package temporarily retained as non-canonical safety archive. |
 | 004 | **HEARWALL** *(working commercial title)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/hearwall` | Phase 12A ready / production implementation not started | Top-down real-time acoustic infiltration puzzle. Destination final-freeze blob exactly matches factory source SHA `37fbe588f82b65deeeb734597ffe768bb5399dd0`. |
+| 005 | **TBD — discovery in progress** | **Phase 1 Opportunity Discovery / Run 1 complete** | — | Not applicable; design factory only | 40 clean-slate seeds generated across 10 territories; no concept selected. Current deeper-pressure set includes Frame Pin, Tension Budget, Shadow Scaffold, Rain Router, Pressure Line, Routine Possession, Door Memory, Broken Rule Workshop, Sunpatch Garden and Zero-G Tool Orbit. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
@@ -49,6 +50,23 @@ Verification facts:
 - production implementation remains outside the factory.
 
 The Game #004 source/handoff package was removed from the factory only after this verification. `HEARWALL` remains a screened working title, **not legal trademark clearance**. A later legal/store/domain rename is allowed without changing gameplay canon.
+
+## Game #005 current discovery state
+Run 1 started from a clean slot and produced 40 distinct seeds across motion/physics, light/shadow, environmental routing, time/process, property conservation, repair/deduction, ecology/cozy, management/automation, architecture and action/systemic territories.
+
+Current deeper-pressure set is **not a finalist list** and carries no selection status:
+- G5C01 Frame Pin
+- G5C02 Tension Budget
+- G5C05 Shadow Scaffold
+- G5C09 Rain Router
+- G5C10 Pressure Line
+- G5C14 Routine Possession
+- G5C17 Door Memory
+- G5C21 Broken Rule Workshop
+- G5C25 Sunpatch Garden
+- G5C37 Zero-G Tool Orbit
+
+Phase 1 must expand the field, run nearest-neighbor checks and mature-state falsification before Phase 2 opens. `GAME5_RESEARCH.md` is the current Game #005 research authority under `STATUS.md`.
 
 ## Final Game #004 tournament reserves
 - **G4C01 Seam Thief** — strongest pure abstract puzzle reserve; lost selection on portal perception + topology/contact QA risk.
