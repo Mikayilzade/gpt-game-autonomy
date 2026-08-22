@@ -12,15 +12,16 @@ Branch: `main`
 - Game #003 factory source package: **RETAINED TEMPORARILY AS NON-CANONICAL SAFETY ARCHIVE**
 - Game #004 HEARWALL: **DESIGN COMPLETE / migrated / integrity verified / dedicated repository**
 - Current design slot: **Game #005**
-- Game #005 autonomous/manual design run count: **6**
+- Game #005 autonomous/manual design run count: **7**
 - Game #005 concept selected: **YES — G5C02 Tension Budget**
 - Phase 1 Opportunity Discovery: **COMPLETE**
 - Phase 2 Concept Tournament: **COMPLETE / WINNER SELECTED**
-- Phase 3 Product Thesis Lock: **QUEUED / NOT STARTED**
+- Phase 3 Product Thesis Lock: **COMPLETE**
+- Phase 4 Mechanical Architecture: **QUEUED / NOT STARTED**
 - Production implementation inside factory: **NO**
 
 ## Current phase
-**Game #005 — PHASE 2 COMPLETE / PHASE 3 PRODUCT THESIS LOCK QUEUED.**
+**Game #005 — PHASE 3 COMPLETE / PHASE 4 MECHANICAL ARCHITECTURE QUEUED.**
 
 ## Highest authority for current factory work
 1. `START_HERE.md`
@@ -32,65 +33,57 @@ Branch: `main`
 7. `GAME5_TOURNAMENT.md`
 8. `GAME5_TOURNAMENT_RUN2.md`
 9. `GAME5_TOURNAMENT_RUN3.md`
+10. `GAME5_PRODUCT_THESIS.md`
 
 Retained `GAME3_*` files are historical safety archive only and are **not Game #005 canon**.
 
-## Discovery summary — Runs 1–3
-1. Started from a clean Game #005 slot after verified HEARWALL migration.
-2. Researched current 2026 market/discovery pressure and generated **60 distinct seeds** across broad interaction territories.
-3. Applied nearest-neighbor checks, six-kernel then 8/12-kernel mature-state attacks, demo/readability/controller/graybox/hour-5 pressure and portfolio-distance filtering.
-4. Phase 1 survivors were reduced to four: **G5C02 Tension Budget, G5C37 Zero-G Tool Orbit, G5C17 Door Memory, G5C21 Broken Rule Workshop**.
-5. Phase 1 was marked **COMPLETE** with no winner selected.
+## Selection summary — Runs 1–6
+- Phase 1 generated and destructively reduced **60 seeds**.
+- Phase 2 entrants: G5C02 Tension Budget, G5C37 Zero-G Tool Orbit, G5C17 Door Memory, G5C21 Broken Rule Workshop.
+- G5C17 and G5C21 were eliminated under direct precedent / structural dominant-strategy pressure.
+- Final pair received 26-encounter paper campaigns, hostile experienced-player traces, repetition-signature audits and equal empirical-risk planning.
+- Final scores:
+  - **G5C02 Tension Budget — 90.1/100; risk-adjusted confidence 0.84 — WINNER**
+  - **G5C37 Zero-G Tool Orbit — 86.8/100; risk-adjusted confidence 0.72 — RESERVE**
+- Phase 2 completed with G5C02 selected; no production implementation began.
 
-## Tournament summary — Runs 4–6
-### Run 4 / Tournament Run 1
-- G5C02 Tension Budget — 88.0/100
-- G5C37 Zero-G Tool Orbit — 86.0/100
-- G5C21 Broken Rule Workshop — 81.5/100
-- G5C17 Door Memory — 79.0/100 / **ELIMINATED**
+## Completed — Game #005 Run 7 / Phase 3 Product Thesis Lock
+1. Re-read the active Game #005 authority chain and continued from the exact Phase-2 `NEXT ACTION`.
+2. Created `GAME5_PRODUCT_THESIS.md` and marked **PHASE 3 COMPLETE**.
+3. Froze PC/Steam-first, single-player, offline-capable premium baseline.
+4. Froze genre framing as a top-down/elevated-isometric embodied systemic traversal puzzle rather than engineering sim, rope sandbox, automation game or graph editor.
+5. Froze the core fantasy: a rigger moving through a stylized exposed suspended mechanical complex where one physical tension carriage makes the whole rig answer.
+6. Froze the design hook: moving one local tension carriage changes several connected mechanisms at once, so traversal is about temporary mechanical compromise.
+7. Froze anchor manipulation as a **short continuous local rail with 3–5 authored snap bands**; preview may move continuously but authoritative state remains discrete.
+8. Preserved canonical cable language **SLACK / TAUT / HIGH** with redundant world-space visual cues and no numeric requirement.
+9. Preserved baseline load archetypes **Lift / Counterweighted Gate / Flexible Span** and prohibited feature inflation merely for variety.
+10. Froze core loop: read rig -> choose compromise -> move anchor -> traverse consequence -> reconfigure from a new spatial/state context -> objective mutation -> extraction.
+11. Froze main campaign range **24–28 encounters**, working target **26**, roughly **4–6 hours** first completion.
+12. Froze 15–25 minute commercial demo promise: simultaneous two-load consequence, non-extreme TAUT compromise, traversal-separated reconfiguration, visible load mutation and changed return logic must all appear before demo end.
+13. Preserved safe static socket enumeration as a future content-rejection condition rather than hiding information or punishing restart.
+14. Preserved the one-week empirical readability/tactility kill gate: unfamiliar players must understand redistribution without numbers/graph UI and the anchor must feel physical rather than like a menu selector.
+15. No Phase 4 mechanics, Phase 5 content or production implementation were started.
 
-Door Memory was eliminated after fresh `MODIFY` pressure and lower one-bit campaign ceiling. Rescue through extra property families is prohibited.
-
-### Run 5 / Tournament Run 2
-- G5C02 forced to exactly three load archetypes: Lift, Counterweighted Gate, Flexible Span. 12 states survived; only 1/12 clearly collapses to static enumeration; 8/12 require traversal sequencing and/or mutation. Pressure score 89.0/100.
-- G5C37 forced to one tool, Ring/Oval tracks and exactly three relationships: Strike Target, Intercept Hazard, Catch/Transfer Zone. 12 states survived; 10/12 require independent movement and 9/12 recovery. Pressure score 88.0/100.
-- G5C21 Broken Rule Workshop was **ELIMINATED** because one-wrong-binary-cartridge diagnosis can be brute-forced in <=6–7 tests and its obvious anti-bruteforce repairs violate the small thesis.
-
-### Run 6 / Tournament Run 3 — final pair
-1. Compared only G5C02 and G5C37 under their frozen vocabulary ceilings.
-2. Built **26-encounter paper campaigns for both** and classified every encounter by systemic reasoning signature.
-3. Tension Budget supports roughly **18 materially distinct signatures** before cosmetic geometry/theme becomes the main novelty source; honest campaign ceiling ~26–30 strong encounters.
-4. Zero-G Tool Orbit supports roughly **15 materially distinct signatures**; catch/transfer and mutation clusters appear earlier, suggesting ~22–26 strong encounters unless action feel itself carries additional replay value.
-5. Hostile experienced-player attack found Tension's main exploit is safe socket enumeration. This can be constrained by mature encounter construction that separates decisions through traversal/mutation without hiding consequences.
-6. Orbit's main final-pair risk is intrinsic: capture must be forgiving enough to avoid solved-solution dexterity failures but still strict enough that catch-position planning remains meaningful.
-7. Controller/accessibility audit therefore favors Tension on risk-adjusted puzzle clarity: low precision, low reaction demand and discrete deterministic world state.
-8. Final equal-rubric scores:
-   - **G5C02 Tension Budget — 90.1/100; risk-adjusted confidence 0.84**
-   - **G5C37 Zero-G Tool Orbit — 86.8/100; risk-adjusted confidence 0.72**
-9. **G5C02 TENSION BUDGET SELECTED AS GAME #005 CONCEPT.**
-10. G5C37 remains the strongest tournament reserve and must not be hybridized into the winner.
-11. Phase 2 is now **COMPLETE**. Phase 3 is queued; production implementation remains NOT STARTED.
-
-## Selected Game #005 core entering Phase 3
+## Selected Game #005 core entering Phase 4
 **G5C02 — Tension Budget**
 
-Working concept sentence:
-Move one physical anchor and watch a fixed discrete tension budget redistribute across connected machinery, solving traversal by deciding which loads should be slack, taut or highly tensioned at the same time.
+Working concept label remains `Tension Budget`; commercial title is **TBD**.
 
-Frozen selection constraints carried forward:
+Frozen Phase-3 product rules:
 - direct local physical anchor manipulation;
-- one fixed shared tension budget per encounter/system;
+- one short rail / 3–5 authored snap bands;
+- one shared tension budget per encounter/system;
 - visible cable-connected loads;
-- only SLACK / TAUT / HIGH canonical cable states;
+- only SLACK / TAUT / HIGH canonical cable bands;
 - baseline reusable load archetypes: Lift, Counterweighted Gate, Flexible Span;
 - no numeric tension requirement;
 - no detached graph/editor UI;
 - no free rope construction or realistic rope/soft-body simulation as gameplay authority;
 - mature content must resist static safe socket enumeration through traversal-separated decisions and/or visible load mutation;
 - low execution burden/controller viability is a product advantage;
+- 24–28 main encounter range / 26 working target;
+- 4–6 hour first-completion target;
 - one-week empirical readability/tactility gate remains mandatory.
-
-`Tension Budget` is a concept label, not a frozen commercial title.
 
 ## Active Game #005 package — mandatory recovery read
 1. `GAME5_RESEARCH.md`
@@ -99,21 +92,22 @@ Frozen selection constraints carried forward:
 4. `GAME5_TOURNAMENT.md`
 5. `GAME5_TOURNAMENT_RUN2.md`
 6. `GAME5_TOURNAMENT_RUN3.md`
+7. `GAME5_PRODUCT_THESIS.md`
 
 A fresh continuation session must read `START_HERE.md`, this `STATUS.md`, `GAME_INDEX.md`, and every active Game #005 file above before continuing.
 
-## NEXT ACTION — GAME #005 RUN 7 / PHASE 3 PRODUCT THESIS LOCK
-1. Re-read the complete active authority chain.
-2. Create `GAME5_PRODUCT_THESIS.md`.
-3. Treat **G5C02 Tension Budget** as selected and G5C37 only as historical reserve; do not hybridize them.
-4. Freeze target player, platform, genre framing, one-sentence hook, core fantasy, session structure, core loop, differentiator and scope ceiling.
-5. Decide the fiction/presentation wrapper that makes tension redistribution physical and intuitive without turning the game into an engineering textbook.
-6. Freeze whether anchor movement is socket-only, short continuous rail with discrete mechanical bands, or another direct local form; preserve quick physical manipulation and no detached graph/editor UI.
-7. Freeze minimum visual language for SLACK / TAUT / HIGH and the three baseline load archetypes without numeric dependence.
-8. Freeze the commercial-demo promise: first 15–25 minutes must show one anchor move changing at least two loads, a non-extreme compromise, traversal-separated reconfiguration and visible load mutation/return consequence.
-9. Preserve the empirical prototype gate: unfamiliar players must predict consequences without numbers and mature rooms must resist static safe socket enumeration.
-10. Set a bounded campaign/session target consistent with the 26-encounter repetition audit; do not inflate content to justify price.
-11. Do not start Phase 4 until Product Thesis is coherent enough to lock Phase 3, and do not begin production implementation in the factory.
+## NEXT ACTION — GAME #005 RUN 8 / PHASE 4 MECHANICAL ARCHITECTURE
+1. Re-read the complete active authority chain including `GAME5_PRODUCT_THESIS.md`.
+2. Create `GAME5_MECHANICS.md`.
+3. Define the exact authoritative state model for anchor positions, cable bands, shared budget allocation and load responses.
+4. Specify deterministic ordering for grab/preview/commit, traversal, load transition, objective mutation and checkpoint/restart.
+5. Freeze exact rules for Lift, Counterweighted Gate and Flexible Span, including collision/traversal state during transitions.
+6. Define how 3–5 anchor positions map to distributions without exposing numbers to the player; content data may use internal integers if useful.
+7. Define invalid/ambiguous authored states and validator rules, especially safe static socket enumeration and visually indistinguishable states.
+8. Specify player movement/interactions only as needed to support the puzzle identity; do not add a movement mastery pillar.
+9. Define win/fail/reset, sequencing, objective mutation, return inversion and content-level state-machine rules.
+10. Separate frozen mechanics from balance knobs and empirical feel values.
+11. Do not begin Phase 5 or production implementation until Phase 4 is internally coherent and implementation-ready at the rules level.
 
 ## Blocker
-**NONE.** Phase 3 may begin immediately.
+**NONE.** Phase 4 may begin immediately.
