@@ -12,14 +12,15 @@ Branch: `main`
 - Game #003 factory source package: **RETAINED TEMPORARILY AS NON-CANONICAL SAFETY ARCHIVE**
 - Game #004 HEARWALL: **DESIGN COMPLETE / migrated / integrity verified / dedicated repository**
 - Current design slot: **Game #005**
-- Game #005 autonomous/manual design run count: **3**
+- Game #005 autonomous/manual design run count: **4**
 - Game #005 concept selected: **NO**
 - Phase 1 Opportunity Discovery: **COMPLETE**
-- Phase 2 Concept Tournament: **QUEUED / NOT STARTED**
+- Phase 2 Concept Tournament: **IN PROGRESS / RUN 1 COMPLETE**
+- Phase 3 Product Thesis Lock: **NOT STARTED / LOCKED**
 - Production implementation inside factory: **NO**
 
 ## Current phase
-**Game #005 — PHASE 1 COMPLETE / PHASE 2 CONCEPT TOURNAMENT RUN 1 QUEUED.**
+**Game #005 — PHASE 2 CONCEPT TOURNAMENT / RUN 1 COMPLETE, RUN 2 QUEUED.**
 
 ## Highest authority for current factory work
 1. `START_HERE.md`
@@ -28,6 +29,7 @@ Branch: `main`
 4. `GAME5_RESEARCH.md`
 5. `GAME5_RESEARCH_RUN2.md`
 6. `GAME5_RESEARCH_RUN3.md`
+7. `GAME5_TOURNAMENT.md`
 
 Retained `GAME3_*` files are historical safety archive only and are **not Game #005 canon**.
 
@@ -53,56 +55,61 @@ Retained `GAME3_*` files are historical safety archive only and are **not Game #
 ## Completed — Game #005 Run 3 / Phase 1 completion
 1. Re-read the complete active authority chain and continued from the exact Run-2 `NEXT ACTION`.
 2. Performed fresh targeted nearest-neighbor checks for cable/tension, orbit tools, property transfer, machine diagnosis, movement trails, crowd/umbrella and related puzzle spaces.
-3. Found materially stronger 2026 precedent pressure against G5C45 Thermal Footprint from `TrailRail`, whose store premise explicitly turns the player's movement trajectory/footsteps into world-changing puzzle material; `Warmth` adds adjacent heat-trail language pressure.
-4. Built **8 mature kernels each** for G5C41 Crowd Umbrella and G5C45 Thermal Footprint.
-5. Built/expanded **12-kernel campaign sketches** and full-product attacks for G5C02 Tension Budget, G5C37 Zero-G Tool Orbit, G5C17 Door Memory, G5C21 Broken Rule Workshop, G5C01 Frame Pin, G5C25 Sunpatch Garden and G5C10 Pressure Line.
-6. Explicitly resolved the Run-2 kill questions:
-   - G5C02 can plausibly teach tension through discrete physical cable posture without numeric UI.
-   - G5C37 should use authored orbit tracks; real orbital physics is not part of the product.
-   - G5C17 now has a precise one-bit rule: memory door and crossing eligible object swap HEAVY/LIGHT state; 12 kernels were produced without adding a second property family.
-   - G5C21 can remain world-first only if rule cartridges are physical and the running machine dominates presentation; detached wiring/programming UI is prohibited by the candidate thesis.
-7. Cut **G5C41 Crowd Umbrella** because the strong GIF hook does not produce enough hour-5 depth without disproportionate crowd simulation, NPC/content and role complexity.
-8. Hard-killed **G5C45 Thermal Footprint** because current movement-trail precedent plus decay execution and heat-consumer inflation make it less ownable than the remaining field.
-9. Cut **G5C01 Frame Pin** because mature kernels converge on familiar `choose phase -> freeze -> traverse` time-control reasoning despite excellent producibility.
-10. Cut **G5C25 Sunpatch Garden** because mature variety requires a growing catalogue of ecological consumers; compressed reactions become switches in organic skins while slower reactions violate the repeated-action target.
-11. Cut **G5C10 Pressure Line** because it is mechanically sound but loses directly to G5C02: pressure is less world-readable and drifts toward pipe-editor abstraction.
-12. Phase-1 survivors are exactly four:
+3. Built deeper full-product attacks and 12-kernel campaign sketches for the carried concepts.
+4. Cut G5C41 Crowd Umbrella, G5C45 Thermal Footprint, G5C01 Frame Pin, G5C25 Sunpatch Garden and G5C10 Pressure Line on depth/precedent/scope evidence.
+5. Phase-1 survivors were reduced to exactly four: **G5C02 Tension Budget, G5C37 Zero-G Tool Orbit, G5C17 Door Memory, G5C21 Broken Rule Workshop**.
+6. Marked **PHASE 1 OPPORTUNITY DISCOVERY = COMPLETE** with no winner selected.
+7. Saved full evidence to `GAME5_RESEARCH_RUN3.md`.
+
+## Completed — Game #005 Run 4 / Phase 2 tournament Run 1
+1. Re-read the full active Game #005 authority chain and opened Phase 2 without selecting a winner.
+2. Created `GAME5_TOURNAMENT.md` and applied one equal ten-dimension destructive rubric to all four entrants.
+3. Froze one-sentence pitch and exact smallest vocabulary for each entrant before scoring.
+4. Built a normal-play **10-second mute trailer trace** and **20-minute demo paper trace** for every entrant.
+5. Classified mature reasoning families and estimated 4–8 hour content burden without rescue mechanics.
+6. Attacked dominant strategies, brute force, waiting, execution burden, UI/editor drift, tutorial burden, controller friction, accessibility/readability and hour-5 repetition.
+7. Defined the cheapest one-week empirical kill prototype plus explicit PASS/FAIL observations for each entrant.
+8. Re-ran fresh current nearest-neighbor pressure. Important new result: current August-2026 `MODIFY` explicitly markets top-down weight/heavy-light/property SWAP play, materially worsening G5C17 Door Memory's commercial ownability.
+9. Current equal-rubric scores:
+   - **G5C02 Tension Budget — 88.0/100**
+   - **G5C37 Zero-G Tool Orbit — 86.0/100**
+   - **G5C21 Broken Rule Workshop — 81.5/100**
+   - **G5C17 Door Memory — 79.0/100**
+10. **Eliminated G5C17 Door Memory** because the new direct property-swap/weight market collision combines with a lower one-bit campaign ceiling and box-hauling risk. It may not be rescued by adding more property families.
+11. Remaining tournament field:
    - **G5C02 Tension Budget**
    - **G5C37 Zero-G Tool Orbit**
-   - **G5C17 Door Memory**
    - **G5C21 Broken Rule Workshop**
-13. Marked **PHASE 1 OPPORTUNITY DISCOVERY = COMPLETE**. No final winner was selected.
-14. Full research, kernels, market pressure, exact smallest vocabularies, dominant-strategy attacks, demo traces and tournament handoff are saved in `GAME5_RESEARCH_RUN3.md`.
+12. No final Game #005 winner was selected. Phase 3 remains locked and no production implementation began.
 
 ## Active Game #005 package — mandatory recovery read
 1. `GAME5_RESEARCH.md`
 2. `GAME5_RESEARCH_RUN2.md`
 3. `GAME5_RESEARCH_RUN3.md`
+4. `GAME5_TOURNAMENT.md`
 
 A fresh continuation session must read `START_HERE.md`, this `STATUS.md`, `GAME_INDEX.md`, and every active Game #005 file above before continuing.
 
-## Phase-2 entrants
-1. **G5C02 Tension Budget** — move one physical anchor; a fixed tension budget redistributes among visible loads and changes several mechanisms simultaneously.
+## Current Phase-2 survivors
+1. **G5C02 Tension Budget** — move one physical anchor; a fixed discrete tension budget redistributes among visible loads and changes several mechanisms simultaneously.
 2. **G5C37 Zero-G Tool Orbit** — place one carried tool onto predictable authored local orbit tracks; it remains a persistent periodic second actor while the player moves/catches/transfers it.
-3. **G5C17 Door Memory** — memory door and crossing eligible object swap binary HEAVY/LIGHT state, coupling spatial order with object capability.
-4. **G5C21 Broken Rule Workshop** — change exactly one physical rule cartridge, RUN a live machine, observe deterministic causal failure, diagnose and revise.
+3. **G5C21 Broken Rule Workshop** — change exactly one physical rule cartridge, RUN a live machine, observe deterministic causal failure, diagnose and revise.
 
-These are **tournament entrants only**, not finalists and not co-selected games.
+These are tournament survivors only. None is selected as Game #005 yet.
 
-## NEXT ACTION — GAME #005 RUN 4 / PHASE 2 CONCEPT TOURNAMENT RUN 1
-1. Re-read the full active authority chain.
-2. Create `GAME5_TOURNAMENT.md`.
-3. Freeze one-sentence pitch and exact smallest vocabulary for G5C02, G5C37, G5C17 and G5C21 before scoring.
-4. Build a normal-play **10-second mute trailer trace** for every entrant; the hook must be causal without explanatory captions.
-5. Build a **20-minute demo paper trace** for every entrant with first independent decision, differentiator reveal and closing synthesis.
-6. Reuse/expand the Run-3 mature kernels and classify distinct reasoning families rather than merely counting encounters.
-7. Estimate 4–8 hour campaign/content burden without adding rescue mechanics.
-8. Attack dominant strategies, brute force, waiting, execution burden, UI abstraction, tutorial burden, controller friction, accessibility/readability and hour-5 repetition.
-9. Define the cheapest one-week empirical kill prototype for each candidate and explicit pass/fail observations.
-10. Re-run current nearest-neighbor/store pressure where exact positioning remains uncertain.
-11. Score hook, repeated feel, systemic depth, demo strength, market distance, production risk, content burden, accessibility/readability and portfolio distance under one equal rubric.
-12. Eliminate at least one only if destructive evidence supports it; do not force a winner in Run 1.
-13. Do not begin Phase 3 or production implementation until Phase 2 legitimately selects one concept.
+## NEXT ACTION — GAME #005 RUN 5 / PHASE 2 TOURNAMENT RUN 2
+1. Re-read the full active Game #005 authority chain including `GAME5_TOURNAMENT.md`.
+2. Create `GAME5_TOURNAMENT_RUN2.md`.
+3. Attack the three survivors with **destructive analog graybox simulations**, not more broad ideation.
+4. For G5C02, construct at least 12 mature states using a hard ceiling of **3 reusable load archetypes** and no numbers/graph UI. Measure how many reduce to static socket enumeration; kill if the depth needs a fourth/fifth load family or hidden state.
+5. For G5C37, construct at least 12 mature states using **one tool, two orbit-track shapes and three target/hazard relationships maximum**. Quantify how many require meaningful player movement/catch/transfer rather than parking the tool on a switch orbit.
+6. For G5C21, construct at least 12 machine faults using **6–8 reusable machine modules and only four rule families**. Measure brute-force replacement search space, module reuse and how many faults are visually diagnosable without a logic board.
+7. Build a **180-second normal-play paper trace** for each survivor and estimate signature actions/minute, passive-wait fraction, execution-error exposure and explanatory UI time.
+8. Run a mute-store-GIF attack and a first-5-minute onboarding attack for all three.
+9. Recheck nearest neighbors only where a concrete product-position claim changes.
+10. Eliminate any candidate whose mature depth violates its frozen small vocabulary. Do not add mechanics to rescue it.
+11. Do not force a winner unless one candidate is clearly superior after equal destruction; Phase 2 may require Run 3.
+12. Do not begin Phase 3 or production implementation before a legitimate Phase-2 selection.
 
 ## Blocker
-**NONE.** Phase 2 may begin immediately.
+**NONE.** Game #005 tournament Run 2 may proceed immediately.
