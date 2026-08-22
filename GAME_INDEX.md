@@ -8,7 +8,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 | 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
 | 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff track | Factory source package temporarily retained as non-canonical safety archive. |
 | 004 | **HEARWALL** *(working commercial title)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/hearwall` | Phase 12A ready / production implementation not started | Top-down real-time acoustic infiltration puzzle. Destination final-freeze blob exactly matches factory source SHA `37fbe588f82b65deeeb734597ffe768bb5399dd0`. |
-| 005 | **Tension Budget** *(concept label; title TBD)* | **Phase 1 COMPLETE / Phase 2 COMPLETE / concept selected / Phase 3 queued** | — | Not applicable; design factory only | Winner G5C02 after six runs. Final-pair score 90.1/100 vs Zero-G Tool Orbit 86.8/100; no production implementation started. |
+| 005 | **Tension Budget** *(concept label; title TBD)* | **Phase 1 COMPLETE / Phase 2 COMPLETE / Phase 3 COMPLETE / Phase 4 queued** | — | Not applicable; design factory only | G5C02 selected after six-run discovery/tournament; Product Thesis locked in Run 7. No production implementation started. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
@@ -35,8 +35,6 @@ Phase 1 completed after three destructive discovery runs and a field of **60 see
 - G5C21 Broken Rule Workshop — 81.5/100
 - G5C17 Door Memory — 79.0/100 / **ELIMINATED**
 
-Door Memory was eliminated after fresh August-2026 `MODIFY` pressure occupied minimalist heavy/light/property-swap language and the one-bit campaign ceiling remained weaker. Rescue through extra property families is prohibited.
-
 ### Tournament Run 2
 **G5C02 Tension Budget — 89.0/100 / FINAL PAIR**
 - exactly three load archetypes: Lift, Counterweighted Gate, Flexible Span;
@@ -50,13 +48,10 @@ Door Memory was eliminated after fresh August-2026 `MODIFY` pressure occupied mi
 - 10/12 require independent player movement and 9/12 recovery.
 
 **G5C21 Broken Rule Workshop — ELIMINATED**
-- one-wrong-binary-cartridge contract can be brute-forced in <=6–7 tests;
-- short RUN cycles make blind completion too cheap;
+- one-wrong-binary-cartridge contract can be brute-forced cheaply;
 - obvious anti-bruteforce repairs violate the small thesis.
 
 ### Tournament Run 3 / final pair
-Only G5C02 and G5C37 were compared under frozen vocabulary ceilings.
-
 **G5C02 Tension Budget — 90.1/100 / risk-adjusted confidence 0.84 / WINNER**
 - 26-encounter paper campaign supports roughly **18 materially distinct systemic signatures** before geometry/theme becomes the main novelty source;
 - main exploit is safe socket enumeration, which can be constrained by traversal-separated decisions and visible load mutation without hiding consequences;
@@ -64,36 +59,42 @@ Only G5C02 and G5C37 were compared under frozen vocabulary ceilings.
 - empirical existential gate remains nonnumeric physical readability/tactility.
 
 **G5C37 Zero-G Tool Orbit — 86.8/100 / risk-adjusted confidence 0.72 / RESERVE**
-- 26-encounter paper campaign supports roughly **15 materially distinct systemic signatures** before catch/transfer/mutation clusters repeat more strongly;
+- 26-encounter paper campaign supports roughly **15 materially distinct systemic signatures**;
 - broad orbit/gravity vocabulary remains more occupied;
-- the hardest unresolved risk is intrinsic: catch must be forgiving enough to prevent solved-solution dexterity failures while still preserving meaningful catch-position planning.
+- hardest unresolved risk is intrinsic catch generosity versus meaningful catch-position planning.
 
-### Selected Game #005 concept
-**G5C02 — Tension Budget**
+### Phase 3 Product Thesis Lock
+`GAME5_PRODUCT_THESIS.md` is the current highest game-specific product authority.
 
-Working concept: move one physical anchor and redistribute a fixed discrete tension budget among visible cable-connected loads. Helping one mechanism can weaken another, and mature solutions require temporary compromises across traversal-separated states rather than one permanently correct socket.
+Frozen identity:
+- **PC/Steam-first**, single-player, offline-capable premium baseline;
+- **top-down/elevated-isometric embodied systemic traversal puzzle**;
+- player fantasy: a rigger traversing a stylized exposed suspended mechanical complex;
+- one local physical tension carriage on a **short continuous rail with 3–5 authored snap bands**;
+- one shared tension budget per system;
+- canonical cable bands **SLACK / TAUT / HIGH**;
+- baseline load archetypes **Lift / Counterweighted Gate / Flexible Span**;
+- no numeric tension requirement, detached graph/editor UI, free rope construction or realistic rope/soft-body simulation as gameplay authority;
+- core loop is temporary mechanical compromise -> traversal -> reconfiguration -> visible load mutation -> extraction;
+- mature content must reject safe static socket enumeration through traversal-separated decisions and/or state mutation rather than hidden information;
+- target campaign **24–28 main encounters**, working target **26**, roughly **4–6 hours** first completion;
+- 15–25 minute demo must show simultaneous multi-load consequence, non-extreme TAUT compromise, traversal-separated reconfiguration and load mutation/return inversion;
+- one-week empirical readability/tactility kill prototype remains mandatory before expensive content production.
 
-Current selection constraints:
-- direct local anchor manipulation;
-- SLACK / TAUT / HIGH cable language;
-- baseline load archetypes: Lift / Counterweighted Gate / Flexible Span;
-- no numeric tension UI;
-- no detached graph/editor UI;
-- no free rope construction or realistic rope simulation as gameplay authority;
-- mature content must resist static safe socket enumeration through traversal and/or visible load mutation;
-- empirical readability/tactility kill prototype remains mandatory.
+`Tension Budget` remains an internal concept label, not a frozen commercial title. Phase 4 Mechanical Architecture is next.
 
-`Tension Budget` is a concept label, not a frozen commercial title. Phase 3 Product Thesis Lock is next.
-
-## Important Phase-1 removals
+## Important Game #005 removals/reserve
+- **G5C37 Zero-G Tool Orbit** — strongest tournament reserve; do not hybridize into winner.
+- G5C17 Door Memory — eliminated on current property-swap pressure + lower one-bit campaign ceiling.
+- G5C21 Broken Rule Workshop — eliminated on structural brute-force dominant strategy.
 - G5C05 Shadow Scaffold — hard-killed by direct solid-shadow traversal precedent.
 - G5C09 Rain Router — removed by current water-routing precedent + consumer inflation.
 - G5C14 Routine Possession — hard-killed by direct embodied record/repeat automation precedent.
-- G5C45 Thermal Footprint — hard-killed after 2026 `TrailRail` pressure on movement-trail-as-world-material plus execution/consumer inflation.
+- G5C45 Thermal Footprint — hard-killed after movement-trail precedent + execution/consumer inflation.
 - G5C41 Crowd Umbrella — cut because hour-5 depth required disproportionate crowd/NPC complexity.
 - G5C01 Frame Pin — cut because mature play converged on familiar object-time-freeze phase selection.
 - G5C25 Sunpatch Garden — cut because mature variety depended on ecological consumer catalogue and pacing compromise.
-- G5C10 Pressure Line — cut because it lost directly to Tension Budget on world readability/ownability and drifted toward pipe-editor abstraction.
+- G5C10 Pressure Line — cut because it lost directly to Tension Budget on world readability/ownability.
 
 ## Final Game #004 tournament reserves
 - **G4C01 Seam Thief** — strongest pure abstract puzzle reserve; lost selection on portal perception + topology/contact QA risk.
