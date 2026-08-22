@@ -8,7 +8,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 | 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
 | 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff track | Factory source package temporarily retained as non-canonical safety archive. |
 | 004 | **HEARWALL** *(working commercial title)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/hearwall` | Phase 12A ready / production implementation not started | Top-down real-time acoustic infiltration puzzle. Destination final-freeze blob exactly matches factory source SHA `37fbe588f82b65deeeb734597ffe768bb5399dd0`. |
-| 005 | **TBD — tournament final pair** | **Phase 1 COMPLETE / Phase 2 Run 2 complete** | — | Not applicable; design factory only | Final pair: G5C02 Tension Budget and G5C37 Zero-G Tool Orbit. G5C17 eliminated Run 1; G5C21 eliminated Run 2. No winner selected. |
+| 005 | **Tension Budget** *(concept label; title TBD)* | **Phase 1 COMPLETE / Phase 2 COMPLETE / concept selected / Phase 3 queued** | — | Not applicable; design factory only | Winner G5C02 after six runs. Final-pair score 90.1/100 vs Zero-G Tool Orbit 86.8/100; no production implementation started. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
@@ -22,54 +22,68 @@ This file tracks games produced by the factory. Finished game-specific design sh
 ### Game #004 migration state
 Migration to `Mikayilzade/hearwall` was completed and verified on 2026-08-22. The destination final freeze matches factory source blob SHA `37fbe588f82b65deeeb734597ffe768bb5399dd0`; the dedicated authority chain and implementation handoff are self-contained. Production implementation remains outside the factory.
 
-## Game #005 current discovery/tournament state
-Phase 1 completed after three destructive research runs and a field of **60 seeds**. Four concepts entered Phase 2:
+## Game #005 current design state
+Phase 1 completed after three destructive discovery runs and a field of **60 seeds**. Four concepts entered Phase 2:
 - G5C02 Tension Budget;
 - G5C37 Zero-G Tool Orbit;
 - G5C17 Door Memory;
 - G5C21 Broken Rule Workshop.
 
 ### Tournament Run 1
-Equal pitch/vocabulary freezes, mute 10-second traces, 20-minute demo traces, mature reasoning-family audits, campaign burden, hostile-strategy attacks and one-week kill prototypes produced:
-- **G5C02 Tension Budget — 88.0/100**;
-- **G5C37 Zero-G Tool Orbit — 86.0/100**;
-- **G5C21 Broken Rule Workshop — 81.5/100**;
-- **G5C17 Door Memory — 79.0/100 / ELIMINATED**.
+- **G5C02 Tension Budget — 88.0/100**
+- **G5C37 Zero-G Tool Orbit — 86.0/100**
+- G5C21 Broken Rule Workshop — 81.5/100
+- G5C17 Door Memory — 79.0/100 / **ELIMINATED**
 
-G5C17 was eliminated after fresh August-2026 `MODIFY` pressure directly occupied minimalist heavy/light/property-SWAP language, while Door Memory also had a lower one-bit campaign ceiling and box-hauling risk. It may not be rescued with more property families.
+Door Memory was eliminated after fresh August-2026 `MODIFY` pressure occupied minimalist heavy/light/property-swap language and the one-bit campaign ceiling remained weaker. Rescue through extra property families is prohibited.
 
 ### Tournament Run 2
-The remaining three were forced through hard vocabulary ceilings and 12-state/fault analog grayboxes.
-
-**G5C02 Tension Budget — 89.0/100 pressure / FINAL PAIR**
-- hard ceiling: exactly three reusable load archetypes: Lift, Counterweighted Gate, Flexible Span;
-- 12 mature states survived without numbers, graph UI or a fourth load family;
+**G5C02 Tension Budget — 89.0/100 / FINAL PAIR**
+- exactly three load archetypes: Lift, Counterweighted Gate, Flexible Span;
+- 12 states survived without numbers, graph UI or a fourth load family;
 - only 1/12 clearly reduces to static socket enumeration;
-- 8/12 require traversal sequence and/or visible load mutation;
-- representative 180-second trace: 4 meaningful anchor placements, ~0–3% idle waiting, low execution-error exposure;
-- existential risk: nonnumeric physical tension readability/tactility.
+- 8/12 require traversal sequence and/or visible load mutation.
 
-**G5C37 Zero-G Tool Orbit — 88.0/100 pressure / FINAL PAIR**
-- hard ceiling: one tool, two authored track shapes (Ring/Oval), three relationships (Strike Target, Intercept Hazard, Catch/Transfer Zone);
-- 12 mature states survived without another tool/relationship family;
-- only 2/12 are parking-dominant teaching states;
-- 10/12 require independent player movement, 9/12 require catch/recovery, 5/12 require anchor transfer;
-- representative 180-second trace: 6 launch/catch/transfer actions, ~3–6% idle waiting;
-- existential risk: controller/zero-G/catch execution reliability.
+**G5C37 Zero-G Tool Orbit — 88.0/100 / FINAL PAIR**
+- one tool, Ring/Oval tracks and three relationships: Strike Target, Intercept Hazard, Catch/Transfer Zone;
+- 12 states survived without another tool/relationship family;
+- 10/12 require independent player movement and 9/12 recovery.
 
-**G5C21 Broken Rule Workshop — ELIMINATED in Run 2**
-- seven modules and four binary rule families were enough to generate 12 faults;
-- however, its central contract creates a structural dominant strategy: exactly one wrong binary cartridge among 6–7 visible active sockets can be found by blind slot flipping in at most 6–7 tests, averaging about 3.5 tests at six sockets;
-- short 5–12 second RUN cycles make blind completion too cheap;
-- anti-bruteforce fixes would require changing the thesis or adding punishment/meta systems, so tournament rescue is prohibited.
+**G5C21 Broken Rule Workshop — ELIMINATED**
+- one-wrong-binary-cartridge contract can be brute-forced in <=6–7 tests;
+- short RUN cycles make blind completion too cheap;
+- obvious anti-bruteforce repairs violate the small thesis.
 
-### Current Game #005 final pair
-1. **G5C02 Tension Budget** — move one physical anchor; a fixed discrete tension budget redistributes among visible cable-connected loads and changes multiple mechanisms at once.
-2. **G5C37 Zero-G Tool Orbit** — place one carried tool onto predictable authored local orbit tracks; it remains a persistent periodic second actor while the player moves, catches and transfers it.
+### Tournament Run 3 / final pair
+Only G5C02 and G5C37 were compared under frozen vocabulary ceilings.
 
-No Game #005 winner exists yet. `GAME5_RESEARCH.md`, `GAME5_RESEARCH_RUN2.md`, `GAME5_RESEARCH_RUN3.md`, `GAME5_TOURNAMENT.md` and `GAME5_TOURNAMENT_RUN2.md` are the active evidence chain under `STATUS.md`.
+**G5C02 Tension Budget — 90.1/100 / risk-adjusted confidence 0.84 / WINNER**
+- 26-encounter paper campaign supports roughly **18 materially distinct systemic signatures** before geometry/theme becomes the main novelty source;
+- main exploit is safe socket enumeration, which can be constrained by traversal-separated decisions and visible load mutation without hiding consequences;
+- low execution burden, controller safety, deterministic implementation and current market distance remain strong;
+- empirical existential gate remains nonnumeric physical readability/tactility.
 
-Phase 2 Run 3 must compare only the final pair with 24–30 encounter campaigns, experienced-player hostile traces, content-signature/repetition analysis, implementation-ready one-week empirical kill prototypes and risk-adjusted scoring. Do not revive eliminated concepts or add rescue mechanics.
+**G5C37 Zero-G Tool Orbit — 86.8/100 / risk-adjusted confidence 0.72 / RESERVE**
+- 26-encounter paper campaign supports roughly **15 materially distinct systemic signatures** before catch/transfer/mutation clusters repeat more strongly;
+- broad orbit/gravity vocabulary remains more occupied;
+- the hardest unresolved risk is intrinsic: catch must be forgiving enough to prevent solved-solution dexterity failures while still preserving meaningful catch-position planning.
+
+### Selected Game #005 concept
+**G5C02 — Tension Budget**
+
+Working concept: move one physical anchor and redistribute a fixed discrete tension budget among visible cable-connected loads. Helping one mechanism can weaken another, and mature solutions require temporary compromises across traversal-separated states rather than one permanently correct socket.
+
+Current selection constraints:
+- direct local anchor manipulation;
+- SLACK / TAUT / HIGH cable language;
+- baseline load archetypes: Lift / Counterweighted Gate / Flexible Span;
+- no numeric tension UI;
+- no detached graph/editor UI;
+- no free rope construction or realistic rope simulation as gameplay authority;
+- mature content must resist static safe socket enumeration through traversal and/or visible load mutation;
+- empirical readability/tactility kill prototype remains mandatory.
+
+`Tension Budget` is a concept label, not a frozen commercial title. Phase 3 Product Thesis Lock is next.
 
 ## Important Phase-1 removals
 - G5C05 Shadow Scaffold — hard-killed by direct solid-shadow traversal precedent.
