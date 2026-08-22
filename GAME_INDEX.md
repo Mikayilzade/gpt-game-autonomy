@@ -8,7 +8,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 | 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
 | 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff track | Factory source package temporarily retained as non-canonical safety archive. |
 | 004 | **HEARWALL** *(working commercial title)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/hearwall` | Phase 12A ready / production implementation not started | Top-down real-time acoustic infiltration puzzle. Destination final-freeze blob exactly matches factory source SHA `37fbe588f82b65deeeb734597ffe768bb5399dd0`. |
-| 005 | **TBD — tournament in progress** | **Phase 1 COMPLETE / Phase 2 Run 1 complete** | — | Not applicable; design factory only | Remaining: G5C02 Tension Budget, G5C37 Zero-G Tool Orbit, G5C21 Broken Rule Workshop. G5C17 Door Memory eliminated in tournament Run 1. No winner selected. |
+| 005 | **TBD — tournament final pair** | **Phase 1 COMPLETE / Phase 2 Run 2 complete** | — | Not applicable; design factory only | Final pair: G5C02 Tension Budget and G5C37 Zero-G Tool Orbit. G5C17 eliminated Run 1; G5C21 eliminated Run 2. No winner selected. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
@@ -19,50 +19,59 @@ This file tracks games produced by the factory. Finished game-specific design sh
 ## Completed Game #004 identity
 **HEARWALL** — working commercial title for a top-down real-time acoustic infiltration puzzle where the player physically repositions one soundproof barrier so the right listener hears an action while the wrong listener does not, then exploits the deterministic reaction to infiltrate.
 
-### Game #004 frozen product rules
-- PC/Steam-first; single-player/offline baseline.
-- One local/direct physical barrier on authored rails/snap slots.
-- Exact deterministic graph acoustics shown in the physical world.
-- Strength 1–4; base attenuation 0–2; listener thresholds 1–3; barrier +3.
-- Tied minimum routes are mechanically real and equally presented.
-- Prediction and committed hearing use the same solver; parity must be 100%.
-- Useful hearing/selective audibility is mandatory campaign language.
-- Maximum **two listeners across all 1.0 content**; three-listener gameplay is cut.
-- Direct detection is bounded deterministic secondary pressure, not a twitch-stealth/combat pillar.
-- Complete visual/no-audio decision parity.
-- Main campaign target **34 encounters**; **8 optional remixes** are first-cut if repetition evidence is poor.
-- Premium one-time purchase; no progression currency/power grind/live service.
-- Current empirical price range $14.99–$19.99; final price not frozen.
-- Godot 4.7.1-stable / GDScript-first / deterministic Domain Core implementation direction.
-- Mandatory mature-content validators include V17 safe-preview enumeration and V18 systemic-signature deduplication.
-- BEFORE_MUTATION events own immutable pre-commit graph revisions; AFTER_MUTATION uses post-commit revisions.
-
 ### Game #004 migration state
-Migration to `Mikayilzade/hearwall` was completed and verified on 2026-08-22.
-
-Verification facts:
-- dedicated repository exists on `main`;
-- all 16 frozen design/history files plus four implementation-handoff files and README were migrated;
-- destination `PHASE11_FINAL_FREEZE.md` blob SHA is exactly `37fbe588f82b65deeeb734597ffe768bb5399dd0`, identical to the factory source reference;
-- authority chain is self-contained inside the dedicated repository;
-- destination `IMPLEMENTATION_STATUS.md` records migration VERIFIED and Phase 12A READY / NOT STARTED;
-- destination CI/notification guardrail is present;
-- production implementation remains outside the factory.
-
-The Game #004 source/handoff package was removed from the factory only after this verification. `HEARWALL` remains a screened working title, **not legal trademark clearance**. A later legal/store/domain rename is allowed without changing gameplay canon.
+Migration to `Mikayilzade/hearwall` was completed and verified on 2026-08-22. The destination final freeze matches factory source blob SHA `37fbe588f82b65deeeb734597ffe768bb5399dd0`; the dedicated authority chain and implementation handoff are self-contained. Production implementation remains outside the factory.
 
 ## Game #005 current discovery/tournament state
-Phase 1 completed after three destructive research runs and a total field of **60 seeds**. Phase 2 Run 1 then compared the four entrants under one equal ten-dimension rubric with frozen small vocabularies, mute 10-second traces, 20-minute demos, mature reasoning-family audits, campaign burden, hostile-strategy attacks and one-week empirical kill prototypes.
+Phase 1 completed after three destructive research runs and a field of **60 seeds**. Four concepts entered Phase 2:
+- G5C02 Tension Budget;
+- G5C37 Zero-G Tool Orbit;
+- G5C17 Door Memory;
+- G5C21 Broken Rule Workshop.
 
-### Current Phase-2 survivors
-- **G5C02 Tension Budget — 88.0/100 in Run 1** — move one physical anchor; a fixed discrete tension budget redistributes across several visible connected loads. Strongest current strength: original collateral consequence plus cheap deterministic implementation. Main risk: readability/static socket enumeration.
-- **G5C37 Zero-G Tool Orbit — 86.0/100 in Run 1** — place one carried tool onto predictable authored local orbit tracks; the tool persists as a periodic second actor while the player independently moves, catches and transfers it. Strongest current strength: action/GIF identity. Main risk: catch/controller friction and `orbit hits switch` repetition.
-- **G5C21 Broken Rule Workshop — 81.5/100 in Run 1** — exactly one wrong physical rule cartridge in a live machine; RUN, observe deterministic symptoms, diagnose, replace and rerun. Strongest current strength: clean observation/diagnosis loop. Main risk: bespoke machine burden, brute swapping and editor drift.
+### Tournament Run 1
+Equal pitch/vocabulary freezes, mute 10-second traces, 20-minute demo traces, mature reasoning-family audits, campaign burden, hostile-strategy attacks and one-week kill prototypes produced:
+- **G5C02 Tension Budget — 88.0/100**;
+- **G5C37 Zero-G Tool Orbit — 86.0/100**;
+- **G5C21 Broken Rule Workshop — 81.5/100**;
+- **G5C17 Door Memory — 79.0/100 / ELIMINATED**.
 
-### Tournament Run-1 elimination
-- **G5C17 Door Memory — ELIMINATED.** Fresh August-2026 `MODIFY` pressure directly occupies minimalist top-down heavy/light/property SWAP language, while Door Memory's one-bit campaign ceiling and box-hauling risk make rescue through additional property families unjustified.
+G5C17 was eliminated after fresh August-2026 `MODIFY` pressure directly occupied minimalist heavy/light/property-SWAP language, while Door Memory also had a lower one-bit campaign ceiling and box-hauling risk. It may not be rescued with more property families.
 
-### Important Phase-1 removals
+### Tournament Run 2
+The remaining three were forced through hard vocabulary ceilings and 12-state/fault analog grayboxes.
+
+**G5C02 Tension Budget — 89.0/100 pressure / FINAL PAIR**
+- hard ceiling: exactly three reusable load archetypes: Lift, Counterweighted Gate, Flexible Span;
+- 12 mature states survived without numbers, graph UI or a fourth load family;
+- only 1/12 clearly reduces to static socket enumeration;
+- 8/12 require traversal sequence and/or visible load mutation;
+- representative 180-second trace: 4 meaningful anchor placements, ~0–3% idle waiting, low execution-error exposure;
+- existential risk: nonnumeric physical tension readability/tactility.
+
+**G5C37 Zero-G Tool Orbit — 88.0/100 pressure / FINAL PAIR**
+- hard ceiling: one tool, two authored track shapes (Ring/Oval), three relationships (Strike Target, Intercept Hazard, Catch/Transfer Zone);
+- 12 mature states survived without another tool/relationship family;
+- only 2/12 are parking-dominant teaching states;
+- 10/12 require independent player movement, 9/12 require catch/recovery, 5/12 require anchor transfer;
+- representative 180-second trace: 6 launch/catch/transfer actions, ~3–6% idle waiting;
+- existential risk: controller/zero-G/catch execution reliability.
+
+**G5C21 Broken Rule Workshop — ELIMINATED in Run 2**
+- seven modules and four binary rule families were enough to generate 12 faults;
+- however, its central contract creates a structural dominant strategy: exactly one wrong binary cartridge among 6–7 visible active sockets can be found by blind slot flipping in at most 6–7 tests, averaging about 3.5 tests at six sockets;
+- short 5–12 second RUN cycles make blind completion too cheap;
+- anti-bruteforce fixes would require changing the thesis or adding punishment/meta systems, so tournament rescue is prohibited.
+
+### Current Game #005 final pair
+1. **G5C02 Tension Budget** — move one physical anchor; a fixed discrete tension budget redistributes among visible cable-connected loads and changes multiple mechanisms at once.
+2. **G5C37 Zero-G Tool Orbit** — place one carried tool onto predictable authored local orbit tracks; it remains a persistent periodic second actor while the player moves, catches and transfers it.
+
+No Game #005 winner exists yet. `GAME5_RESEARCH.md`, `GAME5_RESEARCH_RUN2.md`, `GAME5_RESEARCH_RUN3.md`, `GAME5_TOURNAMENT.md` and `GAME5_TOURNAMENT_RUN2.md` are the active evidence chain under `STATUS.md`.
+
+Phase 2 Run 3 must compare only the final pair with 24–30 encounter campaigns, experienced-player hostile traces, content-signature/repetition analysis, implementation-ready one-week empirical kill prototypes and risk-adjusted scoring. Do not revive eliminated concepts or add rescue mechanics.
+
+## Important Phase-1 removals
 - G5C05 Shadow Scaffold — hard-killed by direct solid-shadow traversal precedent.
 - G5C09 Rain Router — removed by current water-routing precedent + consumer inflation.
 - G5C14 Routine Possession — hard-killed by direct embodied record/repeat automation precedent.
@@ -71,8 +80,6 @@ Phase 1 completed after three destructive research runs and a total field of **6
 - G5C01 Frame Pin — cut because mature play converged on familiar object-time-freeze phase selection.
 - G5C25 Sunpatch Garden — cut because mature variety depended on ecological consumer catalogue and pacing compromise.
 - G5C10 Pressure Line — cut because it lost directly to Tension Budget on world readability/ownability and drifted toward pipe-editor abstraction.
-
-No Game #005 winner exists yet. `GAME5_RESEARCH.md`, `GAME5_RESEARCH_RUN2.md`, `GAME5_RESEARCH_RUN3.md` and `GAME5_TOURNAMENT.md` are the active evidence chain under `STATUS.md`. Phase 2 Run 2 must attack the remaining three under hard vocabulary ceilings rather than add new rescue mechanics.
 
 ## Final Game #004 tournament reserves
 - **G4C01 Seam Thief** — strongest pure abstract puzzle reserve; lost selection on portal perception + topology/contact QA risk.
