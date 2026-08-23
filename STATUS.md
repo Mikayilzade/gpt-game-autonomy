@@ -12,7 +12,7 @@ Branch: `main`
 - Game #003 factory source package: **RETAINED TEMPORARILY AS NON-CANONICAL SAFETY ARCHIVE**
 - Game #004 HEARWALL: **DESIGN COMPLETE / migrated / integrity verified / dedicated repository**
 - Current design slot: **Game #005**
-- Game #005 autonomous/manual design run count: **10 — EXTENDED PASS IN PROGRESS**
+- Game #005 autonomous/manual design run count: **10**
 - Game #005 concept selected: **YES — G5C02 Tension Budget**
 - Phase 1 Opportunity Discovery: **COMPLETE**
 - Phase 2 Concept Tournament: **COMPLETE / WINNER SELECTED**
@@ -22,12 +22,14 @@ Branch: `main`
 - Phase 6 UX / Presentation Architecture: **COMPLETE**
 - Phase 7 Economy / Retention / Commercial Model: **COMPLETE**
 - Phase 8 Technical Implementation Specification: **COMPLETE**
-- Phase 9 Whole-Game Simulation: **COMPLETE / REPAIR ITEMS FOUND**
-- Phase 10 Adversarial Review: **QUEUED / NOT STARTED**
+- Phase 9 Whole-Game Simulation: **COMPLETE**
+- Phase 10 Adversarial Review + Amendments: **COMPLETE**
+- Phase 11 Specification Freeze: **QUEUED / NOT STARTED**
+- DESIGN COMPLETE: **NO**
 - Production implementation inside factory: **NO**
 
 ## Current phase
-**Game #005 — EXTENDED RUN 10 / PHASE 9 COMPLETE / PHASE 10 ADVERSARIAL REVIEW NEXT.**
+**Game #005 — EXTENDED RUN 10 COMPLETE THROUGH PHASE 10 / PHASE 11 SPECIFICATION FREEZE QUEUED.**
 
 ## Highest authority for current factory work
 1. `START_HERE.md`
@@ -46,38 +48,89 @@ Branch: `main`
 14. `GAME5_ECONOMY_COMMERCIAL.md`
 15. `GAME5_TECHNICAL_SPEC.md`
 16. `GAME5_WHOLE_GAME_SIMULATION.md`
+17. `GAME5_ADVERSARIAL_REVIEW.md`
+18. **`GAME5_PHASE10_AMENDMENTS.md` — supersedes conflicting older wording for its explicit subjects**
 
 Retained `GAME3_*` files are historical safety archive only and are **not Game #005 canon**.
 
-## Compact history — Runs 1–9
-- 60-seed discovery -> tournament -> G5C02 Tension Budget selected over G5C37 Zero-G Tool Orbit.
-- Product thesis, exact deterministic mechanics, 26-encounter content architecture, UX/accessibility and compact premium commercial model are complete.
-- Core canon remains: local physical carriage, one conserved budget, SLACK/TAUT/HIGH, Lift/Gate/Span only, no numeric/graph UI, no rope simulation authority, traversal-separated temporary compromise, 24–28 main encounters / working 26 / ~4–6h.
+## Selection summary — Runs 1–6
+- Phase 1 generated and destructively reduced **60 seeds**.
+- Final tournament: **G5C02 Tension Budget 90.1/100 / risk-adjusted confidence 0.84 — WINNER** versus **G5C37 Zero-G Tool Orbit 86.8/100 / 0.72 — RESERVE**.
+- Eliminated/reserve concepts may not be hybridized into Game #005.
 
-## Completed — Run 10 / Phase 8
-- `GAME5_TECHNICAL_SPEC.md` complete.
-- Godot 4.7.2-stable / GDScript-first / 3D baseline.
-- Deterministic Domain Core, data model, command/reducer/events, transition epoch, load adapters, save/versioning/checkpoint reconstruction, progression registry, V01–V18 implementation mapping, traversal solver, tests, localization/performance/input architecture and 12A–12H order defined.
-- Early empirical gate placed after vertical slice and before bulk content.
-- Technical preflight explicitly checks finite distribution-state feasibility for every revision/snap count.
+## Completed — Run 7 / Phase 3
+- Product thesis locked: PC/Steam-first premium single-player/offline, elevated top-down/isometric traversal puzzle.
+- Local physical carriage, SLACK/TAUT/HIGH, Lift/Gate/Span only, 24–28 main encounters / working 26 / ~4–6h.
+- Representative demo and empirical readability/tactility gate frozen.
 
-## Completed — Run 10 / Phase 9
-1. Created `GAME5_WHOLE_GAME_SIMULATION.md` and walked first boot, onboarding, demo, first hour, campaign bands, mutation, late game, replay and hostile runtime behavior.
-2. Save/load/checkpoint/restart, pause, quit during preview/transition/mutation, controller disconnect, reduced-motion, muted parity, alternate solutions and corrupt-save recovery were simulated.
-3. The selected product remains coherent, but finite-state audit found four real contradictions:
-   - **P9-C01:** current E01 says one Lift / 3 bands, impossible under fixed conserved budget + adjacent give/take + no duplicates and contradicts normal 2–4 load scope.
-   - **P9-C02:** default 3-load B=3 ->2-load removal cannot support 3–5 unique bands; a two-load B=3 revision has only two legal vectors.
-   - **P9-C03:** current 2->3 addition with 4 bands is impossible because two-load B=2 pre-revision supports at most three unique bands.
-   - **P9-C04:** original 4-band empirical prototype with 3 loads ->2 removal is internally impossible.
-4. Derived exact finite-state bound: a two-load revision can support at most **3 unique snap bands**, and only at central **B=2** for three states `[2,0] / [1,1] / [0,2]`.
-5. Identified bounded repairs that preserve the selected thesis rather than weakening it:
-   - E01 uses at least two loads; second may be non-completion-critical during first teaching beat.
-   - first 3->2 removal uses **3 bands / B=2**.
-   - first 2->3 addition uses **3 bands / B=2**.
-   - 4–5 band mutation content should use 3->4 addition or 4->3 removal with feasible central budgets.
-   - empirical prototype becomes three small fixtures rather than one impossible 4-band removal rig.
-6. Non-fatal risks: E11/E12/E13 repetition cluster; late mutation direction needs explicit feasibility; controller-disconnect preview policy and profile-corruption tests need exact acceptance rules.
-7. No new mechanic, load archetype, resource, timing pillar or hidden information is required to repair the contradictions.
+## Completed — Run 8 / Phase 4
+- Exact deterministic state model, conserved 0/1/2 allocation quanta, adjacent one-quantum transfer, preview/commit authority, load contracts, mutation/checkpoint/restart and anti-enumeration rules frozen.
+
+## Completed — Run 9 extended pass / Phases 5–7
+- 26-encounter / 18-signature content architecture and validators V01–V18.
+- Controller-native UX, redundant nonnumeric world state language, U01–U10 accessibility/readability gates.
+- Premium buy-once working $19.99 commercial model, representative free demo, no currency/grind/live service.
+
+## Completed — Run 10 extended pass / Phase 8 Technical Spec
+1. Created `GAME5_TECHNICAL_SPEC.md`.
+2. Selected **Godot 4.7.2-stable / GDScript-first / 3D** baseline based on current official stable-release state.
+3. Defined deterministic Domain Core separated from presentation, data schema, commands/reducer/events, exact preview/commit/mutation/restart ordering and transition-epoch stale-callback protection.
+4. Defined deterministic load adapters, C0/C1 reconstruction, atomic/versioned saves, progression registry, input/controller/accessibility abstraction, localization readiness, performance assumptions and diagnostics.
+5. Mapped V01–V18 into executable contracts and defined finite traversal/state solver + headless/property/integration/golden tests.
+6. Defined Phase 12A–12H implementation order with empirical readability/tactility gate immediately after vertical slice and before bulk content.
+7. Added mandatory preflight for finite conserved distribution-path feasibility.
+
+## Completed — Run 10 / Phase 9 Whole-Game Simulation
+1. Created `GAME5_WHOLE_GAME_SIMULATION.md`.
+2. Simulated first boot, settings, onboarding, demo, first hour, Bands A–E, late game, replay, alternate solutions and hostile enumeration.
+3. Simulated pause/quit during preview/transition/mutation, restart spam, stale callbacks, controller disconnect, reduced motion, muted play, corrupt current-run/profile saves and demo/full-build separation.
+4. Found four real finite-state contradictions rather than hiding them:
+   - one-load E01 cannot support 3 conserved distinct bands;
+   - default 3-load B=3 ->2-load removal cannot support 3–5 distinct bands;
+   - 2->3 addition with 4 bands cannot support four distinct pre-revision states;
+   - original 4-band empirical removal prototype is internally impossible.
+5. Derived the important bound that a two-load revision can support at most **3** unique bands, specifically at B=2 for three-state coverage.
+
+## Completed — Run 10 / Phase 10 Adversarial Review + Repairs
+1. Created `GAME5_ADVERSARIAL_REVIEW.md` and attacked repeated feel, hour-5 repetition, extreme/all-TAUT heuristics, blind enumeration, restart brute force, transition timing, mutation fairness, rope/engineering UI creep, movement creep, camera/accessibility, reduced motion, controller disconnect, persistence corruption, demo divergence, performance, validator false confidence, alternate solutions and commercial value.
+2. The selected thesis **survives**; no repair requires a new gameplay pillar or reopening concept selection.
+3. Created authoritative `GAME5_PHASE10_AMENDMENTS.md`.
+4. Added **V19 Distribution Path Feasibility**: every revision must have K distinct conserved vectors forming a legal adjacent one-quantum path for K snap bands.
+5. Added **V20 Mutation Activation Safety**: every objectively reachable activation band must mutate safely into a valid non-softlocked C1 state.
+6. Repaired E01 to two active loads / 3 bands / B=2 rather than a fake one-load exception.
+7. Froze low-load mutation teaching templates: 3->2 remove and 2->3 add use exactly **3 bands / B=2**.
+8. Repaired Band C order to interleave repeated-archetype encounters with relay/location reasoning.
+9. Repaired E16–E20 mutation metadata:
+   - E16 3->2 REMOVE / 3 bands / B=2;
+   - E17 2->3 ADD / 3 bands / B=2;
+   - E18 4->3 REMOVE / 4 bands / B=4;
+   - E19 3->4 ADD / 5 bands / B=3;
+   - E20 4->3 REMOVE / 5 bands / B=4.
+10. Constrained late 4/5-band mutations to feasible 3->4 ADD or 4->3 REMOVE families; no low-load 4/5-band revision is legal.
+11. Repaired demo D04 to the legal 3-band/B=2 removal template.
+12. Repaired empirical prototype into three fixtures: give/take, 4-band mature traversal, and 3-band mutation/return inversion.
+13. Froze controller-disconnect preview rule: disconnect never commits; pause/device prompt preserves non-authoritative preview.
+14. Froze corrupt-save recovery behavior without silent campaign loss or silent new-profile overwrite.
+15. Preserved 26 as working main count but 24–28 remains the acceptable release range; cut redundancy rather than invent mechanics.
+16. Added a Phase-11 requirement: `DESIGN COMPLETE = YES` is forbidden until every retained main encounter has an implementation-ready causal blueprint (exact load set, B, snap path per revision, mutation, reasoning signatures, intended commit/separation structure, traversal-region graph, C0/C1/exit and V01–V20 expectations).
+
+## Selected Game #005 entering Phase 11
+**G5C02 — Tension Budget**
+
+Core remains unchanged:
+- one direct local physical carriage;
+- one fixed shared tension budget;
+- canonical SLACK / TAUT / HIGH;
+- Lift / Counterweighted Gate / Flexible Span only;
+- honest nonnumeric world presentation;
+- authored deterministic distribution paths;
+- no transition-timing solutions;
+- no rope simulation authority;
+- traversal-separated temporary compromise and visible load mutation;
+- controller/low-dexterity advantage;
+- premium compact campaign.
+
+Working concept label remains `Tension Budget`; commercial title is **TBD**.
 
 ## Active Game #005 package — mandatory recovery read
 1. `GAME5_RESEARCH.md`
@@ -93,17 +146,21 @@ Retained `GAME3_*` files are historical safety archive only and are **not Game #
 11. `GAME5_ECONOMY_COMMERCIAL.md`
 12. `GAME5_TECHNICAL_SPEC.md`
 13. `GAME5_WHOLE_GAME_SIMULATION.md`
+14. `GAME5_ADVERSARIAL_REVIEW.md`
+15. `GAME5_PHASE10_AMENDMENTS.md`
 
-## NEXT ACTION — EXTENDED RUN 10 / PHASE 10 ADVERSARIAL REVIEW + REPAIRS
-1. Create `GAME5_ADVERSARIAL_REVIEW.md`.
-2. Attack fun/repetition, scope creep, technical ambiguity, brute force/enumeration, accessibility, save corruption, validators, content exhaustion, commercial honesty and implementation ambiguity.
-3. Create `GAME5_PHASE10_AMENDMENTS.md` to make P9-C01..C04 repairs authoritative without rewriting history.
-4. Formalize the finite distribution-feasibility rule and implementation validator.
-5. Repair affected encounter/prototype metadata explicitly, including E16–E20 and late mutation-direction constraints.
-6. Resolve E11/E12/E13 sequencing/repetition risk without adding mechanics.
-7. Resolve controller disconnect during preview and corrupt-save acceptance behavior.
-8. Re-audit all freeze-critical unknowns.
-9. If Phase 10 closes all contradictions, mark Phase 10 COMPLETE and queue Phase 11 Specification Freeze in the same extended run; do not start production implementation.
+## NEXT ACTION — GAME #005 RUN 11 / PHASE 11 SPECIFICATION FREEZE
+This must be another **large pass**, not a microstep.
+
+1. Re-read the full authority chain with `GAME5_PHASE10_AMENDMENTS.md` highest on conflicts.
+2. Create an implementation-ready encounter lock (recommended `GAME5_ENCOUNTER_BLUEPRINTS.md`) covering every retained main encounter. For each: exact active load IDs/archetypes, snap count, B, exact distribution vector sequence per revision, mutation load/direction, reasoning signatures, intended meaningful commit sequence class, decision-separating events, canonical region/traversal-edge graph, C0/C1/exit and expected V01–V20 status.
+3. Run a full implementation-readiness audit against all phases and amendments. Do not leave causal level design for implementation to invent.
+4. Cut or repair any encounter that cannot receive a distinct legal blueprint without feature inflation; final count may be 24–28.
+5. Create `GAME5_PHASE11_FINAL_FREEZE.md` only after the encounter lock passes.
+6. Final freeze must include authority order, explicit frozen rules, empirical-only remaining gates, acceptance checklist and dedicated-repo migration manifest/handoff requirements.
+7. Set `DESIGN COMPLETE = YES` only if a fresh implementation session can build without inventing important gameplay.
+8. If DESIGN COMPLETE becomes YES, prepare migration/handoff files in the factory but do not claim Game #005 completion until a dedicated repo exists, migration is verified, factory Game #005 files are removed, `GAME_INDEX.md` is updated and factory resets to Game #006.
+9. Production implementation remains outside factory.
 
 ## Blocker
-**NONE.** Phase 10 may proceed immediately.
+**NONE for Phase 11 design work.** Dedicated repository creation may become a migration blocker only after final freeze.
