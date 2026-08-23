@@ -8,7 +8,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 | 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
 | 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff track | Factory source package temporarily retained as non-canonical safety archive. |
 | 004 | **HEARWALL** *(working commercial title)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/hearwall` | Phase 12A ready / production implementation not started | Top-down real-time acoustic infiltration puzzle. Destination final-freeze blob exactly matches factory source SHA `37fbe588f82b65deeeb734597ffe768bb5399dd0`. |
-| 005 | **Tension Budget** *(concept label; title TBD)* | **Phases 1–7 COMPLETE / Phase 8 queued** | — | Not applicable; design factory only | G5C02 selected; product, mechanics, 26-encounter content architecture, UX/accessibility and premium commercial model frozen through extended Run 9. |
+| 005 | **Tension Budget** *(concept label; title TBD)* | **Phases 1–10 COMPLETE / Phase 11 queued / DESIGN COMPLETE = NO** | — | Not applicable; design factory only | G5C02 selected; technical spec, whole-game simulation and adversarial repairs complete. Phase 11 must lock exact causal blueprints for all retained encounters before freeze. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
@@ -29,56 +29,76 @@ Final tournament result:
 - **Tension Budget — 90.1/100; risk-adjusted confidence 0.84 — WINNER**;
 - **Zero-G Tool Orbit — 86.8/100; risk-adjusted confidence 0.72 — RESERVE**.
 
-### Frozen Game #005 identity
-- PC/Steam-first, single-player, offline-capable premium puzzle;
-- elevated top-down/isometric embodied systemic traversal;
-- rigger traversing stylized exposed suspended machinery;
-- one local tension carriage on a short continuous rail with 3–5 authored snap bands;
+### Frozen identity through Phase 7
+- PC/Steam-first, single-player, offline-capable compact premium puzzle;
+- elevated top-down/isometric embodied traversal;
+- one local physical tension carriage on 3–5 snap bands;
 - one fixed shared tension budget;
-- canonical cable/load states **SLACK / TAUT / HIGH**;
-- only three baseline load archetypes: **Lift / Counterweighted Gate / Flexible Span**;
-- no numeric tension requirement, detached graph/editor UI, free rope construction or realistic rope simulation as gameplay authority;
-- mature puzzles rely on temporary compromise, traversal-separated decisions and visible load mutation rather than hidden information or precision execution.
+- SLACK / TAUT / HIGH;
+- Lift / Counterweighted Gate / Flexible Span only;
+- no numeric engineering UI, graph editor, free rope construction, timing solutions or rope simulation authority;
+- mature play is temporary compromise -> traversal -> reconfiguration -> optional visible mutation/return inversion;
+- working 26 main encounters inside a 24–28 acceptable release range, roughly 4–6 hours;
+- free representative 15–25 minute demo;
+- working $19.99 USD launch target / $17.99–$21.99 business decision band.
 
-### Phase 4 Mechanical Architecture
-`GAME5_MECHANICS.md` freezes deterministic authored distribution vectors, conserved internal 0/1/2 allocation quanta, adjacent-band one-unit give/take, preview-versus-commit authority, exact load contracts, zero/one mutation baseline, checkpoints, traversal-state rules and invalid-state/anti-enumeration requirements.
+### Phase 8 — Technical Implementation Specification
+`GAME5_TECHNICAL_SPEC.md` freezes:
+- **Godot 4.7.2-stable / GDScript-first / 3D** baseline as of 2026-08-23;
+- deterministic Domain Core separated from presentation;
+- Encounter/Load/Revision/traversal/runtime/checkpoint data model;
+- command -> reducer -> event ordering;
+- preview/commit/mutation/restart authority and transition-epoch stale-callback protection;
+- deterministic load adapters;
+- versioned atomic save/recovery architecture;
+- input/controller/accessibility/localization/performance assumptions;
+- V01–V18 executable contracts, finite traversal solver and test architecture;
+- early empirical gate after vertical slice and before bulk content.
 
-### Phase 5 Content Architecture
-`GAME5_CONTENT_ARCHITECTURE.md` freezes:
-- **26 main encounters** inside the 24–28 range;
-- five progression bands;
-- **18 systemic reasoning signatures**;
-- no fourth load family or movement pillar;
-- explicit authored encounter schema;
-- validators V01–V18 for conservation, adjacency, distinction, safety, reachability, anti-enumeration, repetition and scope;
-- four-encounter ~18–24 minute demo that reaches the full differentiator;
-- optional mastery remixes capped at 4–6 and first-cut if repetition evidence is weak.
+### Phase 9 — Whole-Game Simulation
+`GAME5_WHOLE_GAME_SIMULATION.md` found real finite-state contradictions in the earlier skeleton/prototype:
+- one-load E01 cannot support 3 conserved distinct bands;
+- default 3-load B=3 ->2-load removal cannot support 3–5 unique post-revision states;
+- 2-load B=2 pre-revision cannot support a 4-band 2->3 addition;
+- original 4-band 3->2 empirical prototype is impossible.
 
-### Phase 6 UX / Presentation
-`GAME5_UX_PRESENTATION.md` freezes:
-- controller-native local grab/slide/release;
-- stable elevated camera with causal framing;
-- physical carriage/snap language;
-- redundant nonnumeric SLACK/TAUT/HIGH cues through cable curvature, hardware posture and load silhouette;
-- minimal HUD, no graph/tension bars;
-- onboarding and first-session flow;
-- explainable recoverable failure and fast C0/C1 restart;
-- remapping, reduced motion, color-independent and muted parity requirements;
-- UX gates U01–U10.
+It also established the explicit low-load bound: a two-load revision supports at most **3** unique snap states, with full three-state coverage at B=2.
 
-### Phase 7 Economy / Retention / Commercial Model
-`GAME5_ECONOMY_COMMERCIAL.md` freezes:
-- premium buy-once baseline;
-- current working launch target **$19.99 USD**;
-- pre-release decision band **$17.99–$21.99** without gameplay redesign;
-- free representative 15–25 minute Steam demo;
-- no power progression, currency, grind, ads, live service or paid hints;
-- knowledge/mastery progression, replayable completed encounters and roughly 18–28 non-grindy achievements target;
-- optional 4–6 remixes included in base game if retained.
+### Phase 10 — Adversarial Review / Authoritative Repairs
+`GAME5_ADVERSARIAL_REVIEW.md` and `GAME5_PHASE10_AMENDMENTS.md` preserve the selected thesis and repair the contradictions without adding mechanics.
 
-Current market reference checks on 2026-08-23 included `Patrick's Parabox` and `Chants of Sennaar` at $19.99, and `COCOON` / `Viewfinder` at $24.99 base price. These are price context, not direct product-equivalence claims.
+Key authoritative repairs:
+- **V19 Distribution Path Feasibility** checks that each revision has enough distinct conserved vectors forming a valid adjacent one-quantum path for its snap count;
+- **V20 Mutation Activation Safety** checks every objectively reachable mutation band for safe stable C1 reconstruction;
+- E01 becomes Lift + Gate / 3 bands / B=2, with Gate visible but non-completion-critical in the first teaching beat;
+- 3->2 REMOVE and 2->3 ADD teaching mutations use exactly 3 bands / B=2;
+- 4/5-band mutations use feasible 3->4 ADD or 4->3 REMOVE families;
+- Band C repeated-archetype lessons are interleaved rather than consecutive;
+- E16–E20 mutation direction/snap/B metadata are now explicit and feasible;
+- demo D04 uses the legal 3-band removal template;
+- empirical prototype becomes three fixtures: give/take, 4-band mature traversal, 3-band mutation/return inversion;
+- controller disconnect during preview never commits;
+- corrupt-save recovery may not silently erase campaign progress or overwrite a bad profile;
+- 26 remains working count, but weak repetition may be cut down to 24–25 without adding rescue mechanics.
 
-`Tension Budget` remains an internal concept label, not a frozen commercial title. **Phase 8 Technical Implementation Specification is next.**
+### Phase-11 requirement
+`DESIGN COMPLETE = YES` is not yet allowed.
+
+Phase 11 must create an implementation-ready encounter lock for every retained main encounter, including:
+- exact load IDs/archetypes;
+- snap count and B;
+- exact pre/post distribution paths;
+- mutation direction/load;
+- reasoning signatures;
+- intended meaningful commit/separation structure;
+- canonical region/traversal graph;
+- C0/C1/exit requirements;
+- alternate-solution boundaries;
+- V01–V20 expectations.
+
+Final art transforms may remain flexible, but implementation may not be left to invent causal puzzle design.
+
+`Tension Budget` remains an internal project/concept label; a later commercial rename is allowed without changing gameplay canon.
 
 ## Important Game #005 removals/reserve
 - **G5C37 Zero-G Tool Orbit** — strongest tournament reserve; do not hybridize into winner.
