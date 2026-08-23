@@ -8,7 +8,7 @@ This file tracks games produced by the factory. Finished game-specific design sh
 | 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migrated and integrity-verified; autonomous implementation handoff and CI/email-noise guardrail included. |
 | 003 | **Borrowed Collision** | DESIGN COMPLETE / Phase 11 frozen | `Mikayilzade/borrowed-collision` | Dedicated migration/handoff track | Factory source package temporarily retained as non-canonical safety archive. |
 | 004 | **HEARWALL** *(working commercial title)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/hearwall` | Phase 12A ready / production implementation not started | Top-down real-time acoustic infiltration puzzle. Destination final-freeze blob exactly matches factory source SHA `37fbe588f82b65deeeb734597ffe768bb5399dd0`. |
-| 005 | **Tension Budget** *(concept label; title TBD)* | **Phase 1 COMPLETE / Phase 2 COMPLETE / Phase 3 COMPLETE / Phase 4 queued** | — | Not applicable; design factory only | G5C02 selected after six-run discovery/tournament; Product Thesis locked in Run 7. No production implementation started. |
+| 005 | **Tension Budget** *(concept label; title TBD)* | **Phase 1 COMPLETE / Phase 2 COMPLETE / Phase 3 COMPLETE / Phase 4 COMPLETE / Phase 5 queued** | — | Not applicable; design factory only | G5C02 selected after six-run discovery/tournament; Product Thesis + Mechanical Architecture locked through Run 8. No production implementation started. |
 
 ## Completed Game #002 identity
 **False Map Department** — ontological cartography puzzle: editing the official map immediately rewrites the tiny world, and success requires solving civic goals without creating worse second-order consequences.
@@ -45,7 +45,7 @@ Phase 1 completed after three destructive discovery runs and a field of **60 see
 **G5C37 Zero-G Tool Orbit — 88.0/100 / FINAL PAIR**
 - one tool, Ring/Oval tracks and three relationships: Strike Target, Intercept Hazard, Catch/Transfer Zone;
 - 12 states survived without another tool/relationship family;
-- 10/12 require independent player movement and 9/12 recovery.
+- 10/12 require independent movement and 9/12 recovery.
 
 **G5C21 Broken Rule Workshop — ELIMINATED**
 - one-wrong-binary-cartridge contract can be brute-forced cheaply;
@@ -64,24 +64,39 @@ Phase 1 completed after three destructive discovery runs and a field of **60 see
 - hardest unresolved risk is intrinsic catch generosity versus meaningful catch-position planning.
 
 ### Phase 3 Product Thesis Lock
-`GAME5_PRODUCT_THESIS.md` is the current highest game-specific product authority.
+`GAME5_PRODUCT_THESIS.md` freezes:
+- PC/Steam-first single-player offline-capable premium baseline;
+- top-down/elevated-isometric embodied systemic traversal-puzzle framing;
+- rigger fantasy in a stylized exposed suspended mechanical complex;
+- one local carriage on a short continuous rail with 3–5 authored snap bands;
+- one shared tension budget;
+- canonical SLACK / TAUT / HIGH cable bands;
+- baseline Lift / Counterweighted Gate / Flexible Span;
+- no numeric tension requirement, graph/editor UI, free rope construction or real rope simulation as gameplay authority;
+- 24–28 main encounters / target 26 / roughly 4–6 hours;
+- full-differentiator 15–25 minute demo and mandatory one-week readability/tactility empirical gate.
 
-Frozen identity:
-- **PC/Steam-first**, single-player, offline-capable premium baseline;
-- **top-down/elevated-isometric embodied systemic traversal puzzle**;
-- player fantasy: a rigger traversing a stylized exposed suspended mechanical complex;
-- one local physical tension carriage on a **short continuous rail with 3–5 authored snap bands**;
-- one shared tension budget per system;
-- canonical cable bands **SLACK / TAUT / HIGH**;
-- baseline load archetypes **Lift / Counterweighted Gate / Flexible Span**;
-- no numeric tension requirement, detached graph/editor UI, free rope construction or realistic rope/soft-body simulation as gameplay authority;
-- core loop is temporary mechanical compromise -> traversal -> reconfiguration -> visible load mutation -> extraction;
-- mature content must reject safe static socket enumeration through traversal-separated decisions and/or state mutation rather than hidden information;
-- target campaign **24–28 main encounters**, working target **26**, roughly **4–6 hours** first completion;
-- 15–25 minute demo must show simultaneous multi-load consequence, non-extreme TAUT compromise, traversal-separated reconfiguration and load mutation/return inversion;
-- one-week empirical readability/tactility kill prototype remains mandatory before expensive content production.
+### Phase 4 Mechanical Architecture
+`GAME5_MECHANICS.md` is now the highest game-specific rules authority.
 
-`Tension Budget` remains an internal concept label, not a frozen commercial title. Phase 4 Mechanical Architecture is next.
+Mechanical canon added in Run 8:
+- authoritative encounter state is fully deterministic and load bands derive only from rig revision + committed anchor band;
+- internal authoring quanta `0/1/2` map to SLACK/TAUT/HIGH while remaining invisible to the player;
+- a fixed total budget is conserved across every snap band and across visible load-add/remove revisions;
+- anchor distributions are authored data, not rope simulation;
+- adjacent snap bands transfer exactly one pull quantum from one load to one other load;
+- continuous drag preview is non-authoritative for collision/traversal; only a released snap band commits state;
+- deterministic commit order is anchor -> cable posture -> load transition -> stable state;
+- Lift uses LOW/MID/HIGH docks and is safe to ride kinematically;
+- Gate uses clearance tiers 0/1/2 for SLACK/TAUT/HIGH;
+- Span is traversable only in TAUT, making the non-extreme middle state mechanically canonical;
+- player vocabulary stays walk/interact/release/objective/restart with no movement mastery pillar;
+- normal mature encounters use zero or one visible objective mutation; post-mutation restart begins from a stable C1 checkpoint;
+- transition timing may never be a required solution resource;
+- mature content must reject safe static socket enumeration structurally rather than hiding information or punishing experimentation;
+- invalid-state rules now cover budget errors, duplicate bands, unreadable states, unsafe transitions, timing exploits, softlocks and scope drift.
+
+`Tension Budget` remains an internal concept label, not a frozen commercial title. Phase 5 Content Architecture is next.
 
 ## Important Game #005 removals/reserve
 - **G5C37 Zero-G Tool Orbit** — strongest tournament reserve; do not hybridize into winner.
