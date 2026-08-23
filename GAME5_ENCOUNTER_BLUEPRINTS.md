@@ -166,11 +166,11 @@ The path names are shorthand only; an encounter's declared load order plus named
 - **Snap/B/path:** `4` bands, `B=3`, `P3A`.
 - **Mutation:** none.
 - **Reasoning:** S13.
-- **Meaningful commit class:** 2; intended canonical sequence `P3→P2; traverse to R2; P2→P1`.
-- **Decision separation:** wrong local band strands later rail approach.
+- **Meaningful commit class:** 2; intended canonical sequence `P0→P1; traverse to R2; P1→P2`.
+- **Decision separation:** P1 and P3 both solve local Gate; only P1 preserves Lift access to R2.
 - **Regions:** R0 rail; R1; R2 rail access only via correct branch; X.
-- **Canonical traversal edges:** R0->R1 iff G1>=TAUT; R1->R2 iff L1=TAUT; R2->X iff G1=HIGH.
-- **Checkpoint/exit:** C0:R0/P3; exit X.
+- **Canonical traversal edges:** R0->R1 iff G1=HIGH; R1->R2 iff L1>=TAUT; R2->X iff S1=TAUT.
+- **Checkpoint/exit:** C0:R0/P0; exit X.
 - **Alternate boundary:** safe deterministic alternates are accepted only if they retain the primary reasoning family, do not remove every decision-separating event, and do not reduce the encounter to one permanent best band/static enumeration.
 - **Expected validation:** V01–V10, V19 PASS by exact vectors; V11–V15 required from E06 onward (tutorial exceptions E01–E05 are explicit); V16–V18 PASS by scope; V20 required iff mutation exists.
 
@@ -257,11 +257,11 @@ The path names are shorthand only; an encounter's declared load order plus named
 - **Snap/B/path:** `3` bands, `B=2`, `M23A`.
 - **Mutation:** ADD S1.
 - **Reasoning:** S10/S16.
-- **Meaningful commit class:** 3; intended canonical sequence `pre P2→P1→P0; mutate P0; post P0→P2`.
+- **Meaningful commit class:** 3; intended canonical sequence `pre P0→P1; traverse R1; P1→P0; mutate P0; post P0→P2`.
 - **Decision separation:** first addition lesson.
 - **Regions:** R0 rail; R1; O; R2 rail; X.
 - **Canonical traversal edges:** pre R0->R1 iff G1=TAUT; R1->O iff L1=HIGH; post O->R2 iff S1=TAUT; R2->X iff G1=TAUT.
-- **Checkpoint/exit:** C0:R0/P2; C1:O/P0; exit X.
+- **Checkpoint/exit:** C0:R0/P0; C1:O/P0; exit X.
 - **Alternate boundary:** safe deterministic alternates are accepted only if they retain the primary reasoning family, do not remove every decision-separating event, and do not reduce the encounter to one permanent best band/static enumeration.
 - **Expected validation:** V01–V10, V19 PASS by exact vectors; V11–V15 required; V16–V18 PASS by scope; V20 PASS across every objectively reachable activation band.
 
@@ -322,11 +322,11 @@ The path names are shorthand only; an encounter's declared load order plus named
 - **Snap/B/path:** `5` bands, `B=3`, `M34B5`.
 - **Mutation:** ADD L1.
 - **Reasoning:** S14.
-- **Meaningful commit class:** 3; intended canonical sequence `pre P4→P0→P2; mutate P2; post P2→P4`.
+- **Meaningful commit class:** 4; intended canonical sequence `pre P0→P4→P2; mutate P2; post P2→P4→P1`.
 - **Decision separation:** repeated family redistributes asymmetrically.
 - **Regions:** R0 rail; R1; O; R2 rail; X.
 - **Canonical traversal edges:** pre R0->R1 iff G1=HIGH; R1->O iff S1=TAUT; post O->R2 iff L1>=TAUT; R2->X iff G2=HIGH.
-- **Checkpoint/exit:** C0:R0/P4; C1:O/P2; exit X.
+- **Checkpoint/exit:** C0:R0/P0; C1:O/P2; exit X.
 - **Alternate boundary:** alternate must preserve same-family competition plus mutation; no one-band post solution.
 - **Expected validation:** V01–V20 PASS.
 
@@ -335,10 +335,10 @@ The path names are shorthand only; an encounter's declared load order plus named
 - **Snap/B/path:** `5` bands, `B=4`, `P4B4`.
 - **Mutation:** none.
 - **Reasoning:** S04/S13.
-- **Meaningful commit class:** 3; intended canonical sequence `P0→P4; traverse; P4→P2; traverse; P2→P0`.
-- **Decision separation:** obvious Gate solution at P3 is decoy because it loses R2 access.
+- **Meaningful commit class:** 3; intended canonical sequence `P0→P2; traverse; P2→P4; traverse; P4→P0`.
+- **Decision separation:** P2 and P3 both solve the local G1=HIGH problem; only P2 preserves G2 for the next decision.
 - **Regions:** R0 rail; R1; R2 rail only via preserved edge; X.
-- **Canonical traversal edges:** R0->R1 iff G1>=TAUT; R1->R2 iff S1=TAUT AND G2>=TAUT; R2->X iff L1=HIGH.
+- **Canonical traversal edges:** R0->R1 iff G1=HIGH; R1->R2 iff S1=TAUT AND G2>=TAUT; R2->X iff L1=HIGH.
 - **Checkpoint/exit:** C0:R0/P0; exit X.
 - **Alternate boundary:** a shorter alternate is rejected if it turns the local-decoy lesson into direct single-band selection.
 - **Expected validation:** V01–V19 PASS; V20 N/A.
