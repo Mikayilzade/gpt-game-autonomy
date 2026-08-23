@@ -12,17 +12,20 @@ Branch: `main`
 - Game #003 factory source package: **RETAINED TEMPORARILY AS NON-CANONICAL SAFETY ARCHIVE**
 - Game #004 HEARWALL: **DESIGN COMPLETE / migrated / integrity verified / dedicated repository**
 - Current design slot: **Game #005**
-- Game #005 autonomous/manual design run count: **8**
+- Game #005 autonomous/manual design run count: **9**
 - Game #005 concept selected: **YES — G5C02 Tension Budget**
 - Phase 1 Opportunity Discovery: **COMPLETE**
 - Phase 2 Concept Tournament: **COMPLETE / WINNER SELECTED**
 - Phase 3 Product Thesis Lock: **COMPLETE**
 - Phase 4 Mechanical Architecture: **COMPLETE**
-- Phase 5 Content Architecture: **QUEUED / NOT STARTED**
+- Phase 5 Content Architecture: **COMPLETE**
+- Phase 6 UX / Presentation Architecture: **COMPLETE**
+- Phase 7 Economy / Retention / Commercial Model: **COMPLETE**
+- Phase 8 Technical Implementation Specification: **QUEUED / NOT STARTED**
 - Production implementation inside factory: **NO**
 
 ## Current phase
-**Game #005 — PHASE 4 COMPLETE / PHASE 5 CONTENT ARCHITECTURE QUEUED.**
+**Game #005 — PHASES 5–7 COMPLETE IN EXTENDED RUN 9 / PHASE 8 TECHNICAL SPEC QUEUED.**
 
 ## Highest authority for current factory work
 1. `START_HERE.md`
@@ -36,6 +39,9 @@ Branch: `main`
 9. `GAME5_TOURNAMENT_RUN3.md`
 10. `GAME5_PRODUCT_THESIS.md`
 11. `GAME5_MECHANICS.md`
+12. `GAME5_CONTENT_ARCHITECTURE.md`
+13. `GAME5_UX_PRESENTATION.md`
+14. `GAME5_ECONOMY_COMMERCIAL.md`
 
 Retained `GAME3_*` files are historical safety archive only and are **not Game #005 canon**.
 
@@ -43,61 +49,72 @@ Retained `GAME3_*` files are historical safety archive only and are **not Game #
 - Phase 1 generated and destructively reduced **60 seeds**.
 - Phase 2 entrants: G5C02 Tension Budget, G5C37 Zero-G Tool Orbit, G5C17 Door Memory, G5C21 Broken Rule Workshop.
 - G5C17 and G5C21 were eliminated under direct precedent / structural dominant-strategy pressure.
-- Final pair received 26-encounter paper campaigns, hostile experienced-player traces, repetition-signature audits and equal empirical-risk planning.
 - Final scores:
   - **G5C02 Tension Budget — 90.1/100; risk-adjusted confidence 0.84 — WINNER**
   - **G5C37 Zero-G Tool Orbit — 86.8/100; risk-adjusted confidence 0.72 — RESERVE**
-- Phase 2 completed with G5C02 selected; no production implementation began.
 
-## Completed — Game #005 Run 7 / Phase 3 Product Thesis Lock
-- Created `GAME5_PRODUCT_THESIS.md` and marked Phase 3 COMPLETE.
-- Froze PC/Steam-first, single-player, offline-capable premium baseline.
-- Froze top-down/elevated-isometric embodied systemic traversal puzzle framing.
-- Froze the rigger / suspended mechanical-complex fantasy and one-carriage simultaneous-consequence hook.
-- Froze a short continuous local rail with 3–5 authored snap bands.
-- Preserved SLACK / TAUT / HIGH and the three load archetypes: Lift / Counterweighted Gate / Flexible Span.
-- Froze core loop, 24–28 main encounter range / 26 target, 4–6 hour first-completion target and the 15–25 minute demo promise.
-- Preserved safe-static-enumeration rejection and the one-week readability/tactility empirical gate.
+## Completed — Run 7 / Phase 3 Product Thesis Lock
+- PC/Steam-first, single-player, offline-capable premium baseline.
+- Top-down/elevated-isometric embodied systemic traversal-puzzle framing.
+- Rigger fantasy in a stylized exposed suspended mechanical complex.
+- Short local carriage rail with 3–5 authored snap bands.
+- SLACK / TAUT / HIGH and three load archetypes: Lift / Counterweighted Gate / Flexible Span.
+- Core loop: temporary compromise -> traversal -> reconfiguration -> visible mutation -> extraction.
+- Main campaign 24–28 encounters, working target 26, roughly 4–6 hours.
+- Full-differentiator 15–25 minute demo and mandatory one-week readability/tactility gate.
 
-## Completed — Game #005 Run 8 / Phase 4 Mechanical Architecture
-1. Re-read the current authority chain after the hourly automation had completed Phase 3.
-2. Created `GAME5_MECHANICS.md` and marked **PHASE 4 COMPLETE**.
-3. Froze authoritative encounter state as deterministic `(phase, revision, anchor_band, derived load bands, player region, objective state, checkpoint)` data.
-4. Froze internal non-player-facing allocation quanta `0/1/2 = SLACK/TAUT/HIGH` and a fixed conserved budget `B` across every snap band and every rig revision in an encounter.
-5. Froze authored distribution vectors instead of rope simulation; every load state derives only from current revision + committed anchor band.
-6. Froze adjacent snap-band movement as exactly one pull quantum transferred from one load to one other load, preserving physically legible give/take on the continuous rail.
-7. Froze preview as non-authoritative for traversal/collision; only released snap bands commit gameplay state.
-8. Froze deterministic commit ordering: release -> snap resolve -> validate -> commit -> cable posture -> load transition -> STABLE.
-9. Froze Lift rules: LOW/MID/HIGH docks, kinematic solid deck, safe ride, no jump/timing requirement.
-10. Froze Counterweighted Gate rules: clearance tiers 0/1/2 for SLACK/TAUT/HIGH, with no precision squeeze/timing exploit.
-11. Froze Flexible Span rules: SLACK = deep sag/non-traversable, TAUT = usable, HIGH = over-lifted/non-traversable; TAUT is the canonical non-extreme solution state.
-12. Froze low-execution player vocabulary: walk, interact/grab, release, objective interaction, restart; no jump/dash/combat/precision pillar.
-13. Froze zero-or-one baseline objective mutation, same rail/snap identity across revisions and conserved budget redistribution after visible load add/remove.
-14. Froze post-mutation checkpoint C1 so extraction puzzles do not require replaying solved entry sections.
-15. Defined exact mature-content rejection for safe static socket enumeration and prohibited solving it through hidden information, randomness, move costs or inaccurate preview.
-16. Defined authoring invalidity rules for budget violations, duplicate snap states, visually indistinguishable states, unsafe collisions, transition-timing solutions, softlocks and scope drift.
-17. Separated frozen rules from later feel/balance knobs and preserved the one-week empirical gate.
-18. No Phase 5 content or production implementation was started.
+## Completed — Run 8 / Phase 4 Mechanical Architecture
+- Created `GAME5_MECHANICS.md`.
+- Deterministic authoritative encounter state frozen.
+- Internal 0/1/2 allocation quanta map to SLACK/TAUT/HIGH but never need to be player-facing.
+- Fixed shared budget conserved across snap bands and rig revisions.
+- Authored deterministic distribution vectors; no rope simulation authority.
+- Adjacent snap bands transfer exactly one pull quantum from one load to another.
+- Preview is non-authoritative; released snap band commits gameplay state.
+- Lift / Gate / Span exact response and traversal contracts frozen.
+- No transition-timing solutions; normal movement only.
+- Zero-or-one visible load mutation baseline and post-mutation C1 checkpoint.
+- Safe static enumeration and invalid authored states received explicit mechanical rejection rules.
 
-## Selected Game #005 core entering Phase 5
+## Completed — Run 9 extended pass / Phase 5 Content Architecture
+1. Created `GAME5_CONTENT_ARCHITECTURE.md` and marked **PHASE 5 COMPLETE**.
+2. Converted the frozen campaign promise into five progression bands and a concrete **26-encounter skeleton**.
+3. Defined **18 systemic reasoning signatures** covering direct redistribution, collateral tradeoff, TAUT compromise, traversal separation, commitment, relays, repeated archetypes, mutation, return inversion and final synthesis.
+4. Kept the full campaign inside the three frozen load archetypes; no movement pillar or fourth load family was introduced.
+5. Defined an implementation-friendly authored encounter schema for rails, revisions, distribution vectors, loads, regions, conditional traversal edges, objective mutation, checkpoints and intended/alternate solutions.
+6. Defined validators V01–V18 for budget conservation, adjacent-band transfer, duplicate bands, visual distinction, load contracts, transition timing, safety, reachability, mutation conservation, mature decision separation, safe enumeration, permanent-best-band failure, systemic signature duplication, placement/mutation/archetype ceilings and theme-only novelty.
+7. Defined repetition/reuse limits and explicit first-cut policy rather than adding rescue mechanics.
+8. Defined a four-encounter **~18–24 minute demo** that reaches give/take, TAUT compromise, traversal-separated reconfiguration and load mutation/return inversion.
+9. Optional content is capped at 4–6 mastery remixes and is first cut if repetition evidence is weak.
+
+## Completed — Run 9 extended pass / Phase 6 UX / Presentation
+1. Created `GAME5_UX_PRESENTATION.md` and marked **PHASE 6 COMPLETE**.
+2. Froze elevated top-down/isometric camera framing that prioritizes the carriage, connected cables and affected loads without hiding information.
+3. Froze controller-native grab/slide/release with strong snap attraction and no cursor precision.
+4. Defined physical carriage, snap-band and preview/commit presentation so the interaction reads as a world mechanism rather than a UI slider.
+5. Defined redundant SLACK / TAUT / HIGH language through cable curvature, hardware posture, load silhouette and optional state labels; color/audio/haptics may only reinforce.
+6. Defined load-specific visual contracts and a consistent causal sequence: carriage snap -> cable give/take -> load response -> traversal consequence.
+7. Kept HUD minimal and explicitly prohibited numeric tension bars, detached graphs, inventories and timing/score pressure.
+8. Defined onboarding, first-session flow, objective mutation presentation, fast C0/C1 restart UX and explainable recoverable failure states.
+9. Defined settings/accessibility baseline including remapping, reduced motion, UI scale, color-independent readability, muted parity and optional state labels.
+10. Defined UX validation gates U01–U10 including state recognition, causal attribution, interaction speed, preview distinction, controller parity, muted parity and reduced-motion parity.
+
+## Completed — Run 9 extended pass / Phase 7 Economy / Retention / Commercial Model
+1. Created `GAME5_ECONOMY_COMMERCIAL.md` and marked **PHASE 7 COMPLETE**.
+2. Fresh Steam checks on 2026-08-23 found current comparable premium puzzle base prices around **$19.99–$24.99** (`Patrick's Parabox`, `Chants of Sennaar`, `COCOON`, `Viewfinder`).
+3. Froze premium buy-once baseline with **$19.99 USD working launch target** and **$17.99–$21.99** pre-release decision band; $24.99 requires materially stronger polish/value evidence, not content padding.
+4. Froze a free representative 15–25 minute Steam demo as a central discovery funnel.
+5. Froze knowledge/mastery progression only: no player power economy, currency, grind, ads, live service or paid hints.
+6. Completed encounters remain replayable; optional 4–6 mastery remixes, if retained, are included in the base product.
+7. Target achievement architecture is roughly 18–28 non-grindy achievements; accessibility settings never disable achievements.
+8. Store positioning must sell simultaneous physical consequences and avoid misleading engineering/simulation/factory framing.
+
+## Selected Game #005 core entering Phase 8
 **G5C02 — Tension Budget**
 
 Working concept label remains `Tension Budget`; commercial title is **TBD**.
 
-Current mechanical canon includes:
-- one local carriage rail / 3–5 committed snap bands;
-- 2–4 active loads;
-- one fixed shared budget per encounter across revisions;
-- internal 0/1/2 allocation mapping to SLACK/TAUT/HIGH, never required as player-facing numbers;
-- authored deterministic snap-band distribution vectors;
-- adjacent band = exactly one-unit give/take transfer between two loads;
-- non-authoritative continuous preview; authoritative state only on snap commit;
-- Lift / Gate / Span exact response contracts;
-- no transition-timing solutions;
-- normal movement only, no movement mastery pillar;
-- zero or one visible objective mutation baseline;
-- deterministic entry and post-mutation checkpoints;
-- mature content must structurally resist safe static enumeration.
+Current canon now includes product, exact mechanics, campaign/content schema, UX/accessibility and commercial model. No production implementation has begun.
 
 ## Active Game #005 package — mandatory recovery read
 1. `GAME5_RESEARCH.md`
@@ -108,21 +125,26 @@ Current mechanical canon includes:
 6. `GAME5_TOURNAMENT_RUN3.md`
 7. `GAME5_PRODUCT_THESIS.md`
 8. `GAME5_MECHANICS.md`
+9. `GAME5_CONTENT_ARCHITECTURE.md`
+10. `GAME5_UX_PRESENTATION.md`
+11. `GAME5_ECONOMY_COMMERCIAL.md`
 
 A fresh continuation session must read `START_HERE.md`, this `STATUS.md`, `GAME_INDEX.md`, and every active Game #005 file above before continuing.
 
-## NEXT ACTION — GAME #005 RUN 9 / PHASE 5 CONTENT ARCHITECTURE
-1. Re-read the complete active authority chain including `GAME5_MECHANICS.md`.
-2. Create `GAME5_CONTENT_ARCHITECTURE.md`.
-3. Convert the 24–28 / target-26 campaign promise into explicit encounter families and progression bands using only frozen Phase-4 mechanics.
-4. Define minimum/target counts by reasoning signature, load composition, mutation type and placement count.
-5. Specify the authored encounter schema compatible with the Phase-4 state/data contract.
-6. Define validators for budget conservation, adjacent-band transfers, visual distinguishability, safe socket enumeration, one-permanent-best-band, traversal-timing dependence, softlocks and repeated systemic signatures.
-7. Build a concrete 26-encounter campaign skeleton from teaching through synthesis without adding a fourth load archetype or movement pillar.
-8. Define reuse limits so geometry/theme changes do not masquerade as mechanical novelty.
-9. Define the demo subset that satisfies every Phase-3 demo promise inside 15–25 minutes.
-10. Define optional/remix boundaries and first-cut rules if repetition evidence is weak.
-11. Do not begin Phase 6 or production implementation until Phase 5 is internally coherent.
+## NEXT ACTION — GAME #005 RUN 10 / PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION
+1. Re-read the complete active authority chain.
+2. Create `GAME5_TECHNICAL_SPEC.md`.
+3. Select and justify engine/runtime direction for PC/Steam-first implementation without starting production code.
+4. Map Phase-4 authoritative state and Phase-5 encounter schema into deterministic implementation boundaries/data objects.
+5. Specify exact simulation/update/event ordering, preview versus commit handling, load transitions, mutation revision changes and checkpoint reconstruction.
+6. Define persistence/save-versioning, encounter completion/unlock state and deterministic recovery guarantees.
+7. Define data-driven authoring and validators V01–V18 as implementation contracts, including systemic-signature duplicate checks.
+8. Define input abstraction, controller parity, accessibility settings, reduced-motion logical parity and localization readiness.
+9. Define performance assumptions/budgets appropriate to compact stylized scenes and handheld-readable target.
+10. Define automated tests/test hooks for conservation, transitions, traversal graph solvability, restart idempotency, mutation, anti-softlock and validator behavior.
+11. Define implementation order for later dedicated-repo Phase 12A–12H and isolate the one-week empirical readability/tactility prototype as an early mandatory gate.
+12. If Phase 8 completes quickly and remains coherent, continue in the same extended run to Phase 9 Whole-Game Simulation rather than stopping on a microstep.
+13. Do not begin production implementation in the factory.
 
 ## Blocker
-**NONE.** Phase 5 may begin immediately.
+**NONE.** Phase 8 may begin immediately.
