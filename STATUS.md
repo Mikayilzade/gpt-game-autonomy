@@ -1,6 +1,6 @@
 # FACTORY STATUS
 
-Last updated: 2026-08-23
+Last updated: 2026-08-24
 Repository: `Mikayilzade/gpt-game-autonomy`
 Branch: `main`
 
@@ -11,156 +11,93 @@ Branch: `main`
 - Game #003 Borrowed Collision: **DESIGN COMPLETE / dedicated repository track**
 - Game #003 factory source package: **RETAINED TEMPORARILY AS NON-CANONICAL SAFETY ARCHIVE**
 - Game #004 HEARWALL: **DESIGN COMPLETE / migrated / integrity verified / dedicated repository**
-- Current design slot: **Game #005**
-- Game #005 autonomous/manual design run count: **10**
+- Current design slot: **Game #005 — migration pending**
+- Game #005 autonomous/manual design run count: **11**
 - Game #005 concept selected: **YES — G5C02 Tension Budget**
-- Phase 1 Opportunity Discovery: **COMPLETE**
-- Phase 2 Concept Tournament: **COMPLETE / WINNER SELECTED**
-- Phase 3 Product Thesis Lock: **COMPLETE**
-- Phase 4 Mechanical Architecture: **COMPLETE**
-- Phase 5 Content Architecture: **COMPLETE**
-- Phase 6 UX / Presentation Architecture: **COMPLETE**
-- Phase 7 Economy / Retention / Commercial Model: **COMPLETE**
-- Phase 8 Technical Implementation Specification: **COMPLETE**
-- Phase 9 Whole-Game Simulation: **COMPLETE**
-- Phase 10 Adversarial Review + Amendments: **COMPLETE**
-- Phase 11 Specification Freeze: **QUEUED / NOT STARTED**
-- DESIGN COMPLETE: **NO**
+- Phases 1–10: **COMPLETE**
+- Phase 11 Specification Freeze: **COMPLETE**
+- DESIGN COMPLETE: **YES**
+- Dedicated repository migration: **BLOCKED — target repository does not yet exist and current GitHub connector exposes no repository-creation operation**
 - Production implementation inside factory: **NO**
 
 ## Current phase
-**Game #005 — EXTENDED RUN 10 COMPLETE THROUGH PHASE 10 / PHASE 11 SPECIFICATION FREEZE QUEUED.**
+**Game #005 — DESIGN FROZEN / MIGRATION PREPARED / DEDICATED-REPOSITORY CREATION REQUIRED.**
 
-## Highest authority for current factory work
-1. `START_HERE.md`
-2. this `STATUS.md`
-3. `GAME_INDEX.md`
-4. `GAME5_RESEARCH.md`
-5. `GAME5_RESEARCH_RUN2.md`
-6. `GAME5_RESEARCH_RUN3.md`
-7. `GAME5_TOURNAMENT.md`
-8. `GAME5_TOURNAMENT_RUN2.md`
-9. `GAME5_TOURNAMENT_RUN3.md`
-10. `GAME5_PRODUCT_THESIS.md`
-11. `GAME5_MECHANICS.md`
-12. `GAME5_CONTENT_ARCHITECTURE.md`
-13. `GAME5_UX_PRESENTATION.md`
-14. `GAME5_ECONOMY_COMMERCIAL.md`
-15. `GAME5_TECHNICAL_SPEC.md`
-16. `GAME5_WHOLE_GAME_SIMULATION.md`
-17. `GAME5_ADVERSARIAL_REVIEW.md`
-18. **`GAME5_PHASE10_AMENDMENTS.md` — supersedes conflicting older wording for its explicit subjects**
-
-Retained `GAME3_*` files are historical safety archive only and are **not Game #005 canon**.
-
-## Selection summary — Runs 1–6
-- Phase 1 generated and destructively reduced **60 seeds**.
-- Final tournament: **G5C02 Tension Budget 90.1/100 / risk-adjusted confidence 0.84 — WINNER** versus **G5C37 Zero-G Tool Orbit 86.8/100 / 0.72 — RESERVE**.
-- Eliminated/reserve concepts may not be hybridized into Game #005.
-
-## Completed — Run 7 / Phase 3
-- Product thesis locked: PC/Steam-first premium single-player/offline, elevated top-down/isometric traversal puzzle.
-- Local physical carriage, SLACK/TAUT/HIGH, Lift/Gate/Span only, 24–28 main encounters / working 26 / ~4–6h.
-- Representative demo and empirical readability/tactility gate frozen.
-
-## Completed — Run 8 / Phase 4
-- Exact deterministic state model, conserved 0/1/2 allocation quanta, adjacent one-quantum transfer, preview/commit authority, load contracts, mutation/checkpoint/restart and anti-enumeration rules frozen.
-
-## Completed — Run 9 extended pass / Phases 5–7
-- 26-encounter / 18-signature content architecture and validators V01–V18.
-- Controller-native UX, redundant nonnumeric world state language, U01–U10 accessibility/readability gates.
-- Premium buy-once working $19.99 commercial model, representative free demo, no currency/grind/live service.
-
-## Completed — Run 10 extended pass / Phase 8 Technical Spec
-1. Created `GAME5_TECHNICAL_SPEC.md`.
-2. Selected **Godot 4.7.2-stable / GDScript-first / 3D** baseline based on current official stable-release state.
-3. Defined deterministic Domain Core separated from presentation, data schema, commands/reducer/events, exact preview/commit/mutation/restart ordering and transition-epoch stale-callback protection.
-4. Defined deterministic load adapters, C0/C1 reconstruction, atomic/versioned saves, progression registry, input/controller/accessibility abstraction, localization readiness, performance assumptions and diagnostics.
-5. Mapped V01–V18 into executable contracts and defined finite traversal/state solver + headless/property/integration/golden tests.
-6. Defined Phase 12A–12H implementation order with empirical readability/tactility gate immediately after vertical slice and before bulk content.
-7. Added mandatory preflight for finite conserved distribution-path feasibility.
-
-## Completed — Run 10 / Phase 9 Whole-Game Simulation
-1. Created `GAME5_WHOLE_GAME_SIMULATION.md`.
-2. Simulated first boot, settings, onboarding, demo, first hour, Bands A–E, late game, replay, alternate solutions and hostile enumeration.
-3. Simulated pause/quit during preview/transition/mutation, restart spam, stale callbacks, controller disconnect, reduced motion, muted play, corrupt current-run/profile saves and demo/full-build separation.
-4. Found four real finite-state contradictions rather than hiding them:
-   - one-load E01 cannot support 3 conserved distinct bands;
-   - default 3-load B=3 ->2-load removal cannot support 3–5 distinct bands;
-   - 2->3 addition with 4 bands cannot support four distinct pre-revision states;
-   - original 4-band empirical removal prototype is internally impossible.
-5. Derived the important bound that a two-load revision can support at most **3** unique bands, specifically at B=2 for three-state coverage.
-
-## Completed — Run 10 / Phase 10 Adversarial Review + Repairs
-1. Created `GAME5_ADVERSARIAL_REVIEW.md` and attacked repeated feel, hour-5 repetition, extreme/all-TAUT heuristics, blind enumeration, restart brute force, transition timing, mutation fairness, rope/engineering UI creep, movement creep, camera/accessibility, reduced motion, controller disconnect, persistence corruption, demo divergence, performance, validator false confidence, alternate solutions and commercial value.
-2. The selected thesis **survives**; no repair requires a new gameplay pillar or reopening concept selection.
-3. Created authoritative `GAME5_PHASE10_AMENDMENTS.md`.
-4. Added **V19 Distribution Path Feasibility**: every revision must have K distinct conserved vectors forming a legal adjacent one-quantum path for K snap bands.
-5. Added **V20 Mutation Activation Safety**: every objectively reachable activation band must mutate safely into a valid non-softlocked C1 state.
-6. Repaired E01 to two active loads / 3 bands / B=2 rather than a fake one-load exception.
-7. Froze low-load mutation teaching templates: 3->2 remove and 2->3 add use exactly **3 bands / B=2**.
-8. Repaired Band C order to interleave repeated-archetype encounters with relay/location reasoning.
-9. Repaired E16–E20 mutation metadata:
-   - E16 3->2 REMOVE / 3 bands / B=2;
-   - E17 2->3 ADD / 3 bands / B=2;
-   - E18 4->3 REMOVE / 4 bands / B=4;
-   - E19 3->4 ADD / 5 bands / B=3;
-   - E20 4->3 REMOVE / 5 bands / B=4.
-10. Constrained late 4/5-band mutations to feasible 3->4 ADD or 4->3 REMOVE families; no low-load 4/5-band revision is legal.
-11. Repaired demo D04 to the legal 3-band/B=2 removal template.
-12. Repaired empirical prototype into three fixtures: give/take, 4-band mature traversal, and 3-band mutation/return inversion.
-13. Froze controller-disconnect preview rule: disconnect never commits; pause/device prompt preserves non-authoritative preview.
-14. Froze corrupt-save recovery behavior without silent campaign loss or silent new-profile overwrite.
-15. Preserved 26 as working main count but 24–28 remains the acceptable release range; cut redundancy rather than invent mechanics.
-16. Added a Phase-11 requirement: `DESIGN COMPLETE = YES` is forbidden until every retained main encounter has an implementation-ready causal blueprint (exact load set, B, snap path per revision, mutation, reasoning signatures, intended commit/separation structure, traversal-region graph, C0/C1/exit and V01–V20 expectations).
-
-## Selected Game #005 entering Phase 11
-**G5C02 — Tension Budget**
-
-Core remains unchanged:
-- one direct local physical carriage;
-- one fixed shared tension budget;
-- canonical SLACK / TAUT / HIGH;
-- Lift / Counterweighted Gate / Flexible Span only;
-- honest nonnumeric world presentation;
-- authored deterministic distribution paths;
-- no transition-timing solutions;
-- no rope simulation authority;
-- traversal-separated temporary compromise and visible load mutation;
-- controller/low-dexterity advantage;
-- premium compact campaign.
-
-Working concept label remains `Tension Budget`; commercial title is **TBD**.
-
-## Active Game #005 package — mandatory recovery read
-1. `GAME5_RESEARCH.md`
-2. `GAME5_RESEARCH_RUN2.md`
-3. `GAME5_RESEARCH_RUN3.md`
-4. `GAME5_TOURNAMENT.md`
-5. `GAME5_TOURNAMENT_RUN2.md`
-6. `GAME5_TOURNAMENT_RUN3.md`
-7. `GAME5_PRODUCT_THESIS.md`
+## Highest Game #005 design authority
+1. `GAME5_PHASE11_FINAL_FREEZE.md`
+2. `GAME5_ENCOUNTER_BLUEPRINTS.md`
+3. `GAME5_PHASE11_READINESS_AUDIT.md`
+4. `GAME5_PHASE10_AMENDMENTS.md`
+5. `GAME5_TECHNICAL_SPEC.md`
+6. `GAME5_UX_PRESENTATION.md`
+7. `GAME5_CONTENT_ARCHITECTURE.md`
 8. `GAME5_MECHANICS.md`
-9. `GAME5_CONTENT_ARCHITECTURE.md`
-10. `GAME5_UX_PRESENTATION.md`
-11. `GAME5_ECONOMY_COMMERCIAL.md`
-12. `GAME5_TECHNICAL_SPEC.md`
-13. `GAME5_WHOLE_GAME_SIMULATION.md`
-14. `GAME5_ADVERSARIAL_REVIEW.md`
-15. `GAME5_PHASE10_AMENDMENTS.md`
+9. `GAME5_ECONOMY_COMMERCIAL.md`
+10. `GAME5_PRODUCT_THESIS.md`
 
-## NEXT ACTION — GAME #005 RUN 11 / PHASE 11 SPECIFICATION FREEZE
-This must be another **large pass**, not a microstep.
+History/rationale remains in the tournament/research/simulation/review files. Retained `GAME3_*` files are non-canonical history only.
 
-1. Re-read the full authority chain with `GAME5_PHASE10_AMENDMENTS.md` highest on conflicts.
-2. Create an implementation-ready encounter lock (recommended `GAME5_ENCOUNTER_BLUEPRINTS.md`) covering every retained main encounter. For each: exact active load IDs/archetypes, snap count, B, exact distribution vector sequence per revision, mutation load/direction, reasoning signatures, intended meaningful commit sequence class, decision-separating events, canonical region/traversal-edge graph, C0/C1/exit and expected V01–V20 status.
-3. Run a full implementation-readiness audit against all phases and amendments. Do not leave causal level design for implementation to invent.
-4. Cut or repair any encounter that cannot receive a distinct legal blueprint without feature inflation; final count may be 24–28.
-5. Create `GAME5_PHASE11_FINAL_FREEZE.md` only after the encounter lock passes.
-6. Final freeze must include authority order, explicit frozen rules, empirical-only remaining gates, acceptance checklist and dedicated-repo migration manifest/handoff requirements.
-7. Set `DESIGN COMPLETE = YES` only if a fresh implementation session can build without inventing important gameplay.
-8. If DESIGN COMPLETE becomes YES, prepare migration/handoff files in the factory but do not claim Game #005 completion until a dedicated repo exists, migration is verified, factory Game #005 files are removed, `GAME_INDEX.md` is updated and factory resets to Game #006.
-9. Production implementation remains outside factory.
+## Completed — Run 11 / Phase 11 extended pass
+1. Re-read the active Game #005 authority chain with Phase-10 amendments highest on explicit conflicts.
+2. Created `GAME5_ENCOUNTER_BLUEPRINTS.md` and locked all **26 retained main encounters** at causal implementation level.
+3. Defined exact legal distribution-path catalog and exact pre/post mutation families satisfying conserved B, canonical 0/1/2 bands, unique snap states and adjacent one-quantum give/take.
+4. Every encounter now declares exact load IDs/archetypes/order, snap count, B, vector path, mutation direction/load, reasoning signature, intended meaningful commit/separation structure, region/traversal graph, C0/C1/exit and validator expectations.
+5. Tightened E10, E17, E22 and E23 during the readiness pass where initial Phase-11 causal traces still contained unnecessary/ambiguous commit structure.
+6. Preserved the finite-state repairs from Phase 10: no one-load revisions, every two-load revision is 3 bands/B=2, and 4/5-band mutations stay inside legal 3↔4-load families.
+7. Created `GAME5_PHASE11_READINESS_AUDIT.md`; result **PASS FOR DESIGN FREEZE**.
+8. Confirmed no important gameplay rule or causal main-level structure remains intentionally for implementation to invent. Remaining unknowns are empirical feel/readability/repetition gates with explicit prototype rules.
+9. Created `GAME5_PHASE11_FINAL_FREEZE.md` and set **DESIGN COMPLETE = YES**.
+10. Final freeze preserves one local carriage, one fixed shared budget, SLACK/TAUT/HIGH, Lift/Gate/Span only, nonnumeric honest presentation, no transition-timing solutions, no rope-simulation authority, controller/low-dexterity advantage and compact premium scope.
+11. Created `GAME5_MIGRATION_MANIFEST.md` with destination file set, verification procedure and cleanup/reset requirements.
+12. Created migration-ready `GAME5_IMPLEMENTATION_START_HERE.md`, `GAME5_IMPLEMENTATION_STATUS.md` and `GAME5_CI_NOTIFICATION_POLICY.md`.
+13. Implementation handoff freezes Phase 12A–12H and requires the three-fixture empirical gate immediately after the vertical slice and before bulk content.
+14. CI policy explicitly avoids noisy documentation-only push runs and prohibits test-email/Gmail notification workflows.
+15. Searched for target repository `Mikayilzade/tension-budget`; it does **not** currently exist.
+16. Inspected available GitHub write capabilities; current connector can create files/branches/commits inside an existing repository but exposes **no repository-creation action**.
+17. Therefore migration, integrity verification, factory cleanup and reset to Game #006 cannot be completed in this run without the dedicated repository first existing.
+
+## Frozen Game #005 product
+**G5C02 — Tension Budget** *(internal label; commercial title TBD)*
+
+- PC/Steam-first, single-player, offline-capable premium puzzle;
+- elevated top-down/isometric embodied systemic traversal;
+- one local physical tension carriage / 3–5 snap bands;
+- 2–4 loads; fixed shared budget B;
+- SLACK / TAUT / HIGH only;
+- Lift / Counterweighted Gate / Flexible Span only;
+- authored deterministic distribution paths;
+- honest preview, committed stable-state traversal;
+- no numeric engineering UI or detached graph;
+- no free rope construction/rope physics authority;
+- no timing or movement-mastery pillar;
+- 26 frozen main causal blueprints inside acceptable 24–28 release range;
+- ~4–6 hour first-completion target;
+- representative 15–25 minute free demo;
+- working $19.99 USD launch target / $17.99–$21.99 release-decision band;
+- Godot 4.7.2-stable / GDScript-first / 3D technical baseline at freeze time;
+- mandatory early empirical readability/tactility gate.
+
+## Migration package — mandatory recovery read
+1. `GAME5_PHASE11_FINAL_FREEZE.md`
+2. `GAME5_ENCOUNTER_BLUEPRINTS.md`
+3. `GAME5_PHASE11_READINESS_AUDIT.md`
+4. `GAME5_MIGRATION_MANIFEST.md`
+5. `GAME5_IMPLEMENTATION_START_HERE.md`
+6. `GAME5_IMPLEMENTATION_STATUS.md`
+7. `GAME5_CI_NOTIFICATION_POLICY.md`
+8. all canonical files named by the manifest.
+
+## NEXT ACTION — DEDICATED REPOSITORY MIGRATION
+Target slug: `Mikayilzade/tension-budget` unless another Game #005 repository is explicitly provided.
+
+Once the repository exists:
+1. Re-read this `STATUS.md`, `GAME5_PHASE11_FINAL_FREEZE.md` and `GAME5_MIGRATION_MANIFEST.md`.
+2. Migrate all canonical/history files from the manifest.
+3. Copy/rename handoff templates to destination `IMPLEMENTATION_START_HERE.md`, `IMPLEMENTATION_STATUS.md`, `CI_NOTIFICATION_POLICY.md` and add a concise destination authority map/README.
+4. Verify every destination canonical file against factory source content/blob where practical and verify all destination-only authority references.
+5. Confirm destination says DESIGN COMPLETE=YES but IMPLEMENTATION COMPLETE=NO and Phase 12A is the first implementation action.
+6. Only after migration integrity passes: update `GAME_INDEX.md`, remove/reset active Game #005 factory files according to factory rules, and reset `STATUS.md` to clean Game #006 Opportunity Discovery.
+7. Then Game #005 factory completion may be reported and this Game #005 automation may be disabled.
 
 ## Blocker
-**NONE for Phase 11 design work.** Dedicated repository creation may become a migration blocker only after final freeze.
+**Dedicated repository creation.** `Mikayilzade/tension-budget` is absent, and the currently available GitHub connector cannot create a new repository. All design/freeze/migration-preparation work possible inside the existing factory repository is complete.
