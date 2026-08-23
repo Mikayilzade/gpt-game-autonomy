@@ -22,11 +22,12 @@ Branch: `main`
 - Phase 6 UX / Presentation Architecture: **COMPLETE**
 - Phase 7 Economy / Retention / Commercial Model: **COMPLETE**
 - Phase 8 Technical Implementation Specification: **COMPLETE**
-- Phase 9 Whole-Game Simulation: **QUEUED / NOT STARTED**
+- Phase 9 Whole-Game Simulation: **COMPLETE / REPAIR ITEMS FOUND**
+- Phase 10 Adversarial Review: **QUEUED / NOT STARTED**
 - Production implementation inside factory: **NO**
 
 ## Current phase
-**Game #005 — EXTENDED RUN 10 / PHASE 8 COMPLETE / PHASE 9 WHOLE-GAME SIMULATION NEXT.**
+**Game #005 — EXTENDED RUN 10 / PHASE 9 COMPLETE / PHASE 10 ADVERSARIAL REVIEW NEXT.**
 
 ## Highest authority for current factory work
 1. `START_HERE.md`
@@ -44,51 +45,39 @@ Branch: `main`
 13. `GAME5_UX_PRESENTATION.md`
 14. `GAME5_ECONOMY_COMMERCIAL.md`
 15. `GAME5_TECHNICAL_SPEC.md`
+16. `GAME5_WHOLE_GAME_SIMULATION.md`
 
 Retained `GAME3_*` files are historical safety archive only and are **not Game #005 canon**.
 
-## Selection summary — Runs 1–6
-- Phase 1 generated and destructively reduced **60 seeds**.
-- Final tournament: **G5C02 Tension Budget 90.1/100 / risk-adjusted confidence 0.84 — WINNER** versus **G5C37 Zero-G Tool Orbit 86.8/100 / 0.72 — RESERVE**.
-- Eliminated/reserve concepts may not be hybridized into Game #005.
+## Compact history — Runs 1–9
+- 60-seed discovery -> tournament -> G5C02 Tension Budget selected over G5C37 Zero-G Tool Orbit.
+- Product thesis, exact deterministic mechanics, 26-encounter content architecture, UX/accessibility and compact premium commercial model are complete.
+- Core canon remains: local physical carriage, one conserved budget, SLACK/TAUT/HIGH, Lift/Gate/Span only, no numeric/graph UI, no rope simulation authority, traversal-separated temporary compromise, 24–28 main encounters / working 26 / ~4–6h.
 
-## Completed — Run 7 / Phase 3
-- Product thesis locked: PC/Steam-first premium single-player/offline, elevated top-down/isometric traversal puzzle.
-- Local physical carriage on 3–5 snap bands; SLACK/TAUT/HIGH; Lift/Gate/Span only.
-- 24–28 main encounters, working target 26, ~4–6h first completion.
-- Representative 15–25 minute demo and one-week empirical readability/tactility gate frozen.
+## Completed — Run 10 / Phase 8
+- `GAME5_TECHNICAL_SPEC.md` complete.
+- Godot 4.7.2-stable / GDScript-first / 3D baseline.
+- Deterministic Domain Core, data model, command/reducer/events, transition epoch, load adapters, save/versioning/checkpoint reconstruction, progression registry, V01–V18 implementation mapping, traversal solver, tests, localization/performance/input architecture and 12A–12H order defined.
+- Early empirical gate placed after vertical slice and before bulk content.
+- Technical preflight explicitly checks finite distribution-state feasibility for every revision/snap count.
 
-## Completed — Run 8 / Phase 4
-- `GAME5_MECHANICS.md` freezes the deterministic state model.
-- Internal 0/1/2 quanta map to SLACK/TAUT/HIGH and total budget is conserved across bands/revisions.
-- Adjacent bands transfer exactly one quantum from one load to another.
-- Preview is non-authoritative; stable commit determines gameplay state.
-- Exact Lift/Gate/Span traversal contracts, mutation, checkpoints and anti-enumeration rules frozen.
-
-## Completed — Run 9 extended pass / Phases 5–7
-- `GAME5_CONTENT_ARCHITECTURE.md`: 26 encounter skeleton, 18 systemic signatures, V01–V18 validators, four-encounter ~18–24 minute demo, optional remixes capped 4–6 and first-cut.
-- `GAME5_UX_PRESENTATION.md`: controller-native world interaction, elevated readable camera, redundant nonnumeric state language, minimal HUD, restart/checkpoint UX, muted/reduced-motion/controller parity and U01–U10.
-- `GAME5_ECONOMY_COMMERCIAL.md`: premium buy-once, working $19.99 launch target / $17.99–$21.99 decision band, representative free Steam demo, no currency/grind/live service/paid hints.
-
-## Completed — Run 10 extended pass / Phase 8
-1. Re-read current authority chain and mapped canon into implementation boundaries.
-2. Created `GAME5_TECHNICAL_SPEC.md` and marked **PHASE 8 COMPLETE**.
-3. Selected **Godot 4.7.2-stable / GDScript-first / 3D** as current implementation baseline; 4.8 remains development and is not the baseline.
-4. Defined deterministic Domain Core separated from Godot presentation nodes.
-5. Defined EncounterDefinition / LoadDefinition / RigRevisionDefinition / traversal data / runtime state / checkpoint objects.
-6. Defined command -> reducer -> semantic event architecture and exact preview/commit/mutation/restart ordering with transition-epoch stale-callback protection.
-7. Defined deterministic kinematic adapters for Lift/Gate/Span; no rope/rigid-body chaos may own puzzle truth.
-8. Defined C0/C1 semantic checkpoint reconstruction, atomic profile/current-run/settings saves, schema/content versioning and safe migration/fallback.
-9. Mapped validators V01–V18 into executable contracts and defined a finite traversal/state solver.
-10. Added a mandatory technical preflight that verifies each revision has enough distinct conserved distributions connected by legal adjacent one-quantum transfers for the declared snap count. This is mathematically implied by V01/V03/V04 but Phase 9 must audit current content against it.
-11. Defined controller/input abstraction, localization/pseudolocalization readiness, performance assumptions, diagnostics, automated domain/property/integration/golden tests.
-12. Defined Phase 12A–12H implementation sequence with the readability/tactility empirical gate placed immediately after the vertical slice and **before bulk content production**.
-13. No production code was started.
-
-## Selected Game #005 core entering Phase 9
-**G5C02 — Tension Budget**
-
-Working concept label remains `Tension Budget`; commercial title is **TBD**.
+## Completed — Run 10 / Phase 9
+1. Created `GAME5_WHOLE_GAME_SIMULATION.md` and walked first boot, onboarding, demo, first hour, campaign bands, mutation, late game, replay and hostile runtime behavior.
+2. Save/load/checkpoint/restart, pause, quit during preview/transition/mutation, controller disconnect, reduced-motion, muted parity, alternate solutions and corrupt-save recovery were simulated.
+3. The selected product remains coherent, but finite-state audit found four real contradictions:
+   - **P9-C01:** current E01 says one Lift / 3 bands, impossible under fixed conserved budget + adjacent give/take + no duplicates and contradicts normal 2–4 load scope.
+   - **P9-C02:** default 3-load B=3 ->2-load removal cannot support 3–5 unique bands; a two-load B=3 revision has only two legal vectors.
+   - **P9-C03:** current 2->3 addition with 4 bands is impossible because two-load B=2 pre-revision supports at most three unique bands.
+   - **P9-C04:** original 4-band empirical prototype with 3 loads ->2 removal is internally impossible.
+4. Derived exact finite-state bound: a two-load revision can support at most **3 unique snap bands**, and only at central **B=2** for three states `[2,0] / [1,1] / [0,2]`.
+5. Identified bounded repairs that preserve the selected thesis rather than weakening it:
+   - E01 uses at least two loads; second may be non-completion-critical during first teaching beat.
+   - first 3->2 removal uses **3 bands / B=2**.
+   - first 2->3 addition uses **3 bands / B=2**.
+   - 4–5 band mutation content should use 3->4 addition or 4->3 removal with feasible central budgets.
+   - empirical prototype becomes three small fixtures rather than one impossible 4-band removal rig.
+6. Non-fatal risks: E11/E12/E13 repetition cluster; late mutation direction needs explicit feasibility; controller-disconnect preview policy and profile-corruption tests need exact acceptance rules.
+7. No new mechanic, load archetype, resource, timing pillar or hidden information is required to repair the contradictions.
 
 ## Active Game #005 package — mandatory recovery read
 1. `GAME5_RESEARCH.md`
@@ -103,17 +92,18 @@ Working concept label remains `Tension Budget`; commercial title is **TBD**.
 10. `GAME5_UX_PRESENTATION.md`
 11. `GAME5_ECONOMY_COMMERCIAL.md`
 12. `GAME5_TECHNICAL_SPEC.md`
+13. `GAME5_WHOLE_GAME_SIMULATION.md`
 
-## NEXT ACTION — EXTENDED RUN 10 / PHASE 9 WHOLE-GAME SIMULATION
-1. Create `GAME5_WHOLE_GAME_SIMULATION.md`.
-2. Walk first boot, settings/accessibility, first 30 minutes, demo, first hour, Bands A–E, mutation/checkpoint flow, late game, replay and unusual/hostile behavior.
-3. Audit the actual 26-encounter skeleton against the finite distribution-state constraints from Phase 4/8, especially low-load revisions and add/remove mutations.
-4. Find contradictions rather than papering over them.
-5. Test save/load/restart, controller disconnect, reduced-motion, muted play, pause during transition, app quit during preview/transition/mutation and corrupted current-run save.
-6. Test whether progression/demo/shareable clip/commercial promises remain honest.
-7. If contradictions are found, preserve them explicitly for Phase 10 repair.
-8. If Phase 9 completes coherently, continue in the same extended run into Phase 10 Adversarial Review rather than stopping on a microstep.
-9. Do not begin production implementation.
+## NEXT ACTION — EXTENDED RUN 10 / PHASE 10 ADVERSARIAL REVIEW + REPAIRS
+1. Create `GAME5_ADVERSARIAL_REVIEW.md`.
+2. Attack fun/repetition, scope creep, technical ambiguity, brute force/enumeration, accessibility, save corruption, validators, content exhaustion, commercial honesty and implementation ambiguity.
+3. Create `GAME5_PHASE10_AMENDMENTS.md` to make P9-C01..C04 repairs authoritative without rewriting history.
+4. Formalize the finite distribution-feasibility rule and implementation validator.
+5. Repair affected encounter/prototype metadata explicitly, including E16–E20 and late mutation-direction constraints.
+6. Resolve E11/E12/E13 sequencing/repetition risk without adding mechanics.
+7. Resolve controller disconnect during preview and corrupt-save acceptance behavior.
+8. Re-audit all freeze-critical unknowns.
+9. If Phase 10 closes all contradictions, mark Phase 10 COMPLETE and queue Phase 11 Specification Freeze in the same extended run; do not start production implementation.
 
 ## Blocker
-**NONE.** Phase 9 may proceed immediately.
+**NONE.** Phase 10 may proceed immediately.
