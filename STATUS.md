@@ -16,7 +16,7 @@ Branch: `main`
 - Production implementation inside factory: **NO**
 
 ## Current phase
-**Game #006 — PHASE 6 UX / PRESENTATION ARCHITECTURE NEXT.**
+**Game #006 — PHASE 7 ECONOMY / RETENTION / COMMERCIAL MODEL NEXT.**
 
 ## Active authority for Game #006
 1. `START_HERE.md`
@@ -29,107 +29,89 @@ Branch: `main`
 8. `GAME6_PRODUCT_THESIS.md`
 9. `GAME6_MECHANICAL_ARCHITECTURE.md`
 10. `GAME6_CONTENT_ARCHITECTURE.md`
+11. `GAME6_UX_PRESENTATION_ARCHITECTURE.md`
 
 No completed-game design file is active canon for Game #006.
 
 ## Game #006 progress
 
 ### Phase 1 — Opportunity Discovery: **COMPLETE**
-- 36 distinct concepts screened.
-- 10 survivors advanced.
+- 36 distinct concepts screened; 10 survivors advanced.
 - Fresh 2026 market constraints and portfolio exclusions preserved in `GAME6_RESEARCH.md`.
 
 ### Phase 2 — Concept Tournament: **COMPLETE**
-- Run 1 reduced ten survivors to four finalists.
-- Run 2 reduced to Stitchspace, Signal in Flight, The Short Circuit; Common Shaft moved to reserve because its mature abstraction overlapped Tension Budget.
-- Run 3 final-selection duel selected **G6C01 Stitchspace** after exact pitch/demo/scope/tooling/risk/prototype comparisons and a fresh 2026-08-29 exact-mechanic market check.
+- Three destructive tournament passes selected **G6C01 Stitchspace**.
 - Rejected finalists remain historical evidence only and are not Stitchspace canon.
 
 ### Phase 3 — Product Thesis Lock: **COMPLETE**
-`GAME6_PRODUCT_THESIS.md` freezes:
-- working title `Stitchspace`;
-- PC/Steam-first premium single-player/offline frame;
-- systemic spatial/topology puzzle identity;
-- hook: `Rewire which rooms physically touch...`;
-- spatial seam technician fantasy;
-- primary verb: move one existing seam endpoint to another authored edge socket;
-- product vocabulary ceiling;
-- anti-portal differentiation rule;
-- 30–36 main-case target and 1.0 exclusions;
-- demo proof conditions and inherited empirical kill/reopen gate.
-
-Product Thesis Lock: **YES**.
+- Working title `Stitchspace`.
+- PC/Steam-first premium single-player/offline systemic spatial/topology puzzle.
+- Hook: rewire which rooms physically touch; every new adjacency destroys an old one.
+- Primary verb: move one existing seam endpoint to another authored edge socket.
+- Anti-portal differentiation and 1.0 scope ceiling frozen.
 
 ### Phase 4 — Mechanical Architecture: **COMPLETE ON PAPER**
 `GAME6_MECHANICAL_ARCHITECTURE.md` freezes:
-- stable Room / local node-lane / EdgeSocket / OrdinaryPassage / Seam / Entity models;
-- finite visible crossing-orientation mapping;
-- exact `MOVE_SEAM_ENDPOINT` command validation and atomic commit semantics;
-- no canonical intermediate state with both old/new adjacency or a one-ended seam;
-- same-socket no-op, legal-but-bad edits and structural rejection boundaries;
-- discrete crossing transaction and endpoint occupancy lock rules;
-- deterministic player/object/automatic movement model with no authoritative rigid-body physics;
-- shared-start-state movement grouping and ambiguity rejection;
-- 24-step automatic movement chain ceiling;
-- 1 seam teaching baseline, 2 seam mature norm, rare authored 3-seam ceiling with explicit justification;
-- declarative objectives, hard vs soft/protected invariants, settled-state completion and dead-end/soft-lock policy;
-- exact Undo/Redo transaction restoration and branch truncation;
-- canonical gameplay state serialization/hash excluding presentation state;
-- finite solver-state/search assumptions and intended validation uses;
-- global difficulty knobs that do not become new mechanics;
-- anti-portal mechanical contracts M4-AP1..M4-AP8;
-- mechanical edge-case matrix;
-- 40 numbered Phase-4 acceptance tests;
-- retained mechanical risk gates M4-R1..M4-R6 for later content/UX/prototype attack.
-
-Mechanical Architecture: **COMPLETE ON PAPER**.
+- deterministic Room / node-lane / EdgeSocket / OrdinaryPassage / Seam / Entity model;
+- atomic `MOVE_SEAM_ENDPOINT` semantics and structural rejection boundary;
+- discrete crossing/orientation/occupancy locks;
+- deterministic mover grouping and 24-step chain ceiling;
+- 1/2/rare-3 seam architecture;
+- exact Undo/Redo and canonical state/hash assumptions;
+- anti-portal mechanical contracts and 40 acceptance tests.
 
 ### Phase 5 — Content Architecture: **COMPLETE ON PAPER**
-`GAME6_CONTENT_ARCHITECTURE.md` now defines:
-- 34-case C01–C34 campaign architecture across five teaching/maturity bands;
-- 5-case DEMO01–DEMO05 sequence and target 8 remixes;
-- exact one-seam -> two-seam -> rare-three-seam progression and <=3 three-seam target;
-- representative blueprints from first replacement through capstone synthesis;
-- room/socket/entity vocabulary ceilings;
-- complete data-driven case schema with solution/validation metadata;
-- mandatory baseline fixtures and optional mastery fixtures;
-- 12-family abstract solution-skeleton taxonomy;
-- C15+ anti-isomorphism rule: no three-case same-family run and >=3 skeleton families per five-case window;
-- explicit lost-adjacency materiality classification and anti-portal gate;
-- direct-current-room-to-goal shortcut audit;
-- solver/validator pipeline covering structure, ambiguity, fixture replay, reachability, shortcut, lost-adjacency, physical-use-between-edits, skeleton diversity and remix/mastery distinction;
-- quantitative reachable-state targets: <=5k early, <=50k normal mature, warning >100k, explicit review >250k, stricter three-seam review;
-- deterministic automatic-mover authoring rules with no timing/contention dependency;
-- mastery/remix validity boundaries;
-- 1.0 expansion exclusions;
-- 8 content risk gates C5-R1..C5-R8;
-- 50 numbered Phase-5 acceptance tests.
+`GAME6_CONTENT_ARCHITECTURE.md` freezes:
+- C01–C34 campaign across five bands;
+- DEMO01–DEMO05 and target 8 remixes;
+- one-seam -> two-seam -> rare-three-seam progression;
+- full data-driven case schema and known solution fixtures;
+- anti-isomorphism/lost-adjacency/anti-shortcut validation;
+- solver state-space thresholds and deterministic mover authoring;
+- 50 acceptance tests.
 
-Content Architecture: **COMPLETE ON PAPER**.
+### Phase 6 — UX / Presentation Architecture: **COMPLETE ON PAPER**
+`GAME6_UX_PRESENTATION_ARCHITECTURE.md` now freezes:
+- application hierarchy, first-launch setup, Case Board/Brief/Play/Completion flow;
+- physical room-stage as primary play surface with stable room identity/local frames;
+- seam/endpoint/socket/ordinary-passage visual language;
+- atomic replacement animation that never implies a playable one-ended/double-connected seam;
+- mandatory simultaneous OLD-adjacency-loss + NEW-adjacency preview;
+- direct physical crossing-orientation ghost preview without compass arithmetic;
+- mouse+keyboard, keyboard-only and controller-only semantic endpoint-edit flows;
+- deterministic focus graph independent of camera/animation/hash/scene order;
+- compact topology overview as inspect/navigation aid, not primary editor;
+- deterministic entity/mover/crossing-lock presentation;
+- causal ribbon, Case Rail, Undo/Redo/history presentation;
+- Pause/Step semantics at canonical movement boundaries;
+- color-independent, no-audio, reduced-motion, high-clarity and scalable-UI contract;
+- Steam Deck 1280×800 target grounded in current Steamworks guidance, including 9 px absolute text floor / ~12 px practical target and full controller functionality;
+- DEMO01–DEMO05 onboarding/presentation proof sequence;
+- save/recovery messaging boundaries;
+- explicit anti-Portal visual-identity rules;
+- 10 empirical UX/readability gates U6-R1..U6-R10;
+- 77 numbered Phase-6 acceptance tests.
+
+UX / Presentation Architecture: **COMPLETE ON PAPER**.
 Production implementation started: **NO**.
 DESIGN COMPLETE: **NO**.
 
-## NEXT ACTION — GAME #006 / PHASE 6 UX / PRESENTATION ARCHITECTURE
-Freeze how Stitchspace communicates changing remote adjacency without becoming a detached graph editor:
-1. application/screen hierarchy and first-session flow;
-2. world/camera representation and stable room recognizability;
-3. seam/endpoint/socket visual language and replacement animation;
-4. old-adjacency-loss + new-adjacency preview boundaries;
-5. crossing orientation preview without compass bookkeeping;
-6. physical endpoint selection/edit flow for mouse+keyboard, keyboard-only and controller-only;
-7. deterministic focus/navigation graph;
-8. compact topology overview that explains but is not the primary editor;
-9. entity/mover/occupancy visualization;
-10. causal explanation after edits/crossings;
-11. Undo/Redo/history presentation;
-12. accessibility, reduced motion, no-audio, color independence and scalable UI;
-13. Steam Deck 1280×800 target;
-14. DEMO onboarding/presentation flow;
-15. Pause/Step semantics for deterministic movers;
-16. save/recovery messaging boundaries;
-17. empirical readability gates and numbered Phase-6 acceptance tests.
+## NEXT ACTION — GAME #006 / PHASE 7 ECONOMY / RETENTION / COMMERCIAL MODEL
+Use fresh current market/Steam evidence where pricing/demo/platform expectations matter, then freeze:
+1. design-time price band and value thesis for the 5–8 hour target;
+2. exact campaign unlock/progression graph and completion gating;
+3. mastery/remix unlock pacing and non-grind retention;
+4. hint/assist information ladder with no mechanical advantage;
+5. achievement boundaries that do not punish Undo, accessibility, Pause/Step or experimentation;
+6. difficulty/accessibility relationship;
+7. demo-to-full transition/import behavior;
+8. Steam/Deck feature scope, offline guarantees and cloud-save boundaries;
+9. monetization exclusions and no-FOMO/no-daily/no-currency policy;
+10. optional post-1.0 expansion boundaries without withholding core mechanics;
+11. perceived-value/commercial risks and empirical gates;
+12. numbered Phase-7 acceptance tests.
 
-After Phase 6 is coherent, continue to Phase 7 Economy / Retention / Commercial Model. Do not start production implementation in the factory.
+After Phase 7 is coherent, continue to Phase 8 Technical Implementation Specification. Do not start production implementation in the factory.
 
 ## Blocker
 **NONE.**
