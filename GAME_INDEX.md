@@ -1,6 +1,6 @@
 # GAME INDEX
 
-This file tracks games produced by the reusable design factory. Finished game-specific design leaves the factory after verified migration; dedicated repositories own implementation.
+This file tracks games produced by the reusable design factory. Dedicated repositories own implementation. After verified migration, finished game-specific design normally leaves the factory; however, a frozen completed game may remain temporarily as a **non-active safety archive** when its dedicated repository does not yet exist. A pending migration must not block design of the next numbered game.
 
 | # | Game | Design status | Dedicated repository | Implementation status | Notes |
 |---|---|---|---|---|---|
@@ -9,7 +9,8 @@ This file tracks games produced by the reusable design factory. Finished game-sp
 | 003 | **Borrowed Collision** | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/borrowed-collision` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | Frozen design package and autonomous implementation handoff migrated. Final-freeze blob matches source SHA `d227433d40d4a8e73334702833b099befb25a2b0`. |
 | 004 | **HEARWALL** *(working title)* | DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified | `Mikayilzade/hearwall` | Phase 12A ready | Dedicated implementation handoff verified. |
 | 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. Canonical 10-file authority chain migrated with source-identical blob SHAs; rationale-only original Run-1 research copy is text-preserved with Git history retaining its original blob. |
-| 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory. Phase 10 destructive review and Phase 11 final freeze complete; EG-01..EG-15 retained for implementation/playtest. Migration waits only for creation of the dedicated repository. |
+| 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon for Game #007. EG-01..EG-15 retained for implementation/playtest. Migration can happen later without blocking the factory. |
+| 007 | **TBD** | **IN DESIGN / Phase 1 opportunity discovery** | TBD | **NOT STARTED** | Current active factory slot. Must not inherit Game #006 mechanics as canon. |
 
 ## Game #005 frozen identity
 - selected concept: G5C02 Tension Budget; strongest reserve G5C37 Zero-G Tool Orbit;
@@ -39,5 +40,10 @@ This file tracks games produced by the reusable design factory. Finished game-sp
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
 
-## Migration rule
-Dedicated repositories own implementation and future game-specific work. The factory returns to a clean next-game slot only after migration integrity is verified and game-specific active files are removed.
+## Migration / continuity rule
+1. Dedicated repositories own implementation and future game-specific production work.
+2. Never delete a finished game's factory safety copy before destination migration integrity is verified.
+3. If the dedicated repository does not yet exist, mark that game `migration pending` and retain its `GAME<N>_*` files as a **frozen non-active safety archive**.
+4. A migration-pending archive does **not** block the next sequential design slot.
+5. `STATUS.md` must name exactly which numbered slot is active; older retained archives are never active canon for the new game.
+6. When the dedicated repository later becomes available, migrate and verify that game's archive independently, then remove only that completed game's retained files.
