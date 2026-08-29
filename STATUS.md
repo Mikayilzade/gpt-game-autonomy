@@ -15,7 +15,7 @@ Branch: `main`
 - Production implementation inside factory: **NO**
 
 ## Current phase
-**Game #006 — PHASE 2 CONCEPT TOURNAMENT / RUN 2 FINALIST FALSIFICATION NEXT.**
+**Game #006 — PHASE 2 CONCEPT TOURNAMENT / RUN 3 FINAL SELECTION DUEL NEXT.**
 
 ## Active authority for Game #006
 1. `START_HERE.md`
@@ -23,6 +23,7 @@ Branch: `main`
 3. `GAME_INDEX.md`
 4. `GAME6_RESEARCH.md`
 5. `GAME6_TOURNAMENT.md`
+6. `GAME6_TOURNAMENT_RUN2.md`
 
 No completed-game design file is active canon for Game #006.
 
@@ -34,53 +35,53 @@ No completed-game design file is active canon for Game #006.
 - Fresh 2026 market constraints and portfolio exclusions preserved in `GAME6_RESEARCH.md`.
 
 ### Phase 2 — Concept Tournament Run 1: **COMPLETE**
-`GAME6_TOURNAMENT.md` records a uniform destructive pass over all ten survivors, including for every concept:
-- exact 10-second mute clip;
-- first 15-minute demo;
-- representative mature 30-minute session;
-- 24 situations grouped by genuine transformations;
-- dominant exploit and smallest global counter-rule;
-- controller/keyboard grammar;
-- hour-3/hour-10 depth test;
-- art/UI/simulation/content/QA burden;
-- refined-mechanic analogue check;
-- strongest likely negative review;
-- one-week PASS/KILL gate.
+- Uniform destructive pass over all ten survivors.
+- Four finalists emerged: Stitchspace, The Short Circuit, Signal in Flight, Common Shaft.
+- Floor Plan Surgery and Checkpoint Material retained as reserves; remaining survivors cut.
 
-Fresh refined-mechanic checks reinforced that generic portals, gear routing, ordinary circuit construction and continuous thermal simulation are already expectation-heavy spaces. Concepts survive only where the exact repeated noun+verb remains distinct.
+### Phase 2 — Concept Tournament Run 2 Finalist Falsification: **COMPLETE**
+`GAME6_TOURNAMENT_RUN2.md` now freezes and attacks the four finalist candidates with:
+- smallest exact primitive/state vocabulary;
+- exact state-changing command semantics;
+- eight graybox cases each with expected solution skeletons;
+- dominant/static/trivial strategy attacks;
+- exact first 20 minutes and first two hours;
+- hour-10 depth test without new primary verbs;
+- content compiler/validator and alternate-solution-search burden;
+- one-week prototype plan and measurable PASS/KILL thresholds;
+- fresh exact-mechanic analogue checks;
+- direct portfolio-distance tests against Games #001–#005.
 
-### Finalists after destructive Run 1
-1. **G6C01 Stitchspace** — stitch exposed room edges to rewire topological adjacency. Best scope/depth/portfolio balance; must prove it is not portal placement with different visuals.
-2. **G6C05 The Short Circuit** — intentionally create bounded faults to invoke useful fail-safe/fallback states. Strong surprise improvement; must avoid ordinary circuit-puzzle identity.
-3. **G6C03 Signal in Flight** — edit/reroute commands while they are already travelling. Strong temporal-state reasoning; must remain readable with multiple pulses.
-4. **G6C08 Common Shaft** — clutch/unclutch devices onto one shared mechanical shaft. Strong tactile causal coupling; must prove distance from Tension Budget and generic gear/load puzzles.
+Fresh 2026 checks reinforced the differentiation constraints:
+- Stitchspace must be adjacency replacement/disconnection, not portal placement or folding.
+- Signal in Flight must edit commands after execution has begun, not become static cable construction.
+- The Short Circuit must weaponize deterministic protection/fallback states, not become ordinary electronics assembly.
+- Common Shaft remains a good standalone concept but fails portfolio-distance after Tension Budget: its mature abstraction still reduces too often to selecting active loads so one shared banded physical state changes across them.
 
-### Reserves
-1. **G6C06 Floor Plan Surgery** — exceptional mute clip, but hour-10 transformation currently requires subsystem accretion.
-2. **G6C07 Checkpoint Material** — formal depth and low code burden, but weak tactile fantasy/calibration-homework risk.
+### Final three after Run 2
+1. **G6C01 Stitchspace** — ADVANCES. Best scope/depth ratio and discrete topology tooling path; existential risk is commercial communication versus Portal/folding comparisons.
+2. **G6C03 Signal in Flight** — ADVANCES. Best temporal-state transformation and portfolio independence; existential risk is multi-pulse readability and solver/UI burden.
+3. **G6C05 The Short Circuit** — ADVANCES. Best surprise fantasy/mute clip; existential risk is mature content breadth beyond repeated breaker-trip/fallback patterns.
 
-### Eliminated in Tournament Run 1
-- G6C04 Heatprint — discrete-vs-simulation expectation mismatch and content taxonomy burden.
-- G6C36 Service Window — bespoke machinery, art and focus/UI scaling burden.
-- G6C02 Last Contact — generic property-transfer interpretation and portfolio collision.
-- G6C09 Vacuum Shape — soft-body expectation plus animation/content burden.
+### Reserve after Run 2
+- **G6C08 Common Shaft** — CUT TO RESERVE due direct portfolio collision with Tension Budget despite strong standalone mechanics.
 
 No final Game #006 concept is selected.
 
-## NEXT ACTION — GAME #006 / PHASE 2 RUN 2 FINALIST FALSIFICATION
-For all four finalists:
-1. freeze the smallest exact primitive/state vocabulary;
-2. define 8 graybox cases with expected solution skeletons;
-3. attack each for trivial/static/dominant solutions;
-4. compare hour-10 reasoning with no new primary verbs;
-5. run fresh exact-mechanic analogue checks;
-6. specify exact first 20 minutes and first two hours;
-7. define content compiler/validator and alternate-solution-search burden;
-8. define a one-week prototype plan with binary kill thresholds;
-9. perform direct portfolio-distance tests against Games #001–#005;
-10. reduce to **2–3 final contenders** only if evidence warrants it.
+## NEXT ACTION — GAME #006 / PHASE 2 RUN 3 FINAL SELECTION DUEL
+For Stitchspace, Signal in Flight and The Short Circuit:
+1. freeze one exact one-sentence Steam pitch and 10-second mute trailer beat;
+2. write exact first 20 minutes and first two hours at product pacing level;
+3. define minimum shippable commercial scope and plausible first-clear duration;
+4. perform a final current market/analogue check on exact frozen mechanic wording;
+5. define content-production throughput and validation-tooling plan;
+6. define perceived-value and strongest likely negative Steam review case;
+7. compare implementation schedule risk under the same solo/small-team assumption;
+8. define one-week prototype plan and binary decision using measurable thresholds;
+9. explicitly compare `why this game, why now, why not the other two`;
+10. select exactly one Game #006 winner only if evidence is decisive. If evidence is not decisive, document a two-prototype duel and the exact empirical reason.
 
-Do not enter Product Thesis until this falsification round is complete and no winner should be chosen from the current score table alone.
+Only after the final selection may Phase 3 Product Thesis Lock begin.
 
 ## Blocker
 **NONE.**
