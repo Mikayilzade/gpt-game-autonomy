@@ -27,13 +27,14 @@ User direction on 2026-08-30 changes the old migration-blocking workflow:
 This continuity rule supersedes the earlier Game #006 `do not reset to Game #007 yet` migration gate.
 
 ## Current phase
-**Game #007 — PHASE 1 OPPORTUNITY DISCOVERY / READY TO BEGIN.**
+**Game #007 — PHASE 2 CONCEPT TOURNAMENT / RUN 1 READY.**
 
 ## Active authority for Game #007
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
-4. every `GAME7_*` file created and subsequently named here.
+4. `GAME7_RESEARCH.md`
+5. subsequent `GAME7_*` files named here.
 
 No `GAME6_*` file is active canon for Game #007. Game #006 files remain frozen solely to prevent data loss until `Mikayilzade/stitchspace` can be created and migration verified.
 
@@ -43,37 +44,61 @@ No `GAME6_*` file is active canon for Game #007. Game #006 files remain frozen s
 - DESIGN COMPLETE: **YES**
 - Production implementation started: **NO**
 - Dedicated repository target: `Mikayilzade/stitchspace`
-- Repository currently unavailable/not created at the last check.
 - MIGRATION COMPLETE: **NO**
 - Required later action: copy frozen package + implementation handoff + CI/email policy, verify source/destination integrity, update `GAME_INDEX.md`, then remove only `GAME6_*` safety archive files.
 - This is a housekeeping/migration backlog item and is **not a factory blocker**.
 
 ## Game #007 progress
 
-### Phase 1 — Opportunity Discovery: **NOT STARTED**
-Goal for the first substantial run:
-- use fresh 2026 market/platform evidence where relevant;
-- inspect portfolio exclusions from Games #001–#006 without treating their mechanics as reusable canon;
-- generate a broad field of genuinely distinct concepts (target ~30–40, not cosmetic variants);
-- reject obvious clones, saturated formulations, disproportionate production burdens and concepts whose hook cannot be shown quickly;
-- retain roughly 8–12 survivors for Phase 2;
-- save rationale and explicit rejection reasons in `GAME7_RESEARCH.md` (additional research-run files allowed when useful).
+### Phase 1 — Opportunity Discovery: **COMPLETE / RUN 1**
+`GAME7_RESEARCH.md` created.
 
-## NEXT ACTION — GAME #007 PHASE 1
-Run a substantial **Opportunity Discovery** pass now.
+Fresh 2026 market sampling was used to identify crowded visible formulations including roguelike deckbuilders/card battlers, incremental/idler hybrids, horror/survival-horror, multiplayer/co-op, survival/crafting and automation/building. These are treated as saturation warnings, not absolute exclusions.
 
-Required output:
-1. fresh market/context research where current evidence matters;
-2. a broad candidate field for Game #007;
-3. explicit portfolio-exclusion check against Games #001–#006;
-4. destructive first-pass scoring/rejections;
-5. approximately 8–12 survivors with distinct hooks and plausible small-team scope;
-6. create/update `GAME7_RESEARCH.md`;
-7. update this `STATUS.md` with exact Phase-1 progress and next action.
+Portfolio exclusion against Games #001–#006 was applied explicitly before concept selection.
 
-If Phase 1 cleanly completes in one run, continue directly into the first meaningful Phase-2 tournament increment rather than stopping on a status-only boundary.
+Results:
+- broad candidate field: **36**;
+- survivors: **10**;
+- reserve/hold concepts: **11**;
+- rejected on first pass: **15**;
+- selected concept: **NONE**.
+
+Phase-2 survivors:
+1. G7C01 **Decommission**
+2. G7C02 **Last Known Shape**
+3. G7C03 **Command Lag**
+4. G7C04 **Offscreen Shift**
+5. G7C05 **Spare Parts Choir**
+6. G7C06 **Museum of Almosts**
+7. G7C07 **Queue Collapse**
+8. G7C08 **Chain of Custody**
+9. G7C09 **Understudy Controls**
+10. G7C10 **Recurrence Department**
+
+Provisional interest is highest in Decommission, Command Lag, Last Known Shape, Recurrence Department and Offscreen Shift, but no Phase-1 ranking is binding.
+
+## NEXT ACTION — GAME #007 PHASE 2 RUN 1
+Perform an equal destructive **Concept Tournament** across all 10 survivors.
+
+For every concept specify and attack:
+1. exact 30-second repeated loop;
+2. 10-minute learning arc;
+3. hour-4 depth source;
+4. dominant-strategy failure mode;
+5. content-production burden;
+6. technical/determinism risk;
+7. visual/demo readability;
+8. accessibility/input burden;
+9. portfolio-collision risk against Games #001–#006;
+10. current-market/derivative risk;
+11. explicit kill condition.
+
+Do not select a winner merely from novelty. Kill concepts whose repeated play collapses after the first `aha`.
+
+Target after Run 1: reduce **10 → roughly 4–6 serious finalists** and save the tournament rationale in a new `GAME7_TOURNAMENT.md` (or equivalent clearly named Game #007 file). If that pass is short and decisive, continue into a deeper falsification run rather than stopping on a phase-label microstep.
 
 ## Blockers
 **NONE for Game #007 design.**
 
-Game #006 migration is pending external repository creation, but the frozen safety archive remains intact and does not block factory continuity.
+Game #006 migration remains pending but is explicitly non-blocking.
