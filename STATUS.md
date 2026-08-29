@@ -16,7 +16,7 @@ Branch: `main`
 - Production implementation inside factory: **NO**
 
 ## Current phase
-**Game #006 — PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION NEXT.**
+**Game #006 — PHASE 10 ADVERSARIAL REVIEW NEXT.**
 
 ## Active authority for Game #006
 1. `START_HERE.md`
@@ -31,77 +31,90 @@ Branch: `main`
 10. `GAME6_CONTENT_ARCHITECTURE.md`
 11. `GAME6_UX_PRESENTATION_ARCHITECTURE.md`
 12. `GAME6_ECONOMY_COMMERCIAL.md`
+13. `GAME6_TECHNICAL_SPEC.md`
+14. `GAME6_WHOLE_GAME_SIMULATION.md`
 
 No completed-game design file is active canon for Game #006.
 
 ## Game #006 progress
 
 ### Phase 1 — Opportunity Discovery: **COMPLETE**
-- 36 distinct concepts screened; 10 survivors advanced.
-- Fresh 2026 market constraints and portfolio exclusions preserved in `GAME6_RESEARCH.md`.
+36 distinct concepts screened; 10 survivors advanced.
 
 ### Phase 2 — Concept Tournament: **COMPLETE**
-- Three destructive tournament passes selected **G6C01 Stitchspace**.
-- Rejected finalists remain historical evidence only and are not Stitchspace canon.
+Three destructive tournament passes selected **G6C01 Stitchspace**.
 
 ### Phase 3 — Product Thesis Lock: **COMPLETE**
-- Working title `Stitchspace`.
-- PC/Steam-first premium single-player/offline systemic spatial/topology puzzle.
-- Hook: rewire which rooms physically touch; every new adjacency destroys an old one.
-- Primary verb: move one existing seam endpoint to another authored edge socket.
-- Anti-portal differentiation and 1.0 scope ceiling frozen.
+PC/Steam-first premium single-player/offline systemic spatial/topology puzzle. Hook: rewire which rooms physically touch; every new adjacency destroys an old one. Anti-portal differentiation and 1.0 scope ceiling frozen.
 
 ### Phase 4 — Mechanical Architecture: **COMPLETE ON PAPER**
-`GAME6_MECHANICAL_ARCHITECTURE.md` freezes deterministic rooms/sockets/passages/seams/entities, atomic `MOVE_SEAM_ENDPOINT`, discrete crossing/orientation/occupancy, deterministic mover resolution, 24-step chain ceiling, 1/2/rare-3 seam architecture, exact Undo/Redo, canonical state/hash assumptions, anti-portal contracts and 40 acceptance tests.
+Deterministic rooms/sockets/passages/seams/entities, atomic `MOVE_SEAM_ENDPOINT`, finite orientation/crossing/occupancy, deterministic movers, 24-step ceiling, 1/2/rare-3 seams, exact Undo/Redo and 40 acceptance tests.
 
 ### Phase 5 — Content Architecture: **COMPLETE ON PAPER**
-`GAME6_CONTENT_ARCHITECTURE.md` freezes C01–C34, DEMO01–DEMO05, target R01–R08, campaign bands, rare-three-seam budgets, data-driven case schema, known solution fixtures, solver thresholds, lost-adjacency/anti-shortcut/anti-isomorphism validation and 50 acceptance tests.
+C01–C34, DEMO01–DEMO05, target R01–R08, campaign bands, solver/validator, lost-adjacency/anti-shortcut/anti-isomorphism rules and 50 acceptance tests.
 
 ### Phase 6 — UX / Presentation Architecture: **COMPLETE ON PAPER**
-`GAME6_UX_PRESENTATION_ARCHITECTURE.md` freezes physical-world-first layout, OLD->NEW adjacency preview, seam/socket/orientation language, mouse+keyboard/keyboard-only/controller flows, deterministic focus graph, topology overview boundary, mover/occupancy presentation, Undo/Redo/history, Pause/Step, accessibility, Deck 1280×800 target, demo onboarding, save/recovery messaging, anti-Portal presentation identity, 10 empirical UX/readability gates and 77 acceptance tests.
+Physical-world-first layout, OLD→NEW adjacency preview, seam/socket/orientation language, deterministic focus, controller/keyboard paths, Pause/Step, accessibility, Deck 1280×800 and 77 acceptance tests.
 
 ### Phase 7 — Economy / Retention / Commercial Model: **COMPLETE ON PAPER**
-`GAME6_ECONOMY_COMMERCIAL.md` freezes:
-- premium one-time purchase; working US list target **$17.99**, release-review band **$14.99–$19.99**;
-- value thesis based on 5–8 hours of materially distinct causal spatial puzzles rather than raw case count;
-- exact acyclic C01–C34 chapter unlock graph, with **C34 reachable with zero mastery and zero remix completion**;
-- optional mastery families based on useful disconnection, topology compression, preservation, entity order and alternate causal skeletons;
-- target 8 remixes in three packs: R01–R02 after C14, R03–R05 after C24, R06–R08 after C34;
-- H0–H4 information-only hint ladder; H4 explicit opt-in solution guidance; no no-hint prestige requirement;
-- one canonical ruleset with accessibility/information assists rather than punitive mechanically easier mode;
-- bounded proposed 16-achievement set and explicit exclusions for zero-Undo/no-hint/no-Pause/speed/grind/device achievements;
-- DEMO01–DEMO05 commercial proof sequence and explicit demo->full versioned, monotonic, idempotent import mapping;
-- Steam/Deck scope: offline single-player guarantee, local saves independent of Cloud, Steam Cloud as transport, controller/Deck target, no Verified claim before Valve result;
-- one-time premium monetization only; no ads, MTX, currency, FOMO, dailies, energy, battle pass, paid hints/Undo or withheld core mechanics;
-- post-1.0 case-pack boundaries that require 1.0 to remain complete;
-- 10 commercial/perceived-value risks C7-R1..C7-R10;
-- **72 numbered Phase-7 acceptance tests**.
+Working US list target $17.99, release-review band $14.99–$19.99, exact C01–C34 unlock graph, mastery/remix without grind, H0–H4 hints, bounded achievements, demo→full contract, offline/Cloud boundaries and 72 acceptance tests.
 
-Economy / Retention / Commercial Model: **COMPLETE ON PAPER**.
+### Phase 8 — Technical Implementation Specification: **COMPLETE ON PAPER**
+`GAME6_TECHNICAL_SPEC.md` freezes:
+- Godot **4.7.2-stable** initial pin after fresh 2026-08-29 engine check;
+- strict Domain Core / Presentation / Platform Adapter split;
+- typed canonical Room/Node/Socket/Passage/Seam/Entity/Case models;
+- semantic command envelope with command ID + expected revision/hash;
+- deterministic atomic seam replacement and mover/crossing resolver;
+- canonical serialization/SHA-256-compatible hash ordering;
+- exact checkpoint Undo/Redo;
+- content compiler/validator/solver sharing Domain Core;
+- temp/primary/backup persistence with fault injection;
+- monotonic profile Cloud merge but never active-case branch synthesis;
+- explicit versioned idempotent demo→full import;
+- semantic input and authored focus independent of presentation geometry;
+- localization/pseudolocalization readiness;
+- runtime/Deck/headless budgets, support replay bundle and Phase 12A–12H implementation order;
+- **60 Phase-8 acceptance tests**.
+
+### Phase 9 — Whole-Game Simulation on Paper: **COMPLETE ON PAPER**
+`GAME6_WHOLE_GAME_SIMULATION.md` simulates first boot through C34/post-clear, hostile legal states, Undo/Redo, movers/Pause/Step, persistence crash recovery, Cloud divergence, demo→full, controller/Deck/localization and commercial pacing.
+
+Nine bounded repairs/clarifications were recorded:
+- **P9-R1** C07–C10 explicitly document why the lost adjacency materially matters;
+- **P9-R2** >=2 seams require persistent redundant pair identity even when idle;
+- **P9-R3** mature currently relevant target density normally <=6 per selected endpoint or requires readability justification;
+- **P9-R4** C34 defaults to 2 seams; third seam needs exceptional proof plus later readability evidence;
+- **P9-R5** mover/occupancy cases require Step-compatible baseline fixture with no wall-clock predicate;
+- **P9-R6** demo/store CTA may not interrupt DEMO05 causal reveal;
+- **P9-R7** invalid-edit reasons use bounded reason codes + localized templates;
+- **P9-R8** Phase 12G measures expert and broader-target first-clear time separately;
+- **P9-R9** C15–C34 causal-skeleton metadata strengthened; no 3-case mature window shares one dominant skeleton and every 5-case window targets >=3 families.
+
+Phase-9 acceptance checks: **16**.
+
 Production implementation started: **NO**.
 DESIGN COMPLETE: **NO**.
 
-## NEXT ACTION — GAME #006 / PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION
-Freeze implementation architecture without starting production code:
-1. engine/version/runtime direction and why it matches Stitchspace's deterministic 2D/room-stage presentation;
-2. strict Domain Core vs Presentation vs Platform Adapter separation;
-3. canonical typed data model for Room, EdgeSocket, OrdinaryPassage, Seam, Entity, objectives, profile progression and content versions;
-4. semantic command envelope with command ID + expected revision/hash and atomic `MOVE_SEAM_ENDPOINT` transaction;
-5. deterministic crossing/orientation/occupancy/mover resolution and chain-limit semantics;
-6. canonical serialization/hash ordering and replay determinism;
-7. exact Undo/Redo checkpoint model;
-8. content compiler/validator + known solution fixture/solver hooks and Phase-5 anti-isomorphism checks;
-9. local persistence save envelope, temp/primary/backup recovery and crash-injection boundaries;
-10. Steam Cloud adapter and divergent active-case conflict policy;
-11. demo->full import implementation contract from Phase 7;
-12. semantic input/action/focus architecture independent of camera/presentation geometry;
-13. localization/pseudolocalization/readability implementation readiness;
-14. performance budgets for desktop/Steam Deck target and deterministic test/headless tooling;
-15. support/replay bundle for reproducible bug reports;
-16. implementation order mapped to Phase 12A–12H;
-17. numbered Phase-8 acceptance tests.
+## NEXT ACTION — GAME #006 / PHASE 10 ADVERSARIAL REVIEW
+Perform a dedicated destructive review across the complete Phase-3..9 authority:
+1. attack the fun/novelty thesis and likely hour-3/hour-6 repetition;
+2. attack portal misread and whether the seam still feels like one persistent relationship;
+3. search for dominant strategies: nearest-target, stable-lifeline, connect-current-room-to-goal, minimal-edit and blind target cycling;
+4. attack alternate-solution/state-space explosion and solver tractability;
+5. attack two/three-seam readability, C30/C34 complexity and P9-R2/R3/R4;
+6. attack orientation/facing bookkeeping and physical-world readability;
+7. attack simultaneous crossing/occupancy/mover resolution for hidden order dependence;
+8. attack Undo/Redo, stale/duplicate commands, save crash boundaries and Cloud branch conflicts;
+9. attack keyboard/controller focus ambiguity, remapping recovery, Deck 1280×800 and pseudolocalization;
+10. attack demo commercial proof, likely first-clear duration/value and price assumptions;
+11. attack content-production scope, authored-case burden and accidental bespoke-rule creep;
+12. attack implementation ambiguity between Phase-4/5/6/8 contracts;
+13. reconcile P9-R1..P9-R9 into explicit Phase-10 repairs/acceptance gates;
+14. retain genuine prototype/playtest uncertainties as empirical gates rather than pretending paper review proves them;
+15. produce numbered Phase-10 acceptance tests and exact Phase-11 freeze prerequisites.
 
-After Phase 8 is coherent, continue to Phase 9 Whole-Game Simulation on Paper. Do not start production implementation in the factory.
+If Phase 10 is coherent, proceed to Phase 11 Specification Freeze. Do not start production implementation inside the factory.
 
 ## Blocker
 **NONE.**
