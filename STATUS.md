@@ -16,7 +16,7 @@ Branch: `main`
 - Production implementation inside factory: **NO**
 
 ## Current phase
-**Game #006 — PHASE 7 ECONOMY / RETENTION / COMMERCIAL MODEL NEXT.**
+**Game #006 — PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION NEXT.**
 
 ## Active authority for Game #006
 1. `START_HERE.md`
@@ -30,6 +30,7 @@ Branch: `main`
 9. `GAME6_MECHANICAL_ARCHITECTURE.md`
 10. `GAME6_CONTENT_ARCHITECTURE.md`
 11. `GAME6_UX_PRESENTATION_ARCHITECTURE.md`
+12. `GAME6_ECONOMY_COMMERCIAL.md`
 
 No completed-game design file is active canon for Game #006.
 
@@ -51,67 +52,56 @@ No completed-game design file is active canon for Game #006.
 - Anti-portal differentiation and 1.0 scope ceiling frozen.
 
 ### Phase 4 — Mechanical Architecture: **COMPLETE ON PAPER**
-`GAME6_MECHANICAL_ARCHITECTURE.md` freezes:
-- deterministic Room / node-lane / EdgeSocket / OrdinaryPassage / Seam / Entity model;
-- atomic `MOVE_SEAM_ENDPOINT` semantics and structural rejection boundary;
-- discrete crossing/orientation/occupancy locks;
-- deterministic mover grouping and 24-step chain ceiling;
-- 1/2/rare-3 seam architecture;
-- exact Undo/Redo and canonical state/hash assumptions;
-- anti-portal mechanical contracts and 40 acceptance tests.
+`GAME6_MECHANICAL_ARCHITECTURE.md` freezes deterministic rooms/sockets/passages/seams/entities, atomic `MOVE_SEAM_ENDPOINT`, discrete crossing/orientation/occupancy, deterministic mover resolution, 24-step chain ceiling, 1/2/rare-3 seam architecture, exact Undo/Redo, canonical state/hash assumptions, anti-portal contracts and 40 acceptance tests.
 
 ### Phase 5 — Content Architecture: **COMPLETE ON PAPER**
-`GAME6_CONTENT_ARCHITECTURE.md` freezes:
-- C01–C34 campaign across five bands;
-- DEMO01–DEMO05 and target 8 remixes;
-- one-seam -> two-seam -> rare-three-seam progression;
-- full data-driven case schema and known solution fixtures;
-- anti-isomorphism/lost-adjacency/anti-shortcut validation;
-- solver state-space thresholds and deterministic mover authoring;
-- 50 acceptance tests.
+`GAME6_CONTENT_ARCHITECTURE.md` freezes C01–C34, DEMO01–DEMO05, target R01–R08, campaign bands, rare-three-seam budgets, data-driven case schema, known solution fixtures, solver thresholds, lost-adjacency/anti-shortcut/anti-isomorphism validation and 50 acceptance tests.
 
 ### Phase 6 — UX / Presentation Architecture: **COMPLETE ON PAPER**
-`GAME6_UX_PRESENTATION_ARCHITECTURE.md` now freezes:
-- application hierarchy, first-launch setup, Case Board/Brief/Play/Completion flow;
-- physical room-stage as primary play surface with stable room identity/local frames;
-- seam/endpoint/socket/ordinary-passage visual language;
-- atomic replacement animation that never implies a playable one-ended/double-connected seam;
-- mandatory simultaneous OLD-adjacency-loss + NEW-adjacency preview;
-- direct physical crossing-orientation ghost preview without compass arithmetic;
-- mouse+keyboard, keyboard-only and controller-only semantic endpoint-edit flows;
-- deterministic focus graph independent of camera/animation/hash/scene order;
-- compact topology overview as inspect/navigation aid, not primary editor;
-- deterministic entity/mover/crossing-lock presentation;
-- causal ribbon, Case Rail, Undo/Redo/history presentation;
-- Pause/Step semantics at canonical movement boundaries;
-- color-independent, no-audio, reduced-motion, high-clarity and scalable-UI contract;
-- Steam Deck 1280×800 target grounded in current Steamworks guidance, including 9 px absolute text floor / ~12 px practical target and full controller functionality;
-- DEMO01–DEMO05 onboarding/presentation proof sequence;
-- save/recovery messaging boundaries;
-- explicit anti-Portal visual-identity rules;
-- 10 empirical UX/readability gates U6-R1..U6-R10;
-- 77 numbered Phase-6 acceptance tests.
+`GAME6_UX_PRESENTATION_ARCHITECTURE.md` freezes physical-world-first layout, OLD->NEW adjacency preview, seam/socket/orientation language, mouse+keyboard/keyboard-only/controller flows, deterministic focus graph, topology overview boundary, mover/occupancy presentation, Undo/Redo/history, Pause/Step, accessibility, Deck 1280×800 target, demo onboarding, save/recovery messaging, anti-Portal presentation identity, 10 empirical UX/readability gates and 77 acceptance tests.
 
-UX / Presentation Architecture: **COMPLETE ON PAPER**.
+### Phase 7 — Economy / Retention / Commercial Model: **COMPLETE ON PAPER**
+`GAME6_ECONOMY_COMMERCIAL.md` freezes:
+- premium one-time purchase; working US list target **$17.99**, release-review band **$14.99–$19.99**;
+- value thesis based on 5–8 hours of materially distinct causal spatial puzzles rather than raw case count;
+- exact acyclic C01–C34 chapter unlock graph, with **C34 reachable with zero mastery and zero remix completion**;
+- optional mastery families based on useful disconnection, topology compression, preservation, entity order and alternate causal skeletons;
+- target 8 remixes in three packs: R01–R02 after C14, R03–R05 after C24, R06–R08 after C34;
+- H0–H4 information-only hint ladder; H4 explicit opt-in solution guidance; no no-hint prestige requirement;
+- one canonical ruleset with accessibility/information assists rather than punitive mechanically easier mode;
+- bounded proposed 16-achievement set and explicit exclusions for zero-Undo/no-hint/no-Pause/speed/grind/device achievements;
+- DEMO01–DEMO05 commercial proof sequence and explicit demo->full versioned, monotonic, idempotent import mapping;
+- Steam/Deck scope: offline single-player guarantee, local saves independent of Cloud, Steam Cloud as transport, controller/Deck target, no Verified claim before Valve result;
+- one-time premium monetization only; no ads, MTX, currency, FOMO, dailies, energy, battle pass, paid hints/Undo or withheld core mechanics;
+- post-1.0 case-pack boundaries that require 1.0 to remain complete;
+- 10 commercial/perceived-value risks C7-R1..C7-R10;
+- **72 numbered Phase-7 acceptance tests**.
+
+Economy / Retention / Commercial Model: **COMPLETE ON PAPER**.
 Production implementation started: **NO**.
 DESIGN COMPLETE: **NO**.
 
-## NEXT ACTION — GAME #006 / PHASE 7 ECONOMY / RETENTION / COMMERCIAL MODEL
-Use fresh current market/Steam evidence where pricing/demo/platform expectations matter, then freeze:
-1. design-time price band and value thesis for the 5–8 hour target;
-2. exact campaign unlock/progression graph and completion gating;
-3. mastery/remix unlock pacing and non-grind retention;
-4. hint/assist information ladder with no mechanical advantage;
-5. achievement boundaries that do not punish Undo, accessibility, Pause/Step or experimentation;
-6. difficulty/accessibility relationship;
-7. demo-to-full transition/import behavior;
-8. Steam/Deck feature scope, offline guarantees and cloud-save boundaries;
-9. monetization exclusions and no-FOMO/no-daily/no-currency policy;
-10. optional post-1.0 expansion boundaries without withholding core mechanics;
-11. perceived-value/commercial risks and empirical gates;
-12. numbered Phase-7 acceptance tests.
+## NEXT ACTION — GAME #006 / PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION
+Freeze implementation architecture without starting production code:
+1. engine/version/runtime direction and why it matches Stitchspace's deterministic 2D/room-stage presentation;
+2. strict Domain Core vs Presentation vs Platform Adapter separation;
+3. canonical typed data model for Room, EdgeSocket, OrdinaryPassage, Seam, Entity, objectives, profile progression and content versions;
+4. semantic command envelope with command ID + expected revision/hash and atomic `MOVE_SEAM_ENDPOINT` transaction;
+5. deterministic crossing/orientation/occupancy/mover resolution and chain-limit semantics;
+6. canonical serialization/hash ordering and replay determinism;
+7. exact Undo/Redo checkpoint model;
+8. content compiler/validator + known solution fixture/solver hooks and Phase-5 anti-isomorphism checks;
+9. local persistence save envelope, temp/primary/backup recovery and crash-injection boundaries;
+10. Steam Cloud adapter and divergent active-case conflict policy;
+11. demo->full import implementation contract from Phase 7;
+12. semantic input/action/focus architecture independent of camera/presentation geometry;
+13. localization/pseudolocalization/readability implementation readiness;
+14. performance budgets for desktop/Steam Deck target and deterministic test/headless tooling;
+15. support/replay bundle for reproducible bug reports;
+16. implementation order mapped to Phase 12A–12H;
+17. numbered Phase-8 acceptance tests.
 
-After Phase 7 is coherent, continue to Phase 8 Technical Implementation Specification. Do not start production implementation in the factory.
+After Phase 8 is coherent, continue to Phase 9 Whole-Game Simulation on Paper. Do not start production implementation in the factory.
 
 ## Blocker
 **NONE.**
