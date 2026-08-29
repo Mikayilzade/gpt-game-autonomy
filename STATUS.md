@@ -16,7 +16,7 @@ Branch: `main`
 - Production implementation inside factory: **NO**
 
 ## Current phase
-**Game #006 — PHASE 5 CONTENT ARCHITECTURE NEXT.**
+**Game #006 — PHASE 6 UX / PRESENTATION ARCHITECTURE NEXT.**
 
 ## Active authority for Game #006
 1. `START_HERE.md`
@@ -28,6 +28,7 @@ Branch: `main`
 7. `GAME6_TOURNAMENT_RUN3.md`
 8. `GAME6_PRODUCT_THESIS.md`
 9. `GAME6_MECHANICAL_ARCHITECTURE.md`
+10. `GAME6_CONTENT_ARCHITECTURE.md`
 
 No completed-game design file is active canon for Game #006.
 
@@ -60,7 +61,7 @@ No completed-game design file is active canon for Game #006.
 Product Thesis Lock: **YES**.
 
 ### Phase 4 — Mechanical Architecture: **COMPLETE ON PAPER**
-`GAME6_MECHANICAL_ARCHITECTURE.md` now freezes the implementable domain contract:
+`GAME6_MECHANICAL_ARCHITECTURE.md` freezes:
 - stable Room / local node-lane / EdgeSocket / OrdinaryPassage / Seam / Entity models;
 - finite visible crossing-orientation mapping;
 - exact `MOVE_SEAM_ENDPOINT` command validation and atomic commit semantics;
@@ -82,29 +83,53 @@ Product Thesis Lock: **YES**.
 - retained mechanical risk gates M4-R1..M4-R6 for later content/UX/prototype attack.
 
 Mechanical Architecture: **COMPLETE ON PAPER**.
+
+### Phase 5 — Content Architecture: **COMPLETE ON PAPER**
+`GAME6_CONTENT_ARCHITECTURE.md` now defines:
+- 34-case C01–C34 campaign architecture across five teaching/maturity bands;
+- 5-case DEMO01–DEMO05 sequence and target 8 remixes;
+- exact one-seam -> two-seam -> rare-three-seam progression and <=3 three-seam target;
+- representative blueprints from first replacement through capstone synthesis;
+- room/socket/entity vocabulary ceilings;
+- complete data-driven case schema with solution/validation metadata;
+- mandatory baseline fixtures and optional mastery fixtures;
+- 12-family abstract solution-skeleton taxonomy;
+- C15+ anti-isomorphism rule: no three-case same-family run and >=3 skeleton families per five-case window;
+- explicit lost-adjacency materiality classification and anti-portal gate;
+- direct-current-room-to-goal shortcut audit;
+- solver/validator pipeline covering structure, ambiguity, fixture replay, reachability, shortcut, lost-adjacency, physical-use-between-edits, skeleton diversity and remix/mastery distinction;
+- quantitative reachable-state targets: <=5k early, <=50k normal mature, warning >100k, explicit review >250k, stricter three-seam review;
+- deterministic automatic-mover authoring rules with no timing/contention dependency;
+- mastery/remix validity boundaries;
+- 1.0 expansion exclusions;
+- 8 content risk gates C5-R1..C5-R8;
+- 50 numbered Phase-5 acceptance tests.
+
+Content Architecture: **COMPLETE ON PAPER**.
 Production implementation started: **NO**.
 DESIGN COMPLETE: **NO**.
 
-## NEXT ACTION — GAME #006 / PHASE 5 CONTENT ARCHITECTURE
-Define a complete data-driven Stitchspace campaign/content contract without adding new primary verbs:
-1. exact teaching order and campaign bands;
-2. target main/demo/remix counts and release cut tolerance;
-3. representative case blueprints from onboarding through late synthesis;
-4. allowed entity/room/socket vocabulary ceiling;
-5. complete case schema/data fields;
-6. known baseline and optional mastery fixture requirements;
-7. solver/validator pipeline plus quantitative complexity/state-count guardrails;
-8. mature-case proof that lost adjacency materially affects the solution;
-9. abstract solution-skeleton taxonomy and anti-isomorphism rules;
-10. direct current-room-to-goal shortcut audit;
-11. two-seam and rare-three-seam content budgets;
-12. moving-entity authoring constraints that prevent timing/ambiguity;
-13. remix/mastery validity rules;
-14. DEMO content sequence proving replacement, orientation, scarce reuse and useful disconnection;
-15. expansion boundaries and content exclusions;
-16. numbered Phase-5 acceptance tests.
+## NEXT ACTION — GAME #006 / PHASE 6 UX / PRESENTATION ARCHITECTURE
+Freeze how Stitchspace communicates changing remote adjacency without becoming a detached graph editor:
+1. application/screen hierarchy and first-session flow;
+2. world/camera representation and stable room recognizability;
+3. seam/endpoint/socket visual language and replacement animation;
+4. old-adjacency-loss + new-adjacency preview boundaries;
+5. crossing orientation preview without compass bookkeeping;
+6. physical endpoint selection/edit flow for mouse+keyboard, keyboard-only and controller-only;
+7. deterministic focus/navigation graph;
+8. compact topology overview that explains but is not the primary editor;
+9. entity/mover/occupancy visualization;
+10. causal explanation after edits/crossings;
+11. Undo/Redo/history presentation;
+12. accessibility, reduced motion, no-audio, color independence and scalable UI;
+13. Steam Deck 1280×800 target;
+14. DEMO onboarding/presentation flow;
+15. Pause/Step semantics for deterministic movers;
+16. save/recovery messaging boundaries;
+17. empirical readability gates and numbered Phase-6 acceptance tests.
 
-After Phase 5 is coherent, continue to Phase 6 UX / Presentation Architecture. Do not start production implementation in the factory.
+After Phase 6 is coherent, continue to Phase 7 Economy / Retention / Commercial Model. Do not start production implementation in the factory.
 
 ## Blocker
 **NONE.**
