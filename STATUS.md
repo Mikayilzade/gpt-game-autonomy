@@ -11,14 +11,14 @@ Branch: `main`
 - Game #007 Last Known Shape: **DESIGN COMPLETE / migration pending / retained non-active safety archive**
 - Game #008 Locksmith's Margin: **DESIGN COMPLETE / migration pending / retained non-active safety archive**
 - Current design slot: **Game #009**
-- Selected Game #009 concept: **NONE**
+- Selected Game #009 concept: **G9C02 Binder's Imposition**
 - Production implementation inside factory: **NO**
 
 ## Continuity / active-canon rule
-Only Game #009 files explicitly named below may become active game canon. `GAME6_*`, `GAME7_*`, and `GAME8_*` are frozen non-active safety archives/history and must not contaminate Game #009. Rejected/completed concepts may inform portfolio exclusion only; they are not reusable canon.
+Only Game #009 files explicitly named below are active game canon. `GAME6_*`, `GAME7_*`, and `GAME8_*` remain frozen non-active safety archives/history and must not contaminate Game #009. Rejected Game #009 concepts are tournament history only.
 
 ## Current phase
-**Game #009 — PHASE 2 CONCEPT TOURNAMENT / RUN 2 COMPLETE / 5 -> 3 / FINAL HEAD-TO-HEAD READY.**
+**Game #009 — PHASE 3 PRODUCT THESIS COMPLETE / PHASE 4 MECHANICAL ARCHITECTURE READY.**
 
 ## Active authority for Game #009
 1. `START_HERE.md`
@@ -27,32 +27,24 @@ Only Game #009 files explicitly named below may become active game canon. `GAME6
 4. `GAME9_RESEARCH.md`
 5. `GAME9_TOURNAMENT.md`
 6. `GAME9_TOURNAMENT_RUN2.md`
+7. `GAME9_TOURNAMENT_RUN3.md`
+8. `GAME9_PRODUCT_THESIS.md`
 
-`GAME9_RESEARCH.md` remains Phase-1 research authority. `GAME9_TOURNAMENT.md` is Run-1 authority. `GAME9_TOURNAMENT_RUN2.md` is Run-2 concrete-case authority. No Product Thesis is locked.
+`GAME9_TOURNAMENT_RUN3.md` is final tournament authority. `GAME9_PRODUCT_THESIS.md` locks the selected product identity.
 
 ## This run completed
-- Re-read `START_HERE.md`, prior `STATUS.md`, `GAME_INDEX.md`, `GAME9_RESEARCH.md`, and `GAME9_TOURNAMENT.md`; resumed exactly from prior `NEXT ACTION — GAME #009 PHASE 2 / TOURNAMENT RUN 2`.
-- Refreshed current market evidence where it materially affected the five survivors. Two high-impact findings:
-  - `The Artisan of Glimmith` released 2026-03-17 as a stained-glass puzzle centered on coloring/cutting/joining handcrafted glass puzzles, raising storefront/theme collision for `Stained Glass Noon`.
-  - `Dressmaker` is scheduled for 2026-09-21 and explicitly foregrounds arranging/cutting patterns plus grain/bias, directly raising market-position risk for `Tailor's Grain`.
-- Created `GAME9_TOURNAMENT_RUN2.md` and defined exact finite authority representations for all five survivors.
-- Built one tutorial and one hand-simulatable mature/hour-8 case for every survivor, with complete legal traces or explicit failed traces where the failure itself revealed a design problem.
-- Ran concrete greedy/exhaustive attacks and estimated solver/search behavior and pruning methods for every survivor.
-- Defined at least six genuinely distinct content families per survivor.
-- Wrote 20–30 minute demo beats, first store-GIF claims, market-position sentences, prototype falsification spikes, and portfolio-exclusion re-checks for each.
-- Important concrete findings:
-  - `Paper Automata` proved cross-lane coupling can be intrinsic, but hand simulation required repeated timing/order repairs and exposed a real risk of clock-signal programming/debugging identity.
-  - `Binder's Imposition` survived cleanly: nesting/sheet-role constraints defeat rote local imposition formulas while preserving one coherent flat-sheet -> folded-book mental model.
-  - `Ink Trap Press` retained strong depth and visual payoff, but hand simulation exposed fragile wetness/resist semantics; Run 3 must prove a tiny rule vocabulary can create non-greedy cases without exception proliferation.
-  - `Stained Glass Noon` failed its central attack: the concrete three-time case tended toward one-time solve + verification; making constraints genuinely coupled increased opacity. Fresh market competition worsens the tradeoff.
-  - `Tailor's Grain` proved grain/motif/seam constraints can beat area-greedy packing, but exact-cover packing remains the substrate and imminent `Dressmaker` overlaps the storefront language heavily.
-- Reduced exactly **5 -> 3**.
-- Finalists are:
-  1. `G9C02 Binder's Imposition`
-  2. `G9C01 Ink Trap Press`
-  3. `G9C31 Paper Automata`
-- Eliminated `G9C05 Stained Glass Noon` and `G9C21 Tailor's Grain`.
-- Product Thesis remains deliberately unlocked; selected concept remains **NONE**.
+- Re-read all required factory and active Game #009 authority and resumed exactly from prior Run-3 `NEXT ACTION`.
+- Completed the final **3 -> 1** prototype-grade paper head-to-head.
+- Created three fixed-scale microcases for each finalist: tutorial, midgame, hour-8 mature.
+- Formalized minimum rule vocabularies and attacked solver/search burden, explanation burden, demo sequencing, vertical-slice production burden, ~30-case content burden, portfolio similarity, rote-formula drift, paint-by-numbers drift, and generic-programming drift.
+- Selected **G9C02 Binder's Imposition**.
+- Final kill reasons:
+  - `Ink Trap Press`: technically viable, but comparable depth needs wetness/spread/resist interaction and remains vulnerable to preview-and-try / paint-by-numbers drift.
+  - `Paper Automata`: deterministic and solver-safe, but mature coupling becomes clock-signal programming/debugging under a cardboard skin.
+- Binder survived tutorial -> mature scaling with one coherent mental model: assign physical signature roles, invert known fold transforms, satisfy final-book constraints.
+- Created `GAME9_TOURNAMENT_RUN3.md` as final tournament authority.
+- Safely continued into **Phase 3 Product Thesis Lock** in the same run.
+- Created `GAME9_PRODUCT_THESIS.md`; locked PC/Steam-first premium single-player/offline baseline, deterministic physical-permutation identity, compact workbench scope, ~30-strong-case planning target, demo thesis, non-goals, and empirical gates.
 - No production implementation, test email, or Gmail notification was created.
 
 ## Frozen migration state
@@ -63,31 +55,24 @@ DESIGN COMPLETE = YES; preferred repo `Mikayilzade/stitchspace`; migration pendi
 DESIGN COMPLETE = YES; preferred repo `Mikayilzade/last-known-shape`; migration pending, non-blocking.
 
 ### Game #008 — Locksmith's Margin
-DESIGN COMPLETE = YES; final authority `GAME8_FINAL_FREEZE.md`; preferred repo `Mikayilzade/locksmiths-margin` (alternate sensible slug `Mikayilzade/locksmith-margin`); migration pending, non-blocking. Full Game #008 safety archive remains until dedicated-repo migration integrity is verified.
+DESIGN COMPLETE = YES; final authority `GAME8_FINAL_FREEZE.md`; preferred repo `Mikayilzade/locksmiths-margin`; migration pending, non-blocking.
 
-## NEXT ACTION — GAME #009 PHASE 2 / TOURNAMENT RUN 3 FINAL HEAD-TO-HEAD
-Resume from all active Game #009 authority and choose exactly **one** winner from the three finalists using prototype-grade paper validation, not another broad abstract score.
+## NEXT ACTION — GAME #009 PHASE 4 / MECHANICAL ARCHITECTURE
+Resume from all active Game #009 authority and fully specify Binder's Imposition mechanics before content expansion.
 
 Required work:
-1. Re-read `START_HERE.md`, this `STATUS.md`, `GAME_INDEX.md`, `GAME9_RESEARCH.md`, `GAME9_TOURNAMENT.md`, and `GAME9_TOURNAMENT_RUN2.md`.
-2. For each finalist create **three exact validated microcases**: tutorial, midgame, and hour-8 mature.
-3. Formalize transition/constraint semantics with no repaired-on-the-fly ambiguity.
-4. Where useful, run a tiny throwaway solver/search calculation to count solutions, search size, greedy failures, symmetry classes, or rule necessity. This is design validation only, not production implementation.
-5. Identify the **minimum rule vocabulary** that still produces genuine depth.
-6. Measure explanation burden and demo sequencing: what must the player understand before a 20–30 minute capstone is fair?
-7. Re-check fresh market collision only where it can change the winner.
-8. Compare production burden for one polished vertical slice and approximately 30 strong full-game cases.
-9. Attack portfolio similarity plus generic-programming, paint-by-numbers, rote-formula, and bookkeeping drift.
-10. Select exactly **one winner** and record explicit kill reasons for the other two.
-11. If and only if the winner is adequately proven, proceed safely into **Phase 3 Product Thesis Lock in the same run**: target player, PC/Steam-first baseline unless evidence changes it, genre framing, one-sentence hook, core fantasy, session structure, core loop, differentiator, scope ceiling, explicit non-goals, empirical gates, and working title direction.
-12. Save all meaningful reasoning to GitHub and update `STATUS.md` with exact next action.
-13. Do not start production implementation.
-14. Pending migrations for #006–#008 remain non-blocking and must not disable the factory.
-
-### Specific Run-3 kill questions
-- `Binder's Imposition`: can three distinct mature cases avoid both rote imposition formula and orientation bookkeeping while keeping one elegant mental model?
-- `Ink Trap Press`: can a tiny deterministic rule set produce certified non-greedy cases without wetness/mask exceptions proliferating?
-- `Paper Automata`: can coupling produce legible mechanical causality without turning play into clock-signal programming/debugging?
+1. Define canonical domain state and deterministic ordering for flat assignment -> fold -> duplex orientation -> nesting -> trim -> final bound faces.
+2. Define exact player verbs, legality, structured anti-bookkeeping operations, Fold Preview, Commit Bind/Trim, Undo/Redo/Restart.
+3. Freeze a small catalog grammar for signature/fold templates without importing unnecessary real print-shop jargon.
+4. Define orientation semantics, blank faces, inserts/material roles, facing constraints, same/different-signature constraints, trim survival, and alternative-template choice.
+5. Define win/fail/invalid states and exact failure explanations.
+6. Specify campaign difficulty knobs and a rule-introduction order that preserves the Phase-3 demo thesis.
+7. Specify solver/validator inputs, solution equivalence/symmetry rules, uniqueness/nontriviality tests, and anti-rote-case checks.
+8. Explicitly prevent factorial clerical manipulation from becoming difficulty; define bounded page-face scale and structured operations.
+9. Create concrete mechanical acceptance tests, including tutorial/mid/mature examples and edge cases.
+10. If Phase 4 is completed cleanly and the next content phase is safely connected, begin Phase 5 only if enough time remains; otherwise leave exact Phase-5 next action.
+11. Save all work to GitHub and update this status.
+12. Do not start production implementation.
 
 ## Blockers
 **NONE for Game #009 design.**
