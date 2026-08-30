@@ -11,7 +11,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. |
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon. Migration can happen later without blocking the factory. |
 | 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
-| 008 | **TBD** | **IN DESIGN / Phase 1 complete / Phase 2 tournament ready** | TBD | **NOT STARTED** | 36 fresh concepts screened; 10 survivors enter equal destructive tournament. `GAME8_RESEARCH.md` is active discovery authority. |
+| 008 | **TBD** | **IN DESIGN / Phase 2 Run 1 complete / 5 survivors** | TBD | **NOT STARTED** | 36 concepts -> 10 Phase-1 survivors -> 5 after equal destructive tournament. Run 2 will reduce to 2–3 finalists. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -31,11 +31,13 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - Godot 4.7.2-stable / GDScript-first initial implementation baseline at freeze;
 - `GAME7_FINAL_FREEZE.md` is final authority; **DESIGN COMPLETE = YES**.
 
-## Game #008 discovery state
-- clean-slate Phase 1 complete on 2026-08-30;
-- 36 concepts screened, 26 killed, 10 survivors;
-- survivors: Elevator Etiquette, Locksmith's Margin, Window Garden, Maintenance Window, Firebreak Foreman, Greenhouse Night Shift, In Case of Rain, Pawnshop Stories, Night Museum Conservator, Last Train Dispatcher;
-- no selected concept yet; Phase 2 must apply equal destructive evidence before narrowing.
+## Game #008 tournament state
+- clean-slate Phase 1: 36 concepts screened -> 10 survivors;
+- Phase 2 Run 1 applied equal trailer/case/mature-depth/dominant-policy/readability/content/analogue/demo/kill-gate tests to all 10;
+- current survivors: **Locksmith's Margin, Window Garden, Maintenance Window, Firebreak Foreman, Greenhouse Night Shift**;
+- killed in Run 1: Elevator Etiquette, In Case of Rain, Pawnshop Stories, Night Museum Conservator, Last Train Dispatcher;
+- fresh market collision was material: existing elevator optimization titles and 2026 railway-dispatch products weakened two candidates that looked strong in abstract scoring;
+- no selected concept yet; Run 2 targets 2–3 finalists.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
