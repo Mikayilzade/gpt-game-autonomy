@@ -11,7 +11,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. |
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon. Migration can happen later without blocking the factory. |
 | 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
-| 008 | **Locksmith's Margin** *(working title)* | **IN DESIGN / Phase 8 technical specification complete / Phase 9 ready** | TBD | **NOT STARTED** | 32-case target / 28-case floor; D01–D06 demo; 80 mechanical + 90 content + 87 UX + 80 commercial + 120 technical acceptance tests; Godot 4.7.2-stable/GDScript-first baseline; working $17.99 price hypothesis. |
+| 008 | **Locksmith's Margin** *(working title)* | **IN DESIGN / Phase 9 whole-game simulation complete / Phase 10 ready** | TBD | **NOT STARTED** | 32-case target / 28-case floor; D01–D06 demo; Phase 9 added 70 regression checks and repaired repeated-TEST history, solved-review commit, crash/persistence, Cloud/import and softlock-state semantics. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -39,10 +39,11 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - each lock column is only a finite accepted depth set; exact/tolerance/master/wear all reduce to that authority;
 - FILE increments one selected column by exactly one authoritative depth step;
 - TEST evaluates columns left-to-right and exposes only the first blocker plus deterministic TOO_SHALLOW / TOO_DEEP / BETWEEN_BRANCHES relation; accepted prefix becomes known;
-- tests are free and deterministic; repeated identical tests reveal nothing new;
+- tests are free and deterministic; repeated identical tests reveal nothing new but remain exact history actions for Undo/Redo;
 - access restrictions are visible predicates over opened locks, never random/narrative permissions;
 - opened locks stay completed even if the opening key is later destructively repurposed;
 - unlimited exact Undo/Redo and Restart protect real-world time while forward puzzle state remains irreversible;
+- final required OPEN enters pending solved review; permanent campaign/achievement commit is idempotent when leaving solved review, preserving exact Undo beforehand;
 - depth progresses through overlap preservation, target partitioning, destructive diagnosis, master branches, wear bridges, access order and mixed finales;
 - mature cases must defeat named cheap policies and pass both omniscient solvability and information-respecting fairness validation;
 - no lockpicking/burglary, continuous dexterity filing, shop economy, roguelite progression, hidden realism exceptions or numeric-code memorization;
@@ -59,7 +60,8 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - initial implementation baseline frozen at **Godot 4.7.2-stable / GDScript-first**; 4.8 preview builds excluded from baseline;
 - strict Domain Core / Presentation / Platform separation; no animation, physics, mesh or Steam callback can decide puzzle outcomes;
 - persistence is versioned/local-first/atomic with backup recovery, proof-only runtime softlock checks and idempotent demo/full + achievement reconciliation;
-- next: **Phase 9 Whole-Game Simulation on Paper**.
+- Phase 9 authority: `GAME8_WHOLE_GAME_SIMULATION.md` + `GAME8_PHASE9_REPAIRS.md` with **70 whole-game regression checks** and explicit transaction/recovery clarifications;
+- next: **Phase 10 Adversarial Review**.
 
 ## Game #008 tournament history
 - Phase 1: 36 -> 10;
