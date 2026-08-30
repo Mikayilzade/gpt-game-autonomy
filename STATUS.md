@@ -17,7 +17,7 @@ Branch: `main`
 Only Game #008 files named below are active game canon. `GAME6_*` and `GAME7_*` remain frozen non-active safety archives and must not contaminate Game #008. Rejected Game #008 concepts are tournament history only.
 
 ## Current phase
-**Game #008 — PHASE 9 WHOLE-GAME SIMULATION COMPLETE / PHASE 10 ADVERSARIAL REVIEW READY.**
+**Game #008 — PHASE 10 ADVERSARIAL REVIEW COMPLETE / PHASE 11 SPECIFICATION FREEZE READY.**
 
 ## Active authority for Game #008
 1. `START_HERE.md`
@@ -35,19 +35,26 @@ Only Game #008 files named below are active game canon. `GAME6_*` and `GAME7_*` 
 13. `GAME8_TECHNICAL_SPECIFICATION.md`
 14. `GAME8_PHASE9_REPAIRS.md`
 15. `GAME8_WHOLE_GAME_SIMULATION.md`
+16. `GAME8_PHASE10_REPAIRS.md`
+17. `GAME8_ADVERSARIAL_REVIEW.md`
 
-`GAME8_PHASE9_REPAIRS.md` is narrow repair authority over explicitly identified conflicting Phase 3–8 wording until Phase 11 normalizes the final specification.
+`GAME8_PHASE9_REPAIRS.md` and `GAME8_PHASE10_REPAIRS.md` are narrow later repair authority over explicitly conflicting Phase 3–9 wording until Phase 11 normalizes the final specification. Where both touch the same subject, Phase-10 repair governs.
 
 ## This run completed
-- Read `START_HERE.md`, prior `STATUS.md`, `GAME_INDEX.md`, and every active Game #008 authority file named by prior status; resumed exactly from Phase-9 NEXT ACTION.
-- Created `GAME8_WHOLE_GAME_SIMULATION.md` with end-to-end hostile traces covering first boot, D01–D06, C01–C32, solved review/mastery, save/crash/corruption, Steam unavailable, Cloud divergence, demo import, keyboard/controller/Deck/accessibility/localization, softlock outcomes and hostile action spam.
-- Added **70 Phase-9 whole-game regression checks**.
-- Found and repaired a real cross-phase contradiction: repeated identical legal TESTs must append an exact history/checkpoint for Undo, while adding zero new knowledge/progression/reward state.
-- Found and repaired solved-attempt transaction ambiguity: final required OPEN now enters `SOLVED_REVIEW_PENDING_COMMIT`; permanent CampaignProgress/first-solve events commit idempotently only when leaving solved review via Continue/Case Select equivalent. Undo inside pending solved review therefore remains exact and non-contradictory.
-- Defined crash-safe authority boundary: FILE/TEST domain transition is whole before presentation; crash during animation can never create half-cut/half-tested/half-open state.
-- Clarified Undo nesting for successful OPEN/access changes, stale softlock-result rejection by exact state version, idempotent demo->full import, attempt-aware Cloud conflict behavior, stale case-content recovery, accessibility information boundaries, and identical-vector/different-history blank identity.
-- Identified two explicit Phase-10 attack targets rather than hiding them: D02/C03 TOO_DEEP tutorial staging must be recoverable/non-misleading; persisted Redo-tail semantics must be frozen explicitly.
-- No new gameplay primitive, economy, content family, or production implementation was introduced.
+- Re-read `START_HERE.md`, prior `STATUS.md`, `GAME_INDEX.md`, and every active Game #008 authority file named by prior status; resumed exactly from Phase-10 NEXT ACTION.
+- Performed the full destructive Phase-10 attack across fun/repetition, cheap policies, information fairness, tutorial truthfulness, Undo/Redo, solved transaction races, persistence, Cloud/platform, UX, accessibility/localization, content exhaustion/isomorphism, scope, commercial/store positioning, and safety.
+- Created `GAME8_ADVERSARIAL_REVIEW.md` with failures, mandatory repairs, kill gates, empirical gates and Phase-11 readiness verdict.
+- Created `GAME8_PHASE10_REPAIRS.md` with explicit repair authority.
+- Major structural finding: because legal TEST is free and non-destructive, exhaustive testing of every currently accessible non-duplicate key/lock pair before the next FILE is rational baseline behavior. Mature content may no longer pretend withholding such a test is strategic. C10/C12/C23/C25/C30 and the V5 cheap-policy suite must survive/normalize around this.
+- Explicitly accepted unlimited-Undo human-memory leakage as an assistance/recovery behavior rather than adding a punitive resource. Mature content must retain non-trivial omniscient coverage/partition depth even when a player uses counterfactual rewind.
+- Resolved D02/C03 TOO_DEEP tutorial staging: authored start is solvable; player creates one safe tutorial overcut, TEST proves TOO_DEEP, then exact history requires two Undos (TEST then FILE). Restart truthfully restores the solvable authored start.
+- Frozen Redo-tail persistence: save/load preserves complete attempt timeline, cursor and valid redo tail; new authoritative action after Undo truncates it.
+- Tightened solved-review commit into one idempotent local journal/transaction with platform achievements downstream only.
+- Kept 28 as hard strong-content floor and 32 as aspirational target; C07+ requires causal thought-delta/isomorphism review rather than quota protection.
+- Cut presentation scope before systems: no real mechanical simulation, hands/avatar, freehand filing, bespoke per-case mechanisms, or physics authority.
+- Fresh 2026 Steam check found `Access Key` (released 2026-04-08) explicitly advertising locksmith gameplay including key cutting/re-keying, while `Locksmith Simulator` remains coming soon and advertises producing locks/keys. Key cutting itself therefore cannot be storefront differentiation; marketing must lead with persistent one-key/many-lock destructive overlap.
+- Strengthened safety boundary: fictional accepted-set mechanism, no real bitting/keyway/tolerance/lock-bypass/rekey procedures or training claims.
+- Phase-10 verdict: **SURVIVES / READY FOR PHASE 11**, but `DESIGN COMPLETE = NO` until freeze normalization is complete.
 
 ## Retained migration state
 ### Game #006 — Stitchspace
@@ -56,27 +63,23 @@ DESIGN COMPLETE = YES; preferred repo `Mikayilzade/stitchspace`; migration pendi
 ### Game #007 — Last Known Shape
 DESIGN COMPLETE = YES; preferred repo `Mikayilzade/last-known-shape`; migration pending, non-blocking.
 
-## NEXT ACTION — GAME #008 PHASE 10 ADVERSARIAL REVIEW
-Perform a genuinely destructive adversarial review against the complete repaired Phase 3–9 authority. Do not protect the selected concept merely because nine phases are complete.
+## NEXT ACTION — GAME #008 PHASE 11 SPECIFICATION FREEZE
+Perform the final freeze pass. Do not merely summarize earlier files.
 
-Required attack passes:
-1. **Fun/repetition:** attempt to prove FILE/TEST becomes rote after the novelty; identify where C01–C32 thought evolution stalls; kill or merge weak case families rather than add gimmicks.
-2. **Cheap-solver/dominant policies:** attack deepest-first, shallowest-first, finish-current-lock, exhaustive-test-first, never-repurpose, greedy-largest-overlap and solver-assisted memorization; require concrete mature counterexamples without hidden information.
-3. **Information fairness:** search for any case/family whose intended route actually requires clairvoyant accepted-set knowledge despite V3 intentions; especially attack C08–C12, C15–C16, C22–C26 and C30–C32.
-4. **Tutorial truthfulness:** explicitly resolve D02/C03 TOO_DEEP staging so Restart/Undo teaching cannot be false or self-contradictory.
-5. **Undo/Redo/meta-exploit:** test whether unlimited Undo trivializes information gathering by allowing TEST/FILE branches to be sampled and rewound with retained human memory; decide whether this is acceptable product behavior and ensure hints/mastery do not pretend otherwise. No punitive resource may be added merely to fix it.
-6. **Solved transaction races:** attack final OPEN -> pending review -> Undo/Redo -> quit/crash -> commit -> platform achievement reconciliation for duplicate/lost progress.
-7. **Persistence:** attack primary+backup corruption, stale schema/content, partial writes, redo-tail persistence, current-attempt branch loss and repeated recovery.
-8. **Cloud/platform:** attack offline-first play, divergent attempts, monotonic solved-set merge, duplicate achievements, Steam unavailable and reconnect loops.
-9. **UX ambiguity:** attack first-blocker/prefix, master branches, wear, access gates, identical-vector blanks, 6-lock maximum bench, ledger density, controller focus and rapid-input race behavior.
-10. **Accessibility/localization:** try to create information leakage or unreadability via numeric labels, high contrast, reduced motion, long localized strings and 1280x800 UI scaling.
-11. **Content exhaustion/isomorphism:** attack all 32 planned cases for disguised matrix permutations; identify minimum strong release set if 32 cannot stay distinct.
-12. **Scope/production:** challenge tactile 3D presentation, cutaway locks, solver/validator, Cloud/achievements and content tooling; cut anything not needed for product promise.
-13. **Commercial/store boundary:** use fresh web research if current analogue/pricing/store positioning matters; re-check lockpicking/burglary confusion and any new direct analogue.
-14. **Safety boundary:** ensure fictional mechanics do not drift into real-world lock-bypass instruction through presentation, tutorial copy or post-solve reveal.
-15. Produce `GAME8_ADVERSARIAL_REVIEW.md` containing attacks, failures, mandatory repairs, kill gates, empirical gates and a Phase-11 readiness verdict.
-16. Any real design contradiction discovered must be repaired in explicit authority (owning file where practical, otherwise a clearly scoped repair authority that Phase 11 must normalize), not merely noted.
-17. If Phase 10 closes cleanly and the design survives, set exact Phase-11 Specification Freeze NEXT ACTION. Do not set `DESIGN COMPLETE = YES` before Phase 11.
+Required work:
+1. Re-read the complete active Game #008 authority including both Phase-9 and Phase-10 repair files.
+2. Normalize every surviving repaired clause into one final authority document `GAME8_FINAL_FREEZE.md`; explicitly resolve any remaining conflicting wording rather than relying on chronology alone.
+3. Freeze the final product identity, exact mechanical rules, action ordering, TEST/exhaustive-test baseline, Undo/Redo semantics, solved-review transaction, persistence/Cloud boundaries, content quality floor/target, validator requirements, UX/accessibility contracts, commercial boundaries, safety boundary and implementation baseline.
+4. Require information-respecting witness validation for C08–C12, C15–C16, C22–C26 and C30–C32 before those authored cases can ship; no clairvoyant FILE may be hidden behind omniscient solvability.
+5. Normalize V5 policy language so exhaustive currently accessible TEST is an adversarial baseline rather than a universally required failure.
+6. Normalize D02/C03 to the truthful two-Undo TOO_DEEP tutorial.
+7. Normalize persisted redo-tail schema/cursor requirement and the idempotent solved-attempt commit journal.
+8. Define final authority order and explicit implementation-flexible empirical gates so a fresh implementation session knows what it may tune without inventing gameplay.
+9. Produce a comprehensive final acceptance/freeze checklist. `DESIGN COMPLETE = YES` only if no important gameplay decision remains undefined.
+10. If freeze succeeds, attempt migration to the preferred dedicated repository for Locksmith's Margin if one exists. Search for an existing sensible repo (expected slug may be `locksmiths-margin` or `locksmith-margin`; do not create production implementation in the factory).
+11. If destination exists: migrate complete canonical package, add/verify `IMPLEMENTATION_START_HERE.md`, `IMPLEMENTATION_STATUS.md`, CI/email-noise policy, verify integrity before removing source safety copy.
+12. If destination does not exist or repository creation is unavailable: record Game #008 migration pending, preserve all Game #008 files as frozen NON-ACTIVE safety archive, update `GAME_INDEX.md`, and immediately advance `STATUS.md` to **Game #009 Phase 1 Opportunity Discovery**. Pending migration must not stop the factory.
+13. Never disable the factory merely because #008 freezes or migration is pending.
 
 ## Blockers
 **NONE for Game #008 design.**
