@@ -11,7 +11,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. |
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon. Migration can happen later without blocking the factory. |
 | 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
-| 008 | **Locksmith's Margin** *(working title)* | **IN DESIGN / Phase 6 UX-presentation complete / Phase 7 ready** | TBD | **NOT STARTED** | 32-case target / 28-case floor; D01–D06 demo; 80 mechanical + 90 content + 87 UX acceptance tests; full controller/Deck/accessibility authority. |
+| 008 | **Locksmith's Margin** *(working title)* | **IN DESIGN / Phase 7 commercial-progression complete / Phase 8 ready** | TBD | **NOT STARTED** | 32-case target / 28-case floor; D01–D06 demo; 80 mechanical + 90 content + 87 UX + 80 commercial acceptance tests; working $17.99 price hypothesis. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -50,7 +50,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - Phase 4 authority: `GAME8_MECHANICAL_ARCHITECTURE.md` with **80 mechanical acceptance tests**;
 - Phase 5 authority: `GAME8_CONTENT_ARCHITECTURE.md` with **90 content acceptance tests**, C01–C32 target spine, 28-case quality floor, D01–D06 demo and F1–F8 family/validator system;
 - Phase 6 authority: `GAME8_UX_PRESENTATION.md` with **87 UX/presentation acceptance tests**, single-station bench/camera, semantic keyboard/controller/Deck input, explicit preview→FILE commit, knowledge ledger, onboarding, accessibility and recovery UX;
-- next: Phase 7 Economy / Retention / Commercial Model.
+- Phase 7 authority: `GAME8_COMMERCIAL_MODEL.md` with **80 commercial/progression acceptance tests**;
+- commercial baseline: **$17.99 USD working price**, empirical **$14.99–$19.99** release-review band; premium finite game with no gameplay economy/MTX/FOMO/grind;
+- campaign unlocks preserve tutorial dependencies but add bounded post-C06 choice; mastery/review never gates progression;
+- working 20 Steam achievements; demo achievements disabled; Steam Achievements + Cloud + controller/Deck are platform targets;
+- D01–D06 remains the commercial demo and safe demo→full recognition/import is required;
+- next: Phase 8 Technical Implementation Specification.
 
 ## Game #008 tournament history
 - Phase 1: 36 -> 10;
