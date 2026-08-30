@@ -11,7 +11,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. |
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon. Migration can happen later without blocking the factory. |
 | 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
-| 008 | **TBD** | **IN DESIGN / Phase 2 Run 2 complete / 3 finalists** | TBD | **NOT STARTED** | 36 concepts -> 10 -> 5 -> 3. Finalists: Locksmith's Margin, Window Garden, Firebreak Foreman. Final tournament next. |
+| 008 | **Locksmith's Margin** *(working title)* | **IN DESIGN / Phase 3 product thesis locked / Phase 4 ready** | TBD | **NOT STARTED** | Selected G8C02 after 36 -> 10 -> 5 -> 3 -> 1 tournament. Persistent destructively edited keys cover overlapping lock tolerance sets; failed tests are deterministic information. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -31,14 +31,26 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - Godot 4.7.2-stable / GDScript-first initial implementation baseline at freeze;
 - `GAME7_FINAL_FREEZE.md` is final authority; **DESIGN COMPLETE = YES**.
 
-## Game #008 tournament state
-- clean-slate Phase 1: 36 concepts screened -> 10 survivors;
-- Phase 2 Run 1: 10 -> 5 after equal trailer/case/mature-depth/dominant-policy/readability/content/analogue/demo/kill-gate tests;
-- Phase 2 Run 2: 5 -> 3 after six mature scenarios, primitive-vocabulary proof, demo, solver/policy, implementation-risk, portfolio-isomorphism and vertical-slice gates;
-- finalists: **G8C02 Locksmith's Margin, G8C04 Window Garden, G8C07 Firebreak Foreman**;
-- killed Run 2: Maintenance Window (dependency scheduling + current analogue collision), Greenhouse Night Shift (biological exception taxonomy / route-time scheduling collapse);
-- Locksmith's Margin currently leads but is not selected canon until the final equal tournament;
-- no selected concept yet.
+## Game #008 selected identity
+- selected concept: **G8C02 Locksmith's Margin**;
+- PC/Steam-first premium single-player tactile systemic puzzle;
+- file discrete irreversible cuts into a few persistent key blanks and use them across several locks;
+- each lock column accepts a finite depth set/interval; master behavior adds accepted branches; wear widens tolerance only;
+- failed tests expose deterministic first-blocking impression information; no random jams or hidden realism exceptions;
+- strategic depth is preserving overlap and information value, not making every current key as accurate/deep as possible;
+- core mature grammar: target partitioning across keys, destructive diagnosis, overlapping tolerance sets, master branches, wear bridges, test order and diagnostic-then-convert play;
+- no lockpicking/burglary, continuous dexterity filing, shop economy, roguelite progression or numeric-code memorization;
+- Phase 3 authority: `GAME8_PRODUCT_THESIS.md`;
+- next: full Phase 4 Mechanical Architecture.
+
+## Game #008 tournament history
+- Phase 1: 36 -> 10;
+- Run 1: 10 -> 5;
+- Run 2: 5 -> 3 finalists;
+- final: Locksmith's Margin beat Window Garden and Firebreak Foreman;
+- Window Garden rejected after direct plant/pruning-puzzle collision and higher deterministic-preview burden; fresh Aug-27-2026 Topiary metadata materially worsened its boundary;
+- Firebreak Foreman rejected for wildfire-puzzle adjacency, larger solver/state surface, VFX/readability risk and tutorial primitive burden;
+- rejected concepts are exclusion history only, not active Game #008 canon.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
