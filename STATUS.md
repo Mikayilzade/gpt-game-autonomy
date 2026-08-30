@@ -17,7 +17,7 @@ Branch: `main`
 Only Game #008 files named below are active game canon. `GAME6_*` and `GAME7_*` remain frozen non-active safety archives and must not contaminate Game #008. Rejected Game #008 concepts are tournament history only.
 
 ## Current phase
-**Game #008 — PHASE 7 ECONOMY / RETENTION / COMMERCIAL MODEL COMPLETE / PHASE 8 READY.**
+**Game #008 — PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION COMPLETE / PHASE 9 READY.**
 
 ## Active authority for Game #008
 1. `START_HERE.md`
@@ -32,24 +32,22 @@ Only Game #008 files named below are active game canon. `GAME6_*` and `GAME7_*` 
 10. `GAME8_CONTENT_ARCHITECTURE.md`
 11. `GAME8_UX_PRESENTATION.md`
 12. `GAME8_COMMERCIAL_MODEL.md`
+13. `GAME8_TECHNICAL_SPECIFICATION.md`
 
 ## This run completed
-- Read the factory authority chain and every active Game #008 file named by the prior `STATUS.md`, then resumed exactly from Phase 7 NEXT ACTION.
-- Created `GAME8_COMMERCIAL_MODEL.md` as complete Phase-7 authority without changing puzzle grammar.
-- Fresh Steam market reconnaissance anchored the value band: current examples include Piece by Piece at $12.99, A Little to the Left at $14.99, Patrick's Parabox and The Roottrees are Dead at $19.99, and the substantially larger Blue Prince at $29.99.
-- Locked working price hypothesis at **$17.99 USD** with an empirical **$14.99–$19.99** pre-release review band tied to validated case count, actual campaign duration, tactile polish, accessibility/platform completeness and replay value rather than competitor parity.
-- Explicitly defined **no gameplay economy**: no currency, XP, energy, paid hints, star gating, grind, lives, consumables or metagame power.
-- Defined tutorial-safe campaign unlock flow: C01–C06 linear, then bounded small choice clusters where Phase-5 tutorial dependencies permit, with optional mastery never gating progression.
-- Defined post-solve mastery/replay through Clean Bench, Measured Cuts/Tests, eligible Final Coverage and validated Alternate Partition badges; no time/dexterity/hint-shaming mastery.
-- Defined solved-review motivation around causal history, alternate partitions and cleaner solutions rather than randomized dailies/endless mode.
-- Defined a working **20-achievement** set inside an 18–24 target, with explicit bans on repetitive farming, no-hint requirements, all-case no-Undo perfection, timed dexterity, external accounts and accessibility-hostile tasks.
-- Locked D01–D06 demo commercial role, completion CTA, feedback route and safe demo→full recognition/import boundaries.
-- Fresh official Steamworks documentation confirms demos are separate App IDs, can share Cloud storage with the full app to reduce upgrade friction, and Valve recommends disabling achievements in demos and reconciling them in the full game.
-- Fresh official Next Fest guidance confirms demos must be live for participation, should be live before the press-preview list cutoff for press access, and should be clearly exposed on the base store page.
-- Platform targets: Steam Achievements, Steam Cloud, full controller path and Steam Deck target; Rich Presence/basic Stats optional low-burden only; leaderboards, Workshop/editor, live events and mandatory external accounts rejected.
-- Localization-ready architecture is required, but non-English release languages remain a production/commercial hypothesis pending real word count, QA/support budget and market validation.
-- Froze hard monetization boundaries: premium purchase baseline; no MTX, premium currency, paid hints/Undo/power, ads, battle pass, FOMO, timers, streaks or accessibility DLC; no gameplay DLC is promised.
-- Added **80 commercial/progression acceptance tests**.
+- Read `START_HERE.md`, prior `STATUS.md`, `GAME_INDEX.md`, and every active Game #008 authority file named by prior status; resumed exactly from Phase-8 NEXT ACTION.
+- Created `GAME8_TECHNICAL_SPECIFICATION.md` as complete Phase-8 implementation authority without starting production code.
+- Fresh engine research on 2026-08-30 confirmed **Godot 4.7.2-stable (released 2026-08-18)** remains current stable 4.x while **Godot 4.8-dev4 (2026-08-26)** is still preview/development; froze initial implementation baseline at **Godot 4.7.2-stable / GDScript-first**.
+- Defined strict **Domain Core / Presentation-Application / Platform Services** boundaries; animation, mesh geometry, physics and Steam callbacks cannot decide fit, knowledge, access or solve state.
+- Defined conceptual immutable case data and authoritative runtime models for cases, blanks, locks/accepted bitsets, access predicates, puzzle state, knowledge observations, action records, campaign progress and settings.
+- Defined deterministic reducer ordering for FILE, TEST+OPEN/access effects, solve commit, Undo/Redo and Restart, including idempotent repeated-open/achievement behavior.
+- Defined omniscient and information-respecting solver modes, canonical future-state/knowledge keys, safe blank symmetry, runtime proof-only softlock semantics, authoring validator stages and duplicate/isomorphism signatures.
+- Defined versioned persistence with atomic temp/backup replacement, complete current-case action history, corruption recovery, explicit schema migrations, case-content mismatch handling and local-first Cloud conflict semantics.
+- Defined separate allowlisted demo->full transfer rather than importing arbitrary demo PuzzleState; import and achievement reconciliation are idempotent.
+- Defined Steam/platform abstractions for achievements, Cloud and glyph/platform availability with full offline graceful degradation.
+- Defined semantic input/focus architecture, localization-ready string/font/layout boundaries, Steam Deck-class performance constraints and non-authoritative background solver requirements.
+- Defined future dedicated-repo implementation sequence 12A–12H from headless bootstrap through vertical slice, systems/content, UX/platform, adversarial QA, empirical gates and RC.
+- Added **120 technical acceptance tests** covering authority, FILE/TEST, knowledge, access, history, solver, persistence, Cloud, demo import, input/accessibility, localization/performance and regression.
 
 ## Retained migration state
 ### Game #006 — Stitchspace
@@ -58,23 +56,26 @@ DESIGN COMPLETE = YES; preferred repo `Mikayilzade/stitchspace`; migration pendi
 ### Game #007 — Last Known Shape
 DESIGN COMPLETE = YES; preferred repo `Mikayilzade/last-known-shape`; migration pending, non-blocking.
 
-## NEXT ACTION — GAME #008 PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION
-Build the implementation authority without starting production code:
-1. research current stable engine/runtime options and choose/freeze an initial implementation baseline appropriate for tactile 3D/2.5D bench presentation, deterministic discrete domain state, PC/Steam/controller/Deck and small-team scope;
-2. define strict Domain Core vs Presentation vs Platform Services boundaries so animation/physics never decide fit, knowledge or puzzle outcome;
-3. define conceptual state/data model for cases, blanks, locks, accepted sets, access predicates, knowledge facts/deductions, history, mastery and campaign progress;
-4. define deterministic transition/reducer ordering for FILE, TEST, OPEN/access effects, Undo/Redo/Restart and solved transition;
-5. define solver/validator architecture, canonical state keys, symmetry handling, information-respecting fairness search, softlock budgets and runtime-vs-authoring separation;
-6. define persistence schema/versioning, atomic save/recovery, action-history storage, settings, Cloud conflict behavior, demo/full namespaces and safe demo recognition/import;
-7. define Steam-service abstraction for achievements/Cloud/controller glyph/platform availability with offline graceful degradation;
-8. define input/focus abstraction matching Phase 6 and target-device constraints;
-9. define localization-ready string/data boundaries and font/layout assumptions without promising languages;
-10. define performance/memory/loading budgets appropriate to 3 blanks/6 locks/6 columns and Steam Deck target; avoid speculative optimization;
-11. define deterministic test hooks, headless domain tests, validator fixtures, save corruption/migration tests and presentation-authority tests;
-12. define implementation order for future dedicated repo from bootstrap through vertical slice, systems, content, UX/platform and empirical gates;
-13. write >=60 technical acceptance tests.
+## NEXT ACTION — GAME #008 PHASE 9 WHOLE-GAME SIMULATION ON PAPER
+Perform one substantial end-to-end hostile paper simulation and repair contradictions in their owning authority files:
+1. simulate first boot/profile creation, settings/accessibility/controller detection and C01 entry;
+2. simulate D01–D06 as a fresh demo player, including first failed TEST, first FILE preview/commit, Undo, same-key multi-lock payoff, completion CTA and demo transfer;
+3. simulate C01–C06 tutorial campaign with both intended and wasteful/repetitive TEST behavior;
+4. simulate C07–C12 partition/diagnostic play, including a player who specializes too early, Undo/Redo branches and knowledge-ledger correctness;
+5. simulate C13–C19 master branches/wear, especially BETWEEN_BRANCHES and broad tolerance readability without hidden accepted-set leakage;
+6. simulate C20–C26 access-order/diagnostic conversion, including reopening locks, gating changes and identical-vector/different-history blanks;
+7. simulate C27–C32 late synthesis and the maximum normal 3 blanks/6 locks/6 columns state; verify no UI/domain/content ceiling contradiction;
+8. simulate solved review, mastery replay, alternate partition, achievements and case unlock clusters with idempotency;
+9. simulate save after every meaningful state boundary, crash during FILE/TEST animation, corrupted primary save, backup recovery, stale content migration and long Undo/Redo history;
+10. simulate Steam unavailable, Cloud conflict, delayed achievement reconciliation and demo/full import repeated twice;
+11. simulate keyboard+mouse, controller hot-swap, Steam Deck 1280x800, reduced motion, high contrast, numeric labels and localization text expansion;
+12. simulate runtime softlock SOLVABLE/UNSOLVABLE/UNKNOWN outcomes and hint requests without clairvoyance;
+13. simulate hostile behavior: max-depth spam, inaccessible TEST spam, identical TEST spam, rapid Undo/Redo, new action after Undo, repeated solve/replay, quitting at transaction boundaries;
+14. create `GAME8_WHOLE_GAME_SIMULATION.md` with the trace, contradictions found, repairs made and remaining empirical gates;
+15. update the owning Phase 3–8 authority files for every real contradiction rather than leaving fixes only in the simulation file;
+16. add a Phase-9 regression checklist/tests sufficient to make the repaired whole-game state reproducible.
 
-If Phase 8 closes cleanly, continue into Phase 9 whole-game simulation only if there is enough run budget to perform a meaningful end-to-end paper simulation rather than a status microstep.
+If Phase 9 closes cleanly and remaining run budget allows a genuinely destructive review rather than a microstep, continue into Phase 10; otherwise stop with exact Phase-10 NEXT ACTION.
 
 ## Blockers
 **NONE for Game #008 design.**
