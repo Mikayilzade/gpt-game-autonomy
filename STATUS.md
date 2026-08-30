@@ -10,14 +10,14 @@ Branch: `main`
 - Game #006 Stitchspace: **DESIGN COMPLETE / migration pending / retained non-active safety archive**
 - Game #007 Last Known Shape: **DESIGN COMPLETE / migration pending / retained non-active safety archive**
 - Current design slot: **Game #008**
-- Selected Game #008 concept: **NONE**
+- Selected Game #008 concept: **G8C02 Locksmith's Margin**
 - Production implementation inside factory: **NO**
 
 ## Continuity / active-canon rule
-Only Game #008 files named below are active game canon. `GAME6_*` and `GAME7_*` remain frozen non-active safety archives and must not contaminate Game #008.
+Only Game #008 files named below are active game canon. `GAME6_*` and `GAME7_*` remain frozen non-active safety archives and must not contaminate Game #008. Rejected Game #008 concepts are tournament history only.
 
 ## Current phase
-**Game #008 — PHASE 2 CONCEPT TOURNAMENT RUN 2 COMPLETE / FINAL RUN READY.**
+**Game #008 — PHASE 3 PRODUCT THESIS COMPLETE / PHASE 4 READY.**
 
 ## Active authority for Game #008
 1. `START_HERE.md`
@@ -26,22 +26,17 @@ Only Game #008 files named below are active game canon. `GAME6_*` and `GAME7_*` 
 4. `GAME8_RESEARCH.md`
 5. `GAME8_TOURNAMENT.md`
 6. `GAME8_TOURNAMENT_RUN2.md`
+7. `GAME8_TOURNAMENT_FINAL.md`
+8. `GAME8_PRODUCT_THESIS.md`
 
-## Phase 2 Run 2 result
-Five survivors received equal deep falsification: six mature blueprints, minimal primitive/state vocabulary, ~20-minute demo, UI-removed trailer test, ~30-situation production model, current analogue boundary, named implementation-risk attack, portfolio isomorphism attack, cheap-policy counterexamples and measurable vertical-slice kill gates.
-
-Fresh research was material. `Pressure Crew` now occupies much of the connected industrial maintenance/cascade store silhouette; `Wildfire Swap` already owns firebreak/containment pure-puzzle territory; `Prune`, `Cloud Gardens` and `Botany Manor` make plant-puzzle differentiation a real burden; 2026 greenhouse/butterfly products weaken Greenhouse Night Shift's visual novelty.
-
-### Finalists — 3
-1. **G8C02 Locksmith's Margin** — current leader: destructively edited persistent key, overlapping tolerance sets across several locks, deliberate imperfect compatibility and information value. Lowest exception burden and clearest tactile causality.
-2. **G8C04 Window Garden** — exact forecastable architectural growth, pruning and delayed shade/support causality. Excellent trailer language but direct plant-puzzle comparison and deterministic-preview burden remain.
-3. **G8C07 Firebreak Foreman** — deterministic fuel timing, declared wind epochs, worker access and chosen sacrifice. Excellent spectacle; highest analogue/readability risk.
-
-### Killed in Run 2
-- **G8C01 Maintenance Window** — physical service can be replaced by a service button without changing core reasoning; underlying dependency scheduling plus current analogue collision fails the gate.
-- **G8C10 Greenhouse Night Shift** — mature depth requires biological exception taxonomy; simplified version collapses into fixed-route time-window scheduling and portfolio adjacency.
-
-Full evidence is in `GAME8_TOURNAMENT_RUN2.md`.
+## This run completed
+- Ran equal final tournament across Locksmith's Margin, Window Garden and Firebreak Foreman.
+- Authored eight exact blueprints per finalist through late mastery with primitive-vocabulary pressure.
+- Derived compact state/solver models and theme-removed decision grammars.
+- Compared 30-second trailer and capsule readability, vertical-slice/demo/~30-case burden, repetition at cases 5/15/30, and accessibility/readability failure modes.
+- Ran fresh mechanic-level analogue search. A newly indexed/current `Topiary: A Pruning Puzzle` explicitly occupies pruning -> regrowth/forking -> seasonal shaping, materially worsening Window Garden's market boundary. Firebreak remains burdened by wildfire-puzzle adjacency and high VFX/readability cost. No current search result surfaced Locksmith's exact persistent destructively edited multi-lock compatibility grammar.
+- Selected **G8C02 Locksmith's Margin** as overwhelming winner on compact grammar, tactile causality, demo, content efficiency, analogue distance and implementation safety.
+- Immediately completed Phase 3 Product Thesis: PC/Steam-first premium single-player tactile systemic puzzle; persistent keys; discrete irreversible filing; deterministic fit/impression information; overlapping lock tolerance sets; explicit scope ceiling/non-goals/fairness contract.
 
 ## Retained migration state
 ### Game #006 — Stitchspace
@@ -50,21 +45,21 @@ DESIGN COMPLETE = YES; preferred repo `Mikayilzade/stitchspace`; migration pendi
 ### Game #007 — Last Known Shape
 DESIGN COMPLETE = YES; preferred repo `Mikayilzade/last-known-shape`; migration pending, non-blocking.
 
-## NEXT ACTION — GAME #008 PHASE 2 FINAL RUN
-Run the final equal tournament across **Locksmith's Margin, Window Garden and Firebreak Foreman**.
+## NEXT ACTION — GAME #008 PHASE 4 MECHANICAL ARCHITECTURE
+Fully specify Locksmith's Margin mechanical authority without adding realism exceptions:
+1. exact discrete key/cut coordinate model and legal file transitions;
+2. exact lock accepted-set/tolerance/master/wear semantics and fit evaluation order;
+3. exact deterministic impression/failed-test information model, including what the player can infer;
+4. test-access/order rules and how cases may restrict them without arbitrary fiction;
+5. multi-key/multi-lock persistent-state lifecycle, commitment, undo/restart and softlock recovery;
+6. win/fail states and no-dead-time rules;
+7. progression/difficulty grammar from exact correction to overlap partitioning, destructive diagnosis, master branches, wear bridges and mixed finales;
+8. anti-greedy/dominant-policy requirements and solver/validator contracts;
+9. balance knobs and hard complexity ceilings;
+10. edge-case ordering and deterministic replay contracts;
+11. >=50 mechanical acceptance tests, including adversarial greedy policies and information-respecting cases.
 
-For each finalist:
-1. author 8 exact case/level blueprints from tutorial through late mastery, with no new primitive after blueprint 3;
-2. derive compact formal state-transition model and smallest complete solver state;
-3. pairwise theme-removal comparison of the naked decision grammars;
-4. exact 30-second trailer storyboard plus one-screenshot store-capsule readability test;
-5. estimate vertical-slice, demo and ~30-case production burden;
-6. fresh mechanic-level analogue search;
-7. repetition attack: state what the player thinks about on cases 5, 15 and 30;
-8. accessibility/readability failure analysis;
-9. choose one winner only if it beats both rivals on core grammar + demo + feasible mature depth. Kill the field rather than force a weak winner.
-
-If one winner becomes overwhelming, immediately begin **Phase 3 Product Thesis** in the same run: lock target player/platform/genre, one-sentence hook, core fantasy, core loop, session structure, differentiator, scope ceiling and explicit non-goals.
+If Phase 4 closes cleanly, continue directly into Phase 5 Content Architecture in the same run only if the transition is safe and meaningful.
 
 ## Blockers
 **NONE for Game #008 design.**
