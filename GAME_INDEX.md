@@ -11,7 +11,8 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. |
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon. Migration can happen later without blocking the factory. |
 | 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
-| 008 | **Locksmith's Margin** *(working title)* | **IN DESIGN / Phase 10 adversarial review complete / Phase 11 ready** | TBD | **NOT STARTED** | Phase 10 found free-TEST dominance, accepted Undo-memory leakage, froze truthful TOO_DEEP tutorial, redo persistence, solved-commit journal, 28-case strong floor and tighter store/safety boundaries. |
+| 008 | **Locksmith's Margin** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/locksmiths-margin` *(preferred; repository not found)* | **NOT STARTED** | `GAME8_FINAL_FREEZE.md` is final authority. Dedicated repo search for `locksmiths-margin` / `locksmith-margin` returned no accessible repository on 2026-08-30. Full `GAME8_*` safety archive remains non-active. |
+| 009 | **TBD** | **IN DESIGN / Phase 1 Opportunity Discovery ready** | TBD | **NOT STARTED** | New clean active slot. Games #001–#008 are portfolio/exclusion history only. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -21,64 +22,45 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 ## Game #007 frozen identity
 - selected concept: **G7C02 Last Known Shape**;
 - PC/Steam-first premium single-player/offline systemic observation/transformation puzzle;
-- authored Observation Frames expose one exact deterministic Candidate; ordinary camera/pixels never control gameplay;
-- Confirm writes persistent Remembered form; leaving observation resolves Remembered -> Physical authority;
-- depth from preserve/overwrite, affordance conflict, access self-block, relocation, declared dynamic input, destructive re-observation, two-object order and state-dependent reuse;
-- main campaign target C01–C34, strong-release target >=28 but filler forbidden; DEMO01–06; R01–R06 maximum/zero minimum;
-- main campaign/demo hard ceiling: <=2 reasoning-critical remembered objects, <=1 dynamic input per Frame, <=4 relevant Frames/case, normally 2–3 useful forms/object;
-- deterministic Domain Core, exact Undo/Redo, bounded solver/validator and physical state-readable UX;
+- authored Observation Frames expose one exact deterministic Candidate; Confirm writes persistent Remembered form; leaving observation resolves Remembered -> Physical authority;
+- main campaign target C01–C34, strong-release target >=28; DEMO01–06; deterministic Domain Core, exact Undo/Redo, bounded solver/validator;
 - working $17.99 USD / $14.99–$19.99 empirical release-review band;
-- Godot 4.7.2-stable / GDScript-first initial implementation baseline at freeze;
+- Godot 4.7.2-stable / GDScript-first initial baseline;
 - `GAME7_FINAL_FREEZE.md` is final authority; **DESIGN COMPLETE = YES**.
 
-## Game #008 selected identity
+## Game #008 frozen identity
 - selected concept: **G8C02 Locksmith's Margin**;
 - PC/Steam-first premium single-player tactile systemic puzzle;
-- file discrete irreversible cuts into a few persistent key blanks and use them across several locks;
-- normal authority: 4–6 columns, depths 0..D with D<=5, <=3 blanks, <=6 required locks;
-- each lock column is only a finite accepted depth set; exact/tolerance/master/wear all reduce to that authority;
-- FILE increments one selected column by exactly one authoritative depth step;
-- TEST evaluates columns left-to-right and exposes only the first blocker plus deterministic TOO_SHALLOW / TOO_DEEP / BETWEEN_BRANCHES relation; accepted prefix becomes known;
-- tests are free and deterministic; repeated identical tests reveal nothing new but remain exact history actions for Undo/Redo;
-- **Phase-10 correction:** exhaustive currently accessible non-duplicate TEST before the next FILE is rational baseline behavior and mature content must remain interesting after it; the design may not fake depth by expecting players to withhold free information;
-- access restrictions are visible predicates over opened locks, never random/narrative permissions;
-- opened locks stay completed even if the opening key is later destructively repurposed;
-- unlimited exact Undo/Redo and Restart protect real-world time while forward puzzle state remains irreversible;
-- **Phase-10 correction:** human memory retained across counterfactual Undo probing is accepted as an assistance path; required cases must still retain non-trivial omniscient partition/coverage depth;
-- final required OPEN enters pending solved review; permanent campaign/achievement commit is idempotent when leaving solved review, preserving exact Undo beforehand;
-- solved commit uses one durable local idempotent journal/transaction; platform achievements are downstream reconciliation only;
-- Redo tail is persisted across save/load with the complete attempt timeline + current cursor;
-- D02/C03 TOO_DEEP tutorial starts solvable, intentionally creates an overcut, TEST proves it, then requires exact Undo(TEST) followed by Undo(FILE); Restart returns to solvable authored start;
-- depth progresses through overlap preservation, target partitioning, destructive diagnosis, master branches, wear bridges, access order and mixed finales;
-- mature cases must defeat named cheap policies where logically appropriate and pass both omniscient solvability and information-respecting fairness validation;
-- high-risk mature cases require explicit information-respecting witness traces before shipping;
-- no lockpicking/burglary, continuous dexterity filing, shop economy, roguelite progression, hidden realism exceptions or numeric-code memorization;
-- Phase 3 authority: `GAME8_PRODUCT_THESIS.md`;
-- Phase 4 authority: `GAME8_MECHANICAL_ARCHITECTURE.md` with **80 mechanical acceptance tests**;
-- Phase 5 authority: `GAME8_CONTENT_ARCHITECTURE.md` with **90 content acceptance tests**, C01–C32 target spine, **28-case strong quality floor**, D01–D06 demo and F1–F8 family/validator system;
-- Phase 6 authority: `GAME8_UX_PRESENTATION.md` with **87 UX/presentation acceptance tests**, single-station bench/camera, semantic keyboard/controller/Deck input, explicit preview→FILE commit, knowledge ledger, onboarding, accessibility and recovery UX;
-- Phase 7 authority: `GAME8_COMMERCIAL_MODEL.md` with **80 commercial/progression acceptance tests**;
-- commercial baseline: **$17.99 USD working price**, empirical **$14.99–$19.99** release-review band; premium finite game with no gameplay economy/MTX/FOMO/grind;
-- campaign unlocks preserve tutorial dependencies but add bounded post-C06 choice; mastery/review never gates progression;
-- working 20 Steam achievements; demo achievements disabled; Steam Achievements + Cloud + controller/Deck are platform targets;
-- D01–D06 remains the commercial demo and safe demo→full recognition/import is required;
-- Phase 8 authority: `GAME8_TECHNICAL_SPECIFICATION.md` with **120 technical acceptance tests**;
-- initial implementation baseline frozen at **Godot 4.7.2-stable / GDScript-first**; 4.8 preview builds excluded from baseline;
-- strict Domain Core / Presentation / Platform separation; no animation, physics, mesh or Steam callback can decide puzzle outcomes;
-- persistence is versioned/local-first/atomic with backup recovery, proof-only runtime softlock checks and idempotent demo/full + achievement reconciliation;
-- Phase 9 authority: `GAME8_WHOLE_GAME_SIMULATION.md` + `GAME8_PHASE9_REPAIRS.md` with **70 whole-game regression checks**;
-- Phase 10 authority: `GAME8_ADVERSARIAL_REVIEW.md` + `GAME8_PHASE10_REPAIRS.md`; major repairs cover free-TEST dominance, Undo memory, truthful TOO_DEEP tutorial, persisted redo tail, solve commit journal, content distinctness, scope, commercial distinction and fictional safety boundary;
-- fresh store risk: 2026 `Access Key` already markets key cutting/re-keying and `Locksmith Simulator` remains upcoming; therefore storefront differentiation must lead with one-key/many-lock destructive overlap, not generic key cutting;
-- next: **Phase 11 Specification Freeze**.
+- destructively edit 1–3 persistent fictional key vectors to open 1–6 locks whose columns accept finite depth sets;
+- normal authority: 4–6 columns, integer depths 0..D with D<=5; FILE increments exactly +1; no continuous/floating fit authority;
+- TEST is deterministic left-to-right and reveals accepted prefix + first blocker only via TOO_SHALLOW / TOO_DEEP / BETWEEN_BRANCHES;
+- free currently accessible non-duplicate TEST is rational baseline behavior; mature cases must remain strategically meaningful after exhaustive current-state testing;
+- opened locks remain completed even if the key is later repurposed;
+- visible access predicates derive only from opened locks;
+- unlimited exact Undo/Redo/Restart; human memory across counterfactual Undo is accepted assistance, not punished;
+- redo tail persists across save/load with complete timeline + cursor;
+- D02/C03 start solvable, deliberately create one overcut, TEST proves TOO_DEEP, then require Undo(TEST) + Undo(FILE);
+- final OPEN enters pending solved review; campaign completion commits only on leave-review through one idempotent local journal transaction;
+- local save is durability authority; Cloud may merge committed monotonic facts but current attempt remains one whole validated branch;
+- campaign planning target C01–C32; **28 strong-case hard floor**, 32 aspirational; no filler/isomorphic quota defense;
+- high-risk C08–C12, C15–C16, C22–C26, C30–C32 require explicit information-respecting witness validation;
+- C32 requires >=2 materially distinct valid traces/partitions;
+- demo D01–D06 / 20–30 min target; demo achievements disabled; import is idempotent recognition only;
+- one compact bench; full keyboard+mouse/controller/Steam Deck path; no avatar locomotion/freehand/timed filing authority;
+- no gameplay economy, MTX, paid hints/Undo, grind, FOMO or live-service treadmill;
+- working price $17.99 USD with $14.99–$19.99 empirical review band;
+- store differentiation must lead with one key / several locks / every cut destroys options, not generic key cutting;
+- safety boundary is fictional/non-diagnostic: no real bitting, keyways, tolerances, re-keying, impressioning, bypass or lockpick procedure/training claims;
+- technical baseline Godot 4.7.2-stable / GDScript-first; strict Domain Core / Presentation / Platform separation;
+- final authority: `GAME8_FINAL_FREEZE.md`;
+- **DESIGN COMPLETE = YES**; migration pending only.
 
 ## Game #008 tournament history
 - Phase 1: 36 -> 10;
 - Run 1: 10 -> 5;
 - Run 2: 5 -> 3 finalists;
 - final: Locksmith's Margin beat Window Garden and Firebreak Foreman;
-- Window Garden rejected after direct plant/pruning-puzzle collision and higher deterministic-preview burden; fresh Aug-27-2026 Topiary metadata materially worsened its boundary;
-- Firebreak Foreman rejected for wildfire-puzzle adjacency, larger solver/state surface, VFX/readability risk and tutorial primitive burden;
-- rejected concepts are exclusion history only, not active Game #008 canon.
+- rejected concepts are exclusion history only, not active canon.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
