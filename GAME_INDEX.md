@@ -10,7 +10,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 004 | **HEARWALL** *(working title)* | DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified | `Mikayilzade/hearwall` | Phase 12A ready | Dedicated implementation handoff verified. |
 | 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. |
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon for Game #007. Migration can happen later without blocking the factory. |
-| 007 | **Last Known Shape** *(working title)* | **IN DESIGN / Phase 7 complete / Phase 8 next** | TBD | **NOT STARTED** | G7C02 selected. Product/mechanics/content/UX/commercial frame complete on paper; technical specification is next. |
+| 007 | **Last Known Shape** *(working title)* | **IN DESIGN / Phase 9 complete / Phase 10 next** | TBD | **NOT STARTED** | G7C02 selected. Product/mechanics/content/UX/commercial/technical specs complete; whole-game simulation reconciled 27 repairs; adversarial review next. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -32,10 +32,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - commercial target: **$17.99** working list, **$14.99–$19.99** launch review band based on final duration/content/polish/demo evidence;
 - exact campaign wrapper keeps C01–C19 teaching progression controlled, then allows bounded mature-case bypass; C34 requires C33 plus >=31 main clears;
 - no ads/MTX/currency/dailies/FOMO; free hints; bounded causal mastery; optional R01–R06 only if validated; 14–20 achievement target;
-- representative 20–30 minute demo; safe demo→full settings/profile import only; offline baseline, Cloud optional pending integrity proof;
+- representative 20–30 minute demo; safe demo->full settings/profile import only; offline baseline, Cloud optional pending integrity proof;
 - target ~4–7h minimum / 5–8h preferred if validated;
-- EG7-01..EG7-06 and Phase-7 value gates retained for empirical proof;
-- Phase 4: 60 mechanical tests; Phase 5: 55 content tests; Phase 6: 64 UX tests; Phase 7: 48 commercial tests.
+- **Phase 8:** Godot 4.7.2-stable initial pin; strict Domain/Presentation/Platform split; versioned canonical state, stable semantic/snapshot hashes, atomic transactions, exact history/idempotency, shared-Domain solver V1–V8, verified generation persistence, non-merging Cloud policy, semantic input/localization/Deck targets, headless CI; **72 technical checks**;
+- **Phase 9:** end-to-end first boot->C34 plus hostile recovery/platform simulation complete; **P9-R1..P9-R27** reconcile commit-vs-resolution legibility, dynamic-input causality, object identity, anti-atlas/anti-enumeration, traversal tax, durable win/unlock transaction, content-ID migration, Cloud conflicts, input/import/readability/localization/history/solver failure behavior;
+- empirical EG7/EV7 gates remain unpassed and are retained for prototype/playtest;
+- Phase 4: 60 mechanical tests; Phase 5: 55 content tests; Phase 6: 64 UX tests; Phase 7: 48 commercial tests; Phase 8: 72 technical tests.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
