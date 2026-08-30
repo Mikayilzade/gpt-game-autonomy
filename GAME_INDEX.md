@@ -10,8 +10,8 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 004 | **HEARWALL** *(working title)* | DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified | `Mikayilzade/hearwall` | Phase 12A ready | Dedicated implementation handoff verified. |
 | 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. |
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon. Migration can happen later without blocking the factory. |
-| 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Phase 10 destructive review produced P10-R1..P10-R25; Phase 11 freeze complete. Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
-| 008 | **TBD** | **IN DESIGN / Phase 1 next** | TBD | **NOT STARTED** | New clean active slot. Games #001–#007 are portfolio/exclusion history only; frozen archives are non-active canon. |
+| 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
+| 008 | **TBD** | **IN DESIGN / Phase 1 complete / Phase 2 tournament ready** | TBD | **NOT STARTED** | 36 fresh concepts screened; 10 survivors enter equal destructive tournament. `GAME8_RESEARCH.md` is active discovery authority. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -26,14 +26,16 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - depth from preserve/overwrite, affordance conflict, access self-block, relocation, declared dynamic input, destructive re-observation, two-object order and state-dependent reuse;
 - main campaign target C01–C34, strong-release target >=28 but filler forbidden; DEMO01–06; R01–R06 maximum/zero minimum;
 - main campaign/demo hard ceiling: <=2 reasoning-critical remembered objects, <=1 dynamic input per Frame, <=4 relevant Frames/case, normally 2–3 useful forms/object;
-- eight content families F1–F8, mature diversity quotas, anti-isomorphism vectors, anti-enumeration/cheap-policy validation;
-- deterministic Domain Core, exact transaction ordering, unlimited exact Undo/Redo, idempotency, bounded solver/validator V1–V8;
-- Physical/Remembered/Candidate UX, persistent object identity, semantic controller focus, keyboard/mouse parity, Deck 1280×800, reduced-motion/non-audio/localization accessibility;
-- working $17.99 USD / $14.99–$19.99 empirical release-review band; no ads/MTX/currency/FOMO/grind;
-- Godot 4.7.2-stable / GDScript-first initial implementation baseline at freeze; runtime version is not gameplay canon;
-- Phase 9: P9-R1..P9-R27; Phase 10: P10-R1..P10-R25;
-- key empirical risks remain deliberately unpassed: hook/non-perspective comprehension, felt mature variety, two-object readability, device-path proof, production/solver cost, demo/value duration, Cloud integrity;
+- deterministic Domain Core, exact Undo/Redo, bounded solver/validator and physical state-readable UX;
+- working $17.99 USD / $14.99–$19.99 empirical release-review band;
+- Godot 4.7.2-stable / GDScript-first initial implementation baseline at freeze;
 - `GAME7_FINAL_FREEZE.md` is final authority; **DESIGN COMPLETE = YES**.
+
+## Game #008 discovery state
+- clean-slate Phase 1 complete on 2026-08-30;
+- 36 concepts screened, 26 killed, 10 survivors;
+- survivors: Elevator Etiquette, Locksmith's Margin, Window Garden, Maintenance Window, Firebreak Foreman, Greenhouse Night Shift, In Case of Rain, Pawnshop Stories, Night Museum Conservator, Last Train Dispatcher;
+- no selected concept yet; Phase 2 must apply equal destructive evidence before narrowing.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
