@@ -12,7 +12,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon. Migration can happen later without blocking the factory. |
 | 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
 | 008 | **Locksmith's Margin** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/locksmiths-margin` *(preferred; repository not found)* | **NOT STARTED** | `GAME8_FINAL_FREEZE.md` is final authority. Dedicated repo search for `locksmiths-margin` / `locksmith-margin` returned no accessible repository on 2026-08-30. Full `GAME8_*` safety archive remains non-active. |
-| 009 | **TBD** | **IN DESIGN / Phase 1 Opportunity Discovery ready** | TBD | **NOT STARTED** | New clean active slot. Games #001–#008 are portfolio/exclusion history only. |
+| 009 | **TBD** | **IN DESIGN / Phase 1 complete / Phase 2 tournament 10 entrants ready** | TBD | **NOT STARTED** | Active authority `GAME9_RESEARCH.md`; 36 candidates -> 10. No concept selected yet. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -61,6 +61,13 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - Run 2: 5 -> 3 finalists;
 - final: Locksmith's Margin beat Window Garden and Firebreak Foreman;
 - rejected concepts are exclusion history only, not active canon.
+
+## Game #009 discovery state
+- Phase 1 authority: `GAME9_RESEARCH.md`;
+- 36 broad candidates scored across hook, depth, scope, visual readability, differentiation, implementation safety, content efficiency and demo strength;
+- top-10 tournament field: Ink Trap Press; Binder's Imposition; Kiln Stack; Stained Glass Noon; Stage Cue Machine; Mold Release; Tailor's Grain; Darkroom Layers; Paper Automata; Coin Strike;
+- **selected concept: NONE**;
+- next gate: Phase 2 Run 1, 10 -> 5 under equal destructive criteria.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
