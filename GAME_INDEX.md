@@ -11,7 +11,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. |
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon. Migration can happen later without blocking the factory. |
 | 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
-| 008 | **Locksmith's Margin** *(working title)* | **IN DESIGN / Phase 9 whole-game simulation complete / Phase 10 ready** | TBD | **NOT STARTED** | 32-case target / 28-case floor; D01–D06 demo; Phase 9 added 70 regression checks and repaired repeated-TEST history, solved-review commit, crash/persistence, Cloud/import and softlock-state semantics. |
+| 008 | **Locksmith's Margin** *(working title)* | **IN DESIGN / Phase 10 adversarial review complete / Phase 11 ready** | TBD | **NOT STARTED** | Phase 10 found free-TEST dominance, accepted Undo-memory leakage, froze truthful TOO_DEEP tutorial, redo persistence, solved-commit journal, 28-case strong floor and tighter store/safety boundaries. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -40,16 +40,22 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - FILE increments one selected column by exactly one authoritative depth step;
 - TEST evaluates columns left-to-right and exposes only the first blocker plus deterministic TOO_SHALLOW / TOO_DEEP / BETWEEN_BRANCHES relation; accepted prefix becomes known;
 - tests are free and deterministic; repeated identical tests reveal nothing new but remain exact history actions for Undo/Redo;
+- **Phase-10 correction:** exhaustive currently accessible non-duplicate TEST before the next FILE is rational baseline behavior and mature content must remain interesting after it; the design may not fake depth by expecting players to withhold free information;
 - access restrictions are visible predicates over opened locks, never random/narrative permissions;
 - opened locks stay completed even if the opening key is later destructively repurposed;
 - unlimited exact Undo/Redo and Restart protect real-world time while forward puzzle state remains irreversible;
+- **Phase-10 correction:** human memory retained across counterfactual Undo probing is accepted as an assistance path; required cases must still retain non-trivial omniscient partition/coverage depth;
 - final required OPEN enters pending solved review; permanent campaign/achievement commit is idempotent when leaving solved review, preserving exact Undo beforehand;
+- solved commit uses one durable local idempotent journal/transaction; platform achievements are downstream reconciliation only;
+- Redo tail is persisted across save/load with the complete attempt timeline + current cursor;
+- D02/C03 TOO_DEEP tutorial starts solvable, intentionally creates an overcut, TEST proves it, then requires exact Undo(TEST) followed by Undo(FILE); Restart returns to solvable authored start;
 - depth progresses through overlap preservation, target partitioning, destructive diagnosis, master branches, wear bridges, access order and mixed finales;
-- mature cases must defeat named cheap policies and pass both omniscient solvability and information-respecting fairness validation;
+- mature cases must defeat named cheap policies where logically appropriate and pass both omniscient solvability and information-respecting fairness validation;
+- high-risk mature cases require explicit information-respecting witness traces before shipping;
 - no lockpicking/burglary, continuous dexterity filing, shop economy, roguelite progression, hidden realism exceptions or numeric-code memorization;
 - Phase 3 authority: `GAME8_PRODUCT_THESIS.md`;
 - Phase 4 authority: `GAME8_MECHANICAL_ARCHITECTURE.md` with **80 mechanical acceptance tests**;
-- Phase 5 authority: `GAME8_CONTENT_ARCHITECTURE.md` with **90 content acceptance tests**, C01–C32 target spine, 28-case quality floor, D01–D06 demo and F1–F8 family/validator system;
+- Phase 5 authority: `GAME8_CONTENT_ARCHITECTURE.md` with **90 content acceptance tests**, C01–C32 target spine, **28-case strong quality floor**, D01–D06 demo and F1–F8 family/validator system;
 - Phase 6 authority: `GAME8_UX_PRESENTATION.md` with **87 UX/presentation acceptance tests**, single-station bench/camera, semantic keyboard/controller/Deck input, explicit preview→FILE commit, knowledge ledger, onboarding, accessibility and recovery UX;
 - Phase 7 authority: `GAME8_COMMERCIAL_MODEL.md` with **80 commercial/progression acceptance tests**;
 - commercial baseline: **$17.99 USD working price**, empirical **$14.99–$19.99** release-review band; premium finite game with no gameplay economy/MTX/FOMO/grind;
@@ -60,8 +66,10 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - initial implementation baseline frozen at **Godot 4.7.2-stable / GDScript-first**; 4.8 preview builds excluded from baseline;
 - strict Domain Core / Presentation / Platform separation; no animation, physics, mesh or Steam callback can decide puzzle outcomes;
 - persistence is versioned/local-first/atomic with backup recovery, proof-only runtime softlock checks and idempotent demo/full + achievement reconciliation;
-- Phase 9 authority: `GAME8_WHOLE_GAME_SIMULATION.md` + `GAME8_PHASE9_REPAIRS.md` with **70 whole-game regression checks** and explicit transaction/recovery clarifications;
-- next: **Phase 10 Adversarial Review**.
+- Phase 9 authority: `GAME8_WHOLE_GAME_SIMULATION.md` + `GAME8_PHASE9_REPAIRS.md` with **70 whole-game regression checks**;
+- Phase 10 authority: `GAME8_ADVERSARIAL_REVIEW.md` + `GAME8_PHASE10_REPAIRS.md`; major repairs cover free-TEST dominance, Undo memory, truthful TOO_DEEP tutorial, persisted redo tail, solve commit journal, content distinctness, scope, commercial distinction and fictional safety boundary;
+- fresh store risk: 2026 `Access Key` already markets key cutting/re-keying and `Locksmith Simulator` remains upcoming; therefore storefront differentiation must lead with one-key/many-lock destructive overlap, not generic key cutting;
+- next: **Phase 11 Specification Freeze**.
 
 ## Game #008 tournament history
 - Phase 1: 36 -> 10;
