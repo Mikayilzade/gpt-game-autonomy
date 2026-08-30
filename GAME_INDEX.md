@@ -11,7 +11,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. |
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon. Migration can happen later without blocking the factory. |
 | 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
-| 008 | **Locksmith's Margin** *(working title)* | **IN DESIGN / Phase 3 product thesis locked / Phase 4 ready** | TBD | **NOT STARTED** | Selected G8C02 after 36 -> 10 -> 5 -> 3 -> 1 tournament. Persistent destructively edited keys cover overlapping lock tolerance sets; failed tests are deterministic information. |
+| 008 | **Locksmith's Margin** *(working title)* | **IN DESIGN / Phase 4 mechanical architecture complete / Phase 5 ready** | TBD | **NOT STARTED** | Discrete persistent destructively edited keys cover overlapping accepted sets; deterministic first-blocking tests create information-order decisions. 80 mechanical acceptance tests frozen. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -35,13 +35,20 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - selected concept: **G8C02 Locksmith's Margin**;
 - PC/Steam-first premium single-player tactile systemic puzzle;
 - file discrete irreversible cuts into a few persistent key blanks and use them across several locks;
-- each lock column accepts a finite depth set/interval; master behavior adds accepted branches; wear widens tolerance only;
-- failed tests expose deterministic first-blocking impression information; no random jams or hidden realism exceptions;
-- strategic depth is preserving overlap and information value, not making every current key as accurate/deep as possible;
-- core mature grammar: target partitioning across keys, destructive diagnosis, overlapping tolerance sets, master branches, wear bridges, test order and diagnostic-then-convert play;
-- no lockpicking/burglary, continuous dexterity filing, shop economy, roguelite progression or numeric-code memorization;
+- normal authority: 4–6 columns, depths 0..D with D<=5, <=3 blanks, <=6 required locks;
+- each lock column is only a finite accepted depth set; exact/tolerance/master/wear all reduce to that authority;
+- FILE increments one selected column by exactly one authoritative depth step;
+- TEST evaluates columns left-to-right and exposes only the first blocker plus deterministic TOO_SHALLOW / TOO_DEEP / BETWEEN_BRANCHES relation; accepted prefix becomes known;
+- tests are free and deterministic; repeated identical tests reveal nothing new;
+- access restrictions are visible predicates over opened locks, never random/narrative permissions;
+- opened locks stay completed even if the opening key is later destructively repurposed;
+- unlimited exact Undo/Redo and Restart protect real-world time while forward puzzle state remains irreversible;
+- depth progresses through overlap preservation, target partitioning, destructive diagnosis, master branches, wear bridges, access order and mixed finales;
+- mature cases must defeat named cheap policies and pass both omniscient solvability and information-respecting fairness validation;
+- no lockpicking/burglary, continuous dexterity filing, shop economy, roguelite progression, hidden realism exceptions or numeric-code memorization;
 - Phase 3 authority: `GAME8_PRODUCT_THESIS.md`;
-- next: full Phase 4 Mechanical Architecture.
+- Phase 4 authority: `GAME8_MECHANICAL_ARCHITECTURE.md` with **80 mechanical acceptance tests**;
+- next: Phase 5 Content Architecture.
 
 ## Game #008 tournament history
 - Phase 1: 36 -> 10;
