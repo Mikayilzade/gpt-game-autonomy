@@ -17,7 +17,7 @@ Branch: `main`
 Only Game #008 files named below are active game canon. `GAME6_*` and `GAME7_*` remain frozen non-active safety archives and must not contaminate Game #008. Rejected Game #008 concepts are tournament history only.
 
 ## Current phase
-**Game #008 — PHASE 6 UX / PRESENTATION ARCHITECTURE COMPLETE / PHASE 7 READY.**
+**Game #008 — PHASE 7 ECONOMY / RETENTION / COMMERCIAL MODEL COMPLETE / PHASE 8 READY.**
 
 ## Active authority for Game #008
 1. `START_HERE.md`
@@ -31,25 +31,25 @@ Only Game #008 files named below are active game canon. `GAME6_*` and `GAME7_*` 
 9. `GAME8_MECHANICAL_ARCHITECTURE.md`
 10. `GAME8_CONTENT_ARCHITECTURE.md`
 11. `GAME8_UX_PRESENTATION.md`
+12. `GAME8_COMMERCIAL_MODEL.md`
 
 ## This run completed
-- Read the factory authority chain and every active Game #008 file named by the prior `STATUS.md`, then resumed exactly from Phase 6 NEXT ACTION.
-- Created the complete `GAME8_UX_PRESENTATION.md` authority without altering the frozen mechanics/content.
-- Locked a single-station bench with Key Rack, Vice/Filing Stage, Lock Rail, Inspection Stage and Ledger Drawer; no avatar walking or hidden hotspots.
-- Defined four bounded camera states: BENCH_OVERVIEW, KEY_FOCUS, LOCK_FOCUS and TEST_CUTAWAY, with reduced-motion cuts and no camera authority over puzzle state.
-- Defined semantic input actions and complete keyboard+mouse, controller and Steam Deck paths; no essential chord, drag or hold requirement.
-- Locked two-stage filing interaction: candidate next-notch preview is non-authoritative, followed by a separate explicit FILE_COMMIT; unlimited Undo remains recovery rather than a forward-state mechanic.
-- Defined physical first-blocking TEST language for TOO_SHALLOW, TOO_DEEP and BETWEEN_BRANCHES, accepted-prefix feedback, OPENED persistence and later-column non-revelation.
-- Defined Knowledge Ledger with explicit OBSERVED / DEDUCED / UNKNOWN states, `Why?` proof expansion for deductions and strict prohibition on solver-only hidden information.
-- Defined minimal HUD, access-predicate presentation, action history, exact Undo/Redo/Restart UX and proven-softlock messaging that never fires on solver timeout/unknown.
-- Defined C01–C06 onboarding with no text wall and no rule carried only by audio/animation/color; C06 preserves the intended `do not cut yet` discovery rather than spoiling it.
-- Defined deterministic non-punitive hint ladder, menus, Case Select, solved review, campaign flow, demo completion and safe demo→full-game import behavior.
-- Defined accessibility baseline including remapping, keyboard-only/controller-only, Steam Deck full-function path, UI scale, text sizing, inspection zoom, non-color encodings, reduced motion, animation speed/skip, audio independence, optional depth labels and optional haptics.
-- Defined save/load/crash/cloud-conflict UX contract while deferring exact serialization to Phase 8.
-- Defined stylized physical presentation language and strict audio/haptic/VFX non-authority boundaries.
-- Added **87 UX/presentation acceptance tests** spanning bench/camera, input, filing, testing, knowledge, access/HUD, history/recovery, onboarding/hints, menus/demo, accessibility/Deck, persistence and presentation integrity.
-- Fresh official platform/engine research confirmed two Phase-6 constraints: Steam Deck verification expects all functionality through the default controller configuration, and current Godot guidance supports semantic input actions plus controller/UI focus handling.
-- Fresh commercial reconnaissance was started only to prepare Phase 7: current Steam examples show premium puzzle/deduction products spanning at least ~$19.99 (`The Roottrees are Dead`) to $29.99 (`Blue Prince`), but no Locksmith's Margin price has been frozen yet.
+- Read the factory authority chain and every active Game #008 file named by the prior `STATUS.md`, then resumed exactly from Phase 7 NEXT ACTION.
+- Created `GAME8_COMMERCIAL_MODEL.md` as complete Phase-7 authority without changing puzzle grammar.
+- Fresh Steam market reconnaissance anchored the value band: current examples include Piece by Piece at $12.99, A Little to the Left at $14.99, Patrick's Parabox and The Roottrees are Dead at $19.99, and the substantially larger Blue Prince at $29.99.
+- Locked working price hypothesis at **$17.99 USD** with an empirical **$14.99–$19.99** pre-release review band tied to validated case count, actual campaign duration, tactile polish, accessibility/platform completeness and replay value rather than competitor parity.
+- Explicitly defined **no gameplay economy**: no currency, XP, energy, paid hints, star gating, grind, lives, consumables or metagame power.
+- Defined tutorial-safe campaign unlock flow: C01–C06 linear, then bounded small choice clusters where Phase-5 tutorial dependencies permit, with optional mastery never gating progression.
+- Defined post-solve mastery/replay through Clean Bench, Measured Cuts/Tests, eligible Final Coverage and validated Alternate Partition badges; no time/dexterity/hint-shaming mastery.
+- Defined solved-review motivation around causal history, alternate partitions and cleaner solutions rather than randomized dailies/endless mode.
+- Defined a working **20-achievement** set inside an 18–24 target, with explicit bans on repetitive farming, no-hint requirements, all-case no-Undo perfection, timed dexterity, external accounts and accessibility-hostile tasks.
+- Locked D01–D06 demo commercial role, completion CTA, feedback route and safe demo→full recognition/import boundaries.
+- Fresh official Steamworks documentation confirms demos are separate App IDs, can share Cloud storage with the full app to reduce upgrade friction, and Valve recommends disabling achievements in demos and reconciling them in the full game.
+- Fresh official Next Fest guidance confirms demos must be live for participation, should be live before the press-preview list cutoff for press access, and should be clearly exposed on the base store page.
+- Platform targets: Steam Achievements, Steam Cloud, full controller path and Steam Deck target; Rich Presence/basic Stats optional low-burden only; leaderboards, Workshop/editor, live events and mandatory external accounts rejected.
+- Localization-ready architecture is required, but non-English release languages remain a production/commercial hypothesis pending real word count, QA/support budget and market validation.
+- Froze hard monetization boundaries: premium purchase baseline; no MTX, premium currency, paid hints/Undo/power, ads, battle pass, FOMO, timers, streaks or accessibility DLC; no gameplay DLC is promised.
+- Added **80 commercial/progression acceptance tests**.
 
 ## Retained migration state
 ### Game #006 — Stitchspace
@@ -58,20 +58,23 @@ DESIGN COMPLETE = YES; preferred repo `Mikayilzade/stitchspace`; migration pendi
 ### Game #007 — Last Known Shape
 DESIGN COMPLETE = YES; preferred repo `Mikayilzade/last-known-shape`; migration pending, non-blocking.
 
-## NEXT ACTION — GAME #008 PHASE 7 ECONOMY / RETENTION / COMMERCIAL MODEL
-Build the complete commercial/progression authority without changing the puzzle grammar:
-1. research current premium PC/Steam puzzle pricing, demo expectations, achievements/platform features and comparable scope/value positioning;
-2. set a working USD list-price hypothesis and explicit empirical review band tied to validated campaign length/quality rather than arbitrary parity;
-3. define base campaign unlock flow, optional mastery, replay incentives and solved-review motivation without grind, currency or star-gating;
-4. define achievements so they reward understanding/experimentation and never require repetitive farming, hidden irreversible chores or accessibility-hostile dexterity;
-5. define demo storefront/CTA strategy around D01–D06 and safe full-game onboarding recognition/import;
-6. define Steam features target: achievements, Cloud, controller/Deck support and any justified low-burden features; reject features whose maintenance cost exceeds product value;
-7. define localization/release-language commercial assumptions only as scope hypotheses for Phase 8/production validation;
-8. freeze monetization boundaries: premium purchase only for gameplay baseline; no MTX, consumable hints, paid power, FOMO, battle pass, ads or artificial retention timers;
-9. define discount/bundle/DLC boundaries without inventing promised post-launch content;
-10. write >=40 commercial/progression acceptance tests.
+## NEXT ACTION — GAME #008 PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION
+Build the implementation authority without starting production code:
+1. research current stable engine/runtime options and choose/freeze an initial implementation baseline appropriate for tactile 3D/2.5D bench presentation, deterministic discrete domain state, PC/Steam/controller/Deck and small-team scope;
+2. define strict Domain Core vs Presentation vs Platform Services boundaries so animation/physics never decide fit, knowledge or puzzle outcome;
+3. define conceptual state/data model for cases, blanks, locks, accepted sets, access predicates, knowledge facts/deductions, history, mastery and campaign progress;
+4. define deterministic transition/reducer ordering for FILE, TEST, OPEN/access effects, Undo/Redo/Restart and solved transition;
+5. define solver/validator architecture, canonical state keys, symmetry handling, information-respecting fairness search, softlock budgets and runtime-vs-authoring separation;
+6. define persistence schema/versioning, atomic save/recovery, action-history storage, settings, Cloud conflict behavior, demo/full namespaces and safe demo recognition/import;
+7. define Steam-service abstraction for achievements/Cloud/controller glyph/platform availability with offline graceful degradation;
+8. define input/focus abstraction matching Phase 6 and target-device constraints;
+9. define localization-ready string/data boundaries and font/layout assumptions without promising languages;
+10. define performance/memory/loading budgets appropriate to 3 blanks/6 locks/6 columns and Steam Deck target; avoid speculative optimization;
+11. define deterministic test hooks, headless domain tests, validator fixtures, save corruption/migration tests and presentation-authority tests;
+12. define implementation order for future dedicated repo from bootstrap through vertical slice, systems, content, UX/platform and empirical gates;
+13. write >=60 technical acceptance tests.
 
-If Phase 7 closes cleanly, begin Phase 8 only if the engine/runtime direction can be researched and specified without rushing unresolved commercial assumptions.
+If Phase 8 closes cleanly, continue into Phase 9 whole-game simulation only if there is enough run budget to perform a meaningful end-to-end paper simulation rather than a status microstep.
 
 ## Blockers
 **NONE for Game #008 design.**
