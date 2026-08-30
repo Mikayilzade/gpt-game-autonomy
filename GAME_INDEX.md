@@ -12,21 +12,27 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 006 | **Stitchspace** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/stitchspace` *(not yet created)* | NOT STARTED | Frozen Game #006 files remain non-active. |
 | 007 | **Last Known Shape** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/last-known-shape` *(not yet created)* | NOT STARTED | Frozen Game #007 files remain non-active. |
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen Game #008 files remain non-active. |
-| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 3 Product Thesis locked / Phase 4 ready** | TBD | NOT STARTED | G9C02 won final 3->1 tournament; active authority through `GAME9_PRODUCT_THESIS.md`. |
+| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 4 Mechanical Architecture complete / Phase 5 ready** | TBD | NOT STARTED | Active rules authority is `GAME9_MECHANICAL_ARCHITECTURE.md`. |
 
 ## Game #009 current identity
 - selected concept: **G9C02 Binder's Imposition**;
 - PC/Steam-first premium single-player/offline systemic permutation/constraint puzzle;
 - one-sentence hook: arrange pages on flat sheets so that after they fold, flip, nest and trim, the finished book reads exactly right;
 - core reasoning object: deterministic transform from reversible flat sheet/signature assignments and nesting roles to final bound-face positions/orientations;
+- frozen mechanical domain: `PageFace`, `FlatSlot`, `Signature`, `FoldTemplate`, resolved `BoundBookState`;
+- deterministic resolution order: legality -> local fold -> duplex orientation -> nesting -> leaf/facing -> trim -> constraints -> exact explanation;
+- base transform grammar: T4, T4F, T8 and T6P, with no uncontrolled print-shop jargon;
 - depth comes from intersecting final-book constraints: nesting role, facing spreads, same/different signature, orientation, inserts/material role, blanks/trim survival, alternative fold templates;
+- player editing remains reversible; Fold Preview is non-mutating and mathematically identical to Commit's transform;
+- structured anti-bookkeeping operations are allowed only to reduce clerical manipulation, never to choose the solution;
+- ordinary campaign ceiling: normally <=20 faces, <=3 signatures, <=4 secondary predicate families and <=2 template choices per signature;
 - no real print-shop calibration or vocational-training requirement;
 - compact workbench scope; no avatar locomotion, shop economy, deckbuilding, roguelite wrapper, multiplayer, MTX or live-service baseline;
 - planning target approximately 30 strong cases, quality-gated rather than filler-quota driven;
 - demo target 20–30 minutes from 4-face fold surprise through nesting/facing/material-role capstone;
 - empirical gates include player prediction of final adjacencies and avoidance of blind preview/swap loops;
 - working title may change later because storefront copy must not require knowledge of the word "imposition";
-- **DESIGN COMPLETE = NO**; next phase is Mechanical Architecture.
+- **DESIGN COMPLETE = NO**; next phase is Content Architecture.
 
 ## Game #009 tournament history
 - Phase 1: 36 candidates -> 10 entrants;
