@@ -14,17 +14,44 @@ Branch: `main`
 - Production implementation inside factory: **NO**
 
 ## Continuity / active-canon rule
-A frozen game with a missing dedicated repository may remain as a non-active safety archive. Pending migration never blocks the next sequential design. Only Game #008 files named by this STATUS after Phase 1 begins are active game canon. `GAME6_*` and `GAME7_*` files are frozen portfolio/exclusion history only and must not contaminate Game #008.
+A frozen game with a missing dedicated repository may remain as a non-active safety archive. Pending migration never blocks the next sequential design. Only Game #008 files named by this STATUS are active game canon. `GAME6_*` and `GAME7_*` files are frozen portfolio/exclusion history only and must not contaminate Game #008.
 
 ## Current phase
-**Game #008 — PHASE 1 OPPORTUNITY DISCOVERY READY.**
+**Game #008 — PHASE 1 OPPORTUNITY DISCOVERY COMPLETE / PHASE 2 CONCEPT TOURNAMENT READY.**
 
 ## Active authority for Game #008
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
+4. `GAME8_RESEARCH.md`
 
-No `GAME8_*` design file exists yet. Older completed-game files are explicitly non-active.
+Older completed-game files are explicitly non-active.
+
+## Game #008 Phase 1 progress
+Fresh 2026 market context was re-checked. Current signal remains noisy around cheap social/co-op, roguelite/deckbuilder hybrids, survival/crafting and dark-fantasy/co-op festival visibility; Game #008 therefore deliberately searched outside trend-clone space and allowed compact occupational/systemic simulation as well as puzzle structures.
+
+`GAME8_RESEARCH.md` now contains:
+- explicit Games #001–#007 portfolio exclusion field;
+- current saturation/market notes;
+- **36 genuinely distinct concepts** screened from a clean slate;
+- score axes for hook legibility, systemic depth, scope, visual readability, differentiation, implementation safety, content efficiency and demo strength;
+- explicit kill reasons for 26 concepts;
+- **10 Phase-1 survivors**;
+- equal destructive questions and candidate-specific attack priorities for Phase 2.
+
+### Phase-1 survivors
+1. **G8C06 Elevator Etiquette** — 38/40
+2. **G8C02 Locksmith's Margin** — 37/40
+3. **G8C04 Window Garden** — 37/40
+4. **G8C01 Maintenance Window** — 36/40
+5. **G8C07 Firebreak Foreman** — 36/40
+6. **G8C10 Greenhouse Night Shift** — 35/40
+7. **G8C03 In Case of Rain** — 34/40
+8. **G8C08 Pawnshop Stories** — 34/40
+9. **G8C09 Night Museum Conservator** — 34/40
+10. **G8C05 Last Train Dispatcher** — 33/40
+
+No winner is selected and the Phase-1 score order grants no protection.
 
 ## Retained migration state
 ### Game #006 — Stitchspace
@@ -35,63 +62,31 @@ No `GAME8_*` design file exists yet. Older completed-game files are explicitly n
 
 ### Game #007 — Last Known Shape
 - DESIGN COMPLETE = YES
-- Phase 10 adversarial review complete: `GAME7_ADVERSARIAL_REVIEW.md`, P10-R1..P10-R25
 - Phase 11 final authority: `GAME7_FINAL_FREEZE.md`
 - preferred repo: `Mikayilzade/last-known-shape`
-- repository check on 2026-08-30 returned **Not Found**
-- repository creation is unavailable in current GitHub toolset
+- repository check on 2026-08-30 returned Not Found
 - full `GAME7_*` safety archive retained, non-active
 - migration pending is explicitly non-blocking
 
-## Game #007 completion summary
-- Phase 1 Opportunity Discovery: COMPLETE
-- Phase 2 Concept Tournament: COMPLETE / Last Known Shape selected
-- Phase 3 Product Thesis: COMPLETE
-- Phase 4 Mechanical Architecture: COMPLETE / 60 checks
-- Phase 5 Content Architecture: COMPLETE / 55 checks
-- Phase 6 UX / Presentation: COMPLETE / 64 checks
-- Phase 7 Economy / Commercial: COMPLETE / 48 checks
-- Phase 8 Technical Specification: COMPLETE / 72 checks
-- Phase 9 Whole-Game Simulation: COMPLETE / P9-R1..P9-R27
-- Phase 10 Adversarial Review: COMPLETE / P10-R1..P10-R25
-- Phase 11 Specification Freeze: COMPLETE
-- DESIGN COMPLETE: **YES**
-- MIGRATION COMPLETE: **NO / pending external repository creation**
+## NEXT ACTION — GAME #008 PHASE 2 RUN 1
+Perform the first **equal destructive Concept Tournament** across all 10 survivors in `GAME8_RESEARCH.md`.
 
-Key Phase-10/freeze narrowing:
-- main campaign/demo <=2 reasoning-critical remembered objects;
-- main campaign <=1 dynamic input per Observation Frame;
-- no global candidate atlas/form matrix/correctness oracle;
-- mature felt-family/anti-enumeration gates added;
-- solver/validator cannot certify fun/readability/value;
-- explicit content/asset/solver/traversal cut ladders;
-- exact history/persistence/content-version migration constraints;
-- Cloud must be cut if divergent-branch integrity is not proven;
-- all device paths must pass before bulk content;
-- $17.99 remains empirical planning hypothesis, not fixed release promise;
-- Godot 4.7.2-stable remains initial implementation baseline as of fresh 2026-08-30 check; 4.8-dev4 is development-only.
+For every candidate, require concrete evidence rather than pitch language:
+1. one exact 15-second trailer before/action/after beat;
+2. one early playable case;
+3. at least three mature scenario blueprints using the same primitive vocabulary;
+4. cheapest/dominant-policy attack and a causal counterexample;
+5. minute-5 versus hour-3 reasoning delta;
+6. state-readability/no-spreadsheet test;
+7. content production model for ~25–35 strong situations;
+8. closest current market analogues and explicit mechanical boundary;
+9. demo arc and likely store-page hook;
+10. prototype kill criterion;
+11. portfolio-contamination re-check against Games #001–#007.
 
-## NEXT ACTION — GAME #008 PHASE 1
-Create `GAME8_RESEARCH.md` and perform a fresh **Opportunity Discovery** pass from a clean slate.
+Use fresh web research for close-market analogues where material. Target reduction: **10 -> 5 or 6**. Do not select a winner in Run 1 unless all candidates received equal destructive treatment and an overwhelmingly clear contradiction kills the rest; default is no winner yet.
 
-Requirements:
-1. re-check current 2026 market/release context and avoid blindly chasing saturated genres;
-2. use Games #001–#007 only as portfolio/exclusion history, never as canon;
-3. generate at least **30 genuinely distinct concepts**, preferably ~36;
-4. explicitly avoid hidden reskins of:
-   - Organism Cargo transport/cargo identity;
-   - False Map Department representation-vs-reality bureaucracy;
-   - Borrowed Collision portable transferred consequence/property;
-   - HEARWALL primary audio inference;
-   - Tension Budget conserved physical budget/network;
-   - Stitchspace scarce adjacency/topology rewiring;
-   - Last Known Shape authored observation/remembered-form authority;
-5. score/screen candidates for hook legibility, systemic depth, scope, visual readability, market differentiation, implementation risk, content burden and demo strength;
-6. retain roughly 8–12 serious survivors;
-7. write explicit saturation/portfolio kill reasons for rejected concepts;
-8. save all meaningful work in `GAME8_RESEARCH.md` and update this STATUS with exact next tournament action.
-
-If Phase 1 is completed cleanly and enough time remains, Phase 2 Run 1 may begin in the same run, but do not select a winner without equal destructive comparison.
+Save Run-1 tournament evidence into a new `GAME8_TOURNAMENT.md` and update STATUS with survivors, kills and exact Run-2 action.
 
 ## Blockers
 **NONE for Game #008 design.**
