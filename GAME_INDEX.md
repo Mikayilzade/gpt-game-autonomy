@@ -10,7 +10,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 004 | **HEARWALL** *(working title)* | DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified | `Mikayilzade/hearwall` | Phase 12A ready | Dedicated implementation handoff verified. |
 | 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. |
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon for Game #007. Migration can happen later without blocking the factory. |
-| 007 | **Last Known Shape** *(working title)* | **IN DESIGN / Phase 4 mechanical architecture complete / Phase 5 ready** | TBD | **NOT STARTED** | G7C02 selected. Deterministic Observation Frames, remembered-vs-physical form contract, slot movement, two-object ordering, solver bounds and 60 mechanical acceptance tests frozen. |
+| 007 | **Last Known Shape** *(working title)* | **IN DESIGN / Phase 5 complete / Phase 6 UX in progress** | TBD | **NOT STARTED** | G7C02 selected. C01–C34 content architecture, DEMO01–06, eight causal families, hard diversity/anti-isomorphism validation and 55 content tests frozen; UX Run 1 foundations added. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -24,11 +24,15 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - commit overwrites remembered form; when direct observation ends, remembered form becomes physical authority;
 - exact candidate is a pure function of declared canonical frame/object/mask/occluder state — never pixels/free camera;
 - depth from preservation/overwrite, conflicting affordances, access self-block, relocation, authored occluders, destructive re-observation, two-object order and state-dependent reuse;
+- main campaign target **C01–C34**, release floor 28 strong cases; **DEMO01–DEMO06**; <=6 optional remixes only after causal-distinction validation;
+- eight dominant content families F1–F8 with hard mature-case diversity quotas and causal-vector anti-isomorphism checks;
+- each mature case declares anti-dominant/anti-enumeration requirements; solver/validator pipeline V1–V8 is mandatory;
 - normally <=2 reasoning-critical transformable objects, <=3 useful forms/object, <=4 relevant frames/case;
 - discrete slot movement, deterministic receivers/event ordering, unlimited Undo/Redo and bounded solver state;
-- target ~30–36 main cases, 4–7h minimum / 5–8h preferred if validated;
+- UX foundation distinguishes Physical Now / Remembered / Candidate, uses exact old->new overwrite preview, and preserves camera non-authority;
+- target ~4–7h minimum / 5–8h preferred if validated;
 - EG7-01..EG7-06 retained for later empirical proof;
-- Phase 4 includes 60 mechanical acceptance tests and six anti-dominant-strategy fixtures.
+- Phase 4: 60 mechanical acceptance tests; Phase 5: 55 content tests; Phase 6 currently has 24 foundation checks and remains in progress.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
