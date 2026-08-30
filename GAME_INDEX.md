@@ -1,81 +1,53 @@
 # GAME INDEX
 
-This file tracks games produced by the reusable design factory. Dedicated repositories own implementation. After verified migration, finished game-specific design normally leaves the factory; however, a frozen completed game may remain temporarily as a **non-active safety archive** when its dedicated repository does not yet exist. A pending migration must not block design of the next numbered game.
+This file tracks games produced by the reusable design factory. Dedicated repositories own implementation. Frozen completed games may remain temporarily as **non-active safety archives** when dedicated repositories do not yet exist; pending migration never blocks the next design slot.
 
 | # | Game | Design status | Dedicated repository | Implementation status | Notes |
 |---|---|---|---|---|---|
-| 001 | **Organism Cargo** | DESIGN COMPLETE / specification frozen | `Mikayilzade/organism-cargo` | Dedicated implementation track | Migrated with design canon and autonomous implementation handoff. |
-| 002 | **False Map Department** | DESIGN COMPLETE / specification frozen / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migration integrity verified; CI/email-noise guardrail included. |
-| 003 | **Borrowed Collision** | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/borrowed-collision` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | Frozen design package and autonomous implementation handoff migrated. |
-| 004 | **HEARWALL** *(working title)* | DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified | `Mikayilzade/hearwall` | Phase 12A ready | Dedicated implementation handoff verified. |
-| 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. |
-| 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon. Migration can happen later without blocking the factory. |
-| 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
-| 008 | **Locksmith's Margin** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/locksmiths-margin` *(preferred; repository not found)* | **NOT STARTED** | `GAME8_FINAL_FREEZE.md` is final authority. Dedicated repo search for `locksmiths-margin` / `locksmith-margin` returned no accessible repository on 2026-08-30. Full `GAME8_*` safety archive remains non-active. |
-| 009 | **TBD** | **IN DESIGN / Phase 2 Run 2 complete / 5 -> 3 / final head-to-head ready** | TBD | **NOT STARTED** | Active authorities include `GAME9_TOURNAMENT_RUN2.md`; finalists Binder's Imposition, Ink Trap Press, Paper Automata; no concept selected yet. |
+| 001 | **Organism Cargo** | DESIGN COMPLETE / migrated | `Mikayilzade/organism-cargo` | Dedicated implementation track | Migrated with autonomous implementation handoff. |
+| 002 | **False Map Department** | DESIGN COMPLETE / migrated | `Mikayilzade/false-map-department` | Dedicated implementation track | Migration integrity verified; CI/email-noise guardrail included. |
+| 003 | **Borrowed Collision** | DESIGN COMPLETE / migrated / integrity verified | `Mikayilzade/borrowed-collision` | Phase 12A ready | Frozen design package migrated. |
+| 004 | **HEARWALL** *(working title)* | DESIGN COMPLETE / migrated / integrity verified | `Mikayilzade/hearwall` | Phase 12A ready | Dedicated handoff verified. |
+| 005 | **Tension Budget** *(internal label)* | DESIGN COMPLETE / migrated / integrity verified | `Mikayilzade/tension-budget` | Phase 12A ready | Dedicated authority/handoff/CI policy present. |
+| 006 | **Stitchspace** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/stitchspace` *(not yet created)* | NOT STARTED | Frozen Game #006 files remain non-active. |
+| 007 | **Last Known Shape** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/last-known-shape` *(not yet created)* | NOT STARTED | Frozen Game #007 files remain non-active. |
+| 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen Game #008 files remain non-active. |
+| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 3 Product Thesis locked / Phase 4 ready** | TBD | NOT STARTED | G9C02 won final 3->1 tournament; active authority through `GAME9_PRODUCT_THESIS.md`. |
 
-## Game #006 frozen identity
-- G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
-- scarce seam endpoint replacement rewires room adjacency; every new adjacency destroys old;
-- C01–C34; deterministic domain; migration pending only.
+## Game #009 current identity
+- selected concept: **G9C02 Binder's Imposition**;
+- PC/Steam-first premium single-player/offline systemic permutation/constraint puzzle;
+- one-sentence hook: arrange pages on flat sheets so that after they fold, flip, nest and trim, the finished book reads exactly right;
+- core reasoning object: deterministic transform from reversible flat sheet/signature assignments and nesting roles to final bound-face positions/orientations;
+- depth comes from intersecting final-book constraints: nesting role, facing spreads, same/different signature, orientation, inserts/material role, blanks/trim survival, alternative fold templates;
+- no real print-shop calibration or vocational-training requirement;
+- compact workbench scope; no avatar locomotion, shop economy, deckbuilding, roguelite wrapper, multiplayer, MTX or live-service baseline;
+- planning target approximately 30 strong cases, quality-gated rather than filler-quota driven;
+- demo target 20–30 minutes from 4-face fold surprise through nesting/facing/material-role capstone;
+- empirical gates include player prediction of final adjacencies and avoidance of blind preview/swap loops;
+- working title may change later because storefront copy must not require knowledge of the word "imposition";
+- **DESIGN COMPLETE = NO**; next phase is Mechanical Architecture.
 
-## Game #007 frozen identity
-- selected concept: **G7C02 Last Known Shape**;
-- PC/Steam-first premium single-player/offline systemic observation/transformation puzzle;
-- authored Observation Frames expose one exact deterministic Candidate; Confirm writes persistent Remembered form; leaving observation resolves Remembered -> Physical authority;
-- main campaign target C01–C34, strong-release target >=28; DEMO01–06; deterministic Domain Core, exact Undo/Redo, bounded solver/validator;
-- working $17.99 USD / $14.99–$19.99 empirical release-review band;
-- Godot 4.7.2-stable / GDScript-first initial baseline;
-- `GAME7_FINAL_FREEZE.md` is final authority; **DESIGN COMPLETE = YES**.
-
-## Game #008 frozen identity
-- selected concept: **G8C02 Locksmith's Margin**;
-- PC/Steam-first premium single-player tactile systemic puzzle;
-- destructively edit 1–3 persistent fictional key vectors to open 1–6 locks whose columns accept finite depth sets;
-- normal authority: 4–6 columns, integer depths 0..D with D<=5; FILE increments exactly +1; no continuous/floating fit authority;
-- TEST is deterministic left-to-right and reveals accepted prefix + first blocker only via TOO_SHALLOW / TOO_DEEP / BETWEEN_BRANCHES;
-- free currently accessible non-duplicate TEST is rational baseline behavior; mature cases must remain strategically meaningful after exhaustive current-state testing;
-- opened locks remain completed even if the key is later repurposed;
-- visible access predicates derive only from opened locks;
-- unlimited exact Undo/Redo/Restart; human memory across counterfactual Undo is accepted assistance, not punished;
-- redo tail persists across save/load with complete timeline + cursor;
-- D02/C03 start solvable, deliberately create one overcut, TEST proves TOO_DEEP, then require Undo(TEST) + Undo(FILE);
-- final OPEN enters pending solved review; campaign completion commits only on leave-review through one idempotent local journal transaction;
-- local save is durability authority; Cloud may merge committed monotonic facts but current attempt remains one whole validated branch;
-- campaign planning target C01–C32; **28 strong-case hard floor**, 32 aspirational; no filler/isomorphic quota defense;
-- high-risk C08–C12, C15–C16, C22–C26, C30–C32 require explicit information-respecting witness validation;
-- C32 requires >=2 materially distinct valid traces/partitions;
-- demo D01–D06 / 20–30 min target; demo achievements disabled; import is idempotent recognition only;
-- one compact bench; full keyboard+mouse/controller/Steam Deck path; no avatar locomotion/freehand/timed filing authority;
-- no gameplay economy, MTX, paid hints/Undo, grind, FOMO or live-service treadmill;
-- working price $17.99 USD with $14.99–$19.99 empirical review band;
-- store differentiation must lead with one key / several locks / every cut destroys options, not generic key cutting;
-- safety boundary is fictional/non-diagnostic: no real bitting, keyways, tolerances, re-keying, impressioning, bypass or lockpick procedure/training claims;
-- technical baseline Godot 4.7.2-stable / GDScript-first; strict Domain Core / Presentation / Platform separation;
-- final authority: `GAME8_FINAL_FREEZE.md`;
-- **DESIGN COMPLETE = YES**; migration pending only.
-
-## Game #008 tournament history
-- Phase 1: 36 -> 10;
+## Game #009 tournament history
+- Phase 1: 36 candidates -> 10 entrants;
 - Run 1: 10 -> 5;
 - Run 2: 5 -> 3 finalists;
-- final: Locksmith's Margin beat Window Garden and Firebreak Foreman;
-- rejected concepts are exclusion history only, not active canon.
+- Run 3 final: **Binder's Imposition** beat `Ink Trap Press` and `Paper Automata`;
+- Ink Trap Press kill: comparable mature depth required wetness/spread/resist complexity and remained vulnerable to preview-and-try / paint-by-numbers drift;
+- Paper Automata kill: mature coupling became clock-signal programming/debugging despite strong deterministic validation and physical presentation;
+- Run-2 eliminations: `Stained Glass Noon`, `Tailor's Grain`;
+- Run-1 eliminations included Kiln Stack, Stage Cue Machine, Mold Release, Darkroom Layers, Coin Strike;
+- all rejected concepts are exclusion/tournament history only, never active Game #009 canon.
 
-## Game #009 discovery / tournament state
-- Phase 1 authority: `GAME9_RESEARCH.md`;
-- Phase 2 Run-1 authority: `GAME9_TOURNAMENT.md`;
-- Phase 2 Run-2 authority: `GAME9_TOURNAMENT_RUN2.md`;
-- Phase 1 generated/scored 36 candidates and reduced to 10 tournament entrants;
-- Phase 2 Run 1 reduced exactly 10 -> 5 under equal destructive criteria;
-- Phase 2 Run 2 reduced exactly 5 -> 3 using finite logical authority, tutorial/hour-8 hand cases, complete traces, greedy/exhaustive attacks, solver estimates, six-plus content families, demo/GIF claims and prototype falsification gates;
-- **finalists:** `G9C02 Binder's Imposition`; `G9C01 Ink Trap Press`; `G9C31 Paper Automata`;
-- Run-2 eliminations: `G9C05 Stained Glass Noon` (multi-time constraints failed to prove coupled planning cleanly; fresh stained-glass market pressure); `G9C21 Tailor's Grain` (exact-cover substrate + imminent Dressmaker overlap in pattern/grain/bias language);
-- Run-1 kills: Kiln Stack (#001 structural collision + sim/market pressure); Stage Cue Machine (generic-programming drift); Mold Release (3D validator/content burden); Darkroom Layers (weaker/redundant lane versus Ink Trap Press); Coin Strike (#008 structural collision);
-- Run-2 current ranking is Binder's Imposition #1, Ink Trap Press #2, Paper Automata #3, but this is **not selection canon**;
-- **selected concept: NONE**;
-- next gate: Phase 2 Run 3 final head-to-head, using three exact validated microcases per finalist, minimum-rule-vocabulary tests, small solver/search validation where useful, explanation/demo burden, production burden and final kill questions;
-- if a winner is adequately proven in Run 3, immediately proceed to Phase 3 Product Thesis Lock in the same run.
+## Frozen portfolio identities / exclusion summary
+- #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
+- #002 False Map Department: bureaucracy/reality manipulation.
+- #003 Borrowed Collision: property transfer.
+- #004 HEARWALL: audio-hidden geometry.
+- #005 Tension Budget: conserved-network load/tension redistribution.
+- #006 Stitchspace: scarce topology rewiring where new adjacency destroys old.
+- #007 Last Known Shape: observation -> exact candidate -> remembered/persistent transformed form.
+- #008 Locksmith's Margin: destructive persistent fictional key-vector edits against several finite-set locks.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
@@ -84,6 +56,6 @@ Use the next unused sequential number for every new factory design cycle. If a f
 1. Dedicated repositories own implementation and future game-specific production work.
 2. Never delete a finished game's factory safety copy before destination migration integrity is verified.
 3. If the dedicated repository does not yet exist, mark that game `migration pending` and retain its `GAME<N>_*` files as a **frozen non-active safety archive**.
-4. A migration-pending archive does **not** block the next sequential design slot.
-5. `STATUS.md` must name exactly which numbered slot is active; older retained archives are never active canon for the new game.
-6. When the dedicated repository later becomes available, migrate and verify that game's archive independently, then remove only that completed game's retained files.
+4. A migration-pending archive does not block the next sequential design slot.
+5. `STATUS.md` names exactly which numbered slot is active; older retained archives are never active canon for the new game.
+6. When a dedicated repository later becomes available, migrate and verify that game's archive independently, then remove only that completed game's retained files.
