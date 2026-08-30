@@ -17,7 +17,7 @@ Branch: `main`
 Only Game #008 files named below are active game canon. `GAME6_*` and `GAME7_*` remain frozen non-active safety archives and must not contaminate Game #008.
 
 ## Current phase
-**Game #008 — PHASE 2 CONCEPT TOURNAMENT RUN 1 COMPLETE / RUN 2 READY.**
+**Game #008 — PHASE 2 CONCEPT TOURNAMENT RUN 2 COMPLETE / FINAL RUN READY.**
 
 ## Active authority for Game #008
 1. `START_HERE.md`
@@ -25,27 +25,23 @@ Only Game #008 files named below are active game canon. `GAME6_*` and `GAME7_*` 
 3. `GAME_INDEX.md`
 4. `GAME8_RESEARCH.md`
 5. `GAME8_TOURNAMENT.md`
+6. `GAME8_TOURNAMENT_RUN2.md`
 
-## Phase 2 Run 1 result
-All 10 Phase-1 survivors received the same destructive evidence gate: exact trailer beat, early case, three mature blueprints, dominant-policy attack/counterexample, hour-3 reasoning delta, state-readability test, 25–35-content model, current analogue boundary, demo arc, prototype kill criterion and portfolio contamination check.
+## Phase 2 Run 2 result
+Five survivors received equal deep falsification: six mature blueprints, minimal primitive/state vocabulary, ~20-minute demo, UI-removed trailer test, ~30-situation production model, current analogue boundary, named implementation-risk attack, portfolio isomorphism attack, cheap-policy counterexamples and measurable vertical-slice kill gates.
 
-Fresh analogue checks materially changed the ranking. `Lift Attendant` (2024) already centers elevator passenger efficiency and 2026 `Sky Lobby` centers elevator traffic/routes; `Railway Dispatcher` (2026 Early Access) explicitly owns realistic signal/route/timetable dispatch. These collisions helped falsify two superficially strong candidates rather than being hand-waved away.
+Fresh research was material. `Pressure Crew` now occupies much of the connected industrial maintenance/cascade store silhouette; `Wildfire Swap` already owns firebreak/containment pure-puzzle territory; `Prune`, `Cloud Gardens` and `Botany Manor` make plant-puzzle differentiation a real burden; 2026 greenhouse/butterfly products weaken Greenhouse Night Shift's visual novelty.
 
-### Survivors — 5
-1. **G8C02 Locksmith's Margin** — tactile irreversible editing + cross-lock partial compatibility; strongest current object-level decision grammar.
-2. **G8C04 Window Garden** — deterministic forecastable growth/light/pruning; exceptional visual causality if discrete preview is implementable.
-3. **G8C01 Maintenance Window** — live deterministic dependency system where planned outage creates future safe service windows; must remain physical rather than dashboard/network optimization.
-4. **G8C07 Firebreak Foreman** — deterministic pre-emptive spread shaping and chosen sacrifice; strongest spectacle but highest fire-authority/readability risk.
-5. **G8C10 Greenhouse Night Shift** — deterministic ecological windows + autonomous pollinator orchestration; survives narrowly and must prove it is not topology work in disguise.
+### Finalists — 3
+1. **G8C02 Locksmith's Margin** — current leader: destructively edited persistent key, overlapping tolerance sets across several locks, deliberate imperfect compatibility and information value. Lowest exception burden and clearest tactile causality.
+2. **G8C04 Window Garden** — exact forecastable architectural growth, pruning and delayed shade/support causality. Excellent trailer language but direct plant-puzzle comparison and deterministic-preview burden remain.
+3. **G8C07 Firebreak Foreman** — deterministic fuel timing, declared wind epochs, worker access and chosen sacrifice. Excellent spectacle; highest analogue/readability risk.
 
-### Killed — 5
-- **G8C06 Elevator Etiquette** — existing elevator optimization surface plus depth from proliferating passenger exception rules.
-- **G8C03 In Case of Rain** — generic scarce-capacity placement against forecast demand after theme removal.
-- **G8C08 Pawnshop Stories** — mature depth scales with authored object/evidence taxonomy rather than a compact recombining causal system.
-- **G8C09 Night Museum Conservator** — exposure thresholds/meters dominate physical causality.
-- **G8C05 Last Train Dispatcher** — direct established dispatcher-sim collision; store GIF insufficiently distinct.
+### Killed in Run 2
+- **G8C01 Maintenance Window** — physical service can be replaced by a service button without changing core reasoning; underlying dependency scheduling plus current analogue collision fails the gate.
+- **G8C10 Greenhouse Night Shift** — mature depth requires biological exception taxonomy; simplified version collapses into fixed-route time-window scheduling and portfolio adjacency.
 
-`GAME8_TOURNAMENT.md` contains full Run-1 evidence and kill reasoning.
+Full evidence is in `GAME8_TOURNAMENT_RUN2.md`.
 
 ## Retained migration state
 ### Game #006 — Stitchspace
@@ -54,24 +50,21 @@ DESIGN COMPLETE = YES; preferred repo `Mikayilzade/stitchspace`; migration pendi
 ### Game #007 — Last Known Shape
 DESIGN COMPLETE = YES; preferred repo `Mikayilzade/last-known-shape`; migration pending, non-blocking.
 
-## NEXT ACTION — GAME #008 PHASE 2 RUN 2
-Perform deep falsification across the five survivors and reduce **5 -> 2 or 3**.
+## NEXT ACTION — GAME #008 PHASE 2 FINAL RUN
+Run the final equal tournament across **Locksmith's Margin, Window Garden and Firebreak Foreman**.
 
-For every survivor require:
-1. six exact mature scenario blueprints, at least two defeating the obvious greedy policy;
-2. minimal primitive/state vocabulary and proof the scenarios do not depend on bespoke exception rules;
-3. exact ~20-minute demo teaching sequence;
-4. UI-removed trailer causality test;
-5. production model for ~30 strong situations and explicit recombination dimensions;
-6. strongest direct current analogue search + one-sentence mechanical boundary;
-7. implementation-risk attack: deterministic growth for Window Garden, discrete fire authority/readability for Firebreak, deterministic agent intent for Greenhouse, physical-vs-dashboard causality for Maintenance, and readable tolerance/destructive correction for Locksmith;
-8. structural-isomorphism attack against Games #001–#007;
-9. cheapest solver/policy attempt plus two counterexamples using no new rules;
-10. measurable first-vertical-slice kill gates.
+For each finalist:
+1. author 8 exact case/level blueprints from tutorial through late mastery, with no new primitive after blueprint 3;
+2. derive compact formal state-transition model and smallest complete solver state;
+3. pairwise theme-removal comparison of the naked decision grammars;
+4. exact 30-second trailer storyboard plus one-screenshot store-capsule readability test;
+5. estimate vertical-slice, demo and ~30-case production burden;
+6. fresh mechanic-level analogue search;
+7. repetition attack: state what the player thinks about on cases 5, 15 and 30;
+8. accessibility/readability failure analysis;
+9. choose one winner only if it beats both rivals on core grammar + demo + feasible mature depth. Kill the field rather than force a weak winner.
 
-If two survivors collapse to the same decision grammar after theme removal, keep only the stronger one. Do not select a winner unless the evidence becomes overwhelming; default target is 2–3 finalists for a final tournament run.
-
-Save evidence by appending a clearly marked Run-2 section to `GAME8_TOURNAMENT.md` or a new `GAME8_TOURNAMENT_RUN2.md`, then update STATUS.
+If one winner becomes overwhelming, immediately begin **Phase 3 Product Thesis** in the same run: lock target player/platform/genre, one-sentence hook, core fantasy, core loop, session structure, differentiator, scope ceiling and explicit non-goals.
 
 ## Blockers
 **NONE for Game #008 design.**
