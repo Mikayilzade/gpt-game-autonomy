@@ -12,7 +12,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon. Migration can happen later without blocking the factory. |
 | 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
 | 008 | **Locksmith's Margin** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/locksmiths-margin` *(preferred; repository not found)* | **NOT STARTED** | `GAME8_FINAL_FREEZE.md` is final authority. Dedicated repo search for `locksmiths-margin` / `locksmith-margin` returned no accessible repository on 2026-08-30. Full `GAME8_*` safety archive remains non-active. |
-| 009 | **TBD** | **IN DESIGN / Phase 2 Run 1 complete / 10 -> 5 / Run 2 ready** | TBD | **NOT STARTED** | Active authorities `GAME9_RESEARCH.md` + `GAME9_TOURNAMENT.md`; no concept selected yet. |
+| 009 | **TBD** | **IN DESIGN / Phase 2 Run 2 complete / 5 -> 3 / final head-to-head ready** | TBD | **NOT STARTED** | Active authorities include `GAME9_TOURNAMENT_RUN2.md`; finalists Binder's Imposition, Ink Trap Press, Paper Automata; no concept selected yet. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -64,13 +64,18 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 
 ## Game #009 discovery / tournament state
 - Phase 1 authority: `GAME9_RESEARCH.md`;
-- Phase 2 authority: `GAME9_TOURNAMENT.md`;
+- Phase 2 Run-1 authority: `GAME9_TOURNAMENT.md`;
+- Phase 2 Run-2 authority: `GAME9_TOURNAMENT_RUN2.md`;
 - Phase 1 generated/scored 36 candidates and reduced to 10 tournament entrants;
 - Phase 2 Run 1 reduced exactly 10 -> 5 under equal destructive criteria;
-- **Run-1 survivors:** `G9C31 Paper Automata`; `G9C02 Binder's Imposition`; `G9C01 Ink Trap Press`; `G9C05 Stained Glass Noon`; `G9C21 Tailor's Grain`;
+- Phase 2 Run 2 reduced exactly 5 -> 3 using finite logical authority, tutorial/hour-8 hand cases, complete traces, greedy/exhaustive attacks, solver estimates, six-plus content families, demo/GIF claims and prototype falsification gates;
+- **finalists:** `G9C02 Binder's Imposition`; `G9C01 Ink Trap Press`; `G9C31 Paper Automata`;
+- Run-2 eliminations: `G9C05 Stained Glass Noon` (multi-time constraints failed to prove coupled planning cleanly; fresh stained-glass market pressure); `G9C21 Tailor's Grain` (exact-cover substrate + imminent Dressmaker overlap in pattern/grain/bias language);
 - Run-1 kills: Kiln Stack (#001 structural collision + sim/market pressure); Stage Cue Machine (generic-programming drift); Mold Release (3D validator/content burden); Darkroom Layers (weaker/redundant lane versus Ink Trap Press); Coin Strike (#008 structural collision);
+- Run-2 current ranking is Binder's Imposition #1, Ink Trap Press #2, Paper Automata #3, but this is **not selection canon**;
 - **selected concept: NONE**;
-- next gate: Phase 2 Run 2, **5 -> exactly 3 finalists**, using hand-simulatable tutorial + hour-8 cases, complete traces, greedy baselines, solver estimates, six content families, demo/GIF claims and prototype falsification gates.
+- next gate: Phase 2 Run 3 final head-to-head, using three exact validated microcases per finalist, minimum-rule-vocabulary tests, small solver/search validation where useful, explanation/demo burden, production burden and final kill questions;
+- if a winner is adequately proven in Run 3, immediately proceed to Phase 3 Product Thesis Lock in the same run.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
