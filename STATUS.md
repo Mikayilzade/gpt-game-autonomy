@@ -16,19 +16,20 @@ Branch: `main`
 A frozen game with a missing dedicated repository may remain as a non-active safety archive. Pending migration never blocks the next sequential design. Only Game #007 files named below are active game canon; `GAME6_*` files are portfolio/exclusion history only.
 
 ## Current phase
-**Game #007 — PHASE 3 PRODUCT THESIS LOCK COMPLETE / PHASE 4 MECHANICAL ARCHITECTURE READY.**
+**Game #007 — PHASE 4 MECHANICAL ARCHITECTURE COMPLETE / PHASE 5 CONTENT ARCHITECTURE READY.**
 
 ## Active authority for Game #007
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
 4. `GAME7_PRODUCT_THESIS.md`
-5. `GAME7_TOURNAMENT_FINAL.md`
-6. `GAME7_TOURNAMENT_RUN2.md`
-7. `GAME7_TOURNAMENT.md`
-8. `GAME7_RESEARCH.md`
+5. `GAME7_MECHANICAL_ARCHITECTURE.md`
+6. `GAME7_TOURNAMENT_FINAL.md`
+7. `GAME7_TOURNAMENT_RUN2.md`
+8. `GAME7_TOURNAMENT.md`
+9. `GAME7_RESEARCH.md`
 
-`GAME7_PRODUCT_THESIS.md` wins on selected product identity. Tournament/research files are rationale/history and may not reintroduce rejected concepts as canon.
+`GAME7_PRODUCT_THESIS.md` wins on product identity. `GAME7_MECHANICAL_ARCHITECTURE.md` is authoritative for exact mechanics/domain semantics. Tournament/research files are rationale/history only and may not reintroduce rejected concepts as canon.
 
 ## Game #006 retained migration state
 G6C01 Stitchspace; DESIGN COMPLETE = YES; migration to `Mikayilzade/stitchspace` pending. Full safety archive retained; non-blocking.
@@ -39,52 +40,51 @@ G6C01 Stitchspace; DESIGN COMPLETE = YES; migration to `Mikayilzade/stitchspace`
 36 concepts screened; 10 entered tournament.
 
 ### Phase 2 — Concept Tournament: **COMPLETE / 3 destructive runs**
-10 -> 5 -> 3 -> 1.
-Finalists were Last Known Shape, Command Lag, Recurrence Department.
-
-Final duel required six canonical blueprints each, primitive growth, deterministic state model, player-error taxonomy, hour-4 repetition attack, production burden, demo thesis, store hook and silent-GIF proof.
-
-**Winner: G7C02 Last Known Shape.**
-Selection rationale:
-- strongest ownable visual/store hook;
-- strongest silent-GIF proof;
-- low portfolio collision;
-- mature families survive with one compact OBSERVE/overwrite vocabulary;
-- existential ambiguity from free-camera silhouette interpretation was removed by making authored deterministic Observation Frames authoritative;
-- Command Lag remains strongest reserve but loses on product legibility/visual magic and risks detached timeline/programming UI;
-- Recurrence Department remains elegant but temporal replay/echo space is less ownable and late-state bookkeeping grows faster.
+10 -> 5 -> 3 -> 1. Winner: **G7C02 Last Known Shape**.
 
 ### Phase 3 — Product Thesis Lock: **COMPLETE**
-`GAME7_PRODUCT_THESIS.md` freezes:
-- PC/Steam-first premium single-player/offline systemic observation/transformation puzzle;
-- hook: last committed observed form becomes physically authoritative when direct observation ends;
-- repeated verb: OBSERVE/COMMIT exact candidate form from an authored Observation Frame;
-- no free-camera pixel authority, image recognition or precision perspective hunting;
-- core loop of inspect -> preview -> commit -> leave observation -> exploit -> preserve/overwrite;
-- depth from preserve/overwrite, conflicting affordances, authored masks/transforms, access self-block, two-object observation order and destructive re-observation;
-- cognitive progression, not XP/economy;
-- target ~30–36 cases, 4–7h minimum / 5–8h preferred if validated;
-- six empirical gates EG7-01..EG7-06 retained for implementation/playtest.
+PC/Steam-first premium single-player/offline systemic observation/transformation puzzle. Authored Observation Frames write persistent remembered form; no free-camera/pixel authority. Target ~30–36 main cases, 4–7h minimum / 5–8h preferred if validated.
 
-Fresh market search in the final duel did not expose an exact internal-title collision, but this is not trademark clearance. Temporal puzzle comparators reinforce why the selected product should own observation-memory rather than generic time manipulation.
+### Phase 4 — Mechanical Architecture: **COMPLETE ON PAPER**
+`GAME7_MECHANICAL_ARCHITECTURE.md` freezes:
+- discrete canonical object/form/pose/frame/receiver data model;
+- pure `CANDIDATE(frame, object, state)` function with no framebuffer/camera authority;
+- exact preview -> commit -> end-observation lifecycle;
+- remembered-form overwrite vs delayed physical resolution when observation ends;
+- symbolic authored masks/occluders only;
+- slot-based object movement and physical-affordance mapping;
+- exact two-object observation-order semantics;
+- stable legality/rejection codes and deterministic event ordering;
+- unlimited Undo/Redo, stale revision and command-id idempotency rules;
+- win/dead-state/recovery policy;
+- bounded solver state and state-explosion limits;
+- difficulty knobs and six anti-dominant-strategy fixtures;
+- **60 mechanical acceptance tests**.
 
-## NEXT ACTION — GAME #007 PHASE 4 MECHANICAL ARCHITECTURE
-Build `GAME7_MECHANICAL_ARCHITECTURE.md` and resolve the exact deterministic domain contract before content design. Must specify:
-1. object/form/frame/receiver canonical data;
-2. exact observation eligibility, preview, commit and end-of-observation transition;
-3. remembered-form overwrite and authoritative physical-affordance mapping;
-4. authored frame transforms/masks and deterministic occluder rules;
-5. object movement/placement and interaction with forms;
-6. two-object observation-order semantics;
-7. legality/rejection reason codes and no hidden camera/pixel authority;
-8. stable event ordering and simultaneous consequences;
-9. Undo/Redo/idempotency/history transaction boundaries;
-10. win/fail/dead-state and recovery policy;
-11. canonical solver state and anti-state-explosion boundaries;
-12. difficulty/balance knobs and anti-dominant-strategy fixtures;
-13. >=40 mechanical acceptance tests.
+Important Phase-4 ceiling:
+- normally <=2 reasoning-critical transformable objects;
+- ordinary main cases <=3 useful forms/object, <=4 relevant frames/case;
+- frame <=2 named dynamic occluder inputs, normally 0–1;
+- no recursive candidate dependencies, continuous authority, physics-sandbox state, pixel thresholds or case-specific observation callbacks.
 
-If Phase 4 is completed cleanly within a run, continue directly into the safely connected start of Phase 5 rather than stopping on a status-only microstep.
+Production implementation started: **NO**.
+DESIGN COMPLETE: **NO**.
+
+## NEXT ACTION — GAME #007 PHASE 5 CONTENT ARCHITECTURE
+Build `GAME7_CONTENT_ARCHITECTURE.md` as authored content over the frozen Phase-4 contract. Must specify:
+1. campaign teaching bands and main-case target/minimum counts;
+2. demo case set and conversion thesis;
+3. exact case data schema;
+4. reusable object/form/frame/receiver vocabulary ceiling;
+5. content families for preserve/overwrite, access self-block, form/affordance tradeoff, relocation, authored occluder dependency, destructive re-observation, two-object observation order and state-dependent form reuse;
+6. causal-skeleton tagging and hard diversity quotas to prevent cosmetic isomorphism;
+7. anti-dominant-strategy and anti-blind-enumeration case requirements;
+8. authored mask/occluder rules and readability constraints;
+9. solver/validator pipeline and practical authoring budgets;
+10. optional mastery/remix admission rules;
+11. >=45 content acceptance tests.
+
+If Phase 5 completes cleanly within one run, continue into the safely connected start of Phase 6 UX / Presentation Architecture rather than stopping on a status-only microstep.
 
 ## Blockers
 **NONE for Game #007 design.**
