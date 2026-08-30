@@ -11,7 +11,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 005 | **Tension Budget** *(internal label; commercial title TBD)* | **DESIGN COMPLETE / Phase 11 frozen / migrated / integrity verified** | `Mikayilzade/tension-budget` | **Phase 12A ready / IMPLEMENTATION COMPLETE = NO** | 26 causal encounter blueprints; dedicated authority/handoff/CI policy present. |
 | 006 | **Stitchspace** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/stitchspace` *(repository not yet created)* | **NOT STARTED** | Full Game #006 safety copy remains in factory and is not active canon. Migration can happen later without blocking the factory. |
 | 007 | **Last Known Shape** *(working title)* | **DESIGN COMPLETE / Phase 11 frozen / migration pending / retained non-active safety archive** | `Mikayilzade/last-known-shape` *(repository not yet created)* | **NOT STARTED** | Full `GAME7_*` safety copy remains non-active because destination repo returned Not Found on 2026-08-30. |
-| 008 | **Locksmith's Margin** *(working title)* | **IN DESIGN / Phase 7 commercial-progression complete / Phase 8 ready** | TBD | **NOT STARTED** | 32-case target / 28-case floor; D01–D06 demo; 80 mechanical + 90 content + 87 UX + 80 commercial acceptance tests; working $17.99 price hypothesis. |
+| 008 | **Locksmith's Margin** *(working title)* | **IN DESIGN / Phase 8 technical specification complete / Phase 9 ready** | TBD | **NOT STARTED** | 32-case target / 28-case floor; D01–D06 demo; 80 mechanical + 90 content + 87 UX + 80 commercial + 120 technical acceptance tests; Godot 4.7.2-stable/GDScript-first baseline; working $17.99 price hypothesis. |
 
 ## Game #006 frozen identity
 - G6C01 Stitchspace; PC/Steam-first premium systemic topology puzzle;
@@ -55,7 +55,11 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - campaign unlocks preserve tutorial dependencies but add bounded post-C06 choice; mastery/review never gates progression;
 - working 20 Steam achievements; demo achievements disabled; Steam Achievements + Cloud + controller/Deck are platform targets;
 - D01–D06 remains the commercial demo and safe demo→full recognition/import is required;
-- next: Phase 8 Technical Implementation Specification.
+- Phase 8 authority: `GAME8_TECHNICAL_SPECIFICATION.md` with **120 technical acceptance tests**;
+- initial implementation baseline frozen at **Godot 4.7.2-stable / GDScript-first**; 4.8 preview builds excluded from baseline;
+- strict Domain Core / Presentation / Platform separation; no animation, physics, mesh or Steam callback can decide puzzle outcomes;
+- persistence is versioned/local-first/atomic with backup recovery, proof-only runtime softlock checks and idempotent demo/full + achievement reconciliation;
+- next: **Phase 9 Whole-Game Simulation on Paper**.
 
 ## Game #008 tournament history
 - Phase 1: 36 -> 10;
