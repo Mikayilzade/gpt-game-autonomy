@@ -13,16 +13,18 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 007 | **Last Known Shape** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/last-known-shape` *(not yet created)* | NOT STARTED | Frozen Game #007 files remain non-active. |
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen files non-active. |
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen files non-active. |
-| 010 | **Luggage Carousel Zero** *(working title)* | **IN DESIGN / Phase 4 active** | TBD | NOT STARTED | Product thesis locked; deterministic mechanical core active in `GAME10_MECHANICS.md`. |
+| 010 | **Luggage Carousel Zero** *(working title)* | **IN DESIGN / Phase 5 active** | TBD | NOT STARTED | Product thesis + mechanical architecture complete; content architecture active in `GAME10_CONTENT.md`. |
 
 ## Game #010 state
 - Phase 1: complete; 40 concepts generated, 12 tournament entrants.
 - Phase 2: complete; Luggage Carousel Zero selected over Stencil Orchard and Inventory Eclipse in Round C.
-- Phase 3: **complete**; authority `GAME10_THESIS.md`.
-- Phase 4: **active**; authority `GAME10_MECHANICS.md`.
+- Phase 3: complete; authority `GAME10_THESIS.md`.
+- Phase 4: **complete**; authority `GAME10_MECHANICS.md`; destructive proof passed with 12 explicit traces, exact DEAD semantics, solver-safe authoring envelopes and measurable strong-case criteria.
+- Phase 5: **active**; authority `GAME10_CONTENT.md`; 42-case working campaign architecture, reasoning families, demo path and admission/dedupe contracts established.
 - Frozen identity: moving bag/gap permutation + fixed socket labels + exactly one pickup + public ordered passengers + bounded label swaps + finite ticks.
 - Predicate ceiling: AND of 1–3 positive equality clauses over exactly socket LABEL, BAG_SHAPE and BAG_MARK; one clause/dimension; no hidden logic/OR/NOT/history.
 - Budget model: per-case ticks plus case-static swaps-per-tick {0,1,2}; no cumulative swap currency.
+- Solver envelope: K=1 standard up to N=8; K=2 mastery restricted to N<=6/ticks<=8; K=0 short teaching only; exact certification mandatory.
 - Previous games and eliminated Game #010 concepts remain exclusion/history only and may not silently become canon.
 
 ## Frozen portfolio identities / exclusion summary
