@@ -13,13 +13,14 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 007 | **Last Known Shape** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/last-known-shape` *(not yet created)* | NOT STARTED | Frozen Game #007 files remain non-active. |
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen Game #008 files remain non-active. |
 | 009 | **Binder's Imposition** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen Game #009 files remain non-active. |
-| 010 | **TBD** | **IN DESIGN / Phase 2 Concept Tournament ready** | TBD | NOT STARTED | Phase-1 authority `GAME10_RESEARCH.md`; 12 entrants advance, no final concept selected. |
+| 010 | **TBD** | **IN DESIGN / Phase 2 Round A complete** | TBD | NOT STARTED | Five Round-B survivors; no final concept selected. |
 
-## Game #010 discovery state / active exclusion boundary
-- Phase 1 completed 2026-08-31 with fresh 2026 Steam/PC market research.
-- `GAME10_RESEARCH.md` is active Game #010 authority after the factory-level files.
-- 40 mechanically distinct concepts were generated and scored; 12 advance to Phase 2.
-- Current entrants: Stencil Orchard, Luggage Carousel Zero, Negative Gardening, Photocopier Garden, Inventory Eclipse, Consensus Machine, Evaporation Map, Unreliable Ruler, Taxidermy of Motion, Moth Ledger, Counterweight Kitchen, Ink Debt.
+## Game #010 discovery/tournament state
+- Phase 1 completed 2026-08-31; 40 concepts generated, 12 entered tournament.
+- Round A authority: `GAME10_TOURNAMENT.md`.
+- Round-A survivors: **Stencil Orchard, Luggage Carousel Zero, Photocopier Garden, Inventory Eclipse, Consensus Machine**.
+- Eliminated in Round A and non-canonical: Negative Gardening, Evaporation Map, Unreliable Ruler, Taxidermy of Motion, Moth Ledger, Counterweight Kitchen, Ink Debt.
+- Round B must reduce five to three through exact state models, onboarding, expert microcases, solver/validator feasibility, demo/hour-8 depth and presentation attacks.
 - No Game #010 concept is selected yet.
 - Prior games are exclusion/portfolio history only and may not become Game #010 canon through theme reskinning.
 
