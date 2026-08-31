@@ -19,7 +19,7 @@ Branch: `main`
 Only Game #010 files named below are active game canon. GAME6_*, GAME7_*, GAME8_* and GAME9_* remain frozen NON-ACTIVE safety archives/history.
 
 ## Current phase
-**Game #010 — PHASE 4 MECHANICAL ARCHITECTURE ACTIVE. Phase 3 COMPLETE.**
+**Game #010 — PHASE 5 CONTENT ARCHITECTURE ACTIVE. Phases 1–4 COMPLETE.**
 
 ## Active authority for Game #010
 1. `START_HERE.md`
@@ -31,18 +31,21 @@ Only Game #010 files named below are active game canon. GAME6_*, GAME7_*, GAME8_
 7. `GAME10_ROUND_C.md`
 8. `GAME10_THESIS.md`
 9. `GAME10_MECHANICS.md`
+10. `GAME10_CONTENT.md`
 
 ## This run completed
-- Re-read required factory/index/status and all active Game #010 authority; resumed exactly from Phase-3 NEXT ACTION.
-- Closed Phase 3 without adding feature soup.
-- Locked mastery promise and five-act reasoning arc for 36–48 certified cases.
-- Froze public passenger grammar to positive equality clauses over exactly LABEL / BAG_SHAPE / BAG_MARK, AND only, maximum three clauses and one per dimension; OR/NOT/history/hidden scripting rejected.
-- Froze exactly one pickup for the entire canonical game; multiple pickups rejected.
-- Froze budgets to finite ticks + case-static swaps-per-tick {0,1,2}; cumulative total-swap budget rejected.
-- Locked unlimited Undo/Restart philosophy and exact solver-defined dead states without solution revelation.
-- Confirmed `Luggage Carousel Zero` is an internal working title, not storefront commitment.
-- Safely continued into Phase 4 and created `GAME10_MECHANICS.md`.
-- Locked exact state model, atomic SWAP, simultaneous ADVANCE ordering, pickup evaluation, no-compression gap semantics, one-step Preview boundary, Undo/Restart state restoration, solver node/reductions, exact DEAD definition and invalid-content invariants.
+- Re-read required factory/index/status and every active Game #010 authority file; resumed exactly from `STATUS.md` NEXT ACTION.
+- Completed destructive Phase-4 mechanical proof with 12 explicit state traces covering successful pickup, miss, persistent gaps, pickup-created gaps, K=0/1/2, duplicate labels, trait-identical bags, swap Undo, pickup Undo and final-tick success.
+- Quantified naive N=8 state explosion instead of assuming unrestricted BFS is cheap: occupancy/label Cartesian state can reach billions of theoretical nodes.
+- Froze tick-boundary macro certification and safe solver reductions.
+- Froze three authoring envelopes: standard K=1 up to N=8; K=2 mastery restricted to N<=6/ticks<=8; K=0 only short teaching/observation.
+- Froze difficulty knobs and act-specific combinations.
+- Defined measurable strong-case tests for intentional miss, gap significance, scarcity/substitution and nontrivial away-from-pickup label staging.
+- Attacked pickup-only swapping, rotate/wait, duplicate-label token identity, dead-state oracle abuse and Undo information leakage.
+- Finalized DEAD semantics: exact DEAD hard-stops forward play but preserves unlimited Undo/Restart.
+- Closed Phase 4 with deterministic acceptance checklist complete.
+- Safely continued into Phase 5 and created `GAME10_CONTENT.md`.
+- Established 42-case working campaign architecture (36-case quality floor), 10 reasoning families, per-act obligations, 7-case demo path, solver/counterfactual admission pipeline, trace deduplication and authored-vs-generated boundary.
 - No production implementation, test email or Gmail notification created.
 
 ## Frozen migration state
@@ -51,18 +54,17 @@ Game #007 preferred repo `Mikayilzade/last-known-shape`: pending, non-blocking.
 Game #008 preferred repo `Mikayilzade/locksmiths-margin`: pending, non-blocking.
 Game #009 preferred repo `Mikayilzade/binders-imposition`: pending, non-blocking.
 
-## NEXT ACTION — GAME #010 PHASE 4 MECHANICAL ARCHITECTURE
-Resume from `GAME10_MECHANICS.md` section 13. Perform a destructive mechanical proof, not a status pass.
+## NEXT ACTION — GAME #010 PHASE 5 CONTENT ARCHITECTURE
+Resume from `GAME10_CONTENT.md` section 10. Perform a concrete campaign-map increment, not a taxonomy/status pass.
 
 Mandatory work:
-1. hand-simulate >=10 explicit microcases covering matches/misses, gaps, duplicate labels, trait-identical bags, 0/1/2 swaps per tick, Undo and final-tick success;
-2. estimate/calculate worst practical solver branching/state burden at N=8 and freeze safe authoring bounds rather than assuming BFS remains cheap;
-3. freeze difficulty knobs and campaign-act combinations;
-4. define measurable strong-case criteria for intentional miss, gap significance, scarcity/substitutability and nontrivial label staging;
-5. attack swap-at-pickup-only, wait/rotate, duplicate-label, dead-state-oracle and Undo-information degenerate strategies;
-6. make final DEAD forward-play decision;
-7. repair contradictions, add Phase-4 acceptance checklist and close Phase 4 if deterministic semantics are complete;
-8. if Phase 4 closes cleanly, continue into Phase 5 Content Architecture in the same run.
+1. draft all 42 target case slots with act, N, K, tick-envelope target, predicate-width target and reasoning-family tags;
+2. fully specify and hand-trace the 7 demo cases using exact bags, labels, passengers and budgets;
+3. define >=12 late-game case skeletons and demonstrate materially different normalized trace/counterfactual families;
+4. detect and repair repetition/content-family shortfalls by changing relationships only, never by adding mechanics;
+5. freeze minimum/target coverage per reasoning family and expansion boundaries;
+6. close Phase 5 if another implementation/design session could populate and validate campaign data without inventing content rules;
+7. if Phase 5 closes cleanly, continue into Phase 6 UX / Presentation Architecture in the same run.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#009 are explicitly non-blocking.
