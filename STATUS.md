@@ -19,7 +19,7 @@ Branch: `main`
 Only Game #010 files explicitly named below may become active game canon. `GAME6_*`, `GAME7_*`, `GAME8_*`, and `GAME9_*` are frozen NON-ACTIVE safety archives/history and must not contaminate Game #010.
 
 ## Current phase
-**Game #010 — PHASE 2 CONCEPT TOURNAMENT / ROUND A COMPLETE / ROUND B READY.**
+**Game #010 — PHASE 2 CONCEPT TOURNAMENT / ROUND B COMPLETE / ROUND C READY.**
 
 ## Active authority for Game #010
 1. `START_HERE.md`
@@ -27,43 +27,40 @@ Only Game #010 files explicitly named below may become active game canon. `GAME6
 3. `GAME_INDEX.md`
 4. `GAME10_RESEARCH.md`
 5. `GAME10_TOURNAMENT.md`
+6. `GAME10_ROUND_B.md`
 
 ## This run completed
-- Re-read all required factory and active Game #010 authority files and resumed exactly from prior NEXT ACTION.
-- Created `GAME10_TOURNAMENT.md`.
-- Ran equal destructive Round-A tests across all twelve entrants: first-play, hour-3/hour-8, dominant heuristic, implementation/content burden, solver feasibility, failure explainability, controller/1280x800 readability and motion legibility.
-- Used fresh analogue/name checks where derivative risk materially mattered; no direct title/mechanic collision changed the bracket, while garden-theme saturation and Consensus terminology remain positioning/name cautions rather than mechanical disqualifiers.
-- Hand-simulated two concrete microcases and a dominant-heuristic counterexample for every serious survivor.
-- Eliminated Negative Gardening, Evaporation Map, Unreliable Ruler, Taxidermy of Motion, Moth Ledger, Counterweight Kitchen and Ink Debt with explicit non-revival reasons.
-- Evidence supported five rather than artificially retaining a sixth: **Stencil Orchard, Luggage Carousel Zero, Photocopier Garden, Inventory Eclipse, Consensus Machine**.
+- Re-read required factory and active Game #010 authority and resumed from NEXT ACTION.
+- Completed Round B with equal deterministic-state, onboarding, expert-case, solver/certification, demo/hour-8, failure-explanation and 1280x800/controller tests.
+- Froze exact action ordering for all serious survivors, including no-compression carousel semantics and simultaneous inventory-shadow recomputation.
+- Directly compared Stencil Orchard vs Photocopier Garden; eliminated Photocopier Garden because duplication did not prove a distinct long-tail reasoning structure beyond selective age-holding/phase manipulation.
+- Eliminated Consensus Machine because expert-density presentation collapses toward truth-table bookkeeping unless rescued by forbidden rule soup.
+- Advanced exactly three finalists: **Stencil Orchard, Luggage Carousel Zero, Inventory Eclipse**.
 - No final Game #010 concept selected; no production implementation, test email or Gmail notification created.
 
 ## Frozen migration state
 ### Game #006 — Stitchspace
 DESIGN COMPLETE = YES; preferred repo `Mikayilzade/stitchspace`; migration pending, non-blocking.
-
 ### Game #007 — Last Known Shape
 DESIGN COMPLETE = YES; preferred repo `Mikayilzade/last-known-shape`; migration pending, non-blocking.
-
 ### Game #008 — Locksmith's Margin
 DESIGN COMPLETE = YES; final authority `GAME8_FINAL_FREEZE.md`; preferred repo `Mikayilzade/locksmiths-margin`; migration pending, non-blocking.
-
 ### Game #009 — Binder's Imposition
 DESIGN COMPLETE = YES; final authority `GAME9_FINAL_FREEZE.md`; preferred repo `Mikayilzade/binders-imposition`; migration pending, non-blocking.
 
-## NEXT ACTION — GAME #010 PHASE 2 / CONCEPT TOURNAMENT ROUND B (5 -> 3)
-Continue `GAME10_TOURNAMENT.md` and stress-test the five survivors.
+## NEXT ACTION — GAME #010 PHASE 2 / CONCEPT TOURNAMENT ROUND C (3 -> 1)
+Stress-test **Stencil Orchard, Luggage Carousel Zero, Inventory Eclipse** as products, not merely formal systems.
 
 Mandatory work:
-1. freeze a minimal deterministic state model and exact action-resolution ordering for each;
-2. write a three-situation onboarding chain for each;
-3. hand-solve one expert situation per concept using the same base vocabulary rather than new subsystems;
-4. define solver/validator state-space boundaries and certification feasibility;
-5. outline 10–20 minute demo expansion and credible hour-8 content source;
-6. attack failure explainability, controller and 1280x800 presentation;
-7. directly compare Stencil Orchard vs Photocopier Garden; at most one reaches Round C unless genuinely different reasoning structures are proven;
-8. cut to exactly three finalists on evidence and record every cut;
-9. if Round B is short and evidence is decisive, safely continue into Round C, but do not force a winner.
+1. simulate first 20 minutes, hour 2 and hour 8 for each with explicit decisions;
+2. define 12 representative content-case skeletons per finalist and cluster by reasoning type to expose repetition;
+3. estimate authored-content burden for premium full game and demo;
+4. attack dominant strategies without adding mechanics;
+5. define and attack one screenshot, one 10-second GIF and one storefront sentence per finalist;
+6. compare controller/1280×800 cognitive load and accessibility;
+7. compare solver/validator burden and empirical prototype gates;
+8. select exactly one winner if evidence is decisive; otherwise document one bounded top-two tiebreaker;
+9. if winner is selected safely, continue in the same run only into a concise Phase-3 thesis skeleton; do not start production implementation.
 
 ## Blockers
 **NONE for factory continuation.**
