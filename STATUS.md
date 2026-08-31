@@ -12,14 +12,14 @@ Branch: `main`
 - Game #008 Locksmith's Margin: **DESIGN COMPLETE / migration pending / retained non-active safety archive**
 - Game #009 Binder's Imposition: **DESIGN COMPLETE / migration pending / retained non-active safety archive**
 - Current design slot: **Game #010**
-- Selected Game #010 concept: **NONE**
+- Selected Game #010 concept: **Luggage Carousel Zero (working title)**
 - Production implementation inside factory: **NO**
 
 ## Continuity / active-canon rule
 Only Game #010 files explicitly named below may become active game canon. `GAME6_*`, `GAME7_*`, `GAME8_*`, and `GAME9_*` are frozen NON-ACTIVE safety archives/history and must not contaminate Game #010.
 
 ## Current phase
-**Game #010 — PHASE 2 CONCEPT TOURNAMENT / ROUND B COMPLETE / ROUND C READY.**
+**Game #010 — PHASE 3 PRODUCT THESIS ACTIVE / ROUND C COMPLETE / WINNER SELECTED.**
 
 ## Active authority for Game #010
 1. `START_HERE.md`
@@ -28,15 +28,31 @@ Only Game #010 files explicitly named below may become active game canon. `GAME6
 4. `GAME10_RESEARCH.md`
 5. `GAME10_TOURNAMENT.md`
 6. `GAME10_ROUND_B.md`
+7. `GAME10_ROUND_C.md`
+8. `GAME10_THESIS.md`
 
 ## This run completed
-- Re-read required factory and active Game #010 authority and resumed from NEXT ACTION.
-- Completed Round B with equal deterministic-state, onboarding, expert-case, solver/certification, demo/hour-8, failure-explanation and 1280x800/controller tests.
-- Froze exact action ordering for all serious survivors, including no-compression carousel semantics and simultaneous inventory-shadow recomputation.
-- Directly compared Stencil Orchard vs Photocopier Garden; eliminated Photocopier Garden because duplication did not prove a distinct long-tail reasoning structure beyond selective age-holding/phase manipulation.
-- Eliminated Consensus Machine because expert-density presentation collapses toward truth-table bookkeeping unless rescued by forbidden rule soup.
-- Advanced exactly three finalists: **Stencil Orchard, Luggage Carousel Zero, Inventory Eclipse**.
-- No final Game #010 concept selected; no production implementation, test email or Gmail notification created.
+- Re-read required factory and active Game #010 authority and resumed exactly from Round-C NEXT ACTION.
+- Performed fresh 2026 market checks for cellular-automata, inventory/backpack, luggage/airport and adjacent puzzle products.
+- Completed equal product-level Round C for Stencil Orchard, Luggage Carousel Zero and Inventory Eclipse.
+- Simulated first 20 minutes, hour 2 and hour 8 for all three finalists.
+- Defined 12 representative content-case skeletons per finalist and clustered them by reasoning type to expose repetition.
+- Estimated demo/full-game authored-content burden, attacked dominant strategies, storefront sentence, screenshot/GIF legibility, controller/1280x800 cognition, accessibility, solver/certification burden and prototype gates.
+- Eliminated Stencil Orchard because same-vocabulary long-tail converges too strongly on exposure-count/protection scheduling and needs heavier curation to avoid repetition.
+- Eliminated Inventory Eclipse because its two-surface UX/content burden is higher and fresh 2026 evidence shows a crowded inventory/backpack lane; no mechanics were added to rescue it.
+- Selected exactly one winner: **Luggage Carousel Zero**.
+- Created `GAME10_THESIS.md` and safely continued into a concise Phase-3 thesis skeleton: product format, hook, target player, session promise, core loop, frozen vocabulary, content target, presentation thesis, commercial/scope ceiling and empirical gates.
+- No production implementation, test email or Gmail notification created.
+
+## Winner rationale
+Luggage Carousel Zero currently has the strongest combination of:
+- same-vocabulary hour-8 reasoning diversity;
+- moving permutation + fixed spatial-label identity;
+- memorable intentional non-service decisions;
+- exact solver/certification feasibility;
+- low-to-medium production scope;
+- one-screen controller/handheld viability;
+- current market differentiation versus the other finalists.
 
 ## Frozen migration state
 ### Game #006 — Stitchspace
@@ -48,20 +64,21 @@ DESIGN COMPLETE = YES; final authority `GAME8_FINAL_FREEZE.md`; preferred repo `
 ### Game #009 — Binder's Imposition
 DESIGN COMPLETE = YES; final authority `GAME9_FINAL_FREEZE.md`; preferred repo `Mikayilzade/binders-imposition`; migration pending, non-blocking.
 
-## NEXT ACTION — GAME #010 PHASE 2 / CONCEPT TOURNAMENT ROUND C (3 -> 1)
-Stress-test **Stencil Orchard, Luggage Carousel Zero, Inventory Eclipse** as products, not merely formal systems.
+## NEXT ACTION — GAME #010 PHASE 3 PRODUCT THESIS LOCK
+Resume from `GAME10_THESIS.md` and finish Phase 3 without adding feature soup.
 
 Mandatory work:
-1. simulate first 20 minutes, hour 2 and hour 8 for each with explicit decisions;
-2. define 12 representative content-case skeletons per finalist and cluster by reasoning type to expose repetition;
-3. estimate authored-content burden for premium full game and demo;
-4. attack dominant strategies without adding mechanics;
-5. define and attack one screenshot, one 10-second GIF and one storefront sentence per finalist;
-6. compare controller/1280×800 cognitive load and accessibility;
-7. compare solver/validator burden and empirical prototype gates;
-8. select exactly one winner if evidence is decisive; otherwise document one bounded top-two tiebreaker;
-9. if winner is selected safely, continue in the same run only into a concise Phase-3 thesis skeleton; do not start production implementation.
+1. pressure-test and lock the exact target-player/mastery promise and campaign/session arc;
+2. freeze the public passenger-predicate vocabulary ceiling so content cannot become arbitrary Boolean rule soup;
+3. decide and document whether canonical game has exactly one pickup point; reject multiple pickups unless they are essential rather than merely a difficulty lever;
+4. freeze canonical budget knobs (swaps per tick, ticks per case, and whether total-swap budget is allowed);
+5. lock success, dead-state, undo/restart and player-feedback philosophy at thesis level without pre-empting Phase 4 implementation detail;
+6. decide working-title status only enough to avoid accidental storefront commitment; do not spend a run on branding;
+7. produce a Phase-3 acceptance checklist and mark Phase 3 complete only if another session can enter mechanics without redefining product identity;
+8. if Phase 3 closes cleanly, continue in the same run into Phase 4 mechanical architecture: exact state model, action ordering, predicate grammar, solver state, budgets and invariants.
 
 ## Blockers
 **NONE for factory continuation.**
 Game #006/#007/#008/#009 migrations remain pending and explicitly non-blocking.
+
+DESIGN COMPLETE = NO.
