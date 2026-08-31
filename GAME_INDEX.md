@@ -12,7 +12,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 006 | **Stitchspace** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/stitchspace` *(not yet created)* | NOT STARTED | Frozen Game #006 files remain non-active. |
 | 007 | **Last Known Shape** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/last-known-shape` *(not yet created)* | NOT STARTED | Frozen Game #007 files remain non-active. |
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen Game #008 files remain non-active. |
-| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 6 UX-Presentation complete / Phase 7 ready** | TBD | NOT STARTED | Active UX authority is `GAME9_UX_PRESENTATION_ARCHITECTURE.md`; mechanics/content remain frozen in earlier authorities. |
+| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 7 Commercial Model complete / Phase 8 ready** | TBD | NOT STARTED | Active commercial authority is `GAME9_COMMERCIAL_MODEL.md`; working title remains storefront-unfrozen. |
 
 ## Game #009 current identity
 - selected concept: **G9C02 Binder's Imposition**;
@@ -24,30 +24,28 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - base transform grammar: T4, T4F, T8 and T6P, with no uncontrolled print-shop jargon;
 - depth comes from intersecting final-book constraints: nesting role, facing spreads, same/different signature, orientation, inserts/material role, blanks/trim survival, alternative fold templates;
 - player editing remains reversible; Fold Preview is non-mutating and mathematically identical to Commit's transform;
-- structured anti-bookkeeping operations are allowed only to reduce clerical manipulation, never to choose the solution;
 - ordinary campaign ceiling: normally <=20 faces, <=3 signatures, <=4 secondary predicate families and <=2 template choices per signature;
 - no real print-shop calibration or vocational-training requirement;
 - compact workbench scope; no avatar locomotion, shop economy, deckbuilding, roguelite wrapper, multiplayer, MTX or live-service baseline;
 - content count policy: **24 certified strong cases minimum / 30 target / 34 soft ceiling**, with quality ahead of filler quota;
-- six-chapter content arc: inverse surprise -> nesting -> global constraints -> T8/template choice -> blank/trim -> mature three-signature synthesis;
-- 12 bounded content families recombine frozen mechanics rather than add new systems;
-- every campaign case is data-driven and must be solver-certified for legality/solvability plus relevance, rote-collapse and anti-isomorphism checks;
-- exact/near structural duplicates are rejected even if page IDs, colors, motif art or raw face count differ;
-- campaign is authored, not procedurally generated at runtime; solver/generator tools may propose or validate candidates but cannot decide pedagogy/fun;
-- frozen demo is D01–D06 / 6 campaign cases / target 20–30 minutes, ending on a material/signature-role deduction capstone;
-- workbench UX is source+goal persistent: predicate rail, flat-sheet canvas, face tray and action strip;
-- mouse uses click-select-click baseline with optional drag; controller uses discrete focus with complete mechanical parity;
-- template-capacity changes preserve shared legal slots, return displaced faces to tray, never auto-fill, and are one Undo/Redo transaction;
-- Fold Preview is fully skippable, supports Normal/Fast/Instant and Reduced Motion, and final-book inspection can map results back to source slots;
-- live source legality feedback is allowed, but arbitrary unpreviewed edits do not receive a continuously updating full-predicate oracle;
-- incorrect Commit explains exact failed final relationships without naming the corrective source move;
-- accessibility baseline includes remapping, controller parity, non-precision alternatives, reduced motion, text scaling, color redundancy and audio redundancy;
-- 1280x800 is a first-class handheld layout target; important default text targets >=12 px character height and never below Valve's 9 px compatibility-review floor;
-- no mandatory player text entry is required by baseline campaign;
-- optional badges are non-gating and cannot alter baseline validity/progression;
+- six-chapter content arc and 12 bounded content families are solver-certified/data-driven; authored campaign, no runtime procedural-content promise;
+- frozen demo is D01–D06 / 6 real campaign cases / target 20–30 minutes;
+- workbench UX is source+goal persistent with mouse click-select-click baseline and discrete-focus controller parity;
+- Fold Preview is non-mutating/skippable with Normal/Fast/Instant and Reduced Motion; incorrect Commit explains final failed relationships without giving source moves;
+- accessibility includes remapping, controller parity, non-precision alternatives, reduced motion, text scaling, color/audio redundancy;
+- 1280x800 is first-class handheld layout; important default text targets >=12 px and never below Valve's 9 px review floor;
+- commercial model is one-time premium complete baseline game: no MTX, ads, paid hints, grind bypass, progression currency or live-service obligation;
+- current design-stage USD list-price band **$14.99–$19.99**, preferred planning point **$17.99 pending final empirical validation**;
+- progression is authored chapter-gated with small prerequisite-safe local branches; no XP/currency/star gate;
+- optional badge vocabulary: Predicted / Direct Bind / Constraint Craft; badges never gate campaign and accessibility is never penalized;
+- hints are free, layered and non-punitive;
+- Steam achievement target 14–18 (planning set 16), no grind/calendar/online requirements;
+- Steam Cloud + Achievements baseline; no leaderboard, Workshop or online account dependency;
+- D01–D06 demo transfers versioned progress to full game; demo achievements disabled and legitimate imported state reconciled by full game;
+- post-campaign retention is finite replay/mastery only; no dailies/weeklies/FOMO/procedural-infinite promise;
+- `Binder's Imposition` remains internal/working title pending storefront comprehension/collision/legal validation;
 - localization-safe content may not depend on English spelling, word length or color-only information;
-- working title may change later because storefront copy must not require knowledge of the word "imposition";
-- **DESIGN COMPLETE = NO**; next phase is Economy / Retention / Commercial Model.
+- **DESIGN COMPLETE = NO**; next phase is Technical Implementation Specification.
 
 ## Game #009 tournament history
 - Phase 1: 36 candidates -> 10 entrants;
