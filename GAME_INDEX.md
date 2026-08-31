@@ -12,7 +12,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 006 | **Stitchspace** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/stitchspace` *(not yet created)* | NOT STARTED | Frozen Game #006 files remain non-active. |
 | 007 | **Last Known Shape** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/last-known-shape` *(not yet created)* | NOT STARTED | Frozen Game #007 files remain non-active. |
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen Game #008 files remain non-active. |
-| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 7 Commercial Model complete / Phase 8 ready** | TBD | NOT STARTED | Active commercial authority is `GAME9_COMMERCIAL_MODEL.md`; working title remains storefront-unfrozen. |
+| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 8 Technical Specification complete / Phase 9 ready** | TBD | NOT STARTED | Active technical authority is `GAME9_TECHNICAL_SPECIFICATION.md`; working title remains storefront-unfrozen. |
 
 ## Game #009 current identity
 - selected concept: **G9C02 Binder's Imposition**;
@@ -21,42 +21,45 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - core reasoning object: deterministic transform from reversible flat sheet/signature assignments and nesting roles to final bound-face positions/orientations;
 - frozen mechanical domain: `PageFace`, `FlatSlot`, `Signature`, `FoldTemplate`, resolved `BoundBookState`;
 - deterministic resolution order: legality -> local fold -> duplex orientation -> nesting -> leaf/facing -> trim -> constraints -> exact explanation;
-- base transform grammar: T4, T4F, T8 and T6P, with no uncontrolled print-shop jargon;
-- depth comes from intersecting final-book constraints: nesting role, facing spreads, same/different signature, orientation, inserts/material role, blanks/trim survival, alternative fold templates;
+- base transform grammar: T4, T4F, T8 and T6P;
+- depth comes from intersecting final-book constraints rather than hidden printing rules;
 - player editing remains reversible; Fold Preview is non-mutating and mathematically identical to Commit's transform;
 - ordinary campaign ceiling: normally <=20 faces, <=3 signatures, <=4 secondary predicate families and <=2 template choices per signature;
 - no real print-shop calibration or vocational-training requirement;
 - compact workbench scope; no avatar locomotion, shop economy, deckbuilding, roguelite wrapper, multiplayer, MTX or live-service baseline;
-- content count policy: **24 certified strong cases minimum / 30 target / 34 soft ceiling**, with quality ahead of filler quota;
+- content count policy: **24 certified strong cases minimum / 30 target / 34 soft ceiling**;
 - six-chapter content arc and 12 bounded content families are solver-certified/data-driven; authored campaign, no runtime procedural-content promise;
 - frozen demo is D01–D06 / 6 real campaign cases / target 20–30 minutes;
 - workbench UX is source+goal persistent with mouse click-select-click baseline and discrete-focus controller parity;
 - Fold Preview is non-mutating/skippable with Normal/Fast/Instant and Reduced Motion; incorrect Commit explains final failed relationships without giving source moves;
 - accessibility includes remapping, controller parity, non-precision alternatives, reduced motion, text scaling, color/audio redundancy;
-- 1280x800 is first-class handheld layout; important default text targets >=12 px and never below Valve's 9 px review floor;
+- 1280x800 is first-class handheld layout; important default text targets >=12 px;
 - commercial model is one-time premium complete baseline game: no MTX, ads, paid hints, grind bypass, progression currency or live-service obligation;
 - current design-stage USD list-price band **$14.99–$19.99**, preferred planning point **$17.99 pending final empirical validation**;
 - progression is authored chapter-gated with small prerequisite-safe local branches; no XP/currency/star gate;
 - optional badge vocabulary: Predicted / Direct Bind / Constraint Craft; badges never gate campaign and accessibility is never penalized;
-- hints are free, layered and non-punitive;
-- Steam achievement target 14–18 (planning set 16), no grind/calendar/online requirements;
-- Steam Cloud + Achievements baseline; no leaderboard, Workshop or online account dependency;
-- D01–D06 demo transfers versioned progress to full game; demo achievements disabled and legitimate imported state reconciled by full game;
-- post-campaign retention is finite replay/mastery only; no dailies/weeklies/FOMO/procedural-infinite promise;
+- Steam achievement target 14–18 (planning set 16); Steam Cloud + Achievements baseline;
+- D01–D06 demo transfers versioned progress to full game; achievements reconcile idempotently in full build;
+- post-campaign retention is finite replay/mastery only;
 - `Binder's Imposition` remains internal/working title pending storefront comprehension/collision/legal validation;
 - localization-safe content may not depend on English spelling, word length or color-only information;
-- **DESIGN COMPLETE = NO**; next phase is Technical Implementation Specification.
+- Phase-8 technical authority recommends **Godot 4.x stable** by default, while keeping deterministic puzzle authority engine-independent; Unity remains an expertise/integration fallback;
+- runtime state is separated into immutable content, editable WorkbenchState, derived BoundBookState, presentation state and persistent profile/campaign state;
+- transforms/evaluation/explanations/solver certification have pure deterministic contracts and canonicalization rules;
+- Undo/Redo uses semantic atomic transactions and survives normal reload within a bounded/full case-session history policy;
+- saves are versioned, atomic, backed up and non-destructively recoverable; unknown future saves are never overwritten;
+- demo/cloud merges are monotonic for safe campaign facts; divergent unsolved workbench branches are never structurally merged;
+- achievements are recomputable/idempotent consequences of persistent facts;
+- semantic input abstraction and animation-independent test mode are mandatory;
+- release content passes schema -> transform -> solver -> relevance -> anti-isomorphism -> human review -> package manifest pipeline;
+- **DESIGN COMPLETE = NO**; next phase is whole-game simulation on paper.
 
 ## Game #009 tournament history
 - Phase 1: 36 candidates -> 10 entrants;
 - Run 1: 10 -> 5;
 - Run 2: 5 -> 3 finalists;
 - Run 3 final: **Binder's Imposition** beat `Ink Trap Press` and `Paper Automata`;
-- Ink Trap Press kill: comparable mature depth required wetness/spread/resist complexity and remained vulnerable to preview-and-try / paint-by-numbers drift;
-- Paper Automata kill: mature coupling became clock-signal programming/debugging despite strong deterministic validation and physical presentation;
-- Run-2 eliminations: `Stained Glass Noon`, `Tailor's Grain`;
-- Run-1 eliminations included Kiln Stack, Stage Cue Machine, Mold Release, Darkroom Layers, Coin Strike;
-- all rejected concepts are exclusion/tournament history only, never active Game #009 canon.
+- rejected concepts are exclusion/tournament history only, never active Game #009 canon.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
