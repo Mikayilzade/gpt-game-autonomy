@@ -18,7 +18,7 @@ Branch: `main`
 Only Game #009 files explicitly named below are active game canon. `GAME6_*`, `GAME7_*`, and `GAME8_*` remain frozen non-active safety archives/history and must not contaminate Game #009. Rejected Game #009 concepts are tournament history only.
 
 ## Current phase
-**Game #009 — PHASE 7 ECONOMY / RETENTION / COMMERCIAL MODEL COMPLETE / PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION READY.**
+**Game #009 — PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION COMPLETE / PHASE 9 WHOLE-GAME SIMULATION READY.**
 
 ## Active authority for Game #009
 1. `START_HERE.md`
@@ -33,38 +33,33 @@ Only Game #009 files explicitly named below are active game canon. `GAME6_*`, `G
 10. `GAME9_CONTENT_ARCHITECTURE.md`
 11. `GAME9_UX_PRESENTATION_ARCHITECTURE.md`
 12. `GAME9_COMMERCIAL_MODEL.md`
+13. `GAME9_TECHNICAL_SPECIFICATION.md`
 
-`GAME9_TOURNAMENT_RUN3.md` is final tournament authority. Product thesis locks identity; mechanical architecture locks rules; content architecture locks campaign/content; UX architecture locks player-facing interaction; commercial model locks progression/value/monetization boundaries.
+`GAME9_TECHNICAL_SPECIFICATION.md` is current technical authority; it does not override earlier product/mechanical/content/UX/commercial design except where it makes their implementation contracts explicit.
 
 ## This run completed
-- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md`, and every active Game #009 file named by prior `STATUS.md`, then resumed exactly from Phase-7 `NEXT ACTION`.
-- Created `GAME9_COMMERCIAL_MODEL.md` and completed Phase 7.
-- Refreshed current Steam puzzle pricing/positioning using Patrick's Parabox, The Roottrees are Dead, Chants of Sennaar, The Case of the Golden Idol, Blue Prince, Paper Trail and Is This Seat Taken?.
-- Froze current design-stage list-price band at **$14.99–$19.99**, with **$17.99 preferred planning point subject to final empirical validation**; no revenue promise or fixed-hours claim.
-- Defined modest optional launch-discount stance rather than sale dependency and recorded current Steam discount/cooldown constraints for release-time revalidation.
-- Froze authored chapter-gated progression with small prerequisite-safe local branches and no XP/currency/star gate.
-- Defined three bounded optional badge types: Predicted, Direct Bind, Constraint Craft; badges never gate campaign and cannot punish accessibility.
-- Defined free layered hints with no currency/cooldown/purchase pressure.
-- Froze Steam achievement target at 14–18 (planning set 16), with no grind/calendar/online/accessibility-disabled requirements.
-- Froze baseline Steam features: Achievements + Cloud; no leaderboard, Workshop, online account or server dependency.
-- Froze D01–D06 as the actual campaign demo and specified end montage/CTA without FOMO.
-- Froze **demo -> full-game progress transfer** with compatible versioned save state; demo achievements disabled and legitimate imported achievement state reconciled by the full game.
-- Froze finite post-campaign replay/mastery only; no dailies, weeklies, procedural-infinite promise or live-service treadmill.
-- Re-evaluated title: `Binder's Imposition` remains internal/working, not storefront-frozen; storefront copy must lead with flat-sheet -> folded-book transformation and not require print vocabulary.
-- Added 40 commercial acceptance tests and 10 empirical commercial gates.
-- No production implementation, test email or Gmail notification was created.
+- Re-read factory authority and all active Game #009 files named by prior `STATUS.md`; resumed exactly from Phase-8 `NEXT ACTION`.
+- Created `GAME9_TECHNICAL_SPECIFICATION.md`; Phase 8 is complete without production code.
+- Refreshed engine state: Godot 4.7.2 is current stable (2026-08-18), while 4.8 remains development; Unity 6.3 LTS remains a valid expertise/integration fallback.
+- Recommended Godot 4.x stable by default but froze the deterministic discrete puzzle core as engine-independent authority.
+- Defined five runtime state layers: immutable content, editable WorkbenchState, derived BoundBookState, presentation/UI state, persistent Profile/CampaignState.
+- Froze stable ID/localization-key rules and conceptual schemas for cases/templates/faces/signatures/predicates/badges/achievements.
+- Defined pure deterministic legality, resolve, evaluate, explanation, Commit and solver/canonicalization contracts.
+- Froze semantic transaction model for all reversible verbs plus exact Undo/Redo branching and reload behavior.
+- Defined versioned atomic save, backup/recovery, checkpoint timing, corrupt-save behavior and ordered forward migration.
+- Defined idempotent demo->full import and monotonic Steam Cloud merge policy; divergent unsolved workbench branches are never structurally merged.
+- Defined recomputable/idempotent achievement reconciliation resilient to platform outage.
+- Defined semantic input abstraction, device-glyph switching and strict animation/gameplay separation.
+- Defined localization/no-English-logic contract, 1280x800/text-expansion constraints, performance/loading budgets and deterministic animation-free test mode.
+- Defined release content pipeline: schema -> template transforms -> case structure -> solver -> relevance/rote collapse -> anti-isomorphism -> interaction budget -> human review -> package manifest.
+- Added 40 minimum technical acceptance tests including crash/recovery/cloud/import/controller/localization/performance cases.
+- Defined dedicated-repository implementation order 12A–12H while keeping production implementation outside factory.
+- No test email or Gmail notification was created.
 
 ## Fresh evidence used this run
-- Patrick's Parabox Steam page: https://store.steampowered.com/app/1260520/Patricks_Parabox/
-- The Roottrees are Dead Steam page: https://store.steampowered.com/app/2754380/The_Roottrees_are_Dead/
-- Chants of Sennaar Steam page: https://store.steampowered.com/app/1931770/Chants_of_Sennaar/
-- The Case of the Golden Idol Steam page: https://store.steampowered.com/app/1677770/The_Case_of_the_Golden_Idol/
-- Blue Prince Steam page: https://store.steampowered.com/app/1569580/Blue_Prince/
-- Paper Trail Steam page: https://store.steampowered.com/app/1889740/Paper_Trail/
-- Is This Seat Taken? Steam page: https://store.steampowered.com/app/3035120/Is_this_Seat_Taken/
-- Steamworks Discounting: https://partner.steamgames.com/doc/marketing/discounts
-- Steamworks Demos: https://partner.steamgames.com/doc/store/application/demos
-- Steamworks Upcoming Events: https://partner.steamgames.com/doc/marketing/upcoming_events
+- Godot archive/current stable: https://godotengine.org/download/archive/ and https://godotengine.org/download/windows/
+- Unity 6.3 LTS: https://unity.com/blog/unity-6-3-lts-is-now-available
+- Steam platform assumptions remain release-time revalidation obligations; Phase-7 Steamworks evidence remains active commercial context.
 
 ## Frozen migration state
 ### Game #006 — Stitchspace
@@ -76,25 +71,24 @@ DESIGN COMPLETE = YES; preferred repo `Mikayilzade/last-known-shape`; migration 
 ### Game #008 — Locksmith's Margin
 DESIGN COMPLETE = YES; final authority `GAME8_FINAL_FREEZE.md`; preferred repo `Mikayilzade/locksmiths-margin`; migration pending, non-blocking.
 
-## NEXT ACTION — GAME #009 PHASE 8 / TECHNICAL IMPLEMENTATION SPECIFICATION
-Resume from all active Game #009 authority and turn the frozen design into an implementation-ready technical contract **without writing production code**.
+## NEXT ACTION — GAME #009 PHASE 9 / WHOLE-GAME SIMULATION ON PAPER
+Run hostile end-to-end traces against the complete Phase 3–8 authority and repair contradictions in canon rather than merely listing them.
 
-Required work:
-1. Recommend engine/runtime direction with explicit rationale and a narrow empirical decision gate where appropriate; preserve deterministic discrete gameplay authority independent of presentation engine.
-2. Define authoritative runtime state layers: immutable case definition, editable workbench state, derived BoundBookState, UI/presentation state, persistent campaign/profile state.
-3. Freeze conceptual schemas/IDs for cases, templates, faces, signatures, predicates, prerequisite graph, badges and achievements; localization-facing strings must be keys, not logic inputs.
-4. Define pure deterministic transform, legality, constraint-evaluation, explanation and solver/validator interfaces plus canonicalization/equivalence contracts.
-5. Define transaction/history model for Swap/Place/Remove/Template/Flip/Nest operations and exact Undo/Redo persistence behavior.
-6. Freeze save schema/versioning, atomic write/recovery, checkpoint timing, corrupt-save behavior and forward-migration policy.
-7. Define demo/full import merge rules, Steam Cloud conflict policy and achievement reconciliation/idempotency in enough detail to satisfy Phase-7 acceptance tests.
-8. Define input-action abstraction, mouse/controller parity contract, glyph switching and presentation-animation boundary.
-9. Define localization-ready content representation, text scaling constraints and no-English-logic rule.
-10. Define performance/memory/loading budgets appropriate for PC/Steam Deck and deterministic test mode that can bypass animation.
-11. Define content validation/build pipeline: schema validation -> transform tests -> solver certification -> relevance/anti-isomorphism -> authored human review -> package manifest.
-12. Define automated test hooks and minimum technical acceptance matrix including crash/recovery/cloud/import cases.
-13. Define dedicated-repo implementation order (12A onward) while keeping factory free of production implementation.
-14. If Phase 8 completes cleanly, leave exact Phase-9 whole-game simulation scenarios as NEXT ACTION.
-15. Save all meaningful work to GitHub and update this status.
+Required scenarios:
+1. fresh install -> D01–D06 demo -> purchase/full import -> first Chapter II case;
+2. new player who misunderstands duplex orientation and previews excessively;
+3. competent Chapter-III player who has memorized T4 and attempts brute-force/green-light hill climbing;
+4. first T8 case and first two-template choice case;
+5. first T6P/trim case including REQUIRED_BLANK vs EMPTY;
+6. late Chapter-VI three-signature case with Undo/Redo, Preview and failed Commit;
+7. quit/crash during edit, during Preview, and immediately after successful Commit;
+8. Steam Deck/controller-only at 1280x800 with text scaling + Reduced Motion;
+9. offline play -> second-device cloud divergence -> merge/recovery;
+10. repeated demo import + achievement reconciliation;
+11. campaign completion -> replay/badges/Mastery Shelf boundary;
+12. hostile behavior: Preview spam, Commit spam, restart loops, template thrashing, huge history, corrupt save, stale content revision.
+
+For each trace record: starting authority/state, exact important transitions, player-visible feedback, contradiction/ambiguity, repair, regression implications and whether an earlier phase must explicitly reopen. Verify especially the D01–D06 mapping across Phase 3/5/7 because tutorial labels evolved during design. Save a dedicated Phase-9 file. If all material contradictions are repaired and the complete game remains coherent, advance `NEXT ACTION` to Phase 10 Adversarial Review.
 
 ## Blockers
 **NONE for Game #009 design.**
