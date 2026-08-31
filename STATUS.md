@@ -19,7 +19,7 @@ Branch: `main`
 Only Game #010 files named below are active game canon. GAME6_*, GAME7_*, GAME8_* and GAME9_* remain frozen NON-ACTIVE safety archives/history.
 
 ## Current phase
-**Game #010 — PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION ACTIVE. Phases 1–7 COMPLETE. Phase 7 closed after exact progression/skip, demo-import, Efficient Route, achievement and save-visible progression rules were frozen. Phase 8 now has the core engine/runtime, deterministic-state, solver, persistence, input/accessibility and implementation-order contract.**
+**Game #010 — PHASE 9 WHOLE-GAME SIMULATION ACTIVE. Phases 1–8 COMPLETE. Phase 8 closed after canonical case schema, exact DEAD fallback, Undo/K2/resume semantics, certificate/hash authority, content manifest and save migration contracts were frozen. Phase 9 has completed its first full product walkthrough from first boot through late mastery, replay, blocker skip, demo import, active-case resume and reinstall/cloud restore.**
 
 ## Active authority for Game #010
 1. `START_HERE.md`
@@ -41,16 +41,18 @@ Only Game #010 files named below are active game canon. GAME6_*, GAME7_*, GAME8_
 17. `GAME10_COMMERCIAL.md`
 18. `GAME10_PHASE7_CLOSURE.md` — authoritative over progression skip, demo import, Efficient Route surfacing, achievements and save-visible progression fields
 19. `GAME10_TECHNICAL.md`
+20. `GAME10_PHASE8_CLOSURE.md` — authoritative over canonical schema example, DEAD fallback, certificate/hash, content manifest and save migration semantics
+21. `GAME10_PHASE9_SIMULATION.md`
 
 ## This run completed
-- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md` and every active Game #010 authority named by prior STATUS; resumed exactly from Phase-7 closure work.
-- Simulated A–E progression, blocker skip, later replay/clear, ending-vs-all-cases distinction and demo import.
-- Found and repaired a progression contradiction: a strict sequential unlock cannot itself permit a blocker skip. Canon is now one explicit `Skip for now` per act (A01–A03 remain strict), with exactly one skipped-open case and no skip currency/recharge.
-- Attacked `Efficient Route`: retained minimum-tick mastery, but it is hidden until first completion and not introduced before intentional-miss teaching; deliberate misses may be part of the certified minimum route.
-- Froze exactly 12 base achievement triggers; rejected grind/no-hint/no-Undo/accessibility-setting achievements.
-- Froze save-visible progression fields and idempotent demo/full-game merge semantics.
-- Performed fresh 2026 technical/platform research. Godot 4.7.2 (2026-08-18) is current stable 4.x; 4.8 remains development. Steamworks still supports shared demo/full cloud save patterns and recommends granting qualifying demo progress achievements after full-game load.
-- Created `GAME10_TECHNICAL.md`: preferred Godot 4.7.2 + GDScript direction, pure deterministic Rules Core, exact case/play schemas, adjacent-ring/action contracts, exact solver/certification boundary, versioned atomic persistence, demo import, platform achievement adapter, controller/input abstraction, localization/accessibility hooks, performance gates, automated test suites and dedicated-repo implementation order.
+- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md` and every active Game #010 authority named by prior STATUS; resumed exactly from Phase-8 closure work.
+- Created `GAME10_PHASE8_CLOSURE.md` and closed Phase 8.
+- Instantiated a complete valid A07/Demo-03 canonical case schema mapped to frozen adjacent-only mechanics.
+- Hostile-walked SWAP -> DEAD -> Undo, successful ADVANCE -> Undo, final-tick win, K2 partial/full Undo, active-case resume and repeated demo import.
+- Froze exact DEAD runtime/precompute fallback: heuristic verdicts remain forbidden; release packaging must fail on required certificate/artifact mismatch.
+- Froze minimum certificate artifact fields including case hash, rules semantics version, solver version, content manifest version, minimum ticks, family counterfactuals and optional exact-feasibility artifact hash.
+- Froze content-manifest authority and explicit monotonic save-schema migration rules; incompatible active-case state may restart without damaging profile progression.
+- Created `GAME10_PHASE9_SIMULATION.md` and ran a first full-product simulation from first boot through first 20 minutes, first hour, early/mid/late mastery, K2, replay/Efficient Route, blocker skip, demo -> full import, save/resume, reinstall/cloud restore and hostile player behavior.
 - No production implementation, test email or Gmail notification created.
 
 ## Frozen migration state
@@ -59,16 +61,16 @@ Game #007 preferred repo `Mikayilzade/last-known-shape`: pending, non-blocking.
 Game #008 preferred repo `Mikayilzade/locksmiths-margin`: pending, non-blocking.
 Game #009 preferred repo `Mikayilzade/binders-imposition`: pending, non-blocking.
 
-## NEXT ACTION — GAME #010 PHASE 8 CLOSURE -> PHASE 9
-Resume from `GAME10_TECHNICAL.md`.
+## NEXT ACTION — GAME #010 PHASE 9 CLOSURE -> PHASE 10
+Resume from `GAME10_PHASE9_SIMULATION.md`.
 
 Mandatory work:
-1. instantiate at least one fully valid canonical demo-case schema and map every field to the frozen authority;
-2. hostile-walk the architecture through SWAP -> DEAD -> Undo, successful ADVANCE -> Undo, final-tick win, K2 two-swap, active-case resume and repeated demo import;
-3. attack exact DEAD runtime/precompute fallback and certificate-version compatibility;
-4. freeze content-manifest/save-schema migration authority and minimum certificate artifact fields/hashes;
-5. close Phase 8 only when implementation does not need to invent state/persistence/solver/platform semantics;
-6. if Phase 8 closes cleanly, continue immediately into **Phase 9 Whole-Game Simulation on Paper**: first boot, demo/full paths, first 20 minutes, first hour, early mastery, midgame, late game, replay, skip recovery, hostile behavior and reinstall/cloud restore.
+1. run a second hostile whole-game pass covering multiple skipped blockers across acts, ending with unresolved skipped cases, later blocker cleanup and `ALL_CASES_COMPLETE` reconciliation;
+2. simulate a content/certificate update after historical Efficient Route records and confirm no progression/achievement corruption;
+3. force DEAD after each action class (first swap, second K2 swap, Advance miss, Advance pickup) and verify Undo/terminal/save boundaries;
+4. attack content/certificate/schema mismatch and corrupted save/backup restore paths;
+5. close Phase 9 only if no whole-product contradiction remains;
+6. if clean, continue immediately into **Phase 10 Adversarial Review** with dedicated passes for fun/repetition, scope, technical risk, dominant strategies, progression/commercial incentives, UX ambiguity/accessibility, persistence corruption and implementation ambiguity.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#009 remain explicitly non-blocking.
