@@ -12,7 +12,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 006 | **Stitchspace** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/stitchspace` *(not yet created)* | NOT STARTED | Frozen Game #006 files remain non-active. |
 | 007 | **Last Known Shape** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/last-known-shape` *(not yet created)* | NOT STARTED | Frozen Game #007 files remain non-active. |
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen Game #008 files remain non-active. |
-| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 8 Technical Specification complete / Phase 9 ready** | TBD | NOT STARTED | Active technical authority is `GAME9_TECHNICAL_SPECIFICATION.md`; working title remains storefront-unfrozen. |
+| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 9 Whole-game Simulation complete / Phase 10 ready** | TBD | NOT STARTED | Active Phase-9 authority is `GAME9_WHOLE_GAME_SIMULATION.md`; working title remains storefront-unfrozen. |
 
 ## Game #009 current identity
 - selected concept: **G9C02 Binder's Imposition**;
@@ -27,32 +27,38 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - ordinary campaign ceiling: normally <=20 faces, <=3 signatures, <=4 secondary predicate families and <=2 template choices per signature;
 - no real print-shop calibration or vocational-training requirement;
 - compact workbench scope; no avatar locomotion, shop economy, deckbuilding, roguelite wrapper, multiplayer, MTX or live-service baseline;
-- content count policy: **24 certified strong cases minimum / 30 target / 34 soft ceiling**;
+- content count policy: **24 certified strong cases minimum / 30 target / 34 soft ceiling including any shipped Mastery Shelf variants**;
 - six-chapter content arc and 12 bounded content families are solver-certified/data-driven; authored campaign, no runtime procedural-content promise;
-- frozen demo is D01–D06 / 6 real campaign cases / target 20–30 minutes;
+- canonical demo mapping is now exact: **D01..D06 = G9_C01..G9_C06**; D04 is fixed-role two-signature bridge, D05 first free nesting+facing, D06 material/signature-role synthesis;
+- frozen demo is 6 real campaign cases / target 20–30 minutes;
 - workbench UX is source+goal persistent with mouse click-select-click baseline and discrete-focus controller parity;
-- Fold Preview is non-mutating/skippable with Normal/Fast/Instant and Reduced Motion; incorrect Commit explains final failed relationships without giving source moves;
+- Fold Preview is non-mutating/skippable with Normal/Fast/Instant and Reduced Motion; same-state previews reveal no additional mechanical information;
+- incorrect Commit explains final failed relationships without giving source moves; identical unchanged failed Commit is idempotent and does not increment attempt stats again;
 - accessibility includes remapping, controller parity, non-precision alternatives, reduced motion, text scaling, color/audio redundancy;
-- 1280x800 is first-class handheld layout; important default text targets >=12 px;
+- 1280x800 is first-class handheld layout; important default text targets >=12 px; scaled-text overflow yields Goal rail to drawer before shrinking source interactions;
 - commercial model is one-time premium complete baseline game: no MTX, ads, paid hints, grind bypass, progression currency or live-service obligation;
 - current design-stage USD list-price band **$14.99–$19.99**, preferred planning point **$17.99 pending final empirical validation**;
 - progression is authored chapter-gated with small prerequisite-safe local branches; no XP/currency/star gate;
 - optional badge vocabulary: Predicted / Direct Bind / Constraint Craft; badges never gate campaign and accessibility is never penalized;
 - Steam achievement target 14–18 (planning set 16); Steam Cloud + Achievements baseline;
-- D01–D06 demo transfers versioned progress to full game; achievements reconcile idempotently in full build;
+- D01–D06 demo transfers versioned progress to full game; repeated import is monotonic/idempotent and achievements reconcile from persistent facts;
 - post-campaign retention is finite replay/mastery only;
 - `Binder's Imposition` remains internal/working title pending storefront comprehension/collision/legal validation;
 - localization-safe content may not depend on English spelling, word length or color-only information;
 - Phase-8 technical authority recommends **Godot 4.x stable** by default, while keeping deterministic puzzle authority engine-independent; Unity remains an expertise/integration fallback;
 - runtime state is separated into immutable content, editable WorkbenchState, derived BoundBookState, presentation state and persistent profile/campaign state;
 - transforms/evaluation/explanations/solver certification have pure deterministic contracts and canonicalization rules;
-- Undo/Redo uses semantic atomic transactions and survives normal reload within a bounded/full case-session history policy;
+- Undo/Redo uses semantic atomic transactions and survives normal reload; very long history may compact to an anchor snapshot plus retained recent tail without altering current state;
 - saves are versioned, atomic, backed up and non-destructively recoverable; unknown future saves are never overwritten;
-- demo/cloud merges are monotonic for safe campaign facts; divergent unsolved workbench branches are never structurally merged;
+- successful Commit becomes authoritative only after durable local save verification; platform achievement calls are later/retryable consequences;
+- cloud lineage now requires unique revision IDs + parent revision IDs so clean descent can be distinguished from divergent offline branches;
+- safe campaign facts merge monotonically across cloud branches; divergent unsolved workbench branches are never structurally merged;
+- stale content revisions use explicit deterministic migration when possible; otherwise old in-progress work is preserved as recovery archive before clean case restart;
 - achievements are recomputable/idempotent consequences of persistent facts;
 - semantic input abstraction and animation-independent test mode are mandatory;
 - release content passes schema -> transform -> solver -> relevance -> anti-isomorphism -> human review -> package manifest pipeline;
-- **DESIGN COMPLETE = NO**; next phase is whole-game simulation on paper.
+- whole-game simulation passed all 12 required normal/hostile scenarios with bounded repairs and no core-mechanic reopening;
+- **DESIGN COMPLETE = NO**; next phase is adversarial review.
 
 ## Game #009 tournament history
 - Phase 1: 36 candidates -> 10 entrants;
