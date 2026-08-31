@@ -1,172 +1,126 @@
 # GAME #010 — PHASE 3 PRODUCT THESIS
 
 Date: 2026-08-31
-Status: THESIS SKELETON LOCKED / PHASE 3 ACTIVE
-Selected concept: **Luggage Carousel Zero** *(working title)*
+Status: **PHASE 3 COMPLETE / PRODUCT THESIS LOCKED**
+Selected concept: **Luggage Carousel Zero** *(internal working title; not storefront commitment)*
 
 Authority: `START_HERE.md` -> `STATUS.md` -> `GAME_INDEX.md` -> `GAME10_RESEARCH.md` -> `GAME10_TOURNAMENT.md` -> `GAME10_ROUND_B.md` -> `GAME10_ROUND_C.md` -> this file.
 
 ## 1. Product identity
-**Format:** PC/Steam-first, premium, single-player, offline, deterministic systemic puzzle game.
+PC/Steam-first, premium, single-player, offline deterministic systemic puzzle game.
 
-**One-sentence hook:**
-> Swap the labels, not the luggage: shape a moving baggage carousel so every passenger gets the right bag — sometimes by making them wait.
+**Hook:** Swap the labels, not the luggage: shape a moving baggage carousel so every passenger gets the right bag — sometimes by making them wait.
 
-**Core fantasy:** operate a tiny impossible baggage carousel where the bags keep their identities but the meaning of each fixed position can be reassigned. You are not sorting luggage directly; you are arranging the future conditions under which moving luggage will be accepted.
+The player edits fixed socket labels while bags move through those sockets. A successful pickup consumes one bag and the front passenger, creating a persistent circulating gap. The strategic identity is planning **which bag is consumed, when it reaches pickup, and which fixed label it inherits there**.
 
-**Differentiator:** the player edits **fixed socket labels** while **bags move through them**. Passengers consume matching bags at one pickup point, leaving persistent circulating gaps. Serving someone changes future permutation state; deliberately failing to serve now can be the correct strategic action.
+This is not airport management, hidden deduction, real-time sorting, inventory play, conveyor construction or direct bag manipulation.
 
-## 2. Target player
-Primary:
-- players who enjoy compact deterministic “thinky” puzzle games;
-- players comfortable planning 2–6 turns ahead but who do not want programming syntax or opaque hidden information;
-- players attracted to strong physical/visual causality and short self-contained levels.
+## 2. Target player and mastery promise
+Primary audience: players of compact deterministic thinky games who enjoy 2–6-turn planning, public information, explainable failure and small-rule/high-recombination systems. Secondary: controller/Steam Deck players and optimization-minded players who revisit solved cases for cleaner solutions.
 
-Secondary:
-- Steam Deck/controller players seeking one-screen puzzle sessions;
-- optimization-minded players who enjoy shortest/clean solution mastery after solving normally.
+**Mastery promise:** novice play asks “what reaches pickup next?”; intermediate play asks “which bag should this passenger consume?”; expert play coordinates consumption order, moving gaps, label phase and scarce edits several ticks ahead. Difficulty must deepen through interaction density, not a growing rule vocabulary.
 
-Not targeted:
-- real-time conveyor-management players;
-- airport tycoon/simulator audiences expecting economy, building or staff management;
-- hidden-deduction / Papers-Please-like inspection gameplay;
-- roguelike, inventory-management or automation-factory audiences.
+Typical first solve: ~3–12 minutes. Early teaching cases may be shorter; late mastery cases may exceed this. A session may be one case or 3–5 cases. No run loss, grind, energy, daily obligation or live-service cadence.
 
-## 3. Session promise
-Typical first-solve case: approximately 3–12 minutes, with early teaching cases below that and late mastery cases potentially longer.
+## 3. Campaign arc
+Target full product: **36–48 certified strong cases**, grouped into a compact campaign rather than an upgrade tree.
 
-A normal session can be one case or a cluster of 3–5. No run loss, grind timer, energy system, daily obligation or live-service cadence.
+- **Act A — Ownership (6–8):** fixed labels versus moving bags; simple label predicates; one-swap planning.
+- **Act B — Identity (7–9):** bag traits + labels; substitutable versus scarce bags.
+- **Act C — Consequence (7–9):** passenger queue coupling; intentional misses; consumption changes future feasibility.
+- **Act D — Gaps (7–10):** removal-created circulating gaps become timing/phase objects.
+- **Act E — Mastery (9–12):** bounded combinations of all prior relationships, duplicate labels, tighter tick/swap budgets and longer dependencies.
 
-## 4. Core loop
-1. **READ** the carousel: bag traits, fixed socket labels, gaps, pickup, front passenger predicate, queue and remaining tick/swap budget.
-2. **PLAN** which bag should eventually satisfy which passenger and which passengers may need to wait.
-3. **SWAP** two socket-owned labels within the current bounded edit budget.
-4. **PREVIEW** the next simultaneous bag movement and visible pickup predicate inputs without revealing a full future solution.
-5. **ADVANCE** one tick.
-6. Bags move simultaneously clockwise one socket; the pickup bag is evaluated against the front passenger using immutable bag traits plus the current pickup-socket label.
-7. If it matches, bag and passenger are removed; the emptied socket remains a circulating gap. If not, neither is removed.
-8. Evaluate success/failure/budget and continue.
+Acts describe reasoning emphasis, not newly unlocked mechanical families. Previously learned vocabulary remains sufficient throughout.
 
-The loop is deterministic and reversible through restart/undo policy to be frozen in later phases; no twitch execution is intended.
+Demo target: 6–8 cases reaching the first intentional miss and first gap consequence, ending on a compact multi-passenger dependency.
 
-## 5. Win / fail thesis
-A case is won when every required passenger has been served within its defined finite tick/edit budget and any case-specific public completion condition is satisfied.
+## 4. Canonical loop
+1. READ bags, gaps, fixed socket labels, pickup, public passenger queue and budgets.
+2. PLAN future consumption and label phase.
+3. SWAP two socket labels, subject to current per-tick allowance; repeat if allowance >1.
+4. PREVIEW exactly the next simultaneous movement and visible predicate inputs, not a solved future trace.
+5. ADVANCE one tick.
+6. Every bag/gap moves one socket clockwise simultaneously.
+7. Evaluate the bag now at the sole pickup against the front passenger using immutable bag traits and the pickup socket's current label.
+8. On match, remove that bag and passenger; the vacated moving occupancy becomes a gap. On non-match, both remain.
+9. Evaluate win, exhausted budget and certified dead state; continue, undo or restart.
 
-Failure is explainable, never random. Typical fail reasons:
-- tick budget exhausted;
-- a required future match has become impossible because the only compatible bag was consumed;
-- label phase cannot be repaired within remaining swaps/ticks;
-- other explicitly declared finite feasibility loss.
+## 5. Public predicate vocabulary ceiling
+Predicates are always fully visible and use **positive equality clauses only**. Canonical grammar:
 
-The implementation may allow continued experimentation after logical dead state, but the game must be able to identify/certify dead states for authored content and optional player feedback.
+`Predicate := Clause | Clause AND Clause | Clause AND Clause AND Clause`
 
-## 6. Frozen minimal vocabulary
-Canonical core vocabulary entering Phase 4:
-- fixed ring sockets;
-- one designated pickup socket baseline;
-- socket-owned visible labels;
-- bags with immutable visible traits;
-- bag/gap permutation around ring;
-- public ordered passenger queue;
-- public predicates over bag traits + current socket label;
-- bounded SWAP LABELS action;
-- explicit ADVANCE action;
-- simultaneous one-socket movement;
-- pickup evaluation after movement;
-- successful pickup removes bag + front passenger;
-- no compression: empty socket becomes persistent circulating gap;
-- finite case budget.
+`Clause := LABEL = value | BAG_SHAPE = value | BAG_MARK = value`
 
-No hidden bag properties, randomness, real-time belt pressure, direct bag movement, inventory grid, combat, economy, worker placement, airport construction or passenger dialogue system is admitted.
+Frozen ceilings:
+- maximum **3 clauses** per passenger;
+- at most one clause from each dimension;
+- no OR, NOT, XOR, numeric comparisons, adjacency, history, passenger-specific exceptions, hidden clauses or arbitrary scripting;
+- canonical trait dimensions are exactly **shape** and **mark**, plus the socket **label** dimension;
+- each case may use a subset; values are case data, not new mechanics;
+- visual values require redundant icon/text/pattern support where color is involved.
 
-## 7. Product-scale content thesis
-Initial full-game design target: **36–48 certified strong cases**, subject to Phase-5 proof of reasoning diversity rather than raw count.
+This ceiling is deliberately restrictive. Content must find depth in permutation/consumption/phase, not Boolean complexity.
 
-Demo target: **6–8 cases** spanning:
-1. socket label ownership;
-2. bag trait + label conjunction;
-3. queue consumption consequence;
-4. intentional passenger miss;
-5. first circulating gap;
-6. multi-tick label staging;
-7. compact finale combining those ideas.
+## 6. Exactly one pickup
+Canonical Game #010 has **exactly one pickup socket in every case**. Multiple pickups are rejected: they multiply simultaneous evaluation/order semantics, weaken the clean queue story and act mainly as a difficulty lever rather than a new fantasy. They are out of scope, not a late-game unlock.
 
-Full-game depth should come from combinations of:
-- bag substitutability/scarcity;
-- predicate overlap;
-- label multiplicity;
-- gap phase;
-- swap budget;
-- tick budget;
-- consumption order;
-- intentional misses;
-- future label staging.
+The pickup socket is fixed and cannot be relabeled as a location; its socket-owned gameplay label may be swapped like any other socket label unless case data explicitly freezes a socket for onboarding only. Frozen sockets are tutorial affordances, not a mastery mechanic and should disappear after early teaching.
 
-Adding a new rule family merely to inflate content is not acceptable.
+## 7. Budget knobs
+Canonical challenge knobs are:
+- **ticks remaining**: per-case finite limit;
+- **swaps allowed before each tick**: case-static integer, normally 1, occasionally 0 for teaching/forced observation or 2 for selected mastery cases.
 
-## 8. Presentation thesis
-One primary screen. The carousel itself is the dominant visual object.
+**No total-swap budget** in canonical play. A second cumulative edit currency adds bookkeeping and creates two overlapping scarcity systems. Tick count already prices waiting, while swaps-per-tick prices intervention bandwidth.
 
-Mandatory visual distinction:
-- labels are physically/visually fixed to sockets, ideally as overhead gantries/plates;
-- bags visibly move beneath/between those fixed structures;
-- pickup is spatially unmistakable;
-- gaps remain visible as empty moving positions;
-- passenger predicate cards use icons + text and never color alone.
+A player may ADVANCE without spending all available swaps. Unused swaps do not bank.
 
-1280x800 is first-class. Core cases should remain readable with <=8 sockets unless later empirical testing proves a higher bound safe.
+## 8. Success, failure, dead state and recovery philosophy
+**Success:** all required passengers served before/at the final allowed tick. No score requirement is needed for basic completion.
 
-## 9. Commercial/scope thesis
-Premium complete product; exact price deferred to Phase 7 market refresh.
+**Budget failure:** ticks reach zero with passengers remaining.
 
-Production scope target is deliberately small-to-medium:
-- 2D or 2.5D stylized one-screen presentation;
-- no networking;
-- no voiced narrative requirement;
-- no procedural art dependency;
-- no massive campaign story;
-- no level editor/Workshop promise at thesis stage;
-- no DLC/live-service dependency.
+**Logical dead state:** from the exact current state, no legal sequence within remaining ticks/per-tick swap allowance can serve all remaining passengers. The authored-case solver is authoritative for this determination.
 
-The game must be worth buying because the core permutation system sustains mastery, not because it contains a large quantity of bespoke assets.
+Player-facing philosophy:
+- never punish experimentation with irreversible campaign loss;
+- provide unlimited Restart and stepwise Undo within a case;
+- dead-state detection may immediately flag “No completion remains from here” but must not force-exit; player may inspect, undo or restart;
+- explain the latest pickup by clause-level MATCH/MISS feedback;
+- do not expose a complete solution, optimal next move or future solver verdict beyond dead/alive status;
+- optional hint policy is deferred to UX/commercial phases, but hints may not be required for completion.
 
-## 10. Round-C empirical gates carried forward
-Before final specification freeze, prototype/playtest must verify:
-1. new players understand **labels belong to sockets; bags move** by the second teaching case;
-2. intentional waiting reads as clever planning, not arbitrary stalling;
-3. 6–8 socket expert cases remain readable at 1280x800/controller distance;
-4. simultaneous movement and persistent no-compression gaps are understood without explanation after onboarding;
-5. a content corpus can sustain at least 30 strong cases without predicate/rule soup or trace-level repetition;
-6. the strongest trailer/GIF can communicate swap -> movement -> pickup consequence in ~10 seconds.
+## 9. Presentation and scope ceiling
+One primary screen; carousel dominates. Labels must look physically bolted to fixed socket gantries while bags visibly travel beneath them. Pickup is unmistakable; gaps are visible occupancies; passenger predicates use icons + text/pattern redundancy. 1280×800 is first-class and core cases target <=8 sockets.
 
-These are empirical gates, not permission to leave rules undefined.
+Production scope: stylized 2D/2.5D, no networking, voiced narrative requirement, massive story, procedural-art dependency, Workshop promise, DLC/live-service dependency, money/upgrades/staff, inspection/contraband, physics handling, conveyor construction, free roaming, real-time timers, hidden preferences, roguelike progression, multiplayer or rule-zoo unlocks.
 
-## 11. Scope ceiling / non-goals
-Explicitly OUT for Game #010 unless a later phase proves a contradiction requiring reconsideration:
-- multiple airports/career-management meta;
-- money/upgrades/staff;
-- bag inspection or contraband;
-- physics luggage handling;
-- direct conveyor construction;
-- free-roaming character;
-- real-time timers;
-- hidden passenger preferences;
-- procedural infinite mode as a requirement;
-- roguelike progression;
-- unlockable mechanical rule zoo;
-- multiplayer;
-- user-generated content commitment.
+`Luggage Carousel Zero` remains an **internal working title only** until commercial/storefront review. Design documents may use it for continuity; no branding effort is authorized now.
 
-## 12. Phase-3 remaining work
-Phase 3 is not yet fully frozen. Next run should pressure-test and lock:
-- exact title status / naming strategy without spending design time on branding;
-- target campaign arc and mastery promise;
-- exact definition of “public predicate” and allowed predicate vocabulary ceiling;
-- whether there is exactly one pickup in canonical game or if multiple pickups must be permanently excluded;
-- whether swap budget is per tick, per case, or both as canonical knobs;
-- explicit success/dead-state feedback philosophy;
-- product thesis acceptance checklist.
+## 10. Empirical gates carried forward
+Before specification freeze, prototype/playtest must verify:
+1. labels-belong-to-sockets / bags-move is understood by case 2;
+2. intentional waiting feels clever rather than arbitrary;
+3. 6–8 socket expert cases remain readable at 1280×800/controller distance;
+4. simultaneous movement and persistent gaps are understood after onboarding;
+5. at least 30 strong cases exist without predicate/rule soup or trace repetition;
+6. swap -> movement -> pickup consequence communicates in ~10 seconds;
+7. three-clause maximum is readable without turning passenger cards into worksheets.
 
-Then enter Phase 4 mechanical architecture and specify exact state/action ordering, predicate grammar, budgets, undo/restart semantics, solver state and content-generation knobs.
+## 11. Phase-3 acceptance checklist
+- [x] One-sentence product identity frozen.
+- [x] Target player and mastery promise frozen.
+- [x] Session and campaign arc bounded.
+- [x] Public predicate grammar ceiling frozen.
+- [x] Exactly one canonical pickup frozen.
+- [x] Tick and swaps-per-tick budgets frozen; cumulative swap budget rejected.
+- [x] Success/dead-state/recovery philosophy frozen.
+- [x] Working title explicitly non-commercial.
+- [x] Scope ceiling and empirical gates explicit.
+- [x] Another session can enter mechanics without redefining the product.
 
-DESIGN COMPLETE = NO.
+**PHASE 3 COMPLETE. DESIGN COMPLETE = NO.**
+
+Next authority: `GAME10_MECHANICS.md`.
