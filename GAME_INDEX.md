@@ -14,7 +14,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen files non-active. |
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen files non-active. |
 | 010 | **Luggage Carousel Zero** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`; migration check returned not found on 2026-09-01. |
-| 011 | **TBD** | **IN DESIGN / Phase 1 opportunity discovery next** | TBD | NOT STARTED | New active factory slot; no Game #010 concept is canon here. |
+| 011 | **TBD — Missing Step / Fossil Forecast / Queue Sculptor finalists** | **IN DESIGN / Phase 2 Round B complete, Round C next** | TBD | NOT STARTED | Five Round-A survivors reduced to three; Lighthouse Arbitration and Counterfeit Shadow killed. |
 
 ## Game #010 frozen summary
 - Final authority: `GAME10_FINAL_FREEZE.md`.
@@ -32,7 +32,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - Migration is pending because dedicated repository is absent; Game #010 files remain frozen NON-ACTIVE safety archive.
 
 ## Active Game #011 boundary
-Game #011 starts clean. Games #001–#010 are portfolio/exclusion history only. Do not silently reuse a rejected/completed concept, mechanic package or frozen archive as Game #011 canon. Phase 1 must perform fresh opportunity discovery and current market research before a concept tournament.
+Game #011 starts clean. Games #001–#010 are portfolio/exclusion history only. Do not silently reuse a rejected/completed concept, mechanic package or frozen archive as Game #011 canon. Phase 1 fresh opportunity discovery is complete; Phase 2 Round A cut 12 candidates to five and Round B cut those five to three finalists: Missing Step, Fossil Forecast, Queue Sculptor. `STATUS.md` remains the exact continuation authority.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
