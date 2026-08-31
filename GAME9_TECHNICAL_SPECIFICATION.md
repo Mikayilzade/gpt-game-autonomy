@@ -1,0 +1,552 @@
+# GAME #009 — PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION
+
+Status: **PHASE 8 COMPLETE / PHASE 9 READY**
+Date: 2026-08-31
+Selected game: **Binder's Imposition** (working title)
+Production implementation: **FORBIDDEN in factory**
+
+Authority: `START_HERE.md` -> `STATUS.md` -> `GAME_INDEX.md` -> Game #009 tournament history -> `GAME9_PRODUCT_THESIS.md` -> `GAME9_MECHANICAL_ARCHITECTURE.md` -> `GAME9_CONTENT_ARCHITECTURE.md` -> `GAME9_UX_PRESENTATION_ARCHITECTURE.md` -> `GAME9_COMMERCIAL_MODEL.md` -> this file.
+
+This phase specifies implementation contracts without implementing them. If presentation code, engine behavior, or platform services disagree with the deterministic domain model, the domain model wins.
+
+---
+
+# 1. Runtime / engine direction
+
+## Recommendation
+Use **Godot 4.x stable** as the default implementation direction, with the deterministic puzzle core kept engine-independent in architecture. As of 2026-08-31, Godot 4.7.2 is the current stable release (2026-08-18); 4.8 is still development. Do not begin on a development snapshot merely for novelty.
+
+Why Godot fits:
+- compact 2D/2.5D workbench and UI-heavy product;
+- desktop-first target and modest runtime complexity;
+- strong scene/UI/input/animation tooling without requiring a large framework;
+- open-source licensing and low operational burden;
+- no physics/networking dependency in core gameplay;
+- easy separation of pure discrete model from animated presentation.
+
+Unity 6.3 LTS remains a valid fallback if the implementation owner already has materially higher Unity expertise or a required Steam/platform integration proves substantially safer there. Engine choice is not game design.
+
+### Engine empirical gate
+Before 12A is considered complete, prove in the chosen engine that one T4 case can:
+1. load from data;
+2. resolve through a pure deterministic transform;
+3. render source and resolved states;
+4. Undo/Redo an edit;
+5. save/reload exact workbench state;
+6. switch mouse/controller focus paths;
+7. run the same core test headlessly or animation-free.
+
+If this spike is awkward because domain logic is entangled with nodes/scenes, architecture must be repaired before content production.
+
+Fresh engine evidence:
+- Godot stable archive: https://godotengine.org/download/archive/
+- Godot Windows/current stable: https://godotengine.org/download/windows/
+- Unity 6.3 LTS: https://unity.com/blog/unity-6-3-lts-is-now-available
+
+---
+
+# 2. Architectural boundary
+
+Use five authoritative layers.
+
+## L1 — Immutable content definition
+Loaded case/template/predicate/localization-key data. Never mutated during play. Includes version/hash metadata.
+
+## L2 — Editable WorkbenchState
+The only player-editable mechanical state:
+- case_id;
+- chosen template per signature;
+- sheet flip per signature;
+- nest role per signature;
+- slot -> face/EMPTY assignment;
+- permitted face-edit orientation bits;
+- current transaction-history cursor plus persisted transaction records or equivalent exact reconstruction data.
+
+No animation coordinates, selected UI object, hover state, camera, tween time, localized strings or Steam state belongs here.
+
+## L3 — Derived BoundBookState
+Pure output of `resolve(case_definition, workbench_state)`. Never hand-edited and never serialized as authority. It may be cached only with an input hash and must be safely discardable/recomputable.
+
+## L4 — Presentation/UI state
+Selection, focus group, active sheet side, camera, preview leaf, animation phase, input-family glyph set, panels, transient toast/explanation display. Losing this layer must not alter puzzle correctness.
+
+## L5 — Persistent Profile/CampaignState
+Schema-versioned user state:
+- profile/save UUID;
+- completed cases;
+- badges/mastery records;
+- chapter/progression state derived or recomputable from completion graph;
+- achievement evidence/state;
+- settings/accessibility/input preferences;
+- in-progress case snapshot;
+- import provenance;
+- monotonic logical save revision;
+- content manifest version last seen.
+
+Progression unlocks should be recomputable from completion + prerequisite graph; do not serialize a fragile independent list as sole authority.
+
+---
+
+# 3. Stable IDs and conceptual schemas
+
+All IDs are opaque stable ASCII identifiers. Display names are localization keys. Never branch logic on English strings.
+
+Recommended namespaces:
+- case: `G9_C01` ...;
+- chapter: `CH01` ... `CH06`;
+- face: case-local `P01`, `MAP_A`, `BLANK_A` but canonical full identity is `(case_id, face_id)`;
+- signature: case-local `SIG_A` etc.;
+- template: global `T4`, `T4F`, `T8`, `T6P`;
+- predicate: stable per-case `PR_001` plus predicate type enum;
+- badge definition: `BADGE_PREDICTED`, `BADGE_DIRECT_BIND`, `BADGE_CONSTRAINT_CRAFT_<case>`;
+- achievement: `ACH_CH01`, etc.;
+- localization: namespaced keys such as `case.g9_c01.title`, `predicate.facing`, never free text as authority.
+
+Case data must contain the Phase-5 fields plus:
+- `schema_version`;
+- `case_revision`;
+- `content_hash` generated by build pipeline;
+- `prerequisite_case_ids[]`;
+- `is_keystone`;
+- `recommended_after[]` presentation-only;
+- optional demo availability marker;
+- explicit symmetry declarations;
+- certification metadata excluded from shipping runtime if desired but retained in source.
+
+Template definitions must contain complete slot schema, legal flips, permutation, orientation bits, leaf/facing mapping and trim behavior. No case may patch a template's transform locally.
+
+---
+
+# 4. Pure deterministic interfaces
+
+Names are conceptual, not mandated code signatures.
+
+## `validate_editable(case, workbench) -> LegalityResult`
+Checks structural legality only. Returns stable machine reason codes + involved IDs. It cannot call presentation or platform services.
+
+## `resolve(case, workbench) -> BoundBookState | StructuralError`
+Pure transform implementing the frozen order:
+legality -> local fold -> duplex orientation -> nesting -> leaf/facing -> trim.
+Same inputs must produce byte-equivalent canonical output on all supported machines.
+
+No RNG, wall clock, floating point geometry, animation time or dictionary iteration order may affect result.
+
+## `evaluate(case, bound_state) -> EvaluationResult`
+Evaluates required predicates and optional eligible badge conditions. Returns per-predicate stable truth/failure records.
+
+## `explain(evaluation, case) -> ExplanationTokens`
+Produces semantic tokens/IDs/parameters, not finalized English prose. Localization layer turns tokens into player text.
+
+## `preview(case, workbench)`
+Uses the same `resolve` and `evaluate` paths as Commit. Preview adds no alternate transform rules.
+
+## `commit(case, workbench, profile) -> CommitPlan`
+Creates an idempotent logical plan. Success may update persistent completion only after durable save transaction succeeds. Re-running the same successful commit cannot duplicate badges, achievements or progression side effects.
+
+## Solver interfaces
+`solve(case, solver_options) -> canonical solution classes + metrics`
+
+`canonicalize(workbench_or_solution, symmetry_declarations) -> canonical_key`
+
+`certify(case) -> certification_report`
+
+Solver and runtime transform must share transform/predicate authority or cross-check against one canonical library. A separately reimplemented solver transform is acceptable only if exhaustive small-state differential tests prove equivalence.
+
+---
+
+# 5. Canonicalization / equivalence
+
+Canonical solution identity ignores only explicitly declared symmetries.
+
+Allowed examples:
+- exchange of two physically/mechanically identical signature labels when case data declares them interchangeable;
+- cosmetic material/motif naming only when mechanics and authored symmetry metadata declare equivalence.
+
+Never collapse:
+- different nest roles when a role predicate can distinguish them;
+- different orientation bits;
+- required blank vs EMPTY;
+- different template choice;
+- layouts that differ in badge eligibility unless certification explicitly reports completion-equivalent vs mastery-distinct classes.
+
+Canonical serialization must sort maps by stable ID and use integer/enumerated fields only for gameplay authority.
+
+---
+
+# 6. Transactions, Undo and Redo
+
+Each reversible player operation creates exactly one transaction:
+- PLACE;
+- SWAP;
+- REMOVE;
+- FACE_ORIENTATION_TOGGLE;
+- CHOOSE_TEMPLATE including deterministic displaced-to-tray results;
+- FLIP_SHEET;
+- SET_NEST_ROLE / reorder;
+- SWAP_PAIR;
+- MOVE_GROUP;
+- CLEAR_SIGNATURE.
+
+A transaction records:
+- transaction_id monotonically increasing within the case session;
+- operation type;
+- minimal semantic arguments;
+- exact before/after mechanical delta sufficient to reverse safely;
+- case_revision/content_hash under which it was created.
+
+### History rules
+- Preview creates no transaction.
+- Failed Commit creates no layout transaction; attempt stats are profile metadata.
+- successful Commit does not erase history until the durable solved checkpoint is written.
+- Undo decrements history cursor by one transaction and applies its inverse atomically.
+- Redo advances cursor by one.
+- making a new edit while cursor is behind tail deletes the redo tail before appending the new transaction.
+- structured operations remain one transaction.
+- no-op operations create no transaction.
+
+### Persistence
+Persist the current WorkbenchState **and** enough history to restore Undo/Redo after normal quit/relaunch. Minimum requirement: last 64 transactions or the entire current case history when <=256; if history is compact enough, prefer full case-session history. Truncation may remove only oldest already-applied history and must never alter current state.
+
+On content revision incompatibility, do not replay old semantic transactions blindly. Load/migrate the snapshot first; retain history only if its declared case revision is compatible. Otherwise preserve current migrated layout and clear history with a one-time non-alarming notice.
+
+---
+
+# 7. Save format and durability
+
+Use explicit structured data with:
+- `save_schema_version` integer;
+- `profile_uuid`;
+- `save_revision` monotonic integer;
+- `written_at_utc` informational only, never conflict authority by itself;
+- `app_build_id` informational;
+- `content_manifest_version`;
+- campaign/mastery/settings/import state;
+- optional in-progress case snapshot/history.
+
+## Atomic local write
+1. serialize and validate candidate save in memory;
+2. write `save.tmp`;
+3. flush/close;
+4. preserve last known-good `save.bak`;
+5. atomic replace/rename temp -> primary where platform semantics permit;
+6. reopen and validate checksum/schema;
+7. only then consider checkpoint durable.
+
+Maintain at least primary + previous known-good backup. A crash between steps must yield either old valid state or new valid state, never an unrecoverable half-file as the only copy.
+
+## Checkpoint timing
+Persist after:
+- any case success before leaving result screen;
+- campaign progression/badge mutation;
+- settings/accessibility mutation;
+- entering/leaving a case after meaningful edits;
+- periodically after mechanical edits using debounced checkpointing (target <=5 seconds after last edit, not per-frame);
+- clean quit/suspend;
+- demo import/cloud merge.
+
+## Corrupt save behavior
+Try primary -> backup -> validated demo/import source where relevant. Never silently reset a corrupt profile. If all fail, preserve corrupt files for support/recovery, offer new profile plus explicit recovery notice. No puzzle completion is inferred from corrupt bytes.
+
+## Forward migration
+Support deterministic migrations from known older schema versions. Migration is pure, ordered `vN -> vN+1`, tested with fixtures and idempotent at destination. Unknown future versions are read-only/incompatible: do not overwrite them with an older build.
+
+---
+
+# 8. Demo -> full-game import
+
+Demo and full game share compatible logical schema but have distinct provenance.
+
+Import is a set-union/max-safe merge, never replacement of newer full progress.
+
+For each case available in demo:
+- solved = OR(local full, demo);
+- earned badge IDs = union after validating badge definition still exists and imported evidence is eligible;
+- first-solve counters: preserve existing full-game value if solved locally; otherwise import validated demo value;
+- settings: on first full launch only, offer/import demo settings when full has no explicit user-edited value; later imports do not overwrite full settings;
+- transient demo workbench after D06 is not required.
+
+Record source profile UUID + imported demo save revision/hash. Re-importing the same or older source is a no-op. A later demo save may add legitimate completion but cannot remove full-game progress.
+
+After merge, recompute prerequisite unlocks and achievement eligibility from authoritative merged facts.
+
+---
+
+# 9. Steam Cloud conflict policy
+
+Steam Cloud is transport, not game-state authority. Local saves remain usable offline.
+
+Prefer one logical profile save plus backup/recovery files configured so platform synchronization does not treat temp files as canonical progress.
+
+When two valid divergent saves are available:
+1. if same profile UUID and one save_revision descends cleanly from the other, choose higher revision;
+2. if revisions diverge or ancestry is unknown, perform a **monotonic campaign merge** for safe facts: solved cases OR, badges union, achievement evidence union, imports union;
+3. in-progress unsolved workbench state is not safely unionable. Choose the snapshot with higher logical revision and retain the other as a recoverable conflict copy; surface a concise choice only if both contain materially different unsolved work;
+4. settings choose the higher-revision explicit setting mutation record, not wall-clock timestamp alone;
+5. never merge transaction histories from divergent branches;
+6. write merged result as a new revision and keep conflict backup until next verified clean checkpoint.
+
+If platform APIs expose their own conflict UX, the game still validates the selected file and retains local recovery semantics.
+
+Release implementation must revalidate current Steamworks Cloud configuration/docs near integration time.
+
+---
+
+# 10. Achievement reconciliation
+
+Achievements are consequences of persistent facts, not one-shot event authority.
+
+Define `achievement_eligibility(profile) -> set<achievement_id>`.
+
+On:
+- full-game boot after save load;
+- successful Commit;
+- demo import;
+- cloud merge;
+- platform reconnect;
+
+compute eligible IDs and compare with locally recorded/platform-known grant state. Request missing grants idempotently. Platform call failure does not roll back campaign progress; retry later. Never revoke a platform achievement because a platform query temporarily fails.
+
+Demo build does not issue platform achievement grants.
+
+---
+
+# 11. Input abstraction / presentation boundary
+
+Mechanical actions consume abstract actions, never raw device codes:
+`NAV_*`, `CONFIRM`, `CANCEL`, `REMOVE`, `TOGGLE_SIDE`, `PREV_SIG`, `NEXT_SIG`, `TEMPLATE_MENU`, `NEST_MENU`, `FLIP`, `UNDO`, `REDO`, `PREVIEW`, `COMMIT`, `RULES`, `PAUSE`.
+
+Pointer interactions translate to the same semantic transactions.
+
+Requirements:
+- runtime device-family tracker updates glyphs without changing focus/selection state;
+- mouse/controller may alternate at any time;
+- controller never requires virtual mouse;
+- remapping persists by action ID;
+- glyph lookup failure falls back to localized action name, not blank icon;
+- focus graph is deterministic and testable at 1280x800.
+
+### Animation boundary
+Domain result is computed before fold animation. Animation receives immutable source/resolved snapshots and emits presentation completion/cancel only. Skip, Fast, Instant, frame rate, Reduced Motion and window focus cannot change resolved state. Tests can bypass all animation.
+
+---
+
+# 12. Localization / accessibility representation
+
+All player text uses localization keys + typed parameters. Logic may inspect IDs/enums/numbers only.
+
+Forbidden:
+- compare localized string to decide predicate type;
+- infer page order from alphabetical text;
+- require English word length/spelling;
+- encode mechanical material only by color name;
+- bake orientation meaning into art without glyph metadata.
+
+UI must tolerate at least ~30% text expansion over English without clipping at default scale. 1280x800 is first-class. Phase-6 target remains important default text >=12 px at 1280x800 and never below the frozen review floor. Text scale is applied before layout; scrolling/wrapping is preferred to truncating required rules.
+
+Localization QA fixture should include pseudo-localization with long strings, accented/RTL-like stress where engine support permits, and missing-key visualization.
+
+---
+
+# 13. Performance / loading budgets
+
+This is a small deterministic puzzle; budgets should be strict enough to expose accidental architectural waste.
+
+Target hardware class: ordinary PC plus Steam Deck-class handheld.
+
+Design budgets at 1280x800 / ordinary 60 Hz target:
+- steady workbench: 60 fps target; no gameplay depends on fps;
+- domain edit validation/resolve for ordinary case: <5 ms typical on target class, <20 ms worst-case synchronous budget;
+- Preview domain resolution: effectively instant relative to animation (<20 ms target);
+- case load from packaged data to interactive workbench: <1 s warm, <3 s cold target excluding first boot/platform initialization;
+- campaign save serialized payload: target <2 MB; expected far smaller;
+- resident memory: target <500 MB on Deck-class device excluding driver/platform overhead; art pipeline should aim substantially below this;
+- no case requires runtime solver execution for normal play. Solver is authoring/certification tooling; optional hints are authored/derived offline.
+
+If fold visuals require heavier 3D, presentation may spend more GPU time but cannot inflate core state or require high-end hardware. Provide quality scaling for shadows/post-processing before compromising readability.
+
+---
+
+# 14. Deterministic test mode
+
+Implementation must expose a non-production-facing test mode/API capable of:
+- load case by ID;
+- set WorkbenchState from fixture;
+- apply semantic transaction;
+- Undo/Redo;
+- resolve without animation;
+- evaluate predicates;
+- serialize canonical BoundBookState;
+- save/load fixture profile;
+- simulate interrupted write at defined durability stages;
+- simulate platform achievement unavailable/retry;
+- simulate demo import and divergent cloud saves;
+- force input family and 1280x800 layout snapshot/test state.
+
+Golden fixtures for T4/T4F/T8/T6P must be version-controlled in dedicated implementation repo.
+
+---
+
+# 15. Content build / certification pipeline
+
+Release content pipeline is ordered:
+
+1. **Schema validation** — IDs, references, enum values, prerequisite graph acyclic, localization keys exist.
+2. **Template transform tests** — exhaustive template fixtures and orientation/trim maps.
+3. **Case structural validation** — assignments, allowed domains, locks, capacity, face uniqueness.
+4. **Solver certification** — >=1 canonical solution class; declared expected class range; bounded search metrics.
+5. **Predicate relevance** — ESSENTIAL/REINFORCEMENT/REDUNDANT_ERROR checks from Phase 5.
+6. **Rote-collapse/global-decision tests**.
+7. **Canonical fingerprint + exact/near-isomorphism comparison** against campaign.
+8. **Interaction-budget analysis** using intended trace.
+9. **Authored human review** — reasoning summary, visual reveal, tutorial purpose, preview-loop attack, manipulation burden.
+10. **Package manifest** — case IDs/revisions/hashes, template hashes, localization catalog version, demo/full inclusion.
+
+A build fails closed on schema/transform/solvability/reference errors. Human-quality warnings cannot be auto-waived silently; waiver requires an explicit source annotation with reason.
+
+Demo package must use the same D01–D06 case definitions/revisions as full package, filtered by manifest, not duplicated copies.
+
+---
+
+# 16. Minimum technical acceptance matrix
+
+## Determinism
+T01 Same case/workbench resolves byte-equivalent canonical BoundBookState across 1,000 repeats.
+T02 Normal/Fast/Instant/Skipped Preview all yield identical state.
+T03 30/60/144 fps presentation cannot change state.
+T04 T4/T4F/T8/T6P golden fixtures match Phase-4 authority.
+T05 runtime transform and solver transform differential suite has zero mismatches over exhaustive bounded small states.
+
+## Transactions/history
+T06 every primitive operation Undo restores exact prior state.
+T07 Redo restores exact post-state.
+T08 structured operation is one history step.
+T09 new edit after Undo deletes redo tail only.
+T10 template capacity transition returns exactly the specified displaced faces and round-trips through Undo.
+T11 quit/relaunch restores current state and required history window.
+
+## Persistence
+T12 crash before temp write completion preserves old primary.
+T13 crash after temp completion but before replace recovers old primary/new temp safely without silent reset.
+T14 corrupted primary loads valid backup.
+T15 corrupted primary+backup never silently creates blank replacement over them.
+T16 unknown future schema is not overwritten.
+T17 known migration fixtures produce expected current schema and are idempotent.
+T18 successful case cannot be lost if crash occurs after durable success checkpoint acknowledgement.
+
+## Demo/cloud/platform
+T19 demo import into empty full profile transfers D01–D06 facts exactly.
+T20 importing same demo save twice changes nothing second time.
+T21 newer demo progress can add but not remove full progress.
+T22 divergent cloud completion facts merge monotonically.
+T23 divergent in-progress workbench states are never structurally merged.
+T24 cloud/platform unavailable leaves offline campaign playable.
+T25 achievement grant failure retries without duplicate local rewards.
+T26 imported achievement-eligible progress grants once in full build; demo grants none.
+
+## Content/localization
+T27 missing/duplicate IDs fail build.
+T28 prerequisite cycle fails build.
+T29 localization key is never used as mechanical identity.
+T30 pseudo-localized required predicate remains readable/reachable at 1280x800.
+T31 color-only material distinction fails accessibility review.
+T32 demo/full case hashes for D01–D06 match.
+
+## Input/UX
+T33 every mechanical action reachable by mouse and controller path.
+T34 switching device family mid-selection preserves semantic state.
+T35 missing glyph has readable fallback.
+T36 Reduced Motion changes no domain result.
+T37 focus cannot become trapped in any workbench zone.
+
+## Performance
+T38 ordinary max-scale campaign case resolves under synchronous budget on Deck-class target.
+T39 no runtime solver is required to open/solve/preview/commit a case.
+T40 cold case load and save checkpoint meet budgets without visible multi-second stall in ordinary play.
+
+---
+
+# 17. Dedicated-repository implementation order
+
+This is handoff planning only; no production implementation belongs in the factory.
+
+## 12A — Technical bootstrap
+- chosen stable engine;
+- pure domain module + fixtures;
+- T4 transform/evaluation;
+- data loader/schema validation;
+- semantic input skeleton;
+- save transaction skeleton;
+- headless/animation-free test harness.
+
+Exit gate: engine empirical gate + T01/T04/T06 basic subset.
+
+## 12B — Vertical slice
+Implement D01–D02 end-to-end with source tray, sheet slots, Preview, Commit, Undo/Redo, basic save/reload and mouse/controller paths. Use temporary presentation assets if needed.
+
+## 12C — Core systems complete
+All four templates, nesting, all predicates, orientation, trim, structured operations, explanations, complete persistence/import/platform abstraction.
+
+## 12D — Content population
+Data-driven D01–D30 target through certification pipeline. Never hand-code case exceptions.
+
+## 12E — UX/accessibility/target-device
+Full Phase-6 contract, controller/remapping/glyphs, text scaling, Reduced Motion, Deck 1280x800, localization readiness.
+
+## 12F — Adversarial QA
+Crash/save/cloud conflicts, import idempotency, invalid content, history corruption, focus traps, repeated commit, platform outage, performance.
+
+## 12G — Empirical gates
+Run product/content/UX/commercial prototype and playtest gates retained by Phases 3–7; repair implementation or reopen design only when evidence demands it.
+
+## 12H — Release candidate
+Package full/demo from manifests, Steam feature integration, current-platform-rule revalidation, performance/regression, storefront/title/legal checks, final demo transfer test.
+
+---
+
+# 18. Phase-8 freeze / implementation-flexible areas
+
+Frozen technical authority:
+- deterministic engine-independent domain core;
+- five-layer state separation;
+- derived BoundBookState not persistent authority;
+- stable IDs/localization keys separation;
+- pure transform/evaluate/explain contracts;
+- transaction semantics and persisted Undo/Redo;
+- versioned atomic saves with backup and non-destructive recovery;
+- monotonic demo/cloud merges for safe campaign facts;
+- non-mergeable divergent workbench branches;
+- recomputable/idempotent achievements;
+- semantic input actions;
+- animation never gameplay authority;
+- content certification pipeline;
+- deterministic test mode and acceptance matrix.
+
+Implementation-flexible:
+- GDScript vs C# if Godot is chosen;
+- JSON vs another inspectable structured serialization;
+- exact scene/node composition;
+- exact Steam integration library;
+- renderer choice for tactile fold animation;
+- internal dependency injection/test framework;
+- compression and cache implementation;
+provided none violates frozen contracts.
+
+## Phase 8 result
+**COMPLETE.** No production code was created.
+
+## NEXT ACTION — PHASE 9 WHOLE-GAME SIMULATION ON PAPER
+Run hostile end-to-end simulations against the now-complete product/mechanics/content/UX/commercial/technical authority. At minimum simulate:
+1. fresh install -> D01–D06 demo -> purchase/full import -> first Chapter II case;
+2. new player who misunderstands duplex orientation and previews excessively;
+3. competent player at Chapter III who has memorized T4 and tries to brute-force secondary constraints;
+4. first T8 case and first template-choice case;
+5. first T6P/trim case including REQUIRED_BLANK vs EMPTY;
+6. late three-signature Chapter VI case with Undo/Redo, Preview and failed Commit;
+7. quit/crash during edit, during Preview, and immediately after successful Commit;
+8. Steam Deck/controller-only session with 1280x800 + text scaling + Reduced Motion;
+9. offline play -> second-device cloud divergence -> merge/recovery;
+10. demo import repeated twice and achievement reconciliation;
+11. campaign completion -> replay/badges/Mastery Shelf boundary;
+12. hostile player behavior: Preview spam, Commit spam, restart loops, template thrashing, huge history, corrupted save, stale content revision.
+
+For each trace record exact state transitions, player-visible feedback, contradiction/ambiguity found, repair, and whether any frozen earlier phase must reopen. If Phase 9 closes cleanly, advance to Phase 10 Adversarial Review.
