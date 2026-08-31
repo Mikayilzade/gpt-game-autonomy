@@ -12,29 +12,28 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 006 | **Stitchspace** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/stitchspace` *(not yet created)* | NOT STARTED | Frozen Game #006 files remain non-active. |
 | 007 | **Last Known Shape** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/last-known-shape` *(not yet created)* | NOT STARTED | Frozen Game #007 files remain non-active. |
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen Game #008 files remain non-active. |
-| 009 | **Binder's Imposition** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen Game #009 files remain non-active. |
-| 010 | **TBD** | **IN DESIGN / Phase 2 Round A complete** | TBD | NOT STARTED | Five Round-B survivors; no final concept selected. |
+| 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen Game #009 files remain non-active. |
+| 010 | **TBD** | **IN DESIGN / Phase 2 Round B complete** | TBD | NOT STARTED | Round-C finalists: Stencil Orchard, Luggage Carousel Zero, Inventory Eclipse. |
 
 ## Game #010 discovery/tournament state
 - Phase 1 completed 2026-08-31; 40 concepts generated, 12 entered tournament.
-- Round A authority: `GAME10_TOURNAMENT.md`.
-- Round-A survivors: **Stencil Orchard, Luggage Carousel Zero, Photocopier Garden, Inventory Eclipse, Consensus Machine**.
-- Eliminated in Round A and non-canonical: Negative Gardening, Evaporation Map, Unreliable Ruler, Taxidermy of Motion, Moth Ledger, Counterweight Kitchen, Ink Debt.
-- Round B must reduce five to three through exact state models, onboarding, expert microcases, solver/validator feasibility, demo/hour-8 depth and presentation attacks.
-- No Game #010 concept is selected yet.
+- Round A authority: `GAME10_TOURNAMENT.md`; five survivors.
+- Round B authority: `GAME10_ROUND_B.md`.
+- **Round-C finalists:** Stencil Orchard, Luggage Carousel Zero, Inventory Eclipse.
+- Eliminated Round B: Photocopier Garden (reasoning overlap with Stencil Orchard; duplication failed to earn distinct long-tail depth); Consensus Machine (truth-table/product-experience risk).
+- Eliminated Round A and non-canonical: Negative Gardening, Evaporation Map, Unreliable Ruler, Taxidermy of Motion, Moth Ledger, Counterweight Kitchen, Ink Debt.
+- No Game #010 concept is selected yet. Round C must compare product experience, repetition/content burden, market legibility, controller/Deck cognition and certification cost before selecting one.
 - Prior games are exclusion/portfolio history only and may not become Game #010 canon through theme reskinning.
 
 ## Game #009 frozen identity / exclusion summary
 - PC/Steam-first premium single-player/offline systemic permutation/constraint puzzle.
 - Hook: arrange pages on flat sheets so after deterministic fold/flip/nest/trim the finished book satisfies exact constraints.
 - Four transform families only: T4, T4F, T8, T6P; exact mappings and mixed-size recursive nesting are frozen in `GAME9_FINAL_FREEZE.md`.
-- Depth comes from final-book constraints, signature roles, nesting, facing/leaf geometry, orientation, categorical material, blank/trim fate and bounded template choice.
 - Preview exposes physical consequences but not an aggregate/full-predicate answer-key vector; Commit is exact evaluation.
 - 24 certified strong cases minimum / 30 target / 34 soft ceiling including optional mastery variants; reasoning-skeleton diversity is mandatory.
 - Compact workbench, controller parity, 1280x800 first-class, focused-signature fallback.
 - Premium complete product; no MTX/grind/live-service wrapper.
-- Final authority: `GAME9_FINAL_FREEZE.md`.
-- **DESIGN COMPLETE = YES.** Migration pending and non-blocking.
+- Final authority: `GAME9_FINAL_FREEZE.md`; DESIGN COMPLETE = YES; migration pending and non-blocking.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
