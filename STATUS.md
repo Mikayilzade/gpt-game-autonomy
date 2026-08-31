@@ -19,25 +19,26 @@ Branch: `main`
 Only Game #010 files explicitly named below may become active game canon. `GAME6_*`, `GAME7_*`, `GAME8_*`, and `GAME9_*` are frozen NON-ACTIVE safety archives/history and must not contaminate Game #010. Their identities are exclusion/portfolio history only.
 
 ## Current phase
-**Game #010 — PHASE 1 OPPORTUNITY DISCOVERY READY.**
+**Game #010 — PHASE 2 CONCEPT TOURNAMENT / ROUND A READY.**
 
 ## Active authority for Game #010
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
-
-No `GAME10_*` design file exists yet. The next run must create the Phase-1 research/opportunity file from a clean slate.
+4. `GAME10_RESEARCH.md`
 
 ## This run completed
-- Re-read `START_HERE.md`, prior `STATUS.md`, `GAME_INDEX.md`, and every active Game #009 file named by prior STATUS; resumed exactly from Phase-11 `NEXT ACTION`.
-- Reconciled Phase 3–10 into `GAME9_FINAL_FREEZE.md` as the single final Game #009 authority.
-- Explicitly incorporated all Phase-10 repairs: Preview information boundary, reasoning-skeleton diversity, exact T6P, exact T4F FLIPPED, recursive mixed-size nesting, T8 bookkeeping limits, focused-signature handheld fallback, Direct Bind semantics and local-durability-before-cloud implementation order.
-- Froze product thesis/non-goals, domain/state model, exact transforms, nesting, verbs, predicates, Preview/Commit boundary, campaign/demo mapping, progression/badges, UX/accessibility, commercial boundaries, technical architecture, save/import/cloud safety, empirical gates and cross-phase acceptance checklist.
-- Internal reconciliation verdict: a fresh implementation session should not need to invent important gameplay. Set **Game #009 DESIGN COMPLETE = YES**.
-- Checked for preferred dedicated repository `Mikayilzade/binders-imposition`; no accessible repository exists. Migration recorded **PENDING / NON-BLOCKING**.
-- Preserved every Game #009 file as frozen NON-ACTIVE safety archive; deleted nothing.
-- Updated `GAME_INDEX.md` with Game #009 completion/migration state and created sequential Game #010 row.
-- Advanced factory immediately to **Game #010 Phase 1 Opportunity Discovery** per continuity rule.
+- Re-read `START_HERE.md`, prior `STATUS.md`, and `GAME_INDEX.md`; confirmed Game #010 begins from a clean slate and no active `GAME10_*` file existed.
+- Performed fresh 2026 PC/Steam market research because Phase 1 depends on current releases, demos, saturation and value expectations.
+- Recorded discovery pressure from the June 2026 Steam Next Fest scale, current puzzle/indie examples, pricing signals and visibly crowded lanes.
+- Created `GAME10_RESEARCH.md` as the first active Game #010 design file.
+- Explicitly treated Games #001–#009 only as portfolio/exclusion history; no rejected/completed design was silently reused as canon.
+- Generated **40 mechanically distinct concepts** across growth systems, agent/voting systems, measurement, temporal residue, inventory occlusion, moving-routing systems, physical-state transforms and other families.
+- Scored all 40 on hook legibility, systemic depth, scope fitness, visual/GIF readability, market differentiation, implementation safety, content efficiency and demo strength.
+- Attacked derivative risk, hour-8 depth, content burden, technical burden and dominant-strategy risk before advancing candidates.
+- Recorded **15 saturated/rejected lanes** so later phases do not rediscover them accidentally.
+- Advanced **12 Phase-2 tournament entrants**, each with explicit falsification/kill conditions: Stencil Orchard, Luggage Carousel Zero, Negative Gardening, Photocopier Garden, Inventory Eclipse, Consensus Machine, Evaporation Map, Unreliable Ruler, Taxidermy of Motion, Moth Ledger, Counterweight Kitchen and Ink Debt.
+- Did **not** select a final Game #010 concept in Phase 1.
 - No production implementation, test email or Gmail notification was created.
 
 ## Frozen migration state
@@ -53,20 +54,21 @@ DESIGN COMPLETE = YES; final authority `GAME8_FINAL_FREEZE.md`; preferred repo `
 ### Game #009 — Binder's Imposition
 DESIGN COMPLETE = YES; final authority `GAME9_FINAL_FREEZE.md`; preferred repo `Mikayilzade/binders-imposition`; migration pending, non-blocking. All `GAME9_*` files are frozen NON-ACTIVE safety archive.
 
-## NEXT ACTION — GAME #010 PHASE 1 / OPPORTUNITY DISCOVERY
-Create `GAME10_RESEARCH.md` from a clean slate.
+## NEXT ACTION — GAME #010 PHASE 2 / CONCEPT TOURNAMENT ROUND A (12 -> 6)
+Create `GAME10_TOURNAMENT.md` and run equal destructive tests on all twelve Phase-1 entrants.
 
 Mandatory work:
-1. refresh current 2026 PC/Steam market evidence, recent releases/demos, visibly saturated lanes, pricing/value expectations and emerging player desires where relevant;
-2. treat Games #001–#009 only as portfolio exclusions; do not reuse their decision structures under new themes;
-3. generate a broad field of at least **36 genuinely distinct concepts** across multiple mechanical families, not a list of theme reskins;
-4. score with hook legibility, systemic depth, scope fitness, visual/GIF readability, market differentiation, implementation safety, content efficiency and demo strength;
-5. explicitly attack derivative risk, hour-8 depth, content burden, technical burden and dominant-strategy risk before selecting entrants;
-6. identify at least **10 tournament entrants** with concise falsification/kill conditions;
-7. record rejected/saturated lanes so later phases do not rediscover them accidentally;
-8. save all meaningful research/design work to GitHub and update STATUS with exact Phase-2 next action.
+1. use fresh analogue checks only where derivative-risk verification materially matters;
+2. for each entrant write a 20-second first-play scenario, an hour-3 scenario and an hour-8 scenario;
+3. construct at least two concrete hand-simulated microcases for every serious survivor; concepts that fail an earlier hard gate may be killed without wasting simulation work;
+4. name the obvious dominant heuristic for each serious survivor and construct a counterexample that defeats it;
+5. estimate minimum rule vocabulary, content burden, implementation burden, solver/validator feasibility and demo expansion path;
+6. attack failure explainability, controller/Steam Deck readability and whether the core verb is visually legible in motion;
+7. cut the field to **exactly six or fewer** only when evidence supports the cuts;
+8. record every elimination and why it died so eliminated ideas cannot silently return;
+9. update `STATUS.md` with exact Round-B next action.
 
-Use fresh web research because Phase 1 depends on current market state. Do not select a final Game #010 concept in Phase 1.
+Do not select the final Game #010 concept unless the tournament evidence safely supports continuing through connected later rounds in the same run.
 
 ## Blockers
 **NONE for factory continuation.**
