@@ -13,23 +13,26 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 007 | **Last Known Shape** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/last-known-shape` *(not yet created)* | NOT STARTED | Frozen Game #007 files remain non-active. |
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen files non-active. |
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen files non-active. |
-| 010 | **Luggage Carousel Zero** *(working title)* | **IN DESIGN / Phase 11 specification freeze next** | TBD | NOT STARTED | Phases 1–10 complete; two Phase-10 repairs must be consolidated before freeze. |
+| 010 | **Luggage Carousel Zero** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`; migration check returned not found on 2026-09-01. |
+| 011 | **TBD** | **IN DESIGN / Phase 1 opportunity discovery next** | TBD | NOT STARTED | New active factory slot; no Game #010 concept is canon here. |
 
-## Game #010 state
-- Phases 1–5: complete. Luggage Carousel Zero selected; adjacent-only swap correction authoritative; F7 retired as counted family; 42-slot campaign architecture retained with >=36 strong-case release floor.
-- Phase 6: **complete**. `GAME10_PHASE6_CLOSURE.md` freezes responsive Deck/desktop/ultrawide behavior, 150% text, controller flow, settings/accessibility defaults and hostile state behavior. Permanent event log removed; single last-result feedback retained.
-- Phase 7: **complete**. `GAME10_PHASE7_CLOSURE.md` freezes premium/no-live-service boundaries, once-per-act explicit `Skip for now` after strict A01–A03, idempotent demo import, guarded minimum-tick `Efficient Route`, exact 12 base achievements and save-visible progression fields.
-- Phase 8: **complete**. `GAME10_TECHNICAL.md` + `GAME10_PHASE8_CLOSURE.md` freeze preferred Godot 4.7.2 + GDScript direction, pure deterministic Rules Core, canonical case/play schemas, exact solver/certification boundary, content manifest, atomic versioned persistence, demo/full merge, save migration, platform/input/localization/accessibility adapters, performance/test gates and implementation order, except where Phase 10 supersedes DEAD timing/mastery provenance.
-- Phase 9: **complete**. `GAME10_PHASE9_SIMULATION.md` + `GAME10_PHASE9_CLOSURE.md` cover first boot through late mastery plus a second hostile pass: one skip in each act, ending with five unresolved blockers, later cleanup, historical mastery updates, every DEAD action class, content/certificate/schema mismatch, backup/cloud corruption and recovery.
-- Phase 10: **complete**. `GAME10_PHASE10_REVIEW.md` completes adversarial review for fun/repetition, scope, technical risk, dominant strategies, progression/commercial incentives, UX/accessibility, persistence and implementation ambiguity. It freezes two corrections: **player-facing DEAD only after nonterminal ADVANCE, never immediately after SWAP**, and **provenance-bearing best-tick records for current Efficient Route validity**.
-- Phase 11: **next**. Consolidate all amendments into one final implementation authority, build acceptance matrix, classify empirical gates/flexible details, final contradiction scan, then set `DESIGN COMPLETE = YES` only if no important gameplay invention remains.
-- Frozen identity: moving bag/GAP permutation + fixed socket labels + exactly one pickup + public ordered passengers + bounded **adjacent** label swaps + finite ticks.
-- Predicate ceiling: AND of 1–3 positive equality clauses over exactly socket LABEL, BAG_SHAPE and BAG_MARK; one clause/dimension; no hidden logic/OR/NOT/history.
-- Budget model: per-case ticks plus case-static swaps-per-tick {0,1,2}; no cumulative swap currency.
-- Solver envelope: K=1 standard up to N=8; K=2 mastery restricted to N<=6/ticks<=8; K=0 short teaching only; exact certification mandatory.
-- DEAD UX correction: a SWAP may enter an internally infeasible state but remains PLAYING; exact player-facing DEAD is evaluated/exposed only after a nonterminal ADVANCE boundary. Preview never exposes global feasibility.
-- Mastery update correction: current Efficient Route requires a provenance-compatible best tick record for the current case content/rules certificate; stable-ID basic completion remains monotonic across compatible content updates.
-- Previous games and eliminated Game #010 concepts remain exclusion/history only and may not silently become canon.
+## Game #010 frozen summary
+- Final authority: `GAME10_FINAL_FREEZE.md`.
+- Identity: moving bag/GAP permutation + fixed socket gantry labels + exactly one pickup + public ordered passenger predicates + bounded **adjacent** label swaps + finite ticks.
+- Predicate ceiling: 1–3 positive equality clauses, one per LABEL / BAG_SHAPE / BAG_MARK dimension; no hidden logic/OR/NOT/history.
+- Budget: finite ticks + K in {0,1,2}; K1 standard, K2 mastery N<=6/ticks<=8, K0 teaching only.
+- DEAD correction: player-facing DEAD only after nonterminal ADVANCE; never immediately after SWAP.
+- GAP correction: no compression/phase shifting; F7 retired, `BLANK_RETURN` descriptive only.
+- Campaign architecture: target 42, release floor >=36 certified strong trace-distinct cases.
+- Progression: mandatory A01–A03, then once-per-act `Skip for now`; ending separate from all-cases complete.
+- Mastery: Efficient Route uses provenance-compatible best-tick record vs current exact certificate.
+- UX: controller-first, 1280x800 first-class, 150% text, reduced motion, color redundancy.
+- Commercial: premium one-time purchase; working $9.99–12.99 band only; title/price remain empirical.
+- Technical: deterministic Rules Core + exact solver/certification + versioned atomic persistence; preferred Godot 4.7.2 stable direction.
+- Migration is pending because dedicated repository is absent; Game #010 files remain frozen NON-ACTIVE safety archive.
+
+## Active Game #011 boundary
+Game #011 starts clean. Games #001–#010 are portfolio/exclusion history only. Do not silently reuse a rejected/completed concept, mechanic package or frozen archive as Game #011 canon. Phase 1 must perform fresh opportunity discovery and current market research before a concept tournament.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
@@ -41,6 +44,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - #007 Last Known Shape: observation -> exact candidate -> remembered/persistent transformed form.
 - #008 Locksmith's Margin: destructive persistent fictional key-vector edits against several finite-set locks.
 - #009 Binder's Imposition: reversible flat-sheet/signature assignment through deterministic fold/nest/trim transforms against final-book constraints.
+- #010 Luggage Carousel Zero: adjacent fixed-gantry label permutation over moving luggage, public passenger predicates, intentional non-service and exact certified finite-tick puzzles.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
