@@ -13,16 +13,18 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 007 | **Last Known Shape** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/last-known-shape` *(not yet created)* | NOT STARTED | Frozen Game #007 files remain non-active. |
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen Game #008 files remain non-active. |
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen Game #009 files remain non-active. |
-| 010 | **TBD** | **IN DESIGN / Phase 2 Round B complete** | TBD | NOT STARTED | Round-C finalists: Stencil Orchard, Luggage Carousel Zero, Inventory Eclipse. |
+| 010 | **Luggage Carousel Zero** *(working title)* | **IN DESIGN / Phase 3 active** | TBD | NOT STARTED | Round C winner selected; product-thesis skeleton active. |
 
 ## Game #010 discovery/tournament state
 - Phase 1 completed 2026-08-31; 40 concepts generated, 12 entered tournament.
 - Round A authority: `GAME10_TOURNAMENT.md`; five survivors.
-- Round B authority: `GAME10_ROUND_B.md`.
-- **Round-C finalists:** Stencil Orchard, Luggage Carousel Zero, Inventory Eclipse.
+- Round B authority: `GAME10_ROUND_B.md`; finalists were Stencil Orchard, Luggage Carousel Zero, Inventory Eclipse.
+- Round C authority: `GAME10_ROUND_C.md`; **Luggage Carousel Zero selected**.
+- Active product-thesis authority: `GAME10_THESIS.md`.
+- Eliminated Round C: Stencil Orchard (long-tail reasoning converges too strongly on exposure/protection scheduling); Inventory Eclipse (higher two-surface UX/content burden plus crowded 2026 inventory/backpack lane).
 - Eliminated Round B: Photocopier Garden (reasoning overlap with Stencil Orchard; duplication failed to earn distinct long-tail depth); Consensus Machine (truth-table/product-experience risk).
 - Eliminated Round A and non-canonical: Negative Gardening, Evaporation Map, Unreliable Ruler, Taxidermy of Motion, Moth Ledger, Counterweight Kitchen, Ink Debt.
-- No Game #010 concept is selected yet. Round C must compare product experience, repetition/content burden, market legibility, controller/Deck cognition and certification cost before selecting one.
+- Selected Game #010 identity is moving bag permutation + fixed socket labels + public passenger predicates + removal-created circulating gaps + bounded label swaps. It must not be expanded into airport management, hidden deduction, real-time dexterity or inventory play.
 - Prior games are exclusion/portfolio history only and may not become Game #010 canon through theme reskinning.
 
 ## Game #009 frozen identity / exclusion summary
