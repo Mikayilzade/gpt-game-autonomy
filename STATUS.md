@@ -18,7 +18,7 @@ Branch: `main`
 Only Game #009 files explicitly named below are active game canon. `GAME6_*`, `GAME7_*`, and `GAME8_*` remain frozen non-active safety archives/history and must not contaminate Game #009. Rejected Game #009 concepts are tournament history only.
 
 ## Current phase
-**Game #009 — PHASE 9 WHOLE-GAME SIMULATION COMPLETE / PHASE 10 ADVERSARIAL REVIEW READY.**
+**Game #009 — PHASE 10 ADVERSARIAL REVIEW COMPLETE / PHASE 11 SPECIFICATION FREEZE READY.**
 
 ## Active authority for Game #009
 1. `START_HERE.md`
@@ -35,37 +35,39 @@ Only Game #009 files explicitly named below are active game canon. `GAME6_*`, `G
 12. `GAME9_COMMERCIAL_MODEL.md`
 13. `GAME9_TECHNICAL_SPECIFICATION.md`
 14. `GAME9_WHOLE_GAME_SIMULATION.md`
+15. `GAME9_ADVERSARIAL_REVIEW.md`
 
-`GAME9_WHOLE_GAME_SIMULATION.md` is current Phase-9 authority for repaired cross-phase behavior. It clarifies rather than silently replacing earlier frozen mechanics.
+`GAME9_ADVERSARIAL_REVIEW.md` is current Phase-10 authority for explicit repairs and narrow reopenings. It clarifies/supersedes conflicting earlier details only where it names the conflict explicitly. Phase 3 product thesis remains intact.
 
 ## This run completed
-- Re-read factory authority and all active Game #009 files named by prior `STATUS.md`; resumed exactly from Phase-9 `NEXT ACTION`.
-- Created `GAME9_WHOLE_GAME_SIMULATION.md` and completed all 12 required end-to-end/hostile traces.
-- Froze exact demo/campaign mapping: D01..D06 = G9_C01..G9_C06; D04 is the fixed-role two-signature bridge, D05 introduces free nest-role + FACING, D06 is material/signature-role synthesis.
-- Verified fresh-install -> demo -> purchase/import -> first full-only case flow and idempotent achievement reconciliation.
-- Attacked excessive Preview, learned-T4 brute-force/hill climbing, T8 template switching, T6P REQUIRED_BLANK vs EMPTY, late three-signature Undo/Redo and failed Commit behavior.
-- Froze same-state Commit idempotency: identical unchanged failed layouts reopen the cached result and do not increment attempt stats again.
-- Froze crash ordering around successful Commit: durable verified local save precedes authoritative solved UI/platform reconciliation.
-- Added explicit save-lineage requirement (`revision_id`, `parent_revision_id`) so Steam Cloud can distinguish clean descent from divergent offline branches.
-- Froze divergent cloud merge behavior: monotonic campaign facts merge; unsolved workbench branches never structurally merge; meaningful conflicts are retained for recovery/choice.
-- Froze repeated demo-import convergence and source provenance behavior.
-- Froze campaign-completion/replay/Mastery Shelf boundary; shipped total remains within the 34-case soft ceiling.
-- Froze huge-history compaction through an anchor snapshot + retained recent transaction tail without altering current WorkbenchState.
-- Froze stale-content-revision migration/recovery policy; incompatible old work is preserved rather than silently discarded.
-- Added a Phase-10 attack queue focused on repetition, oracle leakage, demo overload, T8/T6P bookkeeping, content exhaustion, Deck/controller density, persistence complexity and implementation ambiguity.
+- Re-read `START_HERE.md`, prior `STATUS.md`, `GAME_INDEX.md`, and every active Game #009 file named by STATUS; resumed exactly from Phase-10 `NEXT ACTION`.
+- Created `GAME9_ADVERSARIAL_REVIEW.md` and completed all mandatory destructive lanes: repetition, Preview/Commit oracle leakage, demo overload, T8/T6P bookkeeping, content exhaustion, dominant strategies, handheld/controller UX, persistence/cloud/import, technical scope, and implementation ambiguity.
+- Found and repaired a material UX exploit: Preview may still expose the complete resolved physical book, but it no longer automatically paints the full authored predicate list satisfied/failed or exposes any aggregate correctness vector. Commit remains the exact all-failures evaluation surface.
+- Added reasoning-skeleton diversity rules on top of structural anti-isomorphism so 24+ solver-distinct cases cannot all reduce to the same set-partition deduction.
+- Froze demo pacing/comprehension gates for D04–D06 without adding new tutorial systems or changing the D01–D06 mapping.
+- Bounded T8 orientation bookkeeping: visible parity map is permanent apparatus information; orientation-sensitive-face counts are limited by case purpose.
+- Reopened and completed T6P specification: exact pre-trim order, cut positions 0/7 = A3/A0, exact six survivors, and REQUIRED_BLANK/EMPTY/SACRIFICIAL legality.
+- Froze exact recursive mixed-size nesting composition over signature front/back halves.
+- Froze exact T4F FLIPPED mapping `[B1,A0,A1,B0]` plus sheet-flip orientation XOR bit.
+- Clarified template carry-over under stricter T6P legality, source-mapping/hint boundary, Direct Bind semantics, and template/content revision migration.
+- Added focused-signature canonical fallback for 1280x800/high-text-scale/controller layouts; all three full signatures need not be simultaneously editable on screen.
+- Reduced implementation risk by freezing a minimum safe local-persistence boundary before cloud/platform work; unsafe Cloud must be disabled rather than risking state loss.
+- Preserved all Phase-9 crash/import/cloud lineage repairs and added explicit pre-production content-depth gates.
 - No production implementation, test email or Gmail notification was created.
 
-## Phase-9 material repairs
-1. D01–D06 mapping ambiguity -> exact campaign mapping frozen.
-2. Crash-after-success ambiguity -> durable-save-before-solved-UI ordering frozen.
-3. Cloud ancestry ambiguity -> explicit revision lineage metadata required.
-4. Same-state Commit spam -> idempotent cached result/no duplicate attempt count.
-5. Long history -> anchor snapshot + bounded retained tail.
-6. Stale content revision -> deterministic migration or preserved recovery archive + clean restart.
-7. REQUIRED_BLANK vs EMPTY -> distinct semantic icon/text treatment.
-8. 1280x800 text-scale pressure -> Goal rail yields to drawer before source interaction is compressed.
+## Phase-10 material repairs / narrow reopenings
+1. **Preview oracle** -> Phase 6 revised: no automatic aggregate/full-predicate truth vector during ordinary Preview.
+2. **Reasoning repetition** -> Phase 5 strengthened with reasoning-skeleton diversity and playtest-summary gates.
+3. **T6P ambiguity** -> Phase 4 exact cut positions/surviving order/token legality frozen.
+4. **Mixed-size nesting ambiguity** -> Phase 4 exact recursive composition frozen.
+5. **T4F ambiguity** -> Phase 4 exact FLIPPED source mapping + orientation behavior frozen.
+6. **Handheld density** -> Phase 6 focused-signature fallback frozen.
+7. **Persistence overscope** -> Phase 8 implementation order clarified; local durability precedes cloud/platform integration.
+8. **Demo overload** -> Phase 5/7 empirical pacing/comprehension gates strengthened.
+9. **T8 bookkeeping** -> Phase 5 authoring limits and persistent parity aids strengthened.
+10. **Badge ambiguity** -> Phase 7 Direct Bind semantics clarified.
 
-No repair reopens the Phase-3 product thesis or changes the core transform grammar/predicate vocabulary.
+No repair reopens the Phase-3 product thesis, adds a fifth transform family, adds a new predicate family, or changes the premium finite-campaign identity.
 
 ## Frozen migration state
 ### Game #006 — Stitchspace
@@ -77,22 +79,27 @@ DESIGN COMPLETE = YES; preferred repo `Mikayilzade/last-known-shape`; migration 
 ### Game #008 — Locksmith's Margin
 DESIGN COMPLETE = YES; final authority `GAME8_FINAL_FREEZE.md`; preferred repo `Mikayilzade/locksmiths-margin`; migration pending, non-blocking.
 
-## NEXT ACTION — GAME #009 PHASE 10 / ADVERSARIAL REVIEW
-Run a destructive multi-pass review of the complete Phase 3–9 authority. Do not merely list concerns: construct concrete failure cases and repair canon where possible.
+## NEXT ACTION — GAME #009 PHASE 11 / SPECIFICATION FREEZE
+Create `GAME9_FINAL_FREEZE.md` as the single final design authority. Reconcile Phase 3–10 into one implementation-ready specification and explicitly incorporate every Phase-10 repair.
 
-Mandatory attack lanes:
-1. fun/repetition after T4 becomes rote — test whether late play is repeated set partitioning under renamed predicates;
-2. Preview/Commit oracle leakage — determine whether per-predicate failure explanations enable systematic hill climbing despite no scalar score;
-3. D04–D06 tutorial/demo overload — verify six-case 20–30 minute arc is cognitively plausible and still reaches real synthesis;
-4. T8 and T6P — attack clerical face-count burden, orientation bookkeeping and exception-family feel;
-5. content exhaustion — attempt to collapse the 24-case minimum through graph isomorphism/near-isomorphism and repeated intended reasoning summaries;
-6. dominant strategies — memorize local inverse maps, always solve READ_ORDER first, always test nest roles in fixed order, Preview every branch, or exploit structured tools;
-7. UX/accessibility — late three-signature 1280x800/controller/text-scale/reduced-motion ambiguity;
-8. persistence/cloud/import — crash injection, stale revisions, repeated imports, conflict copies, corrupt backups, unknown future versions;
-9. technical scope — assess whether robust save/cloud/certification complexity is disproportionate to the small puzzle and identify minimum safe implementation boundary;
-10. implementation ambiguity — mixed-size nesting, orientation XOR, T6P trim semantics, template carry-over, source mapping, badges and content migrations.
+Mandatory freeze requirements:
+1. declare final authority precedence and supersession rules;
+2. restate product thesis and non-goals without importing rejected concepts;
+3. provide exact domain/state model, transform order, player verbs and predicate vocabulary;
+4. freeze exact T4, T4F NORMAL/FLIPPED, T8 and T6P mappings/orientation/trim behavior;
+5. freeze exact mixed-size nesting formula and leaf/facing derivation contract;
+6. freeze Preview vs Commit information boundary, Undo/Redo/history and same-state idempotency;
+7. freeze content count/quality, reasoning-skeleton anti-repetition, demo mapping, progression and badge rules;
+8. freeze handheld/controller/accessibility/source-mapping/focused-signature UX behavior;
+9. freeze commercial model and explicitly mark price/title as release-validation items rather than gameplay authority;
+10. freeze technical layers, save durability, import/cloud conflict boundary, deterministic interfaces and implementation order;
+11. list all remaining empirical prototype/playtest gates and what each gate is allowed to change;
+12. list implementation-flexible presentation details vs design-authoritative mechanics;
+13. include cross-phase acceptance checklist and dedicated-repository migration package checklist;
+14. verify a fresh implementation session would not need to invent important gameplay;
+15. only after internal reconciliation passes, set **DESIGN COMPLETE = YES**.
 
-For every material issue record: concrete attack, observed failure, severity, repair, regression tests, whether an earlier phase explicitly reopens, and any empirical prototype/playtest gate that remains. If all material issues are resolved/bounded and the design remains coherent, advance `NEXT ACTION` to Phase 11 Specification Freeze. Do not set `DESIGN COMPLETE = YES` during Phase 10.
+If DESIGN COMPLETE becomes YES in Phase 11, immediately attempt migration to a dedicated repository if it exists. If no dedicated repository exists or repository creation is unavailable, record migration pending, keep all Game #009 files as a frozen NON-ACTIVE safety archive, update `GAME_INDEX.md`, and immediately advance `STATUS.md` to **Game #010 Phase 1 Opportunity Discovery**. Pending migration must not stop the factory.
 
 ## Blockers
 **NONE for Game #009 design.**
