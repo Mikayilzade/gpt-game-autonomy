@@ -19,7 +19,7 @@ Branch: `main`
 Only Game #010 files named below are active game canon. GAME6_*, GAME7_*, GAME8_* and GAME9_* remain frozen NON-ACTIVE safety archives/history.
 
 ## Current phase
-**Game #010 — PHASE 5 CONTENT ARCHITECTURE ACTIVE. Phases 1–4 COMPLETE; Phase 5 now has a concrete 42-slot map and exact demo finale, with the GAP family undergoing bounded adversarial validation before closure.**
+**Game #010 — PHASE 6 UX / PRESENTATION ARCHITECTURE ACTIVE. Phases 1–5 COMPLETE. Phase 5 closed after a bounded proof showed GAP blankness is not an independent reasoning family under no-compression movement; F7 was retired and the 42-slot map was rebalanced without adding mechanics. Phase 6 now has the core play-screen, controller, Preview, feedback, onboarding and accessibility contracts.**
 
 ## Active authority for Game #010
 1. `START_HERE.md`
@@ -34,19 +34,19 @@ Only Game #010 files named below are active game canon. GAME6_*, GAME7_*, GAME8_
 10. `GAME10_MECHANICS_CORRECTION.md` — authoritative over conflicting swap-legality/solver/content statements
 11. `GAME10_CONTENT.md`
 12. `GAME10_CONTENT_MAP.md`
-13. `GAME10_CONTENT_VALIDATION.md` — authoritative for exact DEMO-07 and GAP-family limitations
+13. `GAME10_CONTENT_VALIDATION.md`
+14. `GAME10_PHASE5_CLOSURE.md` — authoritative over conflicting F7/GAP-family and demo-gap claims
+15. `GAME10_UX.md`
 
 ## This run completed
-- Re-read required factory/index/status and every active Game #010 authority file; resumed exactly from the Phase-5 campaign-map NEXT ACTION.
-- Created `GAME10_CONTENT_MAP.md` with all **42 target campaign slots** (A7/B8/C8/D9/E10), explicit N/K/tick/predicate-width bands and reasoning-family obligations.
-- Preserved adjacency canon throughout; K0 remains early-only and K2 remains exactly three bounded mastery slots (N<=6, ticks<=8).
-- Fully hand-traced demo cases 01–06 and found/recorded a real tick-budget defect in Demo 04, repairing its canonical target from 4 to 5 ticks instead of hiding the contradiction.
-- Proved Demo 03 `STAGING_SIGNIFICANT`: forbidding swaps on non-pickup edges makes it unsolvable because G starts distance 2 while current R must be preserved.
-- Created 12 late-game relationship skeletons with materially different normalized counterfactual tuples, plus provisional minimum/target family coverage and expansion boundaries.
-- During exact map work, corrected a second imprecise design claim: a GAP does **not** shift any surviving bag's ring phase under no-compression movement. It creates a persistent **empty pickup phase** when it returns.
-- Created `GAME10_CONTENT_VALIDATION.md` and instantiated DEMO-07 exactly: N5/K1/T7, public 3-passenger queue, required scarce-square intentional miss and a winning non-pickup local stage. Pickup-only swap search has no solution.
-- Ran an adversarial taxonomy pass on F7 GAP content. F7 is now accepted only as blank-tick/second-circuit scheduling when the empty tick itself changes local-label feasibility; merely having fewer bags or showing a gap cannot earn F7.
-- Kept the provisional `F7 >= 6` floor unfrozen until at least three materially distinct exact blank-tick cases are demonstrated. If that proof fails, Phase 5 must demote/rebalance F7 rather than add mechanics.
+- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md` and every active Game #010 authority named by prior STATUS; resumed exactly from the F7 validation NEXT ACTION.
+- Proved that a returning GAP's **blank tick itself** is behaviorally equivalent for label scheduling to a guaranteed nonmatching/inert occupancy: edits happen before Advance, movement is identical, no compression occurs, and neither occupancy serves a passenger. Therefore blankness cannot honestly support an independent reasoning family.
+- Retired counted family **F7 Gap phase** instead of fabricating three contrived proofs. GAP remains canonical state and `BLANK_RETURN` remains a non-counted presentation/context modifier.
+- Created `GAME10_PHASE5_CLOSURE.md`, rebalancing all nine Act-D slots toward F3/F4/F5/F6/F8 proofs, revising affected Act-E tags, freezing family coverage floors/targets and exact family counterfactuals.
+- Corrected demo claims: Demo 06 teaches persistent-hole/no-compression semantics only; exact Demo 07 proves intentional miss + queue coupling + required non-pickup staging, not a returning-gap consequence. Demo 04 canonical tick budget remains repaired to 5.
+- **Closed Phase 5**: another session can now populate/certify 36–48 campaign cases without inventing content rules or rescuing GAP taxonomy with new mechanics.
+- Performed fresh official Steamworks research for current Deck/controller requirements: 1280x800-first readability, full controller functionality, action-based input and device-appropriate glyph handling.
+- Created `GAME10_UX.md` and began Phase 6 with a substantial UX contract: one-screen layout, adjacent-only selection grammar, controller/mouse equivalence, one-step Preview limits, causal Advance animation, public passenger cards, neutral intentional-miss feedback, DEAD/budget/win recovery, Undo/Restart, onboarding through Demo 1–6, accessibility baseline, menus and first-session empirical gates.
 - No production implementation, test email or Gmail notification created.
 
 ## Frozen migration state
@@ -55,18 +55,19 @@ Game #007 preferred repo `Mikayilzade/last-known-shape`: pending, non-blocking.
 Game #008 preferred repo `Mikayilzade/locksmiths-margin`: pending, non-blocking.
 Game #009 preferred repo `Mikayilzade/binders-imposition`: pending, non-blocking.
 
-## NEXT ACTION — GAME #010 PHASE 5 CONTENT VALIDATION / CLOSURE
-Resume from `GAME10_CONTENT_VALIDATION.md`.
+## NEXT ACTION — GAME #010 PHASE 6 UX / PRESENTATION CLOSURE
+Resume from `GAME10_UX.md`.
 
 Mandatory work:
-1. construct or enumerate **at least three exact F7 candidates** where a returning GAP reaches pickup while passengers remain and the guaranteed blank tick is causally necessary to a winning adjacent-label schedule, not merely evidence that a consumed bag is absent;
-2. compare their normalized trace/counterfactual tuples; if three genuinely distinct examples cannot be produced without contrivance, **demote F7 from primary family**, reduce/rebalance Act D slots toward F3/F4/F6/F10, and update the 42-slot map without adding mechanics;
-3. reconcile family minimum/target counts after the F7 verdict;
-4. fold exact DEMO-07 and the gap clarification back into the canonical Phase-5 content authority chain;
-5. close Phase 5 only if another session can populate/certify campaign data without inventing content rules;
-6. if Phase 5 closes cleanly, continue immediately into **Phase 6 UX / Presentation Architecture** in the same run.
+1. define exact responsive layout behavior for N=3..8 at 1280x800, standard 16:9 desktop and ultrawide, including queue overflow and 125/150% text scaling without hiding predicates;
+2. freeze settings/accessibility option defaults and UX-level persistence expectations;
+3. specify case-select / act progression presentation assumptions for Phase 7 without deciding commercial rewards prematurely;
+4. run hostile UX walkthroughs for controller-only, seam adjacency, K=0, K=2, 150% text, reduced motion, color-independent labels, repeated Undo, DEAD immediately after Swap and queue overflow;
+5. decide whether the optional compact event log and predicate-detail focus survive those walkthroughs or are simplified/removed;
+6. close Phase 6 only when another implementation session could construct every required screen/state without inventing interaction behavior;
+7. if Phase 6 closes cleanly, continue immediately into **Phase 7 Economy / Retention / Commercial Model**, using fresh market/pricing/platform research.
 
 ## Blockers
-**NONE for factory continuation.** The only open issue is a bounded content-taxonomy validation, not a mechanical blocker. Pending migrations #006–#009 remain explicitly non-blocking.
+**NONE for factory continuation.** Pending migrations #006–#009 remain explicitly non-blocking.
 
 DESIGN COMPLETE = NO.
