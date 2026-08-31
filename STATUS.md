@@ -18,7 +18,7 @@ Branch: `main`
 Only Game #009 files explicitly named below are active game canon. `GAME6_*`, `GAME7_*`, and `GAME8_*` remain frozen non-active safety archives/history and must not contaminate Game #009. Rejected Game #009 concepts are tournament history only.
 
 ## Current phase
-**Game #009 — PHASE 6 UX / PRESENTATION ARCHITECTURE COMPLETE / PHASE 7 ECONOMY, RETENTION & COMMERCIAL MODEL READY.**
+**Game #009 — PHASE 7 ECONOMY / RETENTION / COMMERCIAL MODEL COMPLETE / PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION READY.**
 
 ## Active authority for Game #009
 1. `START_HERE.md`
@@ -32,35 +32,39 @@ Only Game #009 files explicitly named below are active game canon. `GAME6_*`, `G
 9. `GAME9_MECHANICAL_ARCHITECTURE.md`
 10. `GAME9_CONTENT_ARCHITECTURE.md`
 11. `GAME9_UX_PRESENTATION_ARCHITECTURE.md`
+12. `GAME9_COMMERCIAL_MODEL.md`
 
-`GAME9_TOURNAMENT_RUN3.md` is final tournament authority. `GAME9_PRODUCT_THESIS.md` locks product identity. `GAME9_MECHANICAL_ARCHITECTURE.md` is rules authority. `GAME9_CONTENT_ARCHITECTURE.md` is campaign/content authority. `GAME9_UX_PRESENTATION_ARCHITECTURE.md` is player-facing interaction/presentation authority.
+`GAME9_TOURNAMENT_RUN3.md` is final tournament authority. Product thesis locks identity; mechanical architecture locks rules; content architecture locks campaign/content; UX architecture locks player-facing interaction; commercial model locks progression/value/monetization boundaries.
 
 ## This run completed
-- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md`, and every active Game #009 file named by prior `STATUS.md`, then resumed exactly from Phase-6 `NEXT ACTION`.
-- Created `GAME9_UX_PRESENTATION_ARCHITECTURE.md` and completed Phase 6.
-- Froze global screen flow: boot/title -> campaign -> case brief -> workbench -> Fold Preview -> Commit result -> progression.
-- Defined a persistent four-zone workbench: predicate rail, flat-sheet canvas, face tray and action strip.
-- Defined mouse/keyboard interaction with click-select-click as the non-precision baseline and drag only as optional acceleration.
-- Defined first-class controller discrete-focus navigation with parity for every mechanical action; controller is not forced through virtual-mouse emulation.
-- Repaired the Phase-4 template-capacity UX question with deterministic carry-over: preserve exact shared legal slots, return displaced faces to tray, never auto-fill, warn before displacement, and treat the whole change as one Undo/Redo transaction.
-- Defined explicit Side A/B switching, template chooser, visible Outer->Inner nesting stack and orientation language.
-- Froze Fold Preview presentation contract: non-mutating, transform identical to Commit, fully skippable, Normal/Fast/Instant speed, Reduced Motion alternative and final-book inspection with source mapping.
-- Froze anti-oracle feedback boundary: source legality is live, but full predicate truth for arbitrary unpreviewed edits is not continuously exposed; resolved Preview/Commit may show directly observable predicate outcomes.
-- Defined exact illegal-state and incorrect-Commit explanations; failures describe the resulting book without naming the corrective source-slot move.
-- Defined optional prediction prompts and scaffolding decay so tutorials build a transform mental model without punishing experimentation.
-- Defined exact first-session/D01–D06 demo UX progression.
-- Defined redundant visual grammar for face identity, orientation, signature ownership, material, nesting role, facing/same-leaf and trim/blank state.
-- Defined animation/audio authority so presentation cannot alter state or slow expert iteration materially.
-- Defined player-visible autosave/recovery expectations and crash behavior for later technical specification.
-- Froze accessibility baseline: remapping, controller parity, no precision/timing dependency, reduced motion, animation speed/skip, text scaling, contrast/color redundancy, audio redundancy and hold/toggle alternatives.
-- Refreshed current Steamworks platform guidance on 2026-08-31. Phase 6 now targets 1280x800 as first-class Deck layout; important default text targets >=12 px character height and never below Valve's 9 px review floor; no required text entry; active input glyphs must match controller/input family.
-- Added 60 UX acceptance tests and nine empirical UX gates for later prototype/simulation validation.
+- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md`, and every active Game #009 file named by prior `STATUS.md`, then resumed exactly from Phase-7 `NEXT ACTION`.
+- Created `GAME9_COMMERCIAL_MODEL.md` and completed Phase 7.
+- Refreshed current Steam puzzle pricing/positioning using Patrick's Parabox, The Roottrees are Dead, Chants of Sennaar, The Case of the Golden Idol, Blue Prince, Paper Trail and Is This Seat Taken?.
+- Froze current design-stage list-price band at **$14.99–$19.99**, with **$17.99 preferred planning point subject to final empirical validation**; no revenue promise or fixed-hours claim.
+- Defined modest optional launch-discount stance rather than sale dependency and recorded current Steam discount/cooldown constraints for release-time revalidation.
+- Froze authored chapter-gated progression with small prerequisite-safe local branches and no XP/currency/star gate.
+- Defined three bounded optional badge types: Predicted, Direct Bind, Constraint Craft; badges never gate campaign and cannot punish accessibility.
+- Defined free layered hints with no currency/cooldown/purchase pressure.
+- Froze Steam achievement target at 14–18 (planning set 16), with no grind/calendar/online/accessibility-disabled requirements.
+- Froze baseline Steam features: Achievements + Cloud; no leaderboard, Workshop, online account or server dependency.
+- Froze D01–D06 as the actual campaign demo and specified end montage/CTA without FOMO.
+- Froze **demo -> full-game progress transfer** with compatible versioned save state; demo achievements disabled and legitimate imported achievement state reconciled by the full game.
+- Froze finite post-campaign replay/mastery only; no dailies, weeklies, procedural-infinite promise or live-service treadmill.
+- Re-evaluated title: `Binder's Imposition` remains internal/working, not storefront-frozen; storefront copy must lead with flat-sheet -> folded-book transformation and not require print vocabulary.
+- Added 40 commercial acceptance tests and 10 empirical commercial gates.
 - No production implementation, test email or Gmail notification was created.
 
 ## Fresh evidence used this run
-- Steam Deck / Steam Machine Compatibility Review: https://partner.steamgames.com/doc/steamhardware/compat
-- Steam Deck Steamworks docs: https://partner.steamgames.com/doc/steamhardware/steamdeck
-- Steam Input docs: https://partner.steamgames.com/doc/features/steam_controller
+- Patrick's Parabox Steam page: https://store.steampowered.com/app/1260520/Patricks_Parabox/
+- The Roottrees are Dead Steam page: https://store.steampowered.com/app/2754380/The_Roottrees_are_Dead/
+- Chants of Sennaar Steam page: https://store.steampowered.com/app/1931770/Chants_of_Sennaar/
+- The Case of the Golden Idol Steam page: https://store.steampowered.com/app/1677770/The_Case_of_the_Golden_Idol/
+- Blue Prince Steam page: https://store.steampowered.com/app/1569580/Blue_Prince/
+- Paper Trail Steam page: https://store.steampowered.com/app/1889740/Paper_Trail/
+- Is This Seat Taken? Steam page: https://store.steampowered.com/app/3035120/Is_this_Seat_Taken/
+- Steamworks Discounting: https://partner.steamgames.com/doc/marketing/discounts
+- Steamworks Demos: https://partner.steamgames.com/doc/store/application/demos
+- Steamworks Upcoming Events: https://partner.steamgames.com/doc/marketing/upcoming_events
 
 ## Frozen migration state
 ### Game #006 — Stitchspace
@@ -72,23 +76,25 @@ DESIGN COMPLETE = YES; preferred repo `Mikayilzade/last-known-shape`; migration 
 ### Game #008 — Locksmith's Margin
 DESIGN COMPLETE = YES; final authority `GAME8_FINAL_FREEZE.md`; preferred repo `Mikayilzade/locksmiths-margin`; migration pending, non-blocking.
 
-## NEXT ACTION — GAME #009 PHASE 7 / ECONOMY, RETENTION & COMMERCIAL MODEL
-Resume from all active Game #009 authority and freeze the commercial package without adding a grind/economy wrapper that weakens the product thesis.
+## NEXT ACTION — GAME #009 PHASE 8 / TECHNICAL IMPLEMENTATION SPECIFICATION
+Resume from all active Game #009 authority and turn the frozen design into an implementation-ready technical contract **without writing production code**.
 
 Required work:
-1. Use fresh 2026 research for current Steam premium puzzle pricing, adjacent titles, demo practices, sale/discount expectations, platform features and working-title/store-positioning collision.
-2. Recommend a launch price band and value proposition with explicit uncertainty; do not make unsupported revenue promises.
-3. Define campaign unlock pacing and whether progression is linear, chapter-gated or selectively branching while preserving authored pedagogy.
-4. Decide exact role of optional badges, replay, stats and difficulty/challenge conditions; keep accessibility settings separate from difficulty/achievement punishment.
-5. Define achievement philosophy/count range and Steam feature boundaries.
-6. Freeze D01–D06 demo packaging, end-state CTA, save behavior and recommendation for demo -> full-game progress transfer.
-7. Define post-campaign retention that fits a finite premium puzzle: selective replay/mastery only where valuable; no dailies/weeklies/FOMO/live-service treadmill.
-8. Freeze monetization boundaries: premium baseline, no MTX, no consumable hints, no paid grind bypass, no advertising.
-9. Re-evaluate `Binder's Imposition` working title and store copy against current market language; title may remain internal if a clearer storefront direction is needed.
-10. Define commercial/economy acceptance tests and empirical gates.
-11. If Phase 7 completes cleanly and Phase 8 is safely connected, continue only if enough time remains; otherwise leave exact Phase-8 next action.
-12. Save all meaningful work to GitHub and update this status.
-13. Do not start production implementation.
+1. Recommend engine/runtime direction with explicit rationale and a narrow empirical decision gate where appropriate; preserve deterministic discrete gameplay authority independent of presentation engine.
+2. Define authoritative runtime state layers: immutable case definition, editable workbench state, derived BoundBookState, UI/presentation state, persistent campaign/profile state.
+3. Freeze conceptual schemas/IDs for cases, templates, faces, signatures, predicates, prerequisite graph, badges and achievements; localization-facing strings must be keys, not logic inputs.
+4. Define pure deterministic transform, legality, constraint-evaluation, explanation and solver/validator interfaces plus canonicalization/equivalence contracts.
+5. Define transaction/history model for Swap/Place/Remove/Template/Flip/Nest operations and exact Undo/Redo persistence behavior.
+6. Freeze save schema/versioning, atomic write/recovery, checkpoint timing, corrupt-save behavior and forward-migration policy.
+7. Define demo/full import merge rules, Steam Cloud conflict policy and achievement reconciliation/idempotency in enough detail to satisfy Phase-7 acceptance tests.
+8. Define input-action abstraction, mouse/controller parity contract, glyph switching and presentation-animation boundary.
+9. Define localization-ready content representation, text scaling constraints and no-English-logic rule.
+10. Define performance/memory/loading budgets appropriate for PC/Steam Deck and deterministic test mode that can bypass animation.
+11. Define content validation/build pipeline: schema validation -> transform tests -> solver certification -> relevance/anti-isomorphism -> authored human review -> package manifest.
+12. Define automated test hooks and minimum technical acceptance matrix including crash/recovery/cloud/import cases.
+13. Define dedicated-repo implementation order (12A onward) while keeping factory free of production implementation.
+14. If Phase 8 completes cleanly, leave exact Phase-9 whole-game simulation scenarios as NEXT ACTION.
+15. Save all meaningful work to GitHub and update this status.
 
 ## Blockers
 **NONE for Game #009 design.**
