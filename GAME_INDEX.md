@@ -12,7 +12,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 006 | **Stitchspace** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/stitchspace` *(not yet created)* | NOT STARTED | Frozen Game #006 files remain non-active. |
 | 007 | **Last Known Shape** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/last-known-shape` *(not yet created)* | NOT STARTED | Frozen Game #007 files remain non-active. |
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen Game #008 files remain non-active. |
-| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 5 Content Architecture complete / Phase 6 ready** | TBD | NOT STARTED | Active content authority is `GAME9_CONTENT_ARCHITECTURE.md`; mechanics remain frozen in `GAME9_MECHANICAL_ARCHITECTURE.md`. |
+| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 6 UX-Presentation complete / Phase 7 ready** | TBD | NOT STARTED | Active UX authority is `GAME9_UX_PRESENTATION_ARCHITECTURE.md`; mechanics/content remain frozen in earlier authorities. |
 
 ## Game #009 current identity
 - selected concept: **G9C02 Binder's Imposition**;
@@ -35,12 +35,19 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - exact/near structural duplicates are rejected even if page IDs, colors, motif art or raw face count differ;
 - campaign is authored, not procedurally generated at runtime; solver/generator tools may propose or validate candidates but cannot decide pedagogy/fun;
 - frozen demo is D01–D06 / 6 campaign cases / target 20–30 minutes, ending on a material/signature-role deduction capstone;
+- workbench UX is source+goal persistent: predicate rail, flat-sheet canvas, face tray and action strip;
+- mouse uses click-select-click baseline with optional drag; controller uses discrete focus with complete mechanical parity;
+- template-capacity changes preserve shared legal slots, return displaced faces to tray, never auto-fill, and are one Undo/Redo transaction;
+- Fold Preview is fully skippable, supports Normal/Fast/Instant and Reduced Motion, and final-book inspection can map results back to source slots;
+- live source legality feedback is allowed, but arbitrary unpreviewed edits do not receive a continuously updating full-predicate oracle;
+- incorrect Commit explains exact failed final relationships without naming the corrective source move;
+- accessibility baseline includes remapping, controller parity, non-precision alternatives, reduced motion, text scaling, color redundancy and audio redundancy;
+- 1280x800 is a first-class handheld layout target; important default text targets >=12 px character height and never below Valve's 9 px compatibility-review floor;
+- no mandatory player text entry is required by baseline campaign;
 - optional badges are non-gating and cannot alter baseline validity/progression;
 - localization-safe content may not depend on English spelling, word length or color-only information;
-- proposed campaign map C01–C30 exists in `GAME9_CONTENT_ARCHITECTURE.md`;
-- empirical gates include prediction transfer, hypothesis-driven play, manipulation burden, T8 comprehension, repetition resistance and demo identity;
 - working title may change later because storefront copy must not require knowledge of the word "imposition";
-- **DESIGN COMPLETE = NO**; next phase is UX / Presentation Architecture.
+- **DESIGN COMPLETE = NO**; next phase is Economy / Retention / Commercial Model.
 
 ## Game #009 tournament history
 - Phase 1: 36 candidates -> 10 entrants;
