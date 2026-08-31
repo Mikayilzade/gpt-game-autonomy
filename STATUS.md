@@ -18,7 +18,7 @@ Branch: `main`
 Only Game #009 files explicitly named below are active game canon. `GAME6_*`, `GAME7_*`, and `GAME8_*` remain frozen non-active safety archives/history and must not contaminate Game #009. Rejected Game #009 concepts are tournament history only.
 
 ## Current phase
-**Game #009 — PHASE 5 CONTENT ARCHITECTURE COMPLETE / PHASE 6 UX & PRESENTATION ARCHITECTURE READY.**
+**Game #009 — PHASE 6 UX / PRESENTATION ARCHITECTURE COMPLETE / PHASE 7 ECONOMY, RETENTION & COMMERCIAL MODEL READY.**
 
 ## Active authority for Game #009
 1. `START_HERE.md`
@@ -31,27 +31,36 @@ Only Game #009 files explicitly named below are active game canon. `GAME6_*`, `G
 8. `GAME9_PRODUCT_THESIS.md`
 9. `GAME9_MECHANICAL_ARCHITECTURE.md`
 10. `GAME9_CONTENT_ARCHITECTURE.md`
+11. `GAME9_UX_PRESENTATION_ARCHITECTURE.md`
 
-`GAME9_TOURNAMENT_RUN3.md` is final tournament authority. `GAME9_PRODUCT_THESIS.md` locks product identity. `GAME9_MECHANICAL_ARCHITECTURE.md` is rules authority. `GAME9_CONTENT_ARCHITECTURE.md` is campaign/content authority.
+`GAME9_TOURNAMENT_RUN3.md` is final tournament authority. `GAME9_PRODUCT_THESIS.md` locks product identity. `GAME9_MECHANICAL_ARCHITECTURE.md` is rules authority. `GAME9_CONTENT_ARCHITECTURE.md` is campaign/content authority. `GAME9_UX_PRESENTATION_ARCHITECTURE.md` is player-facing interaction/presentation authority.
 
 ## This run completed
-- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md`, and every active Game #009 file named by prior `STATUS.md`, then resumed exactly from Phase-5 `NEXT ACTION`.
-- Created `GAME9_CONTENT_ARCHITECTURE.md` and completed Phase 5.
-- Froze a six-chapter campaign arc mapped directly to the Phase-4 teaching order.
-- Froze content count policy: 24 certified strong cases hard minimum, 30 target, 34 soft ceiling; quality beats filler quota.
-- Defined exact conceptual `CaseDefinition` schema including teaching metadata, signatures/faces, setup authority, predicates, badges, presentation, certification, demo and accessibility/localization fields.
-- Defined 12 bounded content families: inverse mapping, nest-role deduction, facing/leaf geometry, material ownership, orientation parity, template branch, blank/capacity, trim fate, group partition, symmetry breaker, locked evidence and mixed-signature synthesis.
-- Split authored design authority from solver/generator assistance; runtime procedural generation remains out of scope.
-- Defined a 12-stage solver-backed certification pipeline covering legality, solvability, predicate relevance, rote-collapse, structural fingerprint, exact/near-isomorphism, human reasoning annotation, manipulation budget, preview-loop attack and campaign-neighbor distinctness.
-- Froze exact and near-isomorphic repetition rejection; page/material renaming and larger counts do not create new content.
-- Froze D01–D06 as a six-case 20–30 minute demo directly carved from campaign authority.
-- Defined optional non-gating badge families and prohibited grind/hidden/random/accessibility-hostile badge conditions.
-- Defined reusable page-face motif grammar and mandatory color/icon redundancy plus localization-safe content rules.
-- Defined expansion boundaries and prohibited drift into realistic production simulation, shop management, random modifiers, roguelite/live-service systems, arbitrary rotations or giant clerical puzzles.
-- Authored proposed campaign map C01–C30 with dominant reasoning families and purpose for every case.
-- Added 40 concrete content acceptance tests and carried forward six empirical gates for later simulation/prototype validation.
-- Fresh market research was not required for this increment because Phase 5 changed no market/platform/commercial assumption; it was internal campaign/content specification.
+- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md`, and every active Game #009 file named by prior `STATUS.md`, then resumed exactly from Phase-6 `NEXT ACTION`.
+- Created `GAME9_UX_PRESENTATION_ARCHITECTURE.md` and completed Phase 6.
+- Froze global screen flow: boot/title -> campaign -> case brief -> workbench -> Fold Preview -> Commit result -> progression.
+- Defined a persistent four-zone workbench: predicate rail, flat-sheet canvas, face tray and action strip.
+- Defined mouse/keyboard interaction with click-select-click as the non-precision baseline and drag only as optional acceleration.
+- Defined first-class controller discrete-focus navigation with parity for every mechanical action; controller is not forced through virtual-mouse emulation.
+- Repaired the Phase-4 template-capacity UX question with deterministic carry-over: preserve exact shared legal slots, return displaced faces to tray, never auto-fill, warn before displacement, and treat the whole change as one Undo/Redo transaction.
+- Defined explicit Side A/B switching, template chooser, visible Outer->Inner nesting stack and orientation language.
+- Froze Fold Preview presentation contract: non-mutating, transform identical to Commit, fully skippable, Normal/Fast/Instant speed, Reduced Motion alternative and final-book inspection with source mapping.
+- Froze anti-oracle feedback boundary: source legality is live, but full predicate truth for arbitrary unpreviewed edits is not continuously exposed; resolved Preview/Commit may show directly observable predicate outcomes.
+- Defined exact illegal-state and incorrect-Commit explanations; failures describe the resulting book without naming the corrective source-slot move.
+- Defined optional prediction prompts and scaffolding decay so tutorials build a transform mental model without punishing experimentation.
+- Defined exact first-session/D01–D06 demo UX progression.
+- Defined redundant visual grammar for face identity, orientation, signature ownership, material, nesting role, facing/same-leaf and trim/blank state.
+- Defined animation/audio authority so presentation cannot alter state or slow expert iteration materially.
+- Defined player-visible autosave/recovery expectations and crash behavior for later technical specification.
+- Froze accessibility baseline: remapping, controller parity, no precision/timing dependency, reduced motion, animation speed/skip, text scaling, contrast/color redundancy, audio redundancy and hold/toggle alternatives.
+- Refreshed current Steamworks platform guidance on 2026-08-31. Phase 6 now targets 1280x800 as first-class Deck layout; important default text targets >=12 px character height and never below Valve's 9 px review floor; no required text entry; active input glyphs must match controller/input family.
+- Added 60 UX acceptance tests and nine empirical UX gates for later prototype/simulation validation.
 - No production implementation, test email or Gmail notification was created.
+
+## Fresh evidence used this run
+- Steam Deck / Steam Machine Compatibility Review: https://partner.steamgames.com/doc/steamhardware/compat
+- Steam Deck Steamworks docs: https://partner.steamgames.com/doc/steamhardware/steamdeck
+- Steam Input docs: https://partner.steamgames.com/doc/features/steam_controller
 
 ## Frozen migration state
 ### Game #006 — Stitchspace
@@ -63,26 +72,23 @@ DESIGN COMPLETE = YES; preferred repo `Mikayilzade/last-known-shape`; migration 
 ### Game #008 — Locksmith's Margin
 DESIGN COMPLETE = YES; final authority `GAME8_FINAL_FREEZE.md`; preferred repo `Mikayilzade/locksmiths-margin`; migration pending, non-blocking.
 
-## NEXT ACTION — GAME #009 PHASE 6 / UX & PRESENTATION ARCHITECTURE
-Resume from all active Game #009 authority and build the complete player-facing interaction/presentation system without changing frozen mechanics/content casually.
+## NEXT ACTION — GAME #009 PHASE 7 / ECONOMY, RETENTION & COMMERCIAL MODEL
+Resume from all active Game #009 authority and freeze the commercial package without adding a grind/economy wrapper that weakens the product thesis.
 
 Required work:
-1. Define screen/state flow from first boot -> case select -> workbench -> Fold Preview -> result -> progression.
-2. Define mouse/keyboard and controller interaction for PLACE/SWAP/REMOVE, structured operations, template/flip/nest selection, Undo/Redo and Preview/Commit.
-3. Choose deterministic behavior for Phase-4 M30 template-capacity changes.
-4. Define workbench layout, tray, signatures, flat-side switching, nesting controls, final-book preview and predicate panel.
-5. Define onboarding/tutorial overlays and prediction-prompt UX without blocking experimentation.
-6. Define visual language for face identity, orientation, material, signature ownership, nest role, facing/same-leaf and trim.
-7. Define animation authority, fast repeat/skip and reduced-motion behavior so presentation cannot slow expert iteration or alter state.
-8. Define audio/feedback language, success/failure explanations and non-solver-leaking predicate feedback.
-9. Define pause/settings, save/load/recovery user flow and in-progress case recovery expectations for later technical specification.
-10. Define accessibility baseline: remapping, controller parity, reduced motion, animation speed/skip, text scale, contrast/color redundancy and relevant hold/toggle choices.
-11. Define Steam Deck/readability assumptions and localization layout constraints; use fresh research where current platform expectations materially matter.
-12. Define first-session UX and exact D01–D06 demo flow.
-13. Create concrete UX acceptance tests.
-14. If Phase 6 completes cleanly and Phase 7 is safely connected, continue only if enough time remains; otherwise leave exact Phase-7 next action.
-15. Save all meaningful work to GitHub and update this status.
-16. Do not start production implementation.
+1. Use fresh 2026 research for current Steam premium puzzle pricing, adjacent titles, demo practices, sale/discount expectations, platform features and working-title/store-positioning collision.
+2. Recommend a launch price band and value proposition with explicit uncertainty; do not make unsupported revenue promises.
+3. Define campaign unlock pacing and whether progression is linear, chapter-gated or selectively branching while preserving authored pedagogy.
+4. Decide exact role of optional badges, replay, stats and difficulty/challenge conditions; keep accessibility settings separate from difficulty/achievement punishment.
+5. Define achievement philosophy/count range and Steam feature boundaries.
+6. Freeze D01–D06 demo packaging, end-state CTA, save behavior and recommendation for demo -> full-game progress transfer.
+7. Define post-campaign retention that fits a finite premium puzzle: selective replay/mastery only where valuable; no dailies/weeklies/FOMO/live-service treadmill.
+8. Freeze monetization boundaries: premium baseline, no MTX, no consumable hints, no paid grind bypass, no advertising.
+9. Re-evaluate `Binder's Imposition` working title and store copy against current market language; title may remain internal if a clearer storefront direction is needed.
+10. Define commercial/economy acceptance tests and empirical gates.
+11. If Phase 7 completes cleanly and Phase 8 is safely connected, continue only if enough time remains; otherwise leave exact Phase-8 next action.
+12. Save all meaningful work to GitHub and update this status.
+13. Do not start production implementation.
 
 ## Blockers
 **NONE for Game #009 design.**
