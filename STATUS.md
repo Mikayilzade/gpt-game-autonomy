@@ -19,7 +19,7 @@ Branch: `main`
 Only Game #010 files named below are active game canon. GAME6_*, GAME7_*, GAME8_* and GAME9_* remain frozen NON-ACTIVE safety archives/history.
 
 ## Current phase
-**Game #010 — PHASE 6 UX / PRESENTATION ARCHITECTURE ACTIVE. Phases 1–5 COMPLETE. Phase 5 closed after a bounded proof showed GAP blankness is not an independent reasoning family under no-compression movement; F7 was retired and the 42-slot map was rebalanced without adding mechanics. Phase 6 now has the core play-screen, controller, Preview, feedback, onboarding and accessibility contracts.**
+**Game #010 — PHASE 7 ECONOMY / RETENTION / COMMERCIAL MODEL ACTIVE. Phases 1–6 COMPLETE. Phase 6 closed after responsive-layout contracts and hostile UX walkthroughs. Phase 7 now has premium model, price hypothesis, campaign gating, mastery, demo, achievement and retention boundaries.**
 
 ## Active authority for Game #010
 1. `START_HERE.md`
@@ -37,16 +37,16 @@ Only Game #010 files named below are active game canon. GAME6_*, GAME7_*, GAME8_
 13. `GAME10_CONTENT_VALIDATION.md`
 14. `GAME10_PHASE5_CLOSURE.md` — authoritative over conflicting F7/GAP-family and demo-gap claims
 15. `GAME10_UX.md`
+16. `GAME10_PHASE6_CLOSURE.md` — authoritative over open responsive/event-log/settings UX assumptions
+17. `GAME10_COMMERCIAL.md`
 
 ## This run completed
-- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md` and every active Game #010 authority named by prior STATUS; resumed exactly from the F7 validation NEXT ACTION.
-- Proved that a returning GAP's **blank tick itself** is behaviorally equivalent for label scheduling to a guaranteed nonmatching/inert occupancy: edits happen before Advance, movement is identical, no compression occurs, and neither occupancy serves a passenger. Therefore blankness cannot honestly support an independent reasoning family.
-- Retired counted family **F7 Gap phase** instead of fabricating three contrived proofs. GAP remains canonical state and `BLANK_RETURN` remains a non-counted presentation/context modifier.
-- Created `GAME10_PHASE5_CLOSURE.md`, rebalancing all nine Act-D slots toward F3/F4/F5/F6/F8 proofs, revising affected Act-E tags, freezing family coverage floors/targets and exact family counterfactuals.
-- Corrected demo claims: Demo 06 teaches persistent-hole/no-compression semantics only; exact Demo 07 proves intentional miss + queue coupling + required non-pickup staging, not a returning-gap consequence. Demo 04 canonical tick budget remains repaired to 5.
-- **Closed Phase 5**: another session can now populate/certify 36–48 campaign cases without inventing content rules or rescuing GAP taxonomy with new mechanics.
-- Performed fresh official Steamworks research for current Deck/controller requirements: 1280x800-first readability, full controller functionality, action-based input and device-appropriate glyph handling.
-- Created `GAME10_UX.md` and began Phase 6 with a substantial UX contract: one-screen layout, adjacent-only selection grammar, controller/mouse equivalence, one-step Preview limits, causal Advance animation, public passenger cards, neutral intentional-miss feedback, DEAD/budget/win recovery, Undo/Restart, onboarding through Demo 1–6, accessibility baseline, menus and first-session empirical gates.
+- Re-read factory authority and every active Game #010 authority named by prior STATUS; resumed exactly from Phase-6 UX closure.
+- Closed Phase 6 in `GAME10_PHASE6_CLOSURE.md`: exact 1280x800/16:9/ultrawide behavior, queue overflow, 125/150% text scaling, settings/accessibility defaults, UX persistence and case-select assumptions.
+- Ran hostile UX walkthroughs for controller-only, seam adjacency, K0, K2, 150% text, reduced motion, color-independent labels, repeated Undo, DEAD-after-Swap and queue overflow. No new mechanics were required.
+- Removed the permanent 3–5 row event log because it competes with predicates at Deck/150% scale; retained a single `Last result` explanation and simplified predicate-detail focus.
+- Performed fresh 2026 Steam/store/Steamworks research for Phase 7. Current compact puzzle anchors span roughly $7.99–14.99; official Steamworks docs support shared demo/full-game cloud saves and recommend achievements remain disabled in demos.
+- Created `GAME10_COMMERCIAL.md`: premium single-purchase/no-live-service boundary; working $9.99–12.99 price hypothesis; one-skip act gating after strict A01–A03; optional solver-certified minimum-tick `Efficient Route`; consequence-free hints; seven-case free demo with progress-transfer target; bounded 12–18 achievement philosophy; no grind/dailies/leaderboards/endless promise.
 - No production implementation, test email or Gmail notification created.
 
 ## Frozen migration state
@@ -55,17 +55,15 @@ Game #007 preferred repo `Mikayilzade/last-known-shape`: pending, non-blocking.
 Game #008 preferred repo `Mikayilzade/locksmiths-margin`: pending, non-blocking.
 Game #009 preferred repo `Mikayilzade/binders-imposition`: pending, non-blocking.
 
-## NEXT ACTION — GAME #010 PHASE 6 UX / PRESENTATION CLOSURE
-Resume from `GAME10_UX.md`.
+## NEXT ACTION — GAME #010 PHASE 7 CLOSURE -> PHASE 8
+Resume from `GAME10_COMMERCIAL.md`.
 
 Mandatory work:
-1. define exact responsive layout behavior for N=3..8 at 1280x800, standard 16:9 desktop and ultrawide, including queue overflow and 125/150% text scaling without hiding predicates;
-2. freeze settings/accessibility option defaults and UX-level persistence expectations;
-3. specify case-select / act progression presentation assumptions for Phase 7 without deciding commercial rewards prematurely;
-4. run hostile UX walkthroughs for controller-only, seam adjacency, K=0, K=2, 150% text, reduced motion, color-independent labels, repeated Undo, DEAD immediately after Swap and queue overflow;
-5. decide whether the optional compact event log and predicate-detail focus survive those walkthroughs or are simplified/removed;
-6. close Phase 6 only when another implementation session could construct every required screen/state without inventing interaction behavior;
-7. if Phase 6 closes cleanly, continue immediately into **Phase 7 Economy / Retention / Commercial Model**, using fresh market/pricing/platform research.
+1. simulate campaign progression A–E including a skipped blocker, replay, full completion and demo-import path;
+2. attack `Efficient Route` for perverse incentives, especially intentional-miss cases, and keep/remove/adjust it explicitly;
+3. freeze the exact base achievement list/rules and save-visible progression fields;
+4. close Phase 7 only when commercial/progression rules require no implementation invention;
+5. if Phase 7 closes cleanly, continue immediately into **Phase 8 Technical Implementation Specification**: runtime/engine direction, deterministic state architecture, case schema, solver/certification boundary, persistence/demo import, input abstraction, localization/accessibility hooks, performance budgets, test hooks and implementation order.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#009 remain explicitly non-blocking.
