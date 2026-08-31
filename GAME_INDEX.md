@@ -12,7 +12,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 006 | **Stitchspace** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/stitchspace` *(not yet created)* | NOT STARTED | Frozen Game #006 files remain non-active. |
 | 007 | **Last Known Shape** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/last-known-shape` *(not yet created)* | NOT STARTED | Frozen Game #007 files remain non-active. |
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen Game #008 files remain non-active. |
-| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 4 Mechanical Architecture complete / Phase 5 ready** | TBD | NOT STARTED | Active rules authority is `GAME9_MECHANICAL_ARCHITECTURE.md`. |
+| 009 | **Binder's Imposition** *(working title)* | **IN DESIGN / Phase 5 Content Architecture complete / Phase 6 ready** | TBD | NOT STARTED | Active content authority is `GAME9_CONTENT_ARCHITECTURE.md`; mechanics remain frozen in `GAME9_MECHANICAL_ARCHITECTURE.md`. |
 
 ## Game #009 current identity
 - selected concept: **G9C02 Binder's Imposition**;
@@ -28,11 +28,19 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - ordinary campaign ceiling: normally <=20 faces, <=3 signatures, <=4 secondary predicate families and <=2 template choices per signature;
 - no real print-shop calibration or vocational-training requirement;
 - compact workbench scope; no avatar locomotion, shop economy, deckbuilding, roguelite wrapper, multiplayer, MTX or live-service baseline;
-- planning target approximately 30 strong cases, quality-gated rather than filler-quota driven;
-- demo target 20–30 minutes from 4-face fold surprise through nesting/facing/material-role capstone;
-- empirical gates include player prediction of final adjacencies and avoidance of blind preview/swap loops;
+- content count policy: **24 certified strong cases minimum / 30 target / 34 soft ceiling**, with quality ahead of filler quota;
+- six-chapter content arc: inverse surprise -> nesting -> global constraints -> T8/template choice -> blank/trim -> mature three-signature synthesis;
+- 12 bounded content families recombine frozen mechanics rather than add new systems;
+- every campaign case is data-driven and must be solver-certified for legality/solvability plus relevance, rote-collapse and anti-isomorphism checks;
+- exact/near structural duplicates are rejected even if page IDs, colors, motif art or raw face count differ;
+- campaign is authored, not procedurally generated at runtime; solver/generator tools may propose or validate candidates but cannot decide pedagogy/fun;
+- frozen demo is D01–D06 / 6 campaign cases / target 20–30 minutes, ending on a material/signature-role deduction capstone;
+- optional badges are non-gating and cannot alter baseline validity/progression;
+- localization-safe content may not depend on English spelling, word length or color-only information;
+- proposed campaign map C01–C30 exists in `GAME9_CONTENT_ARCHITECTURE.md`;
+- empirical gates include prediction transfer, hypothesis-driven play, manipulation burden, T8 comprehension, repetition resistance and demo identity;
 - working title may change later because storefront copy must not require knowledge of the word "imposition";
-- **DESIGN COMPLETE = NO**; next phase is Content Architecture.
+- **DESIGN COMPLETE = NO**; next phase is UX / Presentation Architecture.
 
 ## Game #009 tournament history
 - Phase 1: 36 candidates -> 10 entrants;
