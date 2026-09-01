@@ -14,8 +14,8 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen files non-active. |
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen files non-active. |
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`; migration check returned not found on 2026-09-01. |
-| 011 | **Missing Step** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`; Phase 10/11 complete; repository check returned Not Found on 2026-09-01. |
-| 012 | **TBD** | **IN DESIGN / Phase 1 complete / Phase 2 Round A next** | TBD | NOT STARTED | 30 concepts generated; 12 survivors retained in `GAME12_RESEARCH.md`; no winner yet. |
+| 011 | **Missing Step** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`; repository check returned Not Found on 2026-09-01. |
+| 012 | **TBD** | **IN DESIGN / Phase 2 Round A complete / Round B next** | TBD | NOT STARTED | Round A tested 12 concepts through two concrete cases each; 6 survivors retained in `GAME12_TOURNAMENT.md`; no winner yet. |
 
 ## Game #011 frozen summary
 - Final authority: `GAME11_FINAL_FREEZE.md`.
@@ -32,21 +32,23 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - Migration pending because `Mikayilzade/missing-step` does not exist; Game #011 files remain frozen NON-ACTIVE safety archive.
 
 ## Active Game #012 boundary
-Game #012 starts clean. Games #001–#011 are portfolio/exclusion history only and must not become active canon. `GAME12_RESEARCH.md` is Phase-1 exploratory authority only; it contains 30 generated concepts and 12 Round-A candidates, but no selected winner or frozen mechanics.
+Game #012 remains cleanly separated from Games #001–#011. Older games are portfolio/exclusion history only and must not become active canon. `GAME12_RESEARCH.md` is Phase-1 exploratory authority; `GAME12_TOURNAMENT.md` contains active Phase-2 evidence. No winner or mechanics are frozen.
 
-## Game #012 Phase-1 survivor field
-- Margin of Error
+## Game #012 Round-B survivor field
 - Negative Space Clerk
 - Wrong-Side Assembly
 - The Quiet Majority
-- Misprint Foundry
-- Debt of Distance
-- Witness Protection
-- One Bad Ruler
+- One Bad Ruler *(fragile depth survivor)*
 - Ink Bleed
-- Public Secret
 - Spare Chair
-- Courtesy Gap
+
+## Game #012 Round-A kills
+- Margin of Error — arithmetic / enumeration collapse.
+- Misprint Foundry — inferior structural sibling of Wrong-Side Assembly.
+- Debt of Distance — conserved-resource collision with portfolio history.
+- Witness Protection — exact-cover structure without sufficient second-order depth.
+- Public Secret — state communication burden overwhelms UX clarity.
+- Courtesy Gap — pairwise permutation too adjacent to Game #010.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
