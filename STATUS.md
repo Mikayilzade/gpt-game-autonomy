@@ -13,75 +13,49 @@ Branch: `main`
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
-Game #013 is a clean new slot. Games #001–#012 are exclusion/portfolio history only. Frozen archives #006–#012 are explicitly **NON-ACTIVE** and must not leak canon into #013.
+Game #013 is the only active design slot. Games #001–#012 are exclusion/portfolio history only. Frozen archives #006–#012 are explicitly NON-ACTIVE and must not leak canon into #013.
 
 ## Current phase
-**Game #013 — PHASE 1 OPPORTUNITY DISCOVERY NEXT.**
+**Game #013 — PHASE 2 CONCEPT TOURNAMENT / ROUND A NEXT.**
 
 ## Active authority for Game #013
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
+4. `GAME13_RESEARCH.md`
 
-No `GAME13_*` design file exists yet. The next substantial run must create the Phase-1 research file and make it active authority.
+## This run completed — Game #013 Phase 1 Opportunity Discovery
+- Resumed exactly from prior `STATUS.md -> NEXT ACTION` and re-read factory authority.
+- Performed fresh September 2026 Steam/market research, including recent compact puzzle releases, pricing, demos, positioning and current upcoming-release context.
+- Derived explicit exclusion boundaries from Games #001–#012 without making old designs canon.
+- Identified risky lanes: generic tile placement, Sokoban variants, route/connect puzzles, cozy scoring placement, daily block puzzles, generic automation/deckbuilding, portal/light-shadow spatial puzzles and heterogeneous puzzle collections.
+- Identified scope traps: 3D physics, large narrative/exploration worlds, systemic NPC simulation, networking, huge bespoke art sets and opaque procedural solver dependence.
+- Created `GAME13_RESEARCH.md`.
+- Generated **28 distinct candidates** before pruning.
+- Scored all candidates consistently on hook clarity, same-vocabulary depth, scope safety, visual causal legibility, market differentiation, deterministic/testable implementation, content efficiency and demo strength.
+- Killed **16** concepts for portfolio collision, shallow/parity/arithmetic collapse, familiar projection/route space, weak identity or disproportionate scope.
+- Retained **12** candidates for equal Phase-2 destructive testing: Carbon Copy, Margin Call, Pallet Proof, Seal Break, Overprint, Shared Fuse, Counterweight Clerk, Wax Witness, Cut Here, Blind Staple, Transfer Window, Dry Run.
+- Recorded candidate-specific failure risks; no winner selected.
 
-## This run completed
-### Game #012 Phase 11 — Specification Freeze
-- Resumed exactly from prior `STATUS.md -> NEXT ACTION`.
-- Read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md`, and the full active Game #012 authority chain named by STATUS.
-- Created `GAME12_FINAL_FREEZE.md` as the stand-alone implementation-facing authority.
-- Consolidated exact board/piece/topology rules, including the final hole definition: holes are zero-boundary remaining-open components and therefore count inside component count.
-- Consolidated canonical solution equivalence and exhaustive shared-evaluator certification.
-- Consolidated deterministic 30–36 case / six-act manifest structure, mandatory Act-I C1–C4, Acts II–V four-solve gates, >=24 total solve gate for Act VI, and four-other-Act-VI finale gate.
-- Consolidated reasoning-skeleton anti-repetition gates, anti-enumeration human curation, assignment thresholds, leave-one-out predicate necessity, and class ablation.
-- Consolidated controller/mouse/keyboard flows, 40-logical-px board floor, held-reposition command matrix, transaction ordering, and current-state-only topology feedback.
-- Consolidated runtime oracle firewall excluding witness solutions, satisfying sets/counts, ablation/critical-zone diagnostics, extendability and pre-solve reasoning skeleton from ordinary shipping paths.
-- Consolidated atomic persistence, backup recovery, `UNCOMMITTED_RECOVERY`, Cloud-first recovery after both local copies corrupt, future-version refusal, semantic set-union Cloud merge and idempotent demo import.
-- Consolidated revised/removed/replaced case lifecycle, current active completion denominator and monotonic platform achievements.
-- Separated frozen game design commitments from empirical release gates, business variables and implementation-flexible engineering choices.
-- Carried explicit empirical gates for 1280x800 worst-case layout, anti-brute playtest, handheld fatigue, six-case demo comprehension and price/value validation.
-- Added concrete acceptance tests covering rules fixtures, certificates, progression, persistence/Cloud/import, controller races, localization overflow, save migrations and oracle leakage.
-- Frozen out-of-scope/change-control boundary; implementation must not invent new mechanics to fill gaps.
-- `OPENWORK` remains a provisional title; deterministic dedicated repository target = `Mikayilzade/openwork`.
-- Fresh-implementer freeze verdict: no important gameplay behavior remains assigned only to superseded historical prose.
-- **Game #012 DESIGN COMPLETE = YES.**
-
-### Game #012 migration attempt
-- Checked dedicated repository `Mikayilzade/openwork`.
-- Repository does not currently exist / is unavailable to this factory session.
-- Migration therefore remains **PENDING, NON-BLOCKING**.
-- All completed `GAME12_*` files, including `GAME12_FINAL_FREEZE.md`, are retained intact as a frozen **NON-ACTIVE safety archive**.
-- No Game #012 source file was deleted because destination migration/integrity could not be verified.
-- `GAME_INDEX.md` updated accordingly.
-- Per continuity rule, factory immediately advanced to **Game #013** rather than stopping.
-
-## Frozen migration state
-Game #006 Stitchspace: pending, non-blocking.
-Game #007 Last Known Shape: pending, non-blocking.
-Game #008 Locksmith's Margin: pending, non-blocking.
-Game #009 Binder's Imposition: pending, non-blocking.
-Game #010 Luggage Carousel Zero: pending, non-blocking.
-Game #011 Missing Step: pending, non-blocking; final authority `GAME11_FINAL_FREEZE.md`.
-Game #012 OPENWORK: pending, non-blocking; final authority `GAME12_FINAL_FREEZE.md`; target `Mikayilzade/openwork` unavailable when checked 2026-09-01.
-
-## NEXT ACTION — GAME #013 PHASE 1 OPPORTUNITY DISCOVERY
-Perform one substantial fresh opportunity-discovery increment and create `GAME13_RESEARCH.md`.
+## NEXT ACTION — GAME #013 PHASE 2 / ROUND A
+Perform a substantial equal-evidence destructive tournament pass across all 12 retained candidates.
 
 Required work:
-1. re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md` and obey the active #013 clean-slate boundary;
-2. use fresh web research for September 2026 market/saturation/platform/player-expectation context;
-3. explicitly derive portfolio exclusion boundaries from Games #001–#012 without reusing them as canon;
-4. identify saturated/currently risky lanes, underserved compact systemic opportunities and scope traps;
-5. generate a broad field of at least **24 genuinely distinct** candidates before pruning;
-6. score them consistently on hook clarity, same-vocabulary depth, scope safety, visual causal legibility, market differentiation, deterministic/testable implementation, content efficiency and demo strength;
-7. kill clear portfolio collisions, trend clones, shallow toys, arithmetic/enumeration collapses and scope-heavy concepts;
-8. retain roughly 10–14 strongest candidates for Phase-2 tournament, with explicit candidate-specific failure risks;
-9. save sources/research conclusions/candidates/kills/retained list in `GAME13_RESEARCH.md`;
-10. update `STATUS.md` and `GAME_INDEX.md` with Phase-1 result and exact Phase-2 NEXT ACTION.
+1. re-read active authority including `GAME13_RESEARCH.md`;
+2. create `GAME13_TOURNAMENT.md`;
+3. for each candidate define the smallest exact playable rule set rather than judging the pitch alone;
+4. construct at least two concrete nontrivial cases or equivalent state examples per candidate where feasible;
+5. enumerate/compute solution spaces when small enough, or otherwise give an explicit bounded analysis;
+6. attack dominant strategies, brute-force/enumeration surface, arithmetic/parity/CSP collapse, tutorial burden, content-family depth, screenshot/GIF legibility, technical/asset burden and portfolio collision;
+7. explicitly compare Wax Witness vs Overprint and test whether both deserve to survive;
+8. explicitly test Cut Here against #009 collision and Dry Run against prior rejected Ink-Bleed lineage; kill on substantive reuse;
+9. reduce the field from 12 to **no more than 6** survivors with evidence-based reasons;
+10. if Round A is short and evidence is decisive, continue into connected Round B rather than stopping on a microstep;
+11. update `STATUS.md` and `GAME_INDEX.md` with exact next action.
 
-Do not select a winner in Phase 1. Do not start implementation.
+Do not select a winner before equal tournament evidence. Do not start implementation.
 
 ## Blockers
-**NONE for factory continuation.** Pending migrations #006–#012 are explicitly non-blocking.
+**NONE for factory continuation.** Pending migrations #006–#012 remain non-blocking.
 
 DESIGN COMPLETE = NO (current active Game #013).
