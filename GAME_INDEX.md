@@ -15,7 +15,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen files non-active. |
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
-| 012 | **OPENWORK** *(provisional working title)* | **IN DESIGN / Phase 8 complete / Phase 9 next** | TBD | NOT STARTED | Exact mechanics/content/UX/commercial/technical architecture frozen through Phase 8; whole-game simulation next. |
+| 012 | **OPENWORK** *(provisional working title)* | **IN DESIGN / Phase 9 complete / Phase 10 next** | TBD | NOT STARTED | Whole-game simulation completed with progression, persistence, content-update and rapid-input repairs; destructive adversarial review next. |
 
 ## Active Game #012 boundary
 Game #012 remains cleanly separated from Games #001–#011. Older games are portfolio/exclusion history only and must not become active canon.
@@ -30,6 +30,7 @@ Game #012 remains cleanly separated from Games #001–#011. Older games are port
 - `GAME12_UX.md` — Phase-6 controls, current-state topology feedback, predicate visual grammar, onboarding, accessibility, responsive layout and demo/full-game UX continuity.
 - `GAME12_COMMERCIAL.md` — Phase-7 price/progression/demo-import/hints/achievements/replay/platform posture.
 - `GAME12_TECHNICAL.md` — Phase-8 engine/runtime authority layering, deterministic data/evaluator contracts, persistence/Cloud/demo import, Steam/input/localization abstractions, tests and implementation order.
+- `GAME12_SIMULATION.md` — Phase-9 whole-game journey traces and later-authority repairs. Explicit Phase-9 amendments control where older progression/persistence/input wording conflicts until Phase 11 consolidation.
 
 ### Selected identity
 - Working title: **OPENWORK**.
@@ -46,14 +47,16 @@ Game #012 remains cleanly separated from Games #001–#011. Older games are port
 - Representative content contracts: 12 spanning INTRO through MASTERY; 6-case demo protected from consuming mastery examples.
 - Campaign viability remains falsifiable: >=30 certified unique-solution cases plus family/coupling/similarity/difficulty gates before freeze.
 - UX separates current-state explanation from future-solution inference: current topology may be inspected, but no candidate ranking, articulation highlighting, remaining-solution count or hypothetical topology preview is allowed.
-- 1280x800 target supports the full 9x9 board without pan, six objective cards and color-independent topology/marker/boundary representations.
+- 1280x800 target supports the full 9x9 board without pan, six objective cards and color-independent topology/marker/boundary representations, subject to Phase-9 worst-case device validation.
 - First six cases teach via ordinary-language visual feedback; no topology jargon prerequisite, no long tutorial wall, rapid undo/recovery is baseline.
+- **Phase-9 progression repair:** Act-I C1–C4 are mandatory sequential foundation cases (component, markers, hole, boundary); C5/C6 are free/optional for campaign progression. Act VI still requires >=24 total solves and finale requires four of the other five Act-VI cases.
 - Commercial posture: provisional $8.99 premium (acceptable $7.99–$9.99), six-case demo, no live-service/ads/consumable hints.
-- Progression: Act I first 3 sequential; thereafter current-act free order; next act at 4/6 solved, with late-game safeguards.
-- Assistance: current-state inspection + reusable reasoning primers only; no certifier/runtime solver hints.
+- Assistance: current-state inspection + reusable reasoning primers only; primer selection may not query solution/candidate/extendability state.
 - Platform targets: Steam demo, 12 achievements, Cloud, full controller; Deck Verified targeted but never claimed before Valve verification.
 - Technical direction: supported stable Godot 4.x latest patch at implementation bootstrap (Godot 4.7.2 current on 2026-09-01); deterministic integer rules core independent of scene/platform; shared runtime/certifier evaluator; runtime enumeration forbidden.
 - Persistence: atomic local save + backup/migrations/future-version refusal; solved case IDs are monotonic truth; unlocks and achievements are reconstructed; Cloud/demo compatible solved facts merge by union rather than timestamp overwrite.
+- **Phase-9 persistence repair:** if primary+backup are both corrupt, do not commit/upload an empty replacement before compatible Cloud recovery is attempted; post-release full-game solved cases remain grandfathered solved across ordinary content revisions.
+- **Phase-9 input repair:** rules/session commits and evaluation precede disposable presentation animation; solved progress commits before success transition; held reposition/undo/reset-success races have serialized semantics.
 - Steam is an optional adapter; offline play remains complete.
 
 ## Game #012 tournament history
