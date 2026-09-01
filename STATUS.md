@@ -18,47 +18,41 @@ Branch: `main`
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
-Game #012 starts clean. No `GAME12_*` design file exists yet. Games #006–#011 remain frozen NON-ACTIVE safety archives/history; Games #001–#005 are migrated portfolio history. No older game-specific file is active Game #012 canon.
+Game #012 remains cleanly separated from Games #001–#011. Older games are exclusion/portfolio history only. Active Game #012 exploratory authority is `GAME12_RESEARCH.md`; no winner or frozen mechanics exist yet.
 
 ## Current phase
-**Game #012 — PHASE 1 OPPORTUNITY DISCOVERY NEXT.**
-
-Game #011 completed Phase 10 adversarial review and Phase 11 specification freeze in the preceding run. `GAME11_FINAL_FREEZE.md` is final Game #011 authority and sets `DESIGN COMPLETE = YES`. The preferred dedicated repository `Mikayilzade/missing-step` was checked on 2026-09-01 and returned Not Found, so migration is pending by continuity rule. The complete Game #011 package is preserved unchanged as a frozen NON-ACTIVE safety archive and does not block factory continuation.
+**Game #012 — PHASE 1 COMPLETE / PHASE 2 ROUND A NEXT.**
 
 ## Active authority for Game #012
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
-
-No Game #012 concept or mechanics are canon yet.
+4. `GAME12_RESEARCH.md`
 
 ## This run completed
-### Game #011 Phase 10 — Adversarial Review
-- Created `GAME11_ADVERSARIAL_REVIEW.md`.
-- Attacked repetition across all six challenge families and froze minimum perceptual-mix/adjacency curation rules.
-- Attacked brute-force dominance without retry punishment or hidden state; added measurable candidate-RUN and causal-explanation playtest gates.
-- Re-validated Preview’s non-oracle DTO boundary while defining the opposite clerical-burden boundary.
-- Added hard late-horizon/deceptive-prefix curation limits and measurable replay/divergence/solve-time gates.
-- Strengthened 36-quality-floor/42-target near-duplicate rules; padding remains forbidden.
-- Rejected scope creep explicitly: fifth opcode, second workpiece, free programming, larger ceilings, economy/live-service/narrative expansion.
-- Added controller-only 1280x800 + 150% text hostile acceptance gate.
-- Froze local-save > cloud gameplay authority, future-version writer block, demo provenance and idempotent achievement reconciliation.
-- Froze certificate/manifest/rules-version fail-closed release checks.
-- Marked **PHASE 10 COMPLETE**.
-
-### Game #011 Phase 11 — Specification Freeze
-- Created `GAME11_FINAL_FREEZE.md` with final authority order, exact frozen product/rules/content/progression/UX/technical contracts, exclusions and implementation-flexible decisions.
-- Added full acceptance matrix and contradiction scan.
-- Preserved measurable empirical gates for brute force, trace fatigue, content distinctness, controller/Deck usability, demo comprehension and final pricing.
-- Found no unresolved gameplay contradiction requiring new mechanics.
-- Set **DESIGN COMPLETE = YES** for Game #011.
-
-### Migration / continuity
-- Checked preferred destination `Mikayilzade/missing-step`: repository not found on 2026-09-01.
-- Migration recorded **pending / non-blocking**.
-- Preserved every Game #011 file as frozen NON-ACTIVE safety archive; deleted nothing.
-- Updated `GAME_INDEX.md` with Game #011 frozen summary and added active Game #012 row.
-- Advanced factory immediately to **Game #012**.
+### Game #012 Phase 1 — Opportunity Discovery
+- Performed fresh 2026 market scan across current/recent Steam puzzle/strategy releases and broader upcoming-release context.
+- Recorded current saturation signal: minimalist grid/Sokoban/logic space remains crowded and price-compressed; concepts need a structural causal law, not a cosmetic twist.
+- Recorded evidence for compact-system viability from current examples including AfterMove, Metanoia, Netoo, Dawnfolk and Shapez 2, while explicitly avoiding their familiar shells.
+- Derived hard structural exclusion boundaries from Games #001–#011 and additional anti-patterns: generic Sokoban, generic routing, robot programming, factory automation shells, physics precision, multiplayer dependency, content-heavy first-person puzzle adventure and daily/streak differentiation.
+- Generated **30 genuinely distinct concepts** spanning chained measurement, negative-space geometry, tree parity, local voting, derivation inheritance, resource inheritance, visibility predicates, history-sensitive flood fill, information propagation, stable allocation and encounter-order dynamics.
+- Scored all 30 on hook, same-vocabulary depth, scope safety, visual legibility, market differentiation, deterministic/testable implementation, content efficiency and demo strength.
+- Killed obvious portfolio collisions, generic sequencing/permutation shells, costly optics/shadow/geometry concepts, network-conservation adjacency, cyclic-phase adjacency and weak-depth deductions.
+- Retained **12 candidates** for destructive Round A:
+  1. Margin of Error
+  2. Negative Space Clerk
+  3. Wrong-Side Assembly
+  4. The Quiet Majority
+  5. Misprint Foundry
+  6. Debt of Distance
+  7. Witness Protection
+  8. One Bad Ruler
+  9. Ink Bleed
+  10. Public Secret
+  11. Spare Chair
+  12. Courtesy Gap
+- Preserved four non-bracket wildcards only as reserves, not active candidates: Priority Leak, Second-Hand Blueprint, Dry Dock Draft, Cracked Mold.
+- Marked **PHASE 1 COMPLETE**. No winner selected.
 
 ## Frozen migration state
 Game #006 preferred repo `Mikayilzade/stitchspace`: pending, non-blocking.
@@ -68,19 +62,24 @@ Game #009 preferred repo `Mikayilzade/binders-imposition`: pending, non-blocking
 Game #010 preferred repo `Mikayilzade/luggage-carousel-zero`: pending, non-blocking.
 Game #011 preferred repo `Mikayilzade/missing-step`: pending, non-blocking; final authority `GAME11_FINAL_FREEZE.md`.
 
-## NEXT ACTION — GAME #012 PHASE 1 OPPORTUNITY DISCOVERY
-Start from a clean slot and treat Games #001–#011 only as exclusion/portfolio history.
+## NEXT ACTION — GAME #012 PHASE 2 ROUND A
+Run a destructive equal-footing tournament over the 12 Phase-1 survivors.
 
-Perform a substantial fresh opportunity-discovery increment:
-1. research current 2026 PC/Steam indie/puzzle/strategy market signals, saturation, player expectations and recent releases where relevant;
-2. explicitly derive structural exclusion boundaries from Games #001–#011 so reskins/mechanical siblings do not re-enter as canon;
-3. generate a broad field of at least 25–30 genuinely distinct concepts, favoring compact systemic depth, strong 10–30 second causal legibility, controller/Steam Deck feasibility, solver/simulation-friendly authoring where useful, and low-to-moderate bespoke asset burden;
-4. score comparatively on hook, same-vocabulary depth, scope, visual legibility, market differentiation, deterministic implementation safety, content efficiency and demo strength;
-5. kill obvious portfolio collisions, mechanic-zoo dependencies, overscoped multiplayer/physics/content traps and familiar-shell concepts with no structural twist;
-6. retain roughly 10–14 candidates for destructive Phase-2 Round A rather than protecting a fixed bracket size;
-7. create `GAME12_RESEARCH.md`, update `STATUS.md` with exact survivors and NEXT ACTION.
+For **each candidate**, build two tiny concrete puzzle/system cases and test rather than score from prose alone:
+1. tutorial-legibility after one case;
+2. whether case 2 creates a genuinely new reasoning pattern from the same vocabulary;
+3. visual state readability without excessive text/arrows/numbers;
+4. deterministic solver/validator feasibility and approximate state-space ceiling;
+5. brute-force/enumeration risk versus causal human reasoning;
+6. structural identity after theme/art removal;
+7. collision check against Games #001–#011;
+8. plausible path to 30+ quality cases without mechanic proliferation;
+9. 10–30 second trailer/demo causal legibility;
+10. controller/Steam Deck feasibility.
 
-Do not select a winner in Phase 1 merely because a concept sounds good. Do not reuse rejected Game #011 tournament candidates as canon unless independently rediscovered and proven structurally non-colliding; prior rejected concepts are history, not a candidate pool.
+Use tiny calculations or exhaustive enumeration where useful to validate candidate depth. Kill aggressively. Target roughly **5–7 survivors**, but retain fewer if quality demands it. Record Round A cases, kills and survivors in a new `GAME12_TOURNAMENT.md`, then update `STATUS.md` with exact Round-B NEXT ACTION.
+
+Do **not** choose the final winner in Round A unless the field catastrophically collapses and the evidence is overwhelming; normally preserve competition for Round B.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#011 are explicitly non-blocking.
