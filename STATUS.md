@@ -21,7 +21,7 @@ Branch: `main`
 Game #012 remains cleanly separated from Games #001–#011. Older games are exclusion/portfolio history only. Active Game #012 exploratory/tournament authority is `GAME12_RESEARCH.md` + `GAME12_TOURNAMENT.md`; no winner or frozen mechanics exist yet.
 
 ## Current phase
-**Game #012 — PHASE 2 ROUND A COMPLETE / ROUND B NEXT.**
+**Game #012 — PHASE 2 ROUND B COMPLETE / ROUND C NEXT.**
 
 ## Active authority for Game #012
 1. `START_HERE.md`
@@ -31,27 +31,19 @@ Game #012 remains cleanly separated from Games #001–#011. Older games are excl
 5. `GAME12_TOURNAMENT.md`
 
 ## This run completed
-### Game #012 Phase 2 — Round A destructive tournament
-- Read factory authority and resumed exactly from prior `NEXT ACTION`.
-- Performed a fresh 2026 Steam sanity check; current minimalist puzzle competition continues to reward compact systemic depth but strongly punishes generic grid/geometry shells.
-- Forced all 12 Phase-1 candidates through **two concrete micro-cases each**, rather than rescoring prose.
-- Evaluated tutorial legibility, second-case reasoning novelty, causal visual readability, exact solver feasibility, blind-enumeration risk, theme-independent structural identity, portfolio collision, 30+ case plausibility, trailer legibility and controller feasibility.
-- Killed **6**:
-  - Margin of Error — arithmetic/adjacent-difference worksheet and enumeration collapse.
-  - Misprint Foundry — weaker structural sibling of Wrong-Side Assembly.
-  - Debt of Distance — conserved scalar/resource redistribution adjacency to Tension Budget.
-  - Witness Protection — exact-cover/incidence-matrix reasoning with weak second-order depth.
-  - Public Secret — state/priority communication burden overwhelms UX/trailer clarity.
-  - Courtesy Gap — pairwise inversion/permutation identity too adjacent to Luggage Carousel Zero.
-- Retained **6 Round-B survivors**:
-  1. Negative Space Clerk
-  2. Wrong-Side Assembly
-  3. The Quiet Majority
-  4. One Bad Ruler *(fragile depth survivor)*
-  5. Ink Bleed
-  6. Spare Chair
-- Added explicit candidate-specific kill gates for Round B.
-- Saved full cases, rationale and survivor matrix in `GAME12_TOURNAMENT.md`.
+### Game #012 Phase 2 — Round B destructive depth proof
+- Resumed exactly from prior `NEXT ACTION`.
+- Ran fresh collision/saturation checks where commercial context materially affected decisions.
+- Forced all six Round-A survivors through a 3-case tutorial -> inversion -> mastery arc.
+- Defined minimum viable rule grammar, mastery search-space size, intended human deduction shortcut, blind-retry risk and >=5 same-vocabulary content families for every survivor.
+- **Killed Wrong-Side Assembly:** mastery collapses to top-down XOR/parity reconstruction; assembly geometry does not create enough independent depth without adding new connector/physical rules.
+- **Killed The Quiet Majority:** 12 choose 3 = 220 mastery interventions; 2–3 synchronous rounds already expand causal tracing faster than useful deduction, while retries stay cheap. Fails its brute-force/readability kill gate.
+- **Killed One Bad Ruler:** with one bad use the intervention space is only N operations; 30+ case depth requires multiple ruler defects/origins/tolerances and arithmetic annotation, directly failing its kill gate.
+- **Killed Spare Chair:** three-choice preference lists were sufficient mechanically, but the concept has a strong current commercial/surface collision with `Is This Seat Taken?` and only 36–364 typical chair-removal interventions.
+- **Retained Negative Space Clerk as finalist:** compact topology-of-absence law survives theme removal; mastery supports articulation, holes, marker partitions, boundary topology and component-area predicates with strong human pruning vs large placement space.
+- **Retained Ink Bleed as finalist:** Round A exposed an underspecified instant-flood flaw; repaired with one shared rule noun — finite public absorption depth (normally 2–4 pulses). Earlier wet cells remain irreversible barriers to later drops. The repaired law supports choke denial, aperture preservation, protected dry cells, component/area goals and multi-drop barrier chains without color powers or fluid physics.
+- Round-B finalists: **Negative Space Clerk** and **Ink Bleed** only.
+- Full evidence, search-space estimates, repair rationale, market checks and kill gates saved in `GAME12_TOURNAMENT.md`.
 - **No final winner selected.**
 
 ## Frozen migration state
@@ -62,28 +54,19 @@ Game #009 preferred repo `Mikayilzade/binders-imposition`: pending, non-blocking
 Game #010 preferred repo `Mikayilzade/luggage-carousel-zero`: pending, non-blocking.
 Game #011 preferred repo `Mikayilzade/missing-step`: pending, non-blocking; final authority `GAME11_FINAL_FREEZE.md`.
 
-## NEXT ACTION — GAME #012 PHASE 2 ROUND B
-Run a destructive **depth proof** over the six Round-A survivors. Do not choose from pitch quality.
+## NEXT ACTION — GAME #012 PHASE 2 ROUND C
+Run a head-to-head final between **Negative Space Clerk** and **Ink Bleed**. Do not choose from pitch quality.
 
-For **each survivor**:
-1. build a 3-case mini-arc: tutorial -> inversion/aha -> mastery;
-2. state the minimum complete rule grammar needed for all three cases;
-3. enumerate or tightly estimate the actual intervention/state search space for mastery;
-4. identify the intended human deduction shortcut and compare it against blind retries;
-5. prove at least five distinct content families from the same vocabulary without a new core verb;
-6. perform a fresh collision/saturation check against closest current analogues where relevant and Games #001–#011;
-7. reject if meaningful depth requires more than ~3 new rule nouns after tutorial;
-8. target **2–3 finalists** for Round C; retain fewer if quality demands it.
+For **each finalist**:
+1. build a 10–15 minute four-case mini-campaign using only its Round-B grammar;
+2. include onboarding, first inversion, midgame composition and mastery;
+3. state exact candidate solution spaces and produce at least one uniquely certified case or a deliberately bounded small equivalence class;
+4. prove the mastery case creates a new deduction pattern rather than only a larger board;
+5. estimate a 30–45 case full campaign, tutorial burden, authoring burden, certifier complexity, controller/Steam Deck interaction, screenshot/trailer legibility and likely replay/repetition risk;
+6. perform a final fresh market/name collision check;
+7. select **one winner** only if it clearly survives the four-case mini-campaign.
 
-Apply these special kill gates:
-- **One Bad Ruler:** kill if depth requires multiple unrelated ruler types, freeform arithmetic, or >2 layers of numeric annotation.
-- **The Quiet Majority:** kill if mastery is easier to brute-force than to reason causally or if >3 simulation rounds become unreadable.
-- **Spare Chair:** kill if preference lists routinely exceed 3 visible choices/person.
-- **Wrong-Side Assembly:** kill if mastery reduces to obvious parity equations with no meaningful spatial/assembly reading.
-- **Negative Space Clerk:** kill if differentiation depends mainly on document/stamp theme or case variety becomes generic polyomino placement.
-- **Ink Bleed:** kill if objectives can be solved as ordinary flood-fill/color territory without exploiting wet-history barriers.
-
-Record Round-B evidence and kills in `GAME12_TOURNAMENT.md`, then update `STATUS.md` with exact Round-C NEXT ACTION. Normally preserve 2–3 finalists rather than prematurely freezing a winner.
+If a winner survives, safely continue in the same run into **Phase 3 Product Thesis**: lock target player/platform, genre framing, one-sentence hook, core fantasy, session structure, core loop, differentiator and scope ceiling. Do **not** prematurely freeze Phase-4 mechanics.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#011 are explicitly non-blocking.
