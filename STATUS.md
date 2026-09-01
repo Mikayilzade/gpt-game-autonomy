@@ -16,7 +16,7 @@ Branch: `main`
 Game #012 remains cleanly separated from Games #001–#011. Older games are exclusion/portfolio history only. Ink Bleed is rejected history, not parallel canon.
 
 ## Current phase
-**Game #012 — PHASE 4 MECHANICAL ARCHITECTURE COMPLETE / PHASE 5 NEXT.**
+**Game #012 — PHASE 5 CONTENT ARCHITECTURE COMPLETE / PHASE 6 NEXT.**
 
 ## Active authority for Game #012
 1. `START_HERE.md`
@@ -27,25 +27,24 @@ Game #012 remains cleanly separated from Games #001–#011. Older games are excl
 6. `GAME12_ROUND_C.md`
 7. `GAME12_PRODUCT_THESIS.md`
 8. `GAME12_MECHANICS.md` — exact Phase-4 rules; controls over loose tournament examples
+9. `GAME12_CONTENT.md` — Phase-5 campaign/content/certification architecture
 
 ## This run completed
-### Game #012 Phase 4 — Mechanical Architecture
-- Resumed exactly from prior `NEXT ACTION` and formalized the selected OPENWORK core without expanding Phase-3 scope.
-- Froze board coordinates, immutable OPEN/FIXED_SOLID base kinds, PLACED_SOLID provenance and infinite EXTERIOR semantics.
-- Froze cardinal-only connectivity and marker cells as placement-protected OPEN cells.
-- Froze launch piece vocabulary to 1x1, straight 1x2 and straight 1x3; 1–4 required instances; fixed-H/fixed-V/rotatable orientation policy.
-- Froze placement legality and established that placement order has zero semantic effect.
-- Froze partial-state feedback, complete-state win, undo/reset and illegal-placement behavior.
-- Froze deterministic evaluation order and component IDs.
-- Resolved a major ambiguity from tournament prose: an enclosed hole is a remaining-open component with **zero board-boundary contact**; component counts include holes. Old witness examples are evidence only and must be re-certified if reused.
-- Froze component area, hole area, marker same/different and boundary-contact semantics.
-- Froze a finite AND-only predicate grammar; no hidden OR/NOT expression system, path length, perimeter, symmetry or shape-matching objectives.
-- Froze canonical solution equivalence so permutations of interchangeable identical pieces do not inflate solution counts.
-- Defined exhaustive offline certifier/search contract and deterministic acceptance payload including case/rules hashes, raw/canonical assignment counts, canonical solution count and witnesses.
-- Established hard launch ceilings: 9x9 board, 1–4 pieces, 6 markers, 6 predicates, three straight shape classes.
-- Defined deduction-first difficulty knobs and eight challenge families under the same vocabulary.
-- Added anti-repetition gates: <=25% principal single-articulation cases; >=50% middle/late cases must couple >=2 predicate classes; post-onboarding acts require false-neck inversions; at least four nontrivial families must each support >=4 quality cases.
-- Full authority saved in `GAME12_MECHANICS.md`.
+### Game #012 Phase 5 — Content Architecture
+- Resumed exactly from prior `NEXT ACTION`; no production implementation started.
+- Added `GAME12_CONTENT.md` as canonical content authority beneath exact mechanical rules.
+- Defined authored-vs-derived case-data schema, static schema rejection and certificate ownership boundaries.
+- Froze target campaign structure at six acts x six cases = 36 target, with 30-case quality floor and no mechanic-per-act progression.
+- Allocated all eight Phase-4 challenge families across the campaign; principal F1 single-articulation allocation is only 4/36, below the 25% hard ceiling.
+- Added campaign-level coupling, false-neck, adjacency and family-credibility quotas.
+- Defined authoring -> generation-assist -> exhaustive certification -> diagnostic analysis -> human curation -> campaign integration pipeline.
+- Added stable rejection codes including `OBVIOUS_SINGLE_NECK`, `PREDICATE_REDUNDANT`, `BLIND_RETRY_FRIENDLY`, `NEAR_DUPLICATE` and `REQUIRES_NEW_MECHANIC`.
+- Specified 12 representative case contracts spanning INTRO through MASTERY with exact piece/predicate intentions and quantitative certification obligations.
+- Audited the old Round-C mastery witness against frozen Phase-4 hole semantics: its stated witness has 3 components with areas `[1,4,29]` and boundary signatures `[N, N|W, N|E|S|W]`, but `HOLE_COUNT=0`; therefore the pre-freeze claim `HOLE_COUNT=1` is explicitly invalidated and cannot become campaign canon without reauthoring/recertification.
+- Defined measurable difficulty bands using canonical assignment count, materially necessary predicate classes, false candidates and invariant-chain length rather than board size.
+- Defined normalized structural/perceptual similarity fingerprints and hard/human near-duplicate gates.
+- Defined a 6-case demo slice that proves articulation, marker grouping, holes, false-neck inversion, boundary signatures and light coupling without consuming mastery examples.
+- Kept >=30-case viability as a falsifiable content gate: at least 30 certified unique-solution cases, family quotas, coupling quotas, false-neck coverage, no near duplicates, and required Band 2–4 population before freeze.
 
 ## Frozen migration state
 Game #006 Stitchspace: pending, non-blocking.
@@ -55,21 +54,22 @@ Game #009 Binder's Imposition: pending, non-blocking.
 Game #010 Luggage Carousel Zero: pending, non-blocking.
 Game #011 Missing Step: pending, non-blocking; final authority `GAME11_FINAL_FREEZE.md`.
 
-## NEXT ACTION — GAME #012 PHASE 5 CONTENT ARCHITECTURE
-Build the authored campaign and validation architecture from the exact Phase-4 rules.
+## NEXT ACTION — GAME #012 PHASE 6 UX / PRESENTATION ARCHITECTURE
+Build the complete interaction and presentation contract around the frozen mechanics/content model.
 
 Required substantial increment:
-1. define canonical case-data schema and authored-vs-derived fields;
-2. define 30-case quality floor / 36-case target campaign structure, act dependencies and what each act teaches without introducing new mechanics;
-3. allocate the eight Phase-4 challenge families across the campaign while enforcing the anti-"find the neck" quotas;
-4. define authoring -> exhaustive certification -> human curation pipeline and rejection reasons;
-5. create at least **10 representative case specifications** spanning onboarding through mastery, with exact intended predicates/pieces and certification obligations; re-certify/rewrite old Round-C witnesses conceptually where hole semantics changed;
-6. define difficulty bands from measurable case properties (canonical assignment count, solution count, predicate coupling, false candidates, required invariant chain), not board size alone;
-7. define duplicate/perceptual-similarity checks so 30 cases are genuinely distinct;
-8. define demo content slice and ensure it does not consume the campaign's only strong examples;
-9. attack whether >=30 high-quality cases remain credible under the frozen three-shape/9x9/4-piece ceiling.
+1. define controller-first and mouse-equivalent board navigation, piece selection/orientation/place/undo/reset/inspect flows;
+2. define legal/illegal placement preview and live topology feedback so it explains current consequences without becoming a solver/oracle;
+3. define visual grammar for REMAINING_OPEN components, enclosed holes, FIXED_SOLID vs PLACED_SOLID provenance, markers, boundary contact and predicate states with color-independent redundancy;
+4. define predicate-card/icon behavior for every frozen predicate family, including compact Deck-size presentation and inspectable detail;
+5. define first-boot / first-six-case onboarding with no topology jargon prerequisite and no text-heavy tutorial burden;
+6. define first-session, pause, settings, case-select, completion, retry/recovery and save-facing presentation contracts;
+7. define accessibility requirements: text scale, contrast, color-vision redundancy, reduced motion, remapping/input parity and no hover-only information;
+8. define responsive layout target including 1280x800 / handheld readability and controller focus order;
+9. define audio/animation causal feedback for split/seal/hole/predicate resolution without slowing rapid experimentation;
+10. define demo/full-game presentation continuity and how campaign siblings avoid forced replay if demo progress later carries over.
 
-If Phase 5 closes cleanly, continue into Phase 6 UX/Presentation only if safely connected.
+If Phase 6 closes cleanly, continue into Phase 7 Commercial / Retention only if safely connected and use fresh market/pricing research there.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#011 are explicitly non-blocking.
