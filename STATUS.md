@@ -17,10 +17,12 @@ Branch: `main`
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
-Only Game #011 files named below are active game canon. GAME6_*, GAME7_*, GAME8_*, GAME9_* and GAME10_* remain frozen NON-ACTIVE safety archives/history. Fossil Forecast, Queue Sculptor and all other rejected Game #011 concepts are tournament history only, not active canon.
+Only Game #011 files named below are active game canon. GAME6_*, GAME7_*, GAME8_*, GAME9_* and GAME10_* remain frozen NON-ACTIVE safety archives/history. Rejected Game #011 concepts remain tournament history only.
 
 ## Current phase
-**Game #011 — PHASE 6 UX / PRESENTATION ARCHITECTURE COMPLETE / PHASE 7 COMMERCIAL-RETENTION MODEL NEXT.** Mechanical and content rules remain unchanged. The launch content system, campaign, certification pipeline, difficulty bands, representative witness cases, controller-first UX, Preview boundary, onboarding, accessibility and failure/retry presentation are now frozen enough to hand into commercial/progression design.
+**Game #011 — PHASE 7 COMMERCIAL / RETENTION MODEL COMPLETE / PHASE 8 TECHNICAL SPECIFICATION SUBSTANTIALLY ADVANCED, HOSTILE CLOSURE NEXT.**
+
+The premium/progression/demo/achievement model is frozen. The implementation architecture is now defined around one pure deterministic Rules Core, exhaustive certification, data-driven cases, derived campaign progression, versioned atomic persistence, explicit demo import and optional Steam/platform adapters. Phase 8 is intentionally not yet closed until concrete hostile payload walkthroughs verify the interfaces and migration/recovery contracts.
 
 ## Active authority for Game #011
 1. `START_HERE.md`
@@ -34,32 +36,34 @@ Only Game #011 files named below are active game canon. GAME6_*, GAME7_*, GAME8_
 9. `GAME11_MECHANICAL_ARCHITECTURE.md`
 10. `GAME11_CONTENT_ARCHITECTURE.md`
 11. `GAME11_UX_PRESENTATION_ARCHITECTURE.md`
+12. `GAME11_COMMERCIAL_RETENTION_MODEL.md`
+13. `GAME11_TECHNICAL_SPECIFICATION.md`
 
 ## This run completed
-### Phase 5 — Content Architecture
-- Re-read all required factory and active Game #011 authority and resumed exactly from Phase-5 NEXT ACTION.
-- Created `GAME11_CONTENT_ARCHITECTURE.md` without changing Phase-4 rules.
-- Froze canonical authored case data and certificate artifact schemas with stable token IDs, anchors, edit contracts, versions and exact hashes.
-- Froze a 6-act campaign: THE GAP, WINDOWS, WHICH ONE?, SAME TICK, FALSE FRIENDS, TWO ABSENCES.
-- Set target launch count **42** and quality floor **36**, plus an 8-case demo curriculum exposing the complete product identity.
-- Defined generator/search -> certification -> structural rejection -> similarity filtering -> human curation -> placement -> recertification pipeline.
-- Added hard rejection thresholds for UNSAT/multi-solution/degenerate/trivial/overscoped cases and explicit duplicate/near-duplicate fingerprints.
-- Froze difficulty Bands 0–4 from legal edits, period structure, horizon, target conjunction, deceptive prefix, same-tick interactions and coupled-edit space.
-- Added 12 representative certificate-ready/certified-by-exhaustive-enumeration witness skeletons covering tutorial recurrence, duplicate-position, clamp-window, parity, same-tick order and four two-delete mastery structures.
-- Attacked repetition, brute-force play, modular-arithmetic abstraction, horizon tedium, arbitrary target conjunctions and generator sludge.
-- Content sufficiency verdict: PASS with four opcodes + one workpiece; no fifth opcode, second workpiece, third deletion or hidden state justified.
+### Phase 7 — Commercial / Retention Model
+- Re-read factory authority and all active Game #011 files before continuing from NEXT ACTION.
+- Used fresh 2026 Steam market checks: current comparable puzzle products span roughly $7.99, $12.99, $14.99 and $19.99 depending on scope/content.
+- Froze premium one-time purchase; no ads, consumable hints, paid retries, battle pass, gacha, premium currency, grind accelerators or live-service dependency.
+- Set working launch band **$9.99–$12.99**, explicitly retaining final price as an empirical launch-time decision tied to certified case count, measured playtime, polish, conversion and contemporaneous market.
+- Froze act-quota progression: first three onboarding cases mandatory; thereafter roughly 75–80% act completion unlocks progression, so one hard case cannot block the premium campaign.
+- Separated ending, all-cases completion and mastery completion.
+- Froze 8-case canonical demo, replayability and idempotent demo -> full-game import of canonical case IDs/settings/tutorial flags.
+- Froze free rule help and at most one authored conceptual Nudge per case if playtesting proves necessary; no solver/oracle leakage.
+- Froze 12 achievements that never punish retries, Preview, hints, accessibility or control method.
+- Froze Steam baseline: achievements, Cloud where reliable, controller/Deck expectations; offline campaign remains independent.
+- Adversarially passed grind, completion-blocking, demo mismatch, price/value, re-import exploit and accessibility/help checks.
 
-### Phase 6 — UX / Presentation Architecture
-- Performed fresh Steamworks/Steam Deck compatibility research; retained 1280×800 as first-class and designed above the platform minimum legibility floor with configurable text scaling/contrast.
-- Created `GAME11_UX_PRESENTATION_ARCHITECTURE.md`.
-- Froze controller-only, keyboard-only and mouse paths; active-input glyph behavior; no pointer/text-entry dependency.
-- Froze one-screen puzzle layout, token positional identity, deletion ghosting and visible deleted-start-anchor resolution.
-- Preserved Preview non-oracle rule while exposing loop contraction, cycle boundaries, shared tick schedule and derived CLAMP-active ticks.
-- Froze redundant next-tick CLAMP visualization and persistent A->D same-tick order communication.
-- Defined deterministic RUN playback, pause/step/acceleration, rapid REVISE/replay/reset and failure explanation without solution leaks.
-- Defined first-eight-case onboarding, 150% text response, reduced motion, high contrast, color redundancy, controller remapping abstraction and audio separation.
-- Completed hostile UX walkthroughs for controller-only, duplicate tokens, deleted anchors, same-tick actions, final-tick CLAMP, long deceptive failures and rapid retries.
-- No production implementation, test email or Gmail notification created.
+### Phase 8 — Technical Specification substantial increment
+- Created `GAME11_TECHNICAL_SPECIFICATION.md`.
+- Fresh engine check selected **Godot 4.7.2 stable + GDScript** as preferred implementation baseline; 4.8 remains development as of 2026-09-01.
+- Froze architecture: Rules Core / Validator-Certifier / Case Repository / Campaign Service / Persistence / Platform Adapter / Presentation.
+- Froze exact conceptual case, simulation state and tick-trace schemas; animation consumes immutable traces and never drives rules.
+- Froze canonical serialization/hash requirement and certificate/runtime integrity gate.
+- Froze versioned local save model, atomic primary+backup recovery and ordered save migrations.
+- Froze explicit versioned demo export/import contract with union merge, precedence rules and idempotent achievement reconciliation.
+- Froze derived quota progression from completed canonical IDs rather than stale unlock flags.
+- Froze platform abstraction, semantic input actions, localization boundaries, performance assumptions, diagnostics and layered tests.
+- Froze dedicated-repo implementation order 12A–12H without starting production implementation.
 
 ## Frozen migration state
 Game #006 preferred repo `Mikayilzade/stitchspace`: pending, non-blocking.
@@ -68,19 +72,20 @@ Game #008 preferred repo `Mikayilzade/locksmiths-margin`: pending, non-blocking.
 Game #009 preferred repo `Mikayilzade/binders-imposition`: pending, non-blocking.
 Game #010 preferred repo `Mikayilzade/luggage-carousel-zero`: pending, non-blocking; final authority `GAME10_FINAL_FREEZE.md`.
 
-## NEXT ACTION — GAME #011 PHASE 7 COMMERCIAL / RETENTION MODEL
-Resume from the complete active authority, especially `GAME11_CONTENT_ARCHITECTURE.md` and `GAME11_UX_PRESENTATION_ARCHITECTURE.md`.
+## NEXT ACTION — GAME #011 PHASE 8 HOSTILE CLOSURE
+Resume from all active authority, especially `GAME11_TECHNICAL_SPECIFICATION.md`.
 
-Mandatory work:
-1. use fresh 2026 market research for comparable premium puzzle games, current pricing/value expectations, demos and Steam positioning; do not infer price from old examples alone;
-2. freeze premium/monetization boundary and a working launch-price band, explicitly separating design decision from empirical pricing test;
-3. define campaign unlock pacing, case-skip policy, act gates and whether all 42/36 cases are required for ending/completion;
-4. define demo subset behavior, save/progress carry-over and replay after purchase;
-5. define achievements/mastery/replay incentives that reward understanding without punishing retries, accessibility, Preview or hints;
-6. define hint/help policy and prevent solver/oracle leakage from becoming normal play;
-7. define Steam platform-feature baseline where relevant (cloud saves, achievements, controller/Deck expectations) without creating live-service dependencies;
-8. adversarially test grind, completion blocking, demo mismatch, price/value mismatch and achievement exploits;
-9. if Phase 7 closes cleanly, continue directly into Phase 8 Technical Implementation Specification in the same run.
+Perform one concrete adversarial closure pass using exact representative payloads rather than more abstract architecture prose:
+1. write one exact canonical single-delete case payload and derive its post-edit cursor resolution + full expected trace;
+2. write one exact two-track mastery payload and show exhaustive candidate/certificate structure under <=36 pairs;
+3. walk corrupt-primary + valid-backup recovery and prove no empty-save overwrite occurs first;
+4. define one explicit N-1 -> current save migration example and one future-version refusal path;
+5. walk demo import into an already partially progressed full-game save, including settings precedence and repeated import idempotency;
+6. walk certificate mismatch caused by content change and by rules-version change;
+7. attack the proposed interface boundary to prove Preview cannot obtain full simulated target outcome/solver rankings through normal UI APIs;
+8. repair any contradictions found.
+
+If all Phase-8 hostile cases pass, mark **PHASE 8 COMPLETE** and continue directly into **PHASE 9 WHOLE-GAME SIMULATION** in the same run if safely connected. Whole-game simulation must cover first boot, first 10 minutes, first hour, act transitions, skip/quota behavior, late mastery, ending vs all-cases completion, demo purchase/import, offline/Steam reconnect, save recovery and unusual player behavior.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#010 remain explicitly non-blocking.
