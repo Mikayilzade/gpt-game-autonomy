@@ -16,12 +16,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
 | 012 | **OPENWORK** *(provisional working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
-| 013 | **TBD** | **IN DESIGN / Phase 1 next** | TBD | NOT STARTED | New clean active slot. No Game #012 concept is canon for #013. |
+| 013 | **TBD** | **IN DESIGN / Phase 1 complete / Phase 2 Round A next** | TBD | NOT STARTED | 28 concepts generated, 16 killed, 12 retained; authority `GAME13_RESEARCH.md`. |
 
 ## Active Game #013 boundary
 Game #013 is the only active design slot. Games #001–#012 are portfolio/exclusion history only. Frozen safety archives #006–#012 remain non-active and must not supply mechanics, theme, title, content or assumed product direction to #013.
 
-Game #013 starts from clean opportunity discovery. Its active authority is defined by `STATUS.md`; there is no selected concept yet.
+Phase 1 is complete. The 12 retained tournament candidates are: Carbon Copy, Margin Call, Pallet Proof, Seal Break, Overprint, Shared Fuse, Counterweight Clerk, Wax Witness, Cut Here, Blind Staple, Transfer Window and Dry Run. No concept is selected; `STATUS.md` defines the next equal-evidence tournament action.
 
 ## Frozen Game #012 identity / exclusion summary
 - **OPENWORK**: topology-of-remaining-space placement puzzle.
