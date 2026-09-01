@@ -14,14 +14,14 @@ Branch: `main`
 - Game #010 Luggage Carousel Zero: **DESIGN COMPLETE / migration pending / retained non-active safety archive**
 - Game #011 Missing Step: **DESIGN COMPLETE / migration pending / retained non-active safety archive**
 - Current design slot: **Game #012**
-- Selected concept: **NONE YET**
+- Selected concept: **OPENWORK** *(working title; topology-of-remaining-space puzzle)*
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
-Game #012 remains cleanly separated from Games #001–#011. Older games are exclusion/portfolio history only. Active Game #012 exploratory/tournament authority is `GAME12_RESEARCH.md` + `GAME12_TOURNAMENT.md`; no winner or frozen mechanics exist yet.
+Game #012 remains cleanly separated from Games #001–#011. Older games are exclusion/portfolio history only. Round-C selected the topology-of-remaining-space candidate formerly labeled Negative Space Clerk; Ink Bleed is rejected history, not parallel canon.
 
 ## Current phase
-**Game #012 — PHASE 2 ROUND B COMPLETE / ROUND C NEXT.**
+**Game #012 — PHASE 3 PRODUCT THESIS COMPLETE / PHASE 4 NEXT.**
 
 ## Active authority for Game #012
 1. `START_HERE.md`
@@ -29,22 +29,34 @@ Game #012 remains cleanly separated from Games #001–#011. Older games are excl
 3. `GAME_INDEX.md`
 4. `GAME12_RESEARCH.md`
 5. `GAME12_TOURNAMENT.md`
+6. `GAME12_ROUND_C.md`
+7. `GAME12_PRODUCT_THESIS.md`
 
 ## This run completed
-### Game #012 Phase 2 — Round B destructive depth proof
+### Game #012 Phase 2 Round C — head-to-head final
 - Resumed exactly from prior `NEXT ACTION`.
-- Ran fresh collision/saturation checks where commercial context materially affected decisions.
-- Forced all six Round-A survivors through a 3-case tutorial -> inversion -> mastery arc.
-- Defined minimum viable rule grammar, mastery search-space size, intended human deduction shortcut, blind-retry risk and >=5 same-vocabulary content families for every survivor.
-- **Killed Wrong-Side Assembly:** mastery collapses to top-down XOR/parity reconstruction; assembly geometry does not create enough independent depth without adding new connector/physical rules.
-- **Killed The Quiet Majority:** 12 choose 3 = 220 mastery interventions; 2–3 synchronous rounds already expand causal tracing faster than useful deduction, while retries stay cheap. Fails its brute-force/readability kill gate.
-- **Killed One Bad Ruler:** with one bad use the intervention space is only N operations; 30+ case depth requires multiple ruler defects/origins/tolerances and arithmetic annotation, directly failing its kill gate.
-- **Killed Spare Chair:** three-choice preference lists were sufficient mechanically, but the concept has a strong current commercial/surface collision with `Is This Seat Taken?` and only 36–364 typical chair-removal interventions.
-- **Retained Negative Space Clerk as finalist:** compact topology-of-absence law survives theme removal; mastery supports articulation, holes, marker partitions, boundary topology and component-area predicates with strong human pruning vs large placement space.
-- **Retained Ink Bleed as finalist:** Round A exposed an underspecified instant-flood flaw; repaired with one shared rule noun — finite public absorption depth (normally 2–4 pulses). Earlier wet cells remain irreversible barriers to later drops. The repaired law supports choke denial, aperture preservation, protected dry cells, component/area goals and multi-drop barrier chains without color powers or fluid physics.
-- Round-B finalists: **Negative Space Clerk** and **Ink Bleed** only.
-- Full evidence, search-space estimates, repair rationale, market checks and kill gates saved in `GAME12_TOURNAMENT.md`.
-- **No final winner selected.**
+- Built 10–15 minute four-case mini-campaigns for Negative Space Clerk and Ink Bleed using only their Round-B grammars.
+- Added exact finite intervention counts and solver/certifier witnesses.
+- Negative-space mastery witness: 7x7, horizontal 1x2 + vertical 1x2 + 1x1, **29,085** geometrically legal assignments / **15,221** marker-safe assignments; exhaustive evaluation found **exactly one** assignment matching the full component/hole/marker/boundary tuple.
+- Ink mastery witness: 7x6, P=2, four fixed-order colors over 7 pads, **840** raw assignments / **384** dynamically valid assignments; exhaustive evaluation found **exactly one** assignment satisfying Green target + protected dry cell + Yellow area.
+- Proved mastery novelty for both candidates rather than merely increasing board size.
+- Compared 30–45-case confidence, tutorial burden, authoring burden, certifier complexity, controller/Deck legibility, trailer readability and repetition risk.
+- Fresh collision check found existing `Negative Space` (2025 Steam deckbuilder) and `NEGATIVE_SPACE` puzzle-platformer, so the candidate label cannot be a shipping title; no close match to the actual remaining-void topology law was found.
+- Fresh Ink surface check found `Spill The Ink` (listed for 2027), `Floating Ink VR` (2026 wet-ink bleed simulation) and `Cellchemist` (2026 material simulation), increasing physics/simulation expectation debt.
+- **Winner selected: Negative Space Clerk mechanical core, 57/60 vs Ink Bleed 45/60 in the final mini-campaign comparison.**
+- Full Round-C evidence saved in `GAME12_ROUND_C.md`.
+
+### Game #012 Phase 3 — Product Thesis
+- Continued safely in the same run after the tournament winner survived.
+- Locked working title **OPENWORK** as provisional only; shipping-name clearance is deferred.
+- Locked one-sentence hook: place a few solid pieces; every objective judges only the topology of the empty space left behind.
+- Locked target player, PC/Steam-first platform, controller-first / Deck-conscious interaction posture, 2–8 minute normal puzzle sessions and 15–40 minute natural play sessions.
+- Locked core fantasy "sculpt absence", core loop, objective-inversion differentiator and presentation direction away from clerical paperwork.
+- Locked product target **36 authored cases / 30-case quality floor**.
+- Locked scope ceiling: orthogonal 2D, roughly <=9x9 normal boards, 1–4 placements, tiny shape vocabulary, predicate coupling rather than mechanic proliferation.
+- Explicitly excluded Sokoban movement, physics, fluids, switches/doors, portals, timers, roguelike/live-service structure and narrative-volume substitutes.
+- Added forward kill conditions for repetition, handheld ambiguity, brute-force dominance, content exhaustion and mechanic creep.
+- Full authority saved in `GAME12_PRODUCT_THESIS.md`.
 
 ## Frozen migration state
 Game #006 preferred repo `Mikayilzade/stitchspace`: pending, non-blocking.
@@ -54,19 +66,21 @@ Game #009 preferred repo `Mikayilzade/binders-imposition`: pending, non-blocking
 Game #010 preferred repo `Mikayilzade/luggage-carousel-zero`: pending, non-blocking.
 Game #011 preferred repo `Mikayilzade/missing-step`: pending, non-blocking; final authority `GAME11_FINAL_FREEZE.md`.
 
-## NEXT ACTION — GAME #012 PHASE 2 ROUND C
-Run a head-to-head final between **Negative Space Clerk** and **Ink Bleed**. Do not choose from pitch quality.
+## NEXT ACTION — GAME #012 PHASE 4 MECHANICAL ARCHITECTURE
+Formalize OPENWORK's exact deterministic rules without expanding the Phase-3 scope.
 
-For **each finalist**:
-1. build a 10–15 minute four-case mini-campaign using only its Round-B grammar;
-2. include onboarding, first inversion, midgame composition and mastery;
-3. state exact candidate solution spaces and produce at least one uniquely certified case or a deliberately bounded small equivalence class;
-4. prove the mastery case creates a new deduction pattern rather than only a larger board;
-5. estimate a 30–45 case full campaign, tutorial burden, authoring burden, certifier complexity, controller/Steam Deck interaction, screenshot/trailer legibility and likely replay/repetition risk;
-6. perform a final fresh market/name collision check;
-7. select **one winner** only if it clearly survives the four-case mini-campaign.
+Required substantial increment:
+1. define board coordinates, exterior semantics and exact distinction among initially-solid cells, player-placed solids and remaining open cells;
+2. define piece instances/shapes/orientation policy, placement legality, overlap, marker occupancy and whether placement order has any semantic effect;
+3. freeze evaluation order and formal definitions for connected components, enclosed holes, hole area, component area, marker same/different relationships and boundary contact;
+4. define objective predicate grammar, AND semantics, win state, invalid placement, undo/reset and whether partial placement is evaluable;
+5. define solution equivalence and canonicalization for identical pieces so offline certificates do not count permutations as distinct solutions;
+6. specify certifier/search contract and deterministic acceptance payload for authored levels;
+7. define difficulty knobs that increase deduction rather than board/branching bloat;
+8. demonstrate at least **5 distinct challenge families** with concrete cases under the same frozen vocabulary and attack the "every level is find-the-neck" failure mode;
+9. establish hard board/piece/predicate ceilings if evidence supports them.
 
-If a winner survives, safely continue in the same run into **Phase 3 Product Thesis**: lock target player/platform, genre framing, one-sentence hook, core fantasy, session structure, core loop, differentiator and scope ceiling. Do **not** prematurely freeze Phase-4 mechanics.
+If Phase 4 closes cleanly and no product-thesis revision is needed, continue into Phase 5 Content Architecture in the same run only if safely connected.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#011 are explicitly non-blocking.
