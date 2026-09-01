@@ -16,12 +16,14 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
 | 012 | **OPENWORK** *(provisional working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
-| 013 | **TBD** | **IN DESIGN / Phase 1 complete / Phase 2 Round A next** | TBD | NOT STARTED | 28 concepts generated, 16 killed, 12 retained; authority `GAME13_RESEARCH.md`. |
+| 013 | **TBD** | **IN DESIGN / Phase 2 Round A complete / Round B next** | TBD | NOT STARTED | Tournament reduced 12 -> 5: Carbon Copy, Margin Call, Seal Break, Blind Staple, Transfer Window. Authority `GAME13_TOURNAMENT.md`. |
 
 ## Active Game #013 boundary
 Game #013 is the only active design slot. Games #001–#012 are portfolio/exclusion history only. Frozen safety archives #006–#012 remain non-active and must not supply mechanics, theme, title, content or assumed product direction to #013.
 
-Phase 1 is complete. The 12 retained tournament candidates are: Carbon Copy, Margin Call, Pallet Proof, Seal Break, Overprint, Shared Fuse, Counterweight Clerk, Wax Witness, Cut Here, Blind Staple, Transfer Window and Dry Run. No concept is selected; `STATUS.md` defines the next equal-evidence tournament action.
+Phase 1 generated 28 concepts and retained 12. Phase 2 Round A then killed seven with equal destructive evidence. Current survivors are **Carbon Copy, Margin Call, Seal Break, Blind Staple, Transfer Window**. No concept is selected; `STATUS.md` defines the Round-B evidence requirements.
+
+Round-A notable exclusions: Cut Here was killed despite its top Phase-1 score because shared transformed cuts across independently oriented flat layers substantially collide with #009's portfolio reasoning identity; Dry Run was killed for rejected Ink-Bleed lineage; Overprint and Wax Witness were both killed after direct comparison because both reduce to footprint/per-cell composition algebra.
 
 ## Frozen Game #012 identity / exclusion summary
 - **OPENWORK**: topology-of-remaining-space placement puzzle.
