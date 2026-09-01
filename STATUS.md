@@ -16,44 +16,43 @@ Branch: `main`
 Game #013 is the only active design slot. Games #001–#012 are exclusion/portfolio history only. Frozen archives #006–#012 are explicitly NON-ACTIVE and must not leak canon into #013.
 
 ## Current phase
-**Game #013 — PHASE 2 CONCEPT TOURNAMENT / ROUND A NEXT.**
+**Game #013 — PHASE 2 CONCEPT TOURNAMENT / ROUND A COMPLETE / ROUND B NEXT.**
 
 ## Active authority for Game #013
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
 4. `GAME13_RESEARCH.md`
+5. `GAME13_TOURNAMENT.md`
 
-## This run completed — Game #013 Phase 1 Opportunity Discovery
-- Resumed exactly from prior `STATUS.md -> NEXT ACTION` and re-read factory authority.
-- Performed fresh September 2026 Steam/market research, including recent compact puzzle releases, pricing, demos, positioning and current upcoming-release context.
-- Derived explicit exclusion boundaries from Games #001–#012 without making old designs canon.
-- Identified risky lanes: generic tile placement, Sokoban variants, route/connect puzzles, cozy scoring placement, daily block puzzles, generic automation/deckbuilding, portal/light-shadow spatial puzzles and heterogeneous puzzle collections.
-- Identified scope traps: 3D physics, large narrative/exploration worlds, systemic NPC simulation, networking, huge bespoke art sets and opaque procedural solver dependence.
-- Created `GAME13_RESEARCH.md`.
-- Generated **28 distinct candidates** before pruning.
-- Scored all candidates consistently on hook clarity, same-vocabulary depth, scope safety, visual causal legibility, market differentiation, deterministic/testable implementation, content efficiency and demo strength.
-- Killed **16** concepts for portfolio collision, shallow/parity/arithmetic collapse, familiar projection/route space, weak identity or disproportionate scope.
-- Retained **12** candidates for equal Phase-2 destructive testing: Carbon Copy, Margin Call, Pallet Proof, Seal Break, Overprint, Shared Fuse, Counterweight Clerk, Wax Witness, Cut Here, Blind Staple, Transfer Window, Dry Run.
-- Recorded candidate-specific failure risks; no winner selected.
+## This run completed — Game #013 Phase 2 Round A
+- Resumed exactly from prior `STATUS.md -> NEXT ACTION` and re-read all active authority.
+- Created `GAME13_TOURNAMENT.md` with an equal destructive pass across all 12 retained candidates.
+- Defined a smallest exact playable rule kernel for every candidate and supplied two diagnostic state/case examples per candidate.
+- Bounded naive action/state spaces and attacked brute force, arithmetic/parity/CSP collapse, tutorial/readability, content depth, asset/technical burden and portfolio collision.
+- Explicitly compared Wax Witness vs Overprint: Wax has stronger physical presentation, but both collapse to aligned-footprint + per-cell composition algebra; both killed rather than retaining redundant candidates.
+- Explicitly compared Cut Here to frozen #009 Binder's Imposition. Despite exceptional hook strength, killed Cut Here because its core reasoning identity substantially reuses independently oriented flat layers + shared transformed cut/trim + local-coordinate consequences.
+- Explicitly tested Dry Run against rejected Ink-Bleed lineage and killed it: absorbent propagation followed by saturated blocking is substantive conceptual reuse, and independently trends toward generic flood-fill sequencing.
+- Killed Pallet Proof (projection familiarity/3D burden), Shared Fuse (#005/load arithmetic collision), Counterweight Clerk (torque arithmetic), Overprint, Wax Witness, Cut Here and Dry Run.
+- Reduced field **12 -> 5** without selecting a winner.
+- Round A survivors: **Carbon Copy, Margin Call, Seal Break, Blind Staple, Transfer Window**.
+- No production implementation started.
 
-## NEXT ACTION — GAME #013 PHASE 2 / ROUND A
-Perform a substantial equal-evidence destructive tournament pass across all 12 retained candidates.
+## NEXT ACTION — GAME #013 PHASE 2 / ROUND B
+Build one substantially harder, machine-enumerable diagnostic puzzle for EACH of the five survivors under a comparable action-space budget (target naive space ~100–10,000 states where feasible).
 
 Required work:
-1. re-read active authority including `GAME13_RESEARCH.md`;
-2. create `GAME13_TOURNAMENT.md`;
-3. for each candidate define the smallest exact playable rule set rather than judging the pitch alone;
-4. construct at least two concrete nontrivial cases or equivalent state examples per candidate where feasible;
-5. enumerate/compute solution spaces when small enough, or otherwise give an explicit bounded analysis;
-6. attack dominant strategies, brute-force/enumeration surface, arithmetic/parity/CSP collapse, tutorial burden, content-family depth, screenshot/GIF legibility, technical/asset burden and portfolio collision;
-7. explicitly compare Wax Witness vs Overprint and test whether both deserve to survive;
-8. explicitly test Cut Here against #009 collision and Dry Run against prior rejected Ink-Bleed lineage; kill on substantive reuse;
-9. reduce the field from 12 to **no more than 6** survivors with evidence-based reasons;
-10. if Round A is short and evidence is decisive, continue into connected Round B rather than stopping on a microstep;
-11. update `STATUS.md` and `GAME_INDEX.md` with exact next action.
+1. re-read all active authority including `GAME13_TOURNAMENT.md`;
+2. define exact state/action semantics for each Round-B diagnostic;
+3. enumerate or exhaustively reason solution count and allowed/shortest solution structure;
+4. document >=3 human deductions per candidate that reduce search before guessing;
+5. derive 5–8 plausible content families per candidate and distinguish real new reasoning from parameter inflation;
+6. test a six-case demo escalation using the same vocabulary;
+7. specifically attack: Carbon Copy transfer-depth-matrix collapse; Margin Call rectangle enumeration; Seal Break set-cover/scheduling collapse; Blind Staple factorial permutation; Transfer Window offset-sequence brute force;
+8. reduce to 2–3 finalists only if evidence is decisive; otherwise kill weak candidates rather than force a quota;
+9. update `GAME13_TOURNAMENT.md`, `STATUS.md`, and `GAME_INDEX.md` with evidence and exact next action.
 
-Do not select a winner before equal tournament evidence. Do not start implementation.
+Do not select a winner without Round-B evidence. Do not start implementation.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#012 remain non-blocking.
