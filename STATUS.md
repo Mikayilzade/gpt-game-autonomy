@@ -16,7 +16,7 @@ Branch: `main`
 Game #012 remains cleanly separated from Games #001–#011. Older games are exclusion/portfolio history only. Ink Bleed is rejected history, not parallel canon.
 
 ## Current phase
-**Game #012 — PHASE 5 CONTENT ARCHITECTURE COMPLETE / PHASE 6 NEXT.**
+**Game #012 — PHASE 6 UX / PRESENTATION ARCHITECTURE COMPLETE / PHASE 7 NEXT.**
 
 ## Active authority for Game #012
 1. `START_HERE.md`
@@ -28,23 +28,25 @@ Game #012 remains cleanly separated from Games #001–#011. Older games are excl
 7. `GAME12_PRODUCT_THESIS.md`
 8. `GAME12_MECHANICS.md` — exact Phase-4 rules; controls over loose tournament examples
 9. `GAME12_CONTENT.md` — Phase-5 campaign/content/certification architecture
+10. `GAME12_UX.md` — Phase-6 interaction/presentation/accessibility/onboarding authority
 
 ## This run completed
-### Game #012 Phase 5 — Content Architecture
+### Game #012 Phase 6 — UX / Presentation Architecture
 - Resumed exactly from prior `NEXT ACTION`; no production implementation started.
-- Added `GAME12_CONTENT.md` as canonical content authority beneath exact mechanical rules.
-- Defined authored-vs-derived case-data schema, static schema rejection and certificate ownership boundaries.
-- Froze target campaign structure at six acts x six cases = 36 target, with 30-case quality floor and no mechanic-per-act progression.
-- Allocated all eight Phase-4 challenge families across the campaign; principal F1 single-articulation allocation is only 4/36, below the 25% hard ceiling.
-- Added campaign-level coupling, false-neck, adjacency and family-credibility quotas.
-- Defined authoring -> generation-assist -> exhaustive certification -> diagnostic analysis -> human curation -> campaign integration pipeline.
-- Added stable rejection codes including `OBVIOUS_SINGLE_NECK`, `PREDICATE_REDUNDANT`, `BLIND_RETRY_FRIENDLY`, `NEAR_DUPLICATE` and `REQUIRES_NEW_MECHANIC`.
-- Specified 12 representative case contracts spanning INTRO through MASTERY with exact piece/predicate intentions and quantitative certification obligations.
-- Audited the old Round-C mastery witness against frozen Phase-4 hole semantics: its stated witness has 3 components with areas `[1,4,29]` and boundary signatures `[N, N|W, N|E|S|W]`, but `HOLE_COUNT=0`; therefore the pre-freeze claim `HOLE_COUNT=1` is explicitly invalidated and cannot become campaign canon without reauthoring/recertification.
-- Defined measurable difficulty bands using canonical assignment count, materially necessary predicate classes, false candidates and invariant-chain length rather than board size.
-- Defined normalized structural/perceptual similarity fingerprints and hard/human near-duplicate gates.
-- Defined a 6-case demo slice that proves articulation, marker grouping, holes, false-neck inversion, boundary signatures and light coupling without consuming mastery examples.
-- Kept >=30-case viability as a falsifiable content gate: at least 30 certified unique-solution cases, family quotas, coupling quotas, false-neck coverage, no near duplicates, and required Band 2–4 population before freeze.
+- Added `GAME12_UX.md` as canonical Phase-6 authority.
+- Defined complete controller-first input model with mouse/keyboard parity: cell cursor, piece cycling, orientation, place, undo, reset, inspect, pick-up/reposition and deterministic focus order.
+- Defined legal/illegal placement ghosts with explicit reason glyphs; illegal placements remain visible and explanatory rather than disappearing.
+- Froze the anti-oracle boundary: live UI may explain only the topology of the **current committed state**; it may not preview hypothetical topology, rank cells, expose articulation points, remaining-solution counts or certifier-derived hints.
+- Defined visual grammar for REMAINING_OPEN components, enclosed holes, FIXED_SOLID versus PLACED_SOLID provenance, markers and N/E/S/W boundary contact with color-independent redundancy.
+- Defined compact + inspectable UI contracts for every frozen predicate family, including component/hole counts, area multisets/bands, SAME/DIFFERENT, marker-boundary relations and global boundary-signature multisets.
+- Defined responsive landscape layout and explicit 1280x800 readability gate: 9x9 board without pan, 48 logical px preferred / 40 logical px absolute cell floor, six objective cards without ordinary-play scrolling.
+- Defined topology inspect overlay that exposes current components/areas/holes/marker membership/boundary contacts but never solution inference.
+- Defined rapid causal animation/audio contract with 250–450 ms nominal placement feedback, parallel predicate updates, no cell-by-cell flood animation and reduced-motion replacement behavior.
+- Defined first-boot and first-six-case onboarding with ordinary-language terms, <=2-sentence blocking tutorial panels, no topology jargon prerequisite and no explanation of the intended trick in inversion cases.
+- Defined non-destructive completion/failure/recovery flow: complete-but-unsolved states never show a fail modal; undo/reposition/reset remain immediate; success panel defaults to Next.
+- Defined pause/settings/case-select/save-facing contracts and hard accessibility requirements including 150% text scale, high contrast, remapping, reduced motion, no hover-only/audio-only/color-only information and localization expansion tolerance.
+- Defined demo/full-game continuity and non-forced-replay carry-over presentation contract for the protected six-case demo.
+- Added explicit UX anti-oracle acceptance gates and presentation exclusions to prevent accidental hint systems, move scoring, narrative/3D scope creep or touch-first dependency.
 
 ## Frozen migration state
 Game #006 Stitchspace: pending, non-blocking.
@@ -54,22 +56,20 @@ Game #009 Binder's Imposition: pending, non-blocking.
 Game #010 Luggage Carousel Zero: pending, non-blocking.
 Game #011 Missing Step: pending, non-blocking; final authority `GAME11_FINAL_FREEZE.md`.
 
-## NEXT ACTION — GAME #012 PHASE 6 UX / PRESENTATION ARCHITECTURE
-Build the complete interaction and presentation contract around the frozen mechanics/content model.
+## NEXT ACTION — GAME #012 PHASE 7 COMMERCIAL / RETENTION MODEL
+Use fresh current market/platform research before freezing commercial assumptions.
 
 Required substantial increment:
-1. define controller-first and mouse-equivalent board navigation, piece selection/orientation/place/undo/reset/inspect flows;
-2. define legal/illegal placement preview and live topology feedback so it explains current consequences without becoming a solver/oracle;
-3. define visual grammar for REMAINING_OPEN components, enclosed holes, FIXED_SOLID vs PLACED_SOLID provenance, markers, boundary contact and predicate states with color-independent redundancy;
-4. define predicate-card/icon behavior for every frozen predicate family, including compact Deck-size presentation and inspectable detail;
-5. define first-boot / first-six-case onboarding with no topology jargon prerequisite and no text-heavy tutorial burden;
-6. define first-session, pause, settings, case-select, completion, retry/recovery and save-facing presentation contracts;
-7. define accessibility requirements: text scale, contrast, color-vision redundancy, reduced motion, remapping/input parity and no hover-only information;
-8. define responsive layout target including 1280x800 / handheld readability and controller focus order;
-9. define audio/animation causal feedback for split/seal/hole/predicate resolution without slowing rapid experimentation;
-10. define demo/full-game presentation continuity and how campaign siblings avoid forced replay if demo progress later carries over.
-
-If Phase 6 closes cleanly, continue into Phase 7 Commercial / Retention only if safely connected and use fresh market/pricing research there.
+1. research current 2026 Steam pricing/positioning for compact authored thinky/puzzle games, especially comparable content lengths, demos, launch discounts and perceived-value expectations;
+2. select provisional list price / acceptable launch range and explicit monetization exclusions;
+3. define campaign unlock/progression policy, including whether the six acts are strictly sequential or allow limited branching/skip tolerance;
+4. define demo-to-full carry-over semantics consistent with Phase-6 UX, including settings/progress provenance and no forced replay of imported solved demo cases;
+5. define hint stance: what assistance exists, if any, without violating the Phase-6 anti-oracle boundary or cheapening deduction;
+6. define achievement set/criteria and ensure achievements do not incentivize brute-force, speed, no-undo play or accessibility-hostile behavior;
+7. define replay incentives after completion without daily streaks, procedural filler, move grades or live-service loops;
+8. define Steam/platform feature posture: Cloud, achievements, controller support, Deck verification target, demo, localization scope assumptions and any store-page promises that require implementation gates;
+9. define retention/progression acceptance gates and kill any commercial feature that adds ongoing content burden disproportionate to a 30–36 case premium puzzle;
+10. if Phase 7 closes cleanly, continue into Phase 8 Technical Specification only if the commercial decisions create no unresolved architecture dependency.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#011 are explicitly non-blocking.
