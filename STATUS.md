@@ -7,49 +7,53 @@ Branch: `main`
 ## Factory state
 - Reusable factory rules: **YES**
 - Games #001–#005: **DESIGN COMPLETE / migrated**
-- Games #006–#011: **DESIGN COMPLETE / migration pending / retained non-active safety archives**
-- Current design slot: **Game #012**
-- Selected concept: **OPENWORK** *(working title; topology-of-remaining-space puzzle)*
+- Games #006–#012: **DESIGN COMPLETE / migration pending / retained non-active safety archives**
+- Current design slot: **Game #013**
+- Selected concept: **NONE YET**
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
-Game #012 remains cleanly separated from Games #001–#011. Older games are exclusion/portfolio history only. Ink Bleed is rejected history, not parallel canon.
+Game #013 is a clean new slot. Games #001–#012 are exclusion/portfolio history only. Frozen archives #006–#012 are explicitly **NON-ACTIVE** and must not leak canon into #013.
 
 ## Current phase
-**Game #012 — PHASE 10 ADVERSARIAL REVIEW COMPLETE / PHASE 11 SPECIFICATION FREEZE NEXT.**
+**Game #013 — PHASE 1 OPPORTUNITY DISCOVERY NEXT.**
 
-## Active authority for Game #012
+## Active authority for Game #013
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
-4. `GAME12_RESEARCH.md`
-5. `GAME12_TOURNAMENT.md`
-6. `GAME12_ROUND_C.md`
-7. `GAME12_PRODUCT_THESIS.md`
-8. `GAME12_MECHANICS.md` — exact Phase-4 rules; controls over loose tournament examples
-9. `GAME12_CONTENT.md` — Phase-5 campaign/content/certification architecture
-10. `GAME12_UX.md` — Phase-6 interaction/presentation/accessibility/onboarding authority
-11. `GAME12_COMMERCIAL.md` — Phase-7 commercial/progression/demo/platform authority
-12. `GAME12_TECHNICAL.md` — Phase-8 technical/runtime/persistence/platform/test authority
-13. `GAME12_SIMULATION.md` — Phase-9 whole-product journey repairs
-14. `GAME12_ADVERSARIAL.md` — Phase-10 destructive review and latest repairs; where it explicitly refines/supersedes earlier progression/content/persistence/input/achievement/curation wording, it controls until final consolidation
+
+No `GAME13_*` design file exists yet. The next substantial run must create the Phase-1 research file and make it active authority.
 
 ## This run completed
-### Game #012 Phase 10 — Adversarial Review
-- Resumed exactly from `STATUS.md -> NEXT ACTION`; no production implementation started.
-- Created `GAME12_ADVERSARIAL.md` and attacked all 12 required areas: repetition, brute force, predicate redundancy, topology readability, controller/focus abuse, persistence, progress monotonicity, progression routes, oracle leakage, scope creep, commercial honesty and fresh-implementer ambiguity.
-- **Product survives Phase 10. KILL = NO.** No attack required new mechanics or scope expansion.
-- Added `P10-01` reasoning-skeleton gate so nominal family quotas cannot hide a campaign that still feels like repeated articulation spotting. Acts III–VI require >=60% of cases whose first decisive step is not initial articulation; no three consecutive cases may share the same first two reasoning steps.
-- Added `P10-02` human anti-enumeration acceptance test: high search count alone does not prove depth; representative mid/late cases fail if complete-state testing beats the intended invariant chain.
-- Added `P10-03` exact leave-one-out + class-ablation report. Any late predicate whose removal leaves the same unique canonical solution is rejected as decorative redundancy; six predicates require every atom to be individually necessary.
-- Added `P10-04` exact held-reposition command matrix: B cancels held state rather than also undoing; piece cycling/reset-hold disabled while held; inspect shows committed topology only; solved commit precedes success navigation.
-- Consolidated Phase-9 corruption repair into `P10-05`: both-local-corrupt enters uncommitted recovery, attempts compatible Cloud first, never writes/uploads blank progress until explicit new-profile choice; future-version profiles block destructive older writes.
-- Added `P10-06` content lifecycle rules: revised stable IDs remain grandfathered solved; removed IDs stay historical but leave current denominator/gates; replacements get new IDs; unlocked achievements are never revoked and current content must preserve achievement attainability.
-- Fully enumerated the canonical 36-case progression structure. Minimum 4-of-6 choices + four backfills + 4-of-5 pre-finale produces up to 53,156,250 branch combinations, but none bypasses mandatory Act-I C1–C4 or the >=24 total gate.
-- Found and repaired a real **30-case-floor ambiguity**: reduced launch manifests must still have six acts of 5–6 active cases; Acts II–V always gate at four solves; Act I C1–C4 remain mandatory; Act VI still requires >=24 total; finale requires four other active Act-VI cases.
-- Added `P10-08` runtime oracle firewall: shipping runtime cannot consume witness solutions, satisfying-assignment sets/counts, ablation tables, authoring critical-zone analysis, extendability, or reasoning skeleton pre-solve.
-- Added `P10-09` commercial claim separation: exact case count, price, Deck status and languages remain business/release facts, not premature store promises.
-- Fresh-implementer attack found no remaining unassigned gameplay invention after the P10 repairs; remaining unknowns are explicit empirical gates or implementation-flexible engineering choices.
+### Game #012 Phase 11 — Specification Freeze
+- Resumed exactly from prior `STATUS.md -> NEXT ACTION`.
+- Read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md`, and the full active Game #012 authority chain named by STATUS.
+- Created `GAME12_FINAL_FREEZE.md` as the stand-alone implementation-facing authority.
+- Consolidated exact board/piece/topology rules, including the final hole definition: holes are zero-boundary remaining-open components and therefore count inside component count.
+- Consolidated canonical solution equivalence and exhaustive shared-evaluator certification.
+- Consolidated deterministic 30–36 case / six-act manifest structure, mandatory Act-I C1–C4, Acts II–V four-solve gates, >=24 total solve gate for Act VI, and four-other-Act-VI finale gate.
+- Consolidated reasoning-skeleton anti-repetition gates, anti-enumeration human curation, assignment thresholds, leave-one-out predicate necessity, and class ablation.
+- Consolidated controller/mouse/keyboard flows, 40-logical-px board floor, held-reposition command matrix, transaction ordering, and current-state-only topology feedback.
+- Consolidated runtime oracle firewall excluding witness solutions, satisfying sets/counts, ablation/critical-zone diagnostics, extendability and pre-solve reasoning skeleton from ordinary shipping paths.
+- Consolidated atomic persistence, backup recovery, `UNCOMMITTED_RECOVERY`, Cloud-first recovery after both local copies corrupt, future-version refusal, semantic set-union Cloud merge and idempotent demo import.
+- Consolidated revised/removed/replaced case lifecycle, current active completion denominator and monotonic platform achievements.
+- Separated frozen game design commitments from empirical release gates, business variables and implementation-flexible engineering choices.
+- Carried explicit empirical gates for 1280x800 worst-case layout, anti-brute playtest, handheld fatigue, six-case demo comprehension and price/value validation.
+- Added concrete acceptance tests covering rules fixtures, certificates, progression, persistence/Cloud/import, controller races, localization overflow, save migrations and oracle leakage.
+- Frozen out-of-scope/change-control boundary; implementation must not invent new mechanics to fill gaps.
+- `OPENWORK` remains a provisional title; deterministic dedicated repository target = `Mikayilzade/openwork`.
+- Fresh-implementer freeze verdict: no important gameplay behavior remains assigned only to superseded historical prose.
+- **Game #012 DESIGN COMPLETE = YES.**
+
+### Game #012 migration attempt
+- Checked dedicated repository `Mikayilzade/openwork`.
+- Repository does not currently exist / is unavailable to this factory session.
+- Migration therefore remains **PENDING, NON-BLOCKING**.
+- All completed `GAME12_*` files, including `GAME12_FINAL_FREEZE.md`, are retained intact as a frozen **NON-ACTIVE safety archive**.
+- No Game #012 source file was deleted because destination migration/integrity could not be verified.
+- `GAME_INDEX.md` updated accordingly.
+- Per continuity rule, factory immediately advanced to **Game #013** rather than stopping.
 
 ## Frozen migration state
 Game #006 Stitchspace: pending, non-blocking.
@@ -58,30 +62,26 @@ Game #008 Locksmith's Margin: pending, non-blocking.
 Game #009 Binder's Imposition: pending, non-blocking.
 Game #010 Luggage Carousel Zero: pending, non-blocking.
 Game #011 Missing Step: pending, non-blocking; final authority `GAME11_FINAL_FREEZE.md`.
+Game #012 OPENWORK: pending, non-blocking; final authority `GAME12_FINAL_FREEZE.md`; target `Mikayilzade/openwork` unavailable when checked 2026-09-01.
 
-## NEXT ACTION — GAME #012 PHASE 11 SPECIFICATION FREEZE
-Perform one substantial final consolidation/freeze pass. Do not merely summarize older files. Create `GAME12_FINAL_FREEZE.md` as a stand-alone implementation-facing authority that resolves every historical supersession and contains exact acceptance/change-control gates.
+## NEXT ACTION — GAME #013 PHASE 1 OPPORTUNITY DISCOVERY
+Perform one substantial fresh opportunity-discovery increment and create `GAME13_RESEARCH.md`.
 
-Required checklist:
-1. consolidate exact mechanics, holes-as-components and solution canonicalization;
-2. consolidate six-act 30–36 manifest structure, mandatory Act-I C1–C4, four-solve gates, >=24 Act-VI total and finale gate;
-3. consolidate certification/curation: unique campaign solution default, assignment thresholds, reasoning-skeleton repetition gate, leave-one-out/class-ablation redundancy tests and similarity gates;
-4. consolidate controller/mouse/keyboard UX, current-state feedback, 40px layout floor, P10 held-state matrix and P9/P10 transaction ordering;
-5. consolidate anti-oracle runtime packaging firewall and reasoning-primer boundary;
-6. consolidate atomic persistence, backup, uncommitted local-corruption quarantine, Cloud ordering, future-version refusal and demo-import idempotency;
-7. consolidate revised/removed/replaced-case solved history, current completion denominator and monotonic achievements;
-8. separate design commitments, empirical release gates and business variables;
-9. list explicitly implementation-flexible choices;
-10. carry empirical gates: 1280x800 worst-case layout, anti-brute playtest, handheld fatigue, six-case demo comprehension and price-value validation;
-11. provide concrete implementation acceptance tests for rules fixtures, certificates, progression, persistence/Cloud/import, controller races, localization overflow and oracle leakage;
-12. freeze out-of-scope/change-control boundary;
-13. decide whether provisional title may remain; choose deterministic dedicated-repository target name if design freezes;
-14. confirm no important behavior remains only in superseded historical prose;
-15. set `DESIGN COMPLETE = YES` only if a fresh implementation session can build without inventing important game design.
+Required work:
+1. re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md` and obey the active #013 clean-slate boundary;
+2. use fresh web research for September 2026 market/saturation/platform/player-expectation context;
+3. explicitly derive portfolio exclusion boundaries from Games #001–#012 without reusing them as canon;
+4. identify saturated/currently risky lanes, underserved compact systemic opportunities and scope traps;
+5. generate a broad field of at least **24 genuinely distinct** candidates before pruning;
+6. score them consistently on hook clarity, same-vocabulary depth, scope safety, visual causal legibility, market differentiation, deterministic/testable implementation, content efficiency and demo strength;
+7. kill clear portfolio collisions, trend clones, shallow toys, arithmetic/enumeration collapses and scope-heavy concepts;
+8. retain roughly 10–14 strongest candidates for Phase-2 tournament, with explicit candidate-specific failure risks;
+9. save sources/research conclusions/candidates/kills/retained list in `GAME13_RESEARCH.md`;
+10. update `STATUS.md` and `GAME_INDEX.md` with Phase-1 result and exact Phase-2 NEXT ACTION.
 
-If Phase 11 passes, immediately attempt dedicated-repository migration. If no dedicated repository exists / repository creation is unavailable, mark Game #012 migration pending, retain every completed `GAME12_*` file as a frozen **NON-ACTIVE** safety archive, update `GAME_INDEX.md`, and immediately advance `STATUS.md` to Game #013 Phase 1. Pending migration must not stop the factory.
+Do not select a winner in Phase 1. Do not start implementation.
 
 ## Blockers
-**NONE for factory continuation.** Pending migrations #006–#011 are explicitly non-blocking.
+**NONE for factory continuation.** Pending migrations #006–#012 are explicitly non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #012).
+DESIGN COMPLETE = NO (current active Game #013).
