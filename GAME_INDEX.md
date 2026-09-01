@@ -15,7 +15,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen files non-active. |
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`; migration check returned not found on 2026-09-01. |
 | 011 | **Missing Step** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`; Phase 10/11 complete; repository check returned Not Found on 2026-09-01. |
-| 012 | **TBD** | **IN DESIGN / Phase 1 opportunity discovery next** | TBD | NOT STARTED | Clean active slot. Game #001–#011 are portfolio/exclusion history only. |
+| 012 | **TBD** | **IN DESIGN / Phase 1 complete / Phase 2 Round A next** | TBD | NOT STARTED | 30 concepts generated; 12 survivors retained in `GAME12_RESEARCH.md`; no winner yet. |
 
 ## Game #011 frozen summary
 - Final authority: `GAME11_FINAL_FREEZE.md`.
@@ -32,7 +32,21 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - Migration pending because `Mikayilzade/missing-step` does not exist; Game #011 files remain frozen NON-ACTIVE safety archive.
 
 ## Active Game #012 boundary
-Game #012 starts clean. Games #001–#011 are portfolio/exclusion history only and must not become active canon. Phase 1 must perform fresh market/opportunity research and generate a genuinely distinct field before any concept selection.
+Game #012 starts clean. Games #001–#011 are portfolio/exclusion history only and must not become active canon. `GAME12_RESEARCH.md` is Phase-1 exploratory authority only; it contains 30 generated concepts and 12 Round-A candidates, but no selected winner or frozen mechanics.
+
+## Game #012 Phase-1 survivor field
+- Margin of Error
+- Negative Space Clerk
+- Wrong-Side Assembly
+- The Quiet Majority
+- Misprint Foundry
+- Debt of Distance
+- Witness Protection
+- One Bad Ruler
+- Ink Bleed
+- Public Secret
+- Spare Chair
+- Courtesy Gap
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
