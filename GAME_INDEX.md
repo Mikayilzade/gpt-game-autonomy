@@ -15,7 +15,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen files non-active. |
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`; migration check returned not found on 2026-09-01. |
 | 011 | **Missing Step** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`; repository check returned Not Found on 2026-09-01. |
-| 012 | **TBD** | **IN DESIGN / Phase 2 Round A complete / Round B next** | TBD | NOT STARTED | Round A tested 12 concepts through two concrete cases each; 6 survivors retained in `GAME12_TOURNAMENT.md`; no winner yet. |
+| 012 | **TBD** | **IN DESIGN / Phase 2 Round B complete / Round C next** | TBD | NOT STARTED | Round B depth-proof reduced six survivors to two finalists: Negative Space Clerk and Ink Bleed; no winner yet. |
 
 ## Game #011 frozen summary
 - Final authority: `GAME11_FINAL_FREEZE.md`.
@@ -34,13 +34,15 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 ## Active Game #012 boundary
 Game #012 remains cleanly separated from Games #001–#011. Older games are portfolio/exclusion history only and must not become active canon. `GAME12_RESEARCH.md` is Phase-1 exploratory authority; `GAME12_TOURNAMENT.md` contains active Phase-2 evidence. No winner or mechanics are frozen.
 
-## Game #012 Round-B survivor field
-- Negative Space Clerk
-- Wrong-Side Assembly
-- The Quiet Majority
-- One Bad Ruler *(fragile depth survivor)*
-- Ink Bleed
-- Spare Chair
+## Game #012 Round-C finalist field
+- **Negative Space Clerk** *(candidate label only)* — topology-of-absence placement puzzle; tiny piece vocabulary, goals evaluate components/holes/boundaries/marker partitions of remaining open space.
+- **Ink Bleed** *(candidate label only)* — sequential finite-depth ink wavefronts; earlier wet cells permanently block later drops, making historical frontiers the core reasoning object.
+
+## Game #012 Round-B kills
+- Wrong-Side Assembly — mastery collapses to tree XOR/parity reconstruction.
+- The Quiet Majority — multi-round causal tracing loses to cheap subset brute force before a comfortable readability scale.
+- One Bad Ruler — one-defect search space is tiny; deeper campaign needs prohibited arithmetic/ruler proliferation.
+- Spare Chair — mechanically viable but strong current commercial/surface collision with `Is This Seat Taken?` plus small removal search spaces.
 
 ## Game #012 Round-A kills
 - Margin of Error — arithmetic / enumeration collapse.
