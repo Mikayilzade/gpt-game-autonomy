@@ -20,7 +20,7 @@ Branch: `main`
 Only Game #011 files named below are active game canon. GAME6_*, GAME7_*, GAME8_*, GAME9_* and GAME10_* remain frozen NON-ACTIVE safety archives/history. Fossil Forecast, Queue Sculptor and all other rejected Game #011 concepts are tournament history only, not active canon.
 
 ## Current phase
-**Game #011 — PHASE 4 MECHANICAL ARCHITECTURE COMPLETE / PHASE 5 CONTENT ARCHITECTURE NEXT.** The exact deterministic simulation, edit rules, target grammar, preview boundary, solver/certificate contract and adversarial edge rulings are frozen. Six trace-distinct challenge families are proven with the existing four-opcode vocabulary and exactly one workpiece; no rescue mechanic was added.
+**Game #011 — PHASE 6 UX / PRESENTATION ARCHITECTURE COMPLETE / PHASE 7 COMMERCIAL-RETENTION MODEL NEXT.** Mechanical and content rules remain unchanged. The launch content system, campaign, certification pipeline, difficulty bands, representative witness cases, controller-first UX, Preview boundary, onboarding, accessibility and failure/retry presentation are now frozen enough to hand into commercial/progression design.
 
 ## Active authority for Game #011
 1. `START_HERE.md`
@@ -32,22 +32,33 @@ Only Game #011 files named below are active game canon. GAME6_*, GAME7_*, GAME8_
 7. `GAME11_TOURNAMENT_ROUND_C.md`
 8. `GAME11_PRODUCT_THESIS.md`
 9. `GAME11_MECHANICAL_ARCHITECTURE.md`
+10. `GAME11_CONTENT_ARCHITECTURE.md`
+11. `GAME11_UX_PRESENTATION_ARCHITECTURE.md`
 
 ## This run completed
-- Re-read all required factory and active Game #011 authority and resumed exactly from Phase-4 NEXT ACTION.
-- Created `GAME11_MECHANICAL_ARCHITECTURE.md` as the canonical mechanical authority.
-- Froze single-workpiece state: lane, N/E orientation, successful-stamp count and blocked-PUSH count; rejected a second workpiece as unnecessary complexity.
-- Froze stable token IDs and deleted-start-anchor behavior so deletion cannot ambiguously rotate a loop.
-- Froze exact global tick resolution: prior CLAMP latch promotion, A->D immediate execution, next-tick-only CLAMP scheduling, cursor advance, trace recording and horizon evaluation.
-- Froze PUSH/TURN/STAMP/CLAMP semantics, including multiple CLAMP coalescence, sequential same-tick PUSHes and STAMP no-op behavior.
-- Froze standard exactly-one deletion and mastery exactly-one-on-each-of-two-named-tracks. Mastery legal-edit search space is <=36 under launch ceilings.
-- Froze target grammar to final lane/orientation plus exact/range successful-stamp and blocked-PUSH counts; no hidden history predicates/OR/NOT.
-- Froze monotone early-fail rules and prohibited solver-derived planning DEAD/oracle information.
-- Froze Preview: it may expose post-edit loop schedules, cycle boundaries and CLAMP-active ticks, but never future workpiece state, predicted counts, pass/fail or recommended deletion.
-- Froze exhaustive certification schema with token-ID edit sets, trace hashes/signatures, behavioral equivalence groups and UNIQUE/EQUIVALENT_MULTI/TRACE_MULTI/UNSAT bands.
-- Solver re-check preserved the Round-C 16-pair mastery witness as exactly unique under the canonical semantics.
-- Proved six trace-distinct challenge families without new mechanics: period recurrence, clamp-window avoidance, orientation parity, positional duplicate deletion, same-tick A->D choreography and coupled two-delete beat frequency.
-- Added adversarial rulings for degenerate loops, duplicate opcodes, multiple CLAMPs/PUSHes, final-tick CLAMP, deleting start token and identical-trace duplicate solutions.
+### Phase 5 — Content Architecture
+- Re-read all required factory and active Game #011 authority and resumed exactly from Phase-5 NEXT ACTION.
+- Created `GAME11_CONTENT_ARCHITECTURE.md` without changing Phase-4 rules.
+- Froze canonical authored case data and certificate artifact schemas with stable token IDs, anchors, edit contracts, versions and exact hashes.
+- Froze a 6-act campaign: THE GAP, WINDOWS, WHICH ONE?, SAME TICK, FALSE FRIENDS, TWO ABSENCES.
+- Set target launch count **42** and quality floor **36**, plus an 8-case demo curriculum exposing the complete product identity.
+- Defined generator/search -> certification -> structural rejection -> similarity filtering -> human curation -> placement -> recertification pipeline.
+- Added hard rejection thresholds for UNSAT/multi-solution/degenerate/trivial/overscoped cases and explicit duplicate/near-duplicate fingerprints.
+- Froze difficulty Bands 0–4 from legal edits, period structure, horizon, target conjunction, deceptive prefix, same-tick interactions and coupled-edit space.
+- Added 12 representative certificate-ready/certified-by-exhaustive-enumeration witness skeletons covering tutorial recurrence, duplicate-position, clamp-window, parity, same-tick order and four two-delete mastery structures.
+- Attacked repetition, brute-force play, modular-arithmetic abstraction, horizon tedium, arbitrary target conjunctions and generator sludge.
+- Content sufficiency verdict: PASS with four opcodes + one workpiece; no fifth opcode, second workpiece, third deletion or hidden state justified.
+
+### Phase 6 — UX / Presentation Architecture
+- Performed fresh Steamworks/Steam Deck compatibility research; retained 1280×800 as first-class and designed above the platform minimum legibility floor with configurable text scaling/contrast.
+- Created `GAME11_UX_PRESENTATION_ARCHITECTURE.md`.
+- Froze controller-only, keyboard-only and mouse paths; active-input glyph behavior; no pointer/text-entry dependency.
+- Froze one-screen puzzle layout, token positional identity, deletion ghosting and visible deleted-start-anchor resolution.
+- Preserved Preview non-oracle rule while exposing loop contraction, cycle boundaries, shared tick schedule and derived CLAMP-active ticks.
+- Froze redundant next-tick CLAMP visualization and persistent A->D same-tick order communication.
+- Defined deterministic RUN playback, pause/step/acceleration, rapid REVISE/replay/reset and failure explanation without solution leaks.
+- Defined first-eight-case onboarding, 150% text response, reduced motion, high contrast, color redundancy, controller remapping abstraction and audio separation.
+- Completed hostile UX walkthroughs for controller-only, duplicate tokens, deleted anchors, same-tick actions, final-tick CLAMP, long deceptive failures and rapid retries.
 - No production implementation, test email or Gmail notification created.
 
 ## Frozen migration state
@@ -57,18 +68,19 @@ Game #008 preferred repo `Mikayilzade/locksmiths-margin`: pending, non-blocking.
 Game #009 preferred repo `Mikayilzade/binders-imposition`: pending, non-blocking.
 Game #010 preferred repo `Mikayilzade/luggage-carousel-zero`: pending, non-blocking; final authority `GAME10_FINAL_FREEZE.md`.
 
-## NEXT ACTION — GAME #011 PHASE 5 CONTENT ARCHITECTURE
-Resume from `GAME11_MECHANICAL_ARCHITECTURE.md` and build the canonical content system without changing Phase-4 rules.
+## NEXT ACTION — GAME #011 PHASE 7 COMMERCIAL / RETENTION MODEL
+Resume from the complete active authority, especially `GAME11_CONTENT_ARCHITECTURE.md` and `GAME11_UX_PRESENTATION_ARCHITECTURE.md`.
 
 Mandatory work:
-1. define canonical authored case schema and certified artifact schema, including stable token IDs, phase anchors, eligible edit sets, targets and rule/data versions;
-2. map a 5–7 act campaign to explicit learning deltas and the six Phase-4 challenge families;
-3. set minimum/target release case counts and demo subset, with a content floor that does not depend on adding a fifth opcode or second workpiece;
-4. define generator/search/validator pipeline, rejection thresholds, duplicate/near-duplicate detection and human-curation obligations;
-5. establish measurable difficulty bands from certificate features: legal edit count, period/LCM structure, horizon, target conjunction, deceptive prefix similarity, same-tick interactions and coupled edits;
-6. create at least 10 representative certified case skeletons spanning tutorial, deceptive, duplicate-position, clamp-window, parity, same-tick-order and two-delete mastery families;
-7. attack repetition/content exhaustion and prove sufficient trace variety for the target campaign; if the four-opcode/single-piece vocabulary fails, record evidence before considering any expansion;
-8. if Phase 5 closes cleanly, continue directly into Phase 6 UX/presentation architecture in the same run.
+1. use fresh 2026 market research for comparable premium puzzle games, current pricing/value expectations, demos and Steam positioning; do not infer price from old examples alone;
+2. freeze premium/monetization boundary and a working launch-price band, explicitly separating design decision from empirical pricing test;
+3. define campaign unlock pacing, case-skip policy, act gates and whether all 42/36 cases are required for ending/completion;
+4. define demo subset behavior, save/progress carry-over and replay after purchase;
+5. define achievements/mastery/replay incentives that reward understanding without punishing retries, accessibility, Preview or hints;
+6. define hint/help policy and prevent solver/oracle leakage from becoming normal play;
+7. define Steam platform-feature baseline where relevant (cloud saves, achievements, controller/Deck expectations) without creating live-service dependencies;
+8. adversarially test grind, completion blocking, demo mismatch, price/value mismatch and achievement exploits;
+9. if Phase 7 closes cleanly, continue directly into Phase 8 Technical Implementation Specification in the same run.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#010 remain explicitly non-blocking.
