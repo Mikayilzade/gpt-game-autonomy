@@ -15,7 +15,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen files non-active. |
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
-| 012 | **OPENWORK** *(provisional working title)* | **IN DESIGN / Phase 7 complete / Phase 8 next** | TBD | NOT STARTED | Exact mechanics/content/UX frozen through Phase 7; technical specification next. |
+| 012 | **OPENWORK** *(provisional working title)* | **IN DESIGN / Phase 8 complete / Phase 9 next** | TBD | NOT STARTED | Exact mechanics/content/UX/commercial/technical architecture frozen through Phase 8; whole-game simulation next. |
 
 ## Active Game #012 boundary
 Game #012 remains cleanly separated from Games #001–#011. Older games are portfolio/exclusion history only and must not become active canon.
@@ -29,6 +29,7 @@ Game #012 remains cleanly separated from Games #001–#011. Older games are port
 - `GAME12_CONTENT.md` — Phase-5 authored campaign, schema, certification/curation, difficulty and repetition architecture.
 - `GAME12_UX.md` — Phase-6 controls, current-state topology feedback, predicate visual grammar, onboarding, accessibility, responsive layout and demo/full-game UX continuity.
 - `GAME12_COMMERCIAL.md` — Phase-7 price/progression/demo-import/hints/achievements/replay/platform posture.
+- `GAME12_TECHNICAL.md` — Phase-8 engine/runtime authority layering, deterministic data/evaluator contracts, persistence/Cloud/demo import, Steam/input/localization abstractions, tests and implementation order.
 
 ### Selected identity
 - Working title: **OPENWORK**.
@@ -51,6 +52,9 @@ Game #012 remains cleanly separated from Games #001–#011. Older games are port
 - Progression: Act I first 3 sequential; thereafter current-act free order; next act at 4/6 solved, with late-game safeguards.
 - Assistance: current-state inspection + reusable reasoning primers only; no certifier/runtime solver hints.
 - Platform targets: Steam demo, 12 achievements, Cloud, full controller; Deck Verified targeted but never claimed before Valve verification.
+- Technical direction: supported stable Godot 4.x latest patch at implementation bootstrap (Godot 4.7.2 current on 2026-09-01); deterministic integer rules core independent of scene/platform; shared runtime/certifier evaluator; runtime enumeration forbidden.
+- Persistence: atomic local save + backup/migrations/future-version refusal; solved case IDs are monotonic truth; unlocks and achievements are reconstructed; Cloud/demo compatible solved facts merge by union rather than timestamp overwrite.
+- Steam is an optional adapter; offline play remains complete.
 
 ## Game #012 tournament history
 Round-C winner: Negative Space Clerk mechanical core, renamed provisionally OPENWORK. Ink Bleed rejected. Round-B kills: Wrong-Side Assembly, The Quiet Majority, One Bad Ruler, Spare Chair. Round-A kills: Margin of Error, Misprint Foundry, Debt of Distance, Witness Protection, Public Secret, Courtesy Gap.
