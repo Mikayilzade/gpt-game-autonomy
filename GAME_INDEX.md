@@ -16,18 +16,22 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
 | 012 | **OPENWORK** *(provisional working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
-| 013 | **SEAL BREAK** *(working title)* | **IN DESIGN / Phase 5 Content Architecture complete / Phase 6 next** | TBD | NOT STARTED | 24-case floor and 30-case target proved in `GAME13_CONTENT_ARCHITECTURE.md`; six-act campaign and anti-repetition gates frozen. |
+| 013 | **SEAL BREAK** *(working title)* | **IN DESIGN / Phase 6 UX & Presentation complete / Phase 7 next** | TBD | NOT STARTED | Controller-first/handheld-safe Workbench + Plan/Evidence rails frozen in `GAME13_UX_PRESENTATION.md`; oracle boundary preserved. |
 
 ## Active Game #013 boundary
 Game #013 is the only active design slot. Games #001–#012 are portfolio/exclusion history only. Frozen safety archives #006–#012 remain non-active and must not supply mechanics, theme, title, content or assumed product direction to #013.
 
 **Seal Break** is mechanically locked as a finite deterministic destructive-witness puzzle. Canonical geometry stores each compartment's traversed seams and each socket's covered seams; trigger compartments are derived. One compartment opens atomically per checkpoint. Every intact installed witness whose covered seam is traversed breaks at that checkpoint and never changes break time afterward.
 
-Phase 5 proved content scope without expanding that rule system. The campaign uses six setup families: direct witness reading, divergent witness comparison, survivorship/omission, inverse witness placement, history reconstruction, and coupled placement + history. The 30-case target is six acts of five cases; a coherent 24-case floor removes one non-essential extension from each act (`SB_05, SB_10, SB_15, SB_20, SB_25, SB_30`) while preserving all essential deduction families.
+Phase 5 proved the 24-case commercial floor and 30-case target across six content families without expanding the rule system. Phase 6 proved the player-facing model can remain readable on controller and handheld without live solver assistance.
 
-Every authored case must carry deduction tags, certification class, teaching intent, trigger motifs and anti-repetition metadata and must pass both exhaustive certification and an oracle-free human-solvability review. Logical trigger graphs may not be cheaply reused under relabeling. Late coupled cases require at least three advanced deduction classes. Cases 31–36 remain optional expert content only if they add real recombination without new mechanics or schedule cost.
+Canonical UX is one persistent Workbench plus switchable Plan and Evidence rails. Controller uses semantic focus/navigation rather than a virtual pointer; keyboard-only and controller-only paths are required. All four history modes have discrete card interactions, with ARRANGE_BOUNDED_SUBSET explicitly separating OPEN sequence slots from LEFT CLOSED candidates. Evidence uses icon + plain-language redundancy and target facts remain separate from observed committed facts.
 
-The principal remaining risk is UX/readability: seams, sockets, witness identities, history and evidence must remain inspectable on controller/handheld without live solver feedback. Phase 6 owns that problem. Production implementation remains forbidden inside the factory.
+The Phase-6 oracle boundary is strict: immutable geometry, socket->seam/trigger relations, authored constraints and structural legality may be inspected live; hypothetical break checkpoints, target correctness, closeness, recommended edits and future tear outcomes may not. After Commit, mismatch explanations may show exact observed causal checkpoints/seams but never reveal the next move. Replay/scrub operates only on an immutable committed trace.
+
+Handheld baseline is responsive 1280x800 with no hover dependency, text scaling through 200%, non-color witness identity, reduced-motion/instant reveal, audio independence and collapsible rails rather than shrinking the cabinet below readability. A mechanically valid case is still content-invalid if seam/socket/evidence relations cannot remain legible under these constraints.
+
+Production implementation remains forbidden inside the factory. Phase 7 now owns premium pricing, progression/unlock structure, demo packaging/carryover, achievements/replay posture and monetization boundaries.
 
 ## Frozen Game #012 identity / exclusion summary
 - **OPENWORK**: topology-of-remaining-space placement puzzle.
