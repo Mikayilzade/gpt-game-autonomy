@@ -15,7 +15,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen files non-active. |
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
-| 012 | **OPENWORK** *(provisional working title)* | **IN DESIGN / Phase 4 complete / Phase 5 next** | TBD | NOT STARTED | Exact remaining-space topology rules frozen in `GAME12_MECHANICS.md`; content architecture next. |
+| 012 | **OPENWORK** *(provisional working title)* | **IN DESIGN / Phase 5 complete / Phase 6 next** | TBD | NOT STARTED | Exact mechanics in `GAME12_MECHANICS.md`; campaign/content authority in `GAME12_CONTENT.md`; UX/presentation next. |
 
 ## Active Game #012 boundary
 Game #012 remains cleanly separated from Games #001–#011. Older games are portfolio/exclusion history only and must not become active canon.
@@ -26,19 +26,22 @@ Game #012 remains cleanly separated from Games #001–#011. Older games are port
 - `GAME12_ROUND_C.md` — final head-to-head evidence and winner selection.
 - `GAME12_PRODUCT_THESIS.md` — locked Phase-3 product identity and scope ceiling.
 - `GAME12_MECHANICS.md` — frozen Phase-4 exact gameplay/evaluation/certification rules.
+- `GAME12_CONTENT.md` — Phase-5 authored campaign, schema, certification/curation, difficulty and repetition architecture.
 
 ### Selected identity
 - Working title: **OPENWORK**.
 - Hook: place a few solid pieces; objectives judge only topology of empty space left behind.
 - Lead platform: PC/Steam, controller-first, Deck-conscious.
 - Core fantasy: sculpt absence / reason about the void.
-- Campaign target: 36 authored cases, 30-case quality floor.
+- Campaign target: 36 authored cases, 30-case quality floor, six acts.
 - Hard mechanical ceiling: orthogonal <=9x9; 1–4 pieces; only 1x1/straight 1x2/straight 1x3; <=6 markers; <=6 predicates.
 - Remaining-open connectivity is cardinal. Enclosed holes are remaining-open components with zero board-boundary contact; component counts include holes.
 - Placement order has no semantics.
 - Depth source: coupling component, hole, marker, area and boundary predicates rather than mechanic proliferation.
 - Certifier exhaustively enumerates canonical complete assignments and quotients permutations of interchangeable pieces.
-- Anti-repetition gate: <=25% principal single-articulation cases and strong mid/late predicate coupling.
+- Principal F1 articulation allocation target is 4/36; hard principal articulation ceiling remains <=25%.
+- Representative content contracts: 12 spanning INTRO through MASTERY; 6-case demo protected from consuming mastery examples.
+- Campaign viability remains falsifiable: >=30 certified unique-solution cases plus family/coupling/similarity/difficulty gates before freeze.
 
 ## Game #012 tournament history
 Round-C winner: Negative Space Clerk mechanical core, renamed provisionally OPENWORK. Ink Bleed rejected. Round-B kills: Wrong-Side Assembly, The Quiet Majority, One Bad Ruler, Spare Chair. Round-A kills: Margin of Error, Misprint Foundry, Debt of Distance, Witness Protection, Public Secret, Courtesy Gap.
