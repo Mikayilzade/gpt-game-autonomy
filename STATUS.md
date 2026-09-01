@@ -16,7 +16,7 @@ Branch: `main`
 Game #013 is the only active design slot. Games #001–#012 are exclusion/portfolio history only. Frozen archives #006–#012 are explicitly NON-ACTIVE and must not leak canon into #013.
 
 ## Current phase
-**Game #013 — PHASE 2 CONCEPT TOURNAMENT / ROUND A COMPLETE / ROUND B NEXT.**
+**Game #013 — PHASE 2 CONCEPT TOURNAMENT / ROUND B COMPLETE / ROUND C NEXT.**
 
 ## Active authority for Game #013
 1. `START_HERE.md`
@@ -24,35 +24,37 @@ Game #013 is the only active design slot. Games #001–#012 are exclusion/portfo
 3. `GAME_INDEX.md`
 4. `GAME13_RESEARCH.md`
 5. `GAME13_TOURNAMENT.md`
+6. `GAME13_ROUND_B.md`
 
-## This run completed — Game #013 Phase 2 Round A
+## This run completed — Game #013 Phase 2 Round B
 - Resumed exactly from prior `STATUS.md -> NEXT ACTION` and re-read all active authority.
-- Created `GAME13_TOURNAMENT.md` with an equal destructive pass across all 12 retained candidates.
-- Defined a smallest exact playable rule kernel for every candidate and supplied two diagnostic state/case examples per candidate.
-- Bounded naive action/state spaces and attacked brute force, arithmetic/parity/CSP collapse, tutorial/readability, content depth, asset/technical burden and portfolio collision.
-- Explicitly compared Wax Witness vs Overprint: Wax has stronger physical presentation, but both collapse to aligned-footprint + per-cell composition algebra; both killed rather than retaining redundant candidates.
-- Explicitly compared Cut Here to frozen #009 Binder's Imposition. Despite exceptional hook strength, killed Cut Here because its core reasoning identity substantially reuses independently oriented flat layers + shared transformed cut/trim + local-coordinate consequences.
-- Explicitly tested Dry Run against rejected Ink-Bleed lineage and killed it: absorbent propagation followed by saturated blocking is substantive conceptual reuse, and independently trends toward generic flood-fill sequencing.
-- Killed Pallet Proof (projection familiarity/3D burden), Shared Fuse (#005/load arithmetic collision), Counterweight Clerk (torque arithmetic), Overprint, Wax Witness, Cut Here and Dry Run.
-- Reduced field **12 -> 5** without selecting a winner.
-- Round A survivors: **Carbon Copy, Margin Call, Seal Break, Blind Staple, Transfer Window**.
+- Built one harder finite diagnostic for each of the five Round-A survivors and evaluated spaces of 441–6,048 raw configurations/sequences.
+- Carbon Copy: enumerated 1,296 three-footprint configurations; found one exact solution and documented inverse receiving-layer deductions. Survives only under a hard mixed-depth multi-cell coupling gate.
+- Margin Call: enumerated all 441 admissible >=3x3 crops on the diagnostic; unique solution exists, but the reasoning object remains four rectangle coordinates plus predicate bookkeeping. **KILLED** for rectangle-enumeration/parameter-inflation depth ceiling.
+- Seal Break: enumerated 6,048 seal-subset/open-order setups; unique temporal evidence solution. Demonstrated witness break-time/precedence deductions beyond final-state set cover. **FINALIST**.
+- Blind Staple: raw 1,800 stack/socket configurations, 500 puncture-legal; target has two mechanically equivalent solutions differing only below all penetration depths. Demonstrated top-band/shared-middle deductions that collapse factorial search humanly. **FINALIST**.
+- Transfer Window: enumerated 3,125 five-turn delta sequences; seven satisfy sampled checkpoint/final evidence, with many control histories collapsing to the same useful alignment history. **KILLED** because longer content trends toward modular offset/path enumeration.
+- Derived 5–8 content families and a six-case same-vocabulary demo escalation for every candidate, explicitly separating real new reasoning from parameter inflation.
+- Reduced field **5 -> 3**: **Carbon Copy, Seal Break, Blind Staple**.
+- Created `GAME13_ROUND_B.md` as detailed evidence authority.
 - No production implementation started.
 
-## NEXT ACTION — GAME #013 PHASE 2 / ROUND B
-Build one substantially harder, machine-enumerable diagnostic puzzle for EACH of the five survivors under a comparable action-space budget (target naive space ~100–10,000 states where feasible).
+## NEXT ACTION — GAME #013 PHASE 2 / ROUND C
+Run an equal final tournament across **Carbon Copy, Seal Break, Blind Staple**.
 
 Required work:
-1. re-read all active authority including `GAME13_TOURNAMENT.md`;
-2. define exact state/action semantics for each Round-B diagnostic;
-3. enumerate or exhaustively reason solution count and allowed/shortest solution structure;
-4. document >=3 human deductions per candidate that reduce search before guessing;
-5. derive 5–8 plausible content families per candidate and distinguish real new reasoning from parameter inflation;
-6. test a six-case demo escalation using the same vocabulary;
-7. specifically attack: Carbon Copy transfer-depth-matrix collapse; Margin Call rectangle enumeration; Seal Break set-cover/scheduling collapse; Blind Staple factorial permutation; Transfer Window offset-sequence brute force;
-8. reduce to 2–3 finalists only if evidence is decisive; otherwise kill weak candidates rather than force a quota;
-9. update `GAME13_TOURNAMENT.md`, `STATUS.md`, and `GAME_INDEX.md` with evidence and exact next action.
+1. re-read all active authority including `GAME13_ROUND_B.md`;
+2. build a second hard diagnostic for each finalist that attacks the specific surviving Round-B weakness rather than repeating the same proof;
+3. compare hour-10 reasoning diversity using a hypothetical 24–36-case campaign map and reject cosmetic content families;
+4. produce a six-case demo beatsheet for each with expected player deductions, not only rule introductions;
+5. explicitly attack Carbon Copy and Blind Staple for portfolio collision with #009's flat-layer identity;
+6. explicitly attack Seal Break repetition by proving at least three qualitatively different temporal witness deductions beyond simple first-break ordering;
+7. compare screenshot/GIF/trailer legibility, controller/Deck burden, asset burden, certifier complexity and implementation risk;
+8. choose exactly one winner only if evidence is decisive. If none clears the bar, kill all three and return to a new concept field rather than forcing a winner;
+9. if a winner is selected, begin Phase 3 Product Thesis Lock in the same run only if Round C is fully documented and the transition is safe;
+10. update `STATUS.md`, `GAME_INDEX.md`, and Game #013 authority with exact evidence and NEXT ACTION.
 
-Do not select a winner without Round-B evidence. Do not start implementation.
+Do not start production implementation.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#012 remain non-blocking.
