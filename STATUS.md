@@ -16,7 +16,7 @@ Branch: `main`
 Game #012 remains cleanly separated from Games #001–#011. Older games are exclusion/portfolio history only. Ink Bleed is rejected history, not parallel canon.
 
 ## Current phase
-**Game #012 — PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION COMPLETE / PHASE 9 NEXT.**
+**Game #012 — PHASE 9 WHOLE-GAME SIMULATION COMPLETE / PHASE 10 NEXT.**
 
 ## Active authority for Game #012
 1. `START_HERE.md`
@@ -31,34 +31,23 @@ Game #012 remains cleanly separated from Games #001–#011. Older games are excl
 10. `GAME12_UX.md` — Phase-6 interaction/presentation/accessibility/onboarding authority
 11. `GAME12_COMMERCIAL.md` — Phase-7 commercial/progression/demo/platform authority
 12. `GAME12_TECHNICAL.md` — Phase-8 technical/runtime/persistence/platform/test authority
+13. `GAME12_SIMULATION.md` — Phase-9 whole-product journey repairs; where it explicitly amends earlier clauses, later Phase-9 decisions control until final consolidation
 
 ## This run completed
-### Game #012 Phase 8 — Technical Implementation Specification
+### Game #012 Phase 9 — Whole-Game Simulation
 - Resumed exactly from prior `NEXT ACTION`; no production implementation started.
-- Performed fresh engine/platform verification. Godot release policy currently lists 4.7 as supported; Godot 4.7.2 was released 2026-08-18. Frozen implementation policy is current supported stable Godot 4.x latest patch at bootstrap, presently 4.7.2 rather than a 4.8 development build.
-- Added `GAME12_TECHNICAL.md` as canonical Phase-8 authority.
-- Defined one-way authority layering: immutable case data -> deterministic rules core -> derived topology/predicates -> session state -> presentation. Offline certifier wraps the same evaluator contract; runtime never enumerates candidate solutions.
-- Defined conceptual data structures for boards, markers, pieces, placements, predicates, topology snapshots, evaluation snapshots and certificates.
-- Separated `rules_version`, `case_schema_version`, per-case `content_version` and `save_schema_version`; froze deterministic canonicalization/hashing requirements.
-- Defined application/services/screen architecture with gameplay truth outside UI nodes and Steam as an optional adapter rather than a dependency.
-- Defined atomic placement/reposition/history semantics. Temporary held/reposition state is never persisted as committed truth.
-- Defined persistence with temp-write/validation/backup/atomic replacement, migration fixtures, corruption recovery and hard future-version refusal so an older build cannot overwrite a newer save.
-- Repaired progression authority: solved case IDs are monotonic truth; unlocks are derived, never independently saved as authoritative flags.
-- Defined semantic Steam Cloud merge: compatible solved sets union; clocks never choose solved progress; resume/settings use separate conflict rules; local solve commits before platform sync.
-- Defined crash-safe, idempotent demo->full import using source provenance, compatible case/content identity, solved-ID union, explicit settings whitelist and achievement reconstruction.
-- Defined Steam/null platform abstraction for achievements, Cloud and controller glyphs; offline/local play remains fully functional when Steam is absent.
-- Defined logical input actions and localization-key boundaries; physical button names/rendered text never enter puzzle truth.
-- Set runtime performance policy for <=9x9: full topology recomputation is acceptable; runtime solution enumeration is forbidden. Added offline certifier workflow budgets.
-- Defined golden topology/predicate/placement/certificate tests, save/import/Cloud/progression fixtures, controller/focus/accessibility regression and anti-oracle regression.
-- Froze no-required-custom-telemetry privacy posture.
-- Hostile-passed Phase-7 progression/import/achievement rules and repaired stale unlock flags, timestamp overwrite ambiguity, demo achievement trust, incompatible revised cases, accessibility setting conflicts, resume-vs-solved conflicts, Steam outage handling and demo/full Cloud path collision.
-- Defined future dedicated-repository implementation order T1–T11 and explicit non-goals.
-
-## Fresh evidence recorded
-- Godot official release policy: 4.7 supported; 4.8 development/Q4 estimate.
-- Godot 4.7.2 stable maintenance release dated 2026-08-18.
-- Current Steamworks Steam Input guidance continues to support logical action/native-mode abstraction and action-origin glyph lookup.
-- Current Steam Cloud documentation remains the platform target for cross-device persistence while semantic save merge remains game-owned.
+- Added canonical `GAME12_SIMULATION.md` and paper-simulated all 15 required journeys: onboarding, controller/Deck accessibility, hostile skip path, brute force, struggling-player assistance, demo import, incompatible import, Cloud merge, offline reconciliation, corruption/future-version saves, content updates, worst-case handheld late puzzle, 30-vs-36 campaign, postgame/100%, and rapid-input races.
+- **Repaired progression teaching hole:** Act-I C1–C4 are now mandatory sequential foundation cases so boundary-contact teaching cannot be skipped before Act II. C5/C6 remain optional campaign cases and protected demo material.
+- Added static teaching-manifest lint preventing a later act from assuming a predicate semantic that exists only in a skippable earlier case without established/self-describing UI grammar.
+- Tightened anti-brute curation: MID normally >=40 canonical assignments, LATE >=100, MASTERY >=500, finale >=1000 preferred; no artificial retry friction is allowed as a substitute for deduction depth.
+- Hardened reasoning-primer boundary: eligibility may use non-solution engagement metadata, but primer selection/content may not inspect solution sets, candidate ranking or partial-state extendability.
+- **Repaired dual-local-corruption recovery:** when primary+backup are corrupt, the app must hold an uncommitted recovery candidate, try compatible Cloud recovery first, and disable Cloud upload until a valid profile or explicit new profile is committed. This prevents an empty replacement save from overwriting recoverable Cloud progress.
+- **Repaired content-update progress monotonicity:** already-solved full-game cases remain grandfathered solved across ordinary post-release content revisions; resume state may invalidate, but progression/100%/achievements may not silently shrink. Pre-release incompatible demo import remains stricter.
+- **Repaired rapid-input transaction ambiguity:** domain commit/evaluation precede disposable animation; later inputs may cancel stale tweening but operate only on latest committed state; held reposition, undo, reset-hold and success lock are serialized; solved progress commits before success navigation.
+- Verified hostile 4/6 path cannot reach Act VI with only 20 solves because the existing >=24 total gate forces four backfills.
+- Verified compatible local/Cloud/demo solved facts are monotonic unions and future-version profiles are protected from destructive downgrade writes.
+- Verified anti-oracle line survives simulation: current committed topology is explainable; no hypothetical topology, articulation highlighting, candidate ranking, solution count or extendability check enters runtime play.
+- Carried five explicit empirical gates forward: worst-case 1280x800 layout, anti-brute playtest, handheld interaction fatigue, six-case demo comprehension, and price-value validation at the 30-case floor.
 
 ## Frozen migration state
 Game #006 Stitchspace: pending, non-blocking.
@@ -68,32 +57,28 @@ Game #009 Binder's Imposition: pending, non-blocking.
 Game #010 Luggage Carousel Zero: pending, non-blocking.
 Game #011 Missing Step: pending, non-blocking; final authority `GAME11_FINAL_FREEZE.md`.
 
-## NEXT ACTION — GAME #012 PHASE 9 WHOLE-GAME SIMULATION
-Perform one substantial paper-simulation/adversarial journey increment. Use the frozen mechanics/content/UX/commercial/technical authorities and repair contradictions immediately rather than merely listing them.
+## NEXT ACTION — GAME #012 PHASE 10 ADVERSARIAL REVIEW
+Perform one substantial destructive review pass against the entire repaired authority chain. Do not merely restate risks; repair contradictions or mark falsifiable empirical gates.
 
-Minimum scenario matrix:
-1. fresh keyboard/mouse first boot through first 6 onboarding cases;
-2. controller/Deck first boot at 1280x800 with text scaling, high contrast and reduced motion;
-3. player repeatedly skips the two hardest cases allowed by every 4/6 gate and tries to reach Act VI/finale;
-4. strong player brute-tests placements instead of reasoning in early, mid and mastery cases;
-5. struggling player uses unlimited undo, inspect and permitted reasoning primers without case-specific hints;
-6. demo partial/full progression -> full install -> import -> achievements/unlocks;
-7. existing full progress plus older/newer/incompatible demo import attempts;
-8. two-device Cloud conflict with disjoint solved sets plus conflicting resume/settings;
-9. offline solves -> Steam returns -> achievement/Cloud reconciliation;
-10. corrupt primary + valid backup, both corrupt, and future-version save opened by older build;
-11. content update changes a previously solved/demo case;
-12. late 9x9 / 4-piece / 5–6-predicate case on handheld for readability and interaction fatigue;
-13. 30-case floor vs 36-target campaign value/session shape;
-14. 100% completion/replay/postgame without grind;
-15. rapid input during animations, reposition, undo, reset-hold and success transition.
+Minimum attack list:
+1. fun/repetition — test whether 30–36 cases still collapse to articulation spotting despite family quotas;
+2. blind brute force — attack MID/LATE/MASTERY against P9 assignment thresholds and intended invariant chains without adding retry friction;
+3. predicate redundancy — prove late 4–6-predicate cases are not decorative constraint piles;
+4. topology readability — worst-case holes-as-components, boundary signatures, areas and marker partitions on 9x9;
+5. controller/focus abuse — rapid piece cycling, held reposition, objective panel, pause, reset-hold, reduced motion and success transitions;
+6. persistence corruption — interrupted writes, primary/backup corruption, future-version refusal, P9-05 Cloud quarantine, offline return, import idempotency;
+7. progress monotonicity — revised/removed cases, grandfathered solves, achievements and 100%;
+8. progression exploits — enumerate legal 4/6 + 24-total + finale routes after mandatory Act-I C1–C4;
+9. oracle leakage — inspect, ghosts, primers, cards, resume/platform state;
+10. scope creep — reject pressure for extra shapes, richer boolean grammar, editor/procedural filler/narrative/live-service systems;
+11. commercial honesty — 30 vs 36, demo, price, Deck/localization/controller claims;
+12. implementation ambiguity — fresh-implementer attack: identify any remaining gameplay behavior that would have to be invented.
 
 Required outcome:
-- write `GAME12_SIMULATION.md` with journey traces, contradictions, fixes, empirical gates and any resulting amendments to earlier authorities;
-- verify progression skip paths do not bypass necessary predicate teaching;
-- verify no save/import/Cloud path can silently shrink solved progress;
-- verify the anti-oracle boundary still makes experimentation usable;
-- if Phase 9 closes cleanly, set exact Phase-10 adversarial-review attack list as NEXT ACTION.
+- create `GAME12_ADVERSARIAL.md` with attacks, failures, repairs, kill risks and final Phase-10 recommendation;
+- explicitly decide whether any flaw triggers product kill/redesign versus ordinary content/implementation gating;
+- consolidate any Phase-9 supersessions that would otherwise leave dangerous contradictory wording unresolved;
+- if Phase 10 passes, set exact Phase-11 Specification Freeze checklist as `NEXT ACTION`.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#011 are explicitly non-blocking.
