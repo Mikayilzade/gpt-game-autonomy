@@ -15,7 +15,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen files non-active. |
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
-| 012 | **OPENWORK** *(provisional working title)* | **IN DESIGN / Phase 5 complete / Phase 6 next** | TBD | NOT STARTED | Exact mechanics in `GAME12_MECHANICS.md`; campaign/content authority in `GAME12_CONTENT.md`; UX/presentation next. |
+| 012 | **OPENWORK** *(provisional working title)* | **IN DESIGN / Phase 6 complete / Phase 7 next** | TBD | NOT STARTED | Exact mechanics in `GAME12_MECHANICS.md`; campaign/content in `GAME12_CONTENT.md`; UX/presentation in `GAME12_UX.md`; commercial/retention next. |
 
 ## Active Game #012 boundary
 Game #012 remains cleanly separated from Games #001–#011. Older games are portfolio/exclusion history only and must not become active canon.
@@ -27,6 +27,7 @@ Game #012 remains cleanly separated from Games #001–#011. Older games are port
 - `GAME12_PRODUCT_THESIS.md` — locked Phase-3 product identity and scope ceiling.
 - `GAME12_MECHANICS.md` — frozen Phase-4 exact gameplay/evaluation/certification rules.
 - `GAME12_CONTENT.md` — Phase-5 authored campaign, schema, certification/curation, difficulty and repetition architecture.
+- `GAME12_UX.md` — Phase-6 controls, current-state topology feedback, predicate visual grammar, onboarding, accessibility, responsive layout and demo/full-game UX continuity.
 
 ### Selected identity
 - Working title: **OPENWORK**.
@@ -42,6 +43,9 @@ Game #012 remains cleanly separated from Games #001–#011. Older games are port
 - Principal F1 articulation allocation target is 4/36; hard principal articulation ceiling remains <=25%.
 - Representative content contracts: 12 spanning INTRO through MASTERY; 6-case demo protected from consuming mastery examples.
 - Campaign viability remains falsifiable: >=30 certified unique-solution cases plus family/coupling/similarity/difficulty gates before freeze.
+- UX separates current-state explanation from future-solution inference: current topology may be inspected, but no candidate ranking, articulation highlighting, remaining-solution count or hypothetical topology preview is allowed.
+- 1280x800 target supports the full 9x9 board without pan, six objective cards and color-independent topology/marker/boundary representations.
+- First six cases teach via ordinary-language visual feedback; no topology jargon prerequisite, no long tutorial wall, rapid undo/recovery is baseline.
 
 ## Game #012 tournament history
 Round-C winner: Negative Space Clerk mechanical core, renamed provisionally OPENWORK. Ink Bleed rejected. Round-B kills: Wrong-Side Assembly, The Quiet Majority, One Bad Ruler, Spare Chair. Round-A kills: Margin of Error, Misprint Foundry, Debt of Distance, Witness Protection, Public Secret, Courtesy Gap.
