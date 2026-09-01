@@ -14,7 +14,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 008 | **Locksmith's Margin** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/locksmiths-margin` *(not yet created)* | NOT STARTED | Final authority `GAME8_FINAL_FREEZE.md`; frozen files non-active. |
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen files non-active. |
 | 010 | **Luggage Carousel Zero** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`; migration check returned not found on 2026-09-01. |
-| 011 | **Missing Step** *(working title)* | **IN DESIGN / Phase 3 Product Thesis complete; Phase 4 next** | TBD | NOT STARTED | Round C selected Missing Step over Fossil Forecast and Queue Sculptor; exact 16-pair mastery case certified. |
+| 011 | **Missing Step** *(working title)* | **IN DESIGN / Phase 4 Mechanical Architecture complete; Phase 5 next** | TBD | NOT STARTED | Exact deterministic rules/certification frozen; six trace-distinct families proven with four opcodes and one workpiece. |
 
 ## Game #010 frozen summary
 - Final authority: `GAME10_FINAL_FREEZE.md`.
@@ -32,7 +32,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 - Migration is pending because dedicated repository is absent; Game #010 files remain frozen NON-ACTIVE safety archive.
 
 ## Active Game #011 boundary
-Game #011 starts clean. Games #001–#010 are portfolio/exclusion history only. Phase 1 generated a fresh field; Phase 2 Round A cut 12 -> 5, Round B cut 5 -> 3, and Round C selected **Missing Step** over Fossil Forecast and Queue Sculptor. Phase 3 locks Missing Step as a compact deterministic subtractive-programming puzzle: delete an operation from a cyclic machine track, thereby shortening its period and re-phasing later operations against other tracks. `GAME11_PRODUCT_THESIS.md` is now active product authority; tournament losers remain history only.
+Game #011 starts clean. Games #001–#010 are portfolio/exclusion history only. Phase 1 generated a fresh field; Phase 2 Round A cut 12 -> 5, Round B cut 5 -> 3, and Round C selected **Missing Step** over Fossil Forecast and Queue Sculptor. Phase 3 locked the product thesis. Phase 4 now freezes Missing Step as a deterministic subtractive-programming puzzle with exactly one workpiece, four operations (`PUSH`,`TURN`,`STAMP`,`CLAMP`), public A->D tick ordering, one-delete standard cases and bounded named two-track mastery. Six trace-distinct challenge families have been proven without expanding the mechanic vocabulary. `GAME11_MECHANICAL_ARCHITECTURE.md` is active mechanical authority; tournament losers remain history only.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
