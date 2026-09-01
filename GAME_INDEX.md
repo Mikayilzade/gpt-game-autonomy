@@ -16,12 +16,14 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
 | 012 | **OPENWORK** *(provisional working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
-| 013 | **TBD** | **IN DESIGN / Phase 2 Round A complete / Round B next** | TBD | NOT STARTED | Tournament reduced 12 -> 5: Carbon Copy, Margin Call, Seal Break, Blind Staple, Transfer Window. Authority `GAME13_TOURNAMENT.md`. |
+| 013 | **TBD** | **IN DESIGN / Phase 2 Round B complete / Round C next** | TBD | NOT STARTED | Tournament now 28 -> 12 -> 5 -> 3. Finalists: Carbon Copy, Seal Break, Blind Staple. Authority `GAME13_ROUND_B.md`. |
 
 ## Active Game #013 boundary
 Game #013 is the only active design slot. Games #001–#012 are portfolio/exclusion history only. Frozen safety archives #006–#012 remain non-active and must not supply mechanics, theme, title, content or assumed product direction to #013.
 
-Phase 1 generated 28 concepts and retained 12. Phase 2 Round A then killed seven with equal destructive evidence. Current survivors are **Carbon Copy, Margin Call, Seal Break, Blind Staple, Transfer Window**. No concept is selected; `STATUS.md` defines the Round-B evidence requirements.
+Phase 1 generated 28 concepts and retained 12. Phase 2 Round A reduced those to five. Round B then used finite diagnostics (441–6,048 raw states/configurations), content-family audits and six-case demo escalation tests to kill **Margin Call** and **Transfer Window**. Current finalists are **Carbon Copy, Seal Break, Blind Staple**; no winner is selected. `STATUS.md` defines the Round-C evidence requirements.
+
+Round-B notable evidence: Carbon Copy found one exact solution among 1,296 footprint triples and survives under a strict mixed-depth multi-cell coupling gate; Seal Break found one exact temporal-evidence setup among 6,048 seal/order configurations and demonstrated precedence deductions beyond set cover; Blind Staple reduced 1,800 raw stack/socket configurations to a uniquely meaningful top-three penetration band (two solutions differ only below all staple depths). Margin Call was killed because added difficulty remains rectangle-coordinate enumeration; Transfer Window was killed because longer play remains modular offset-history enumeration.
 
 Round-A notable exclusions: Cut Here was killed despite its top Phase-1 score because shared transformed cuts across independently oriented flat layers substantially collide with #009's portfolio reasoning identity; Dry Run was killed for rejected Ink-Bleed lineage; Overprint and Wax Witness were both killed after direct comparison because both reduce to footprint/per-cell composition algebra.
 
