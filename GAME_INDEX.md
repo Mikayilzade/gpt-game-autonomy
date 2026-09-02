@@ -16,22 +16,24 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
 | 012 | **OPENWORK** *(provisional working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
-| 013 | **SEAL BREAK** *(working title)* | **IN DESIGN / Phase 6 UX & Presentation complete / Phase 7 next** | TBD | NOT STARTED | Controller-first/handheld-safe Workbench + Plan/Evidence rails frozen in `GAME13_UX_PRESENTATION.md`; oracle boundary preserved. |
+| 013 | **SEAL BREAK** *(working title)* | **IN DESIGN / Phase 7 commercial model complete / Phase 8 next** | TBD | NOT STARTED | Premium finite campaign/demo/progression/hints/Steam posture frozen in `GAME13_COMMERCIAL_MODEL.md`; no retention mechanics added. |
 
 ## Active Game #013 boundary
 Game #013 is the only active design slot. Games #001–#012 are portfolio/exclusion history only. Frozen safety archives #006–#012 remain non-active and must not supply mechanics, theme, title, content or assumed product direction to #013.
 
 **Seal Break** is mechanically locked as a finite deterministic destructive-witness puzzle. Canonical geometry stores each compartment's traversed seams and each socket's covered seams; trigger compartments are derived. One compartment opens atomically per checkpoint. Every intact installed witness whose covered seam is traversed breaks at that checkpoint and never changes break time afterward.
 
-Phase 5 proved the 24-case commercial floor and 30-case target across six content families without expanding the rule system. Phase 6 proved the player-facing model can remain readable on controller and handheld without live solver assistance.
+Phase 5 proved the 24-case commercial floor and 30-case target across six content families without expanding the rule system. Phase 6 proved the player-facing model can remain readable on controller and handheld without live solver assistance. Phase 7 now freezes the product wrapper without altering those rules.
 
-Canonical UX is one persistent Workbench plus switchable Plan and Evidence rails. Controller uses semantic focus/navigation rather than a virtual pointer; keyboard-only and controller-only paths are required. All four history modes have discrete card interactions, with ARRANGE_BOUNDED_SUBSET explicitly separating OPEN sequence slots from LEFT CLOSED candidates. Evidence uses icon + plain-language redundancy and target facts remain separate from observed committed facts.
+Commercial posture is one premium base game with free demo, no ads/MTX/energy/hint sales/live-service pressure. Current planning price anchor is $11.99 inside a $9.99–12.99 release-time recommendation range. Progression is small-branch threshold-based: four floor cases per act gate the next act; fifth/capstone cases are optional for forward progression. The 24-case floor is a complete campaign and marketing may claim only the number of certified cases that actually ship.
 
-The Phase-6 oracle boundary is strict: immutable geometry, socket->seam/trigger relations, authored constraints and structural legality may be inspected live; hypothetical break checkpoints, target correctness, closeness, recommended edits and future tear outcomes may not. After Commit, mismatch explanations may show exact observed causal checkpoints/seams but never reveal the next move. Replay/scrub operates only on an immutable committed trace.
+The demo is a curated six-beat vertical slice spanning direct cause, first-crossed semantics, paired discrimination, omission/survivorship, inverse witness placement and genuine late coupled play. Demo progress/settings may carry into the full game only through shared versioned IDs/contracts; a demo wrapper cannot falsely mark a mechanically different full case solved.
 
-Handheld baseline is responsive 1280x800 with no hover dependency, text scaling through 200%, non-color witness identity, reduced-motion/instant reveal, audio independence and collapsible rails rather than shrinking the cabinet below readability. A mechanically valid case is still content-invalid if seam/socket/evidence relations cannot remain legible under these constraints.
+Hints are optional, authored, explicitly requested and free. They live outside ordinary editing, so the Phase-6 oracle boundary remains strict: immutable geometry/input legality may be inspected live; hypothetical tear checkpoints, target correctness, closeness and next-action guidance may not be previewed.
 
-Production implementation remains forbidden inside the factory. Phase 7 now owns premium pricing, progression/unlock structure, demo packaging/carryover, achievements/replay posture and monetization boundaries.
+Replay incentives reject timers, stars, grind, streaks and procedural-volume promises. Achievements remain a small stable progression/mastery set. Steam posture includes controller/Deck readability, achievements and robust Cloud-aware persistence; Workshop/leaderboards/accounts are not v1 requirements. Optional expert cases 31–36 are not promised and require strict same-vocabulary anti-repetition admission.
+
+Production implementation remains forbidden inside the factory. Phase 8 owns technical architecture: deterministic shared resolver/certifier contract, schemas, state machine, persistence/cloud/demo import, input abstraction, localization readiness, performance assumptions, test hooks and future implementation order.
 
 ## Frozen Game #012 identity / exclusion summary
 - **OPENWORK**: topology-of-remaining-space placement puzzle.
