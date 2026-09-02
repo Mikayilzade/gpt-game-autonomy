@@ -16,7 +16,7 @@ Branch: `main`
 Game #013 is the only active design slot. Games #001–#012 are exclusion/portfolio history only. Frozen archives #006–#012 are explicitly NON-ACTIVE and must not leak canon into #013.
 
 ## Current phase
-**Game #013 — PHASE 9 WHOLE-GAME SIMULATION COMPLETE / PHASE 10 ADVERSARIAL REVIEW NEXT.**
+**Game #013 — PHASE 10 ADVERSARIAL REVIEW COMPLETE / PASS-TO-FREEZE / PHASE 11 SPECIFICATION FREEZE NEXT.**
 
 ## Active authority for Game #013
 1. `START_HERE.md`
@@ -33,52 +33,45 @@ Game #013 is the only active design slot. Games #001–#012 are exclusion/portfo
 12. `GAME13_COMMERCIAL_MODEL.md`
 13. `GAME13_TECHNICAL_SPEC.md`
 14. `GAME13_WHOLE_GAME_SIMULATION.md`
+15. `GAME13_ADVERSARIAL_REVIEW.md`
 
-Where Phase-9 explicitly repairs a cross-file integration contradiction, the repair in `GAME13_WHOLE_GAME_SIMULATION.md` is authoritative until the older file is textually normalized.
+Phase-9 and Phase-10 explicit repairs supersede conflicting older wording until Phase 11 normalizes them into final authority.
 
-## This run completed — Game #013 Phase 9
-- Re-read factory authority and every active Game #013 file named by the previous status.
-- Performed a hostile end-to-end paper simulation rather than a happy-path narrative.
-- Simulated first boot/profile, SB_01 onboarding, first wrong submission, mismatch/replay/return-to-edit, and the first-hour learning sequence.
-- Simulated Acts III–VI against the concrete Phase-5 dependency graph, including omission/survivorship, inverse witness placement, free history reconstruction and coupled late play.
-- Simulated both the 24-case commercial floor and 30-case target, including truthful progression/achievement semantics.
-- Simulated the six-beat demo, identical campaign-case import, mechanically modified demo wrapper, repeated idempotent import and full-profile-preexisting progress.
-- Simulated repeated wrong commits, three-step hints, alternate certified solution classes, reset/replay, long-absence return and changed content.
-- Simulated controller-only handheld at 1280x800 and 200% text, focus restoration, rail reflow, glyph switching, reduced motion and Instant reveal.
-- Simulated main-save corruption, backup recovery, unsupported future save, compatible Cloud union, irreconcilable conflict and Dynamic Cloud Sync arriving during edit and committed reveal.
-- Simulated hostile input/state behavior: empty submission, rapid Commit/Back/Skip, pause/quit during reveal, repeated import, changed/deleted content, achievement idempotency, missing localization key and stale certification hash.
-- Found and repaired four integration defects/ambiguities in the Phase-9 authority:
-  1. stale abstract Phase-5 introduction ranges conflicted with the concrete campaign; canonical first free reconstruction is **SB_21**, first genuine coupled family is **SB_26**;
-  2. the 24-case floor must never be inferred from numeric IDs; authoritative floor is `required_for_floor` and exactly the four core cases in each act;
-  3. external/Cloud state arriving during a committed run is queued until a safe boundary and may never mutate the immutable submission/trace being revealed;
-  4. persisted solved facts bind to mechanics/acceptance compatibility, so a mechanics-changing case update cannot silently inherit solved state by case ID alone.
-- Explicit canonical 24-case floor: `SB_01–SB_04, SB_06–SB_09, SB_11–SB_14, SB_16–SB_19, SB_21–SB_24, SB_26–SB_29`.
-- Retained only empirical implementation/playtest gates: real solve times, demo-capstone difficulty, art/readability at 1280x800/200%, mismatch tone, optional fifth-case fatigue, and final 24-vs-30 release scope.
-- Created `GAME13_WHOLE_GAME_SIMULATION.md`.
-- Phase-9 verdict: **PASS WITH FOUR INTEGRATION REPAIRS**; no unresolved design ambiguity blocks Phase 10.
+## This run completed — Game #013 Phase 10
+- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md`, and all active Game #013 authority named by status.
+- Performed dedicated destructive passes for hour-3/hour-8 repetition, evidence-card bookkeeping, brute-force/repeated commits, content-family inflation, scope/art/localization/focus/certifier burden, demo truth, accessibility, progression/hints/achievements, persistence/Cloud/demo import/content migration, implementation ambiguity and portfolio collision.
+- Fresh 2026 Steam recheck found no close analogue that overturns the destructive-temporal-witness differentiation thesis; current detective-framed logic products also reinforce keeping Seal Break's marketing on the physical witness/tear mechanic rather than narrative-crime dressing.
+- Froze a stronger anti-bookkeeping content gate: every MID/LATE/CAPSTONE shipping case needs a human solve sketch with at least three class eliminations before residual trial; adding counts/cards/sockets/history length alone is not valid difficulty.
+- Froze a no-distance oracle rule: no satisfied-predicate count, closeness, mismatch relevance sorting, persistent green/red edit-state carryover or aggregate progress across failed submissions.
+- Found and repaired four integration ambiguities:
+  1. **P10-01 Demo:** sixth demo beat must use/certify true coupled mechanics from SB_26–SB_29 lineage; SB_24 alone cannot satisfy the late-loop promise.
+  2. **P10-02 Accessibility density:** every shipping case must pass 1280x800/200% plus pseudo-long localization with semantic evidence-card integrity, cross-highlighting and no UI-memory difficulty.
+  3. **P10-03 Hint achievement:** stable default condition is `max_hint_step_opened == 0`; display name must accurately communicate the condition.
+  4. **P10-04 Changed-case progression:** preserve historical completion and `ever_unlocked`, do not revoke achievements/downstream access, require current-revision solve for current completion, and use explicit versioned migrations for grandfather solve.
+- Confirmed implementation-flexible items vs true rules; remaining unknowns are empirical playtest/release gates, not missing game design.
+- Created `GAME13_ADVERSARIAL_REVIEW.md`.
+- Phase-10 verdict: **PASS-TO-FREEZE**.
 - No production implementation started.
 
-## NEXT ACTION — GAME #013 PHASE 10 / ADVERSARIAL REVIEW
-Perform dedicated destructive review passes and patch any real defect before freeze.
+## NEXT ACTION — GAME #013 PHASE 11 / SPECIFICATION FREEZE
+Perform the final authority consolidation and freeze.
 
 Required work:
-1. re-read all active authority including `GAME13_WHOLE_GAME_SIMULATION.md`;
-2. attack fun/novelty at hour 3 and hour 8: determine whether witness reasoning still feels like discovery or degrades into evidence-card bookkeeping;
-3. attack dominant strategies, repeated-commit enumeration and whether mismatch feedback accidentally makes brute force optimal;
-4. attack every content family for repetition, fake difficulty, predicate density and parameter inflation;
-5. attack scope: authored geometry burden, art/animation burden, localization, controller focus graphs, certifier runtime and QA matrix;
-6. attack demo truth and marketability: ensure six beats expose the real coupled loop without overwhelming new players;
-7. attack UX/accessibility at 1280x800/200% text, long localization, high pattern/icon density, reduced motion and keyboard/controller-only paths;
-8. attack progression, hints, achievements and 24/30-case configuration for contradictions or perverse incentives;
-9. attack persistence/Cloud/demo import/content migration for duplication, overwrite, corruption and stale-version exploits;
-10. perform an implementation-ambiguity audit across Phase 4–9 and identify any rule another implementation session would still have to invent;
-11. recheck portfolio collision against Games #001–#012 and current product differentiation; use fresh web research if commercial/market state materially affects the verdict;
-12. write `GAME13_ADVERSARIAL_REVIEW.md`, update `STATUS.md` and `GAME_INDEX.md`;
-13. end Phase 10 with an explicit **KILL / REWORK / PASS-TO-FREEZE** recommendation. Proceed to Phase 11 only on PASS-TO-FREEZE.
+1. re-read all active authority including `GAME13_ADVERSARIAL_REVIEW.md`;
+2. create `GAME13_FINAL_FREEZE.md` as the single highest-level implementation-facing design authority;
+3. normalize every Phase-9 and Phase-10 repair so a future implementation session never has to discover conflicting old wording;
+4. freeze final product identity, mechanics, content/campaign, UX/accessibility, commercial/demo, technical/persistence and acceptance contracts;
+5. include exact authority order, explicit implementation-flexible items, explicit out-of-scope items, release/configuration gates and empirical playtest gates;
+6. include a complete acceptance checklist sufficient for a new implementation session to build without inventing important gameplay;
+7. run one final contradiction scan across Phase 4–10 and patch any remaining freeze blocker;
+8. only if that passes, set `DESIGN COMPLETE = YES` for Game #013;
+9. after `DESIGN COMPLETE = YES`, attempt migration to a dedicated repository if it exists; expected target name should be checked rather than assumed;
+10. if no dedicated repository exists or repository creation is unavailable, mark migration pending, preserve all `GAME13_*` files as a frozen NON-ACTIVE safety archive, update `GAME_INDEX.md`, and immediately advance `STATUS.md` to **Game #014** Phase 1 without treating #013 as active canon;
+11. if migration succeeds, verify `IMPLEMENTATION_START_HERE.md`, `IMPLEMENTATION_STATUS.md`, CI/email-noise policy and migration integrity before removing any source safety copy.
 
-Do not start production implementation.
+Do not start production implementation inside the factory.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#012 remain non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #013).
+DESIGN COMPLETE = NO (current active Game #013; Phase 11 freeze still required).
