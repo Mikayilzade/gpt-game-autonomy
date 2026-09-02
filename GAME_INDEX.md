@@ -15,35 +15,24 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 009 | **Binder's Imposition** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/binders-imposition` *(not yet created)* | NOT STARTED | Final authority `GAME9_FINAL_FREEZE.md`; frozen files non-active. |
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
-| 012 | **OPENWORK** *(provisional working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
-| 013 | **SEAL BREAK** *(working title)* | **IN DESIGN / Phase 10 adversarial review PASS-TO-FREEZE / Phase 11 next** | TBD | NOT STARTED | Four Phase-10 integration repairs recorded in `GAME13_ADVERSARIAL_REVIEW.md`; no production implementation. |
+| 012 | **OPENWORK** *(provisional working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
+| 013 | **SEAL BREAK** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/seal-break` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
+| 014 | **TBD** | **IN DESIGN / Phase 1 opportunity discovery next** | TBD | NOT STARTED | Active clean design slot; prior games are exclusion history only. |
 
-## Active Game #013 boundary
-Game #013 is the only active design slot. Games #001–#012 are portfolio/exclusion history only. Frozen safety archives #006–#012 remain non-active and must not supply mechanics, theme, title, content or assumed product direction to #013.
+## Active Game #014 boundary
+Game #014 is the only active design slot. Games #001–#013 are portfolio/exclusion history only. Frozen safety archives #006–#013 remain NON-ACTIVE and must not supply mechanics, theme, title, content or assumed product direction to #014.
 
-**Seal Break** is mechanically locked as a finite deterministic destructive-witness puzzle. Canonical geometry stores each compartment's traversed seams and each socket's covered seams; trigger compartments are derived. One compartment opens atomically per checkpoint. Every intact installed witness whose covered seam is traversed breaks at that checkpoint and never changes break time afterward.
+Game #014 begins from clean opportunity discovery. Fresh market research is required before concept selection. Previous concepts, including rejected finalists from older tournaments, are not silently reusable canon; they may only inform exclusion/collision analysis.
 
-Phase 5 proved the 24-case commercial floor and 30-case target across six content families without expanding the rule system. Phase 6 proved a controller/handheld-first UX without live solver assistance. Phase 7 froze the finite premium wrapper, progression, demo, hints, achievements and monetization boundaries. Phase 8 froze shared deterministic resolver/certifier architecture, persistence/Cloud/demo import, input/localization and test contracts.
-
-Phase 9 hostile-simulated the whole product and established four integration repairs:
-1. first free reconstruction is **SB_21**; first genuine coupled family is **SB_26**;
-2. the 24-case floor is not numeric `01–24`; authoritative membership is `required_for_floor`, with exact floor `SB_01–04, 06–09, 11–14, 16–19, 21–24, 26–29`;
-3. external/Cloud state cannot mutate an active committed snapshot/trace and is queued to a safe boundary;
-4. solved status binds to compatible mechanics/acceptance identity, so mechanically changed content is not silently inherited as solved by matching `case_id` alone.
-
-Phase 10 then destructively reviewed fun/repetition, brute force, content inflation, scope, demo truth, accessibility, progression/hints/achievements, persistence and implementation ambiguity and returned **PASS-TO-FREEZE**. Its four additional repairs are:
-1. **P10-01 Demo:** sixth demo beat must certify true coupled mechanics from **SB_26–SB_29** lineage; SB_24 alone cannot satisfy the late-loop promise;
-2. **P10-02 Accessibility density:** every case must pass 1280x800/200% plus pseudo-long localization with semantic evidence-card integrity, cross-highlighting and no UI-memory difficulty;
-3. **P10-03 Hint achievement:** the default no-hint mastery condition is `max_hint_step_opened == 0`; display wording must match its semantics;
-4. **P10-04 Changed-case progression:** preserve historical completion and `ever_unlocked`, do not revoke achievements/downstream access, require current-revision solve for current completion, and use explicit migrations for grandfather solve.
-
-Phase 10 also freezes a stronger anti-bookkeeping content requirement: each MID/LATE/CAPSTONE case needs a human solve sketch with at least three class eliminations before residual trial. Runtime may never expose submission distance/closeness through satisfied-predicate counts, mismatch sorting or persistent edit-state correctness coloring.
-
-`GAME13_WHOLE_GAME_SIMULATION.md` and `GAME13_ADVERSARIAL_REVIEW.md` are active integration authorities until Phase 11 consolidates every repair into `GAME13_FINAL_FREEZE.md`.
-
-Technical direction remains supported stable Godot 4.x; at the 2026-09-02 design checkpoint the design-time baseline is Godot 4.7.2 stable, but production bootstrap must recheck the then-current supported stable release. Production implementation remains forbidden inside the factory.
-
-Phase 11 owns final authority consolidation, acceptance checklist, empirical gates and design-complete decision. Only after `DESIGN COMPLETE = YES` may migration be attempted; if the dedicated repository is unavailable, #013 becomes a frozen non-active safety archive and the factory must immediately advance to #014.
+## Frozen Game #013 identity / exclusion summary
+- **SEAL BREAK**: deterministic destructive-temporal-witness deduction puzzle.
+- Hook: place/read tamper seals across visible seams, commit a bounded compartment-opening history, and use exact irreversible tear/survival evidence to match or reconstruct the required record.
+- Final stand-alone authority: `GAME13_FINAL_FREEZE.md`.
+- Lead platform: PC/Steam; controller/handheld-first premium authored campaign.
+- Frozen core: seam-derived socket triggers; one atomic compartment opening per checkpoint; witness breaks irreversibly at first traversed covered seam; finite placement/history modes; exact frozen evidence vocabulary; no pre-commit solver oracle.
+- Campaign: exact 24-case floor via `required_for_floor`; 30-case target; SB_21 first free reconstruction; SB_26 first genuine coupled family.
+- Critical quality gate: every MID/LATE/CAPSTONE shipping case needs at least three human class eliminations before residual trial; exhaustive certifier alone is insufficient.
+- Migration target checked as `Mikayilzade/seal-break` after freeze on 2026-09-02 and was unavailable, so the full `GAME13_*` package remains a frozen NON-ACTIVE safety archive.
 
 ## Frozen Game #012 identity / exclusion summary
 - **OPENWORK**: topology-of-remaining-space placement puzzle.
@@ -67,6 +56,7 @@ Phase 11 owns final authority consolidation, acceptance checklist, empirical gat
 - #010 Luggage Carousel Zero: adjacent fixed-gantry label permutation over moving luggage, public passenger predicates, intentional non-service and exact certified finite-tick puzzles.
 - #011 Missing Step: destructive deletion of cyclic program steps to change period and cross-loop phase relationships.
 - #012 OPENWORK: solid placement judged by topology of remaining empty space; connected components, enclosed open pockets, marker grouping, area and boundary constraints.
+- #013 SEAL BREAK: irreversible tamper-seal witnesses record first qualifying opening checkpoint; temporal evidence, survivorship, inverse witness placement and bounded history reconstruction.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
