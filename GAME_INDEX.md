@@ -17,12 +17,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
 | 012 | **OPENWORK** *(provisional working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
 | 013 | **SEAL BREAK** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/seal-break` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
-| 014 | **TBD** | **IN DESIGN / Phase 2 Round A complete / Round B next** | TBD | NOT STARTED | 12 concepts destructively tested; 6 semifinalists retained in `GAME14_TOURNAMENT.md`; no winner selected. |
+| 014 | **TBD** | **IN DESIGN / Phase 2 Round B complete / Round C next** | TBD | NOT STARTED | 30 deeper case probes cut six semifinalists to three finalists: Negative Casting, The Missing Reflection, Casting Call. No winner selected. |
 
 ## Active Game #014 boundary
 Game #014 is the only active design slot. Games #001–#013 are portfolio/exclusion history only. Frozen safety archives #006–#013 remain NON-ACTIVE and must not supply mechanics, theme, title, content or assumed product direction to #014.
 
-Game #014 Phase 1 generated the field in `GAME14_RESEARCH.md`. Phase 2 Round A is complete in `GAME14_TOURNAMENT.md`. The active semifinal field is now exactly: **Negative Casting, The Missing Reflection, Ink Debt, False Bottom, Casting Call, Misprint Press**. No winner has been selected. Round B must test case families and cut six to three before Round C product/repetition attacks.
+Game #014 Phase 1 generated the field in `GAME14_RESEARCH.md`; Round A evidence is in `GAME14_TOURNAMENT.md`; Round B evidence is in `GAME14_ROUND_B.md`. The active finalist field is now exactly: **Negative Casting, The Missing Reflection, Casting Call**. Ink Debt, False Bottom and Misprint Press were killed in Round B. No winner has been selected. Round C must test campaign depth, hour-3 repetition, demo/product thesis and commercial/technical burden before selection.
 
 ## Frozen Game #013 identity / exclusion summary
 - **SEAL BREAK**: deterministic destructive-temporal-witness deduction puzzle.
