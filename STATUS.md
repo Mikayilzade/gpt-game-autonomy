@@ -1,6 +1,6 @@
 # FACTORY STATUS
 
-Last updated: 2026-09-02
+Last updated: 2026-09-03
 Repository: `Mikayilzade/gpt-game-autonomy`
 Branch: `main`
 
@@ -9,14 +9,14 @@ Branch: `main`
 - Games #001–#005: **DESIGN COMPLETE / migrated**
 - Games #006–#014: **DESIGN COMPLETE / migration pending / retained NON-ACTIVE safety archives**
 - Current design slot: **Game #015**
-- Selected concept: **NONE — 3 Round-C finalists remain**
+- Selected concept: **FRESH COAT (working title)**
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
 Game #015 is the only active design slot. Games #001–#014 are exclusion/portfolio history only. Frozen archives #006–#014 are explicitly NON-ACTIVE and must not leak canon into #015.
 
 ## Current phase
-**Game #015 — PHASE 2 CONCEPT TOURNAMENT / ROUND B COMPLETE / ROUND C NEXT.**
+**Game #015 — PHASE 3 PRODUCT THESIS COMPLETE / PHASE 4 MECHANICAL ARCHITECTURE NEXT.**
 
 ## Active authority for Game #015
 1. `START_HERE.md`
@@ -25,47 +25,49 @@ Game #015 is the only active design slot. Games #001–#014 are exclusion/portfo
 4. `GAME15_RESEARCH.md`
 5. `GAME15_ROUND_A.md`
 6. `GAME15_ROUND_B.md`
+7. `GAME15_ROUND_C.md`
+8. `GAME15_PRODUCT_THESIS.md`
 
-## This run completed — Game #015 Phase 2 / Round B
+## This run completed — Game #015 Round C + Phase 3
 - Re-read factory authority and all active Game #015 files.
-- Performed the required equal deep tournament on `Wrong Scale`, `Before It Dries`, `Fresh Coat`, `Parallax Bureau`, and `Misaligned`.
-- Formalized the smallest exact state model for every candidate.
-- Built six concrete cases per candidate from tutorial through hour-3 stress.
-- Estimated bounded stress spaces and explicitly tested blind trial/enumeration dominance.
-- Required four or more same-grammar reasoning pressures and wrote a mid-case human-proof route with >=3 state-class eliminations where viable.
-- Defined normalized repetition signatures, ~24-case content paths, reusable asset vocabularies, authoring burden and same-rules 15–30 minute demos.
-- Re-attacked controller/handheld and non-color accessibility.
-- Refreshed exact-name/mechanic market evidence. `Misaligned` is already occupied as a title by both a 2023 Steam shooter and a March-2026 puzzle, so it is internal-label-only if retained. `Spray Paint Simulator` occupies freeform spraying/restoration, sharpening Fresh Coat's required distinction around object masking and persistent exposure history.
-- Scored all five under the same 90-point matrix.
-- **Killed `Wrong Scale`**: once protected from Superliminal collision it exposes a small legend-permutation CSP; 5!–6! state spaces invite Check spam and 24-case depth needs rule inflation.
-- **Killed `Parallax Bureau`**: deterministic coarse target predicates weaken the intuitive image promise, while richer silhouettes restore ambiguity; useful multi-view content has disproportionate authoring/QA cost.
-- **Advanced exactly three Round-C finalists:**
-  1. `Fresh Coat` — strongest current production ratio, failure readability and same-rule spatial/history depth.
-  2. `Misaligned` (internal label only) — exact provenance deduction and excellent implementation ratio; enumeration/repetition risk remains.
-  3. `Before It Dries` — credible geometry/provenance elimination of action-order classes; scheduling-collapse risk remains.
-- Created `GAME15_ROUND_B.md` as full recoverable evidence.
-- No production implementation or email/Gmail action performed.
+- Completed the final destructive tournament on `Fresh Coat`, `Misaligned` and `Before It Dries`.
+- Froze a minimum comparison rulebook for each finalist with no optional-mechanic rescue.
+- Mapped each finalist to a 24-case / 8x3 campaign attempt and required new reasoning families rather than parameter growth.
+- Wrote two late/capstone proof routes per finalist and normalized each underlying CSP.
+- **Killed `Misaligned`** because transform-domain elimination remains both the certifier model and an attractive human strategy; 24 cases mostly increase constraint density and the working title is already occupied.
+- **Killed `Before It Dries`** because late cases reliably foreground wet-life deadlines/partial-order scheduling; contact/provenance is meaningful but does not remain the dominant mental model.
+- **Selected `Fresh Coat`** because temporary 3D occlusion, self-obligated mask objects and persistent ordered exposure history add a legitimate human spatial-reasoning representation beyond solver enumeration.
+- Explicitly attacked and bounded Fresh Coat's set-partition-collapse risk and 4-object readability risk.
+- Fresh market refresh reconfirmed that `Spray Paint Simulator` occupies freeform spray/restoration and that `Masking Print` occupies flat mask/order printing; selected identity therefore remains discrete 3D workpieces-as-masks plus persistent exposure history, not spraying skill or flat stencil order.
+- Created `GAME15_ROUND_C.md` as recoverable tournament evidence.
+- Safely continued into Phase 3 because the winner was clear and the next phase was directly connected.
+- Created `GAME15_PRODUCT_THESIS.md` and locked target player, PC/Steam-first premium framing, controller/handheld baseline, one-sentence hook, core fantasy/loop, 24-case campaign scale, scope ceiling, non-goals, demo promise, accessibility principles, commercial boundary and empirical gates.
+- Working title `FRESH COAT` remains provisional; no shipping-title claim is frozen.
+- No production implementation, test email or Gmail action performed.
 
 ## Frozen migration note
 Games #006–#014 remain migration-pending NON-ACTIVE archives. Their missing repositories are non-blocking. Migrate each independently if/when its dedicated repository becomes available; verify handoff/integrity before deleting only that game's retained safety files.
 
-## NEXT ACTION — GAME #015 PHASE 2 / ROUND C
-Re-read all active Game #015 authority, especially `GAME15_ROUND_B.md`, then run the final destructive tournament on `Fresh Coat`, `Misaligned` (internal label), and `Before It Dries`.
+## NEXT ACTION — GAME #015 PHASE 4 MECHANICAL ARCHITECTURE
+Re-read all active Game #015 authority, especially `GAME15_ROUND_C.md` and `GAME15_PRODUCT_THESIS.md`, then fully specify the exact mechanical architecture.
 
 Required work:
-1. freeze the minimum rulebook for each with no optional mechanics;
-2. map a credible 24-case campaign into 8 groups x 3 and require each group to earn a new reasoning family rather than parameter growth;
-3. write at least two late/capstone proof routes per finalist with >=3 class eliminations before residual trial;
-4. normalize each underlying CSP and decide whether embodiment adds human reasoning or merely hides finite assignment/search;
-5. define Check/undo/current-state inspection so brute force is not encouraged, without lives, timers or punitive Check rationing;
-6. estimate content-authoring/certifier burden and the first vertical-slice empirical gate;
-7. attack 10-second GIF/screenshot communication and a 20-minute same-rules demo finale;
-8. refresh collision/title evidence where needed and re-check portfolio exclusion;
-9. apply special attacks: Fresh Coat must defeat set-partition collapse and 4-object readability; Misaligned must defeat transform enumeration/repetition and needs a new title if selected; Before It Dries must defeat disguised scheduling and keep contact/provenance as the dominant mental model;
-10. select exactly one winner only if it clearly survives. If none survives, kill all three and return Game #015 to fresh opportunity discovery rather than forcing a concept.
-11. If a winner is selected, create the Round-C decision file and advance `STATUS.md` to Phase 3 Product Thesis Lock. Do not begin production implementation.
+1. define canonical object, semantic face-region, socket, pose, overlap/occlusion and booth-direction data models;
+2. define legal placement/compatibility and ensure no continuous-physics truth leaks in;
+3. specify exact exposure computation and how partial semantic regions are represented without renderer thresholds;
+4. freeze spray/pass ordering and the per-region ordered coat-history state machine;
+5. freeze rearrangement rules and resolve whether two coats / one rearrangement are universal product ceilings or bounded case parameters;
+6. define final target predicates, validation, failure explanations and non-oracle current-state inspection;
+7. define undo/reset semantics and branch/state recovery expectations at design level;
+8. define difficulty knobs that change reasoning rather than state-count inflation;
+9. define normalized equivalence/repetition signature and certifier responsibilities;
+10. specify canonical edge cases: touching/coplanar faces, cavities, self-occlusion, multiple blockers, identical objects, symmetry, hidden regions, object-as-mask-with-own-target, role reversal;
+11. fully work several puzzles from initial state through proof and result, including at least one late role-reversal/cavity case;
+12. carry forward empirical gates instead of solving them with oracle UI.
+
+Do not begin production implementation.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#014 are non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #015; Phase 2 Round C next).
+DESIGN COMPLETE = NO (current active Game #015; Phase 4 next).
