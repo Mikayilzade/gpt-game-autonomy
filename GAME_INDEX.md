@@ -17,12 +17,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
 | 012 | **OPENWORK** *(provisional working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
 | 013 | **SEAL BREAK** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/seal-break` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
-| 014 | **TBD** | **IN DESIGN / Phase 1 opportunity discovery next** | TBD | NOT STARTED | Active clean design slot; prior games are exclusion history only. |
+| 014 | **TBD** | **IN DESIGN / Phase 1 complete / Phase 2 Round A next** | TBD | NOT STARTED | 30-concept field generated; 18 killed; 12 retained in `GAME14_RESEARCH.md`; no winner selected. |
 
 ## Active Game #014 boundary
 Game #014 is the only active design slot. Games #001–#013 are portfolio/exclusion history only. Frozen safety archives #006–#013 remain NON-ACTIVE and must not supply mechanics, theme, title, content or assumed product direction to #014.
 
-Game #014 begins from clean opportunity discovery. Fresh market research is required before concept selection. Previous concepts, including rejected finalists from older tournaments, are not silently reusable canon; they may only inform exclusion/collision analysis.
+Game #014 Phase 1 is complete. The active tournament field is defined only by `GAME14_RESEARCH.md`: Negative Casting, Museum of Wrong Labels, Counterfeit Window, The Missing Reflection, Ink Debt, False Bottom, Shared Alibi, Casting Call, Palette Witness, Misprint Press, Stage Directions, Edge of Evidence. Phase 2 must destructively test these concepts before selecting anything.
 
 ## Frozen Game #013 identity / exclusion summary
 - **SEAL BREAK**: deterministic destructive-temporal-witness deduction puzzle.
