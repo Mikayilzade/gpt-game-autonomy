@@ -18,42 +18,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 012 | **OPENWORK** *(provisional working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
 | 013 | **SEAL BREAK** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/seal-break` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
 | 014 | **Negative Casting** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`; Phase 11 completed and migration target was unavailable. |
-| 015 | **TBD** | **IN DESIGN / Phase 1 opportunity discovery next** | TBD | NOT STARTED | Current active design slot. Must start from a clean slate; Games #001–#014 are exclusion/portfolio history only. |
+| 015 | **TBD** | **IN DESIGN / Phase 2 Round B complete / 3 Round-C finalists** | TBD | NOT STARTED | Active finalists: Fresh Coat, Misaligned (internal label only), Before It Dries. No winner selected. |
 
 ## Active Game #015 boundary
 Game #015 is the only active design slot. Games #001–#014 are portfolio/exclusion history only. Frozen safety archives #006–#014 remain NON-ACTIVE and must not supply mechanics, theme, title, content or assumed product direction to #015.
 
-No `GAME15_*` canon exists yet. Phase 1 must perform fresh opportunity discovery and current market research before generating and pruning a new concept field.
-
-## Frozen Game #014 identity / exclusion summary
-- **NEGATIVE CASTING**: compact premium spatial-deduction puzzle about sculpting negative space with shadows.
-- Final stand-alone authority: `GAME14_FINAL_FREEZE.md`.
-- Lead platform: PC/Steam; controller/handheld-first; Godot 4.7.x stable/GDScript-first lead direction.
-- Frozen core: exactly two fixed logical point lights; 1–3 sampled straight projection surfaces; socketed opaque polygon blockers with discrete poses; target classes LIT/L1_ONLY/L2_ONLY/BOTH; exact open-segment vs strict-polygon-interior incidence; no authored shadow-mask truth.
-- Frozen depth: protected LIT, endpoint/extent geometry, channel attribution/BOTH, unique producer and cross-surface observational-equivalence splitting.
-- Campaign: NC01–NC24 floor in 8 groups of 3; general 2-of-3 anti-stuck thresholds plus data-driven channel/BOTH/multi-surface foundation prerequisites established by NC03/NC04/NC07.
-- Quality: MID+ content needs proof-carrying connected human-route eliminations plus visible geometric grounding; normalized cognitive route signatures gate repetition.
-- UX: explicit Check, current-pose-only contribution inspection, no solver/counterfactual oracle, non-color semantic encoding, primary-surface hierarchy for 2/3 surfaces.
-- Product: finite premium, $11.99 US target, NC01–NC08 same-rules demo, free hints, no retention economy or paid assistance.
-- Technical/persistence: exact deterministic core separated from renderer; stable ids/revisions/fingerprints; exhaustive certifier; atomic generation saves; idempotent completion; demo import cannot overwrite full progress; only monotonic compatible cloud facts auto-merge; one physical event -> at most one logical action with modal barriers.
-- Empirical implementation gates retained: late 3-surface readability, perceived repetition, first-completion duration/value, renderer clearance threshold, Deck-class performance/readability, Tier-3 hint sufficiency.
-- Migration target `Mikayilzade/negative-casting` was checked after freeze on 2026-09-02 and returned not found, so all `GAME14_*` files remain a frozen NON-ACTIVE safety archive until migration becomes possible.
-
-## Frozen Game #013 identity / exclusion summary
-- **SEAL BREAK**: deterministic destructive-temporal-witness deduction puzzle.
-- Final stand-alone authority: `GAME13_FINAL_FREEZE.md`.
-- Frozen core: seam-derived socket triggers; one atomic compartment opening per checkpoint; witness breaks irreversibly at first traversed covered seam; finite placement/history modes; exact frozen evidence vocabulary; no pre-commit solver oracle.
-- Campaign: exact 24-case floor via `required_for_floor`; 30-case target; SB_21 first free reconstruction; SB_26 first genuine coupled family.
-- Critical quality gate: every MID/LATE/CAPSTONE shipping case needs at least three human class eliminations before residual trial; exhaustive certifier alone is insufficient.
-- Migration target `Mikayilzade/seal-break` was unavailable when checked on 2026-09-02, so the full package remains a frozen NON-ACTIVE safety archive.
-
-## Frozen Game #012 identity / exclusion summary
-- **OPENWORK**: topology-of-remaining-space placement puzzle.
-- Final stand-alone authority: `GAME12_FINAL_FREEZE.md`.
-- Lead platform: PC/Steam; controller-first; finite premium authored campaign.
-- Frozen core: orthogonal <=9x9; 1–4 pieces; 1x1/straight 1x2/straight 1x3; markers <=6; predicates <=6; holes are zero-boundary remaining-open components and count as components.
-- Depth source: component/hole/marker/area/boundary predicate coupling with strict anti-articulation/repetition gates.
-- Migration target `Mikayilzade/openwork` did not exist when checked on 2026-09-01, so the full package remains a frozen NON-ACTIVE safety archive.
+Game #015 has completed opportunity discovery and Concept Tournament Rounds A–B. Current active evidence is `GAME15_RESEARCH.md`, `GAME15_ROUND_A.md`, and `GAME15_ROUND_B.md`. Round C must choose among Fresh Coat, Misaligned (internal label only), and Before It Dries, or kill all three; no winner is canon yet.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
