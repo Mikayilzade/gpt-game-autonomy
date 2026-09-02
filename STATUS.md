@@ -9,52 +9,48 @@ Branch: `main`
 - Games #001–#005: **DESIGN COMPLETE / migrated**
 - Games #006–#013: **DESIGN COMPLETE / migration pending / retained NON-ACTIVE safety archives**
 - Current design slot: **Game #014**
-- Selected concept: **NONE — clean opportunity discovery required**
+- Selected concept: **NONE — Phase-2 tournament required**
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
-Game #014 is the only active design slot. Games #001–#013 are exclusion/portfolio history only. Frozen archives #006–#013 are explicitly NON-ACTIVE and must not leak canon into #014. Do not silently revive rejected/completed concepts as Game #014.
+Game #014 is the only active design slot. Games #001–#013 are exclusion/portfolio history only. Frozen archives #006–#013 are explicitly NON-ACTIVE and must not leak canon into #014.
 
 ## Current phase
-**Game #014 — PHASE 1 OPPORTUNITY DISCOVERY NEXT.**
+**Game #014 — PHASE 2 CONCEPT TOURNAMENT / ROUND A NEXT.**
 
 ## Active authority for Game #014
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
+4. `GAME14_RESEARCH.md`
 
-No `GAME14_*` file exists yet. Create the Phase-1 research file during the next substantial run.
+## This run completed — Game #014 Phase 1
+- Re-read factory authority and clean-slate portfolio boundary.
+- Performed fresh September-2026 market scan covering June Steam Next Fest puzzle/indie signals and current 2026 puzzle competition.
+- Recorded explicit portfolio exclusions for Games #001–#013 plus generic/saturated design traps.
+- Generated **30** distinct clean-slate candidate concepts.
+- Killed **18** immediately for portfolio collision, generic Sokoban/route/network behavior, arithmetic/bookkeeping depth, localization burden, weak hook, or likely brute-force play.
+- Retained **12** for equal destructive tournament: Negative Casting, Museum of Wrong Labels, Counterfeit Window, The Missing Reflection, Ink Debt, False Bottom, Shared Alibi, Casting Call, Palette Witness, Misprint Press, Stage Directions, Edge of Evidence.
+- Every retained concept has an explicit failure hypothesis and concrete Phase-2 attack requirement.
+- Created `GAME14_RESEARCH.md` with sources/date, market conclusions, scoring model, full broad field, kills, retained field and tournament protocol.
+- No winner selected. No production implementation started. No email/Gmail notification sent.
 
-## This run completed — Game #013 Phase 11 + continuity transition
-- Re-read factory authority and all active Game #013 authority named by prior status.
-- Created `GAME13_FINAL_FREEZE.md` as the highest implementation-facing authority.
-- Normalized Phase-9 repairs: SB_21 first free reconstruction; SB_26 first genuine coupled family; exact 24-case floor via `required_for_floor`; queued external state during committed traces; mechanics/acceptance-bound completion compatibility.
-- Normalized Phase-10 repairs: true coupled demo capstone must derive from SB_26–SB_29; 1280x800/200% pseudo-long accessibility gate; explicit no-hint achievement semantics; historical/current/ever-unlocked changed-case progression behavior.
-- Froze product identity, mechanics, evidence vocabulary, oracle boundary, campaign/content gates, UX/accessibility, commercial/demo model, technical/persistence contracts, out-of-scope list, implementation-flexible list, empirical release gates and a complete implementation acceptance checklist.
-- Final Phase 4–10 contradiction scan: **PASS**. Remaining unknowns are empirical/release choices, not missing important gameplay design.
-- Set Game #013 **DESIGN COMPLETE = YES**.
-- Checked expected dedicated repository `Mikayilzade/seal-break`; repository was unavailable (404) on 2026-09-02. Repository creation is not available in the current connector surface.
-- Therefore migration is **PENDING**. No Game #013 source file was deleted. The complete `GAME13_*` package is retained as a frozen **NON-ACTIVE safety archive**.
-- Updated `GAME_INDEX.md` with Game #013 frozen identity/migration state and created active row/boundary for Game #014.
-- Immediately advanced factory authority to Game #014 as required; Game #013 is no longer active canon.
-- No production implementation started. No test email/Gmail notification sent.
-
-## NEXT ACTION — GAME #014 PHASE 1 / OPPORTUNITY DISCOVERY
-Perform a clean-slate opportunity-discovery increment substantial enough to create a real tournament field.
+## NEXT ACTION — GAME #014 PHASE 2 / ROUND A
+Run a destructive tournament across all 12 retained concepts from `GAME14_RESEARCH.md`.
 
 Required work:
-1. re-read `START_HERE.md`, this `STATUS.md`, and `GAME_INDEX.md`;
-2. use fresh web research for September-2026 PC/Steam puzzle/indie market state, recent releases/upcoming saturation, pricing/demo/player-expectation signals where relevant;
-3. derive explicit portfolio exclusions from Games #001–#013 without treating their mechanics as reusable canon;
-4. generate at least 24 genuinely distinct candidate concepts, preferably 28+, with concise exact hooks and scope/depth risks;
-5. kill obvious clones, overscoped concepts, generic Sokoban/route/tile/deckbuilder/automation variants, concepts colliding materially with the existing portfolio, and ideas whose apparent depth is only arithmetic/parameter inflation;
-6. retain roughly 10–12 strongest concepts for Phase-2 tournament, each with an explicit failure hypothesis to attack;
-7. create `GAME14_RESEARCH.md` containing sources/date, market conclusions, scoring model, broad field, kills, retained field and Phase-2 test requirements;
-8. update `STATUS.md` and `GAME_INDEX.md` to reflect Phase-1 progress and exact next action.
+1. define exact minimal state/action/goal model for every retained concept;
+2. construct at least one tiny valid micro-instance and one hostile/failure instance per concept;
+3. identify concrete human deduction families; kill concepts whose depth is primarily enumeration, visual fiddling or parameter inflation;
+4. assess deterministic certifier feasibility, authored-content burden, controller/readability burden, demo/trailer strength and portfolio collision;
+5. explicitly compare Negative Casting vs Palette Witness, Casting Call vs Stage Directions, and Counterfeit Window vs False Bottom so mechanically convergent siblings do not both survive without justification;
+6. save tournament evidence in a new `GAME14_TOURNAMENT.md`;
+7. cut the field to roughly **5–6 semifinalists**, each with a harder Round-B failure hypothesis;
+8. update `STATUS.md` and `GAME_INDEX.md`.
 
-Do not select a winner in Phase 1. Do not reuse Game #013 or older rejected concepts merely because their files remain in the factory.
+Do not select a final winner in Round A. Prefer concrete enumerable toy models/calculations where they can expose false depth.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#013 remain non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #014; Phase 1 not yet performed).
+DESIGN COMPLETE = NO (current active Game #014; Phase 2 not yet complete).
