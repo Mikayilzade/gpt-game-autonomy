@@ -16,34 +16,44 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
 | 012 | **OPENWORK** *(provisional working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
-| 013 | **SEAL BREAK** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/seal-break` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
-| 014 | **Negative Casting** *(working title)* | **IN DESIGN / Phase 10 adversarial review complete / Phase 11 freeze next** | TBD | NOT STARTED | Core grammar survived adversarial review; foundation prerequisites, geometric-route grounding, proof-carrying route certification, hint truth, persistence transactions and input ownership tightened; Phase 11 final freeze next. |
+| 013 | **SEAL BREAK** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/seal-break` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
+| 014 | **Negative Casting** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`; Phase 11 completed and migration target was unavailable. |
+| 015 | **TBD** | **IN DESIGN / Phase 1 opportunity discovery next** | TBD | NOT STARTED | Current active design slot. Must start from a clean slate; Games #001–#014 are exclusion/portfolio history only. |
 
-## Active Game #014 boundary
-Game #014 is the only active design slot. Games #001–#013 are portfolio/exclusion history only. Frozen safety archives #006–#013 remain NON-ACTIVE and must not supply mechanics, theme, title, content or assumed product direction to #014.
+## Active Game #015 boundary
+Game #015 is the only active design slot. Games #001–#014 are portfolio/exclusion history only. Frozen safety archives #006–#014 remain NON-ACTIVE and must not supply mechanics, theme, title, content or assumed product direction to #015.
 
-Game #014 Phase 1 generated the field in `GAME14_RESEARCH.md`; Round A evidence is in `GAME14_TOURNAMENT.md`; Round B evidence is in `GAME14_ROUND_B.md`; final product/campaign comparison and selection are in `GAME14_ROUND_C.md`; product authority is `GAME14_PRODUCT_THESIS.md`; mechanical authority is `GAME14_MECHANICAL_ARCHITECTURE.md`; content authority is `GAME14_CONTENT_ARCHITECTURE.md`; UX/presentation authority is `GAME14_UX_PRESENTATION.md`; commercial authority is `GAME14_COMMERCIAL_MODEL.md`; technical implementation authority is `GAME14_TECHNICAL_SPEC.md`; whole-game simulation authority is `GAME14_WHOLE_GAME_SIMULATION.md`; adversarial delta authority is `GAME14_ADVERSARIAL_REVIEW.md`.
+No `GAME15_*` canon exists yet. Phase 1 must perform fresh opportunity discovery and current market research before generating and pruning a new concept field.
 
-**Selected Game #014 concept: Negative Casting.** Compact premium spatial-deduction puzzle: arrange socketed opaque blockers between two logical point lights so 1–3 sampled projection surfaces match required LIT/L1_ONLY/L2_ONLY/BOTH states. Canonical shadow incidence is derived from exact light-to-sample ray intersection with transformed opaque polygon footprints; authored bitmask overrides are forbidden. Frozen depth sources are protected negative space, geometric endpoint/extent reasoning, channel attribution and cross-surface equivalence splitting. The 24-case shipping floor uses 8 groups of 3, introduces the second surface inside the NC01–NC08 demo, reserves three surfaces for late content, and deliberately stays below the Phase-4 mechanical maxima. MID/LATE/CAPSTONE content requires connected human class-elimination routes, now additionally requiring player-legible geometric/causal grounding rather than arbitrary incidence-table logic; capstones require at least four meaningful eliminations across at least three families. Progression keeps the general 2-of-3 anti-stuck group structure but cannot bypass semantic foundations: NC03 channel, NC04 BOTH and NC07 multi-surface become data-driven prerequisites for dependent content. UX freezes one primary surface plus compact secondary cards for multi-surface cases, redundant non-color target/current glyphs, discrete controller-native blocker/surface navigation, explicit Check with mismatch-location-only feedback, and selected-blocker contribution inspection limited strictly to the current pose. Commercial model freezes a finite premium product with $11.99 US target ($9.99–$12.99 normal pre-release band), 24-case Campaign Complete semantics, NC01–NC08 same-rules demo with preferred one-way progress transfer, free optional authored hints, accessibility-safe/no-grind achievements, no scores/timers/dailies/retention economy, offline single-player, desired Steam Cloud, and DLC limited to the same frozen puzzle grammar unless design is explicitly reopened. Technical specification freezes Godot 4.7.x stable/GDScript-first as lead direction, but keeps canonical truth engine-independent: integer/rational geometry, exact open-segment vs strict-polygon-interior incidence, stable data ids/revisions, disposable hash-keyed derived caches, exhaustive <=4^6 reference certification, observational solution equivalence, machine-verifiable intended routes, renderer/logical-truth separation, atomic primary/temp/backup saves, content revision migrations, idempotent demo import and recoverability-first cloud boundaries. Phase 10 further requires proof-carrying human-route certification, normalized cognitive route signatures, state-independent certified hint premises, logic fingerprints for resume/migration, idempotent completion transactions/save generations and one-physical-event-to-one-logical-action ownership with modal barriers. Missing Reflection and Casting Call are rejected tournament history and are not available as silent feature sources.
+## Frozen Game #014 identity / exclusion summary
+- **NEGATIVE CASTING**: compact premium spatial-deduction puzzle about sculpting negative space with shadows.
+- Final stand-alone authority: `GAME14_FINAL_FREEZE.md`.
+- Lead platform: PC/Steam; controller/handheld-first; Godot 4.7.x stable/GDScript-first lead direction.
+- Frozen core: exactly two fixed logical point lights; 1–3 sampled straight projection surfaces; socketed opaque polygon blockers with discrete poses; target classes LIT/L1_ONLY/L2_ONLY/BOTH; exact open-segment vs strict-polygon-interior incidence; no authored shadow-mask truth.
+- Frozen depth: protected LIT, endpoint/extent geometry, channel attribution/BOTH, unique producer and cross-surface observational-equivalence splitting.
+- Campaign: NC01–NC24 floor in 8 groups of 3; general 2-of-3 anti-stuck thresholds plus data-driven channel/BOTH/multi-surface foundation prerequisites established by NC03/NC04/NC07.
+- Quality: MID+ content needs proof-carrying connected human-route eliminations plus visible geometric grounding; normalized cognitive route signatures gate repetition.
+- UX: explicit Check, current-pose-only contribution inspection, no solver/counterfactual oracle, non-color semantic encoding, primary-surface hierarchy for 2/3 surfaces.
+- Product: finite premium, $11.99 US target, NC01–NC08 same-rules demo, free hints, no retention economy or paid assistance.
+- Technical/persistence: exact deterministic core separated from renderer; stable ids/revisions/fingerprints; exhaustive certifier; atomic generation saves; idempotent completion; demo import cannot overwrite full progress; only monotonic compatible cloud facts auto-merge; one physical event -> at most one logical action with modal barriers.
+- Empirical implementation gates retained: late 3-surface readability, perceived repetition, first-completion duration/value, renderer clearance threshold, Deck-class performance/readability, Tier-3 hint sufficiency.
+- Migration target `Mikayilzade/negative-casting` was checked after freeze on 2026-09-02 and returned not found, so all `GAME14_*` files remain a frozen NON-ACTIVE safety archive until migration becomes possible.
 
 ## Frozen Game #013 identity / exclusion summary
 - **SEAL BREAK**: deterministic destructive-temporal-witness deduction puzzle.
-- Hook: place/read tamper seals across visible seams, commit a bounded compartment-opening history, and use exact irreversible tear/survival evidence to match or reconstruct the required record.
 - Final stand-alone authority: `GAME13_FINAL_FREEZE.md`.
-- Lead platform: PC/Steam; controller/handheld-first premium authored campaign.
 - Frozen core: seam-derived socket triggers; one atomic compartment opening per checkpoint; witness breaks irreversibly at first traversed covered seam; finite placement/history modes; exact frozen evidence vocabulary; no pre-commit solver oracle.
 - Campaign: exact 24-case floor via `required_for_floor`; 30-case target; SB_21 first free reconstruction; SB_26 first genuine coupled family.
 - Critical quality gate: every MID/LATE/CAPSTONE shipping case needs at least three human class eliminations before residual trial; exhaustive certifier alone is insufficient.
-- Migration target checked as `Mikayilzade/seal-break` after freeze on 2026-09-02 and was unavailable, so the full `GAME13_*` package remains a frozen NON-ACTIVE safety archive.
+- Migration target `Mikayilzade/seal-break` was unavailable when checked on 2026-09-02, so the full package remains a frozen NON-ACTIVE safety archive.
 
 ## Frozen Game #012 identity / exclusion summary
 - **OPENWORK**: topology-of-remaining-space placement puzzle.
-- Hook: place a few solid pieces; objectives judge only topology of the empty space left behind.
 - Final stand-alone authority: `GAME12_FINAL_FREEZE.md`.
 - Lead platform: PC/Steam; controller-first; finite premium authored campaign.
 - Frozen core: orthogonal <=9x9; 1–4 pieces; 1x1/straight 1x2/straight 1x3; markers <=6; predicates <=6; holes are zero-boundary remaining-open components and count as components.
 - Depth source: component/hole/marker/area/boundary predicate coupling with strict anti-articulation/repetition gates.
-- Migration target: `Mikayilzade/openwork`; repository did not exist when checked on 2026-09-01, so the full `GAME12_*` package is retained as a frozen non-active safety archive.
+- Migration target `Mikayilzade/openwork` did not exist when checked on 2026-09-01, so the full package remains a frozen NON-ACTIVE safety archive.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
@@ -59,6 +69,7 @@ Game #014 Phase 1 generated the field in `GAME14_RESEARCH.md`; Round A evidence 
 - #011 Missing Step: destructive deletion of cyclic program steps to change period and cross-loop phase relationships.
 - #012 OPENWORK: solid placement judged by topology of remaining empty space; connected components, enclosed open pockets, marker grouping, area and boundary constraints.
 - #013 SEAL BREAK: irreversible tamper-seal witnesses record first qualifying opening checkpoint; temporal evidence, survivorship, inverse witness placement and bounded history reconstruction.
+- #014 NEGATIVE CASTING: geometry-derived two-light shadow classification across 1–3 projection surfaces using discrete socketed opaque blockers, exact incidence and proof-carrying human deduction routes.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
