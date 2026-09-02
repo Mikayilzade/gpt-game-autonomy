@@ -16,7 +16,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
 | 012 | **OPENWORK** *(provisional working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
-| 013 | **SEAL BREAK** *(working title)* | **IN DESIGN / Phase 9 whole-game simulation complete / Phase 10 adversarial review next** | TBD | NOT STARTED | Hostile end-to-end simulation passed with four integration repairs recorded in `GAME13_WHOLE_GAME_SIMULATION.md`; no production implementation. |
+| 013 | **SEAL BREAK** *(working title)* | **IN DESIGN / Phase 10 adversarial review PASS-TO-FREEZE / Phase 11 next** | TBD | NOT STARTED | Four Phase-10 integration repairs recorded in `GAME13_ADVERSARIAL_REVIEW.md`; no production implementation. |
 
 ## Active Game #013 boundary
 Game #013 is the only active design slot. Games #001–#012 are portfolio/exclusion history only. Frozen safety archives #006–#012 remain non-active and must not supply mechanics, theme, title, content or assumed product direction to #013.
@@ -25,17 +25,25 @@ Game #013 is the only active design slot. Games #001–#012 are portfolio/exclus
 
 Phase 5 proved the 24-case commercial floor and 30-case target across six content families without expanding the rule system. Phase 6 proved a controller/handheld-first UX without live solver assistance. Phase 7 froze the finite premium wrapper, progression, demo, hints, achievements and monetization boundaries. Phase 8 froze shared deterministic resolver/certifier architecture, persistence/Cloud/demo import, input/localization and test contracts.
 
-Phase 9 then hostile-simulated the whole product from first boot through late campaign, demo/full carryover, wrong answers/hints/replay, handheld/200% text, save corruption, future saves, Cloud conflicts, Dynamic Cloud Sync and hostile input. It passed after four integration repairs:
-1. stale abstract content-introduction ranges are superseded by the concrete campaign: first free reconstruction is **SB_21**; first genuine coupled family is **SB_26**;
+Phase 9 hostile-simulated the whole product and established four integration repairs:
+1. first free reconstruction is **SB_21**; first genuine coupled family is **SB_26**;
 2. the 24-case floor is not numeric `01–24`; authoritative membership is `required_for_floor`, with exact floor `SB_01–04, 06–09, 11–14, 16–19, 21–24, 26–29`;
 3. external/Cloud state cannot mutate an active committed snapshot/trace and is queued to a safe boundary;
 4. solved status binds to compatible mechanics/acceptance identity, so mechanically changed content is not silently inherited as solved by matching `case_id` alone.
 
-`GAME13_WHOLE_GAME_SIMULATION.md` is now part of active authority and owns those Phase-9 integration repairs until older wording is normalized.
+Phase 10 then destructively reviewed fun/repetition, brute force, content inflation, scope, demo truth, accessibility, progression/hints/achievements, persistence and implementation ambiguity and returned **PASS-TO-FREEZE**. Its four additional repairs are:
+1. **P10-01 Demo:** sixth demo beat must certify true coupled mechanics from **SB_26–SB_29** lineage; SB_24 alone cannot satisfy the late-loop promise;
+2. **P10-02 Accessibility density:** every case must pass 1280x800/200% plus pseudo-long localization with semantic evidence-card integrity, cross-highlighting and no UI-memory difficulty;
+3. **P10-03 Hint achievement:** the default no-hint mastery condition is `max_hint_step_opened == 0`; display wording must match its semantics;
+4. **P10-04 Changed-case progression:** preserve historical completion and `ever_unlocked`, do not revoke achievements/downstream access, require current-revision solve for current completion, and use explicit migrations for grandfather solve.
+
+Phase 10 also freezes a stronger anti-bookkeeping content requirement: each MID/LATE/CAPSTONE case needs a human solve sketch with at least three class eliminations before residual trial. Runtime may never expose submission distance/closeness through satisfied-predicate counts, mismatch sorting or persistent edit-state correctness coloring.
+
+`GAME13_WHOLE_GAME_SIMULATION.md` and `GAME13_ADVERSARIAL_REVIEW.md` are active integration authorities until Phase 11 consolidates every repair into `GAME13_FINAL_FREEZE.md`.
 
 Technical direction remains supported stable Godot 4.x; at the 2026-09-02 design checkpoint the design-time baseline is Godot 4.7.2 stable, but production bootstrap must recheck the then-current supported stable release. Production implementation remains forbidden inside the factory.
 
-Phase 10 owns the destructive review: fun/repetition, brute force, evidence bookkeeping, scope/content burden, demo truth, controller/accessibility, progression/hints/achievements, persistence/import/migration, implementation ambiguity and portfolio collision. It must end with explicit KILL / REWORK / PASS-TO-FREEZE.
+Phase 11 owns final authority consolidation, acceptance checklist, empirical gates and design-complete decision. Only after `DESIGN COMPLETE = YES` may migration be attempted; if the dedicated repository is unavailable, #013 becomes a frozen non-active safety archive and the factory must immediately advance to #014.
 
 ## Frozen Game #012 identity / exclusion summary
 - **OPENWORK**: topology-of-remaining-space placement puzzle.
