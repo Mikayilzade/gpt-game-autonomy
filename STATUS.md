@@ -9,48 +9,56 @@ Branch: `main`
 - Games #001–#005: **DESIGN COMPLETE / migrated**
 - Games #006–#013: **DESIGN COMPLETE / migration pending / retained NON-ACTIVE safety archives**
 - Current design slot: **Game #014**
-- Selected concept: **NONE — Phase-2 tournament required**
+- Selected concept: **NONE — Phase-2 tournament in progress**
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
 Game #014 is the only active design slot. Games #001–#013 are exclusion/portfolio history only. Frozen archives #006–#013 are explicitly NON-ACTIVE and must not leak canon into #014.
 
 ## Current phase
-**Game #014 — PHASE 2 CONCEPT TOURNAMENT / ROUND A NEXT.**
+**Game #014 — PHASE 2 CONCEPT TOURNAMENT / ROUND A COMPLETE / ROUND B NEXT.**
 
 ## Active authority for Game #014
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
 4. `GAME14_RESEARCH.md`
+5. `GAME14_TOURNAMENT.md`
 
-## This run completed — Game #014 Phase 1
-- Re-read factory authority and clean-slate portfolio boundary.
-- Performed fresh September-2026 market scan covering June Steam Next Fest puzzle/indie signals and current 2026 puzzle competition.
-- Recorded explicit portfolio exclusions for Games #001–#013 plus generic/saturated design traps.
-- Generated **30** distinct clean-slate candidate concepts.
-- Killed **18** immediately for portfolio collision, generic Sokoban/route/network behavior, arithmetic/bookkeeping depth, localization burden, weak hook, or likely brute-force play.
-- Retained **12** for equal destructive tournament: Negative Casting, Museum of Wrong Labels, Counterfeit Window, The Missing Reflection, Ink Debt, False Bottom, Shared Alibi, Casting Call, Palette Witness, Misprint Press, Stage Directions, Edge of Evidence.
-- Every retained concept has an explicit failure hypothesis and concrete Phase-2 attack requirement.
-- Created `GAME14_RESEARCH.md` with sources/date, market conclusions, scoring model, full broad field, kills, retained field and tournament protocol.
-- No winner selected. No production implementation started. No email/Gmail notification sent.
+## This run completed — Game #014 Phase 2 Round A
+- Re-read all active authority and resumed exactly from prior `NEXT ACTION`.
+- Built exact minimal state/action/goal models for all 12 retained Phase-1 concepts.
+- Constructed at least one valid toy instance and one hostile/failure instance for every concept.
+- Classified human deduction families and explicitly killed concepts whose best form collapses into generic permutation/CSP, edge matching/packing, jigsaw search, or dominated visibility variants.
+- Performed required sibling comparisons:
+  - Negative Casting beats Palette Witness on equal deduction value with lower rendering/accessibility burden.
+  - Casting Call beats Stage Directions on a cleaner multi-view blocker grammar.
+  - False Bottom beats Counterfeit Window on genuinely asymmetric visible-vs-hidden reasoning.
+- Created `GAME14_TOURNAMENT.md` containing full Round-A evidence.
+- Field cut **12 -> 6 semifinalists**: Negative Casting, The Missing Reflection, Ink Debt, False Bottom, Casting Call, Misprint Press.
+- Round-A kills: Museum of Wrong Labels, Counterfeit Window, Shared Alibi, Palette Witness, Stage Directions, Edge of Evidence.
+- Added cross-semifinal collision map and explicit harder Round-B kill conditions.
+- No final winner selected. No production implementation started. No email/Gmail notification sent.
 
-## NEXT ACTION — GAME #014 PHASE 2 / ROUND A
-Run a destructive tournament across all 12 retained concepts from `GAME14_RESEARCH.md`.
+## NEXT ACTION — GAME #014 PHASE 2 / ROUND B
+Run a deeper mechanical-family tournament across the six semifinalists in `GAME14_TOURNAMENT.md`.
 
 Required work:
-1. define exact minimal state/action/goal model for every retained concept;
-2. construct at least one tiny valid micro-instance and one hostile/failure instance per concept;
-3. identify concrete human deduction families; kill concepts whose depth is primarily enumeration, visual fiddling or parameter inflation;
-4. assess deterministic certifier feasibility, authored-content burden, controller/readability burden, demo/trailer strength and portfolio collision;
-5. explicitly compare Negative Casting vs Palette Witness, Casting Call vs Stage Directions, and Counterfeit Window vs False Bottom so mechanically convergent siblings do not both survive without justification;
-6. save tournament evidence in a new `GAME14_TOURNAMENT.md`;
-7. cut the field to roughly **5–6 semifinalists**, each with a harder Round-B failure hypothesis;
-8. update `STATUS.md` and `GAME_INDEX.md`.
+1. construct **5–8 abstract cases per semifinalist** at increasing complexity, not just one-off examples;
+2. identify the shortest plausible human solve path for each case and classify which deduction family actually carries it;
+3. use tiny enumeration/calculation where useful to expose false depth, symmetry, dominant brute force, or equivalent-state inflation;
+4. specifically attack the three overlap clusters:
+   - Negative Casting vs The Missing Reflection vs Casting Call (three distinct visibility/occlusion grammars);
+   - Ink Debt vs Misprint Press (destructive blank-state reasoning vs monotone first-claim precedence);
+   - False Bottom against its own risk that hidden legality is only post-hoc validation;
+5. KILL any concept that fails the harder hypotheses already written in `GAME14_TOURNAMENT.md`; do not add rescue features merely to save it;
+6. compare certifier state growth, controller/handheld readability, content authoring multiplication and 20-minute demo teaching burden;
+7. cut **6 -> 3 finalists** and give each a Round-C hour-3/repetition/product failure hypothesis;
+8. update `GAME14_TOURNAMENT.md`, `STATUS.md`, and `GAME_INDEX.md`.
 
-Do not select a final winner in Round A. Prefer concrete enumerable toy models/calculations where they can expose false depth.
+Do **not** choose the final Game #014 concept in Round B. Round C must still test campaign depth, repetition, demo/product thesis and commercial/technical burden before selection.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#013 remain non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #014; Phase 2 not yet complete).
+DESIGN COMPLETE = NO (current active Game #014; Phase 2 tournament in progress).
