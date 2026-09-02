@@ -9,14 +9,14 @@ Branch: `main`
 - Games #001–#005: **DESIGN COMPLETE / migrated**
 - Games #006–#013: **DESIGN COMPLETE / migration pending / retained NON-ACTIVE safety archives**
 - Current design slot: **Game #014**
-- Selected concept: **NEGATIVE CASTING — Phase 8 Technical Implementation Specification complete**
+- Selected concept: **NEGATIVE CASTING — Phase 9 Whole-Game Simulation complete**
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
 Game #014 is the only active design slot. Games #001–#013 are exclusion/portfolio history only. Frozen archives #006–#013 are explicitly NON-ACTIVE and must not leak canon into #014. Rejected Game #014 tournament concepts are evidence/history, not mechanics available for silent reuse.
 
 ## Current phase
-**Game #014 — PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION COMPLETE / PHASE 9 WHOLE-GAME SIMULATION NEXT.**
+**Game #014 — PHASE 9 WHOLE-GAME SIMULATION COMPLETE / PHASE 10 ADVERSARIAL REVIEW NEXT.**
 
 ## Active authority for Game #014
 1. `START_HERE.md`
@@ -32,53 +32,65 @@ Game #014 is the only active design slot. Games #001–#013 are exclusion/portfo
 11. `GAME14_UX_PRESENTATION.md`
 12. `GAME14_COMMERCIAL_MODEL.md`
 13. `GAME14_TECHNICAL_SPEC.md`
+14. `GAME14_WHOLE_GAME_SIMULATION.md`
 
-## This run completed — Game #014 Phase 8
-- Re-read the complete active authority chain and resumed exactly from Phase-8 `NEXT ACTION`.
-- Performed fresh 2026-09-02 engine/platform research before freezing implementation-sensitive assumptions.
-- Selected **Godot 4.7.x stable, GDScript-first** as the lead implementation direction; puzzle truth is explicitly engine-renderer/physics independent.
-- Froze a five-layer architecture separating exact Core Logic, Content Model, Game State, Presentation/UX and optional Platform Services.
-- Defined canonical integer/rational geometry with normalized `int64` rationals, exact 90-degree transforms and checked-overflow policy.
-- Defined the reference `open light->sample segment intersects strict polygon interior` algorithm using exact boundary-intersection parameters, interval midpoints and exact point-in-polygon classification. Pure tangency/boundary travel does not block; positive-width interior traversal does.
-- Defined canonical blocker/case/surface/human-route schemas with stable ids, revisions and localization-key boundaries.
-- Defined structural + geometry validation, geometry/target/certification SHA-256-style hashes, derived-cache invalidation and a hard ban on authored incidence-mask authority.
-- Defined runtime case state machine, atomic pose mutation, undo/redo/check/reset boundaries and the invariant that only blocker pose state affects puzzle truth.
-- Defined deterministic exhaustive certifier for the frozen <=4^6 ordinary state space, observational equivalence, meaningful solution classes and acceptance of every physically valid target-matching vector.
-- Defined a machine-verifiable human-route contract for the Phase-4 deduction families; solver uniqueness remains insufficient for shipping.
-- Froze renderer/logical-truth separation: GPU shadows are cosmetic; semantic target/current/contribution overlays consume canonical incidence only.
-- Defined recoverability-first persistence with primary/temp/backup atomic writes, checksum validation, per-case content revision handling and stable-id migrations.
-- Defined one-way idempotent demo->full import for NC01–NC08 completion/resume/tutorial/hints/safe settings and safe fallback when demo data is absent/corrupt/incompatible.
-- Defined Steam Cloud as transport, never authority; offline play remains complete, achievement state reconciles from campaign state, and graphics/device-sensitive settings remain local.
-- Defined localization/accessibility persistence boundaries and explicit non-effect on puzzle truth/achievement eligibility.
-- Defined Deck-class performance/readability targets: 1280x800 baseline, 60 fps play target, 30 fps hard floor during heavy visuals; exact logic is expected to be negligible compared with rendering.
-- Added automated geometry/incidence/equivalence/human-route/state/save/input tests, malformed-content hard rejection matrix and developer-only debug hooks.
-- Defined dedicated-repo implementation order: exact headless kernel -> schema/certifier -> headless runtime/persistence -> NC01–NC03 vertical slice -> NC01–NC08 demo architecture proof -> full production phases.
-- Preserved all Phase 3–7 exclusions; no production implementation started. No email/Gmail notification sent.
+## This run completed — Game #014 Phase 9
+- Re-read the active authority chain and resumed exactly from Phase-9 `NEXT ACTION`.
+- Created `GAME14_WHOLE_GAME_SIMULATION.md` and walked the frozen game end-to-end instead of adding systems.
+- Simulated fresh install, first boot, controller-only navigation, pre-NC01 settings/accessibility, and prompt-device switching.
+- Walked NC01–NC08 as a first-time player, including random pose changes, contribution inspection, two incorrect checks, generic non-oracle feedback, leave/resume, NC07 second-surface reveal and NC08 demo completion.
+- Simulated compatible demo->full import, corrupt/incompatible demo data, and a buyer with no demo history.
+- Simulated a representative MID case with a connected endpoint -> cross-surface equivalence -> channel/producer deduction chain and hostile manual probing.
+- Simulated NC17–NC24 late/three-surface progression, stuck-player hint ladder use, capstone human-route gates and campaign-wide cognitive/repetition pressure.
+- Verified 2-of-3 group advancement, skipped-case return, monotonic unlocks and all-24 `Campaign Complete` semantics.
+- Simulated replay, achievements, offline use and reconciliation when platform services return.
+- Attacked cloud conflict/recovery with older/newer valid saves, corrupt local/cloud candidates and incompatible active-session states.
+- Attacked orientation spam, repeated Check, undo/reset abuse, suspend/alt-tab during save, corrupt resume, content revision mismatch and rapid device switching.
+- Added six clarifications without changing frozen gameplay: deliberate-device prompt ownership; blocker-pose-vector resume minimum; demo-import precedence; late-case family sequencing gate; unlock derivation from completion; monotonic-only cloud auto-merge.
+- Preserved all Phase 3–8 exclusions; no production implementation started. No email/Gmail notification sent.
 
-## Fresh external facts used this run
-- Godot current release policy lists 4.7 (June 2026) as a supported stable branch; 4.8 remains a Q4 2026 development target.
-- Godot 4.7 desktop exports support modern Vulkan/Direct3D/Metal paths and Compatibility/OpenGL fallback depending on platform/render method.
-- Current Steam Deck compatibility guidance still requires full default-controller access, correct active-device glyphs, native 1280x800/1280x720 support and a playable default 30 fps-at-800p floor; this design targets 60 fps.
-- Current Steam Cloud docs retain OS root-override support for cross-platform Auto-Cloud paths; exact Auto-Cloud vs explicit API choice remains an implementation-stage platform decision after app ids/save roots exist.
+## Phase-9 repairs / clarifications
+1. `P9-C1`: active prompt family changes only after deliberate input from another device family; focus stays stable.
+2. `P9-C2`: exact blocker pose vector + compatible case/content revision are the minimum authoritative resumable case state; undo/mismatch history is optional.
+3. `P9-C3`: demo data can seed an empty/new full campaign but never overwrite established valid full-game progress.
+4. `P9-C4`: no three consecutive MID/LATE cases should share both the same first decisive family and same final decisive family.
+5. `P9-C5`: group availability is derived/revalidated from completion records and group thresholds rather than trusted solely as saved unlock booleans.
+6. `P9-C6`: cloud auto-merge is limited to monotonic compatible campaign facts; active pose vectors and incompatible revisions are never synthesized field-wise.
 
-## NEXT ACTION — GAME #014 PHASE 9 / WHOLE-GAME SIMULATION
-Create `GAME14_WHOLE_GAME_SIMULATION.md` and simulate the frozen game end-to-end rather than adding systems.
+## Residual risks handed to Phase 10
+- exact-cover-like authoring may still emerge despite geometry-derived incidence;
+- repeated contribution inspection + mismatch-location probing may leak too much practical solver information;
+- empirical readability of NC17–NC24 three-surface layouts at 1280x800;
+- campaign family-order repetition despite nominally different geometry;
+- progression/tutorial bypass under 2-of-3 unlocks;
+- consistency of hint authoring without answer leakage;
+- save/content-revision/cloud conflict and duplicate-solve transaction safety;
+- rapid input-device switching/focus/glyph races;
+- non-color and large-UI accessibility in late cases;
+- human-route certification/content production burden across all 24 cases;
+- commercial value if measured campaign length falls materially below 3 hours;
+- any implementation ambiguity that could let renderer/physics data become logical authority.
+
+## NEXT ACTION — GAME #014 PHASE 10 / ADVERSARIAL REVIEW
+Create `GAME14_ADVERSARIAL_REVIEW.md` and attack the complete frozen design across fun/repetition, geometry integrity, human-route validity, UX/oracle leakage, progression/tutorial bypass, hints, accessibility, content burden, technical determinism, persistence/cloud corruption, device/input races, commercial value and implementation ambiguity.
 
 Required work:
-1. simulate fresh install / first boot / controller-only path / settings and accessibility;
-2. walk NC01–NC08 as a first-time player including wrong actions, two incorrect checks, hint use, leave/resume and NC07 second-surface reveal;
-3. simulate demo->full import plus a no-demo fresh full-game path;
-4. simulate a representative hour-1 MID case with connected human deductions;
-5. simulate NC17–NC24 late/three-surface progression, stuck-player behavior and hint ladder use;
-6. simulate 2-of-3 group unlocks, skipped-case return and all-24 Campaign Complete semantics;
-7. simulate replay, achievements, offline use, cloud conflict/recovery;
-8. attack orientation spam, repeated Check, undo/reset abuse, suspend/alt-tab during save, corrupt resume, content revision mismatch and rapid device switching;
-9. assess campaign-wide cognitive/repetition pressure and repair contradictions only within frozen mechanics;
-10. record every repair and hand Phase 10 a concrete residual attack-surface list.
+1. classify every material finding as `PASS`, `REPAIR NOW`, `EMPIRICAL GATE`, or `DESIGN REOPEN`;
+2. explicitly test whether geometry-derived cases can still devolve into arbitrary exact-cover reasoning;
+3. attack contribution inspection + mismatch feedback as a combined probing oracle;
+4. attack 2-of-3 progression for tutorial/knowledge bypass and late-case prerequisites;
+5. attack NC17–NC24 handheld readability and memory load;
+6. attack repetition using case-family ordering, blocker reuse and intended-route signatures;
+7. attack hints for answer leakage and accessibility for non-color/large-UI/reduced-motion paths;
+8. attack certifier/human-route consistency, equivalence semantics, content revision/migration, atomic saves, cloud conflicts and duplicate solve transactions;
+9. attack action repeat, modal focus and rapid controller/mouse/keyboard switching;
+10. attack commercial scope/value if 24 cases test below the 3-hour floor;
+11. apply safe repairs to affected authority file(s) rather than silently overriding them;
+12. leave Phase 11 a finite specification-freeze checklist plus only explicit empirical implementation gates.
 
-If a Phase-9 contradiction requires changing a frozen rule rather than clarifying implementation, record it explicitly as a design repair and update the affected authority file rather than silently overriding it.
+If a finding requires a true change to the frozen gameplay grammar, mark `DESIGN REOPEN` and update the affected earlier authority rather than proceeding as if it were a clarification.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#013 remain non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #014; Phase 8 complete, Phase 9 next).
+DESIGN COMPLETE = NO (current active Game #014; Phase 9 complete, Phase 10 next).
