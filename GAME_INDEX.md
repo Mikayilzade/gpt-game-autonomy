@@ -18,12 +18,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 012 | **OPENWORK** *(provisional working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
 | 013 | **SEAL BREAK** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/seal-break` *(not yet created)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
 | 014 | **Negative Casting** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`; Phase 11 completed and migration target was unavailable. |
-| 015 | **FRESH COAT** *(working title)* | **IN DESIGN / Phase 5 Content Architecture complete / Phase 6 next** | TBD | NOT STARTED | 24-case F1–F8 campaign, reusable solids/socket motifs, complexity budgets and content certification/repetition gates frozen. |
+| 015 | **FRESH COAT** *(working title)* | **IN DESIGN / Phase 6 UX & Presentation complete / Phase 7 next** | TBD | NOT STARTED | 24-case F1–F8 campaign plus frozen controller-first UX, inspection, reveal, onboarding, hints and accessibility architecture. |
 
 ## Active Game #015 boundary
 Game #015 is the only active design slot. Games #001–#014 are portfolio/exclusion history only. Frozen safety archives #006–#014 remain NON-ACTIVE and must not supply mechanics, theme, title, content or assumed product direction to #015.
 
-Game #015 completed opportunity discovery, Concept Tournament Rounds A–C, Product Thesis, Mechanical Architecture and Content Architecture. `FRESH COAT` is selected as the working concept. Current active evidence is `GAME15_RESEARCH.md`, `GAME15_ROUND_A.md`, `GAME15_ROUND_B.md`, `GAME15_ROUND_C.md`, `GAME15_PRODUCT_THESIS.md`, `GAME15_MECHANICAL_ARCHITECTURE.md`, and `GAME15_CONTENT_ARCHITECTURE.md`. Phase 6 UX / Presentation Architecture is next.
+Game #015 completed opportunity discovery, Concept Tournament Rounds A–C, Product Thesis, Mechanical Architecture, Content Architecture and UX / Presentation Architecture. `FRESH COAT` is selected as the working concept. Current active evidence is `GAME15_RESEARCH.md`, `GAME15_ROUND_A.md`, `GAME15_ROUND_B.md`, `GAME15_ROUND_C.md`, `GAME15_PRODUCT_THESIS.md`, `GAME15_MECHANICAL_ARCHITECTURE.md`, `GAME15_CONTENT_ARCHITECTURE.md`, and `GAME15_UX_PRESENTATION_ARCHITECTURE.md`. Phase 7 Commercial Model / Retention / Platform Package is next.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
