@@ -16,7 +16,7 @@ Branch: `main`
 Game #013 is the only active design slot. Games #001–#012 are exclusion/portfolio history only. Frozen archives #006–#012 are explicitly NON-ACTIVE and must not leak canon into #013.
 
 ## Current phase
-**Game #013 — PHASE 6 UX & PRESENTATION ARCHITECTURE COMPLETE / PHASE 7 COMMERCIAL MODEL NEXT.**
+**Game #013 — PHASE 7 COMMERCIAL MODEL COMPLETE / PHASE 8 TECHNICAL SPECIFICATION NEXT.**
 
 ## Active authority for Game #013
 1. `START_HERE.md`
@@ -30,45 +30,44 @@ Game #013 is the only active design slot. Games #001–#012 are exclusion/portfo
 9. `GAME13_MECHANICAL_ARCHITECTURE.md`
 10. `GAME13_CONTENT_ARCHITECTURE.md`
 11. `GAME13_UX_PRESENTATION.md`
+12. `GAME13_COMMERCIAL_MODEL.md`
 
-## This run completed — Game #013 Phase 6
+## This run completed — Game #013 Phase 7
 - Resumed exactly from prior `STATUS.md -> NEXT ACTION` and re-read all active Game #013 authority.
-- Created `GAME13_UX_PRESENTATION.md` and froze a controller-first, handheld-safe interaction architecture.
-- Chose one persistent Workbench plus switchable Plan/Evidence rails rather than three permanently dense panes; narrow layouts use a collapsible drawer so cabinet geometry remains readable.
-- Defined Workbench labels, seams, sockets, witness identities, target/observed evidence separation and contextual action strip.
-- Froze controller/keyboard/mouse focus groups and semantic navigation; no pointer precision or drag is required and focus restoration is deterministic across overlays/rails/replay.
-- Defined seal placement/removal/move transaction semantics and exact-K budget feedback without correctness hints.
-- Defined UX for all four frozen history modes, including explicit OPEN vs LEFT CLOSED zones for bounded-subset omission cases.
-- Froze plain-language + icon evidence grammar for every Phase-4 predicate, including exact/relative break, survival, same-step, final state and limited compartment facts.
-- Froze the oracle boundary: immutable geometry/input legality may be inspected live; hypothetical tear times, target correctness, closeness and next-action guidance may not be previewed.
-- Defined complete Commit -> deterministic checkpoint reveal -> success/mismatch -> replay/scrub -> Return to Edit flow; skip/reduced motion alter presentation only.
-- Defined retrospective mismatch explanations that identify observed causal seams/checkpoints but never compare against a hidden canonical solution or recommend a next edit.
-- Defined progressive onboarding tied to Phase-5 cases and protected against introducing new input grammar and new logical language simultaneously.
-- Fresh platform/accessibility research checked current Steam Deck controller expectations and Microsoft accessibility guidance; adopted complete controller/keyboard paths, responsive 1280x800 baseline, 100–200% text scaling, non-color identity, contrast targets, reduced motion, audio independence and digital/analog navigation.
-- Defined visual identity as a clean tactile sealed-object inspection bench, explicitly avoiding crime-board, bureaucracy and realistic security-simulator drift.
-- Defined audio/haptics as non-authoritative, including same-checkpoint multi-tear behavior.
-- Defined case-select/pause/help/safe-exit UX hooks without pre-empting Phase-7 economy.
-- Added 26 UX acceptance/adversarial tests plus hard presentation-invalid content gates.
-- Phase-6 verdict: **PASS**. Evidence/history remain readable on handheld without solver-like assistance; no mechanical repair required.
+- Used fresh September-2026 market evidence: current compact puzzle examples support a high-single-digit/low-teens premium band; planning anchor frozen at $11.99 within a $9.99–12.99 recommendation range, subject to release-time recheck.
+- Froze premium baseline, modest discount philosophy, no ads/MTX/energy/hint sales/live-service pressure.
+- Froze small-branch threshold campaign progression: four floor cases per act gate the next act; fifth/capstone case is optional for forward progression; explicit Phase-5 prerequisites remain authoritative.
+- Froze completion semantics: case solved, act core complete, act mastered, 24-floor campaign complete, and full certified casebook complete.
+- Froze six-beat 30–60 minute demo spanning direct cause, first-crossed, paired discrimination, omission/survivorship, inverse placement and genuine late coupled play.
+- Defined idempotent demo carryover: shared case IDs/settings can import, demo-only wrappers cannot falsely mark a different full case solved, and import cannot overwrite newer full-game progress.
+- Added optional authored three-step hints; hints are free, explicitly requested and isolated from ordinary Phase-6 non-oracular editing.
+- Rejected timers, stars, grind, daily retention, procedural-volume promises and leaderboards as replay scaffolding.
+- Defined 10–12 robust achievement posture tied to stable progression/mastery, with 24-vs-30 shipping-count guards.
+- Froze Steam posture: controller/Deck readability, achievements, Cloud, localization-ready architecture; Workshop/leaderboards/accounts are not v1 requirements.
+- Fresh Steam Cloud documentation checked; Phase 8 must explicitly handle Cloud/local conflicts and possible Dynamic Cloud Sync changes instead of assuming save ownership for the entire process lifetime.
+- Defined strict admission gate for optional expert cases 31–36 and truthful store/trailer/content-count contract.
+- Created `GAME13_COMMERCIAL_MODEL.md`.
+- Phase-7 verdict: **PASS**; no mechanics/content/UX contradiction introduced.
 - No production implementation started.
 
-## NEXT ACTION — GAME #013 PHASE 7 / ECONOMY, RETENTION & COMMERCIAL MODEL
-Build the commercial/progression specification for **SEAL BREAK** without adding gameplay systems.
+## NEXT ACTION — GAME #013 PHASE 8 / TECHNICAL IMPLEMENTATION SPECIFICATION
+Create a buildable technical specification without writing production code.
 
 Required work:
-1. re-read all active authority including `GAME13_UX_PRESENTATION.md`;
-2. use fresh September-2026 market research for comparable premium compact puzzle pricing, demos, Steam positioning and player expectations;
-3. freeze base-game pricing posture/range and discount philosophy as a product recommendation, not an irreversible store price;
-4. define campaign unlock pacing across six acts and whether progression is linear, small-branch, or threshold-based while preserving Phase-5 prerequisite logic;
-5. define demo packaging around the six true-hook beats, approximate duration, demo end state and progress carryover into full game;
-6. define whether hints exist; if yes, make them optional and non-monetized and ensure they do not undermine the Phase-6 oracle boundary during ordinary editing;
-7. define replay incentives that do not require timers, stars, grind or procedural content;
-8. define achievements with a small, robust set tied to genuine mastery/progression rather than brittle hidden tricks;
-9. define Steam/platform feature posture: controller/Deck, cloud saves, achievements, localization targets, demo/full save relationship and any optional workshop/leaderboard stance;
-10. freeze monetization boundaries: premium baseline, no ads/MTX/energy/hint sales/live-service pressure;
-11. define completion states, optional expert cases 31–36 admission policy and how a 24-case floor vs 30-case target affects product claims;
-12. define commercial acceptance gates: demo proves real late-loop coupling, store/trailer hook is truthful, content count claim matches certified shipping content, no retention system distorts puzzle quality;
-13. write `GAME13_COMMERCIAL_MODEL.md`, then update `STATUS.md` and `GAME_INDEX.md`; continue into Phase 8 only if commercial structure introduces no contradiction with frozen mechanics/content/UX.
+1. re-read all active authority including `GAME13_COMMERCIAL_MODEL.md`;
+2. choose engine/runtime direction only to the level justified by product requirements; use fresh tool/platform documentation where version/current support matters;
+3. define runtime state machine across boot/menu/case edit/commit/reveal/replay/success/mismatch/return-to-edit;
+4. define canonical data schema for campaign/case/geometry/sockets/history constraints/evidence/localization metadata and validation boundaries;
+5. define one shared deterministic rules contract for runtime and offline certifier, including ordering/canonicalization/hash/version behavior;
+6. define certifier input/output, exhaustive search bounds, equivalence grouping, redundant-evidence checks and human-review handoff;
+7. define persistence schema, atomic local writes, corruption recovery, version migration, Steam Cloud conflict/merge policy, Dynamic Cloud Sync/reload behavior and demo->full import idempotency;
+8. define input abstraction/focus graph/controller/keyboard/mouse contracts and responsive 1280x800/200%-text layout test matrix;
+9. define localization/font/text-overflow architecture without promising unverified languages;
+10. define replay trace representation and guarantee presentation cannot alter authoritative checkpoint order/result;
+11. define performance/resource assumptions appropriate to compact 2D/2.5D presentation and low-spec/handheld target;
+12. define logging/test hooks, deterministic golden fixtures, fuzz/property tests and runtime-vs-certifier parity tests;
+13. define implementation dependency order for the future dedicated repository, but do not implement it here;
+14. write `GAME13_TECHNICAL_SPEC.md`, update `STATUS.md` and `GAME_INDEX.md`; continue to Phase 9 only if the spec leaves no important technical design ambiguity.
 
 Do not start production implementation.
 
