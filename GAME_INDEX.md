@@ -16,24 +16,26 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
 | 012 | **OPENWORK** *(provisional working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
-| 013 | **SEAL BREAK** *(working title)* | **IN DESIGN / Phase 8 technical specification complete / Phase 9 next** | TBD | NOT STARTED | Shared deterministic resolver/certifier, schemas, persistence/Cloud/demo import, input/localization/test architecture frozen in `GAME13_TECHNICAL_SPEC.md`; no production implementation. |
+| 013 | **SEAL BREAK** *(working title)* | **IN DESIGN / Phase 9 whole-game simulation complete / Phase 10 adversarial review next** | TBD | NOT STARTED | Hostile end-to-end simulation passed with four integration repairs recorded in `GAME13_WHOLE_GAME_SIMULATION.md`; no production implementation. |
 
 ## Active Game #013 boundary
 Game #013 is the only active design slot. Games #001–#012 are portfolio/exclusion history only. Frozen safety archives #006–#012 remain non-active and must not supply mechanics, theme, title, content or assumed product direction to #013.
 
 **Seal Break** is mechanically locked as a finite deterministic destructive-witness puzzle. Canonical geometry stores each compartment's traversed seams and each socket's covered seams; trigger compartments are derived. One compartment opens atomically per checkpoint. Every intact installed witness whose covered seam is traversed breaks at that checkpoint and never changes break time afterward.
 
-Phase 5 proved the 24-case commercial floor and 30-case target across six content families without expanding the rule system. Phase 6 proved the player-facing model can remain readable on controller and handheld without live solver assistance. Phase 7 froze the finite premium wrapper, progression, demo, hints, achievements and monetization boundaries. Phase 8 now freezes how the future implementation must execute those rules deterministically.
+Phase 5 proved the 24-case commercial floor and 30-case target across six content families without expanding the rule system. Phase 6 proved a controller/handheld-first UX without live solver assistance. Phase 7 froze the finite premium wrapper, progression, demo, hints, achievements and monetization boundaries. Phase 8 froze shared deterministic resolver/certifier architecture, persistence/Cloud/demo import, input/localization and test contracts.
 
-Technical direction is supported stable Godot 4.x; at the 2026-09-02 design checkpoint the current recommended baseline is Godot 4.7.2 stable, while production bootstrap must recheck the then-current supported stable release. The resolver is a pure Domain module with no scene-tree, animation, Steam, random or wall-clock dependency. Runtime play, replay and offline certification share the same rules contract.
+Phase 9 then hostile-simulated the whole product from first boot through late campaign, demo/full carryover, wrong answers/hints/replay, handheld/200% text, save corruption, future saves, Cloud conflicts, Dynamic Cloud Sync and hostile input. It passed after four integration repairs:
+1. stale abstract content-introduction ranges are superseded by the concrete campaign: first free reconstruction is **SB_21**; first genuine coupled family is **SB_26**;
+2. the 24-case floor is not numeric `01–24`; authoritative membership is `required_for_floor`, with exact floor `SB_01–04, 06–09, 11–14, 16–19, 21–24, 26–29`;
+3. external/Cloud state cannot mutate an active committed snapshot/trace and is queued to a safe boundary;
+4. solved status binds to compatible mechanics/acceptance identity, so mechanically changed content is not silently inherited as solved by matching `case_id` alone.
 
-Case content is data-driven and canonically hashed/versioned. The offline certifier must exhaust finite placement/history spaces, classify exact/observable solution equivalence, detect redundant evidence, and hand off to oracle-free human review. Runtime success accepts every satisfying submission permitted by the frozen case contract rather than secretly matching one author solution.
+`GAME13_WHOLE_GAME_SIMULATION.md` is now part of active authority and owns those Phase-9 integration repairs until older wording is normalized.
 
-Persistence is small-record and atomic with backup recovery. Steam Cloud merges union-safe monotonic progress instead of timestamp-only replacement, handles Dynamic Cloud Sync only at safe state boundaries, and never mutates an active committed trace. Demo-to-full import is one-way/idempotent and only carries solved status when stable case identity plus mechanics/acceptance contract match exactly.
+Technical direction remains supported stable Godot 4.x; at the 2026-09-02 design checkpoint the design-time baseline is Godot 4.7.2 stable, but production bootstrap must recheck the then-current supported stable release. Production implementation remains forbidden inside the factory.
 
-Input is semantic across controller/keyboard/mouse with an authored/reviewable focus graph; target acceptance includes 1280x800 and 200% text scaling. Localization uses keys/templates and font/glyph QA; no unverified language is commercially promised. Presentation reveal is downstream of an already-complete semantic trace, so animation speed/skip/reduced motion cannot alter results.
-
-Production implementation remains forbidden inside the factory. Phase 9 owns hostile whole-game paper simulation: first boot/hour, all campaign reasoning stages, 24/30-case progression, demo/full carryover, hints/replay, controller/handheld, persistence/Cloud/corruption/version changes and unusual player behavior. Any real contradiction found must be repaired in its owning authority before adversarial review.
+Phase 10 owns the destructive review: fun/repetition, brute force, evidence bookkeeping, scope/content burden, demo truth, controller/accessibility, progression/hints/achievements, persistence/import/migration, implementation ambiguity and portfolio collision. It must end with explicit KILL / REWORK / PASS-TO-FREEZE.
 
 ## Frozen Game #012 identity / exclusion summary
 - **OPENWORK**: topology-of-remaining-space placement puzzle.
