@@ -16,7 +16,7 @@ Branch: `main`
 Game #015 is the only active design slot. Games #001–#014 are exclusion/portfolio history only. Frozen archives #006–#014 are explicitly NON-ACTIVE and must not leak canon into #015.
 
 ## Current phase
-**Game #015 — PHASE 3 PRODUCT THESIS COMPLETE / PHASE 4 MECHANICAL ARCHITECTURE NEXT.**
+**Game #015 — PHASE 4 MECHANICAL ARCHITECTURE COMPLETE / PHASE 5 CONTENT ARCHITECTURE NEXT.**
 
 ## Active authority for Game #015
 1. `START_HERE.md`
@@ -27,47 +27,46 @@ Game #015 is the only active design slot. Games #001–#014 are exclusion/portfo
 6. `GAME15_ROUND_B.md`
 7. `GAME15_ROUND_C.md`
 8. `GAME15_PRODUCT_THESIS.md`
+9. `GAME15_MECHANICAL_ARCHITECTURE.md`
 
-## This run completed — Game #015 Round C + Phase 3
-- Re-read factory authority and all active Game #015 files.
-- Completed the final destructive tournament on `Fresh Coat`, `Misaligned` and `Before It Dries`.
-- Froze a minimum comparison rulebook for each finalist with no optional-mechanic rescue.
-- Mapped each finalist to a 24-case / 8x3 campaign attempt and required new reasoning families rather than parameter growth.
-- Wrote two late/capstone proof routes per finalist and normalized each underlying CSP.
-- **Killed `Misaligned`** because transform-domain elimination remains both the certifier model and an attractive human strategy; 24 cases mostly increase constraint density and the working title is already occupied.
-- **Killed `Before It Dries`** because late cases reliably foreground wet-life deadlines/partial-order scheduling; contact/provenance is meaningful but does not remain the dominant mental model.
-- **Selected `Fresh Coat`** because temporary 3D occlusion, self-obligated mask objects and persistent ordered exposure history add a legitimate human spatial-reasoning representation beyond solver enumeration.
-- Explicitly attacked and bounded Fresh Coat's set-partition-collapse risk and 4-object readability risk.
-- Fresh market refresh reconfirmed that `Spray Paint Simulator` occupies freeform spray/restoration and that `Masking Print` occupies flat mask/order printing; selected identity therefore remains discrete 3D workpieces-as-masks plus persistent exposure history, not spraying skill or flat stencil order.
-- Created `GAME15_ROUND_C.md` as recoverable tournament evidence.
-- Safely continued into Phase 3 because the winner was clear and the next phase was directly connected.
-- Created `GAME15_PRODUCT_THESIS.md` and locked target player, PC/Steam-first premium framing, controller/handheld baseline, one-sentence hook, core fantasy/loop, 24-case campaign scale, scope ceiling, non-goals, demo promise, accessibility principles, commercial boundary and empirical gates.
-- Working title `FRESH COAT` remains provisional; no shipping-title claim is frozen.
+## This run completed — Game #015 Phase 4
+- Re-read factory authority and all active Game #015 files named by prior STATUS.
+- Created `GAME15_MECHANICAL_ARCHITECTURE.md` as the exact Phase-4 authority.
+- Froze finite object / semantic atomic-region / socket / orthogonal-pose models and legal arrangement rules with no continuous-physics truth.
+- Defined exact directional exposure as semantic polygon/ray reachability independent of renderer pixels, depth buffers, percentages or epsilon thresholds.
+- Required author subdivision whenever a legal arrangement would partially cover a semantic region; tiny-sliver subdivision is an empirical/content rejection gate rather than a difficulty tool.
+- Froze the main campaign ceiling at **maximum two fixed spray passes and maximum one rearrangement boundary**; no third coat/pass or second rearrangement is needed for campaign depth.
+- Froze ordered per-region histories `RAW`, `A_ONLY`, `B_ONLY`, `A_THEN_B` and exact target predicates.
+- Defined rearrangement as free editing between committed passes, so difficulty is not movement scheduling.
+- Defined factual current-exposure inspection, non-oracle final failure explanations, unlimited undo/reset and branch checkpoints.
+- Defined allowed difficulty knobs and explicit bans on state-count inflation.
+- Defined solution equivalence, normalized repetition signature and certifier responsibilities including symmetry collapse and partial-region detection.
+- Resolved touching/coplanar contact, zero-area contact, cavities, self-occlusion, multiple blockers, hidden regions, identical objects, symmetry, self-obligated masks and role reversal.
+- Fully worked five puzzles from tutorial through FC21 role reversal, including ordered-history and cavity cases.
+- Carried forward empirical gates E1–E5 and added E6 semantic-subdivision/readability gate.
 - No production implementation, test email or Gmail action performed.
 
 ## Frozen migration note
 Games #006–#014 remain migration-pending NON-ACTIVE archives. Their missing repositories are non-blocking. Migrate each independently if/when its dedicated repository becomes available; verify handoff/integrity before deleting only that game's retained safety files.
 
-## NEXT ACTION — GAME #015 PHASE 4 MECHANICAL ARCHITECTURE
-Re-read all active Game #015 authority, especially `GAME15_ROUND_C.md` and `GAME15_PRODUCT_THESIS.md`, then fully specify the exact mechanical architecture.
+## NEXT ACTION — GAME #015 PHASE 5 CONTENT ARCHITECTURE
+Re-read all active Game #015 authority, especially `GAME15_MECHANICAL_ARCHITECTURE.md`, then specify the complete campaign/content system.
 
 Required work:
-1. define canonical object, semantic face-region, socket, pose, overlap/occlusion and booth-direction data models;
-2. define legal placement/compatibility and ensure no continuous-physics truth leaks in;
-3. specify exact exposure computation and how partial semantic regions are represented without renderer thresholds;
-4. freeze spray/pass ordering and the per-region ordered coat-history state machine;
-5. freeze rearrangement rules and resolve whether two coats / one rearrangement are universal product ceilings or bounded case parameters;
-6. define final target predicates, validation, failure explanations and non-oracle current-state inspection;
-7. define undo/reset semantics and branch/state recovery expectations at design level;
-8. define difficulty knobs that change reasoning rather than state-count inflation;
-9. define normalized equivalence/repetition signature and certifier responsibilities;
-10. specify canonical edge cases: touching/coplanar faces, cavities, self-occlusion, multiple blockers, identical objects, symmetry, hidden regions, object-as-mask-with-own-target, role reversal;
-11. fully work several puzzles from initial state through proof and result, including at least one late role-reversal/cavity case;
-12. carry forward empirical gates instead of solving them with oracle UI.
+1. finalize F1–F8 progression and all FC01–FC24 case roles;
+2. define reusable 6–8 solid vocabulary, socket-frame motifs and booth-direction vocabulary without inventing new mechanics;
+3. define exact case-data fields, dependencies and authored-vs-derived data;
+4. set per-family/case complexity budgets for objects, atomic regions, poses, sockets, target histories and solution classes;
+5. define authoring workflow from spatial motif -> legal configurations -> derived targets -> certification -> human-proof annotation -> repetition review;
+6. deeply outline all 24 cases, including what is taught, intended deduction, masker dependencies, pass/rearrangement structure and why each is cognitively non-duplicate;
+7. freeze demo/tutorial subset and prerequisites;
+8. define hint/proof metadata boundaries without leaking solver truth into normal play;
+9. define content validation, rejection gates and normalized campaign freshness review;
+10. define expansion boundaries consistent with the fixed two-pass/one-rearrangement mechanical ceiling.
 
-Do not begin production implementation.
+If Phase 5 is short and Phase 6 is safely connected, continue, but do not start production implementation.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#014 are non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #015; Phase 4 next).
+DESIGN COMPLETE = NO (current active Game #015; Phase 5 next).
