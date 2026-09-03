@@ -19,12 +19,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 013 | **SEAL BREAK** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/seal-break` *(not yet created)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
 | 014 | **Negative Casting** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`; Phase 11 completed and migration target was unavailable. |
 | 015 | **FRESH COAT** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`; exact prerequisite table, 11-achievement baseline, acceptance contract and P9/P10 consolidation frozen. |
-| 016 | **TBD** | **IN DESIGN / Phase 1 Opportunity Discovery next** | TBD | NOT STARTED | Clean sequential slot. No Game #015 mechanics/theme/content are active canon. |
+| 016 | **TBD** | **IN DESIGN / Phase 1 complete / Phase 2 Round A next** | TBD | NOT STARTED | `GAME16_RESEARCH.md`: 30 clean-slate seeds -> 12 provisional tournament candidates; no winner selected. |
 
 ## Active Game #016 boundary
 Game #016 is the only active design slot. Games #001–#015 are portfolio/exclusion history only. Frozen safety archives #006–#015 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #016.
 
-Game #015 completed the full factory path through Phase 11 and is frozen at `GAME15_FINAL_FREEZE.md`. Migration remains pending solely because its dedicated repository is unavailable; this does not block Game #016.
+Game #016 Phase 1 completed from a clean slate on 2026-09-03. Active research authority is `GAME16_RESEARCH.md`; the next step is equal destructive Concept Tournament Round A across its 12 provisional candidates.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
