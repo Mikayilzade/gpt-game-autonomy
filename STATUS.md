@@ -16,7 +16,7 @@ Branch: `main`
 Game #015 is the only active design slot. Games #001–#014 are exclusion/portfolio history only. Frozen archives #006–#014 are explicitly NON-ACTIVE and must not leak canon into #015.
 
 ## Current phase
-**Game #015 — PHASE 6 UX / PRESENTATION ARCHITECTURE COMPLETE / PHASE 7 COMMERCIAL MODEL NEXT.**
+**Game #015 — PHASE 7 COMMERCIAL MODEL COMPLETE / PHASE 8 TECHNICAL SPECIFICATION NEXT.**
 
 ## Active authority for Game #015
 1. `START_HERE.md`
@@ -30,46 +30,47 @@ Game #015 is the only active design slot. Games #001–#014 are exclusion/portfo
 9. `GAME15_MECHANICAL_ARCHITECTURE.md`
 10. `GAME15_CONTENT_ARCHITECTURE.md`
 11. `GAME15_UX_PRESENTATION_ARCHITECTURE.md`
+12. `GAME15_COMMERCIAL_MODEL.md`
 
-## This run completed — Game #015 Phase 6
+## This run completed — Game #015 Phase 7
 - Re-read factory authority and every active Game #015 file named by prior STATUS.
-- Created `GAME15_UX_PRESENTATION_ARCHITECTURE.md` as the Phase-6 authority.
-- Froze the stable canonical camera, bounded comfort orbit, object isolation and semantic-region browser; camera never determines puzzle truth.
-- Froze four player-facing semantic surfaces: work area, target rail, stage rail and device-aware action strip.
-- Defined redundant object/coat/history visual language so no rule relies on color alone.
-- Defined factual current-exposure preview with a strict non-oracle boundary: exposed/protected now only, never good/bad or counterfactual solution information.
-- Froze complete controller-first abstract action vocabulary plus equivalent mouse/keyboard path, legal socket/pose navigation and seamless mixed-device behavior.
-- Defined atomic Spray commit, A->B rearrangement transition, deterministic animation boundary and exact unpack/result reveal.
-- Defined factual failure explanation, undo/reset/checkpoint UX, menus, case select, pause, autosave/resume surfaces and corruption fallback expectation.
-- Specified FC01–FC05 onboarding, later FC10/FC13/FC16 concept introductions, and demo/full knowledge-check behavior without parallel rules.
-- Froze optional three-tier hint UX derived from designer-reviewed proof metadata without socket/pose/solver leakage.
-- Froze accessibility baseline: non-color cues, scalable UI, reduced motion, remapping target, high-contrast selection, no timed input, audio/haptics non-authoritative, handheld-readable target cards.
-- Defined first-10-minute walkthrough and first-session pacing.
-- Fresh Steamworks/Steam Deck guidance checked 2026-09-03; translated controller glyph, complete controller path, 1280x800 readability, mixed input and Deck performance expectations into Phase-8 validation obligations.
-- No Product/Mechanical/Content contradiction was found; no design reopening required.
+- Performed fresh September-2026 research on Steam demo carry-over, Steam Cloud/Deck continuity, Community feature eligibility and current puzzle-demo packaging.
+- Created `GAME15_COMMERCIAL_MODEL.md` as Phase-7 authority.
+- Froze finite-premium positioning: 24 dense handcrafted cases, no retention-service drift.
+- Set revisable launch-price hypothesis at US$9.99–14.99 with $12.99 current center; final price remains an empirical release decision.
+- Froze progression as family-based 2-of-3 relief with mandatory concept-introduction gates so players can bypass one stuck case but cannot bypass essential grammar.
+- Froze a seven-case ~20–30 minute real-campaign demo, shared rules/save schema, no time limit, and required idempotent demo-to-full progress carry-over unless Phase 8 discovers a platform blocker.
+- Froze achievement philosophy at roughly 10–14, targeting 10–12 meaningful learning/completion milestones; no no-hint/no-undo/speed/grind/accessibility penalties.
+- Froze Steam feature scope: achievements, cloud, controller/Deck and demo carry-over IN; leaderboards/workshop/inventory OUT; Trading Cards conditional on platform eligibility.
+- Froze hints/accessibility as free parity features, never monetized or stigmatized.
+- Defined localization architecture expectations and provisional launch-language priorities without overpromising un-QA'd languages.
+- Defined store/trailer/screenshot communication around stack -> spray -> rearrange -> spray -> unpack, not simulator imagery.
+- Kept `FRESH COAT` explicitly provisional and added title-clearance gate before public store identity freeze.
+- Froze launch/update/expansion boundaries and permanent exclusions: no ads, paid hints, consumables, FOMO, battle pass, loot boxes, paid skips or retention grind.
 - No production implementation, test email or Gmail action performed.
 
 ## Frozen migration note
 Games #006–#014 remain migration-pending NON-ACTIVE archives. Their missing repositories are non-blocking. Migrate each independently if/when its dedicated repository becomes available; verify handoff/integrity before deleting only that game's retained safety files.
 
-## NEXT ACTION — GAME #015 PHASE 7 COMMERCIAL MODEL / RETENTION / PLATFORM PACKAGE
-Re-read all active Game #015 authority, then define the complete finite-premium commercial package without introducing retention-system drift.
+## NEXT ACTION — GAME #015 PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION
+Re-read all active Game #015 authority, then specify implementation contracts without writing production code.
 
 Required work:
-1. perform fresh current research on comparable premium puzzle pricing, campaign length/value expectations, demo practices and relevant Steam platform context;
-2. set a launch price hypothesis/range and discount posture while keeping price explicitly revisable until release evidence exists;
-3. define campaign value proposition and how 24 handcrafted cases + replay fit the price thesis;
-4. freeze exact demo packaging, approximate case subset/length, save/progress carry-over contract and demo-to-full entitlement behavior;
-5. define progression/unlock pacing, case-select behavior and whether any optional challenge/completion layer is justified;
-6. define achievement philosophy/count boundaries without incentivizing grind, speed or no-hint/no-undo play unless strongly justified;
-7. position hints/difficulty/accessibility commercially so normal assistance is never monetized or stigmatized;
-8. define Steam features in/out: cloud, achievements, controller/Deck presentation, trading cards/workshop/leaderboards as applicable;
-9. define localization/store-page implications, trailer/screenshot communication and working-title verification obligations;
-10. define launch/update/expansion boundaries and explicit exclusions: DLC/content only if it preserves frozen grammar, no FOMO, ads, consumables, paid hints or retention grind.
+1. choose/freeze engine/runtime direction or explicitly engine-agnostic boundaries, justified by 3D discrete geometry, controller/Deck, Steam integration and small-team scope;
+2. define exact runtime data/state model and authority boundaries between authored source, derived certified data, save state and renderer;
+3. define deterministic exposure-precompute pipeline for semantic atomic regions, including partial-region rejection/subdivision and renderer-vs-truth divergence tests;
+4. define authoring/certifier architecture, legal arrangement enumeration, A->B transition enumeration, solution/equivalence/symmetry handling and repetition-signature validation;
+5. define runtime arrangement/spray/reveal state machine with atomic transactions, undo/checkpoints and interruption recovery;
+6. define versioned persistence schema, corrupt-save fallback, Steam Cloud conflict policy, Dynamic Cloud Sync handling, demo import/merge and achievement idempotency;
+7. define input abstraction, Steam Input/device glyph integration boundaries, UI/game-state separation and localization-ready string/data contracts;
+8. define performance assumptions/targets for desktop and Steam Deck, asset/runtime budgets and deterministic loading behavior;
+9. define automated test hooks, content validation gates, golden-case tests and debug tooling that never leaks into shipping player UI;
+10. define telemetry/privacy boundary (prefer none/minimal unless justified), build/package boundaries for demo/full game, and recommended implementation order for the dedicated repository;
+11. explicitly attack renderer-vs-truth divergence, partial exposure, invalid content, symmetry bugs, corrupt saves, cloud/demo duplication and interrupted Spray/undo transactions.
 
-If Phase 7 resolves cleanly, Phase 8 Technical Specification is next. Do not start production implementation.
+If Phase 8 resolves cleanly, Phase 9 Whole-Game Simulation is next. Do not start production implementation.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#014 are non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #015; Phase 7 next).
+DESIGN COMPLETE = NO (current active Game #015; Phase 8 next).
