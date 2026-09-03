@@ -16,41 +16,40 @@ Branch: `main`
 Game #017 is the only active design slot. Games #001–#016 are exclusion/portfolio history only. Frozen archives #006–#016 are NON-ACTIVE and must not leak canon into #017.
 
 ## Current phase
-**Game #017 — PHASE 2 CONCEPT TOURNAMENT / ROUND A NEXT.**
+**Game #017 — PHASE 2 CONCEPT TOURNAMENT / ROUND B NEXT.**
 
 ## Active authority for Game #017
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
 4. `GAME17_RESEARCH.md`
+5. `GAME17_TOURNAMENT.md`
 
-## This run completed — Game #017 Phase 1 Opportunity Discovery
-- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md`; previous status named no Game #017 design file.
-- Used fresh September-2026 market research including Valve Steamworks/Next Fest material and current/recent Steam puzzle/indie surfaces.
-- Recorded current deductions: demo-first legibility is essential; pure puzzle-volume competition is unattractive; generic cozy/tactile occupation is not enough; generic Sokoban, deterministic dungeon-resource optimization, merge-score, co-op communication, dark-fantasy co-op/extraction and generic roguelite surfaces are poor clean-slate targets.
-- Created `GAME17_RESEARCH.md` from a clean slate.
-- Generated **30 distinct seed concepts before preference filtering**.
-- Killed 16 seeds for portfolio collision, market/surface crowding, weak depth, finite-CSP collapse, production burden, opacity, precision/physics risk or weak commercial legibility.
-- Retained **14 Round-A candidates**: Night Shift Switchboard; Second-Hand Museum; Platform 4½; The Quiet Auction; Archive of Almosts; After the Applause; Common Knowledge; Terms and Conditions; Lost Property Office; The Queue Knows; House Rules; The Substitute Teacher; Minute Hand; Public Rehearsal.
-- For every survivor recorded hook, core interaction, depth source, demo moment and primary failure hypothesis.
-- Defined one equal 10-dimension / 50-point destructive Round-A rubric plus mandatory kill probes for enumeration collapse, opaque rules, spreadsheet UI, one-trick depth, production inversion, portfolio collision and market cloning.
-- Explicitly did **not** select a winner.
+## This run completed — Game #017 Phase 2 Round A
+- Re-read all required authority files and resumed exactly from the prior NEXT ACTION.
+- Created `GAME17_TOURNAMENT.md`.
+- Forced all 14 candidates through concrete 3–7 minute deterministic microcases rather than scoring pitches.
+- For every candidate defined a case-#5 escalation, common 10-dimension score, strongest kill argument, strongest defense and mandatory kill-probe result.
+- Killed seven without rescue: Second-Hand Museum (semantic opacity/production inversion); Platform 4½ (simulation/UI production inversion); After the Applause (production inversion/automation surface); Terms and Conditions (text/spreadsheet collapse); Lost Property Office (semantic gotcha/localization dependency); Substitute Teacher (theme/presentation burden); Public Rehearsal (program-edit portfolio collision).
+- Retained exactly seven honest Round-B survivors: **Night Shift Switchboard; The Quiet Auction; Archive of Almosts; Common Knowledge; The Queue Knows; House Rules; Minute Hand.**
+- Explicitly selected no winner and gave no carry-forward score bonus.
 - No production implementation, Gmail or email action performed.
 
-## NEXT ACTION — GAME #017 PHASE 2 / CONCEPT TOURNAMENT ROUND A
-Use `GAME17_RESEARCH.md` as the candidate authority and run the exact equal Round-A protocol on all 14 candidates.
+## NEXT ACTION — GAME #017 PHASE 2 / CONCEPT TOURNAMENT ROUND B
+Use `GAME17_RESEARCH.md` + `GAME17_TOURNAMENT.md` as candidate authority and attack the seven Round-A survivors at product scale.
 
 Required substantial increment:
-1. build one concrete 3–7 minute microcase for each candidate with initial state, player decisions and deterministic resolution;
-2. specify a case-#5 escalation showing genuinely new reasoning rather than more entities;
-3. score every candidate 0–5 on all ten common dimensions (50 maximum);
-4. write the strongest kill argument and strongest defense for each;
-5. apply mandatory kill probes without rescuing attractive pitches;
-6. retain roughly **6–8 honest survivors** for Round B; if fewer than five survive, return to opportunity discovery for replacements rather than lowering the bar;
-7. do **not** choose the final game winner in Round A;
-8. save the tournament artifact to GitHub and update this status with exact survivors and next Round-B action.
+1. use fresh web research for current commercial analogues/positioning where it affects these seven concepts;
+2. simulate a concrete **20–30 minute demo arc** for every survivor, including tutorial burden, first failure, mastery beat and trailer/GIF moment;
+3. define at least **three genuinely distinct mid/late reasoning families** per survivor and test whether hour-5 novelty comes from new interactions rather than more entities/rules;
+4. estimate truthful UI/state density, authored-content burden, implementation/QA ceiling and controller/Deck readability;
+5. run mechanic-level derivative and Games #001–#016 collision probes;
+6. state the minimum falsification prototype and strongest likely player complaint for every survivor;
+7. score all seven equally on hook, learnability, systemic depth, sustained novelty, fair causality, production proportionality, controller readability, demo conversion, distinctness and commercial legibility;
+8. cut honestly to roughly **three Round-C finalists**. Do not select the final game winner in Round B unless fewer than four survive and another tournament round is demonstrably meaningless;
+9. save all work to GitHub and update STATUS with exact finalists and Round-C NEXT ACTION.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#016 remain non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #017; Phase 2 Round A next).
+DESIGN COMPLETE = NO (current active Game #017; Phase 2 Round B next).
