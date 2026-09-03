@@ -19,12 +19,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 013 | **SEAL BREAK** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/seal-break` *(not yet created)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
 | 014 | **Negative Casting** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`; Phase 11 completed and migration target was unavailable. |
 | 015 | **FRESH COAT** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`; exact prerequisite table, 11-achievement baseline, acceptance contract and P9/P10 consolidation frozen. |
-| 016 | **TBD** | **IN DESIGN / Phase 2 Round A complete / Round B next** | TBD | NOT STARTED | 12 candidates -> 6: Margin of Error, The Spare Room, One-Way Workshop, Unpacking Order, Lost Motion, The Long Drawer. No winner selected. |
+| 016 | **TBD** | **IN DESIGN / Phase 2 Round B complete / Round C next** | TBD | NOT STARTED | 6 survivors -> 3 finalists: One-Way Workshop, Unpacking Order, Margin of Error. No winner selected. |
 
 ## Active Game #016 boundary
 Game #016 is the only active design slot. Games #001–#015 are portfolio/exclusion history only. Frozen safety archives #006–#015 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #016.
 
-Game #016 Phase 1 and Concept Tournament Round A are complete. Active design authorities are `GAME16_RESEARCH.md` and `GAME16_ROUND_A.md`; next step is Round B mechanical proof and targeted differentiation across all six survivors.
+Game #016 Phase 1, Round A and Round B are complete. Active design authorities are `GAME16_RESEARCH.md`, `GAME16_ROUND_A.md`, and `GAME16_ROUND_B.md`; next step is Round C direct confrontation / winner selection across **One-Way Workshop, Unpacking Order, Margin of Error**.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
