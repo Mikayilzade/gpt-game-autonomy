@@ -13,47 +13,44 @@ Branch: `main`
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
-Game #017 is the only active design slot. Games #001–#016 are exclusion/portfolio history only. Frozen archives #006–#016 are NON-ACTIVE and must not leak canon into #017. Game #016 ONE-WAY WORKSHOP is frozen and no longer active canon.
+Game #017 is the only active design slot. Games #001–#016 are exclusion/portfolio history only. Frozen archives #006–#016 are NON-ACTIVE and must not leak canon into #017.
 
 ## Current phase
-**Game #017 — PHASE 1 OPPORTUNITY DISCOVERY NEXT.**
+**Game #017 — PHASE 2 CONCEPT TOURNAMENT / ROUND A NEXT.**
 
 ## Active authority for Game #017
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
+4. `GAME17_RESEARCH.md`
 
-No `GAME17_*` design file exists yet. The next substantial run must create the initial Game #017 research/opportunity file from a clean slate.
-
-## This run completed — Game #016 Phase 11 / migration gate / continuity
-- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md` and every active Game #016 authority named by the previous status.
-- Completed Phase 11 contradiction audit with no remaining design-blocking ambiguity.
-- Created `GAME16_FINAL_FREEZE.md` as highest Game #016 design authority.
-- Consolidated exact product identity, one-way verbs, deterministic state/transition rules, capability/witness grammar, cut/jig/operation semantics, certification, dead-state/restart/trace rules, exact 24-case/six-family architecture, campaign unlocks, demo/import, hints, UX/accessibility, commercial boundaries, persistence/cloud/reset, technical boundaries, exhaustive validator requirements, alternate-family signatures, acceptance criteria and out-of-scope list.
-- Explicitly froze all Phase-10 clarifications: persisted monotonic `reset_generation`; profile-cloud + local-only active attempts; non-assertive dead-state silence; neutral physical compatibility indicators; stable semantic non-solver controller ordering; per-state H3 leakage test; physically obvious FACE predicates; exhaustive oracle requirement; validator-backed semantic alternate-family signatures.
-- Separated design-fixed rules, implementation-flexible choices and empirical implementation/playtest gates.
-- Explicitly superseded earlier ambiguous interpretations, including any Phase-8 option to cloud-sync opaque active attempts.
-- Set **Game #016 DESIGN COMPLETE = YES**.
-- Checked dedicated migration target `Mikayilzade/one-way-workshop`; repository was not available on 2026-09-03.
-- Therefore recorded **migration pending**, preserved all Game #016 files including `GAME16_FINAL_FREEZE.md` as a frozen **NON-ACTIVE safety archive**, and did not delete any source file.
-- Updated `GAME_INDEX.md` with Game #016 frozen/pending status and added clean active Game #017 slot.
-- Advanced factory continuity immediately to Game #017; pending migrations #006–#016 do not block new design work.
+## This run completed — Game #017 Phase 1 Opportunity Discovery
+- Re-read `START_HERE.md`, `STATUS.md`, `GAME_INDEX.md`; previous status named no Game #017 design file.
+- Used fresh September-2026 market research including Valve Steamworks/Next Fest material and current/recent Steam puzzle/indie surfaces.
+- Recorded current deductions: demo-first legibility is essential; pure puzzle-volume competition is unattractive; generic cozy/tactile occupation is not enough; generic Sokoban, deterministic dungeon-resource optimization, merge-score, co-op communication, dark-fantasy co-op/extraction and generic roguelite surfaces are poor clean-slate targets.
+- Created `GAME17_RESEARCH.md` from a clean slate.
+- Generated **30 distinct seed concepts before preference filtering**.
+- Killed 16 seeds for portfolio collision, market/surface crowding, weak depth, finite-CSP collapse, production burden, opacity, precision/physics risk or weak commercial legibility.
+- Retained **14 Round-A candidates**: Night Shift Switchboard; Second-Hand Museum; Platform 4½; The Quiet Auction; Archive of Almosts; After the Applause; Common Knowledge; Terms and Conditions; Lost Property Office; The Queue Knows; House Rules; The Substitute Teacher; Minute Hand; Public Rehearsal.
+- For every survivor recorded hook, core interaction, depth source, demo moment and primary failure hypothesis.
+- Defined one equal 10-dimension / 50-point destructive Round-A rubric plus mandatory kill probes for enumeration collapse, opaque rules, spreadsheet UI, one-trick depth, production inversion, portfolio collision and market cloning.
+- Explicitly did **not** select a winner.
 - No production implementation, Gmail or email action performed.
 
-## NEXT ACTION — GAME #017 PHASE 1 / OPPORTUNITY DISCOVERY
-Start from a clean slate and create `GAME17_RESEARCH.md`.
+## NEXT ACTION — GAME #017 PHASE 2 / CONCEPT TOURNAMENT ROUND A
+Use `GAME17_RESEARCH.md` as the candidate authority and run the exact equal Round-A protocol on all 14 candidates.
 
 Required substantial increment:
-1. use fresh web research for September-2026 Steam/indie market conditions, recent releases/announcements, saturated surfaces, pricing/demo expectations and player-facing interaction trends where relevant;
-2. treat the frozen portfolio identities in `GAME_INDEX.md` as exclusion history only — do not silently reskin/recombine one of Games #001–#016 as the new canon;
-3. generate a broad field of at least 25–30 genuinely distinct seed concepts before preference filtering;
-4. aggressively kill obvious portfolio collisions, trend clones, opaque trial-and-error, precision/physics dependence, huge asset/narrative/network burden and ideas whose depth is merely finite enumeration;
-5. retain roughly 10–14 candidates with one-sentence hook, core interaction, depth source, demo moment and primary failure hypothesis;
-6. define one equal destructive Round-A scoring/probe protocol for all retained candidates;
-7. do **not** choose a winner in Phase 1;
-8. save all meaningful evidence/decisions to `GAME17_RESEARCH.md`, update this `STATUS.md` with exact completed work and NEXT ACTION to Game #017 Phase 2 Round A.
+1. build one concrete 3–7 minute microcase for each candidate with initial state, player decisions and deterministic resolution;
+2. specify a case-#5 escalation showing genuinely new reasoning rather than more entities;
+3. score every candidate 0–5 on all ten common dimensions (50 maximum);
+4. write the strongest kill argument and strongest defense for each;
+5. apply mandatory kill probes without rescuing attractive pitches;
+6. retain roughly **6–8 honest survivors** for Round B; if fewer than five survive, return to opportunity discovery for replacements rather than lowering the bar;
+7. do **not** choose the final game winner in Round A;
+8. save the tournament artifact to GitHub and update this status with exact survivors and next Round-B action.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#016 remain non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #017; Phase 1 next).
+DESIGN COMPLETE = NO (current active Game #017; Phase 2 Round A next).
