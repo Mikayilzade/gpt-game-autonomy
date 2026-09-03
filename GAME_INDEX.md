@@ -17,13 +17,14 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
 | 012 | **OPENWORK** *(provisional working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
 | 013 | **SEAL BREAK** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/seal-break` *(not yet created)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
-| 014 | **Negative Casting** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`; Phase 11 completed and migration target was unavailable. |
-| 015 | **FRESH COAT** *(working title)* | **IN DESIGN / Phase 10 Adversarial Review complete / Phase 11 freeze next** | TBD | NOT STARTED | 24-case F1–F8 campaign; Phase 10 found no unresolved S3 blocker and added five narrow specification patches before final freeze. |
+| 014 | **Negative Casting** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`; Phase 11 completed and migration target was unavailable. |
+| 015 | **FRESH COAT** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`; exact prerequisite table, 11-achievement baseline, acceptance contract and P9/P10 consolidation frozen. |
+| 016 | **TBD** | **IN DESIGN / Phase 1 Opportunity Discovery next** | TBD | NOT STARTED | Clean sequential slot. No Game #015 mechanics/theme/content are active canon. |
 
-## Active Game #015 boundary
-Game #015 is the only active design slot. Games #001–#014 are portfolio/exclusion history only. Frozen safety archives #006–#014 remain NON-ACTIVE and must not supply mechanics, theme, title, content or assumed product direction to #015.
+## Active Game #016 boundary
+Game #016 is the only active design slot. Games #001–#015 are portfolio/exclusion history only. Frozen safety archives #006–#015 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #016.
 
-Game #015 completed opportunity discovery, Concept Tournament Rounds A–C, Product Thesis, Mechanical Architecture, Content Architecture, UX / Presentation Architecture, Commercial Model / Retention / Platform Package, Technical Implementation Specification, Whole-Game Simulation, and Adversarial Review. `FRESH COAT` is selected as the working concept. Current active evidence is `GAME15_RESEARCH.md`, `GAME15_ROUND_A.md`, `GAME15_ROUND_B.md`, `GAME15_ROUND_C.md`, `GAME15_PRODUCT_THESIS.md`, `GAME15_MECHANICAL_ARCHITECTURE.md`, `GAME15_CONTENT_ARCHITECTURE.md`, `GAME15_UX_PRESENTATION_ARCHITECTURE.md`, `GAME15_COMMERCIAL_MODEL.md`, `GAME15_TECHNICAL_SPECIFICATION.md`, `GAME15_WHOLE_GAME_SIMULATION.md`, `GAME15_PHASE9_PATCHES.md`, and `GAME15_ADVERSARIAL_REVIEW.md`. Phase 11 Specification Freeze is next.
+Game #015 completed the full factory path through Phase 11 and is frozen at `GAME15_FINAL_FREEZE.md`. Migration remains pending solely because its dedicated repository is unavailable; this does not block Game #016.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
@@ -40,6 +41,7 @@ Game #015 completed opportunity discovery, Concept Tournament Rounds A–C, Prod
 - #012 OPENWORK: solid placement judged by topology of remaining empty space; connected components, enclosed open pockets, marker grouping, area and boundary constraints.
 - #013 SEAL BREAK: irreversible tamper-seal witnesses record first qualifying opening checkpoint; temporal evidence, survivorship, inverse witness placement and bounded history reconstruction.
 - #014 NEGATIVE CASTING: geometry-derived two-light shadow classification across 1–3 projection surfaces using discrete socketed opaque blockers, exact incidence and proof-carrying human deduction routes.
+- #015 FRESH COAT: self-obligated 3D workpieces used as temporary masks across at most two fixed spray passes and one rearrangement; exact persistent semantic face exposure histories culminating in unpack/reveal.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
