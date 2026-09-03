@@ -19,12 +19,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 013 | **SEAL BREAK** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/seal-break` *(not yet created)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
 | 014 | **Negative Casting** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`; Phase 11 completed and migration target was unavailable. |
 | 015 | **FRESH COAT** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`; exact prerequisite table, 11-achievement baseline, acceptance contract and P9/P10 consolidation frozen. |
-| 016 | **TBD** | **IN DESIGN / Phase 2 Round B complete / Round C next** | TBD | NOT STARTED | 6 survivors -> 3 finalists: One-Way Workshop, Unpacking Order, Margin of Error. No winner selected. |
+| 016 | **ONE-WAY WORKSHOP** *(working title)* | **IN DESIGN / Phase 3 Product Thesis complete / Phase 4 next** | TBD | NOT STARTED | Round C winner selected over Unpacking Order and Margin of Error. Core identity: irreversible cuts create byproducts that become required future jigs/capabilities. |
 
 ## Active Game #016 boundary
 Game #016 is the only active design slot. Games #001–#015 are portfolio/exclusion history only. Frozen safety archives #006–#015 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #016.
 
-Game #016 Phase 1, Round A and Round B are complete. Active design authorities are `GAME16_RESEARCH.md`, `GAME16_ROUND_A.md`, and `GAME16_ROUND_B.md`; next step is Round C direct confrontation / winner selection across **One-Way Workshop, Unpacking Order, Margin of Error**.
+Game #016 Phase 1 and Phase 2 tournament are complete. **ONE-WAY WORKSHOP** is selected and Phase 3 Product Thesis is locked. Active design authorities now include `GAME16_ROUND_C.md` and `GAME16_PRODUCT_THESIS.md`; next step is Phase 4 Mechanical Architecture. Rejected finalists Unpacking Order and Margin of Error remain tournament history only.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
