@@ -16,18 +16,16 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 010 | **Luggage Carousel Zero** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/luggage-carousel-zero` *(not yet created)* | NOT STARTED | Final authority `GAME10_FINAL_FREEZE.md`. |
 | 011 | **Missing Step** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/missing-step` *(not yet created)* | NOT STARTED | Final authority `GAME11_FINAL_FREEZE.md`. |
 | 012 | **OPENWORK** *(provisional working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
-| 013 | **SEAL BREAK** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/seal-break` *(not yet created)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
-| 014 | **Negative Casting** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`; Phase 11 completed and migration target was unavailable. |
-| 015 | **FRESH COAT** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`; exact prerequisite table, 11-achievement baseline, acceptance contract and P9/P10 consolidation frozen. |
-| 016 | **ONE-WAY WORKSHOP** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/one-way-workshop` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME16_FINAL_FREEZE.md`; 24-case deterministic byproduct-as-tool fabrication puzzle; migration target unavailable after freeze. |
-| 017 | **TBD** | **IN DESIGN / Phase 1 Opportunity Discovery next** | TBD | NOT STARTED | Clean active slot. Must not inherit canon from #001–#016. |
+| 013 | **SEAL BREAK** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/seal-break` *(not yet created)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target unavailable after freeze. |
+| 014 | **Negative Casting** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`. |
+| 015 | **FRESH COAT** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`. |
+| 016 | **ONE-WAY WORKSHOP** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/one-way-workshop` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME16_FINAL_FREEZE.md`; 24-case deterministic byproduct-as-tool fabrication puzzle. |
+| 017 | **TBD** | **IN DESIGN / Phase 2 Round A next** | TBD | NOT STARTED | Phase 1 produced 30 clean-slate seeds and 14 equal-protocol tournament candidates in `GAME17_RESEARCH.md`; no winner selected. |
 
 ## Active Game #017 boundary
 Game #017 is the only active design slot. Games #001–#016 are portfolio/exclusion history only. Frozen safety archives #006–#016 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #017.
 
-Game #016 is frozen with highest authority `GAME16_FINAL_FREEZE.md`. Its dedicated repository was checked on 2026-09-03 and was unavailable, so migration remains pending without blocking the factory. When `Mikayilzade/one-way-workshop` later exists, migrate and verify #016 independently, add implementation handoff/status/CI-noise policy there, then remove only #016's retained factory safety files after integrity verification.
-
-Game #017 starts clean at Phase 1 Opportunity Discovery. No concept is selected yet.
+Game #017 completed Phase 1 Opportunity Discovery on 2026-09-03. Its active design authority is `GAME17_RESEARCH.md`; Phase 2 Concept Tournament Round A is next. No concept is selected yet.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
