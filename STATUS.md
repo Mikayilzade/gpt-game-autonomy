@@ -7,68 +7,57 @@ Branch: `main`
 ## Factory state
 - Reusable factory rules: **YES**
 - Games #001–#005: **DESIGN COMPLETE / migrated**
-- Games #006–#014: **DESIGN COMPLETE / migration pending / retained NON-ACTIVE safety archives**
-- Current design slot: **Game #015**
-- Selected concept: **FRESH COAT (working title)**
+- Games #006–#015: **DESIGN COMPLETE / migration pending / retained NON-ACTIVE safety archives**
+- Current design slot: **Game #016**
+- Selected concept: **NONE — clean-slate opportunity discovery next**
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
-Game #015 is the only active design slot. Games #001–#014 are exclusion/portfolio history only. Frozen archives #006–#014 are explicitly NON-ACTIVE and must not leak canon into #015.
+Game #016 is the only active design slot. Games #001–#015 are exclusion/portfolio history only. Frozen archives #006–#015 are explicitly NON-ACTIVE and must not leak canon into #016.
 
 ## Current phase
-**Game #015 — PHASE 10 ADVERSARIAL REVIEW COMPLETE / PHASE 11 SPECIFICATION FREEZE NEXT.**
+**Game #016 — PHASE 1 OPPORTUNITY DISCOVERY NEXT.**
 
-## Active authority for Game #015
+## Active authority for Game #016
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
-4. `GAME15_RESEARCH.md`
-5. `GAME15_ROUND_A.md`
-6. `GAME15_ROUND_B.md`
-7. `GAME15_ROUND_C.md`
-8. `GAME15_PRODUCT_THESIS.md`
-9. `GAME15_MECHANICAL_ARCHITECTURE.md`
-10. `GAME15_CONTENT_ARCHITECTURE.md`
-11. `GAME15_UX_PRESENTATION_ARCHITECTURE.md`
-12. `GAME15_COMMERCIAL_MODEL.md`
-13. `GAME15_TECHNICAL_SPECIFICATION.md`
-14. `GAME15_WHOLE_GAME_SIMULATION.md`
-15. `GAME15_PHASE9_PATCHES.md` (narrow superseding clauses P9-P1..P9-P5)
-16. `GAME15_ADVERSARIAL_REVIEW.md` (later Phase-10 authority; P10-P1..P10-P5)
 
-## This run completed — Game #015 Phase 10
+There are currently no `GAME16_*` active design files. The next substantial run must create the first Game #016 research/discovery authority.
+
+## This run completed — Game #015 Phase 11 / continuity transition
 - Re-read factory authority and every active Game #015 file named by prior STATUS.
-- Ran the required 15-area destructive attack matrix covering fun/repetition, preview brute force, four-object load, renderer/truth divergence, content freshness, progression/demo import, hints, input parity, transaction idempotency, cloud conflicts, achievements, implementation authority, scope creep, commercial value and empirical gates.
-- Created `GAME15_ADVERSARIAL_REVIEW.md` with severity + KEEP/PATCH/KILL decisions.
-- Found **0 unresolved S3 design blockers**; Fresh Coat survives Phase 10.
-- Froze P10-P1: exposure preview remains factual but cannot provide target-relative feedback or transient pose-scanning feedback.
-- Froze P10-P2: strict render-selection/semantic-region correspondence; visually misleading certified states fail content QA.
-- Froze P10-P3: Phase 11 must publish one machine-transcribable FC01–FC24 prerequisite table used by UI/runtime/Continue/import tests.
-- Froze P10-P4: hint tiers are reviewed cumulatively so combined hints cannot collapse a small puzzle into an implicit socket/pose solution.
-- Froze P10-P5: deterministic cloud/demo post-merge order: validate -> merge facts -> choose one attempt -> persist -> recompute progression -> achievements -> Continue -> UI.
-- Reaffirmed hard scope exclusions: no third coat, second rearrangement, free spray, tape/stickers, paint economy, fifth-object norm, or procedural padding for 1.0.
-- Classified E1–E5 as buildable empirical release gates rather than unresolved rules; C1/C3/C4/C5 remain commercial decisions, C2/C6 release gates.
-- Flagged the optional alternate-solution achievement as unnecessary baseline risk; Phase 11 should omit it unless a clear non-pressure use is proven.
-- No production implementation, test email or Gmail action performed.
+- Completed Phase 11 Specification Freeze and created `GAME15_FINAL_FREEZE.md`.
+- Consolidated all P9-P1..P9-P5 and P10-P1..P10-P5 repairs into one final implementation-facing authority.
+- Froze one machine-transcribable FC01–FC24 prerequisite table used by runtime/UI/Continue/demo-import reconciliation.
+- Froze baseline achievements at **11** and intentionally omitted the alternate-solution achievement.
+- Classified E1–E5 plus C2/C6 as implementation/release gates; C1/C3/C4/C5 remain non-blocking commercial decisions.
+- Froze final authority order, acceptance tests, certifier/build obligations, persistence/cloud/demo transaction rules, renderer-vs-truth correspondence, content freshness gates, and forbidden implementation drift.
+- Final ambiguity audit passed: a fresh implementation session does not need to invent important gameplay/progression/persistence/UX/commercial/technical rules.
+- Set Game #015 `DESIGN COMPLETE = YES`.
+- Checked dedicated migration target `Mikayilzade/fresh-coat`; repository was not found/available on 2026-09-03.
+- Per continuity rule, retained every `GAME15_*` file as a frozen NON-ACTIVE safety archive and marked migration pending. No source safety copy was deleted.
+- Updated `GAME_INDEX.md` to archive #015 and opened clean sequential Game #016.
+- No production implementation, test email, or Gmail action performed.
 
 ## Frozen migration note
-Games #006–#014 remain migration-pending NON-ACTIVE archives. Their missing repositories are non-blocking. Migrate each independently if/when its dedicated repository becomes available; verify handoff/integrity before deleting only that game's retained safety files.
+Games #006–#015 remain migration-pending NON-ACTIVE archives. Their missing repositories are non-blocking. Migrate each independently if/when its dedicated repository becomes available; verify handoff/integrity before deleting only that game's retained safety files.
 
-## NEXT ACTION — GAME #015 PHASE 11 SPECIFICATION FREEZE
-Re-read all active Game #015 authority including `GAME15_PHASE9_PATCHES.md` and `GAME15_ADVERSARIAL_REVIEW.md`. Produce `GAME15_FINAL_FREEZE.md` as the implementation-facing canonical authority index and acceptance contract.
+## NEXT ACTION — GAME #016 PHASE 1 OPPORTUNITY DISCOVERY
+Start from a genuine clean slate. Re-read `START_HERE.md`, this `STATUS.md`, and `GAME_INDEX.md`, treating #001–#015 only as exclusion/portfolio history.
 
-Required freeze work:
-1. consolidate P9-P1..P9-P5 and P10-P1..P10-P5 without contradiction;
-2. freeze the exact machine-transcribable FC01–FC24 prerequisite table required by P10-P3;
-3. freeze the baseline achievement set or explicitly omit the alternate-solution achievement;
-4. classify E1–E5/C1–C6 as implementation/release gates vs non-blocking commercial decisions;
-5. state final authority order and supporting-vs-superseded clauses;
-6. enumerate implementation acceptance criteria, test obligations, content gates and forbidden drift;
-7. run a final ambiguity audit: a fresh implementation session must not need to invent important gameplay, progression, persistence, UX, commercial or technical rules.
+Perform one substantial Phase-1 discovery increment:
+1. use fresh September-2026 web research on Steam/indie market state, recent releases/demos, crowded vs under-served interaction patterns, platform/player expectations, pricing/product-form signals, and small-team production traps;
+2. explicitly derive the #016 exclusion boundary from all prior portfolio identities without reusing their mechanics/theme as canon;
+3. generate at least 24–30 genuinely distinct clean-slate seeds before preference filtering;
+4. kill obvious portfolio collisions, generic genre reskins, brute-force finite-set disguises, precision/timing burdens, and production-overscope traps;
+5. retain roughly 10–14 candidates only if they each have a legible 10-second hook, a plausible second-order depth source, bounded production ratio, deterministic/understandable failure state, and credible demo path;
+6. create `GAME16_RESEARCH.md` containing research evidence, broad seed field, kills/retains, candidate pitches, failure hypotheses, and an equal destructive Round-A protocol;
+7. do **not** select a winner in Phase 1.
 
-If Phase 11 passes, set `DESIGN COMPLETE = YES`. Then immediately attempt migration to the dedicated Fresh Coat repository if it exists. If the repository does not exist or cannot be created, mark migration pending, retain all Game #015 files as a frozen NON-ACTIVE safety archive, update `GAME_INDEX.md`, and advance `STATUS.md` immediately to Game #016 Phase 1 Opportunity Discovery. Pending migration must not stop the factory.
+If Phase 1 completes cleanly in the same run, update NEXT ACTION to Game #016 Phase 2 Concept Tournament Round A.
 
 ## Blockers
-**NONE for factory continuation.** Pending migrations #006–#014 are non-blocking.
+**NONE for factory continuation.** Pending migrations #006–#015 are non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #015; Phase 11 next).
+DESIGN COMPLETE = NO (current active Game #016; Phase 1 next).
