@@ -16,7 +16,7 @@ Branch: `main`
 Game #015 is the only active design slot. Games #001–#014 are exclusion/portfolio history only. Frozen archives #006–#014 are explicitly NON-ACTIVE and must not leak canon into #015.
 
 ## Current phase
-**Game #015 — PHASE 9 WHOLE-GAME SIMULATION COMPLETE / PHASE 10 ADVERSARIAL REVIEW NEXT.**
+**Game #015 — PHASE 10 ADVERSARIAL REVIEW COMPLETE / PHASE 11 SPECIFICATION FREEZE NEXT.**
 
 ## Active authority for Game #015
 1. `START_HERE.md`
@@ -34,53 +34,41 @@ Game #015 is the only active design slot. Games #001–#014 are exclusion/portfo
 13. `GAME15_TECHNICAL_SPECIFICATION.md`
 14. `GAME15_WHOLE_GAME_SIMULATION.md`
 15. `GAME15_PHASE9_PATCHES.md` (narrow superseding clauses P9-P1..P9-P5)
+16. `GAME15_ADVERSARIAL_REVIEW.md` (later Phase-10 authority; P10-P1..P10-P5)
 
-## This run completed — Game #015 Phase 9
+## This run completed — Game #015 Phase 10
 - Re-read factory authority and every active Game #015 file named by prior STATUS.
-- Performed a complete paper simulation from first boot through FC24, replay, demo import, cloud hand-off, corruption recovery and hostile input behavior.
-- Created `GAME15_WHOLE_GAME_SIMULATION.md` with player-visible state, semantic state, friction analysis and repair decisions for all required walkthroughs.
-- Verified FC01 first-failure/Undo flow does not create a binary Check oracle.
-- Verified FC10 interruption/resume and FC13 ordered-history presentation preserve semantic truth.
-- Verified FC16 hidden cavity regions remain accessible without camera hunting or oracle leakage.
-- Stress-tested FC21 role reversal and FC24 four-object cognitive load.
-- Simulated seven-case demo -> full import and found a real progression ambiguity caused by combining imported later completions, 2-of-3 family flow and mandatory concept gates.
-- Froze a predicate-based progression repair: family 2-of-3 controls normal flow, but case-level concept prerequisites are authoritative.
-- Froze Continue behavior after nonlinear/demo progress: resume active attempt first, otherwise earliest unlocked incomplete case / blocking gate; never `highest completed + 1`.
-- Froze explicit persistence of current valid editable arrangement snapshots on exit/suspend/cloud hand-off in addition to durable spray checkpoints.
-- Split `FINAL_CASE_CLEARED` (FC24) from canonical `CAMPAIGN_COMPLETE` (24/24), resolving the interaction with skip-friendly progression.
-- Froze object-grouped collapsible target cards and object<->target synchronization for late high-load cases.
-- Created `GAME15_PHASE9_PATCHES.md` as explicit later authority for the five narrow repairs above instead of silently mutating prior decisions.
-- Verified irreducible cloud attempts are never spliced; completion union survives branch choice.
-- Verified corrupt puzzle-state recovery preserves valid profile progress and falls back to valid checkpoint.
-- Hostile behavior pass covered rapid pose cycling, repeated Spray/Undo, modal double input, case skipping, hints, brute force, reset during transaction and mixed-device input.
-- No new gameplay mechanic, production implementation, test email or Gmail action performed.
+- Ran the required 15-area destructive attack matrix covering fun/repetition, preview brute force, four-object load, renderer/truth divergence, content freshness, progression/demo import, hints, input parity, transaction idempotency, cloud conflicts, achievements, implementation authority, scope creep, commercial value and empirical gates.
+- Created `GAME15_ADVERSARIAL_REVIEW.md` with severity + KEEP/PATCH/KILL decisions.
+- Found **0 unresolved S3 design blockers**; Fresh Coat survives Phase 10.
+- Froze P10-P1: exposure preview remains factual but cannot provide target-relative feedback or transient pose-scanning feedback.
+- Froze P10-P2: strict render-selection/semantic-region correspondence; visually misleading certified states fail content QA.
+- Froze P10-P3: Phase 11 must publish one machine-transcribable FC01–FC24 prerequisite table used by UI/runtime/Continue/import tests.
+- Froze P10-P4: hint tiers are reviewed cumulatively so combined hints cannot collapse a small puzzle into an implicit socket/pose solution.
+- Froze P10-P5: deterministic cloud/demo post-merge order: validate -> merge facts -> choose one attempt -> persist -> recompute progression -> achievements -> Continue -> UI.
+- Reaffirmed hard scope exclusions: no third coat, second rearrangement, free spray, tape/stickers, paint economy, fifth-object norm, or procedural padding for 1.0.
+- Classified E1–E5 as buildable empirical release gates rather than unresolved rules; C1/C3/C4/C5 remain commercial decisions, C2/C6 release gates.
+- Flagged the optional alternate-solution achievement as unnecessary baseline risk; Phase 11 should omit it unless a clear non-pressure use is proven.
+- No production implementation, test email or Gmail action performed.
 
 ## Frozen migration note
 Games #006–#014 remain migration-pending NON-ACTIVE archives. Their missing repositories are non-blocking. Migrate each independently if/when its dedicated repository becomes available; verify handoff/integrity before deleting only that game's retained safety files.
 
-## NEXT ACTION — GAME #015 PHASE 10 ADVERSARIAL REVIEW
-Re-read all active Game #015 authority including `GAME15_WHOLE_GAME_SIMULATION.md` and `GAME15_PHASE9_PATCHES.md`, then run dedicated destructive passes rather than another narrative walkthrough.
+## NEXT ACTION — GAME #015 PHASE 11 SPECIFICATION FREEZE
+Re-read all active Game #015 authority including `GAME15_PHASE9_PATCHES.md` and `GAME15_ADVERSARIAL_REVIEW.md`. Produce `GAME15_FINAL_FREEZE.md` as the implementation-facing canonical authority index and acceptance contract.
 
-Required attack matrix:
-1. fun/novelty decay and repetition across FC01–FC24;
-2. whether factual exposure preview makes arrangement reasoning too easy or brute-force attractive;
-3. four-object cognitive/visual load and target bookkeeping;
-4. renderer-vs-certified-truth divergence and partial-region ambiguity;
-5. content-freshness/repetition signatures across all eight families;
-6. 2-of-3 progression, mandatory concept gates, demo import and Continue edge cases after Phase-9 repairs;
-7. hint tiers for accidental solution leakage;
-8. controller/keyboard/accessibility parity and modal/input races;
-9. Spray/Undo/reset transaction idempotency and corrupt-save recovery;
-10. cloud divergent attempts, Dynamic Cloud Sync and demo-import duplication;
-11. achievements/progression idempotency and `FINAL_CASE_CLEARED` vs `CAMPAIGN_COMPLETE`;
-12. implementation ambiguity between authored source, certified package, runtime mutable state and renderer;
-13. scope creep pressures (third coat, second rearrangement, free spray, extra solids/content volume);
-14. commercial value/price/demo risk without padding;
-15. empirical gates E1–E5 and C1–C6: decide which remain valid implementation/release gates and whether any unresolved rule still blocks design freeze.
+Required freeze work:
+1. consolidate P9-P1..P9-P5 and P10-P1..P10-P5 without contradiction;
+2. freeze the exact machine-transcribable FC01–FC24 prerequisite table required by P10-P3;
+3. freeze the baseline achievement set or explicitly omit the alternate-solution achievement;
+4. classify E1–E5/C1–C6 as implementation/release gates vs non-blocking commercial decisions;
+5. state final authority order and supporting-vs-superseded clauses;
+6. enumerate implementation acceptance criteria, test obligations, content gates and forbidden drift;
+7. run a final ambiguity audit: a fresh implementation session must not need to invent important gameplay, progression, persistence, UX, commercial or technical rules.
 
-For every finding record severity and one of `KEEP`, `PATCH`, `KILL`. Patch authority explicitly where needed. If no unresolved important game-design question remains after repairs, advance to Phase 11 Specification Freeze. Do not mark DESIGN COMPLETE until Phase 11 passes.
+If Phase 11 passes, set `DESIGN COMPLETE = YES`. Then immediately attempt migration to the dedicated Fresh Coat repository if it exists. If the repository does not exist or cannot be created, mark migration pending, retain all Game #015 files as a frozen NON-ACTIVE safety archive, update `GAME_INDEX.md`, and advance `STATUS.md` immediately to Game #016 Phase 1 Opportunity Discovery. Pending migration must not stop the factory.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#014 are non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #015; Phase 10 next).
+DESIGN COMPLETE = NO (current active Game #015; Phase 11 next).
