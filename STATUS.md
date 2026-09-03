@@ -16,7 +16,7 @@ Branch: `main`
 Game #016 is the only active design slot. Games #001–#015 are exclusion/portfolio history only. Frozen archives #006–#015 are NON-ACTIVE and must not leak canon into #016. Round-C losers Unpacking Order and Margin of Error are rejected/exclusion history, not active mechanics.
 
 ## Current phase
-**Game #016 — PHASE 4 MECHANICAL ARCHITECTURE COMPLETE / PHASE 5 CONTENT ARCHITECTURE NEXT.**
+**Game #016 — PHASE 5 CONTENT ARCHITECTURE COMPLETE / PHASE 6 UX & PRESENTATION ARCHITECTURE NEXT.**
 
 ## Active authority for Game #016
 1. `START_HERE.md`
@@ -28,39 +28,44 @@ Game #016 is the only active design slot. Games #001–#015 are exclusion/portfo
 7. `GAME16_ROUND_C.md`
 8. `GAME16_PRODUCT_THESIS.md`
 9. `GAME16_MECHANICS.md`
+10. `GAME16_CONTENT.md`
 
-## This run completed — Game #016 Phase 4
-- Re-read all active authorities and resumed exactly from `STATUS.md -> NEXT ACTION`.
-- Created `GAME16_MECHANICS.md` as the Phase-4 mechanical authority.
-- Frozen deterministic entities/state for Job, Workpiece/Stock/Child, CutSocket, lineage, JigStation, Operation, PartSlot and CertificationRequirement.
-- Normalized the property vocabulary into four base physical capability families: `SPAN`, `EDGE`, `FACE`, visible physical `PAIR`; guided operations add only `HOLE`, `MARK`, `SPACING`, or `ANGLE` witnesses.
-- Frozen atomic cut/operation commit ordering, exact preview scope, reversible pre-commit interaction, irreversible fabrication commits and instant job restart boundary.
-- Defined guided drill/mark/spacing/diagonal operations without freeform crafting or generic capability growth.
-- Defined state-based certification, soft failure, a conservative optimistic dead-state detector with zero false-positive requirement, and causal proof traces that diagnose broken ancestry without revealing a winning sequence.
-- Frozen difficulty variables and hard ceilings: <=3 initial stocks, <=6 fabrication commits, <=8 loose children, <=5 cut sockets per current piece, one simultaneous jig per guided operation, bounded witness chaining and a design-time target <=64 reachable meaningful mechanical states.
-- Attacked largest-offcut preservation, product-first cutting, hoarding, restart enumeration, universal-jig growth and branch explosion with structural rules plus authoring invariants.
-- Wrote and checked three deterministic cases using the same rules: tutorial `Keep the Spacer`, midgame `Wrong Side First`, and late `Witness Relay`. The late sketch initially violated the three-stock ceiling; it was explicitly rejected/repaired inside the authority rather than silently expanding scope.
-- Added 24 authoring validation invariants and empirical gates for tactility, lineage readability, shape-first compatibility, irreversibility, reasoning-over-enumeration, restart friction, universal-tool dominance and reasoning-family variety.
-- No Phase-5 content population, production implementation, Gmail or email action performed.
+## This run completed — Game #016 Phase 5
+- Re-read the active Game #016 authority chain and resumed exactly from the prior `NEXT ACTION`.
+- Created `GAME16_CONTENT.md` as the Phase-5 content authority.
+- Locked six distinct reasoning families by proof sentence: Immediate Byproduct, Property Choice, Delayed Lineage, Cross-Blank Ancestry, Dual-Use Conflict, Derived Witness Relay.
+- Defined exact capability/witness introduction cadence across OW01–OW24 without adding mechanics.
+- Built the full 24-row campaign matrix with teaching goal, stock/commit ceilings, dependency distance, conflict, human proof, dominant-strategy trap, validation burden and solve-time target.
+- Reworked the demo into a real 20–30 minute path: OW01 + OW03 + OW05 + a reduced OW13-derived cross-blank capstone D1. D1 is demo-only reuse, not a 25th canonical case.
+- Frozen reusable content burden: <=12 root stock archetypes, <=45 child geometry tokens, <=8 station archetypes, 6 final-product visual families and no bespoke machine animation outside shared operation rigs.
+- Defined declarative `JobDefinition` authoring fields and mandatory validation expectations.
+- Defined exhaustive design-time enumeration, all-solution certification, <=64 meaningful-state target, contradiction-distance checks, campaign-global anti-meta checks and zero-false-positive runtime dead-state regression.
+- Frozen reuse/tutorialization rules and clarified that optional variants are non-canonical and may not add mechanics or progression requirements.
+- Estimated content-design burden at roughly 35–55 designer-days after tooling, with OW16/OW20/OW23/OW24 as principal solver/QA hotspots.
+- Mapped Phase-4 empirical gates to concrete cases and defined family endpoints OW04/08/12/16/20/24 as the six-case regression suite.
+- Confirmed all 24 cases are authorable under Phase-4 grammar; no Phase-4 reopening required.
+- No production implementation, Gmail or email action performed.
 
-## NEXT ACTION — GAME #016 PHASE 5 / CONTENT ARCHITECTURE
-Re-read all nine active authority files and build the exact 24-case campaign/content contract without inventing new mechanics.
+## NEXT ACTION — GAME #016 PHASE 6 / UX & PRESENTATION ARCHITECTURE
+Re-read all ten active authority files and define the complete player-facing interaction/presentation contract against OW01–OW24.
 
 Required substantial increment:
-1. lock the six reasoning families and exact four-case progression inside each, replacing/merging any family that cannot produce distinct proof sentences under `GAME16_MECHANICS.md`;
-2. define an exact introduction cadence for `SPAN`, `EDGE`, `FACE`, optional visible `PAIR`, and `HOLE`/`MARK`/`SPACING`/`ANGLE` witnesses;
-3. create a 24-row case matrix with case id, teaching goal, stocks, max commits, key dependency distance, capability conflict, intended human proof, dominant-strategy trap, validation burden and expected solve time;
-4. identify the canonical 20–30 minute demo subset/capstone and explain why its knowledge progression works without later mechanics;
-5. define reusable stock geometry kit, jig/station kit, final-product visual families and maximum bespoke asset burden;
-6. define exact data-driven authoring schema and validation pipeline inputs/outputs, including exhaustive solution checking and zero-false-positive dead-state regression;
-7. specify content reuse rules, tutorialization rules, optional challenge variants if any, and what is explicitly not counted as canonical content;
-8. estimate content-production/QA burden under the 24-case baseline and identify cases/families most likely to violate the <=64-state or anti-enumeration constraints;
-9. carry forward empirical gates and create a Phase-5 validation matrix showing which cases test each gate;
-10. create `GAME16_CONTENT.md` and update `STATUS.md`/`GAME_INDEX.md`.
+1. freeze workbench/camera model and exact mouse + controller/Steam Deck navigation paths for stock, child, cut socket, station, part slot and plan requirement;
+2. define focus/selection hierarchy so <=8 loose children and multiple stations remain navigable without cursor hunting or genealogy-screen dependence;
+3. specify direct cut preview and irreversible commit affordance, including accidental-commit prevention without making every action tedious;
+4. define physical + overlay language for `SPAN`, `EDGE`, `FACE`, `PAIR`, witnesses, compatible/incompatible station fit and role state (part/byproduct/jig);
+5. specify lineage readability and causal trace presentation through six-commit OW23/OW24 without exposing a winning sequence;
+6. design first-session/onboarding flow using OW01, OW03, OW05 and demo capstone D1; modal tutorial budget and prompt-fading rules must respect Phase 5;
+7. define certifier success/failure, optimistic dead-state warning, restart interaction and recovery timing;
+8. define HUD, plan/requirements inspection, pause/settings/save/load boundaries and what information is persistent between attempts;
+9. define accessibility baseline: remapping, controller-only completion, text scale, color-independent capability coding, motion/camera options, hold/toggle behavior and audio redundancy;
+10. define audio/visual/tactile feedback for cut, split, dock, fit rejection, guided operation, witness creation, consume/release and certification;
+11. walk through OW01, OW11, OW20 and OW24 using the proposed UX and repair any interaction ambiguity without adding mechanics;
+12. create `GAME16_UX.md` and update `STATUS.md`/`GAME_INDEX.md`.
 
-Do not start Phase 6 until the 24-case campaign can be authored entirely from the Phase-4 grammar and the six families remain meaningfully distinct.
+Do not begin Phase 7 until a player can operate and understand the hardest canonical case with controller/Deck and without relying on hidden state, tiny labels or a separate genealogy UI.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#015 remain non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #016; Phase 5 next).
+DESIGN COMPLETE = NO (current active Game #016; Phase 6 next).
