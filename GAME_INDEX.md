@@ -20,12 +20,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 014 | **Negative Casting** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`. |
 | 015 | **FRESH COAT** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`. |
 | 016 | **ONE-WAY WORKSHOP** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/one-way-workshop` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME16_FINAL_FREEZE.md`; 24-case deterministic byproduct-as-tool fabrication puzzle. |
-| 017 | **THE QUEUE KNOWS** *(working title)* | **IN DESIGN / Phase 3 product thesis locked; Phase 4 next** | TBD | NOT STARTED | Round-C winner selected 2026-09-04: diagnostic mechanism-design puzzle where queue choices reveal deterministic hidden customer needs/types. |
+| 017 | **THE QUEUE KNOWS** *(working title)* | **IN DESIGN / Phase 4 mechanical architecture complete; Phase 5 next** | TBD | NOT STARTED | Deterministic diagnostic mechanism-design puzzle; exact evaluator/tick/inference/validator contracts now locked in `GAME17_MECHANICS.md`. |
 
 ## Active Game #017 boundary
 Game #017 is the only active design slot. Games #001–#016 are portfolio/exclusion history only. Frozen safety archives #006–#016 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #017.
 
-Game #017 completed Phase 1, Concept Tournament Rounds A/B/C, and Phase 3 Product Thesis Lock. Round C compared **House Rules**, **The Queue Knows**, and **Archive of Almosts** and selected exactly one winner: **THE QUEUE KNOWS**. Runner-up mechanics are tournament history only and are not active canon. Canonical selected-concept authority now includes `GAME17_ROUND_C.md` and `GAME17_PRODUCT_THESIS.md`. Phase 4 Mechanical Architecture is next.
+Game #017 completed Phase 1, Concept Tournament Rounds A/B/C, Phase 3 Product Thesis Lock, and Phase 4 Mechanical Architecture. Round C selected exactly one winner: **THE QUEUE KNOWS**. Runner-up mechanics are tournament history only and are not active canon. Canonical active authority now includes `GAME17_PRODUCT_THESIS.md` and `GAME17_MECHANICS.md`. Phase 5 Content Architecture is next.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
