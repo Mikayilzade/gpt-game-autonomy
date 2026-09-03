@@ -9,55 +9,50 @@ Branch: `main`
 - Games #001–#005: **DESIGN COMPLETE / migrated**
 - Games #006–#015: **DESIGN COMPLETE / migration pending / retained NON-ACTIVE safety archives**
 - Current design slot: **Game #016**
-- Selected concept: **NONE — clean-slate opportunity discovery next**
+- Selected concept: **NONE — tournament not yet resolved**
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
-Game #016 is the only active design slot. Games #001–#015 are exclusion/portfolio history only. Frozen archives #006–#015 are explicitly NON-ACTIVE and must not leak canon into #016.
+Game #016 is the only active design slot. Games #001–#015 are exclusion/portfolio history only. Frozen archives #006–#015 are NON-ACTIVE and must not leak canon into #016.
 
 ## Current phase
-**Game #016 — PHASE 1 OPPORTUNITY DISCOVERY NEXT.**
+**Game #016 — PHASE 2 CONCEPT TOURNAMENT / ROUND A NEXT.**
 
 ## Active authority for Game #016
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
+4. `GAME16_RESEARCH.md`
 
-There are currently no `GAME16_*` active design files. The next substantial run must create the first Game #016 research/discovery authority.
+## This run completed — Game #016 Phase 1 Opportunity Discovery
+- Re-read `START_HERE.md`, prior `STATUS.md`, and `GAME_INDEX.md`; no Game #016 active file existed at run start.
+- Performed fresh September-2026 market/discovery research covering current Steam discovery pressure, June Next Fest demo saturation, recent demo/release hooks, automation/management appetite, common saturated intersections, pricing signals, and small-team commercial risk.
+- Explicitly derived a clean #016 exclusion boundary from all fifteen prior portfolio identities without importing their canon.
+- Generated **30** pre-filter clean-slate seeds.
+- Killed **18** for portfolio collision, generic/reskinned structure, brute-force/opaque state, timing/precision risk, or production/content burden.
+- Retained **12 provisional candidates**: Margin of Error; Second-Hand Forecast; The Spare Room; One-Way Workshop; Unpacking Order; Quiet Please; Borrowed Floor; Lost Motion; The Long Drawer; Phase Change; Please Hold; Pressure Proof.
+- For every survivor recorded a 10-second hook, core interaction, second-order depth source, demo path, and principal failure hypothesis.
+- Flagged Quiet Please as likely #011 collision and Pressure Proof as requiring especially strong portfolio-distance proof.
+- Created equal destructive 12-dimension Round-A protocol plus mandatory trivial/late-puzzle, dominant-strategy, branching, learning, freshness, implementation-risk and analogue probes.
+- Created `GAME16_RESEARCH.md` as the active discovery authority.
+- No winner selected; no production implementation or email action performed.
 
-## This run completed — Game #015 Phase 11 / continuity transition
-- Re-read factory authority and every active Game #015 file named by prior STATUS.
-- Completed Phase 11 Specification Freeze and created `GAME15_FINAL_FREEZE.md`.
-- Consolidated all P9-P1..P9-P5 and P10-P1..P10-P5 repairs into one final implementation-facing authority.
-- Froze one machine-transcribable FC01–FC24 prerequisite table used by runtime/UI/Continue/demo-import reconciliation.
-- Froze baseline achievements at **11** and intentionally omitted the alternate-solution achievement.
-- Classified E1–E5 plus C2/C6 as implementation/release gates; C1/C3/C4/C5 remain non-blocking commercial decisions.
-- Froze final authority order, acceptance tests, certifier/build obligations, persistence/cloud/demo transaction rules, renderer-vs-truth correspondence, content freshness gates, and forbidden implementation drift.
-- Final ambiguity audit passed: a fresh implementation session does not need to invent important gameplay/progression/persistence/UX/commercial/technical rules.
-- Set Game #015 `DESIGN COMPLETE = YES`.
-- Checked dedicated migration target `Mikayilzade/fresh-coat`; repository was not found/available on 2026-09-03.
-- Per continuity rule, retained every `GAME15_*` file as a frozen NON-ACTIVE safety archive and marked migration pending. No source safety copy was deleted.
-- Updated `GAME_INDEX.md` to archive #015 and opened clean sequential Game #016.
-- No production implementation, test email, or Gmail action performed.
+## NEXT ACTION — GAME #016 PHASE 2 / CONCEPT TOURNAMENT ROUND A
+Re-read all four active authority files. Run the equal destructive Round-A protocol against all 12 provisional candidates.
 
-## Frozen migration note
-Games #006–#015 remain migration-pending NON-ACTIVE archives. Their missing repositories are non-blocking. Migrate each independently if/when its dedicated repository becomes available; verify handoff/integrity before deleting only that game's retained safety files.
+Required substantial increment:
+1. score all 12 candidates 0–5 on the frozen 12 dimensions with concise written justification;
+2. for each, sketch one tutorial case and one late-game case using the same core verbs;
+3. identify dominant strategy, meaningful branching, what the player learns after failure, attempt-20 freshness source, and ugliest implementation/UX risk;
+4. use fresh web research for relevant analogues and current differentiation where it materially affects scores;
+5. apply immediate kill gates for portfolio collision, precision dependence, opaque failure, uncontrolled content burden, or finite-set enumeration masquerading as depth;
+6. reduce the field to roughly 5–7 survivors only if deserved; ties do not require keeping weak candidates;
+7. create `GAME16_ROUND_A.md` with score matrix, destructive probes, kills, survivors, and exact Round-B questions;
+8. do **not** choose the final game in Round A.
 
-## NEXT ACTION — GAME #016 PHASE 1 OPPORTUNITY DISCOVERY
-Start from a genuine clean slate. Re-read `START_HERE.md`, this `STATUS.md`, and `GAME_INDEX.md`, treating #001–#015 only as exclusion/portfolio history.
-
-Perform one substantial Phase-1 discovery increment:
-1. use fresh September-2026 web research on Steam/indie market state, recent releases/demos, crowded vs under-served interaction patterns, platform/player expectations, pricing/product-form signals, and small-team production traps;
-2. explicitly derive the #016 exclusion boundary from all prior portfolio identities without reusing their mechanics/theme as canon;
-3. generate at least 24–30 genuinely distinct clean-slate seeds before preference filtering;
-4. kill obvious portfolio collisions, generic genre reskins, brute-force finite-set disguises, precision/timing burdens, and production-overscope traps;
-5. retain roughly 10–14 candidates only if they each have a legible 10-second hook, a plausible second-order depth source, bounded production ratio, deterministic/understandable failure state, and credible demo path;
-6. create `GAME16_RESEARCH.md` containing research evidence, broad seed field, kills/retains, candidate pitches, failure hypotheses, and an equal destructive Round-A protocol;
-7. do **not** select a winner in Phase 1.
-
-If Phase 1 completes cleanly in the same run, update NEXT ACTION to Game #016 Phase 2 Concept Tournament Round A.
+If Round A finishes cleanly and enough evidence exists, NEXT ACTION should become Phase 2 Round B mechanical proof / deeper market differentiation.
 
 ## Blockers
-**NONE for factory continuation.** Pending migrations #006–#015 are non-blocking.
+**NONE for factory continuation.** Pending migrations #006–#015 remain non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #016; Phase 1 next).
+DESIGN COMPLETE = NO (current active Game #016; Phase 2 Round A next).
