@@ -18,13 +18,16 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 012 | **OPENWORK** *(provisional working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/openwork` *(not yet created)* | NOT STARTED | Final authority `GAME12_FINAL_FREEZE.md`; migration attempted 2026-09-01 and repository was unavailable. |
 | 013 | **SEAL BREAK** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/seal-break` *(not yet created)* | NOT STARTED | Final authority `GAME13_FINAL_FREEZE.md`; migration target checked after freeze and unavailable. |
 | 014 | **Negative Casting** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`; Phase 11 completed and migration target was unavailable. |
-| 015 | **FRESH COAT** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`; exact prerequisite table, 11-achievement baseline, acceptance contract and P9/P10 consolidation frozen. |
-| 016 | **ONE-WAY WORKSHOP** *(working title)* | **IN DESIGN / Phase 10 adversarial review complete / Phase 11 next** | TBD | NOT STARTED | Survived destructive review; reset/cloud/dead-state/hint ambiguities resolved as Phase-10 authority. Final specification freeze next. |
+| 015 | **FRESH COAT** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`; exact prerequisite table, 11-achievement baseline, acceptance contract and P9/P10 consolidation frozen. |
+| 016 | **ONE-WAY WORKSHOP** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/one-way-workshop` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME16_FINAL_FREEZE.md`; 24-case deterministic byproduct-as-tool fabrication puzzle; migration target unavailable after freeze. |
+| 017 | **TBD** | **IN DESIGN / Phase 1 Opportunity Discovery next** | TBD | NOT STARTED | Clean active slot. Must not inherit canon from #001–#016. |
 
-## Active Game #016 boundary
-Game #016 is the only active design slot. Games #001–#015 are portfolio/exclusion history only. Frozen safety archives #006–#015 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #016.
+## Active Game #017 boundary
+Game #017 is the only active design slot. Games #001–#016 are portfolio/exclusion history only. Frozen safety archives #006–#016 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #017.
 
-Game #016 Phases 1–10 are complete. **ONE-WAY WORKSHOP** remains selected. Active design authority now includes `GAME16_ADVERSARIAL_REVIEW.md`; next step is Phase 11 Specification Freeze. The canonical campaign remains exactly 24 authored cases across Immediate Byproduct, Property Choice, Delayed Lineage, Cross-Blank Ancestry, Dual-Use Conflict and Derived Witness Relay. Phase-10 review kept the existing mechanics/scope and froze four important clarifications: persisted deliberate-reset generation semantics; 1.0 profile cloud-sync with active attempt local-only; absence of a dead-state warning is not proof of solvability; and H3 hints require a per-state leakage test so a genuine current choice is not silently reduced to one move. Compatibility UI remains neutral physical-fit information, not strategic recommendation. Rejected finalists Unpacking Order and Margin of Error remain tournament history only.
+Game #016 is frozen with highest authority `GAME16_FINAL_FREEZE.md`. Its dedicated repository was checked on 2026-09-03 and was unavailable, so migration remains pending without blocking the factory. When `Mikayilzade/one-way-workshop` later exists, migrate and verify #016 independently, add implementation handoff/status/CI-noise policy there, then remove only #016's retained factory safety files after integrity verification.
+
+Game #017 starts clean at Phase 1 Opportunity Discovery. No concept is selected yet.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
@@ -42,6 +45,7 @@ Game #016 Phases 1–10 are complete. **ONE-WAY WORKSHOP** remains selected. Act
 - #013 SEAL BREAK: irreversible tamper-seal witnesses record first qualifying opening checkpoint; temporal evidence, survivorship, inverse witness placement and bounded history reconstruction.
 - #014 NEGATIVE CASTING: geometry-derived two-light shadow classification across 1–3 projection surfaces using discrete socketed opaque blockers, exact incidence and proof-carrying human deduction routes.
 - #015 FRESH COAT: self-obligated 3D workpieces used as temporary masks across at most two fixed spray passes and one rearrangement; exact persistent semantic face exposure histories culminating in unpack/reveal.
+- #016 ONE-WAY WORKSHOP: irreversible discrete fabrication cuts create two children; apparent waste becomes future jig/capability through bounded ancestry and guided witness relays.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
