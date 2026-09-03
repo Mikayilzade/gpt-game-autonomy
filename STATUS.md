@@ -16,7 +16,7 @@ Branch: `main`
 Game #015 is the only active design slot. Games #001–#014 are exclusion/portfolio history only. Frozen archives #006–#014 are explicitly NON-ACTIVE and must not leak canon into #015.
 
 ## Current phase
-**Game #015 — PHASE 8 TECHNICAL IMPLEMENTATION SPECIFICATION COMPLETE / PHASE 9 WHOLE-GAME SIMULATION NEXT.**
+**Game #015 — PHASE 9 WHOLE-GAME SIMULATION COMPLETE / PHASE 10 ADVERSARIAL REVIEW NEXT.**
 
 ## Active authority for Game #015
 1. `START_HERE.md`
@@ -32,51 +32,55 @@ Game #015 is the only active design slot. Games #001–#014 are exclusion/portfo
 11. `GAME15_UX_PRESENTATION_ARCHITECTURE.md`
 12. `GAME15_COMMERCIAL_MODEL.md`
 13. `GAME15_TECHNICAL_SPECIFICATION.md`
+14. `GAME15_WHOLE_GAME_SIMULATION.md`
+15. `GAME15_PHASE9_PATCHES.md` (narrow superseding clauses P9-P1..P9-P5)
 
-## This run completed — Game #015 Phase 8
+## This run completed — Game #015 Phase 9
 - Re-read factory authority and every active Game #015 file named by prior STATUS.
-- Performed fresh September-2026 verification of Godot stable versions, Steam Deck requirements, Steam Cloud/demo guidance and the current GodotSteam maintenance/move situation.
-- Created `GAME15_TECHNICAL_SPECIFICATION.md` as Phase-8 authority.
-- Froze initial implementation direction as Godot 4.7.x stable, GDScript-first, with deterministic core data kept engine-agnostic.
-- Isolated Steamworks behind a `PlatformServices` adapter so gameplay/state never depends on a particular community binding.
-- Froze authority layers: authored source -> certified derived truth -> immutable runtime package -> mutable model -> versioned persistence -> renderer/UI.
-- Specified exact exposure-precompute contract with `PARTIAL_INVALID` rejection/subdivision and explicit renderer-vs-truth divergence QA.
-- Specified authoring/certifier enumeration, A->B transition graph, symmetry/equivalence rules, repetition validator and stable certified case packages.
-- Specified runtime arrangement/spray/reveal state machine with atomic Spray checkpoints, transaction IDs, idempotency and interruption-safe Undo/recovery.
-- Specified versioned save/profile layout, atomic writes, corrupt-save fallback and explicit schema migrations using stable semantic IDs.
-- Specified cloud conflict policy: monotonic progress union, no cross-attempt state splicing, revision/transaction lineage over timestamps, Dynamic Cloud Sync stable checkpoints.
-- Specified idempotent demo-to-full import and achievement reconciliation.
-- Specified semantic input abstraction, glyph/provider boundary, UI/model separation, localization contracts and modal double-input guard.
-- Set Steam Deck-class target at 60 fps / 1280x800 where practical, with platform 30 fps floor; no gameplay physics requirement.
-- Defined pure-model, golden-case, geometry-adversarial, transaction-crash, cloud-merge and controller/UI test suites plus non-shipping debug tools.
-- Froze baseline privacy posture: no custom gameplay telemetry backend/account system.
-- Defined one-codebase demo/full packaging and dedicated-repository implementation order 12A–12H.
-- Explicitly attacked renderer divergence, partial exposure, symmetry bugs, corrupt saves, cloud/demo duplication, interrupted Spray/Undo and stale Steam integration dependencies.
-- No production implementation, test email or Gmail action performed.
+- Performed a complete paper simulation from first boot through FC24, replay, demo import, cloud hand-off, corruption recovery and hostile input behavior.
+- Created `GAME15_WHOLE_GAME_SIMULATION.md` with player-visible state, semantic state, friction analysis and repair decisions for all required walkthroughs.
+- Verified FC01 first-failure/Undo flow does not create a binary Check oracle.
+- Verified FC10 interruption/resume and FC13 ordered-history presentation preserve semantic truth.
+- Verified FC16 hidden cavity regions remain accessible without camera hunting or oracle leakage.
+- Stress-tested FC21 role reversal and FC24 four-object cognitive load.
+- Simulated seven-case demo -> full import and found a real progression ambiguity caused by combining imported later completions, 2-of-3 family flow and mandatory concept gates.
+- Froze a predicate-based progression repair: family 2-of-3 controls normal flow, but case-level concept prerequisites are authoritative.
+- Froze Continue behavior after nonlinear/demo progress: resume active attempt first, otherwise earliest unlocked incomplete case / blocking gate; never `highest completed + 1`.
+- Froze explicit persistence of current valid editable arrangement snapshots on exit/suspend/cloud hand-off in addition to durable spray checkpoints.
+- Split `FINAL_CASE_CLEARED` (FC24) from canonical `CAMPAIGN_COMPLETE` (24/24), resolving the interaction with skip-friendly progression.
+- Froze object-grouped collapsible target cards and object<->target synchronization for late high-load cases.
+- Created `GAME15_PHASE9_PATCHES.md` as explicit later authority for the five narrow repairs above instead of silently mutating prior decisions.
+- Verified irreducible cloud attempts are never spliced; completion union survives branch choice.
+- Verified corrupt puzzle-state recovery preserves valid profile progress and falls back to valid checkpoint.
+- Hostile behavior pass covered rapid pose cycling, repeated Spray/Undo, modal double input, case skipping, hints, brute force, reset during transaction and mixed-device input.
+- No new gameplay mechanic, production implementation, test email or Gmail action performed.
 
 ## Frozen migration note
 Games #006–#014 remain migration-pending NON-ACTIVE archives. Their missing repositories are non-blocking. Migrate each independently if/when its dedicated repository becomes available; verify handoff/integrity before deleting only that game's retained safety files.
 
-## NEXT ACTION — GAME #015 PHASE 9 WHOLE-GAME SIMULATION
-Re-read all active Game #015 authority, then simulate the complete shipped experience on paper and repair contradictions/friction rather than merely summarizing it.
+## NEXT ACTION — GAME #015 PHASE 10 ADVERSARIAL REVIEW
+Re-read all active Game #015 authority including `GAME15_WHOLE_GAME_SIMULATION.md` and `GAME15_PHASE9_PATCHES.md`, then run dedicated destructive passes rather than another narrative walkthrough.
 
-Required walkthroughs:
-1. first boot on desktop/Deck, input detection, settings/accessibility and FC01 entry;
-2. FC01 first arrangement, factual exposure preview, first Spray, reveal, first failure and Undo/reset recovery;
-3. onboarding through FC05 and transition into family-based 2-of-3 progression with mandatory concept gates;
-4. exact seven-case demo flow and demo-to-full import into normal FC01–FC24 campaign order;
-5. FC10 two-pass/rearrangement teaching and interruption/resume between A and B;
-6. FC13 A_THEN_B introduction and failure explanation without appearance/order confusion;
-7. FC16 cavity inspection and hidden-region accessibility without camera hunting/oracle leakage;
-8. FC21 role reversal and FC24 capstone under four-object readability pressure;
-9. campaign completion, achievements, replay and legitimate alternate solutions;
-10. Steam Deck suspend -> cloud -> PC/other-device resume and an irreducible divergent-attempt conflict;
-11. corrupt latest puzzle state / valid profile recovery;
-12. hostile behavior: rapid pose cycling, repeated Spray/Undo, modal double input, skipping one case per family, hint use and attempted brute force.
+Required attack matrix:
+1. fun/novelty decay and repetition across FC01–FC24;
+2. whether factual exposure preview makes arrangement reasoning too easy or brute-force attractive;
+3. four-object cognitive/visual load and target bookkeeping;
+4. renderer-vs-certified-truth divergence and partial-region ambiguity;
+5. content-freshness/repetition signatures across all eight families;
+6. 2-of-3 progression, mandatory concept gates, demo import and Continue edge cases after Phase-9 repairs;
+7. hint tiers for accidental solution leakage;
+8. controller/keyboard/accessibility parity and modal/input races;
+9. Spray/Undo/reset transaction idempotency and corrupt-save recovery;
+10. cloud divergent attempts, Dynamic Cloud Sync and demo-import duplication;
+11. achievements/progression idempotency and `FINAL_CASE_CLEARED` vs `CAMPAIGN_COMPLETE`;
+12. implementation ambiguity between authored source, certified package, runtime mutable state and renderer;
+13. scope creep pressures (third coat, second rearrangement, free spray, extra solids/content volume);
+14. commercial value/price/demo risk without padding;
+15. empirical gates E1–E5 and C1–C6: decide which remain valid implementation/release gates and whether any unresolved rule still blocks design freeze.
 
-For every walkthrough record: player-visible state, semantic state, likely confusion/friction, whether current spec already resolves it, and exact repair if not. Verify campaign pacing/unlock graph and demo carry-over do not create prerequisite contradictions. If a contradiction requires reopening mechanics/content/UX/commercial/technical rules, patch the relevant authority file explicitly; otherwise create a Phase-9 simulation file and advance to Phase 10 Adversarial Review.
+For every finding record severity and one of `KEEP`, `PATCH`, `KILL`. Patch authority explicitly where needed. If no unresolved important game-design question remains after repairs, advance to Phase 11 Specification Freeze. Do not mark DESIGN COMPLETE until Phase 11 passes.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#014 are non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #015; Phase 9 next).
+DESIGN COMPLETE = NO (current active Game #015; Phase 10 next).
