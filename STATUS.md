@@ -33,16 +33,11 @@ Game #017 is the only active design slot. Games #001–#016 are exclusion/portfo
 12. `GAME17_COMMERCIAL.md`
 13. `GAME17_TECHNICAL_SPEC.md`
 
-## This run completed — Game #017 Phase 7 Commercial Model
-- Re-read required factory authority and active Game #017 canon.
-- Performed fresh 2026-09-05 market/platform research on current logic-puzzle pricing, Steam discount rules, demos, achievements and Cloud.
-- Created canonical `GAME17_COMMERCIAL.md`.
-- Locked $12.99 planning MSRP with $11.99–$14.99 empirical pre-release adjustment band and 10% launch-discount baseline.
-- Locked 6–8h first-completion and 9–13h completionist targets as empirical value targets, never filler mandates.
-- Locked free demo to QK01–QK06, desired demo-save carryover, no demo achievements, and no account/mailing-list gate.
-- Locked progression without XP/currency/grind/dailies/live service; optional mastery and certified modifiers carry replay value.
-- Locked 18–24 achievement philosophy, Steam Cloud/controller/Deck/demo targets, premium-only monetization and expansion boundaries.
-- Locked store/capsule/trailer positioning around diagnostic experimentation rather than queue management, plus major commercial risks and non-fabricated empirical gates.
+## This run completed — Game #017 Phase 8 Technical Specification
+- Re-read required factory authority and all active Game #017 files.
+- Performed fresh engine/platform verification.
+- Created canonical `GAME17_TECHNICAL_SPEC.md`.
+- Locked the implementation stack, deterministic simulation boundaries, serialized data/save contracts, evaluator/event ordering, offline validator, Type Lens contract, persistence/platform strategy, controller/Deck input abstraction, accessibility/localization boundaries, deterministic testing and implementation order.
 - No production implementation was started.
 
 ## NEXT ACTION — GAME #017 PHASE 8 / TECHNICAL IMPLEMENTATION SPECIFICATION
