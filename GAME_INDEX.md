@@ -21,12 +21,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 015 | **FRESH COAT** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`. |
 | 016 | **ONE-WAY WORKSHOP** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/one-way-workshop` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME16_FINAL_FREEZE.md`; 24-case deterministic byproduct-as-tool fabrication puzzle. |
 | 017 | **THE QUEUE KNOWS** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/the-queue-knows` *(not found 2026-09-06)* | NOT STARTED | Final authority `GAME17_FINAL_FREEZE.md`; deterministic diagnostic queue-choice puzzle; dedicated repository unavailable at freeze. |
-| 018 | **TBD — clean-slate discovery** | **IN DESIGN / Phase 1 opportunity discovery next** | TBD | NOT STARTED | Active slot; must not inherit Game #017 canon. |
+| 018 | **TBD — Round-A field** | **IN DESIGN / Phase 1 complete; Phase 2 Round A next** | TBD | NOT STARTED | 28 clean-slate concepts generated; 12 retained for equal destructive tournament in `GAME18_RESEARCH.md`. |
 
 ## Active Game #018 boundary
 Game #018 is the only active design slot. Games #001–#017 are portfolio/exclusion history only. Frozen safety archives #006–#017 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #018.
 
-Game #017 completed all design phases and is frozen in `GAME17_FINAL_FREEZE.md`. Its dedicated repository was not found on 2026-09-06, so migration remains pending and all `GAME17_*` files are retained solely as a non-active safety archive. Factory continuation moves immediately to Game #018.
+Game #018 Phase 1 is canonical in `GAME18_RESEARCH.md`: 28 concepts were generated before filtering, six immediate collision/production kills were recorded, and 12 concepts remain for Round A. No concept is selected.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
