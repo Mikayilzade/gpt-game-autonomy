@@ -1,6 +1,6 @@
 # FACTORY STATUS
 
-Last updated: 2026-09-04
+Last updated: 2026-09-05
 Repository: `Mikayilzade/gpt-game-autonomy`
 Branch: `main`
 
@@ -16,7 +16,7 @@ Branch: `main`
 Game #017 is the only active design slot. Games #001–#016 are exclusion/portfolio history only. Frozen archives #006–#016 are NON-ACTIVE and must not leak canon into #017. Game #017 runner-ups and killed candidates are tournament history only and do not supply canon to the selected game.
 
 ## Current phase
-**Game #017 — PHASE 4 MECHANICAL ARCHITECTURE COMPLETE / PHASE 5 CONTENT ARCHITECTURE NEXT.**
+**Game #017 — PHASE 5 CONTENT ARCHITECTURE COMPLETE / PHASE 6 UX & PRESENTATION NEXT.**
 
 ## Active authority for Game #017
 1. `START_HERE.md`
@@ -28,44 +28,45 @@ Game #017 is the only active design slot. Games #001–#016 are exclusion/portfo
 7. `GAME17_ROUND_C.md`
 8. `GAME17_PRODUCT_THESIS.md`
 9. `GAME17_MECHANICS.md`
+10. `GAME17_CONTENT.md`
 
-## This run completed — Game #017 Phase 4
+## This run completed — Game #017 Phase 5
 - Re-read required factory authority and all active Game #017 files and resumed exactly from prior NEXT ACTION.
-- Created canonical `GAME17_MECHANICS.md`.
-- Locked complete case/counter/customer/cohort/evidence/hidden-world state model.
-- Locked deterministic formulas for Price, Urgent, Routine, Privacy and Convenience plus a total tie-break order.
-- Defined predicted-completion math, queue/service timing and one canonical cohort/tick resolution order.
-- Defined fixed-slot movement so animation, skipping and presentation timing cannot affect logic.
-- Defined four intervention families, timing windows, budgets, persistence and legality.
-- Defined exact candidate elimination from immutable pre-choice evidence snapshots and UI reveal boundaries that prevent hidden-truth leakage.
-- Defined objective families, commit semantics, service constraints, success/failure and exhaustive information-dead-state certification.
-- Defined restart/checkpoint/replay policy without branch-information contamination.
-- Locked difficulty knobs and hard ceilings: 10 customers visible, 3 counters, exactly 5 core heuristics, max 4 interventions, max 4 cohorts.
-- Defined state invariants and authored-case validator obligations over all allowed hidden worlds; multiple solutions are accepted.
-- Ran the six Round-C demo concepts through concrete mechanical simulations.
-- Repaired six ambiguities/contradictions found during simulation, including Routine-threshold separation, reason-trace leakage, spontaneous re-choice ambiguity, opening-delay semantics, wait-vs-completion wording, and checkpoint evidence contamination.
+- Created canonical `GAME17_CONTENT.md`.
+- Locked target content at **36 campaign + 12 optional mastery cases**.
+- Defined six campaign chapters from reading queue evidence through contingent mechanism-design synthesis.
+- Defined eight reasoning-family quotas so one motif cannot dominate the campaign.
+- Locked canonical authored schemas for cases, counters, customers, cohorts, interventions, objectives, hard constraints and world quantifiers.
+- Defined hidden-world construction, observational-equivalence rules and anti-combinatorial ceilings.
+- Defined reusable population/intervention templates without adding mechanics.
+- Separated authored content from safe parameterization and explicitly rejected procedural campaign generation as a base-game requirement.
+- Defined validator-driven authoring workflow, rejection criteria, human-solvability proof requirements and anti-bruteforce gates.
+- Instantiated the six-case demo in final mechanical form, with exact contracts for QK01–QK06 and validator obligations for branch-dependent QK04/QK06 data.
+- Locked chapter unlock dependencies, mandatory foundation cases and mastery placement.
+- Added anti-repetition checks at hours ~1/~3/~5/~8 and portfolio-wide freshness gates.
+- Locked content reuse/asset ceilings and expansion boundaries; a sixth heuristic requires explicit design reopening.
 - No production implementation, Gmail or email action performed.
 
-## NEXT ACTION — GAME #017 PHASE 5 / CONTENT ARCHITECTURE
-Use `GAME17_PRODUCT_THESIS.md` + `GAME17_MECHANICS.md` as selected-game authority. Do not import runner-up mechanics.
+## NEXT ACTION — GAME #017 PHASE 6 / UX & PRESENTATION ARCHITECTURE
+Use `GAME17_PRODUCT_THESIS.md`, `GAME17_MECHANICS.md`, and `GAME17_CONTENT.md` as selected-game authority. Do not import runner-up mechanics.
 
-Perform one substantial content-architecture increment. At minimum:
-1. define the campaign chapter structure and exact case families using only locked mechanics;
-2. define target/minimum counts and pacing across approximately 36 campaign + 12 mastery cases;
-3. specify canonical data schema for authored cases, customers, counters, cohorts, objectives, constraints, interventions and hidden-world/public cardinality rules;
-4. separate authored content from safe parameterization/procedural variation;
-5. define reusable intervention templates and population-composition templates;
-6. define hidden-world construction rules and anti-combinatorial ceilings;
-7. define validator-driven authoring workflow and rejection criteria;
-8. fully instantiate the six-case demo in final mechanical form, including exact hidden worlds, candidate sets, actions/budgets/objectives and validator expectations;
-9. run anti-repetition checks at hours 1 / 3 / 5 / 8;
-10. define chapter unlock dependencies, mastery-case placement and content reuse boundaries;
-11. define expansion boundaries, explicitly keeping a sixth heuristic outside normal content growth;
-12. save result to canonical `GAME17_CONTENT.md` (or clearly named equivalent) and update STATUS with exact Phase 6 NEXT ACTION if Phase 5 is complete.
+Perform one substantial UX/presentation increment. At minimum:
+1. define controller/mouse/Steam Deck interaction model;
+2. define hall overview, counter inspector, customer/evidence inspector and intervention-planning layout;
+3. define exact pre-choice/post-choice evidence presentation without hidden-truth leakage;
+4. make queue state and predicted completion readable without turning UI into a solver oracle;
+5. define Resolve / Observe / Intervene pacing, skip/fast-forward/replay;
+6. define candidate-type chips and contradiction explanations;
+7. fully specify tutorial flow across QK01–QK06;
+8. define commit/diagnosis/failure/restart/checkpoint UX;
+9. define accessibility: color-independent language, text scale, motion reduction and input remap;
+10. prove 1280x800 handheld and controller-only viability;
+11. define hint UX that teaches a comparison/proof premise without naming the hidden type or correct action;
+12. walk through both first-session UX and a late 10-customer/3-counter case.
 
-If Phase 5 is completed cleanly and the connected Phase 6 setup is short, continue safely into early UX/presentation architecture rather than stopping on a status-only microstep.
+Use fresh web research if current Steam Deck/controller/accessibility expectations materially affect the design. Save result to canonical `GAME17_UX_PRESENTATION.md` (or clearly named equivalent), update STATUS, and if Phase 6 closes cleanly and Phase 7 setup is short, continue safely into early commercial-model work.
 
 ## Blockers
-**NONE for factory continuation.** Pending migrations #006–#016 remain non-blocking.
+**NONE for factory continuation.** GitHub write access was re-tested successfully on 2026-09-05. Pending migrations #006–#016 remain non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #017; Phase 5 next).
+DESIGN COMPLETE = NO (current active Game #017; Phase 6 next).
