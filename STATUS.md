@@ -40,27 +40,10 @@ Game #017 is the only active design slot. Games #001–#016 are exclusion/portfo
 - Locked the implementation stack, deterministic simulation boundaries, serialized data/save contracts, evaluator/event ordering, offline validator, Type Lens contract, persistence/platform strategy, controller/Deck input abstraction, accessibility/localization boundaries, deterministic testing and implementation order.
 - No production implementation was started.
 
-## NEXT ACTION — GAME #017 PHASE 8 / TECHNICAL IMPLEMENTATION SPECIFICATION
-Use the full active Game #017 authority through `GAME17_COMMERCIAL.md`. Do not import runner-up mechanics.
+## NEXT ACTION — GAME #017 PHASE 9 / WHOLE-GAME SIMULATION ON PAPER
+Use the full active Game #017 authority through `GAME17_TECHNICAL_SPEC.md`.
 
-Perform one substantial implementation-specification increment without starting production code. At minimum:
-1. engine/runtime recommendation and alternatives;
-2. deterministic simulation architecture and authoritative state boundaries;
-3. exact serialized CaseDefinition / save / evidence schemas;
-4. hidden-world handling and no-leak boundaries;
-5. evaluator/comparator APIs and event ordering;
-6. exhaustive validator/solver architecture and proof artifacts;
-7. UI presentation-event separation and Type Lens query contract;
-8. input abstraction/controller/Deck implementation contract;
-9. persistence, checkpoint, Steam Cloud conflict and demo-save import strategy;
-10. localization/accessibility data boundaries;
-11. performance budgets for 10 customers / 3 counters and solver offline/runtime separation;
-12. test hooks, golden traces, property tests and determinism checks;
-13. implementation phase order for the dedicated repository;
-14. explicit empirical gates that require a prototype but do not reopen mechanics by default;
-15. save canonical `GAME17_TECHNICAL_SPEC.md`, update STATUS/GAME_INDEX, and advance to Phase 9 if complete.
-
-Fresh web research is required only where current engine/platform/tool constraints materially affect the specification.
+Simulate the complete product from first boot through QK36 and optional mastery, including progression pacing, failure/recovery, save/resume, demo carryover, controller/Deck use, and unusual legal player choices. Identify contradictions across the active design files, repair canonical authority where necessary, save `GAME17_WHOLE_GAME_SIMULATION.md`, update STATUS/GAME_INDEX, and advance to Phase 10 if complete.
 
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#016 remain non-blocking.
