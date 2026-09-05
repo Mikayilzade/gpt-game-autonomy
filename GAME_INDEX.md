@@ -20,12 +20,13 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 014 | **Negative Casting** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`. |
 | 015 | **FRESH COAT** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`. |
 | 016 | **ONE-WAY WORKSHOP** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/one-way-workshop` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME16_FINAL_FREEZE.md`; 24-case deterministic byproduct-as-tool fabrication puzzle. |
-| 017 | **THE QUEUE KNOWS** *(working title)* | **IN DESIGN / Phase 10 adversarial review complete; Phase 11 freeze next** | TBD | NOT STARTED | Adversarial review locked anti-trivialization, dominant-strategy, repetition, QK04/QK06, anti-oracle, persistence and empirical gates in `GAME17_ADVERSARIAL_REVIEW.md`. |
+| 017 | **THE QUEUE KNOWS** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/the-queue-knows` *(not found 2026-09-06)* | NOT STARTED | Final authority `GAME17_FINAL_FREEZE.md`; deterministic diagnostic queue-choice puzzle; dedicated repository unavailable at freeze. |
+| 018 | **TBD — clean-slate discovery** | **IN DESIGN / Phase 1 opportunity discovery next** | TBD | NOT STARTED | Active slot; must not inherit Game #017 canon. |
 
-## Active Game #017 boundary
-Game #017 is the only active design slot. Games #001–#016 are portfolio/exclusion history only. Frozen safety archives #006–#016 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #017.
+## Active Game #018 boundary
+Game #018 is the only active design slot. Games #001–#017 are portfolio/exclusion history only. Frozen safety archives #006–#017 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #018.
 
-Game #017 completed Phase 1, Concept Tournament Rounds A/B/C, Phase 3 Product Thesis Lock, Phase 4 Mechanical Architecture, Phase 5 Content Architecture, Phase 6 UX / Presentation Architecture, Phase 7 Commercial Model, Phase 8 Technical Implementation Specification, Phase 9 Whole-Game Simulation, and Phase 10 Adversarial Review. Round C selected exactly one winner: **THE QUEUE KNOWS**. Runner-up mechanics are tournament history only and are not active canon. Phase 11 Specification Freeze is next.
+Game #017 completed all design phases and is frozen in `GAME17_FINAL_FREEZE.md`. Its dedicated repository was not found on 2026-09-06, so migration remains pending and all `GAME17_*` files are retained solely as a non-active safety archive. Factory continuation moves immediately to Game #018.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
@@ -44,6 +45,7 @@ Game #017 completed Phase 1, Concept Tournament Rounds A/B/C, Phase 3 Product Th
 - #014 NEGATIVE CASTING: geometry-derived two-light shadow classification across 1–3 projection surfaces using discrete socketed opaque blockers, exact incidence and proof-carrying human deduction routes.
 - #015 FRESH COAT: self-obligated 3D workpieces used as temporary masks across at most two fixed spray passes and one rearrangement; exact persistent semantic face exposure histories culminating in unpack/reveal.
 - #016 ONE-WAY WORKSHOP: irreversible discrete fabrication cuts create two children; apparent waste becomes future jig/capability through bounded ancestry and guided witness relays.
+- #017 THE QUEUE KNOWS: deterministic service-hall diagnostic mechanism design; public interventions make queue choices evidence while congestion contaminates measurement.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
