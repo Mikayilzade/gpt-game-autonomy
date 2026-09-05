@@ -16,7 +16,7 @@ Branch: `main`
 Game #017 is the only active design slot. Games #001–#016 are exclusion/portfolio history only. Frozen archives #006–#016 are NON-ACTIVE and must not leak canon into #017. Game #017 runner-ups and killed candidates are tournament history only and do not supply canon to the selected game.
 
 ## Current phase
-**Game #017 — PHASE 7 COMMERCIAL MODEL COMPLETE / PHASE 8 TECHNICAL SPECIFICATION NEXT.**
+**Game #017 — PHASE 8 TECHNICAL SPECIFICATION COMPLETE / PHASE 9 WHOLE-GAME SIMULATION NEXT.**
 
 ## Active authority for Game #017
 1. `START_HERE.md`
@@ -31,6 +31,7 @@ Game #017 is the only active design slot. Games #001–#016 are exclusion/portfo
 10. `GAME17_CONTENT.md`
 11. `GAME17_UX_PRESENTATION.md`
 12. `GAME17_COMMERCIAL.md`
+13. `GAME17_TECHNICAL_SPEC.md`
 
 ## This run completed — Game #017 Phase 7 Commercial Model
 - Re-read required factory authority and active Game #017 canon.
@@ -69,4 +70,4 @@ Fresh web research is required only where current engine/platform/tool constrain
 ## Blockers
 **NONE for factory continuation.** Pending migrations #006–#016 remain non-blocking.
 
-DESIGN COMPLETE = NO (current active Game #017; Phase 8 next).
+DESIGN COMPLETE = NO (current active Game #017; Phase 9 next).
