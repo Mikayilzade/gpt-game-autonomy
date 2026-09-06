@@ -16,7 +16,7 @@ Branch: `main`
 Game #018 is the only active design slot. Games #001–#017 are exclusion/portfolio history only. Frozen archives #006–#017 are NON-ACTIVE and must not leak canon into #018. Round-C runners-up ONE MORE CHAIR and AFTERIMAGE DELIVERY are killed for this slot and are not backup canon.
 
 ## Current phase
-**Game #018 — PHASE 8 TECHNICAL SPECIFICATION COMPLETE / PHASE 9 WHOLE-GAME SIMULATION NEXT.**
+**Game #018 — PHASE 9 WHOLE-GAME SIMULATION COMPLETE / PHASE 10 ADVERSARIAL REVIEW NEXT.**
 
 ## Active authority for Game #018
 1. `START_HERE.md`
@@ -30,43 +30,37 @@ Game #018 is the only active design slot. Games #001–#017 are exclusion/portfo
 9. `GAME18_UX.md`
 10. `GAME18_COMMERCIAL.md`
 11. `GAME18_TECH_SPEC.md`
+12. `GAME18_SIMULATION.md`
 
-## Completed through Phase 7
-Phases 1–7 complete: opportunity discovery, tournament selection, product thesis, deterministic mechanical architecture, content architecture, UX/presentation architecture and commercial model.
-
-## This run completed — Game #018 Phase 8
-- Added canonical `GAME18_TECH_SPEC.md` on `main`.
-- Fresh engine research: Godot 4.7 is supported; 4.7.2 stable released 2026-08-18 while 4.8 remains development. Locked Godot 4.7.x stable/GDScript as baseline direction, with puzzle authority isolated from engine presentation.
-- Defined hard Domain/Core, Content, Presentation/Application and Platform boundaries.
-- Mapped Phase-4 state and Phase-5 authored schema into stable-ID `CaseDefinition`, `RunState`, and `ProfileState` contracts.
-- Defined deterministic Resolve API, normalized serialization, stable state hashing, structured localizable reason traces and iteration-order invariance.
-- Defined exact solver as a consumer of the production core, plus content-validator obligations and human-proof boundary.
-- Locked versioned atomic saves, last-known-good recovery, definition compatibility and pure schema migrations.
-- Locked monotonic/idempotent demo-to-full import that cannot overwrite newer full-game progress.
-- Defined Steam Cloud divergence handling: preserve both valid candidates, no silent timestamp winner, safe union only for tested monotonic profile fields, whole-checkpoint choice for divergent in-progress state.
-- Defined device-independent input actions, controller/Deck navigation, 1280x800 display target, localization boundaries and animation-vs-logic separation.
-- Defined LT01–LT06 golden tests, property/invariant tests, corruption/import/cloud fixtures and fake-platform tests.
-- Defined implementation order T0–T9 and technical acceptance criteria for the later dedicated repository.
+## This run completed — Game #018 Phase 9
+- Added canonical `GAME18_SIMULATION.md`.
+- Simulated first boot, LT01–LT06, Cases 07–36 proof escalation, mastery, persistence, demo import, cloud divergence, controller/Deck and hostile play.
+- Canonical repair: every shippable case requires a finite public `resolve_limit`; unrestricted no-change Resolve would otherwise contradict finite solver-state guarantees because `beat_index` increments.
+- Canonical repair: carrier handoffs are finite state-qualified edges; stale DISPATCH cannot re-fire the same edge or duplicate payload.
+- Canonical repair: Undo restores exact puzzle state while save/cloud generation metadata remains monotonic.
+- Added concrete proof-shape obligations for Cases 07–36 and identified duplicate-risk clusters for Phase 10: 08/19, 14/18/29, 26/27/31, 32/33/36.
+- Campaign target remains 36 / quality floor 30; mastery remains 8 baseline + 4 reserve pending adversarial review.
 - No production implementation started.
 
-## NEXT ACTION — GAME #018 PHASE 9 / WHOLE-GAME SIMULATION
-Read all active Game #018 authority, especially `GAME18_MECHANICS.md`, `GAME18_CONTENT.md`, `GAME18_UX.md`, `GAME18_COMMERCIAL.md`, and `GAME18_TECH_SPEC.md`.
+## NEXT ACTION — GAME #018 PHASE 10 / ADVERSARIAL REVIEW
+Read all active Game #018 authority, especially `GAME18_SIMULATION.md`.
 
-Perform one substantial end-to-end paper simulation and save canonical `GAME18_SIMULATION.md`. At minimum walk:
-1. first boot/settings and LT01–LT06 in exact player order;
-2. representative Cases 07–36 across all six chapters, checking proof-shape escalation rather than merely family count;
-3. campaign completion and 8 mastery baseline + 4 reserve decision;
-4. quit/load/restart/undo/replay and animation skip/crash boundaries;
-5. demo-to-full import, repeated import and older-demo/newer-full conflict;
-6. Steam offline/cloud divergence/corrupt latest checkpoint recovery;
-7. mouse/controller/Steam Deck navigation/readability;
-8. hostile behavior: Resolve spam, socket scanning, broad-warning scanning, undo abuse and deliberate budget waste;
-9. contradictions among current/persistent predicates, carrier arrival/acceptance, hazards, coupled conditions and save checkpoints;
-10. whether 30–36 campaign cases still plausibly sustain distinct human proof shapes.
+Create canonical `GAME18_ADVERSARIAL.md` and attack:
+1. fun/repetition and hour-3/hour-6 fatigue;
+2. duplicate clusters 08/19, 14/18/29, 26/27/31, 32/33/36;
+3. dominant strategies, brute-force/socket scanning and warning-as-oracle behavior;
+4. finite Resolve limits as fake difficulty or experimentation tax;
+5. carrier/dispatch/arrival/acceptance ambiguity;
+6. content/art burden and whether 30–36 cases fit the bounded kit;
+7. solver/validator feasibility and human-proof metadata;
+8. save/import/cloud recovery ambiguity;
+9. controller/Deck readability and localization precision;
+10. commercial value at $14.99 and 5–8 hour quality range;
+11. implementation ambiguity remaining after Phases 3–9.
 
-Repair contradictions canonically rather than handwave. If Phase 9 resolves cleanly, Phase 10 Adversarial Review is next. Do not start production implementation.
+Decide whether 36 campaign + 8 baseline mastery + 4 reserve remain justified. Repair/cut rather than introduce a ninth semantic family. If Phase 10 resolves cleanly, Phase 11 Specification Freeze is next. Do not start production implementation.
 
 ## Blockers
-**NONE for factory continuation.** Games #006–#017 have pending migrations but remain frozen non-active archives.
+**NONE for factory continuation.** Games #006–#017 remain migration-pending frozen non-active archives.
 
-DESIGN COMPLETE = NO (current active Game #018; Phase 9 next).
+DESIGN COMPLETE = NO (current active Game #018; Phase 10 next).
