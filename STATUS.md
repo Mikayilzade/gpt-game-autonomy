@@ -53,6 +53,6 @@ Perform one substantial equal-format Round-A tournament over all 12 retained can
 Score comparatively and reduce to roughly 5–6 candidates for Round B. Do not select the final winner in Round A unless fewer than three concepts remain genuinely viable. Save canonical `GAME19_TOURNAMENT.md`, update `GAME_INDEX.md`, and preserve an exact NEXT ACTION. No production implementation.
 
 ## Blockers
-**NONE for factory continuation.** Game #018 migration remains pending because `Mikayilzade/local-time` was unavailable at freeze. Main-branch synchronization remains pending/flaky; current factory authority is recoverably retained on `game18-phase4-mechanics`.
+**NONE for factory continuation.** Game #018 migration remains pending because `Mikayilzade/local-time` was unavailable at freeze. Main-branch synchronization remains pending/flaky; current factory authority is recoverably retained on `game18-phase4-mechanics`. `GAME_INDEX.md` Phase-1 synchronization was attempted twice in this run but the GitHub connector blocked that write; `STATUS.md` + `GAME19_RESEARCH.md` are the newer recoverable authority and the next run should retry the narrow index sync before/alongside Round A.
 
 DESIGN COMPLETE = NO (current active Game #019; Phase 2 Round A next).
