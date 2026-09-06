@@ -16,7 +16,7 @@ Branch: `game18-phase4-mechanics` (recoverable active branch; main synchronizati
 Game #018 is the only active design slot. Games #001–#017 are exclusion/portfolio history only. Frozen archives #006–#017 are NON-ACTIVE.
 
 ## Current phase
-**Game #018 — PHASE 9 WHOLE-GAME SIMULATION COMPLETE / PHASE 10 ADVERSARIAL REVIEW NEXT.**
+**Game #018 — PHASE 10 ADVERSARIAL REVIEW COMPLETE / PHASE 11 SPECIFICATION FREEZE NEXT.**
 
 ## Active authority for Game #018
 1. `START_HERE.md`
@@ -31,48 +31,34 @@ Game #018 is the only active design slot. Games #001–#017 are exclusion/portfo
 10. `GAME18_COMMERCIAL.md`
 11. `GAME18_TECH_SPEC.md`
 12. `GAME18_WHOLE_GAME_SIM.md`
+13. `GAME18_ADVERSARIAL_REVIEW.md`
 
-## This run completed — Game #018 Phase 9
-- Added `GAME18_WHOLE_GAME_SIM.md` with a complete hostile paper simulation.
-- Walked first boot, accessibility, LT01–LT06, demo-to-full transition and representative Cases 09, 18, 24, 30, 34 and 36.
-- Confirmed no-placement Resolve remains legal when a later process/carrier/accept boundary requires it.
-- Added a content/validator gate against repeated unchanged-layout Resolve trivializing ordered processes.
-- Clarified persistence: save the canonical post-Resolve active state after every successful Resolve and retain the pre-Resolve Undo Turn checkpoint separately.
-- Clarified Deck/localization layout: essential state remains visible at 1280x800; long detail prose may open in a non-destructive overlay.
-- Clarified reason trace: collapsed view may summarize, but expanded view must expose every authoritative event.
-- Strengthened anti-enumeration with a causal-cut requirement from Case 12; Chapter 4+ normally needs two independent causal cuts.
-- Re-evaluated content count: 36 campaign remains a quality-gated target; mastery baseline is now 8, with M09–M12 reserve slots only if each proves distinct causal value.
-- Hour-5 identity survives on paper only if the stronger causal-cut and repetition gates are enforced.
+## This run completed — Game #018 Phase 10
+- Added `GAME18_ADVERSARIAL_REVIEW.md` with a destructive proof-shape review of Cases 07–36 and mastery.
+- Defined structurally materially different winning routes using normalized milestone/dependency partial orders; cosmetic/symmetric differences do not count.
+- Required Cases 30 and 35 to prove at least two materially different route families.
+- Added explicit duplication watch clusters: 09/28, 17/29, 24/34, 25/27/33 and 30/35.
+- Hardened repeated no-placement Resolve/unchanged-layout farming validation.
+- Confirmed late depth must braid irreversible prerequisites, boundary staging and final CURRENT reservation rather than exceed <=3 clocks / <=8 sites.
+- Stress-tested NOW/DONE/LOCKED OUT, carrier arrival, final CURRENT and no-placement Resolve language.
+- Locked combined Deck stress gate: 1280x800 + max text + pseudolocalization + controller-only + non-color cues + animation skip/reduced motion.
+- Reconfirmed save/checkpoint separation, corruption/future-schema preservation, idempotent demo import and no silent divergent-checkpoint cloud merge.
+- Required expanded reason trace to expose every authoritative mutation and terminal cause.
+- Content recommendation: 36 campaign target / 30 minimum quality floor; M01–M08 baseline mastery; M09–M12 reserve only.
+- Case 36 canonical structural target = Dependency Braid; rejected Double Hazard + Two Carriers as a scaled Case-34 duplicate.
+- Freeze readiness: PASS WITH REQUIRED PHASE-11 CONSOLIDATION.
 - No production implementation started.
 
-## Phase-9 amendments
-A1. Repeated unchanged-layout Resolve may not create multiple strategically useful consecutive process milestones after tutorials unless another public interaction makes the repeated boundary meaningful.
-A2. Post-Resolve active state and pre-Resolve Undo Turn checkpoint are separate persistence records.
-A3. Long rule text may expand in an overlay; clock labels, footprint/conflict, objectives and NOW/DONE/LOCKED OUT remain directly visible.
-A4. Full reason trace contains every authoritative event.
-A5. Mastery baseline = 8; M09–M12 are reserve.
-A6. Case 12+ requires a public causal cut; Chapter 4+ normally requires two.
+## NEXT ACTION — GAME #018 PHASE 11 / SPECIFICATION FREEZE
+Read the complete active authority chain including `GAME18_ADVERSARIAL_REVIEW.md`.
 
-## NEXT ACTION — GAME #018 PHASE 10 / ADVERSARIAL REVIEW
-Read the complete active authority chain including `GAME18_WHOLE_GAME_SIM.md`.
+Create `GAME18_FINAL_FREEZE.md` as the single implementation-facing authority. Consolidate all Phase-9 and Phase-10 amendments; freeze authority order, product/mechanical/content/UX/commercial/technical contracts, content-count semantics, Case-36 Dependency Braid, material-route definition, unchanged-layout/no-op validator rule, empirical gates and explicit acceptance criteria. Audit every active file for contradictions.
 
-Create `GAME18_ADVERSARIAL_REVIEW.md`. Perform a destructive review across:
-1. proof-shape duplication for Cases 07–36 and M01–M08 plus reserve M09–M12;
-2. socket enumeration, branching, symmetry-only solutions and proof-based pruning;
-3. repeated Resolve/no-op and unchanged-layout farming;
-4. a structural definition of materially different winning routes;
-5. late-game depth within <=3 clocks and <=8 sites;
-6. NOW/DONE/LOCKED OUT, carrier-arrival, final-CURRENT and no-placement-Resolve clarity;
-7. controller/Deck, max text, pseudolocalization, non-color cues and animation skip;
-8. save/checkpoint separation, corruption, demo import, unsupported future schema, offline and two-device divergence;
-9. reason-trace completeness;
-10. final content count: 36 vs 30 campaign and 8 vs reserve mastery;
-11. remaining implementation ambiguity;
-12. at least two alternative Case-36 proof structures, rejecting any that simply repeat Case 24/34.
+Set `DESIGN COMPLETE = YES` only if a fresh implementation session can build without inventing important gameplay. If complete, attempt migration to a dedicated LOCAL TIME repository if it exists. If the dedicated repository does not exist or creation is unavailable, record migration pending, preserve every GAME18 file as a frozen NON-ACTIVE safety archive, update `GAME_INDEX.md`, and immediately advance `STATUS.md` to Game #019 Phase 1. Pending migration must not stop the factory.
 
-End with a freeze-readiness verdict and exact Phase-11 requirements. Do not begin production implementation.
+Do not begin production implementation in this factory.
 
 ## Blockers
-**NONE for factory continuation.** Main-branch synchronization remains pending/flaky; Phase 4–9 authority is recoverably retained on `game18-phase4-mechanics`.
+**NONE for factory continuation.** Main-branch synchronization remains pending/flaky; Phase 4–10 authority is recoverably retained on `game18-phase4-mechanics`.
 
-DESIGN COMPLETE = NO (current active Game #018; Phase 10 next).
+DESIGN COMPLETE = NO (current active Game #018; Phase 11 next).
