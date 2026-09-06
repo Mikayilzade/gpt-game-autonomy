@@ -21,12 +21,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 015 | **FRESH COAT** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`. |
 | 016 | **ONE-WAY WORKSHOP** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/one-way-workshop` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME16_FINAL_FREEZE.md`; 24-case deterministic byproduct-as-tool fabrication puzzle. |
 | 017 | **THE QUEUE KNOWS** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/the-queue-knows` *(not found 2026-09-06)* | NOT STARTED | Final authority `GAME17_FINAL_FREEZE.md`; deterministic diagnostic queue-choice puzzle; dedicated repository unavailable at freeze. |
-| 018 | **TBD — Round-B field** | **IN DESIGN / Phase 2 Round A complete; Round B next** | TBD | NOT STARTED | Six survivors: LOCAL TIME, UNFINISHED SENTENCES, THE ROOM AFTER YOU, TIDE TABLE FOR TWO, ONE MORE CHAIR, AFTERIMAGE DELIVERY. Canon in `GAME18_TOURNAMENT.md`. |
+| 018 | **TBD — Round-C field** | **IN DESIGN / Phase 2 Round B complete; Round C next** | TBD | NOT STARTED | Finalists: LOCAL TIME, ONE MORE CHAIR, AFTERIMAGE DELIVERY. Canon in `GAME18_TOURNAMENT.md`. |
 
 ## Active Game #018 boundary
 Game #018 is the only active design slot. Games #001–#017 are portfolio/exclusion history only. Frozen safety archives #006–#017 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #018.
 
-Game #018 Phase 1 is canonical in `GAME18_RESEARCH.md`. Phase 2 Round A is canonical in `GAME18_TOURNAMENT.md`: 12 candidates were attacked under equal destructive criteria and six survive into Round B. No concept is selected.
+Game #018 Phase 1 is canonical in `GAME18_RESEARCH.md`. Phase 2 Rounds A/B are canonical in `GAME18_TOURNAMENT.md`: 12 Round-A candidates became six Round-B survivors, then three Round-C finalists. No concept is selected.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
