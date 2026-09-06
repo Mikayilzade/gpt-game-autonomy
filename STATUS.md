@@ -2,63 +2,50 @@
 
 Last updated: 2026-09-06
 Repository: `Mikayilzade/gpt-game-autonomy`
-Branch: `game18-phase4-mechanics` (recoverable active branch; main synchronization remains pending)
+Branch: `game18-phase4-mechanics` (recoverable active factory branch; main synchronization remains pending)
 
 ## Factory state
 - Reusable factory rules: **YES**
 - Games #001–#005: **DESIGN COMPLETE / migrated**
-- Games #006–#017: **DESIGN COMPLETE / migration pending / retained NON-ACTIVE safety archives**
-- Current design slot: **Game #018**
-- Selected concept: **LOCAL TIME**
+- Games #006–#018: **DESIGN COMPLETE / migration pending / retained NON-ACTIVE safety archives**
+- Current design slot: **Game #019**
+- Selected concept: **NONE — clean-slate opportunity discovery next**
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
-Game #018 is the only active design slot. Games #001–#017 are exclusion/portfolio history only. Frozen archives #006–#017 are NON-ACTIVE.
+Game #019 is the only active design slot. Games #001–#018 are exclusion/portfolio history only. Frozen archives #006–#018 are NON-ACTIVE and must not supply mechanics, fiction, content or product assumptions to #019.
 
 ## Current phase
-**Game #018 — PHASE 10 ADVERSARIAL REVIEW COMPLETE / PHASE 11 SPECIFICATION FREEZE NEXT.**
+**Game #019 — PHASE 1 OPPORTUNITY DISCOVERY NEXT.**
 
-## Active authority for Game #018
+## Active authority for Game #019
 1. `START_HERE.md`
 2. `STATUS.md`
 3. `GAME_INDEX.md`
-4. `GAME18_RESEARCH.md`
-5. `GAME18_TOURNAMENT.md`
-6. `GAME18_PRODUCT_THESIS.md`
-7. `GAME18_MECHANICS.md`
-8. `GAME18_CONTENT.md`
-9. `GAME18_UX.md`
-10. `GAME18_COMMERCIAL.md`
-11. `GAME18_TECH_SPEC.md`
-12. `GAME18_WHOLE_GAME_SIM.md`
-13. `GAME18_ADVERSARIAL_REVIEW.md`
 
-## This run completed — Game #018 Phase 10
-- Added `GAME18_ADVERSARIAL_REVIEW.md` with a destructive proof-shape review of Cases 07–36 and mastery.
-- Defined structurally materially different winning routes using normalized milestone/dependency partial orders; cosmetic/symmetric differences do not count.
-- Required Cases 30 and 35 to prove at least two materially different route families.
-- Added explicit duplication watch clusters: 09/28, 17/29, 24/34, 25/27/33 and 30/35.
-- Hardened repeated no-placement Resolve/unchanged-layout farming validation.
-- Confirmed late depth must braid irreversible prerequisites, boundary staging and final CURRENT reservation rather than exceed <=3 clocks / <=8 sites.
-- Stress-tested NOW/DONE/LOCKED OUT, carrier arrival, final CURRENT and no-placement Resolve language.
-- Locked combined Deck stress gate: 1280x800 + max text + pseudolocalization + controller-only + non-color cues + animation skip/reduced motion.
-- Reconfirmed save/checkpoint separation, corruption/future-schema preservation, idempotent demo import and no silent divergent-checkpoint cloud merge.
-- Required expanded reason trace to expose every authoritative mutation and terminal cause.
-- Content recommendation: 36 campaign target / 30 minimum quality floor; M01–M08 baseline mastery; M09–M12 reserve only.
-- Case 36 canonical structural target = Dependency Braid; rejected Double Hazard + Two Carriers as a scaled Case-34 duplicate.
-- Freeze readiness: PASS WITH REQUIRED PHASE-11 CONSOLIDATION.
+No `GAME19_*` file exists yet. All `GAME18_*` files are frozen NON-ACTIVE migration safety archive only.
+
+## This run completed — Game #018 Phase 11 / transition to #019
+- Created `GAME18_FINAL_FREEZE.md` as the single implementation-facing authority.
+- Consolidated Phase-9/10 amendments: current/persistent causality, exact Resolve order, post-Resolve active state vs pre-Resolve Undo checkpoint, unchanged-layout/no-op farming validator, material-route definition, anti-enumeration causal cuts, content-count semantics and full acceptance gates.
+- Froze content sizing as 36 campaign target / 30 minimum quality floor; M01–M08 baseline mastery; M09–M12 reserve only.
+- Froze Case 36 as Dependency Braid; explicitly rejected Double Hazard + Two Carriers as scaled duplicate complexity.
+- Froze combined Deck stress gate and complete structured reason-trace requirement.
+- Audited active Game #018 authority chain; no fatal gameplay contradiction remains after consolidation.
+- Set Game #018 `DESIGN COMPLETE = YES`.
+- Searched for dedicated `Mikayilzade/local-time` repository on 2026-09-06; repository not found. Migration therefore remains pending.
+- Preserved every Game #018 design file as a frozen NON-ACTIVE safety archive; nothing deleted.
+- Updated `GAME_INDEX.md` and immediately advanced factory to Game #019 per continuity rule.
 - No production implementation started.
 
-## NEXT ACTION — GAME #018 PHASE 11 / SPECIFICATION FREEZE
-Read the complete active authority chain including `GAME18_ADVERSARIAL_REVIEW.md`.
+## NEXT ACTION — GAME #019 PHASE 1 / OPPORTUNITY DISCOVERY
+Start clean. Read `START_HERE.md`, this `STATUS.md`, and `GAME_INDEX.md`. Use Games #001–#018 only as an exclusion/collision portfolio, never as active canon.
 
-Create `GAME18_FINAL_FREEZE.md` as the single implementation-facing authority. Consolidate all Phase-9 and Phase-10 amendments; freeze authority order, product/mechanical/content/UX/commercial/technical contracts, content-count semantics, Case-36 Dependency Braid, material-route definition, unchanged-layout/no-op validator rule, empirical gates and explicit acceptance criteria. Audit every active file for contradictions.
+Perform fresh September 2026 market/opportunity research covering current Steam/indie discovery conditions, recent/releasing analogues, saturated surfaces, demo-friendly hooks, realistic solo/small-team production burdens and underused interaction fantasies. Generate a broad field of at least 24 genuinely distinct clean-slate concepts. Explicitly kill portfolio collisions and obvious saturation/scope traps. Retain roughly 10–12 strongest candidates in equal-format briefs with hook, core interaction, depth source, 10-second demo proof and primary failure hypothesis.
 
-Set `DESIGN COMPLETE = YES` only if a fresh implementation session can build without inventing important gameplay. If complete, attempt migration to a dedicated LOCAL TIME repository if it exists. If the dedicated repository does not exist or creation is unavailable, record migration pending, preserve every GAME18 file as a frozen NON-ACTIVE safety archive, update `GAME_INDEX.md`, and immediately advance `STATUS.md` to Game #019 Phase 1. Pending migration must not stop the factory.
-
-Do not begin production implementation in this factory.
+Create `GAME19_RESEARCH.md`, update `GAME_INDEX.md` with Phase-1 progress, and set the exact Round-A tournament next action. Do not select a winner prematurely and do not begin production implementation.
 
 ## Blockers
-**NONE for factory continuation.** Main-branch synchronization remains pending/flaky; Phase 4–10 authority is recoverably retained on `game18-phase4-mechanics`.
+**NONE for factory continuation.** Game #018 migration is pending because the dedicated repository does not exist; this does not block Game #019. Main-branch synchronization remains pending/flaky; current factory authority is recoverably retained on `game18-phase4-mechanics`.
 
-DESIGN COMPLETE = NO (current active Game #018; Phase 11 next).
+DESIGN COMPLETE = NO (current active Game #019; Phase 1 next).
