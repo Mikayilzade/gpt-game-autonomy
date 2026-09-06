@@ -16,7 +16,7 @@ Branch: `game18-phase4-mechanics` (recoverable active branch; main synchronizati
 Game #018 is the only active design slot. Games #001–#017 are exclusion/portfolio history only. Frozen archives #006–#017 are NON-ACTIVE. Round-C runners-up remain killed for this slot.
 
 ## Current phase
-**Game #018 — PHASE 6 UX / PRESENTATION COMPLETE / PHASE 7 COMMERCIAL MODEL NEXT.**
+**Game #018 — PHASE 7 COMMERCIAL MODEL COMPLETE / PHASE 8 TECHNICAL SPECIFICATION NEXT.**
 
 ## Active authority for Game #018
 1. `START_HERE.md`
@@ -28,42 +28,46 @@ Game #018 is the only active design slot. Games #001–#017 are exclusion/portfo
 7. `GAME18_MECHANICS.md`
 8. `GAME18_CONTENT.md`
 9. `GAME18_UX.md`
+10. `GAME18_COMMERCIAL.md`
 
-## This run completed — Game #018 Phase 6
-- Created canonical `GAME18_UX.md`.
-- Locked first boot, chapter/case progression and no-star-grind case select.
-- Defined mouse/keyboard and controller/Steam Deck focus/navigation without pointer precision.
-- Defined exact logical footprint preview, same-time overlap language and explicit illegal different-time conflict presentation.
-- Locked player-facing NOW vs DONE vs LOCKED OUT language with redundant non-color encoding.
-- Defined compact site/object rule cards that expose rules without recommending actions.
-- Made a specific anti-oracle decision: shipping baseline previews exact coverage/local times/NOW predicates but does NOT automatically reveal persistent one-beat consequences; explicit consequence preview remains an empirical comparison only.
-- Defined deterministic Resolve animation order, causal reason trace, carrier-arrival boundary presentation and Replay Last Resolve as non-authoritative animation.
-- Defined Undo Placement, Undo Turn, Restart and checkpoint language without diegetic rewind.
-- Defined hard failure, budget failure and solver-certified dead-state messaging.
-- Locked fixed/light camera, 1280x800 readability constraints, accessibility/remapping/reduced-motion/audio/text requirements and interruption recovery.
-- Specified moment-by-moment LT01–LT06 onboarding, removing directive tutorial prompts by LT05.
-- Added measurable UX empirical gates for NOW/DONE comprehension, rewind misconception, footprint readability, controller navigation, reason-trace comprehension and anti-oracle preview testing.
+## This run completed — Game #018 Phase 7
+- Created canonical `GAME18_COMMERCIAL.md` using fresh Steam/Steamworks research checked 2026-09-06.
+- Locked Windows/Steam-first premium positioning and Steam Deck target-quality path subject to technical validation.
+- Locked default MSRP at US$14.99 with a $14.99–$19.99 evidence-based pre-release review band.
+- Re-tested content volume: 36 campaign + 12 mastery remains a quality-gated target, not a quota; explicit 36->30 and 12->8 cuts are defined if repetition/quality gates fail.
+- Locked 6–8 hour campaign first-completion target and 2–4 optional mastery hours.
+- Locked free LT01–LT06 demo at 25–35 minutes with full baseline accessibility/controller UX and targeted demo->full save carryover.
+- Defined Steam Next Fest discipline: use only a polished event-ready demo/store funnel; do not burn the title's one participation merely for QA.
+- Defined store vocabulary/trailer proof to distinguish local-time zones from rewind/time travel.
+- Locked no-grind progression, optional solver-validated efficiency targets and 18–24 achievement philosophy.
+- Separated accessibility from difficulty and rejected paid/penalized accessibility.
+- Defined Steam achievements/cloud/controller/Deck targets subject to Phase 8 validation, no mandatory account/external launcher.
+- Defined localization target and budget fallback, with semantic QA mandatory for puzzle-rule translations.
+- Defined conservative discounts/bundles and hard exclusions for ads, MTX, premium hints, energy, battle passes, paid accessibility and similar monetization.
+- Added commercial empirical gates and pre-production cut order.
 - No production implementation started.
 
-## NEXT ACTION — GAME #018 PHASE 7 / COMMERCIAL MODEL
-Read all active Game #018 authority, especially `GAME18_PRODUCT_THESIS.md`, `GAME18_CONTENT.md`, and `GAME18_UX.md`.
+## NEXT ACTION — GAME #018 PHASE 8 / TECHNICAL IMPLEMENTATION SPECIFICATION
+Read all active Game #018 authority, especially `GAME18_MECHANICS.md`, `GAME18_CONTENT.md`, `GAME18_UX.md`, and `GAME18_COMMERCIAL.md`.
 
-Use fresh current web research and create canonical `GAME18_COMMERCIAL.md`. At minimum:
-1. research comparable premium puzzle pricing, playtime/value expectations, current Steam demo/Next Fest context and relevant platform expectations;
-2. lock launch platform scope and target premium price/range;
-3. re-test 36 campaign + 12 mastery against realistic 6–8 hour first-completion scope; reduce counts if commercial/content quality argues for it rather than padding;
-4. define demo LT01–LT06 packaging, target duration, save carryover and demo-to-full transition;
-5. define progression/replay incentives, optional efficiency targets and achievement philosophy without grind;
-6. define difficulty modes versus accessibility — never sell accessibility as difficulty;
-7. define Steam features, Deck target, cloud/save assumptions subject to Phase 8 technical validation;
-8. define launch localization scope and localization-ready fallback;
-9. define wishlist/Next Fest/demo positioning and store-message vocabulary that avoids generic `time manipulation` framing;
-10. define discount/bundle assumptions and hard monetization exclusions;
-11. identify commercial empirical gates and scope cuts before production.
+Use fresh current research where engine, Steamworks, Steam Deck, cloud/save or tooling assumptions matter. Create canonical `GAME18_TECH_SPEC.md`. At minimum:
+1. choose engine/runtime direction with alternatives and rationale;
+2. define canonical mutable/derived/presentation state boundaries and exact data schemas for cases/sites/objects/clocks/carriers/rules/objectives;
+3. translate the frozen Resolve order into an implementation contract without writing production code;
+4. define validator + exhaustive deterministic solver architecture and state hashing/canonicalization;
+5. define reason-trace/event-log contract and replay non-authority;
+6. define input abstraction/controller focus graph and Steam Deck performance/readability assumptions;
+7. define profile/save schema, versioning, atomic writes, recovery, demo->full import and idempotency;
+8. define Steam Cloud conflict policy and what may be promised only after validation;
+9. define localization data/font/layout contracts;
+10. define rendering/performance budgets appropriate to compact dioramas;
+11. define automated test hooks, property/invariant tests and LT01–LT06 golden cases;
+12. define content-authoring/editor/validator workflow and implementation dependency order for the future dedicated repository;
+13. specify technical acceptance criteria and unresolved empirical gates.
 
 Do not start production implementation.
 
 ## Blockers
-**NONE for factory continuation.** Main-branch synchronization has been flaky; Phase 4–6 authority is recoverably retained on `game18-phase4-mechanics`. Do not treat older main state as newer canon.
+**NONE for factory continuation.** Main-branch synchronization has been flaky; Phase 4–7 authority is recoverably retained on `game18-phase4-mechanics`. Do not treat older main state as newer canon.
 
-DESIGN COMPLETE = NO (current active Game #018; Phase 7 next).
+DESIGN COMPLETE = NO (current active Game #018; Phase 8 next).
