@@ -21,7 +21,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 015 | **FRESH COAT** | DESIGN COMPLETE / migration pending / non-active archive | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | `GAME15_FINAL_FREEZE.md`. |
 | 016 | **ONE-WAY WORKSHOP** | DESIGN COMPLETE / migration pending / non-active archive | `Mikayilzade/one-way-workshop` *(not found 2026-09-03)* | NOT STARTED | `GAME16_FINAL_FREEZE.md`. |
 | 017 | **THE QUEUE KNOWS** | DESIGN COMPLETE / migration pending / non-active archive | `Mikayilzade/the-queue-knows` *(not found 2026-09-06)* | NOT STARTED | `GAME17_FINAL_FREEZE.md`. |
-| 018 | **LOCAL TIME** | **IN DESIGN / Phase 8 technical specification complete; Phase 9 next** | TBD | NOT STARTED | Canon through tech spec: deterministic engine-light kernel, exhaustive solver/validator, robust save/import/cloud contracts. |
+| 018 | **LOCAL TIME** | **IN DESIGN / Phase 9 whole-game simulation complete; Phase 10 next** | TBD | NOT STARTED | Whole-game simulation passed with explicit anti-enumeration/save/UX repairs; mastery baseline reduced to 8 + 4 reserve. |
 
 ## Active Game #018 boundary
 Game #018 is the only active design slot. Games #001–#017 are portfolio/exclusion history only. Frozen safety archives #006–#017 remain NON-ACTIVE and do not supply canon.
@@ -34,6 +34,7 @@ Phase 5: `GAME18_CONTENT.md`.
 Phase 6: `GAME18_UX.md`.
 Phase 7: `GAME18_COMMERCIAL.md`.
 Phase 8: `GAME18_TECH_SPEC.md`.
+Phase 9: `GAME18_WHOLE_GAME_SIM.md`.
 Round-C runners-up are killed for this slot and are not backup canon.
 
 ## Numbering rule
