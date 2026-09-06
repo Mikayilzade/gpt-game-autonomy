@@ -21,12 +21,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 015 | **FRESH COAT** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`. |
 | 016 | **ONE-WAY WORKSHOP** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/one-way-workshop` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME16_FINAL_FREEZE.md`; 24-case deterministic byproduct-as-tool fabrication puzzle. |
 | 017 | **THE QUEUE KNOWS** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/the-queue-knows` *(not found 2026-09-06)* | NOT STARTED | Final authority `GAME17_FINAL_FREEZE.md`; deterministic diagnostic queue-choice puzzle; dedicated repository unavailable at freeze. |
-| 018 | **LOCAL TIME** *(working title)* | **IN DESIGN / Phase 3 product thesis locked; Phase 4 next** | TBD | NOT STARTED | Spatial local-time puzzle: movable public clock-zones create current conditions while completed process milestones never reverse. Canon in `GAME18_PRODUCT_THESIS.md`. |
+| 018 | **LOCAL TIME** *(working title)* | **IN DESIGN / Phase 4 mechanics complete; Phase 5 next** | TBD | NOT STARTED | Spatial local-time puzzle: public clock-zone coverage creates current conditions while completed process milestones persist. Canonical mechanics in `GAME18_MECHANICS.md`. |
 
 ## Active Game #018 boundary
 Game #018 is the only active design slot. Games #001–#017 are portfolio/exclusion history only. Frozen safety archives #006–#017 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #018.
 
-Game #018 Phase 1 is canonical in `GAME18_RESEARCH.md`. Phase 2 is canonical in `GAME18_TOURNAMENT.md`: LOCAL TIME defeated Round-C runners-up ONE MORE CHAIR and AFTERIMAGE DELIVERY. Phase 3 is canonical in `GAME18_PRODUCT_THESIS.md`. Runner-ups are killed for this slot and are not backup canon.
+Game #018 Phase 1 is canonical in `GAME18_RESEARCH.md`. Phase 2 is canonical in `GAME18_TOURNAMENT.md`: LOCAL TIME defeated Round-C runners-up ONE MORE CHAIR and AFTERIMAGE DELIVERY. Phase 3 is canonical in `GAME18_PRODUCT_THESIS.md`. Phase 4 is canonical in `GAME18_MECHANICS.md`. Runner-ups are killed for this slot and are not backup canon.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
