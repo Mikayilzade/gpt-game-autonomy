@@ -16,7 +16,7 @@ Branch: `main`
 Game #018 is the only active design slot. Games #001–#017 are exclusion/portfolio history only. Frozen archives #006–#017 are NON-ACTIVE and must not leak canon into #018. Round-C runners-up ONE MORE CHAIR and AFTERIMAGE DELIVERY are killed for this slot and are not backup canon.
 
 ## Current phase
-**Game #018 — PHASE 3 PRODUCT THESIS LOCKED / PHASE 4 MECHANICAL ARCHITECTURE NEXT.**
+**Game #018 — PHASE 4 MECHANICAL ARCHITECTURE COMPLETE / PHASE 5 CONTENT ARCHITECTURE NEXT.**
 
 ## Active authority for Game #018
 1. `START_HERE.md`
@@ -25,36 +25,42 @@ Game #018 is the only active design slot. Games #001–#017 are exclusion/portfo
 4. `GAME18_RESEARCH.md`
 5. `GAME18_TOURNAMENT.md`
 6. `GAME18_PRODUCT_THESIS.md`
+7. `GAME18_MECHANICS.md`
 
-## This run completed — Game #018 Round C + Phase 3
-- Completed equal-format Round-C proofs for LOCAL TIME, ONE MORE CHAIR and AFTERIMAGE DELIVERY: six-case demos, hour-5 loops, content/production targets, dominant-strategy defenses, store/trailer hooks, current saturation checks, portfolio distinction and fatal kill gates.
-- Fresh September 2026 market check confirmed current time-puzzle examples such as Causal Loop and Timefract primarily market rewind/clone/timeline manipulation; LOCAL TIME's spatial public time-zones and no-retrocausality model remain materially distinct.
-- ONE MORE CHAIR remains charming/cheap but was killed for Game #018 because tiny chair-slot action spaces and content exhaustion remain structural risks.
-- AFTERIMAGE DELIVERY remains coherent but was killed because generic route/path search stays too central and weakens store-category distinction.
-- Selected exactly one winner: LOCAL TIME.
-- Locked Phase 3 in `GAME18_PRODUCT_THESIS.md`: current local-time predicates vs irreversible process milestones, no rewind/retrocausality, deterministic Resolve loop, scope ceilings, demo promise, fairness, preview boundaries, presentation, Deck/controller baseline and explicit exclusions.
+## This run completed — Game #018 Phase 4
+- Added canonical `GAME18_MECHANICS.md` on `main`.
+- Defined exact finite `CaseState`, `SiteState`, `ObjectState` and `ClockZone` contracts.
+- Locked socketed placement, visible footprint and overlap semantics: overlap is allowed visually but relevant sites never receive ambiguous local time unless an explicit public multi-label coupled predicate opts in.
+- Locked clock labels as semantic discrete values, not elapsed time; no implicit before/after arithmetic.
+- Reduced content logic to bounded CURRENT, ADVANCE_ONCE, ORDERED_CHAIN, PERMANENT_LOCKOUT, ACCEPT, DISPATCH, CARRIER_HANDOFF and COUPLED_CURRENT grammar.
+- Defined canonical atomic Resolve ordering with Snapshot0, hazard precedence, simultaneous commits, default no same-beat multi-hop cascades and deterministic carrier handoffs.
+- Separated placement-move and Resolve-beat budgets; repeated Resolve cannot accumulate hidden progress.
+- Defined objective, hard-failure and solver-certified dead-state semantics.
+- Defined puzzle undo/checkpoint/replay semantics without fictional rewind or state contamination.
+- Added invariants, validator obligations, human-causal-proof metadata and anti-enumeration gates.
+- Mechanically simulated LT01–LT06 and repaired ambiguities in LT04 carrier timing, overlap, hazard precedence and current-only completion.
 - No production implementation started.
 
-## NEXT ACTION — GAME #018 PHASE 4 / MECHANICAL ARCHITECTURE
-Read all active Game #018 authority, especially `GAME18_PRODUCT_THESIS.md`.
+## NEXT ACTION — GAME #018 PHASE 5 / CONTENT ARCHITECTURE
+Read all active Game #018 authority, especially `GAME18_MECHANICS.md`.
 
-Perform one substantial mechanical-architecture increment and save canonical `GAME18_MECHANICS.md`. At minimum define:
-1. exact CaseState, SiteState, ObjectState and ClockZone schemas;
-2. legal socketed clock placement and visible footprint/overlap semantics;
-3. discrete time-label semantics with no continuous elapsed-time ambiguity;
-4. small exact process-transition grammar covering current predicates, one-shot milestones, ordered chains, permanent hazards/lockouts, accept/dispatch and carriers/handoffs;
-5. canonical Resolve ordering including simultaneous current-condition snapshot vs state transitions;
-6. move/placement/Resolve beat accounting;
-7. objectives, constraints, win/fail and exhaustive dead-state certification;
-8. checkpoint/restart/undo/replay semantics without information/state contamination;
-9. difficulty knobs and hard ceilings consistent with <=3 clocks, <=8 relevant sites and roughly 8–10 reusable process families;
-10. state invariants and authored-case validator obligations;
-11. exact mechanical simulations of LT01–LT06, repairing any contradiction found;
-12. anti-enumeration/human-proof authoring gates without hiding public information.
+Perform one substantial content-architecture increment and save canonical `GAME18_CONTENT.md`. At minimum define:
+1. <=10 reusable semantic process/content families mapped exactly to Phase-4 grammar;
+2. chapter/dependency ladder from tutorial through synthesis;
+3. target 36 campaign + 12 optional mastery cases, plus an explicit quality floor/cut rule so filler is never required;
+4. authored-case schema/template and required human-proof/validator metadata;
+5. case-family matrix showing how rules recombine rather than proliferate;
+6. reuse/variation rules and anti-repetition gates;
+7. bounded town/site/object/carrier art-content kit;
+8. representative early, mid and late case proofs using only canonical mechanics;
+9. mastery content boundaries and rules for reserving/cutting cases;
+10. expansion boundary: new content may recombine frozen grammar but must not silently add time travel, continuous timers, hidden schedules or bespoke exceptions.
 
-Do not introduce time travel, rewind, continuous timers, hidden schedules, free physics placement, runner-up mechanics or production implementation. Fresh web research is not required unless an external technical/product assumption becomes material.
+If Phase 5 is short and cleanly resolves, continue into Phase 6 UX/presentation in the same run only if all new decisions can be saved recoverably.
+
+Fresh web research is not required unless an external content/product assumption becomes material.
 
 ## Blockers
 **NONE for factory continuation.** Games #006–#017 have pending migrations but remain frozen non-active archives.
 
-DESIGN COMPLETE = NO (current active Game #018; Phase 4 next).
+DESIGN COMPLETE = NO (current active Game #018; Phase 5 next).
