@@ -16,7 +16,7 @@ Branch: `main`
 Game #018 is the only active design slot. Games #001–#017 are exclusion/portfolio history only. Frozen archives #006–#017 are NON-ACTIVE and must not leak canon into #018. Round-C runners-up ONE MORE CHAIR and AFTERIMAGE DELIVERY are killed for this slot and are not backup canon.
 
 ## Current phase
-**Game #018 — PHASE 7 COMMERCIAL MODEL COMPLETE / PHASE 8 TECHNICAL SPECIFICATION NEXT.**
+**Game #018 — PHASE 8 TECHNICAL SPECIFICATION COMPLETE / PHASE 9 WHOLE-GAME SIMULATION NEXT.**
 
 ## Active authority for Game #018
 1. `START_HERE.md`
@@ -29,41 +29,44 @@ Game #018 is the only active design slot. Games #001–#017 are exclusion/portfo
 8. `GAME18_CONTENT.md`
 9. `GAME18_UX.md`
 10. `GAME18_COMMERCIAL.md`
+11. `GAME18_TECH_SPEC.md`
 
-## Completed through Phase 6
-Phases 1–6 complete: opportunity discovery, tournament selection, product thesis, deterministic mechanical architecture, content architecture and UX/presentation architecture.
+## Completed through Phase 7
+Phases 1–7 complete: opportunity discovery, tournament selection, product thesis, deterministic mechanical architecture, content architecture, UX/presentation architecture and commercial model.
 
-## This run completed — Game #018 Phase 7
-- Added canonical `GAME18_COMMERCIAL.md` on `main`.
-- Fresh Steam research anchored current high-quality systemic puzzle references around $19.99, while LOCAL TIME's smaller diorama case count supports a lower entry point.
-- Locked **$14.99 USD launch MSRP**, with $14.99–19.99 pre-release review band; $19.99 requires materially stronger validated scope/presentation.
-- Reframed content from quota to quality gate: **30–36 campaign**, **8 mastery baseline + 4 reserve**; cut repetition rather than fill counts.
-- Locked first-completion target 6–8h, with 5–7h acceptable for a stronger 30-case floor package.
-- Locked free **LT01–LT06 / 25–35 minute** demo and idempotent compatible demo-to-full progress carryover.
-- Fresh Steamworks check confirms one Next Fest participation per title; October 2026 registration is already closed. Later Fest chosen only when polished demo/store/controller/save path is ready.
-- Locked Steam-first Windows baseline, controller/Deck target, Cloud, achievements, offline puzzle play and localization-ready architecture.
-- Defined 18–24 achievement target, localization quality boundary, conservative launch discount boundary and replay/mastery without grind/live-service systems.
-- Recorded commercial empirical gates and risks.
+## This run completed — Game #018 Phase 8
+- Added canonical `GAME18_TECH_SPEC.md` on `main`.
+- Fresh engine research: Godot 4.7 is supported; 4.7.2 stable released 2026-08-18 while 4.8 remains development. Locked Godot 4.7.x stable/GDScript as baseline direction, with puzzle authority isolated from engine presentation.
+- Defined hard Domain/Core, Content, Presentation/Application and Platform boundaries.
+- Mapped Phase-4 state and Phase-5 authored schema into stable-ID `CaseDefinition`, `RunState`, and `ProfileState` contracts.
+- Defined deterministic Resolve API, normalized serialization, stable state hashing, structured localizable reason traces and iteration-order invariance.
+- Defined exact solver as a consumer of the production core, plus content-validator obligations and human-proof boundary.
+- Locked versioned atomic saves, last-known-good recovery, definition compatibility and pure schema migrations.
+- Locked monotonic/idempotent demo-to-full import that cannot overwrite newer full-game progress.
+- Defined Steam Cloud divergence handling: preserve both valid candidates, no silent timestamp winner, safe union only for tested monotonic profile fields, whole-checkpoint choice for divergent in-progress state.
+- Defined device-independent input actions, controller/Deck navigation, 1280x800 display target, localization boundaries and animation-vs-logic separation.
+- Defined LT01–LT06 golden tests, property/invariant tests, corruption/import/cloud fixtures and fake-platform tests.
+- Defined implementation order T0–T9 and technical acceptance criteria for the later dedicated repository.
 - No production implementation started.
 
-## NEXT ACTION — GAME #018 PHASE 8 / TECHNICAL IMPLEMENTATION SPECIFICATION
-Read all active Game #018 authority, especially `GAME18_MECHANICS.md`, `GAME18_UX.md`, and `GAME18_COMMERCIAL.md`.
+## NEXT ACTION — GAME #018 PHASE 9 / WHOLE-GAME SIMULATION
+Read all active Game #018 authority, especially `GAME18_MECHANICS.md`, `GAME18_CONTENT.md`, `GAME18_UX.md`, `GAME18_COMMERCIAL.md`, and `GAME18_TECH_SPEC.md`.
 
-Perform one substantial Phase-8 increment and save canonical `GAME18_TECH_SPEC.md`. At minimum define:
-1. engine/runtime direction, using fresh current research if engine version/support facts matter;
-2. exact canonical data-model mapping from Phase 4 and authored-case schema;
-3. deterministic Resolve core, solver/validator separation, state hashing and reason-trace contract;
-4. persistence, atomic saves, schema/version migration and idempotent demo-to-full import;
-5. Steam Cloud conflict/recovery policy without silent progress loss;
-6. input abstraction for mouse/keyboard/controller/Deck and target-display assumptions;
-7. localization pipeline/readiness and text-vs-art boundaries;
-8. performance assumptions and animation-vs-logic separation;
-9. golden LT01–LT06 tests, property/invariant tests, solver/content-validation hooks and corruption/recovery tests;
-10. implementation order and technical acceptance criteria for later dedicated repository.
+Perform one substantial end-to-end paper simulation and save canonical `GAME18_SIMULATION.md`. At minimum walk:
+1. first boot/settings and LT01–LT06 in exact player order;
+2. representative Cases 07–36 across all six chapters, checking proof-shape escalation rather than merely family count;
+3. campaign completion and 8 mastery baseline + 4 reserve decision;
+4. quit/load/restart/undo/replay and animation skip/crash boundaries;
+5. demo-to-full import, repeated import and older-demo/newer-full conflict;
+6. Steam offline/cloud divergence/corrupt latest checkpoint recovery;
+7. mouse/controller/Steam Deck navigation/readability;
+8. hostile behavior: Resolve spam, socket scanning, broad-warning scanning, undo abuse and deliberate budget waste;
+9. contradictions among current/persistent predicates, carrier arrival/acceptance, hazards, coupled conditions and save checkpoints;
+10. whether 30–36 campaign cases still plausibly sustain distinct human proof shapes.
 
-If Phase 8 resolves cleanly, Phase 9 Whole-game Simulation is next. Do not start production implementation.
+Repair contradictions canonically rather than handwave. If Phase 9 resolves cleanly, Phase 10 Adversarial Review is next. Do not start production implementation.
 
 ## Blockers
 **NONE for factory continuation.** Games #006–#017 have pending migrations but remain frozen non-active archives.
 
-DESIGN COMPLETE = NO (current active Game #018; Phase 8 next).
+DESIGN COMPLETE = NO (current active Game #018; Phase 9 next).
