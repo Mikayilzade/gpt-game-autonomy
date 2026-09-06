@@ -13,10 +13,10 @@ Branch: `game18-phase4-mechanics` (recoverable active branch; main synchronizati
 - Production implementation inside factory: **NO**
 
 ## Continuity / active canon
-Game #018 is the only active design slot. Games #001–#017 are exclusion/portfolio history only. Frozen archives #006–#017 are NON-ACTIVE. Round-C runners-up remain killed for this slot.
+Game #018 is the only active design slot. Games #001–#017 are exclusion/portfolio history only. Frozen archives #006–#017 are NON-ACTIVE.
 
 ## Current phase
-**Game #018 — PHASE 8 TECHNICAL SPECIFICATION COMPLETE / PHASE 9 WHOLE-GAME SIMULATION NEXT.**
+**Game #018 — PHASE 9 WHOLE-GAME SIMULATION COMPLETE / PHASE 10 ADVERSARIAL REVIEW NEXT.**
 
 ## Active authority for Game #018
 1. `START_HERE.md`
@@ -30,47 +30,49 @@ Game #018 is the only active design slot. Games #001–#017 are exclusion/portfo
 9. `GAME18_UX.md`
 10. `GAME18_COMMERCIAL.md`
 11. `GAME18_TECH_SPEC.md`
+12. `GAME18_WHOLE_GAME_SIM.md`
 
-## This run completed — Game #018 Phase 8
-- Created canonical `GAME18_TECH_SPEC.md` after reading the complete active authority chain.
-- Fresh technical research checked 2026-09-06: Godot official release/archive policy and Steamworks Cloud/demo/Deck documentation.
-- Selected Godot 4.7.x stable / GDScript-first as recommended implementation direction; 4.7.2 is current stable while 4.8 is development, with implementation-time revalidation required.
-- Separated canonical mutable authority, derived state and presentation state so rendering/animation/physics cannot alter puzzle outcomes.
-- Defined versioned non-executable schemas for cases, sockets, footprints, clocks, sites, objects, carriers, rule instances and objectives.
-- Translated the Phase-4 Resolve order into an exact deterministic implementation contract.
-- Defined canonical structural state identity/hashing and symmetry restrictions.
-- Defined validator + exhaustive solver using the same authoritative transition kernel, with exact DEAD certification rules.
-- Defined structured reason events and replay as non-authoritative presentation.
-- Defined semantic input abstraction and controller focus graph with automated no-trap checks.
-- Defined versioned atomic/recoverable profile saves, backup recovery and explicit migration fixtures.
-- Defined monotonic/idempotent demo->full import that cannot downgrade stronger full-game progress.
-- Defined conservative Steam Cloud policy: machine-local graphics separated; Auto-Cloud preferred initially; divergent active checkpoints preserved rather than silently merged; all public promises require real Steam build validation.
-- Defined localization/font/layout contracts and pseudolocalization/CJK QA.
-- Defined Deck/performance targets as validation gates rather than promises.
-- Defined kernel property tests, LT01–LT06 golden cases, save/cloud fixtures and UI automation.
-- Defined data-driven authoring/validator workflow and future 12A–12H implementation dependency order.
+## This run completed — Game #018 Phase 9
+- Added `GAME18_WHOLE_GAME_SIM.md` with a complete hostile paper simulation.
+- Walked first boot, accessibility, LT01–LT06, demo-to-full transition and representative Cases 09, 18, 24, 30, 34 and 36.
+- Confirmed no-placement Resolve remains legal when a later process/carrier/accept boundary requires it.
+- Added a content/validator gate against repeated unchanged-layout Resolve trivializing ordered processes.
+- Clarified persistence: save the canonical post-Resolve active state after every successful Resolve and retain the pre-Resolve Undo Turn checkpoint separately.
+- Clarified Deck/localization layout: essential state remains visible at 1280x800; long detail prose may open in a non-destructive overlay.
+- Clarified reason trace: collapsed view may summarize, but expanded view must expose every authoritative event.
+- Strengthened anti-enumeration with a causal-cut requirement from Case 12; Chapter 4+ normally needs two independent causal cuts.
+- Re-evaluated content count: 36 campaign remains a quality-gated target; mastery baseline is now 8, with M09–M12 reserve slots only if each proves distinct causal value.
+- Hour-5 identity survives on paper only if the stronger causal-cut and repetition gates are enforced.
 - No production implementation started.
 
-## NEXT ACTION — GAME #018 PHASE 9 / WHOLE-GAME SIMULATION ON PAPER
-Read all active Game #018 authority, especially `GAME18_MECHANICS.md`, `GAME18_CONTENT.md`, `GAME18_UX.md`, `GAME18_COMMERCIAL.md`, and `GAME18_TECH_SPEC.md`.
+## Phase-9 amendments
+A1. Repeated unchanged-layout Resolve may not create multiple strategically useful consecutive process milestones after tutorials unless another public interaction makes the repeated boundary meaningful.
+A2. Post-Resolve active state and pre-Resolve Undo Turn checkpoint are separate persistence records.
+A3. Long rule text may expand in an overlay; clock labels, footprint/conflict, objectives and NOW/DONE/LOCKED OUT remain directly visible.
+A4. Full reason trace contains every authoritative event.
+A5. Mastery baseline = 8; M09–M12 are reserve.
+A6. Case 12+ requires a public causal cut; Chapter 4+ normally requires two.
 
-Create canonical `GAME18_WHOLE_GAME_SIM.md`. Perform one substantial end-to-end hostile paper simulation, not a summary. At minimum:
-1. first boot/accessibility and LT01–LT06 demo minute-by-minute enough to expose teaching contradictions;
-2. transition from demo to full game and Case 07 progression;
-3. representative full-game walks through Cases 09, 18, 24, 30, 34 and 36 using only frozen grammar;
-4. mastery/replay/efficiency loop and whether it remains optional rather than grind;
-5. planning/Resolve interruption, Undo Placement, Undo Turn, Restart, quit/load and replay semantics;
-6. controller-only and 1280x800 Deck navigation/readability path;
-7. localization/pseudolocalization stress on rule cards/reason trace/objectives;
-8. demo->full import, clean install, existing full progress, repeated import, corrupted save, offline/cloud and two-device divergence;
-9. hostile player behavior: socket scanning, intentional illegal conflicts, repeated Resolve/no-op attempts, brute force, animation skipping, save manipulation expectations;
-10. explicitly test whether hour-5 play is still causal reasoning rather than raw socket enumeration;
-11. re-evaluate the 36+12 target against Phase-5/7 quality gates; do not preserve counts for quota;
-12. maintain a defect/contradiction ledger with severity, authority source and minimal repair. Any authority change must be explicit; do not silently rewrite earlier design.
+## NEXT ACTION — GAME #018 PHASE 10 / ADVERSARIAL REVIEW
+Read the complete active authority chain including `GAME18_WHOLE_GAME_SIM.md`.
 
-End with exact targets for Phase 10 Adversarial Review. Do not start production implementation.
+Create `GAME18_ADVERSARIAL_REVIEW.md`. Perform a destructive review across:
+1. proof-shape duplication for Cases 07–36 and M01–M08 plus reserve M09–M12;
+2. socket enumeration, branching, symmetry-only solutions and proof-based pruning;
+3. repeated Resolve/no-op and unchanged-layout farming;
+4. a structural definition of materially different winning routes;
+5. late-game depth within <=3 clocks and <=8 sites;
+6. NOW/DONE/LOCKED OUT, carrier-arrival, final-CURRENT and no-placement-Resolve clarity;
+7. controller/Deck, max text, pseudolocalization, non-color cues and animation skip;
+8. save/checkpoint separation, corruption, demo import, unsupported future schema, offline and two-device divergence;
+9. reason-trace completeness;
+10. final content count: 36 vs 30 campaign and 8 vs reserve mastery;
+11. remaining implementation ambiguity;
+12. at least two alternative Case-36 proof structures, rejecting any that simply repeat Case 24/34.
+
+End with a freeze-readiness verdict and exact Phase-11 requirements. Do not begin production implementation.
 
 ## Blockers
-**NONE for factory continuation.** Main-branch synchronization remains pending/flaky; Phase 4–8 authority is recoverably retained on `game18-phase4-mechanics`. Do not treat older main state as newer canon.
+**NONE for factory continuation.** Main-branch synchronization remains pending/flaky; Phase 4–9 authority is recoverably retained on `game18-phase4-mechanics`.
 
-DESIGN COMPLETE = NO (current active Game #018; Phase 9 next).
+DESIGN COMPLETE = NO (current active Game #018; Phase 10 next).
