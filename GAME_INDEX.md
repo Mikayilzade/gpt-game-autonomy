@@ -21,22 +21,13 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 015 | **FRESH COAT** | DESIGN COMPLETE / migration pending / non-active archive | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | `GAME15_FINAL_FREEZE.md`. |
 | 016 | **ONE-WAY WORKSHOP** | DESIGN COMPLETE / migration pending / non-active archive | `Mikayilzade/one-way-workshop` *(not found 2026-09-03)* | NOT STARTED | `GAME16_FINAL_FREEZE.md`. |
 | 017 | **THE QUEUE KNOWS** | DESIGN COMPLETE / migration pending / non-active archive | `Mikayilzade/the-queue-knows` *(not found 2026-09-06)* | NOT STARTED | `GAME17_FINAL_FREEZE.md`. |
-| 018 | **LOCAL TIME** | **IN DESIGN / Phase 10 adversarial review complete; Phase 11 freeze next** | TBD | NOT STARTED | Adversarial pass locked proof-shape portfolio, route-diversity semantics, no-op farming defense, 36/30 campaign sizing and 8+4 reserve mastery. |
+| 018 | **LOCAL TIME** | **DESIGN COMPLETE / migration pending / non-active archive** | `Mikayilzade/local-time` *(not found 2026-09-06)* | NOT STARTED | `GAME18_FINAL_FREEZE.md`; 36 target/30 floor campaign, M01–M08 baseline mastery, M09–M12 reserve. |
+| 019 | **TBD — clean-slate discovery** | **IN DESIGN / Phase 1 opportunity discovery next** | TBD | NOT STARTED | No Game #018 mechanics/content are active canon. |
 
-## Active Game #018 boundary
-Game #018 is the only active design slot. Games #001–#017 are portfolio/exclusion history only. Frozen safety archives #006–#017 remain NON-ACTIVE and do not supply canon.
+## Active Game #019 boundary
+Game #019 is the only active design slot. Games #001–#018 are portfolio/exclusion history only. Frozen safety archives #006–#018 remain NON-ACTIVE and do not supply canon.
 
-Phase 1: `GAME18_RESEARCH.md`.
-Phase 2: `GAME18_TOURNAMENT.md`.
-Phase 3: `GAME18_PRODUCT_THESIS.md`.
-Phase 4: `GAME18_MECHANICS.md`.
-Phase 5: `GAME18_CONTENT.md`.
-Phase 6: `GAME18_UX.md`.
-Phase 7: `GAME18_COMMERCIAL.md`.
-Phase 8: `GAME18_TECH_SPEC.md`.
-Phase 9: `GAME18_WHOLE_GAME_SIM.md`.
-Phase 10: `GAME18_ADVERSARIAL_REVIEW.md`.
-Round-C runners-up are killed for this slot and are not backup canon.
+Game #018 retained archive files include `GAME18_RESEARCH.md`, `GAME18_TOURNAMENT.md`, `GAME18_PRODUCT_THESIS.md`, `GAME18_MECHANICS.md`, `GAME18_CONTENT.md`, `GAME18_UX.md`, `GAME18_COMMERCIAL.md`, `GAME18_TECH_SPEC.md`, `GAME18_WHOLE_GAME_SIM.md`, `GAME18_ADVERSARIAL_REVIEW.md`, and `GAME18_FINAL_FREEZE.md`. They exist only for pending migration/integrity and portfolio exclusion.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory cycle.
