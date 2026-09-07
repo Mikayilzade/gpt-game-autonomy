@@ -22,7 +22,7 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 016 | **ONE-WAY WORKSHOP** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/one-way-workshop` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME16_FINAL_FREEZE.md`; 24-case deterministic byproduct-as-tool fabrication puzzle. |
 | 017 | **THE QUEUE KNOWS** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/the-queue-knows` *(not found 2026-09-06)* | NOT STARTED | Final authority `GAME17_FINAL_FREEZE.md`; deterministic diagnostic queue-choice puzzle; dedicated repository unavailable at freeze. |
 | 018 | **LOCAL TIME** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/local-time` *(not found 2026-09-07)* | NOT STARTED | Final authority `GAME18_FINAL_FREEZE.md`; 30 campaign + 8 mastery quality floor; 36 + 12 conditional ceiling. |
-| 019 | **TIDE TABLE** *(working title)* | **IN DESIGN / Phase 2 complete / Phase 3 next** | TBD | NOT STARTED | Won equal destructive tournament; B Counterweight Office runner-up; product thesis not yet frozen. |
+| 019 | **TIDE TABLE** *(working title)* | **IN DESIGN / Phase 3 product thesis locked / Phase 4 next** | TBD | NOT STARTED | Global discrete tide + cargo-induced draft changes; transfers edit future alignment geometry. |
 
 ## Active Game #019 boundary
 Game #019 is the only active design slot. Games #001–#018 are portfolio/exclusion history only. Frozen safety archives #006–#018 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #019.
