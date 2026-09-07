@@ -20,13 +20,12 @@ This file tracks games produced by the reusable design factory. Dedicated reposi
 | 014 | **Negative Casting** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/negative-casting` *(not found 2026-09-02)* | NOT STARTED | Final authority `GAME14_FINAL_FREEZE.md`. |
 | 015 | **FRESH COAT** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/fresh-coat` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME15_FINAL_FREEZE.md`. |
 | 016 | **ONE-WAY WORKSHOP** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/one-way-workshop` *(not found 2026-09-03)* | NOT STARTED | Final authority `GAME16_FINAL_FREEZE.md`; 24-case deterministic byproduct-as-tool fabrication puzzle. |
-| 017 | **THE QUEUE KNOWS** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/the-queue-knows` *(not found 2026-09-06)* | NOT STARTED | Final authority `GAME17_FINAL_FREEZE.md`; deterministic diagnostic queue-choice puzzle; dedicated repository unavailable at freeze. |
-| 018 | **LOCAL TIME** *(working title)* | **IN DESIGN / Phase 10 adversarial review complete; Phase 11 freeze next** | TBD | NOT STARTED | Spatial local-time causal puzzle. 30 campaign + 8 mastery quality floor; 36 + 12 conditional ceiling. P9/P10 finite-state, anti-repetition and anti-oracle repairs locked. |
+| 017 | **THE QUEUE KNOWS** *(working title)* | DESIGN COMPLETE / migration pending / retained non-active safety archive | `Mikayilzade/the-queue-knows` *(not found 2026-09-06)* | NOT STARTED | Final authority `GAME17_FINAL_FREEZE.md`; deterministic diagnostic queue-choice puzzle; dedicated repository unavailable at freeze. |
+| 018 | **LOCAL TIME** *(working title)* | **DESIGN COMPLETE / migration pending / retained non-active safety archive** | `Mikayilzade/local-time` *(not found 2026-09-07)* | NOT STARTED | Final authority `GAME18_FINAL_FREEZE.md`; 30 campaign + 8 mastery quality floor; 36 + 12 conditional ceiling. |
+| 019 | **TBD** | **IN DESIGN / Phase 1 opportunity discovery next** | TBD | NOT STARTED | Clean-slate slot; no Game #018 mechanics/content are active canon. |
 
-## Active Game #018 boundary
-Game #018 is the only active design slot. Games #001–#017 are portfolio/exclusion history only. Frozen safety archives #006–#017 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #018.
-
-Game #018 Phase 1 is canonical in `GAME18_RESEARCH.md`; Phase 2 in `GAME18_TOURNAMENT.md`; Phase 3 in `GAME18_PRODUCT_THESIS.md`; Phase 4 in `GAME18_MECHANICS.md`; Phase 5 in `GAME18_CONTENT.md`; Phase 6 in `GAME18_UX.md`; Phase 7 in `GAME18_COMMERCIAL.md`; Phase 8 in `GAME18_TECH_SPEC.md`; Phase 9 in `GAME18_SIMULATION.md`; Phase 10 in `GAME18_ADVERSARIAL.md`. Round-C runners-up are killed for this slot and are not backup canon.
+## Active Game #019 boundary
+Game #019 is the only active design slot. Games #001–#018 are portfolio/exclusion history only. Frozen safety archives #006–#018 remain NON-ACTIVE and must not supply mechanics, theme, title, content, or assumed product direction to #019.
 
 ## Frozen portfolio identities / exclusion summary
 - #001 Organism Cargo: constrained living-cargo/ecology post-commit cascades.
@@ -46,6 +45,7 @@ Game #018 Phase 1 is canonical in `GAME18_RESEARCH.md`; Phase 2 in `GAME18_TOURN
 - #015 FRESH COAT: self-obligated 3D workpieces used as temporary masks across at most two fixed spray passes and one rearrangement; exact persistent semantic face exposure histories culminating in unpack/reveal.
 - #016 ONE-WAY WORKSHOP: irreversible discrete fabrication cuts create two children; apparent waste becomes future jig/capability through bounded ancestry and guided witness relays.
 - #017 THE QUEUE KNOWS: deterministic service-hall diagnostic mechanism design; public interventions make queue choices evidence while congestion contaminates measurement.
+- #018 LOCAL TIME: spatially movable semantic local-time zones; current predicates versus persistent milestones, finite Resolve causality and deterministic carrier handoffs.
 
 ## Numbering rule
 Use the next unused sequential number for every new factory design cycle. If a future design is killed before migration, record it here as `KILLED` with a concise reason.
